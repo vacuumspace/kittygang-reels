@@ -77,3 +77,11 @@ https://claude.ai/artifact/TyH5jMemjRZmmnWQa9BD12 (board "Final cast · Kitty Ga
 - **Video build:** reusable Remotion scene kits (living room, chat app, camera app, map, case file, line-up, doorway); new props drawn when a story needs them and added to Playbook 6 (96 props + 6 sets now); animatic before animation; half-size preview renders; voices levelled, music auto-ducks, final around -14 LUFS; lip sync from loudness.
 - **QA before showing:** full-size frames at hook, every cut, twist, last frame; every voice audible and synced to caption; safe zones; banned list (torans, decorative circles, stamps, speaker dots, em dashes, app selling); characters face the speaker, max 3 per shot.
 - **Learn:** log views, watch time, saves, shares, comments, WhatsApp forwards per reel; after 4 to 5 reels keep winning formats/characters and update this playbook; test real women's voices on at least one reel.
+
+## 8. Script quality bar (2026-10-22, after the first autopilot reel was too loose)
+
+- **Shape, 18-25 s, ~50 words:** 0-2 s hook in mid-action (spoken line + visual joke) · 2-6 s setup (one main character with a want) · 6-17 s three escalating beats, each a line + comeback · 17-21 s twist that flips who wins · 21-24 s button that mirrors the opening, flipped, then freeze.
+- **Lines of 7 words or less, max 3 talking characters, a laugh or surprise every 5 s, one shot per line or comeback pair, no shot over 4 s.**
+- **Scorecard (1-5 each):** hook, relatable, conflict, escalation, laughs, twist, ending, tight, character, shareable. Under 40/50 is rewritten, never rendered.
+- **Pace and sound:** voices about 20% faster than their base setting, 0.12 s between lines, music clearly audible (about -15 LUFS between lines, ducked under speech).
+- **Automatic QA before posting:** length 15-32 s, pace >= 2.3 words/s, no shot over 4.5 s, scorecard >= 40, loudness -18 to -10 LUFS, music audible. Fails are marked needs-fix and never posted.

@@ -18,10 +18,20 @@ workflow turns it into a finished video and posts it automatically (one post a d
    Each idea: { added, idea (one line premise), format, source, score 1-10 (relatable + shareable + fits our gang), used: "" }.
 3. Pick the highest-scoring unused idea. Rotate formats and lead characters (do not repeat the same format or lead
    character two reels in a row unless LEARNINGS says it wins).
-4. Write the script using the Playbook 7 beat sheet: hook (0-2 s, a situation every woman knows, ≤ 6 words) · setup ·
-   escalation x3 (each beat sillier, each with a comeback) · turn (twist) · button (callback or deadpan). Write 3 punchlines
-   for the turn and keep the best. Be specific (times, rupees, flat numbers, real snacks). 15-35 s total
-   (about 2.5 words a second). Kind humour only. No app mention, no selling. No em dashes anywhere.
+4. Write the script. Shape (18-25 s, about 50 words, lines of 7 words or less, a laugh or surprise every 5 s):
+   - 0-2 s HOOK: start in the middle of the action with a spoken line AND a visual joke together (never a soft question).
+   - 2-6 s SETUP: what the main character wants, in one line. One main character with a want; max 3 talking characters.
+   - 6-17 s ESCALATION: 3 quick beats, each a line plus a comeback, each sillier than the last.
+   - 17-21 s TWIST: the situation flips who wins.
+   - 21-24 s BUTTON: a reaction shot that MIRRORS THE OPENING flipped (same image or line, opposite meaning), then freeze.
+   Write 3 endings, keep the strongest. Be specific (times, rupees, flat numbers, real snacks). No app mention.
+   One shot per line or comeback pair, no shot over 4 s. Kind humour only. No em dashes anywhere.
+   SELF-REVIEW (mandatory): score the script 1-5 on hook, relatable, conflict, escalation, laughs, twist, ending, tight,
+   character, shareable. Put it in the draft as "review": {..., "total": N, "notes": "..."}. Below 40/50: rewrite and
+   re-score (up to 3 times). Be strict: a 5 means a stranger would laugh out loud and tag a friend.
+   The render runs automatic QA (length, pace, shot length, loudness, scorecard); a failing reel is marked needs-fix and not posted.
+   Start of every run: open the storyboard image (board_url) of the last 2 reels in tracker.json, and if a reel is needs-fix,
+   read its qa list and write the fixed version (new id) before anything else.
 5. Write `autopilot/drafts/<id>.json` following DRAFT-FORMAT.md exactly (valid JSON, Devanagari `say` for every Hindi line).
    Mark the idea as used with the reel id. Caption: one funny line + a share trigger ("Tag your Avika"), hashtags 5-8.
 6. On Mondays (IST) also update `autopilot/LEARNINGS.md`: compare reels by score, views, shares, saves; list what to do

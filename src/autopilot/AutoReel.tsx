@@ -17,9 +17,9 @@ export const AutoReel: React.FC<{ spec: Spec }> = ({ spec }) => {
   // music ducks under speech and drops out for lines marked silence
   const music = (f: number) => {
     const tt = f / FPS;
-    if (spec.lines.some((l) => l.silenceBefore && tt > l.start - 0.9 && tt < l.start)) return 0;
+    if (spec.lines.some((l) => l.silenceBefore && tt > l.start - 0.7 && tt < l.start)) return 0;
     const talking = spec.lines.some((l) => tt >= l.start - 0.1 && tt <= l.start + l.dur + 0.1);
-    return (talking ? 0.12 : 0.32) * Math.min(1, (spec.total - tt) / 1.2);
+    return (talking ? 0.3 : 0.55) * Math.min(1, (spec.total - tt) / 1.2);
   };
   return (
     <AbsoluteFill style={{ background: '#FFF4F7' }}>

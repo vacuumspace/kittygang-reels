@@ -9,6 +9,8 @@ const { execFileSync } = require('child_process');
 const ROOT = path.join(__dirname, '..', '..');
 const CAST = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'cast.json'), 'utf8'));
 const FPS = 30;
+// Pace: every voice a little faster than its base setting (comedy needs speed).
+const boost = (r) => { const m = String(r || '+0%').match(/^([+-]?\d+)/); const v = (m ? Number(m[1]) : 0) + (D.pace ?? 18); return (v >= 0 ? '+' : '') + v + '%'; };
 const draftFile = process.argv[2];
 const D = JSON.parse(fs.readFileSync(draftFile, 'utf8'));
 const OUT = path.join(ROOT, 'public', 'autopilot', D.id);
@@ -16,13 +18,13 @@ const TMP = path.join(OUT, '_tmp');
 fs.mkdirSync(TMP, { recursive: true });
 
 // Free Microsoft neural voices through the edge-tts Python tool (uvx edge-tts, or edge-tts on PATH in CI).
-const hz = (p) => { const m = String(p || '+0%').match(/^([+-]?d+)/); const v = m ? Math.round(Number(m[1]) * 1.5) : 0; return (v >= 0 ? '+' : '') + v + 'Hz'; };
+const hz = (p) => { const m = String(p || '+0%').match(/^([+-]?\d+)/); const v = m ? Math.round(Number(m[1]) * 1.5) : 0; return (v >= 0 ? '+' : '') + v + 'Hz'; };
 async function speak(voice, text, rate, pitch, file) {
   const mp3 = path.join(TMP, 'audio.mp3');
   const cmd = process.env.EDGE_TTS_BIN ? [process.env.EDGE_TTS_BIN] : ['uvx', 'edge-tts'];
   for (let tries = 0; ; tries++) {
     try {
-      execFileSync(cmd[0], [...cmd.slice(1), '--voice', voice, '--rate=' + (rate || '+0%'), '--pitch=' + hz(pitch), '--text', text, '--write-media', mp3], { stdio: 'ignore' });
+      execFileSync(cmd[0], [...cmd.slice(1), '--voice', voice, '--rate=' + boost(rate), '--pitch=' + hz(pitch), '--text', text, '--write-media', mp3], { stdio: 'ignore' });
       break;
     } catch (e) { if (tries >= 3) throw e; await new Promise((r) => setTimeout(r, 3000 * (tries + 1))); }
   }
@@ -49,9 +51,9 @@ function envelope(file) {
     const shot = { ...s, start: t };
     delete shot.lines; delete shot.sfx;
     if (si > 0) sfx.push({ at: t, name: 'whip', vol: 0.25 });
-    let lt = t + (s.lead ?? 0.25);
+    let lt = t + (s.lead ?? 0.1);
     for (const L of s.lines || []) {
-      if (L.silenceBefore) { lt += 0.9; sfx.push({ at: lt - 0.8, name: 'cricket', vol: 0.5 }); }
+      if (L.silenceBefore) { lt += 0.7; sfx.push({ at: lt - 0.8, name: 'cricket', vol: 0.5 }); }
       const file = String(n++).padStart(2, '0') + '.wav', dest = path.join(OUT, file);
       const text = L.say || L.text;
       if (L.who === 'ALL') {
@@ -68,10 +70,10 @@ function envelope(file) {
       const d = dur(dest);
       lines.push({ id: 'l' + n, who: L.who, text: L.text, file, start: +lt.toFixed(2), dur: +d.toFixed(2), env: envelope(dest), punch: !!L.punch, silenceBefore: !!L.silenceBefore });
       if (L.punch) sfx.push({ at: lt, name: 'pop', vol: 0.35 });
-      lt += d + (L.gap ?? 0.35);
+      lt += d + (L.gap ?? 0.12);
       console.log(L.who.padEnd(7), d.toFixed(2), L.text);
     }
-    const end = (s.lines?.length ? lt - 0.35 + (s.hold ?? 0.6) : t + (s.dur ?? 2));
+    const end = (s.lines?.length ? lt - (s.lines[s.lines.length - 1].gap ?? 0.12) + (s.hold ?? 0.3) : t + (s.dur ?? 1.5));
     shot.end = +end.toFixed(2);
     for (const st of s.stickers || []) sfx.push({ at: t + (st.at || 0.3), name: 'pop', vol: 0.3 });
     if (s.kit === 'phone') (s.chat || []).forEach((m, i) => sfx.push({ at: t + (m[4] ?? i * 0.9), name: 'ping', vol: 0.35 }));

@@ -3,13 +3,13 @@
 const fs = require('fs');
 const SR = 44100, TAU = Math.PI * 2;
 const [out, secs = '64'] = process.argv.slice(2);
-const BPM = 104, B = 60 / BPM, N = Math.round(Number(secs) * SR);
+const BPM = 120, B = 60 / BPM, N = Math.round(Number(secs) * SR);
 const L = new Float32Array(N), R = new Float32Array(N);
 let seed = 5; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647) * 2 - 1;
 const midi = (m) => 440 * Math.pow(2, (m - 69) / 12);
 const add = (at, len, pan, fn) => { const s0 = Math.round(at * SR); for (let i = 0; i < len * SR && s0 + i < N; i++) { const v = fn(i / SR); L[s0 + i] += v * (1 - pan); R[s0 + i] += v * (1 + pan); } };
 const marimba = (at, m, a = 0.22, pan = 0.2) => { const f = midi(m); add(at, 0.9, pan, (t) => a * (Math.sin(TAU * f * t) + 0.25 * Math.sin(TAU * f * 4 * t) * Math.exp(-t * 30)) * Math.exp(-t * 6)); };
-const pizz = (at, m, a = 0.3) => { const f = midi(m); add(at, 0.5, -0.1, (t) => a * (Math.sin(TAU * f * t) + 0.35 * Math.sin(TAU * f * 2 * t)) * Math.exp(-t * 9) * Math.min(1, t * 400)); };
+const pizz = (at, m, a = 0.42) => { const f = midi(m); add(at, 0.5, -0.1, (t) => a * (Math.sin(TAU * f * t) + 0.35 * Math.sin(TAU * f * 2 * t)) * Math.exp(-t * 9) * Math.min(1, t * 400)); };
 const snap = (at, a = 0.25) => add(at, 0.06, 0.3, (t) => a * rnd() * Math.exp(-t * 90));
 const shaker = (at, a = 0.05) => add(at, 0.05, -0.3, (t) => a * rnd() * Math.sin((Math.PI * t) / 0.05));
 const kick = (at, a = 0.5) => add(at, 0.25, 0, (t) => a * Math.sin(TAU * (50 * t + 2.5 * (1 - Math.exp(-t * 25)))) * Math.exp(-t * 14));
@@ -22,7 +22,9 @@ for (let bar = 0; bar < bars; bar++) {
   pizz(t0, bass); pizz(t0 + 1.5 * B, bass + 7, 0.22); pizz(t0 + 2 * B, bass + 12, 0.2); pizz(t0 + 3 * B, bass + 7, 0.2);
   for (let k = 0; k < 8; k++) shaker(t0 + (k * B) / 2, k % 2 ? 0.035 : 0.05);
   snap(t0 + B); snap(t0 + 3 * B);
-  if (bar >= 2) { kick(t0); kick(t0 + 2 * B, 0.35); }
+  for (let k = 0; k < 4; k++) kick(t0 + k * B, k % 2 ? 0.45 : 0.6);
+  snap(t0 + B, 0.35); snap(t0 + 3 * B, 0.35);
+  for (let k = 0; k < 4; k++) pizz(t0 + k * B + B / 2, bass + 12, 0.14);
   ch.forEach((m, k) => marimba(t0 + 0.5 * B + k * 0.02, m, 0.06, -0.4));
   if (bar >= 1 && bar % 8 !== 7) for (const [beat, m] of hook.filter(([b]) => b >= (bar % 4) * 4 && b < (bar % 4) * 4 + 4)) marimba(t0 + (beat - (bar % 4) * 4) * B, m, 0.16);
 }

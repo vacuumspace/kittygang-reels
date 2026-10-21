@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const T = require('./tracker');
+const { qa } = require('./qa');
 
 const DRY = process.argv.includes('--dry');
 const ROOT = T.ROOT;
@@ -33,7 +34,12 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
       const board = `out/${D.id}-board.jpg`;
       execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...frames.flatMap((x) => ['-i', x]), '-filter_complex', frames.map((_, i) => `[${i}]`).join('') + `hstack=${frames.length}`, board], { cwd: ROOT });
       rec.duration = spec.total;
-      if (DRY) { rec.status = 'rendered'; console.log('dry run: rendered only'); }
+      rec.review = D.review;
+      const q0 = qa(D, spec, path.join(ROOT, mp4));
+      rec.qa = q0.checks.filter((c) => !c.ok).map((c) => c.name + ' (' + c.detail + ')');
+      if (!q0.pass) { rec.status = 'needs-fix'; console.log('QA FAILED, not queued:', rec.qa.join('; ')); }
+      if (rec.status === 'needs-fix') { if (!DRY) rec.board_url = T.r2put(path.join(ROOT, board), 'reels/autopilot/' + D.id + '-board.jpg', 'image/jpeg'); }
+      else if (DRY) { rec.status = 'rendered'; console.log('dry run: rendered only'); }
       else {
         rec.video_url = T.r2put(path.join(ROOT, mp4), `reels/autopilot/${D.id}.mp4`, 'video/mp4');
         rec.cover_url = T.r2put(path.join(ROOT, `out/${D.id}-cover.jpg`), `reels/autopilot/${D.id}-cover.jpg`, 'image/jpeg');
