@@ -14,7 +14,7 @@
         "Myra"
       ],
       "caption": "Hosting se bachna hai? Bas potluck bol do. Tag your kitty group",
-      "status": "queued",
+      "status": "failed",
       "idea": "Nobody wants to host the next kitty; the new girl says yes, then makes it a potluck, and suddenly everyone wants to host.",
       "beats": "hook: hands-up vote, every hand drops / esc: painting, Dubai, mentally / turn: Myra hosts, potluck / button: every hand shoots up",
       "script": [
@@ -109,7 +109,8 @@
       "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-a-cover.jpg",
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-a-board.jpg",
       "queue_id": "66ab32fa-41d9-40ad-b583-413462eb260c",
-      "scheduled_ist": "2026-10-22 20:50"
+      "scheduled_ist": "2026-10-22 20:50",
+      "error": "replaced by v2 (Haath upar)"
     }
   ],
   "ideas": []
