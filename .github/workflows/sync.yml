@@ -1,0 +1,31 @@
+name: Sync stats and trends
+
+on:
+  schedule:
+    - cron: '30 3 * * *'    # 09:00 IST, before the first writing run
+    - cron: '30 9 * * *'    # 15:00 IST, before the second
+    - cron: '30 18 * * *'   # 00:00 IST, after the day's post
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --omit=dev
+      - env:
+          AGENT_KEY: ${{ secrets.AGENT_KEY }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: node scripts/autopilot/sync-data.js
+      - run: |
+          git config user.name "kittygang-bot"
+          git config user.email "bot@kittyparty.club"
+          git add autopilot/data autopilot/tracker.json
+          git diff --cached --quiet || (git commit -m "sync: stats and trends" && git pull --rebase && git push)
