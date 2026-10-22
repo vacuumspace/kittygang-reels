@@ -1,6 +1,8 @@
 # Reel draft format (autopilot/drafts/<id>.json)
 
 One JSON file per reel. The render workflow voices it, animates it, uploads it and books its posting slot.
+**Best example to copy: `autopilot/drafts/KG-2026-10-22-c.json` (Diwali safai wali Housie): dressed sets, props, flow,
+room tone, cover.** Use the `scene` kit for almost every shot; the older kits are only for phone chats, camera apps, maps.
 `id`: `KG-YYYY-MM-DD-a` (first reel of the day) or `-b`. Never reuse an id.
 
 ```json
@@ -21,20 +23,39 @@ One JSON file per reel. The render workflow voices it, animates it, uploads it a
 ```
 
 ## Shot fields
-- `kit` (required): `hook` | `solo` | `duo` | `room` | `phone` | `camera` | `map` | `door` | `card`
+- `kit` (required): `scene` (default) | `phone` | `camera` | `map` | `hook` | `solo` | `duo` | `room` | `door` | `card`
 - `lines`: spoken lines in order. The shot lasts as long as its lines (+ `hold`, default 0.6 s). No lines: set `dur` (seconds).
   - `who`: Tanya, Ruhi, Shruti, Myra, Tina, Megha, Avika, Ishita, Zoya, Aditi, or `ALL` (chorus)
   - `text`: Hinglish in Roman script = the on-screen caption (max ~60 characters)
-  - `say`: the same line in Devanagari for the voice (required for everyone except Tina and Zoya, who read `text`)
-  - `punch: true` on the punchline (zoom punch + pop), `silenceBefore: true` for a comic pause (cricket), `gap` seconds after the line (default 0.35), `beat`: hook/setup/escalation/turn/button
+  - `say`: the same line in Devanagari for the voice (required for everyone except Zoya, who reads `text`)
+  - `punch: true` on the punchline (zoom punch + pop), `silenceBefore: true` for a comic pause (cricket), `gap` seconds after the line (default 0.12; 0.03-0.05 for quick overlapping replies), `beat`: hook/setup/escalation/turn/button
 - `hook`: ["line 1", "line 2"] big text banner (first shot only, ≤ 6 words a line, simple Hindi/Hinglish, no jargon). Captions are hidden while a hook shows.
 - `chip`: short label pill (e.g. "attempt 9", "pink #3")
-- `stickers`: [{ "kind": "sweat|spark|question|exclaim|heart|bulb|car|plane|palace|home", "x": 820, "y": 420, "at": 0.3, "s": 1 }] (x 0-1080, y 0-1920; keep y between 380 and 1300)
+- `stickers`: [{ "kind": "sweat|spark|question|exclaim|heart|bulb|bolt|car|plane|palace|home", "x": 820, "y": 420, "at": 0.3, "s": 1 }] (x 0-1080, y 0-1920; keep y between 380 and 1300)
 - `props`: [{ "name": "Samosa plate", "x": 300, "y": 1650, "s": 2 }] (x,y = where the prop's base sits)
 - `clock`: { "h": 4, "m": 30 } small wall clock top right
-- `camera`: "still" to stop the slow push-in
-- `sfx`: [{ "at": 0.1, "name": "doorbell", "vol": 0.5 }] seconds after the shot starts. Names: whoosh, whip, pop, cricket, shutter, ping, scratch, sting, boing, slurp, thud, heartbeat, calc, doorbell, creak, clap, chimes, sparkle, impact, riser, ballpop, tick, flatline, rip, slap, swish, crowd
+- `camera`: "still" to stop the slow push-in, "punch" / "push" for energy
+- `music`: false on a shot to cut the party music (e.g. before a reveal; the villain riff or thunder carries it)
+- `sfx`: [{ "at": 0.1, "name": "doorbell", "vol": 0.5 }] seconds after the shot starts. Names: whoosh, whip, pop, cricket, shutter, ping, scratch, sting, boing, slurp, thud, heartbeat, calc, doorbell, creak, clap, chimes, thunder, villain, sitar, gasp, cage (Housie balls tumbling), ballpop, swish, sparkle, crowd, rip, riser, tick, sparkle, impact, riser, ballpop, tick, flatline, rip, slap, swish, crowd
   (Automatic already: whip on every cut, pop on stickers and punchlines, ping on chat messages, shutter on camera flash, whoosh on hooks, cricket on silenceBefore.)
+
+## Top-level extras
+- `ambience`: { "name": "crowd", "vol": 0.1 } soft party chatter under the whole reel (use it for every party scene).
+- `pace`: voice speed boost in % (default 18; 24 for snappy comedy).
+
+## The scene kit (dressed sets; use for almost every shot)
+`{ "kit": "scene", "set": "living" | "entrance" | "camera", "banner": "DIWALI HOUSIE", "front": true, "night": true, "flash": true, "focus": [540, 910], "chars": [...] }`
+- `living`: Tanya's living room (window, frames, sofa, lamp, plant, rug, wooden floor). `banner` adds a theme film-strip banner,
+  `front: true` adds the snack table in the foreground. Sofa seats: y 1330, s 1.25. Standing: y 1700-1760, s 1.9-2.3.
+- `entrance`: inside the front door (B-204 plate, shoe rack, doorbell). Guest in the doorway: x 790, y 1460, s 2.15; host in
+  front: x 290, y 1800, s 2.0. `night: true` makes the doorway dark (villain entry).
+- `camera`: a real phone camera screen around the living room; `flash` true, `focus` [x,y] draws the yellow focus box.
+- `chars`: each { name, x, y (feet), s (scale), pose, eyes, mouth, turn, prop, look, from, moveAt, moveDur, twirl, hop }.
+  Max 3 per shot. `look`: chandni | geet | basanti | gabbar (costumes). `from`: [x, y] walks her in from there over `moveDur` s
+  (starting at `moveAt`). `twirl`: true spins her once.
+- `props` here also accept story props: Clapboard, Popcorn, Horse stick, Mocktail tray, Lightning, Ladder, Jhaadu, Duster,
+  Bucket, Clothes pile, Cobweb, and "Ball 7" / "Ball 45" (a Housie ball with that number). Props take `rot` and `at` (pops in).
+- `chip` with `chipY` (e.g. 1560 low, 600 high): the mute-proof label, e.g. "7 = PANKHA SAAF".
 
 ## Kits
 - `solo`: `char` {name, pose, eyes, mouth, turn, ...outfit colours}. One friend on her own colour card.
