@@ -615,7 +615,8 @@
           "text": "Bathroom!",
           "say": "बाथरूम!",
           "punch": true,
-          "gap": 0.08
+          "gap": 0.08,
+          "beat": "twist"
         }
       ],
       "hold": 0.35
@@ -694,6 +695,11 @@
           "at": 0.3,
           "name": "slurp",
           "vol": 0.4
+        },
+        {
+          "at": 2.3,
+          "name": "waah",
+          "vol": 0.45
         }
       ],
       "lines": [
@@ -701,8 +707,8 @@
           "who": "Tanya",
           "text": "Ghar chamak gaya. Full House!",
           "say": "घर चमक गया। फ़ुल हाउस!",
-          "punch": true,
-          "beat": "button"
+          "punch": false,
+          "beat": "turn"
         }
       ],
       "hold": 0.15
@@ -755,7 +761,8 @@
           "text": "Nahi, mere ghar!",
           "say": "नहीं, मेरे घर!",
           "punch": true,
-          "gap": 0.04
+          "gap": 0.04,
+          "beat": "button"
         }
       ],
       "hold": 0.7

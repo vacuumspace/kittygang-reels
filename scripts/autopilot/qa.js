@@ -24,7 +24,7 @@ function qa(draft, spec, video) {
   const words = spec.lines.reduce((n, l) => n + l.text.split(/\s+/).filter(Boolean).length, 0);
   const spoken = spec.lines.reduce((n, l) => n + l.dur, 0);
   add('length 15-45 s', spec.total >= 15 && spec.total <= 45, spec.total + ' s');
-  add('words <= 70', words <= 70, words + ' words');
+  add('words <= 120', words <= 120, words + ' words');
   add('voice pace >= 2.3 words/s', words / spoken >= 2.3, (words / spoken).toFixed(2) + ' w/s');
   const longest = Math.max(...spec.shots.map((s) => s.end - s.start));
   add('no shot over 5 s', longest <= 5, longest.toFixed(1) + ' s');

@@ -14,7 +14,8 @@ function wav(name, L, R = L) {
   const g = pk ? 0.9 / pk : 1, n = L.length, b = Buffer.alloc(44 + n * 4);
   b.write('RIFF', 0); b.writeUInt32LE(36 + n * 4, 4); b.write('WAVEfmt ', 8); b.writeUInt32LE(16, 16); b.writeUInt16LE(1, 20); b.writeUInt16LE(2, 22);
   b.writeUInt32LE(SR, 24); b.writeUInt32LE(SR * 4, 28); b.writeUInt16LE(4, 32); b.writeUInt16LE(16, 34); b.write('data', 36); b.writeUInt32LE(n * 4, 40);
-  for (let i = 0; i < n; i++) { b.writeInt16LE(Math.round(L[i] * g * 32767), 44 + i * 4); b.writeInt16LE(Math.round(R[i] * g * 32767), 46 + i * 4); }
+  const q = (v) => Math.max(-32767, Math.min(32767, Math.round(v * g * 32767)));
+  for (let i = 0; i < n; i++) { b.writeInt16LE(q(L[i]), 44 + i * 4); b.writeInt16LE(q(R[i]), 46 + i * 4); }
   fs.writeFileSync(path.join(OUT, name + '.wav'), b);
 }
 // cricket: two little chirp groups
@@ -73,3 +74,21 @@ console.log('comedy sfx done:', fs.readdirSync(OUT).length, 'files');
 
 // cage: Housie balls tumbling in the cage
 { const A = buf(1.1); for (let k = 0; k < 22; k++) { const at = k * 0.045 + (rnd() + 1) * 0.01, f = bp(1800 + (rnd() + 1) * 1400, 3); add(A, at, 0.05, (t) => f(rnd()) * Math.exp(-t * 90) * (0.5 + 0.5 * Math.sin((Math.PI * k) / 22))); } wav('cage', A); }
+// ---- comedy accents (round 2) ----
+// tabla: "dha-dhin" sting, the Indian comic punch (bayan bass bend + dayan ring)
+{ const A = buf(1.2); for (const [at, g] of [[0, 1], [0.16, 0.8]]) { const b = sine(95), d1 = sine(520), d2 = sine(1040), d3 = sine(1560); add(A, at, 0.9, (t) => b(t, 95 - 35 * Math.min(1, t * 6)) * Math.exp(-t * 6) * 0.9 * g + (d1(t) + 0.5 * d2(t) + 0.25 * d3(t)) * Math.exp(-t * 9) * 0.35 * g); const f = bp(3000, 1.5); add(A, at, 0.03, (t) => f(rnd()) * Math.exp(-t * 150) * 0.5 * g); } wav('tabla', A); }
+// boom: deep reveal hit
+{ const A = buf(1.6), o = sine(62), f = bp(400, 0.8); add(A, 0, 1.5, (t) => o(t, 62 - 26 * Math.min(1, t * 2)) * Math.exp(-t * 2.6) * 1.0); add(A, 0, 0.08, (t) => f(rnd()) * Math.exp(-t * 60) * 0.6); wav('boom', A); }
+// rimshot: ba-dum-tss
+{ const A = buf(1.4); for (const [at, fc] of [[0, 180], [0.14, 140]]) { const o = sine(fc); add(A, at, 0.2, (t) => o(t, fc * (1 - t)) * Math.exp(-t * 22) * 0.9); } const s = bp(2200, 0.9); add(A, 0.32, 0.12, (t) => s(rnd()) * Math.exp(-t * 35) * 0.8); const c = bp(7000, 0.6); add(A, 0.33, 1.0, (t) => c(rnd()) * Math.exp(-t * 3.5) * 0.45); wav('rimshot', A); }
+// slide whistle up / down
+{ const A = buf(0.75), o = sine(400); add(A, 0, 0.7, (t) => o(t, 420 + 1300 * (t / 0.7) + 25 * Math.sin(t * 40)) * Math.min(1, t * 20) * Math.min(1, (0.7 - t) * 12) * 0.6); wav('slideup', A); }
+{ const A = buf(0.9), o = sine(1600); add(A, 0, 0.85, (t) => o(t, 1650 - 1250 * (t / 0.85) + 25 * Math.sin(t * 40)) * Math.min(1, t * 20) * Math.min(1, (0.85 - t) * 10) * 0.6); wav('slidedown', A); }
+// ding: idea bell
+{ const A = buf(1.8); for (const [f, g] of [[1318, 1], [2637, 0.4], [3951, 0.2]]) { const o = sine(f); add(A, 0, 1.7, (t) => o(t) * Math.exp(-t * (2.5 + f / 2000)) * 0.5 * g); } wav('ding', A); }
+// drip: sweat drop
+{ const A = buf(0.3), o = sine(600); add(A, 0, 0.12, (t) => o(t, 600 + 9000 * t) * Math.exp(-t * 30) * 0.8); wav('drip', A); }
+// zip: quick pop-in
+{ const A = buf(0.25), f = bp(1000, 2); add(A, 0, 0.18, (t) => f(rnd(), 900 + 30000 * t) * Math.min(1, t * 60) * Math.exp(-t * 14) * 1.2); wav('zip', A); }
+// footsteps: four soft steps
+{ const A = buf(1.2); for (let k = 0; k < 4; k++) { const f = bp(140, 1.2); add(A, k * 0.26, 0.12, (t) => f(rnd()) * Math.exp(-t * 40) * 1.4); } wav('footsteps', A); }

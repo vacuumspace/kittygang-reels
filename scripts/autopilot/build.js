@@ -52,12 +52,13 @@ function envelope(file) {
 
 (async () => {
   // the first frame is the reel's first shot (Instagram picks covers from it), so no lead-in
-  let t = 0, n = 0;
+  let t = 0, n = 0, punchN = 0;
   const lines = [], shots = [], sfx = [];
   for (const [si, s] of D.shots.entries()) {
     const shot = { ...s, start: t };
     delete shot.lines; delete shot.sfx;
-    if (si > 0) sfx.push({ at: t, name: 'whip', vol: 0.25 });
+    // cuts: vary the transition sound so it never feels like the same whoosh on repeat
+    if (si > 0) sfx.push({ at: t, name: ['whip', 'swish', 'whoosh'][si % 3], vol: 0.2 });
     let lt = t + (s.lead ?? 0.1);
     for (const L of s.lines || []) {
       if (L.silenceBefore) { lt += 0.7; sfx.push({ at: lt - 0.8, name: 'cricket', vol: 0.5 }); }
@@ -76,13 +77,22 @@ function envelope(file) {
       }
       const d = dur(dest);
       lines.push({ id: 'l' + n, who: L.who, text: L.text, file, start: +lt.toFixed(2), dur: +d.toFixed(2), env: envelope(dest), punch: !!L.punch, silenceBefore: !!L.silenceBefore });
-      if (L.punch) sfx.push({ at: lt, name: 'pop', vol: 0.35 });
+      // punchlines: a hit on the line, then the room reacts (twist: boom + "Ohho!", button: tabla, others: a quick gasp)
+      if (L.punch) {
+        if (L.beat === 'twist') { sfx.push({ at: lt, name: 'boom', vol: 0.45 }); sfx.push({ at: lt + d + 0.05, name: 'ohho', vol: 0.45 }); }
+        else if (L.beat === 'button') sfx.push({ at: lt + d + 0.05, name: 'tabla', vol: 0.55 });
+        else { sfx.push({ at: lt, name: 'pop', vol: 0.3 }); sfx.push({ at: lt + d + 0.02, name: punchN++ % 2 ? 'haaye' : 'haww', vol: 0.35 }); }
+      }
       lt += d + (L.gap ?? 0.12);
       console.log(L.who.padEnd(7), d.toFixed(2), L.text);
     }
     const end = (s.lines?.length ? lt - (s.lines[s.lines.length - 1].gap ?? 0.12) + (s.hold ?? 0.3) : t + (s.dur ?? 1.5));
     shot.end = +end.toFixed(2);
-    for (const st of s.stickers || []) sfx.push({ at: t + (st.at || 0.3), name: 'pop', vol: 0.3 });
+    const STICK = { sweat: 'drip', question: 'slideup', exclaim: 'sting', bulb: 'ding', spark: 'sparkle', heart: 'pop', bolt: 'pop' };
+    for (const st of s.stickers || []) sfx.push({ at: t + (st.at || 0.3), name: STICK[st.kind] || 'pop', vol: 0.3 });
+    for (const p of s.props || []) if (p.at != null) sfx.push({ at: t + p.at, name: 'zip', vol: 0.3 });
+    for (const c of s.chars || []) if (c.from) sfx.push({ at: t + (c.moveAt || 0), name: 'footsteps', vol: 0.35 });
+    if (s.chip) sfx.push({ at: t + 0.2, name: 'pop', vol: 0.25 });
     if (s.kit === 'phone') (s.chat || []).forEach((m, i) => sfx.push({ at: t + (m[4] ?? i * 0.9), name: 'ping', vol: 0.35 }));
     if (s.kit === 'camera' && s.flash) sfx.push({ at: t + 0.6, name: 'shutter', vol: 0.55 });
     if (s.hook) sfx.push({ at: t + 0.05, name: 'whoosh', vol: 0.4 });
