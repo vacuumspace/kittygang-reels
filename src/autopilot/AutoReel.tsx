@@ -18,6 +18,8 @@ export const AutoReel: React.FC<{ spec: Spec }> = ({ spec }) => {
   const music = (f: number) => {
     const tt = f / FPS;
     if (spec.lines.some((l) => l.silenceBefore && tt > l.start - 0.7 && tt < l.start)) return 0;
+    // a shot can switch the party music off (e.g. the villain entry plays its own riff)
+    if (spec.shots.some((s) => s.music === false && tt >= s.start && tt < s.end)) return 0;
     const talking = spec.lines.some((l) => tt >= l.start - 0.1 && tt <= l.start + l.dur + 0.1);
     return (talking ? 0.3 : 0.55) * Math.min(1, (spec.total - tt) / 1.2);
   };

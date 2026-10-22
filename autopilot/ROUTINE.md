@@ -24,10 +24,22 @@ workflow turns it into a finished video and posts it automatically (one post a d
    - 6-17 s ESCALATION: 3 quick beats, each a line plus a comeback, each sillier than the last.
    - 17-21 s TWIST: the situation flips who wins.
    - 21-24 s BUTTON: a reaction shot that MIRRORS THE OPENING flipped (same image or line, opposite meaning), then freeze.
+   CLARITY FIRST (a reel nobody understands gets zero shares, however good it looks):
+   - Logline test: write the story as one sentence a stranger gets ("Tanya can't find a host; everyone dodges; the
+     lucky draw has her name on every chit"). If it needs "because" twice, the idea is too complicated.
+   - Base reality in 2 s: where we are and the one question of the reel. Pin that question on screen as a `chip`
+     (e.g. "NEXT HOST: ?") for the whole reel so a muted viewer always knows what is at stake.
+   - One protagonist with one want, in nearly every shot; others react to her. Max 4 characters in the whole reel.
+   - One game (the repeating funny pattern, UCB): name it in the draft ("game": "every excuse gets busted"), then
+     play it 3 times, ordinary, ordinary, absurd. Every beat must serve that game; cut side jokes.
+   - Twist = a SEE-IT reveal (a chit, a screen, a person in the door), never a fact the viewer must reason out.
+   - Mute test: list what a viewer understands from pictures and captions alone at each beat ("mute": [...]).
+     Any beat that reads "confused" is rewritten.
+   - Button: a callback to the opening (same line or image, flipped) so the end loops into the start.
    Write 3 endings, keep the strongest. Be specific (times, rupees, flat numbers, real snacks). No app mention.
    One shot per line or comeback pair, no shot over 4 s. Kind humour only. No em dashes anywhere.
-   SELF-REVIEW (mandatory): score the script 1-5 on hook, relatable, conflict, escalation, laughs, twist, ending, tight,
-   character, shareable. Put it in the draft as "review": {..., "total": N, "notes": "..."}. Below 40/50: rewrite and
+   SELF-REVIEW (mandatory): score the script 1-5 on clarity (must be 5), hook, relatable, conflict, escalation, laughs, twist, ending, tight,
+   character, shareable. Put it in the draft as "review": {..., "total": N, "notes": "..."}. Below 44/55 or clarity under 5: rewrite and
    re-score (up to 3 times). Be strict: a 5 means a stranger would laugh out loud and tag a friend.
    The render runs automatic QA (length, pace, shot length, loudness, scorecard); a failing reel is marked needs-fix and not posted.
    Start of every run: open the storyboard image (board_url) of the last 2 reels in tracker.json, and if a reel is needs-fix,

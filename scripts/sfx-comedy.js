@@ -60,3 +60,13 @@ function wav(name, L, R = L) {
 // quick whip (head turn)
 { const A = buf(0.3), f = bp(800, 1.5); add(A, 0, 0.25, (t) => f(rnd(), 600 + 5000 * (t / 0.25)) * Math.sin((Math.PI * t) / 0.25) ** 2); wav('whip', A); }
 console.log('comedy sfx done:', fs.readdirSync(OUT).length, 'files');
+// thunder: crack then a long low rumble
+{ const A = buf(2.6), f = bp(180, 0.8), g = bp(2400, 0.9); add(A, 0, 0.12, (t) => g(rnd()) * Math.exp(-t * 30)); add(A, 0.05, 2.5, (t) => f(rnd()) * 2.2 * (Math.exp(-t * 1.6) + 0.3 * Math.exp(-Math.pow(t - 0.6, 2) * 8)) * Math.min(1, t * 20)); wav('thunder', A); }
+// villain: slow, menacing two-note harmonica-style riff with a low drone (original, not a film theme)
+{ const A = buf(3.2); const reed = (f) => { const o1 = sine(f), o2 = sine(f * 2), o3 = sine(f * 3); return (t) => (o1(t) + 0.5 * o2(t) + 0.3 * o3(t)) * (1 + 0.15 * Math.sin(t * 34)); };
+  for (const [at, f, len] of [[0, 330, 0.7], [0.75, 311, 0.5], [1.3, 247, 1.6]]) { const r = reed(f); add(A, at, len, (t) => r(t) * Math.min(1, t * 8) * Math.min(1, (len - t) * 4) * 0.35); }
+  const d = sine(82); add(A, 0, 3.1, (t) => d(t) * 0.35 * Math.min(1, t * 2) * Math.min(1, (3.1 - t) * 2)); wav('villain', A); }
+// sitar: bright plucked rising arpeggio, the heroine-entry sting
+{ const A = buf(1.6); for (const [k, f] of [[0, 523], [1, 659], [2, 784], [3, 1047]]) { const o1 = sine(f), o2 = sine(f * 2.01), o3 = sine(f * 3.02); add(A, k * 0.09, 1.3, (t) => (o1(t) + 0.6 * o2(t) + 0.4 * o3(t)) * Math.exp(-t * 4) * 0.35 * (1 + 0.3 * Math.sin(t * 900))); } wav('sitar', A); }
+// gasp: quick breathy inhale
+{ const A = buf(0.5), f = bp(1400, 1.1); add(A, 0, 0.4, (t) => f(rnd()) * Math.sin((Math.PI * t) / 0.4) * 0.9); wav('gasp', A); }

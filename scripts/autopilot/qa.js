@@ -29,9 +29,11 @@ function qa(draft, spec, video) {
   const longest = Math.max(...spec.shots.map((s) => s.end - s.start));
   add('no shot over 4.5 s', longest <= 4.5, longest.toFixed(1) + ' s');
   const dead = spec.shots.reduce((m, s, i) => Math.max(m, s.start - (spec.shots[i - 1]?.end ?? 0)), 0);
-  add('script scorecard >= 40/50', (draft.review?.total ?? 0) >= 40, (draft.review?.total ?? 'missing') + '/50');
+  add('script scorecard >= 44/55', (draft.review?.total ?? 0) >= 44, (draft.review?.total ?? 'missing') + '/55');
+  add('clarity scored 5 with logline and mute test', draft.review?.clarity === 5 && !!draft.logline && Array.isArray(draft.mute), 'clarity ' + (draft.review?.clarity ?? 'missing'));
   add('has a hook in the first shot', !!(draft.shots[0]?.hook || draft.shots[0]?.lines?.length), '');
   add('has a punchline', spec.lines.some((l) => l.punch), '');
+  if (video) add('video file exists', fs.existsSync(video), video);
   if (video && fs.existsSync(video)) {
     const all = measure(video);
     add('overall loudness -18 to -10 LUFS', all >= -18 && all <= -10, all + ' LUFS');

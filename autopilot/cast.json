@@ -1,23 +1,89 @@
 {
-  "note": "Every voice reads Devanagari (say) except script:en voices, which read the Hinglish text. Hindi Swara, Marathi Aarohi and Nepali Hemkala all read Devanagari.",
+  "note": "Every voice reads Devanagari (say) except script:en voices, which read the Hinglish text. Hindi Swara, Marathi Aarohi and Nepali Hemkala all read Devanagari. Tash was renamed Tina (2026-10-22): same look, Hindi voice.",
   "voices": {
-    "Tanya":  { "voice": "hi-IN-SwaraNeural",  "rate": "+12%", "pitch": "+8%" },
-    "Ruhi":   { "voice": "mr-IN-AarohiNeural", "rate": "+2%",  "pitch": "-4%" },
-    "Shruti": { "voice": "hi-IN-SwaraNeural",  "rate": "-12%", "pitch": "-14%" },
-    "Tash":   { "voice": "en-IN-NeerjaExpressiveNeural", "rate": "-8%", "pitch": "-6%", "script": "en" },
-    "Megha":  { "voice": "ne-NP-HemkalaNeural", "rate": "+18%", "pitch": "+6%" },
-    "Zoya":   { "voice": "en-IN-NeerjaNeural", "rate": "+8%",  "pitch": "+14%", "script": "en" },
-    "Myra":   { "voice": "ne-NP-HemkalaNeural", "rate": "+0%",  "pitch": "+14%" },
-    "Aditi":  { "voice": "mr-IN-AarohiNeural", "rate": "-18%", "pitch": "-14%" },
-    "Avika":  { "voice": "hi-IN-SwaraNeural",  "rate": "+24%", "pitch": "+2%" },
-    "Ishita": { "voice": "mr-IN-AarohiNeural", "rate": "-4%",  "pitch": "-8%" }
+    "Tanya": {
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+12%",
+      "pitch": "+8%"
+    },
+    "Ruhi": {
+      "voice": "mr-IN-AarohiNeural",
+      "rate": "+2%",
+      "pitch": "-4%"
+    },
+    "Shruti": {
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "-12%",
+      "pitch": "-14%"
+    },
+    "Tina": {
+      "voice": "mr-IN-AarohiNeural",
+      "rate": "-6%",
+      "pitch": "-18%"
+    },
+    "Megha": {
+      "voice": "ne-NP-HemkalaNeural",
+      "rate": "+18%",
+      "pitch": "+6%"
+    },
+    "Zoya": {
+      "voice": "en-IN-NeerjaNeural",
+      "rate": "+8%",
+      "pitch": "+14%",
+      "script": "en"
+    },
+    "Myra": {
+      "voice": "ne-NP-HemkalaNeural",
+      "rate": "+0%",
+      "pitch": "+14%"
+    },
+    "Aditi": {
+      "voice": "mr-IN-AarohiNeural",
+      "rate": "-18%",
+      "pitch": "-14%"
+    },
+    "Avika": {
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+24%",
+      "pitch": "+2%"
+    },
+    "Ishita": {
+      "voice": "mr-IN-AarohiNeural",
+      "rate": "-4%",
+      "pitch": "-8%"
+    }
   },
   "chorus": [
-    { "voice": "hi-IN-SwaraNeural",  "rate": "+15%", "pitch": "+10%" },
-    { "voice": "mr-IN-AarohiNeural", "rate": "+15%", "pitch": "+0%" },
-    { "voice": "ne-NP-HemkalaNeural", "rate": "+15%", "pitch": "+6%" },
-    { "voice": "en-IN-NeerjaNeural", "rate": "+15%", "pitch": "+12%", "script": "en" },
-    { "voice": "hi-IN-SwaraNeural",  "rate": "+10%", "pitch": "-12%" },
-    { "voice": "mr-IN-AarohiNeural", "rate": "+10%", "pitch": "+8%" }
+    {
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+15%",
+      "pitch": "+10%"
+    },
+    {
+      "voice": "mr-IN-AarohiNeural",
+      "rate": "+15%",
+      "pitch": "+0%"
+    },
+    {
+      "voice": "ne-NP-HemkalaNeural",
+      "rate": "+15%",
+      "pitch": "+6%"
+    },
+    {
+      "voice": "en-IN-NeerjaNeural",
+      "rate": "+15%",
+      "pitch": "+12%",
+      "script": "en"
+    },
+    {
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+10%",
+      "pitch": "-12%"
+    },
+    {
+      "voice": "mr-IN-AarohiNeural",
+      "rate": "+10%",
+      "pitch": "+8%"
+    }
   ]
 }

@@ -69,3 +69,9 @@ One JSON file per reel. The render workflow voices it, animates it, uploads it a
 - Entrance and outside: Front door, Doorbell, Shoe rack, Lift doors, Balcony plants, Street lamp
 
 Need something that is not here? Use the nearest prop or a sticker, and add the wish to `autopilot/WISHLIST.md` so it gets drawn.
+
+## Clarity fields (required, QA fails without them)
+- `logline`: the whole story in one plain sentence a stranger understands.
+- `game`: the one repeating funny pattern, e.g. "every excuse gets busted".
+- `mute`: array, one entry per beat: what a viewer understands from pictures and captions alone.
+- `review.clarity`: must be 5. Total is out of 55 (11 scores).

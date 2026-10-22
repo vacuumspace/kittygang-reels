@@ -1,0 +1,670 @@
+{
+  "id": "KG-2026-10-22-b",
+  "title": "Bollywood theme",
+  "format": "Living-room sitcom, door entrances",
+  "idea": "Theme is Bollywood, everyone comes as a heroine, Tina comes as Gabbar and steals every photo.",
+  "logline": "Kitty theme is Bollywood, three friends arrive as heroines, Tina walks in as Gabbar and gets all the attention.",
+  "game": "everyone plays heroine, one friend goes off-theme and wins",
+  "mute": [
+    "WhatsApp: theme is Bollywood",
+    "heroine 1 at the door",
+    "heroine 2",
+    "heroine 3",
+    "one friend missing",
+    "a villain at the door",
+    "host shocked",
+    "villain takes over the party",
+    "every camera on the villain",
+    "villain wins Best Dressed"
+  ],
+  "beats": "hook: theme message / three heroine entrances / Tina missing / Gabbar at the door / villain walk / photo steal / button",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 4,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 49,
+    "notes": "Real kitty moment (theme day). Twist is visual (Gabbar in the doorway). Ending line is the takeaway people tag on."
+  },
+  "caption": "Har kitty mein ek Tina hoti hai. Theme kuch bhi ho.",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#bollywoodtheme",
+    "#kittypartytheme",
+    "#ladieskitty",
+    "#kittypartyfun"
+  ],
+  "shots": [
+    {
+      "kit": "phone",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chat": [
+        [
+          "Tanya",
+          "Kal ki kitty: theme BOLLYWOOD!",
+          0,
+          "9:02 PM",
+          0.05
+        ],
+        [
+          "Tanya",
+          "Sab heroine banke aana!",
+          0,
+          "9:02 PM",
+          0.6
+        ],
+        [
+          "Ruhi",
+          "Done! Chandni ready",
+          0,
+          "9:03 PM",
+          1
+        ],
+        [
+          "Myra",
+          "Basanti aa rahi hai!",
+          0,
+          "9:03 PM",
+          1.4
+        ],
+        [
+          "Tina",
+          "Darling... dekhte hain",
+          0,
+          "9:05 PM",
+          1.8
+        ]
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Theme Bollywood! Sab heroine banke aana!",
+          "say": "थीम बॉलीवुड! सब हीरोइन बनके आना!",
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.2,
+      "set": "living",
+      "banner": "BOLLYWOOD NIGHT"
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "look": "chandni",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "twirl": true,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mocktail tray",
+          "x": 430,
+          "y": 1515,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 980,
+          "y": 560,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.45
+        },
+        {
+          "at": 0.15,
+          "name": "sitar",
+          "vol": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Main Chandni!",
+          "say": "मैं चाँदनी!",
+          "beat": "setup"
+        }
+      ],
+      "lead": 0.5,
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chars": [
+        {
+          "name": "Shruti",
+          "look": "geet",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hips",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mocktail tray",
+          "x": 430,
+          "y": 1515,
+          "s": 1.6
+        },
+        {
+          "name": "Shopping bags",
+          "x": 935,
+          "y": 1460,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.4
+        },
+        {
+          "at": 0.15,
+          "name": "sitar",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Main apni favourite hoon!",
+          "say": "मैं अपनी फ़ेवरेट हूँ!",
+          "beat": "setup"
+        }
+      ],
+      "lead": 0.4,
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chars": [
+        {
+          "name": "Myra",
+          "look": "basanti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "wave",
+          "hop": true,
+          "mouth": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mocktail tray",
+          "x": 430,
+          "y": 1515,
+          "s": 1.6
+        },
+        {
+          "name": "Horse stick",
+          "x": 640,
+          "y": 1440,
+          "s": 2.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.4
+        },
+        {
+          "at": 0.15,
+          "name": "sitar",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Basanti naam hai mera!",
+          "say": "बसंती नाम है मेरा!",
+          "beat": "setup"
+        }
+      ],
+      "lead": 0.4,
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BOLLYWOOD NIGHT",
+      "front": true,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "look": "chandni",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "mouth": "laugh"
+        },
+        {
+          "name": "Myra",
+          "look": "basanti",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "mouth": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "eyes": "side"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Sab aa gaye... Tina kahaan hai?",
+          "say": "सब आ गए... टीना कहाँ है?",
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "night": true,
+      "music": false,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Tina",
+          "look": "gabbar",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mocktail tray",
+          "x": 430,
+          "y": 1515,
+          "s": 1.6,
+          "rot": 16,
+          "at": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bolt",
+          "x": 870,
+          "y": 360,
+          "at": 0.3
+        },
+        {
+          "kind": "sweat",
+          "x": 380,
+          "y": 1180,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.45
+        },
+        {
+          "at": 0.3,
+          "name": "thunder",
+          "vol": 0.8
+        },
+        {
+          "at": 0.5,
+          "name": "villain",
+          "vol": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Kitni heroine thi?",
+          "say": "कितनी हीरोइन थी?",
+          "beat": "twist"
+        }
+      ],
+      "lead": 1,
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BOLLYWOOD NIGHT",
+      "music": false,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.6,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mocktail tray",
+          "x": 760,
+          "y": 1440,
+          "s": 2,
+          "rot": 28
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 700,
+          "y": 900,
+          "s": 1.3,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "...Chaar.",
+          "say": "...चार।",
+          "silenceBefore": true,
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BOLLYWOOD NIGHT",
+      "front": true,
+      "music": false,
+      "chars": [
+        {
+          "name": "Myra",
+          "look": "basanti",
+          "x": 900,
+          "y": 1640,
+          "s": 1.6,
+          "turn": -0.6,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 760,
+          "y": 1680,
+          "s": 1.8,
+          "turn": -0.6,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tina",
+          "look": "gabbar",
+          "x": 320,
+          "y": 1800,
+          "s": 2.5,
+          "turn": 0.4,
+          "mouth": "smirk",
+          "eyes": "half",
+          "from": [
+            -150,
+            1800
+          ],
+          "moveDur": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "villain",
+          "vol": 0.6
+        },
+        {
+          "at": 0.4,
+          "name": "gasp",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Chaar heroine... aur villain sirf ek!",
+          "say": "चार हीरोइन... और विलेन सिर्फ़ एक!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "lead": 0.6,
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "banner": "BOLLYWOOD NIGHT",
+      "flash": true,
+      "focus": [
+        540,
+        910
+      ],
+      "chars": [
+        {
+          "name": "Ruhi",
+          "look": "chandni",
+          "x": 170,
+          "y": 1450,
+          "s": 1.3,
+          "eyes": "side",
+          "mouth": "flat"
+        },
+        {
+          "name": "Shruti",
+          "look": "geet",
+          "x": 910,
+          "y": 1450,
+          "s": 1.3,
+          "eyes": "side",
+          "mouth": "flat"
+        },
+        {
+          "name": "Tina",
+          "look": "gabbar",
+          "x": 540,
+          "y": 1500,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "laugh"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "shutter",
+          "vol": 0.4
+        },
+        {
+          "at": 1.3,
+          "name": "shutter",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Sab Tina ki photo le rahe hain?",
+          "say": "सब टीना की फ़ोटो ले रहे हैं?",
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BOLLYWOOD NIGHT",
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Tina",
+          "look": "gabbar",
+          "x": 540,
+          "y": 1760,
+          "s": 2.7,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Trophy",
+          "x": 870,
+          "y": 1500,
+          "s": 1.7,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "chimes",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, heroine sab bante hain.",
+          "say": "डार्लिंग, हीरोइन सब बनते हैं।",
+          "beat": "button"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BOLLYWOOD NIGHT",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tina",
+          "look": "gabbar",
+          "x": 540,
+          "y": 2350,
+          "s": 4.2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Trophy",
+          "x": 880,
+          "y": 1500,
+          "s": 2.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 820,
+          "y": 640,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "villain",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Yaad villain rehta hai.",
+          "say": "याद विलेन रहता है।",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.7
+    }
+  ]
+}
