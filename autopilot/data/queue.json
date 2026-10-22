@@ -1,5 +1,39 @@
 [
  {
+  "id": "1cbfb229-55e6-46b3-bfe8-8d6a0597a65a",
+  "local_id": "KG-2026-10-22-c",
+  "title": "Diwali safai wali Housie",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-c.mp4",
+  "caption": "Diwali se pehle har host ka secret plan. Aapki kitty mein kaun karti hai aisa?\n\n#kittyparty #diwalisafai #housie #tambola #ladieskitty #diwali",
+  "scheduled_for": 1792765140000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1792672223585,
+  "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-c-cover.jpg",
+  "kind": "reel",
+  "image_urls": null
+ },
+ {
+  "id": "ab921b7d-e2f5-4bda-8d78-38d2851d7016",
+  "local_id": "KGI-002",
+  "title": "Kitty Game Ideas #2: Newspaper Dance",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s1.jpg",
+  "caption": "Akhbaar chhota hota jaayega, masti badhti jaayegi! Agli kitty mein yeh khelo. Aapki jodi kitne round tiki?\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #newspaperdance",
+  "scheduled_for": 1792733100000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1792663407167,
+  "cover_url": null,
+  "kind": "carousel",
+  "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s9.jpg\"]"
+ },
+ {
   "id": "26b3d153-a824-4dc5-8dff-d9bf28dfbb06",
   "local_id": "KG-2026-10-22-a",
   "title": "Next kitty kiske ghar?",
@@ -12,7 +46,9 @@
   "permalink": null,
   "error": "replaced by v2 (Haath upar)",
   "created_at": 1792606319809,
-  "cover_url": null
+  "cover_url": null,
+  "kind": "reel",
+  "image_urls": null
  },
  {
   "id": "66ab32fa-41d9-40ad-b583-413462eb260c",
@@ -27,6 +63,42 @@
   "permalink": null,
   "error": "cancelled: replaced by Bollywood theme",
   "created_at": 1792607450723,
-  "cover_url": null
+  "cover_url": null,
+  "kind": "reel",
+  "image_urls": null
+ },
+ {
+  "id": "kg22bmanual",
+  "local_id": "KG-2026-10-22-b",
+  "title": "Bollywood theme",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-b.mp4",
+  "caption": "",
+  "scheduled_for": 1792671486410,
+  "status": "published",
+  "job_id": null,
+  "media_id": null,
+  "permalink": "https://www.instagram.com/reel/DeyMsNMIOlL/",
+  "error": null,
+  "created_at": 1792671486410,
+  "cover_url": null,
+  "kind": "reel",
+  "image_urls": null
+ },
+ {
+  "id": "kgi001manual",
+  "local_id": "KGI-001",
+  "title": "Kitty Game Ideas #1: Rubber Band Cup Tower",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-001/s1.jpg",
+  "caption": "",
+  "scheduled_for": 1792663326788,
+  "status": "published",
+  "job_id": null,
+  "media_id": null,
+  "permalink": "https://www.instagram.com/p/DeyqKnGDs4I/",
+  "error": null,
+  "created_at": 1792663326788,
+  "cover_url": null,
+  "kind": "carousel",
+  "image_urls": null
  }
 ]
