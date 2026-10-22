@@ -127,7 +127,8 @@
       "format": "Housie twist + festival",
       "source": "Trend: safai wali housie (this week) + Diwali",
       "score": 9,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -135,7 +136,8 @@
       "format": "Aunty character comedy",
       "source": "Trend: billi maasi / Pummy aunty personas",
       "score": 9,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -143,7 +145,8 @@
       "format": "Matching outfits",
       "source": "Trend: \"Same pinch aunty\" viral clip, Oct 2026",
       "score": 9,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -151,7 +154,8 @@
       "format": "Housie twist",
       "source": "Trend: \"played housie like this? notify neighbours\" (81 comments)",
       "score": 8,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -159,7 +163,8 @@
       "format": "Theme showcase comedy",
       "source": "Trend: The Nod, desi Bridgerton aunties; like our Bollywood reel",
       "score": 8,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -167,7 +172,8 @@
       "format": "One-minute game",
       "source": "Trend: one-minute game demos (Roop ki rani 646 likes) + ties to our carousel",
       "score": 8,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -175,7 +181,8 @@
       "format": "Festival scene",
       "source": "Trend: Karwa Chauth posts in kitty hashtags this week",
       "score": 8,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -183,7 +190,8 @@
       "format": "Theme showcase comedy",
       "source": "Trend: Gold & Silver card party (129 likes, 11 comments)",
       "score": 7,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
@@ -191,13 +199,123 @@
       "format": "Theme showcase comedy",
       "source": "Trend: twins kitty theme reels",
       "score": 7,
-      "used": ""
+      "used": "",
+      "type": "reel"
     },
     {
       "added": "2026-10-22",
       "idea": "\"That friend\" at Housie: one lady questions every number (\"Pakka 27 bola? 72 toh nahi?\"). End: she claims Full House... with numbers from a different game.",
       "format": "That friend / multi-persona",
       "source": "Trend: lightreel \"that friend\" scenarios",
+      "score": 7,
+      "used": "",
+      "type": "reel"
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Rubber Band Cup Tower",
+      "format": "Kitty Game Ideas carousel",
+      "source": "first games",
+      "score": 8,
+      "used": "KGI-001"
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Newspaper Dance",
+      "format": "Kitty Game Ideas carousel",
+      "source": "first games",
+      "score": 8,
+      "used": "KGI-002"
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Chopstick race: move 10 rajma / chana from one bowl to another with ice-cream sticks as chopsticks in 1 minute.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Blind bindi: blindfolded, stick a bindi on a face drawn on chart paper; closest to the centre wins.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Saas says: Simon-says, but every order starts with \"Saasu maa kehti hain\"; anyone who moves without it is out.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Dupatta knot relay: teams tie and untie dupatta knots down the line, fastest team wins.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Balloon between foreheads: pairs carry a balloon between their foreheads to the finish line, no hands.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Spoon lemon saree walk: classic lemon race, but everyone in a saree and walking backwards.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Mehendi pictionary: draw the word with a mehendi cone on paper, team guesses in 30 seconds.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Housie with a twist: every called number has a dare, the one who cuts it does the dare.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Ek minute makeup: blindfolded partner does your lipstick in one minute, group votes the best look.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "type": "game",
+      "idea": "Pass the parcel rhymes: when the music stops, finish the Bollywood line the host starts.",
+      "format": "Kitty Game Ideas carousel",
+      "source": "starter backlog",
       "score": 7,
       "used": ""
     }

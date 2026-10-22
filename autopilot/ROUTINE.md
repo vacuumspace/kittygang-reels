@@ -5,11 +5,13 @@ Goal: views, watch time, shares and saves on @kittyparty.app, fast. Each run you
 workflow turns it into a finished video and posts it automatically (one post a day; extra reels wait in the queue).
 
 ## Every run
+0. Check in with admin Misc > Agents: `curl -s -X POST https://kittyparty-messaging.rahul-89e.workers.dev/agent/status -H 'Content-Type: application/json' -d '{"id":"reel-writer","status":"running"}'`. If the reply has `"active":false` the Reel Writer is paused in admin: stop now and change nothing. If the run cannot finish (nothing pushed), report it the same way with `{"id":"reel-writer","status":"failed","error":"<one line why>"}`. A successful run is reported by the render workflow, so do nothing more on success.
 1. `git pull`. Read, in this order: `autopilot/PLAYBOOK.md` (rules, cast, formats, beat sheet), `autopilot/LEARNINGS.md`
    (what worked), `autopilot/DRAFT-FORMAT.md` (how to write the file), `autopilot/tracker.json` (every reel so far,
    its script and stats), `autopilot/data/our-posts.json` (all our posts with views, reach, saves, shares, score),
    `autopilot/data/trends.json` (top posts on kitty party hashtags), `autopilot/data/queue.json`.
-2. Ideas: keep `tracker.json` -> `ideas` topped up to at least 10 unused ideas. Sources, in this order:
+2. Ideas: the content bank is `tracker.json` -> `ideas` with `type: "reel"` (the daily researcher fills it from trending
+   content; game ideas have `type: "game"`, leave those). Pick from it; if fewer than 5 unused reel ideas remain, add your own. Sources, in this order:
    - Our own winners: what made our best posts work (topic, format, character, hook). Make more like them.
    - Comments and the hashtag posts in trends.json: real situations women joke about. Learn the PATTERN, never copy a post.
    - The calendar: festivals and days in the next 10 days (Karwa Chauth, Diwali, Bhai Dooj, Teej, New Year, monsoon, summer

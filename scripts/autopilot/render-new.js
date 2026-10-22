@@ -13,8 +13,10 @@ const run = (cmd, args) => execFileSync(cmd, args, { cwd: ROOT, stdio: 'inherit'
 const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0, 10);
 
 (async () => {
+  if (!DRY && !(await T.status('reel-render', 'running'))) return console.log('Reel Maker is paused in admin');
   const tr = T.load();
   const done = new Set(tr.reels.filter((r) => r.status !== 'failed').map((r) => r.id));
+  const made = [];
   const drafts = fs.readdirSync(path.join(ROOT, 'autopilot', 'drafts')).filter((f) => f.endsWith('.json')).sort();
   for (const f of drafts) {
     const D = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'drafts', f), 'utf8'));
@@ -55,6 +57,13 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
     }
     tr.reels = tr.reels.filter((r) => r.id !== rec.id).concat(rec);
     T.save(tr);
+    made.push(rec);
   }
   if (!DRY) console.log('tracker:', await T.publishTracker(tr));
-})().catch((e) => { console.error(e); process.exit(1); });
+  if (!DRY) {
+    const bad = made.filter((r) => r.status === 'failed' || r.status === 'needs-fix');
+    const ok = made.filter((r) => r.status === 'queued').map((r) => `"${r.title}" for ${r.scheduled_ist} IST`);
+    if (made.length) await T.status('reel-writer', 'ok', `Wrote ${made.map((r) => '"' + r.title + '"').join(', ')}`);
+    await T.status('reel-render', bad.length ? 'failed' : 'ok', ok.length ? `Queued ${ok.join(', ')}` : made.length ? null : 'No new reel scripts', bad.length ? bad.map((r) => `${r.id}: ${r.error || (r.qa || []).join('; ')}`).join(' | ') : undefined);
+  }
+})().catch(async (e) => { console.error(e); if (!DRY) await T.status('reel-render', 'failed', null, e.message); process.exit(1); });

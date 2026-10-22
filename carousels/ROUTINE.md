@@ -6,10 +6,11 @@ The GitHub workflow turns your draft into 9 slides in the locked template, publi
 www.kittyparty.club/kitty-game-ideas/<slug>, and posts the carousel on Instagram at a random slot.
 
 ## Every run
+0. Check in with admin Misc > Agents: `curl -s -X POST https://kittyparty-messaging.rahul-89e.workers.dev/agent/status -H 'Content-Type: application/json' -d '{"id":"carousel-writer","status":"running"}'`. If the reply has `"active":false` the Game Ideas Writer is paused in admin: stop now and change nothing. If the run cannot finish (nothing pushed), report it the same way with `{"id":"carousel-writer","status":"failed","error":"<one line why>"}`. A successful run is reported by the render workflow, so do nothing more on success.
 1. `git pull`. Read `carousels/DRAFT-FORMAT.md` (the file format and the drawing kit), `carousels/drafts/` (every game
    already made: never repeat a game or a near-copy), `autopilot/tracker.json` -> `carousels` (stats: which games got
-   saves and shares), and `carousels/IDEAS.md` (backlog).
-2. Pick the game. Priority: a strong backlog idea, a festival or season in the next 10 days (Karwa Chauth, Diwali,
+   saves and shares), and the content bank: `autopilot/tracker.json` -> `ideas` with `type: "game"` (filled daily by the researcher).
+2. Pick the game. Priority: the highest-scoring unused game idea in the bank, a festival or season in the next 10 days (Karwa Chauth, Diwali,
    Holi, Teej, monsoon, New Year, Valentine's, Women's Day), or a quick web search for "kitty party games" / "ladies
    party games" / "one minute games" this month. Learn the idea, then make it our own; never copy a creator's post.
    Good game = 1) real and playable, 2) one surprising or crazy twist (blindfold, no hands, saree rule, mother-in-law
@@ -24,5 +25,6 @@ www.kittyparty.club/kitty-game-ideas/<slug>, and posts the carousel on Instagram
    - web.intro answers "what is <game> and how do you play it" in the first 2 sentences. web.faq has 5 real questions
      people search ("How many players...", "What do you need...", "Is it good for..."), each answered in 1 to 3 lines.
    - No em dashes anywhere. No app mention in slides or caption.
-5. Add the idea to IDEAS.md as used, add 2 fresh ideas to the backlog, commit "game carousel KGI-NNN: <game>" and
-   `git push`. The push starts the render. Only touch files under `carousels/`.
+5. In the bank mark the idea `used: "KGI-NNN"` (or add it as used if it was your own), commit
+   "game carousel KGI-NNN: <game>" and `git push`. The push starts the render. Only touch files under `carousels/`
+   and the `ideas` list in `autopilot/tracker.json`.

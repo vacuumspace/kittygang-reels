@@ -28,12 +28,17 @@ function check(d, slides) {
 }
 
 (async () => {
+  if (!DRY && !(await T.status('carousel-render', 'running'))) return console.log('Carousel Maker is paused in admin');
   const tr = T.load();
   tr.carousels = tr.carousels || [];
+  const made = [];
   const done = new Set(tr.carousels.filter((c) => c.status !== 'failed').map((c) => c.id));
   const dir = path.join(ROOT, 'carousels', 'drafts');
   const drafts = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((d) => !done.has(d.id) && !d.skip);
-  if (!drafts.length) return console.log('no new carousel drafts');
+  if (!drafts.length) {
+    if (!DRY) await T.status('carousel-render', 'ok', null);
+    return console.log('no new carousel drafts');
+  }
   const serveUrl = await bundle({ entryPoint: path.join(ROOT, 'src', 'index.ts') });
   let index = [];
   try { const r = await fetch(PUBLIC + '/games/index.json?t=' + Date.now()); if (r.ok) index = await r.json(); } catch (e) { /* first game */ }
@@ -81,7 +86,14 @@ function check(d, slides) {
     } finally {
       tr.carousels = tr.carousels.filter((c) => c.id !== rec.id).concat(rec);
       T.save(tr);
+      made.push(rec);
     }
   }
   if (!DRY) console.log('tracker:', await T.publishTracker(tr));
-})().catch((e) => { console.error(e); process.exit(1); });
+  if (!DRY) {
+    const bad = made.filter((c) => c.status === 'failed');
+    const ok = made.filter((c) => c.status === 'queued').map((c) => `${c.game} for ${c.scheduled_ist} IST (${c.web_url})`);
+    if (made.length) await T.status('carousel-writer', 'ok', `Wrote ${made.map((c) => c.id + ' ' + c.game).join(', ')}`);
+    await T.status('carousel-render', bad.length ? 'failed' : 'ok', ok.length ? `Queued ${ok.join(', ')}` : null, bad.length ? bad.map((c) => `${c.id}: ${c.error}`).join(' | ') : undefined);
+  }
+})().catch(async (e) => { console.error(e); if (!DRY) await T.status('carousel-render', 'failed', null, e.message); process.exit(1); });

@@ -6,6 +6,7 @@ const path = require('path');
 const T = require('./tracker');
 
 (async () => {
+  if (!(await T.status('reels-sync', 'running'))) return console.log('Content Stats Sync is paused in admin');
   const dir = path.join(T.ROOT, 'autopilot', 'data');
   fs.mkdirSync(dir, { recursive: true });
   const [trends, content, queue] = await Promise.all([T.agent('trends?days=21'), T.agent('content?days=120'), T.agent('reels/queue')]);
@@ -23,4 +24,5 @@ const T = require('./tracker');
   T.save(tr);
   if (process.env.R2_ACCESS_KEY_ID) console.log('tracker:', await T.publishTracker(tr));
   console.log('synced', trends.posts.length, 'trend posts,', content.posts.length, 'our posts,', queue.reels.length, 'queued');
-})().catch((e) => { console.error(e); process.exit(1); });
+  await T.status('reels-sync', 'ok', `Synced ${trends.posts.length} trend posts, ${content.posts.length} of our posts, ${queue.reels.length} in the queue`);
+})().catch(async (e) => { console.error(e); await T.status('reels-sync', 'failed', null, e.message); process.exit(1); });

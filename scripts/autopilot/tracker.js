@@ -34,7 +34,7 @@ async function writeXlsx(tr, out) {
   head(s, [{ header: 'ID', key: 'id', width: 22 }, { header: 'Shot', key: 'shot', width: 6 }, { header: 'Format/kit', key: 'kit', width: 10 }, { header: 'Who', key: 'who', width: 10 }, { header: 'Line', key: 'line', width: 60 }, { header: 'Beat', key: 'beat', width: 12 }]);
   for (const x of [...tr.reels].reverse()) for (const row of x.script || []) s.addRow({ id: x.id, ...row });
   const i = wb.addWorksheet('Ideas');
-  head(i, [{ header: 'Added', key: 'added', width: 12 }, { header: 'Idea', key: 'idea', width: 70 }, { header: 'Format', key: 'format', width: 20 }, { header: 'Source', key: 'source', width: 30 }, { header: 'Score', key: 'score', width: 7 }, { header: 'Used in', key: 'used', width: 22 }]);
+  head(i, [{ header: 'Added', key: 'added', width: 12 }, { header: 'Type', key: 'type', width: 8 }, { header: 'Idea', key: 'idea', width: 70 }, { header: 'Format', key: 'format', width: 20 }, { header: 'Source', key: 'source', width: 30 }, { header: 'Score', key: 'score', width: 7 }, { header: 'Used in', key: 'used', width: 22 }]);
   for (const x of [...(tr.ideas || [])].reverse()) i.addRow(x);
   const rs = wb.addWorksheet('Trend Research');
   head(rs, [{ header: 'Date', key: 'date', width: 12 }, { header: 'Pattern', key: 'pattern', width: 28 }, { header: 'Source post', key: 'source', width: 60 }, { header: 'Likes', key: 'likes', width: 8 }, { header: 'Comments', key: 'comments', width: 9 }, { header: 'Link', key: 'link', width: 45 }, { header: 'What we learn', key: 'learn', width: 70 }]);
@@ -62,6 +62,19 @@ async function agent(p, body) {
   if (!res.ok || out.error) throw new Error(out.error ?? `agent ${res.status}`);
   return out;
 }
+// Reports into admin Misc > Agents through the messaging Worker. Never throws:
+// a reporting hiccup must not fail a render. Returns false when the agent is
+// paused in admin (the caller stops), true otherwise.
+async function status(id, st, summary, error) {
+  if (!process.env.AGENT_KEY) return true;
+  try {
+    const out = await agent('status', { id, status: st, summary, error });
+    return out.active !== false;
+  } catch (e) {
+    console.warn('agent status', e.message);
+    return true;
+  }
+}
 async function publishTracker(tr) {
   const out = path.join(ROOT, 'out', 'tracker.xlsx');
   fs.mkdirSync(path.dirname(out), { recursive: true });
@@ -69,4 +82,4 @@ async function publishTracker(tr) {
   if (process.env.R2_ACCESS_KEY_ID) return r2put(out, 'content/Kitty-Party-Content-Tracker.xlsx', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
   return out;
 }
-module.exports = { load, save, writeXlsx, r2put, agent, publishTracker, ROOT };
+module.exports = { load, save, writeXlsx, r2put, agent, status, publishTracker, ROOT };
