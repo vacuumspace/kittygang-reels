@@ -1,118 +1,6 @@
 {
   "reels": [
     {
-      "id": "KG-2026-10-22-a",
-      "created": "2026-10-21",
-      "title": "Haath upar",
-      "format": "Living-room sitcom",
-      "hook": "",
-      "cast": [
-        "Tanya",
-        "Ruhi",
-        "Shruti",
-        "Tash",
-        "Myra"
-      ],
-      "caption": "Hosting se bachna hai? Bas potluck bol do. Tag your kitty group",
-      "status": "cancelled",
-      "idea": "Nobody wants to host the next kitty; the new girl says yes, then makes it a potluck, and suddenly everyone wants to host.",
-      "beats": "hook: hands-up vote, every hand drops / esc: painting, Dubai, mentally / turn: Myra hosts, potluck / button: every hand shoots up",
-      "script": [
-        {
-          "shot": 1,
-          "kit": "solo",
-          "who": "Tanya",
-          "line": "Next kitty kiske ghar? Haath upar!",
-          "beat": "hook"
-        },
-        {
-          "shot": 3,
-          "kit": "duo",
-          "who": "Ruhi",
-          "line": "Mere ghar painting chal rahi hai.",
-          "beat": "escalation"
-        },
-        {
-          "shot": 3,
-          "kit": "duo",
-          "who": "Shruti",
-          "line": "Pichhle saal bhi chal rahi thi.",
-          "beat": "escalation"
-        },
-        {
-          "shot": 4,
-          "kit": "duo",
-          "who": "Tash",
-          "line": "Darling, main Dubai mein hoon.",
-          "beat": "escalation"
-        },
-        {
-          "shot": 4,
-          "kit": "duo",
-          "who": "Tanya",
-          "line": "Tu mere saamne baithi hai!",
-          "beat": "escalation"
-        },
-        {
-          "shot": 5,
-          "kit": "solo",
-          "who": "Tash",
-          "line": "...Mentally.",
-          "beat": "escalation"
-        },
-        {
-          "shot": 6,
-          "kit": "door",
-          "who": "Myra",
-          "line": "Sorry late! Kya chal raha hai?",
-          "beat": "setup"
-        },
-        {
-          "shot": 6,
-          "kit": "door",
-          "who": "ALL",
-          "line": "MYRA KE GHAR!",
-          "beat": "turn"
-        },
-        {
-          "shot": 7,
-          "kit": "solo",
-          "who": "Myra",
-          "line": "Done! Potluck hai, sab ek dish laana!",
-          "beat": "turn"
-        },
-        {
-          "shot": 8,
-          "kit": "room",
-          "who": "ALL",
-          "line": "MERE GHAR KARTE HAIN!",
-          "beat": "button"
-        }
-      ],
-      "duration": 23.88,
-      "review": {
-        "hook": 4,
-        "relatable": 5,
-        "conflict": 4,
-        "escalation": 4,
-        "laughs": 4,
-        "twist": 4,
-        "ending": 5,
-        "tight": 4,
-        "character": 4,
-        "shareable": 5,
-        "total": 43,
-        "notes": "Ending mirrors the hook (hands down, hands up). Potluck twist flips who wins."
-      },
-      "qa": [],
-      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-a.mp4",
-      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-a-cover.jpg",
-      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-a-board.jpg",
-      "queue_id": "66ab32fa-41d9-40ad-b583-413462eb260c",
-      "scheduled_ist": "2026-10-22 20:50",
-      "error": "replaced by v2 (Haath upar)"
-    },
-    {
       "id": "KG-2026-10-22-b",
       "created": "2026-10-22",
       "title": "Bollywood theme",
@@ -226,7 +114,10 @@
         }
       ],
       "permalink": "https://www.instagram.com/reel/DeyMsNMIOlL/",
-      "posted": "2026-10-22"
+      "posted": "2026-10-22",
+      "hook": "Theme Bollywood! Sab heroine banke aana!",
+      "scheduled_ist": "2026-10-22 10:45",
+      "board_url": "https://claude.ai/artifact/GxdDasKXAZH5Vt88EvAmZ9"
     }
   ],
   "ideas": []

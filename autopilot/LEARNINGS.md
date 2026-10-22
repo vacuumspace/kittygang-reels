@@ -1,8 +1,9 @@
-# Learnings (newest first, updated every Monday by the writer routine)
+# Learnings (newest first). Only real learnings from team feedback or post data.
 
-## 2026-10-21 · starting assumptions (from the team, before any data)
-- Audience: women 30 to 55 who run or join kitty parties. Simple Hindi/Hinglish hooks, no Gen Z jargon.
-- Strongest past post: festival greeting reel got 10 shares from 207 reach; shares come from "this is so us" moments.
-- Formats to test first: living-room sitcom, phone chat + live map, camera-app attempts, rumour chain, time-lapse loop.
-- Free computer voices are the weakest part: keep lines short, let pauses and sound effects carry the joke.
-- Test one variable at a time across the first 2 weeks: format, hook style, lead character, length (15-20 s vs 30-35 s).
+## 2026-10-22 · team feedback on the first reels
+- Ideas must be real kitty party scenes (theme days, Housie claims, same saree, gossip after someone leaves, calls from home). Gags invented just for a laugh get rejected.
+- One simple situation that anyone gets in 2 seconds. A story that has to be worked out, or follows too many characters, loses people.
+- Every frame is a fully dressed set (living room, front door, real phone and camera screens) with props in hands. Bare colour cards look cheap.
+- Costumes and theme decor sell the joke visually (Bollywood theme: Chandni, Geet, Basanti, Gabbar).
+- Voices: the Hindi voices must say है / हैं as "hae", not a long "haaii" (fixed automatically in build.js). Tina uses a Hindi voice.
+- First reel posted: Bollywood theme (KG-2026-10-22-b), 26 s. Its shares and saves set the baseline.

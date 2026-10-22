@@ -21,7 +21,7 @@ async function writeXlsx(tr, out) {
   head(r, [
     { header: 'ID', key: 'id', width: 22 }, { header: 'Created', key: 'created', width: 12 }, { header: 'Title', key: 'title', width: 28 },
     { header: 'Format', key: 'format', width: 18 }, { header: 'Hook', key: 'hook', width: 30 }, { header: 'Characters', key: 'cast', width: 22 },
-    { header: 'Status', key: 'status', width: 11 }, { header: 'Posting (IST)', key: 'scheduled', width: 16 }, { header: 'Post link', key: 'permalink', width: 40 },
+    { header: 'Status', key: 'status', width: 11 }, { header: 'Posted / slot (IST)', key: 'scheduled', width: 18 }, { header: 'Post link', key: 'permalink', width: 40 },
     { header: 'Views', key: 'views', width: 8 }, { header: 'Reach', key: 'reach', width: 8 }, { header: 'Likes', key: 'likes', width: 7 }, { header: 'Comments', key: 'comments', width: 9 },
     { header: 'Saves', key: 'saves', width: 7 }, { header: 'Shares', key: 'shares', width: 7 }, { header: 'Score', key: 'score', width: 7 },
     { header: 'Video', key: 'video', width: 40 }, { header: 'Storyboard', key: 'board', width: 40 }, { header: 'Caption', key: 'caption', width: 50 },
@@ -34,9 +34,9 @@ async function writeXlsx(tr, out) {
   head(i, [{ header: 'Added', key: 'added', width: 12 }, { header: 'Idea', key: 'idea', width: 70 }, { header: 'Format', key: 'format', width: 20 }, { header: 'Source', key: 'source', width: 30 }, { header: 'Score', key: 'score', width: 7 }, { header: 'Used in', key: 'used', width: 22 }]);
   for (const x of [...(tr.ideas || [])].reverse()) i.addRow(x);
   const l = wb.addWorksheet('Learnings');
-  head(l, [{ header: 'Learnings (autopilot/LEARNINGS.md)', key: 'line', width: 140 }]);
+  head(l, [{ header: 'Learnings', key: 'line', width: 140 }]);
   const lf = path.join(ROOT, 'autopilot', 'LEARNINGS.md');
-  if (fs.existsSync(lf)) for (const line of fs.readFileSync(lf, 'utf8').split(/\r?\n/)) l.addRow({ line });
+  if (fs.existsSync(lf)) for (const line of fs.readFileSync(lf, 'utf8').split(/\r?\n/)) if (line.trim() && !line.startsWith('# ')) l.addRow({ line: line.replace(/^#+\s*/, '').replace(/^- /, '') });
   await wb.xlsx.writeFile(out);
 }
 
