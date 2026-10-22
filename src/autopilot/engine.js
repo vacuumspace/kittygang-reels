@@ -173,7 +173,8 @@ export function coverFrame(spec) {
   const c = spec.cover || {};
   const sh = spec.shots[c.shot ?? Math.floor(spec.shots.length / 2)];
   const t = sh.start + (c.at ?? Math.min(1.2, (sh.end - sh.start) * 0.7));
-  let o = frameAt({ ...spec, lines: [] }, t);
+  // the cover title replaces the shot's banner and label so nothing overlaps it
+  let o = frameAt({ ...spec, lines: [], shots: spec.shots.map((x) => (x === sh ? { ...x, banner: null, chip: null } : x)) }, t);
   // title: one size for every line, each on its own tilted pill, well spaced
   const size = 66, gap = 150;
   (c.title || []).forEach((tx, i) => { const w = tx.length * size * 0.54 + 90; o += '<g transform="translate(540 ' + ((c.titleY || 360) + i * gap) + ') rotate(' + (i % 2 ? 2 : -2) + ')"><rect x="' + f1(-w / 2) + '" y="' + f1(-size * 0.95) + '" width="' + f1(w) + '" height="' + f1(size * 1.3) + '" rx="24" fill="' + (i === c.title.length - 1 ? PINK : PLUM) + '"></rect><text x="0" y="' + f1(size * 0.14) + '" text-anchor="middle" font-family="Fredoka" font-weight="600" font-size="' + size + '" fill="#FFFFFF">' + esc(tx) + '</text></g>'; });

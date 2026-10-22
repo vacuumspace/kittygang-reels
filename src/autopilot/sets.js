@@ -11,9 +11,18 @@ const STORY = {
   Popcorn: '<path d="M30 40 C26 22 46 14 54 24 C58 10 78 12 80 26 C92 18 104 32 92 42 Z" fill="#FFF3D1"></path><path d="M28 40 L92 40 L84 108 L36 108 Z" fill="#FFFFFF"></path>' + [0, 1, 2].map((i) => '<path d="M' + (38 + i * 18) + ' 40 L' + (46 + i * 18) + ' 40 L' + (44 + i * 16) + ' 108 L' + (38 + i * 16) + ' 108 Z" fill="#E8458B"></path>').join(''),
   'Horse stick': '<path d="M40 118 L66 20" stroke="#A86E44" stroke-width="7" stroke-linecap="round"></path><g transform="translate(70 18) scale(0.5)"><path d="M-30 30 C-40 -10 -10 -40 20 -40 C50 -40 64 -20 60 0 L40 6 C30 20 10 30 -30 30 Z" fill="#FFFFFF" stroke="' + PLUM + '" stroke-width="5"></path><path d="M-10 -36 C0 -60 30 -60 40 -40" stroke="#C42F72" stroke-width="10" fill="none"></path><rect x="20" y="-24" width="8" height="8" rx="4" fill="' + PLUM + '"></rect></g>',
   'Mocktail tray': '<rect x="4" y="96" width="112" height="10" rx="5" fill="#C98A5C"></rect><g transform="translate(15 6) scale(0.75)">' + (ALL['Mocktail glasses'] || '') + '</g>',
-  'Lightning': '<path d="M70 4 L30 62 L56 62 L40 116 L92 46 L64 46 L82 4 Z" fill="' + YEL + '"></path>',
+  // Diwali safai props
+  Ladder: '<rect x="30" y="4" width="10" height="106" rx="4" fill="#C98A5C"></rect><rect x="80" y="4" width="10" height="106" rx="4" fill="#C98A5C"></rect>' + [16, 38, 60, 82].map((y) => '<rect x="34" y="' + y + '" width="52" height="8" rx="3" fill="#A86E44"></rect>').join(''),
+  Jhaadu: '<path d="M58 6 L64 6 L66 64 L56 64 Z" fill="#A86E44"></path><rect x="50" y="60" width="22" height="10" rx="4" fill="#E85D8A"></rect>' + Array.from({ length: 9 }, (_, i) => '<path d="M' + (54 + i * 1.6) + ' 70 L' + (34 + i * 7) + ' 110" stroke="#E0B44A" stroke-width="4" stroke-linecap="round"></path>').join(''),
+  Duster: '<rect x="56" y="40" width="8" height="70" rx="4" fill="#A86E44"></rect>' + Array.from({ length: 7 }, (_, i) => '<ellipse cx="' + (60 + (i - 3) * 9) + '" cy="' + (26 + Math.abs(i - 3) * 4) + '" rx="10" ry="22" fill="' + ['#E85D8A', '#FFD166', '#2FA37A'][i % 3] + '" transform="rotate(' + (i - 3) * 12 + ' 60 40)"></ellipse>').join(''),
+  Bucket: '<path d="M26 40 L94 40 L86 108 L34 108 Z" fill="#5B8DEF" stroke="#3A0B30" stroke-width="4"></path><path d="M30 40 Q60 0 90 40" stroke="#3A0B30" stroke-width="5" fill="none"></path><ellipse cx="60" cy="40" rx="34" ry="8" fill="#9FD8F0"></ellipse>',
+  'Clothes pile': '<path d="M8 108 Q14 70 40 66 Q50 40 74 52 Q100 50 110 80 Q116 96 112 108 Z" fill="#F7A8C6" stroke="#3A0B30" stroke-width="4"></path><path d="M24 104 Q40 80 64 86 Q86 74 100 98" stroke="#FFD166" stroke-width="10" fill="none"></path><path d="M44 72 Q60 60 78 70" stroke="#2FA37A" stroke-width="10" fill="none"></path>',
+  Cobweb: '<path d="M10 10 L110 10 M10 10 L10 110 M10 10 L100 100 M10 10 L70 106 M10 10 L106 70" stroke="#9A8FA6" stroke-width="3"></path>' + [30, 55, 80].map((r) => '<path d="M' + (10 + r) + ' 10 Q' + (10 + r * 0.8) + ' ' + (10 + r * 0.4) + ' ' + (10 + r * 0.7) + ' ' + (10 + r * 0.7) + ' Q' + (10 + r * 0.4) + ' ' + (10 + r * 0.8) + ' 10 ' + (10 + r) + '" stroke="#9A8FA6" stroke-width="3" fill="none"></path>').join(''),
+  'Lightning':'<path d="M70 4 L30 62 L56 62 L40 116 L92 46 L64 46 L82 4 Z" fill="' + YEL + '"></path>',
 };
-export const propSvg = (name) => STORY[name] || ALL[name] || '';
+// "Ball 7" draws a Housie ball with that number
+const ball = (n) => '<circle cx="60" cy="58" r="50" fill="' + YEL + '" stroke="' + PLUM + '" stroke-width="5"></circle><circle cx="60" cy="58" r="32" fill="#FFFFFF"></circle><text x="60" y="' + (n.length > 1 ? 72 : 74) + '" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="' + (n.length > 1 ? 36 : 44) + '" fill="' + PLUM + '">' + n + '</text>';
+export const propSvg = (name) => STORY[name] || ALL[name] || (/^Ball (\d{1,2})$/.test(name) ? ball(name.slice(5)) : '');
 // prop centred at cx, standing on by, w px wide
 export const put = (n, cx, by, w, rot = 0) => '<g transform="translate(' + (cx - w / 2) + ' ' + (by - w * 0.9) + ') scale(' + (w / 120) + ')' + (rot ? ' rotate(' + rot + ' 60 108)' : '') + '">' + propSvg(n) + '</g>';
 

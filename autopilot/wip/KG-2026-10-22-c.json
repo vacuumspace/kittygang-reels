@@ -237,10 +237,11 @@
           "x": 300,
           "y": 1760,
           "s": 2.1,
-          "pose": "hold",
+          "pose": "wave",
           "mouth": "flat",
           "eyes": "half",
-          "turn": -0.3
+          "turn": -0.3,
+          "prop": ""
         },
         {
           "name": "Tanya",
@@ -255,8 +256,8 @@
       "props": [
         {
           "name": "Duster",
-          "x": 300,
-          "y": 860,
+          "x": 250,
+          "y": 930,
           "s": 2,
           "rot": -20
         },
@@ -287,7 +288,54 @@
           "text": "Number baais... khidki saaf!",
           "say": "नंबर बाईस... खिड़की साफ़!",
           "beat": "escalation"
+        }
+      ],
+      "hold": 0.1,
+      "chip": "22 = KHIDKI SAAF",
+      "chipY": 560
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 300,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "wave",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.3,
+          "prop": ""
         },
+        {
+          "name": "Tanya",
+          "x": 820,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkL",
+          "mouth": "laugh",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Duster",
+          "x": 250,
+          "y": 930,
+          "s": 2,
+          "rot": -20
+        },
+        {
+          "name": "Bucket",
+          "x": 560,
+          "y": 1800,
+          "s": 1.6
+        }
+      ],
+      "sfx": [],
+      "lines": [
         {
           "who": "Shruti",
           "text": "Main toh sirf samose khaane aayi thi!",
@@ -297,8 +345,8 @@
         }
       ],
       "hold": 0.2,
-      "chip": "22 = KHIDKI SAAF",
-      "chipY": 560
+      "chipY": 560,
+      "camera": "punch"
     },
     {
       "kit": "scene",
@@ -391,34 +439,69 @@
           "kind": "sweat",
           "x": 430,
           "y": 1050,
-          "at": 1
-        },
-        {
-          "kind": "exclaim",
-          "x": 220,
-          "y": 760,
-          "at": 1.6
+          "at": 0.6
         }
       ],
-      "sfx": [
-        {
-          "at": 1.2,
-          "name": "ballpop",
-          "vol": 0.4
-        },
-        {
-          "at": 1.9,
-          "name": "thunder",
-          "vol": 0.7
-        }
-      ],
+      "sfx": [],
       "lines": [
         {
           "who": "Tina",
           "text": "Darling, mera number mat bolna.",
           "say": "डार्लिंग, मेरा नंबर मत बोलना।",
           "beat": "twist"
+        }
+      ],
+      "hold": 0.1,
+      "chipY": 560,
+      "props": []
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.4
         },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 220,
+          "y": 760,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.7,
+          "name": "ballpop",
+          "vol": 0.4
+        },
+        {
+          "at": 1.4,
+          "name": "thunder",
+          "vol": 0.7
+        }
+      ],
+      "lines": [
         {
           "who": "Tanya",
           "text": "Nabbe... bathroom!",
@@ -437,7 +520,7 @@
           "x": 560,
           "y": 1150,
           "s": 2.2,
-          "at": 1.3
+          "at": 0.75
         }
       ]
     },
@@ -527,5 +610,6 @@
       ],
       "hold": 0.9
     }
-  ]
+  ],
+  "pace": 24
 }
