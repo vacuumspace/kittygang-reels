@@ -23,9 +23,9 @@ One JSON file per reel. The render workflow voices it, animates it, uploads it a
 ## Shot fields
 - `kit` (required): `hook` | `solo` | `duo` | `room` | `phone` | `camera` | `map` | `door` | `card`
 - `lines`: spoken lines in order. The shot lasts as long as its lines (+ `hold`, default 0.6 s). No lines: set `dur` (seconds).
-  - `who`: Tanya, Ruhi, Shruti, Myra, Tash, Megha, Avika, Ishita, Zoya, Aditi, or `ALL` (chorus)
+  - `who`: Tanya, Ruhi, Shruti, Myra, Tina, Megha, Avika, Ishita, Zoya, Aditi, or `ALL` (chorus)
   - `text`: Hinglish in Roman script = the on-screen caption (max ~60 characters)
-  - `say`: the same line in Devanagari for the voice (required for everyone except Tash and Zoya, who read `text`)
+  - `say`: the same line in Devanagari for the voice (required for everyone except Tina and Zoya, who read `text`)
   - `punch: true` on the punchline (zoom punch + pop), `silenceBefore: true` for a comic pause (cricket), `gap` seconds after the line (default 0.35), `beat`: hook/setup/escalation/turn/button
 - `hook`: ["line 1", "line 2"] big text banner (first shot only, ≤ 6 words a line, simple Hindi/Hinglish, no jargon). Captions are hidden while a hook shows.
 - `chip`: short label pill (e.g. "attempt 9", "pink #3")

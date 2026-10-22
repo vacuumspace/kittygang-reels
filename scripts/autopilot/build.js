@@ -19,9 +19,10 @@ fs.mkdirSync(TMP, { recursive: true });
 
 // Free Microsoft neural voices through the edge-tts Python tool (uvx edge-tts, or edge-tts on PATH in CI).
 const hz = (p) => { const m = String(p || '+0%').match(/^([+-]?\d+)/); const v = m ? Math.round(Number(m[1]) * 1.5) : 0; return (v >= 0 ? '+' : '') + v + 'Hz'; };
-// Spellings the voices say the north Indian way. The voices stretch है / हैं into a long "haaii",
-// so they are respelled as spoken: "hae" / "haen".
-const SAY_AS = [[/हैं/g, 'हें'], [/है/g, 'हे']];
+// North Indian pronunciation. The voices read the ऐ vowel (ै) as a long south-style "aai": मैं -> "maaai",
+// है -> "haaai". In everyday Hindi it is a short "e" (main = "meh", hai = "hae"), so every ै / ऐ is respelled
+// as े / ए before voicing. Words where the "ai" is really said (भैया, मैया) keep it: ै before य is left alone.
+const SAY_AS = [[/ै(?!य)/g, 'े'], [/ऐ(?!य)/g, 'ए']];
 const sayAs = (t) => SAY_AS.reduce((x, [re, to]) => x.replace(re, to), t);
 async function speak(voice, text, rate, pitch, file) {
   text = sayAs(text);
