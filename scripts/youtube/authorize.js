@@ -7,7 +7,8 @@ const { execFile } = require('child_process');
 
 const envFile = process.argv[2];
 const env = Object.fromEntries(fs.readFileSync(envFile, 'utf8').split(/\r?\n/).filter((l) => l.includes('=')).map((l) => [l.slice(0, l.indexOf('=')), l.slice(l.indexOf('=') + 1)]));
-const SCOPES = ['https://www.googleapis.com/auth/youtube.upload', 'https://www.googleapis.com/auth/youtube.readonly'];
+// youtube = manage the channel (upload, playlists); needed to add every Short to the Kitty Gang Reels playlist
+const SCOPES = ['https://www.googleapis.com/auth/youtube'];
 
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://127.0.0.1');

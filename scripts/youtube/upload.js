@@ -35,9 +35,22 @@ async function uploadShort({ file, title, description, tags = [], publishAt }) {
   const put = await fetch(loc, { method: 'PUT', headers: { 'Content-Type': 'video/mp4', 'Content-Length': String(size) }, body: fs.readFileSync(file) });
   const out = await put.json();
   if (!put.ok || !out.id) throw new Error('youtube upload ' + put.status + ': ' + JSON.stringify(out).slice(0, 300));
+  if (process.env.YT_PLAYLIST_ID) await addToPlaylist(out.id, token).catch((e) => console.warn('playlist', e.message));
   return { id: out.id, url: 'https://youtube.com/shorts/' + out.id, privacy: out.status?.privacyStatus, publishAt: out.status?.publishAt };
 }
-module.exports = { uploadShort };
+
+// every Short also goes into the public "Kitty Gang Reels" playlist (YT_PLAYLIST_ID)
+async function addToPlaylist(videoId, token, playlistId = process.env.YT_PLAYLIST_ID) {
+  token = token || await accessToken();
+  const r = await fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet', {
+    method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ snippet: { playlistId, resourceId: { kind: 'youtube#video', videoId } } }),
+  });
+  const out = await r.json();
+  if (!r.ok) throw new Error('playlist ' + r.status + ': ' + (out.error?.message || ''));
+  return out.id;
+}
+module.exports = { uploadShort, addToPlaylist, accessToken };
 
 if (require.main === module) {
   const [file, title, description, publishAt] = process.argv.slice(2);
