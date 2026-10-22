@@ -6,13 +6,17 @@
   "logline": "At the Diwali kitty, the host's Housie numbers are cleaning chores, and the gang cleans her whole house without realising.",
   "game": "every number called is a chore for whoever cuts it",
   "mute": [
-    "host with Housie cage, Diwali Housie",
-    "number 7 = fan cleaning",
+    "host starts Diwali Housie",
+    "twist: every number is a chore",
+    "Ruhi claims 7 = fan cleaning",
     "Ruhi dusting the fan on a ladder",
+    "Shruti claims 22 = window",
     "Shruti cleaning the window",
-    "Myra buried in almirah clothes",
-    "Tina terrified of number 90",
-    "spotless house, host relaxing with chai"
+    "Myra 45 = almirah, buried in clothes",
+    "Tina begs",
+    "90 = bathroom",
+    "spotless house, host relaxing",
+    "gang plans the same trick"
   ],
   "beats": "hook: Diwali Housie / esc: fan, window, almirah / twist: bathroom / button: host relaxing, Full House",
   "review": {
@@ -31,7 +35,7 @@
     "notes": "Timely (Diwali safai), Housie twist trend, clear escalation of chores, pun ending."
   },
   "cover": {
-    "shot": 1,
+    "shot": 2,
     "at": 1,
     "title": [
       "Diwali Housie",
@@ -60,18 +64,18 @@
           "x": 330,
           "y": 1330,
           "s": 1.25,
-          "mouth": "laugh",
           "pose": "hold",
-          "prop": "phone"
+          "prop": "phone",
+          "mouth": "laugh"
         },
         {
           "name": "Shruti",
           "x": 760,
           "y": 1330,
           "s": 1.25,
-          "mouth": "laugh",
           "pose": "hold",
-          "prop": "calc"
+          "prop": "calc",
+          "mouth": "laugh"
         },
         {
           "name": "Tanya",
@@ -94,18 +98,71 @@
       "lines": [
         {
           "who": "Tanya",
-          "text": "Diwali special Housie! Is baar numbers thode alag hain.",
-          "say": "दिवाली स्पेशल हाउज़ी! इस बार नंबर थोड़े अलग हैं।",
+          "text": "Chalo ladies, Diwali special Housie!",
+          "say": "चलो लेडीज़, दिवाली स्पेशल हाउज़ी!",
           "beat": "hook"
         }
       ],
-      "hold": 0.2
+      "hold": 0.1
     },
     {
       "kit": "scene",
       "set": "living",
       "banner": "DIWALI HOUSIE",
       "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 840,
+          "y": 1700,
+          "s": 2.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 230,
+          "y": 760,
+          "at": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Twist yeh hai... har number ek kaam!",
+          "say": "ट्विस्ट ये है... हर नंबर एक काम!",
+          "beat": "setup"
+        },
+        {
+          "who": "Shruti",
+          "text": "Kaam?!",
+          "say": "काम?!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
       "chars": [
         {
           "name": "Tanya",
@@ -120,8 +177,7 @@
           "x": 800,
           "y": 1760,
           "s": 1.9,
-          "pose": "hold",
-          "prop": "phone",
+          "pose": "wave",
           "turn": -0.5,
           "mouth": "laugh",
           "eyes": "laugh"
@@ -130,15 +186,20 @@
       "props": [
         {
           "name": "Ball 7",
-          "x": 560,
+          "x": 580,
           "y": 1150,
-          "s": 2.6,
-          "at": 0.2
+          "s": 2.4,
+          "at": 0.3
         }
       ],
       "sfx": [
         {
-          "at": 0.1,
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.3,
           "name": "ballpop",
           "vol": 0.5
         }
@@ -146,25 +207,37 @@
       "lines": [
         {
           "who": "Tanya",
-          "text": "Number saat... pankha saaf!",
-          "say": "नंबर सात... पंखा साफ़!",
-          "punch": true,
+          "text": "Pehla number... saat!",
+          "say": "पहला नंबर... सात!",
           "beat": "setup"
         },
         {
           "who": "Ruhi",
-          "text": "Mera saat kat gaya!",
-          "say": "मेरा सात कट गया!",
-          "beat": "setup"
+          "text": "Mera! Mera!",
+          "say": "मेरा! मेरा!",
+          "gap": 0.03
+        },
+        {
+          "who": "Tanya",
+          "text": "Pankha saaf karo!",
+          "say": "पंखा साफ़ करो!",
+          "punch": true,
+          "gap": 0.05
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
         }
       ],
-      "hold": 0.2,
-      "chip": "7 = PANKHA SAAF",
-      "chipY": 600
+      "hold": 0.15
     },
     {
       "kit": "scene",
       "set": "living",
+      "chip": "7 = PANKHA SAAF",
+      "chipY": 1560,
       "chars": [
         {
           "name": "Ruhi",
@@ -216,6 +289,11 @@
           "at": 0.2,
           "name": "swish",
           "vol": 0.4
+        },
+        {
+          "at": 0.9,
+          "name": "swish",
+          "vol": 0.3
         }
       ],
       "lines": [
@@ -224,79 +302,89 @@
           "text": "Yeh kaunsi Housie hai?!",
           "say": "ये कौन सी हाउज़ी है?!",
           "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Diwali wali!",
+          "say": "दिवाली वाली!",
+          "gap": 0.05
         }
       ],
-      "hold": 0.3
+      "hold": 0.15
     },
     {
       "kit": "scene",
       "set": "living",
       "chars": [
         {
-          "name": "Shruti",
-          "x": 300,
+          "name": "Tanya",
+          "x": 360,
           "y": 1760,
           "s": 2.1,
-          "pose": "wave",
-          "mouth": "flat",
-          "eyes": "half",
-          "turn": -0.3,
-          "prop": ""
+          "pose": "talkR",
+          "mouth": "laugh"
         },
         {
-          "name": "Tanya",
-          "x": 820,
+          "name": "Shruti",
+          "x": 800,
           "y": 1760,
-          "s": 1.8,
-          "pose": "talkL",
-          "mouth": "laugh",
-          "turn": -0.5
+          "s": 1.9,
+          "pose": "wave",
+          "prop": "",
+          "turn": -0.5,
+          "mouth": "laugh"
         }
       ],
       "props": [
         {
-          "name": "Duster",
-          "x": 250,
-          "y": 930,
-          "s": 2,
-          "rot": -20
-        },
-        {
-          "name": "Bucket",
-          "x": 560,
-          "y": 1800,
-          "s": 1.6
-        },
-        {
           "name": "Ball 22",
-          "x": 880,
-          "y": 1100,
-          "s": 1.6,
-          "at": 0.1
+          "x": 580,
+          "y": 1150,
+          "s": 2.4,
+          "at": 0.2
         }
       ],
       "sfx": [
         {
           "at": 0,
+          "name": "cage",
+          "vol": 0.35
+        },
+        {
+          "at": 0.2,
           "name": "ballpop",
-          "vol": 0.4
+          "vol": 0.45
         }
       ],
       "lines": [
         {
           "who": "Tanya",
-          "text": "Number baais... khidki saaf!",
-          "say": "नंबर बाईस... खिड़की साफ़!",
+          "text": "Agla... baais!",
+          "say": "अगला... बाईस!",
           "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Mera!",
+          "say": "मेरा!",
+          "gap": 0.03
+        },
+        {
+          "who": "Tanya",
+          "text": "Khidki saaf!",
+          "say": "खिड़की साफ़!",
+          "punch": true,
+          "gap": 0.05
         }
       ],
-      "hold": 0.1,
-      "chip": "22 = KHIDKI SAAF",
-      "chipY": 560
+      "hold": 0.1
     },
     {
       "kit": "scene",
       "set": "living",
+      "chip": "22 = KHIDKI SAAF",
+      "chipY": 1560,
+      "camera": "push",
       "chars": [
         {
           "name": "Shruti",
@@ -304,19 +392,10 @@
           "y": 1760,
           "s": 2.1,
           "pose": "wave",
+          "prop": "",
           "mouth": "flat",
           "eyes": "half",
-          "turn": -0.3,
-          "prop": ""
-        },
-        {
-          "name": "Tanya",
-          "x": 820,
-          "y": 1760,
-          "s": 1.8,
-          "pose": "talkL",
-          "mouth": "laugh",
-          "turn": -0.5
+          "turn": -0.3
         }
       ],
       "props": [
@@ -329,12 +408,18 @@
         },
         {
           "name": "Bucket",
-          "x": 560,
+          "x": 620,
           "y": 1800,
           "s": 1.6
         }
       ],
-      "sfx": [],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "swish",
+          "vol": 0.4
+        }
+      ],
       "lines": [
         {
           "who": "Shruti",
@@ -344,13 +429,13 @@
           "beat": "escalation"
         }
       ],
-      "hold": 0.2,
-      "chipY": 560,
-      "camera": "punch"
+      "hold": 0.25
     },
     {
       "kit": "scene",
       "set": "living",
+      "chip": "45 = ALMARI SET",
+      "chipY": 600,
       "chars": [
         {
           "name": "Myra",
@@ -364,27 +449,28 @@
       ],
       "props": [
         {
-          "name": "Clothes pile",
-          "x": 540,
-          "y": 1860,
-          "s": 6
-        },
-        {
           "name": "Ball 45",
-          "x": 870,
+          "x": 860,
           "y": 1100,
           "s": 1.6,
           "at": 0.1
+        },
+        {
+          "name": "Clothes pile",
+          "x": 540,
+          "y": 1860,
+          "s": 6,
+          "at": 1.5
         }
       ],
       "sfx": [
         {
-          "at": 0,
+          "at": 0.1,
           "name": "ballpop",
           "vol": 0.4
         },
         {
-          "at": 0.3,
+          "at": 1.5,
           "name": "thud",
           "vol": 0.5
         }
@@ -401,18 +487,14 @@
           "text": "Isme toh 2019 ke kapde hain!",
           "say": "इसमें तो 2019 के कपड़े हैं!",
           "punch": true,
-          "beat": "escalation"
+          "gap": 0.1
         }
       ],
-      "hold": 0.2,
-      "chip": "45 = ALMARI SET",
-      "chipY": 560
+      "hold": 0.2
     },
     {
       "kit": "scene",
       "set": "living",
-      "music": false,
-      "camera": "still",
       "chars": [
         {
           "name": "Tina",
@@ -442,7 +524,6 @@
           "at": 0.6
         }
       ],
-      "sfx": [],
       "lines": [
         {
           "who": "Tina",
@@ -451,15 +532,15 @@
           "beat": "twist"
         }
       ],
-      "hold": 0.1,
-      "chipY": 560,
-      "props": []
+      "hold": 0.1
     },
     {
       "kit": "scene",
       "set": "living",
       "music": false,
       "camera": "still",
+      "chip": "90 = BATHROOM",
+      "chipY": 600,
       "chars": [
         {
           "name": "Tina",
@@ -481,22 +562,36 @@
           "turn": -0.4
         }
       ],
+      "props": [
+        {
+          "name": "Ball 90",
+          "x": 560,
+          "y": 1150,
+          "s": 2.2,
+          "at": 0.6
+        }
+      ],
       "stickers": [
         {
           "kind": "exclaim",
           "x": 220,
           "y": 760,
-          "at": 1.2
+          "at": 1.6
         }
       ],
       "sfx": [
         {
-          "at": 0.7,
+          "at": 0.1,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.6,
           "name": "ballpop",
           "vol": 0.4
         },
         {
-          "at": 1.4,
+          "at": 1.7,
           "name": "thunder",
           "vol": 0.7
         }
@@ -504,25 +599,26 @@
       "lines": [
         {
           "who": "Tanya",
-          "text": "Nabbe... bathroom!",
-          "say": "नब्बे... बाथरूम!",
+          "text": "Nabbe...",
+          "say": "नब्बे...",
+          "beat": "twist",
+          "silenceBefore": true
+        },
+        {
+          "who": "Tina",
+          "text": "Nahi!",
+          "say": "नहीं!",
+          "gap": 0.05
+        },
+        {
+          "who": "Tanya",
+          "text": "Bathroom!",
+          "say": "बाथरूम!",
           "punch": true,
-          "silenceBefore": true,
-          "beat": "twist"
+          "gap": 0.08
         }
       ],
-      "hold": 0.4,
-      "chip": "90 = BATHROOM",
-      "chipY": 560,
-      "props": [
-        {
-          "name": "Ball 90",
-          "x": 560,
-          "y": 1150,
-          "s": 2.2,
-          "at": 0.75
-        }
-      ]
+      "hold": 0.35
     },
     {
       "kit": "scene",
@@ -554,6 +650,7 @@
           "y": 1760,
           "s": 1.7,
           "pose": "relaxed",
+          "prop": "",
           "mouth": "flat",
           "eyes": "half"
         }
@@ -608,8 +705,65 @@
           "beat": "button"
         }
       ],
-      "hold": 0.9
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 540,
+          "y": 820,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Agli kitty... mere ghar.",
+          "say": "अगली किटी... मेरे घर।",
+          "beat": "button"
+        },
+        {
+          "who": "Shruti",
+          "text": "Nahi, mere ghar!",
+          "say": "नहीं, मेरे घर!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.7
     }
   ],
-  "pace": 24
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
 }

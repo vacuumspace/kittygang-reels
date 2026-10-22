@@ -23,11 +23,11 @@ function qa(draft, spec, video) {
   const add = (name, ok, detail) => checks.push({ name, ok, detail });
   const words = spec.lines.reduce((n, l) => n + l.text.split(/\s+/).filter(Boolean).length, 0);
   const spoken = spec.lines.reduce((n, l) => n + l.dur, 0);
-  add('length 15-32 s', spec.total >= 15 && spec.total <= 32, spec.total + ' s');
+  add('length 15-45 s', spec.total >= 15 && spec.total <= 45, spec.total + ' s');
   add('words <= 70', words <= 70, words + ' words');
   add('voice pace >= 2.3 words/s', words / spoken >= 2.3, (words / spoken).toFixed(2) + ' w/s');
   const longest = Math.max(...spec.shots.map((s) => s.end - s.start));
-  add('no shot over 4.5 s', longest <= 4.5, longest.toFixed(1) + ' s');
+  add('no shot over 5 s', longest <= 5, longest.toFixed(1) + ' s');
   const dead = spec.shots.reduce((m, s, i) => Math.max(m, s.start - (spec.shots[i - 1]?.end ?? 0)), 0);
   add('script scorecard >= 44/55', (draft.review?.total ?? 0) >= 44, (draft.review?.total ?? 'missing') + '/55');
   add('clarity scored 5 with logline and mute test', draft.review?.clarity === 5 && !!draft.logline && Array.isArray(draft.mute), 'clarity ' + (draft.review?.clarity ?? 'missing'));

@@ -20,7 +20,7 @@ workflow turns it into a finished video and posts it automatically (one post a d
    Each idea: { added, idea (one line premise), format, source, score 1-10 (relatable + shareable + fits our gang), used: "" }.
 3. Pick the highest-scoring unused idea. Rotate formats and lead characters (do not repeat the same format or lead
    character two reels in a row unless LEARNINGS says it wins).
-4. Write the script. Shape (18-25 s, about 50 words, lines of 7 words or less, a laugh or surprise every 5 s):
+4. Write the script. Shape (any length that keeps it flowing, usually 20-40 s, lines of 7 words or less, a laugh or surprise every 5 s):
    - 0-2 s HOOK: start in the middle of the action with a spoken line AND a visual joke together (never a soft question).
    - 2-6 s SETUP: what the main character wants, in one line. One main character with a want; max 3 talking characters.
    - 6-17 s ESCALATION: 3 quick beats, each a line plus a comeback, each sillier than the last.
@@ -38,6 +38,12 @@ workflow turns it into a finished video and posts it automatically (one post a d
    - Mute test: list what a viewer understands from pictures and captions alone at each beat ("mute": [...]).
      Any beat that reads "confused" is rewritten.
    - Button: a callback to the opening (same line or image, flipped) so the end loops into the start.
+   FLOW (the team noticed choppy scripts): write it as a scene, not a list of jokes.
+   - Reactions between lines ("Haaw!", "Mera!", "Arre!", "Kaam?!"); quick replies with `gap` 0.03-0.05 so people talk over each other.
+   - Claim before reveal: the character is happy first ("Mera! Mera!"), then hears the catch. The laugh is the drop.
+   - Connective replies that answer the previous line ("Yeh kaunsi Housie hai?!" / "Diwali wali!").
+   - Set `"ambience": { "name": "crowd", "vol": 0.1 }` for party room tone; use `cage` before Housie calls.
+   - Length is free: keep every line that helps the flow; never cut a reaction just to save seconds.
    Write 3 endings, keep the strongest. Be specific (times, rupees, flat numbers, real snacks). No app mention.
    One shot per line or comeback pair, no shot over 4 s. Kind humour only. No em dashes anywhere.
    SELF-REVIEW (mandatory): score the script 1-5 on clarity (must be 5), hook, relatable, conflict, escalation, laughs, twist, ending, tight,

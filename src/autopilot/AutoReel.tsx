@@ -5,7 +5,7 @@ import { frameAt, coverFrame } from './engine';
 const { fontFamily } = loadFont('normal', { weights: ['500', '600', '700'] });
 export const FPS = 30;
 
-export type Spec = { id: string; total: number; lines: any[]; shots: any[]; sfx: { at: number; name: string; vol?: number }[]; music?: string };
+export type Spec = { id: string; total: number; lines: any[]; shots: any[]; sfx: { at: number; name: string; vol?: number }[]; music?: string; ambience?: { name: string; vol?: number } };
 
 const S: React.FC<{ at: number; src: string; vol?: number }> = ({ at, src, vol = 1 }) => (
   <Sequence from={Math.max(0, Math.round(at * FPS))} layout="none"><Audio src={staticFile(src)} volume={vol} /></Sequence>
@@ -28,6 +28,8 @@ export const AutoReel: React.FC<{ spec: Spec }> = ({ spec }) => {
       <svg viewBox="0 0 1080 1920" width={1080} height={1920} style={{ position: 'absolute', inset: 0, fontFamily }} dangerouslySetInnerHTML={{ __html: frameAt(spec, t) }} />
       {spec.lines.map((l) => <S key={l.id} at={l.start} src={`autopilot/${spec.id}/${l.file}`} />)}
       {spec.music && <Audio src={staticFile(`autopilot/${spec.id}/music.wav`)} volume={music} />}
+      {/* room tone: soft party chatter under everything, so the scene never goes dead between lines */}
+      {spec.ambience && <Audio src={staticFile(`sfx/${spec.ambience.name}.wav`)} loop volume={(f) => (spec.ambience!.vol ?? 0.12) * Math.min(1, f / 15, (spec.total * 30 - f) / 20)} />}
       {spec.sfx.map((s, i) => <S key={i} at={s.at} src={`sfx/${s.name}.wav`} vol={s.vol ?? 0.5} />)}
     </AbsoluteFill>
   );

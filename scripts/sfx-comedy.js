@@ -70,3 +70,6 @@ console.log('comedy sfx done:', fs.readdirSync(OUT).length, 'files');
 { const A = buf(1.6); for (const [k, f] of [[0, 523], [1, 659], [2, 784], [3, 1047]]) { const o1 = sine(f), o2 = sine(f * 2.01), o3 = sine(f * 3.02); add(A, k * 0.09, 1.3, (t) => (o1(t) + 0.6 * o2(t) + 0.4 * o3(t)) * Math.exp(-t * 4) * 0.35 * (1 + 0.3 * Math.sin(t * 900))); } wav('sitar', A); }
 // gasp: quick breathy inhale
 { const A = buf(0.5), f = bp(1400, 1.1); add(A, 0, 0.4, (t) => f(rnd()) * Math.sin((Math.PI * t) / 0.4) * 0.9); wav('gasp', A); }
+
+// cage: Housie balls tumbling in the cage
+{ const A = buf(1.1); for (let k = 0; k < 22; k++) { const at = k * 0.045 + (rnd() + 1) * 0.01, f = bp(1800 + (rnd() + 1) * 1400, 3); add(A, at, 0.05, (t) => f(rnd()) * Math.exp(-t * 90) * (0.5 + 0.5 * Math.sin((Math.PI * k) / 22))); } wav('cage', A); }

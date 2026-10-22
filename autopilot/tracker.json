@@ -151,31 +151,59 @@
         "total": 50,
         "notes": "Timely (Diwali safai), Housie twist trend, clear escalation of chores, pun ending."
       },
-      "duration": 26.68,
+      "duration": 33.19,
       "script": [
         {
           "shot": 1,
           "kit": "scene",
           "who": "Tanya",
-          "line": "Diwali special Housie! Is baar numbers thode alag hain.",
+          "line": "Chalo ladies, Diwali special Housie!",
           "beat": "hook"
         },
         {
           "shot": 2,
           "kit": "scene",
           "who": "Tanya",
-          "line": "Number saat... pankha saaf!",
+          "line": "Twist yeh hai... har number ek kaam!",
           "beat": "setup"
         },
         {
           "shot": 2,
           "kit": "scene",
-          "who": "Ruhi",
-          "line": "Mera saat kat gaya!",
+          "who": "Shruti",
+          "line": "Kaam?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Pehla number... saat!",
           "beat": "setup"
         },
         {
           "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera! Mera!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Pankha saaf karo!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
           "kit": "scene",
           "who": "Ruhi",
           "line": "Yeh kaunsi Housie hai?!",
@@ -185,50 +213,99 @@
           "shot": 4,
           "kit": "scene",
           "who": "Tanya",
-          "line": "Number baais... khidki saaf!",
+          "line": "Diwali wali!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Agla... baais!",
           "beat": "escalation"
         },
         {
           "shot": 5,
           "kit": "scene",
           "who": "Shruti",
+          "line": "Mera!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Khidki saaf!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
           "line": "Main toh sirf samose khaane aayi thi!",
           "beat": "escalation"
         },
         {
-          "shot": 6,
+          "shot": 7,
           "kit": "scene",
           "who": "Tanya",
           "line": "Paintalees... almari!",
           "beat": "escalation"
         },
         {
-          "shot": 6,
+          "shot": 7,
           "kit": "scene",
           "who": "Myra",
           "line": "Isme toh 2019 ke kapde hain!",
-          "beat": "escalation"
+          "beat": ""
         },
         {
-          "shot": 7,
+          "shot": 8,
           "kit": "scene",
           "who": "Tina",
           "line": "Darling, mera number mat bolna.",
           "beat": "twist"
         },
         {
-          "shot": 8,
+          "shot": 9,
           "kit": "scene",
           "who": "Tanya",
-          "line": "Nabbe... bathroom!",
+          "line": "Nabbe...",
           "beat": "twist"
         },
         {
           "shot": 9,
           "kit": "scene",
+          "who": "Tina",
+          "line": "Nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bathroom!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
           "who": "Tanya",
           "line": "Ghar chamak gaya. Full House!",
           "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Agli kitty... mere ghar.",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Nahi, mere ghar!",
+          "beat": ""
         }
       ]
     }
