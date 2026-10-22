@@ -6,6 +6,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const T = require('./tracker');
 const { qa } = require('./qa');
+const { uploadShort } = require('../youtube/upload');
 
 const DRY = process.argv.includes('--dry');
 const ROOT = T.ROOT;
@@ -50,6 +51,17 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
         const q = await T.agent('reels/queue', { video_url: rec.video_url, cover_url: rec.cover_url, caption, title: D.title, local_id: D.id });
         Object.assign(rec, { status: 'queued', queue_id: q.id, scheduled_ist: q.scheduled_ist });
         console.log('queued for', q.scheduled_ist, 'IST');
+        // the same reel goes to YouTube Shorts, scheduled for the Instagram slot (never blocks the Instagram post)
+        if (process.env.YT_REFRESH_TOKEN) {
+          try {
+            const tags = (D.hashtags || []).map((h) => h.replace(/^#/, ''));
+            const yt = await uploadShort({ file: path.join(ROOT, mp4), title: D.title + ' | Kitty Gang', description: [D.caption, (D.hashtags || []).join(' ') + ' #Shorts'].join('
+
+'), tags, publishAt: q.scheduled_for ? new Date(q.scheduled_for).toISOString() : undefined });
+            Object.assign(rec, { yt_id: yt.id, yt_url: yt.url, yt_privacy: yt.privacy });
+            console.log('youtube short', yt.url, yt.privacy, yt.publishAt || '');
+          } catch (e) { rec.yt_error = String(e.message).slice(0, 200); console.error('youtube', e.message); }
+        }
       }
     } catch (e) {
       console.error('FAILED', D.id, e.message);
