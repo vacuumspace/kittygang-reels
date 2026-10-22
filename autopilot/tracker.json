@@ -135,6 +135,31 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/rubber-band-cup-tower-kitty-game",
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-001/s1.jpg",
       "slides": 9
+    },
+    {
+      "id": "KGI-002",
+      "n": 2,
+      "created": "2026-10-22",
+      "game": "Newspaper Dance",
+      "slug": "newspaper-dance-kitty-party-game",
+      "caption": "Akhbaar chhota hota jaayega, masti badhti jaayegi! Agli kitty mein yeh khelo. Aapki jodi kitne round tiki?",
+      "status": "queued",
+      "slides": 9,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s9.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/newspaper-dance-kitty-party-game",
+      "queue_id": "ab921b7d-e2f5-4bda-8d78-38d2851d7016",
+      "scheduled_ist": "2026-10-23 10:55"
     }
   ]
 }
