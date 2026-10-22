@@ -120,7 +120,20 @@
       "board_url": "https://claude.ai/artifact/GxdDasKXAZH5Vt88EvAmZ9",
       "yt_id": "kgWUZS-XiRo",
       "yt_url": "https://youtube.com/shorts/kgWUZS-XiRo",
-      "yt_privacy": "public"
+      "yt_privacy": "public",
+      "stats": {
+        "views": 199,
+        "reach": 178,
+        "likes": 1,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "score": 0.6,
+        "skip": 76.3,
+        "watch_s": 4.2,
+        "watched_pct": 16,
+        "as_of": "2026-10-22"
+      }
     },
     {
       "id": "KG-2026-10-22-c",
@@ -342,7 +355,20 @@
       "media_id": "18008056658990968",
       "yt_id": "vdVmgTA_VLk",
       "yt_url": "https://youtube.com/shorts/vdVmgTA_VLk",
-      "yt_privacy": "public"
+      "yt_privacy": "public",
+      "stats": {
+        "views": 76,
+        "reach": 58,
+        "likes": 0,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "score": 0,
+        "skip": 78.3,
+        "watch_s": 3.6,
+        "watched_pct": 14,
+        "as_of": "2026-10-22"
+      }
     },
     {
       "id": "TH-2026-10-23",
@@ -584,7 +610,17 @@
       "slides": 9,
       "tagline": "Haath nahi, sirf dhaage!",
       "players": "8 to 20 (teams of 4)",
-      "time": "10 to 15 minutes"
+      "time": "10 to 15 minutes",
+      "stats": {
+        "views": 471,
+        "reach": 218,
+        "likes": 5,
+        "comments": 0,
+        "saves": 2,
+        "shares": 1,
+        "score": 6.4,
+        "as_of": "2026-10-22"
+      }
     },
     {
       "id": "KGI-002",
