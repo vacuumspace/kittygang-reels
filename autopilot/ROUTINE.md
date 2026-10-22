@@ -54,7 +54,9 @@ workflow turns it into a finished video and posts it automatically (one post a d
    read its qa list and write the fixed version (new id) before anything else.
 5. Write `autopilot/drafts/<id>.json` following DRAFT-FORMAT.md exactly (valid JSON, Devanagari `say` for every Hindi line).
    Mark the idea as used with the reel id. Caption: one funny line + a share trigger ("Tag your Avika"), hashtags 5-8.
-6. On Mondays (IST) also update `autopilot/LEARNINGS.md`: compare reels by score, views, shares, saves; list what to do
+6. On Mondays (IST) also update `autopilot/LEARNINGS.md`: compare reels by score, views, shares, saves, `stats.skip`
+   (skip rate: % who swipe away in the first 3 s, judges the hook and cover; lower is better) and `stats.watched_pct`
+   (average watch time as % of the reel length, judges the middle; higher is better); list what to do
    more and less of (formats, hooks, characters, length, topics, posting slot). Keep it under 60 lines; newest first.
 7. Commit with a plain message ("reel draft KG-2026-10-22-a: <title>") and `git push`. The push starts the render.
 

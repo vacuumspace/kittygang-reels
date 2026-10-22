@@ -23,7 +23,7 @@ async function writeXlsx(tr, out) {
     { header: 'Format', key: 'format', width: 18 }, { header: 'Hook', key: 'hook', width: 30 }, { header: 'Characters', key: 'cast', width: 22 },
     { header: 'Status', key: 'status', width: 11 }, { header: 'Posted / slot (IST)', key: 'scheduled', width: 18 }, { header: 'Post link', key: 'permalink', width: 40 }, { header: 'YouTube Short', key: 'yt', width: 36 },
     { header: 'Views', key: 'views', width: 8 }, { header: 'Reach', key: 'reach', width: 8 }, { header: 'Likes', key: 'likes', width: 7 }, { header: 'Comments', key: 'comments', width: 9 },
-    { header: 'Saves', key: 'saves', width: 7 }, { header: 'Shares', key: 'shares', width: 7 }, { header: 'Score', key: 'score', width: 7 },
+    { header: 'Saves', key: 'saves', width: 7 }, { header: 'Shares', key: 'shares', width: 7 }, { header: 'Score', key: 'score', width: 7 }, { header: 'Skip rate %', key: 'skip', width: 10 }, { header: 'Avg watch (s)', key: 'watch_s', width: 12 }, { header: 'Watched %', key: 'watched_pct', width: 10 },
     { header: 'Video', key: 'video', width: 40 }, { header: 'Storyboard', key: 'board', width: 40 }, { header: 'Caption', key: 'caption', width: 50 },
   ]);
   for (const x of [...tr.reels].reverse()) r.addRow({ id: x.id, created: x.created, title: x.title, format: x.format, hook: x.hook, cast: (x.cast || []).join(', '), status: x.status, scheduled: x.scheduled_ist, permalink: x.permalink, yt: x.yt_url, ...(x.stats || {}), video: x.video_url, board: x.board_url, caption: x.caption });

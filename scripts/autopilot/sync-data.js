@@ -19,7 +19,9 @@ const T = require('./tracker');
     const q = queue.reels.find((x) => x.local_id === r.id);
     if (q) Object.assign(r, { status: q.status === 'publishing' ? 'queued' : q.status, permalink: q.permalink || r.permalink, media_id: q.media_id || r.media_id, error: q.error || undefined });
     const p = content.posts.find((x) => (r.media_id && x.media_id === r.media_id) || (r.permalink && x.permalink === r.permalink));
-    if (p) r.stats = { views: p.views, reach: p.reach, likes: p.likes, comments: p.comments, saves: p.saves, shares: p.shares, score: p.score, as_of: p.day };
+    // reels also carry skip rate (% who swipe away in the first 3 s) and average watch time
+    const watch = p && p.avg_watch_ms != null ? Math.round(p.avg_watch_ms / 100) / 10 : undefined;
+    if (p) r.stats = { views: p.views, reach: p.reach, likes: p.likes, comments: p.comments, saves: p.saves, shares: p.shares, score: p.score, skip: p.skip_rate ?? undefined, watch_s: watch, watched_pct: watch != null && r.duration ? Math.round((watch / r.duration) * 100) : undefined, as_of: p.day };
   }
   T.save(tr);
   if (process.env.R2_ACCESS_KEY_ID) console.log('tracker:', await T.publishTracker(tr));
