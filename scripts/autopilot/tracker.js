@@ -36,6 +36,9 @@ async function writeXlsx(tr, out) {
   const i = wb.addWorksheet('Ideas');
   head(i, [{ header: 'Added', key: 'added', width: 12 }, { header: 'Idea', key: 'idea', width: 70 }, { header: 'Format', key: 'format', width: 20 }, { header: 'Source', key: 'source', width: 30 }, { header: 'Score', key: 'score', width: 7 }, { header: 'Used in', key: 'used', width: 22 }]);
   for (const x of [...(tr.ideas || [])].reverse()) i.addRow(x);
+  const rs = wb.addWorksheet('Trend Research');
+  head(rs, [{ header: 'Date', key: 'date', width: 12 }, { header: 'Pattern', key: 'pattern', width: 28 }, { header: 'Source post', key: 'source', width: 60 }, { header: 'Likes', key: 'likes', width: 8 }, { header: 'Comments', key: 'comments', width: 9 }, { header: 'Link', key: 'link', width: 45 }, { header: 'What we learn', key: 'learn', width: 70 }]);
+  for (const x of tr.research || []) rs.addRow(x);
   const l = wb.addWorksheet('Learnings');
   head(l, [{ header: 'Learnings', key: 'line', width: 140 }]);
   const lf = path.join(ROOT, 'autopilot', 'LEARNINGS.md');

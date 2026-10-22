@@ -120,7 +120,88 @@
       "board_url": "https://claude.ai/artifact/GxdDasKXAZH5Vt88EvAmZ9"
     }
   ],
-  "ideas": [],
+  "ideas": [
+    {
+      "added": "2026-10-22",
+      "idea": "Diwali safai wali Housie: every called number is a chore (\"Number 7: pankha saaf!\"); whoever cuts it does it. End: the host sips chai while the gang has cleaned her whole house.",
+      "format": "Housie twist + festival",
+      "source": "Trend: safai wali housie (this week) + Diwali",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Tina the Kitty Fashion Police: she stands at the door rating every arrival 1-10 like a judge. End: Ruhi points out Tina's own blouse is inside out.",
+      "format": "Aunty character comedy",
+      "source": "Trend: billi maasi / Pummy aunty personas",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Same pinch aunty: Tanya arrives in a new \"exclusive\" saree, then Shruti in the same, then Myra. End: the host opens the door in it too. \"...Sale wala?\"",
+      "format": "Matching outfits",
+      "source": "Trend: \"Same pinch aunty\" viral clip, Oct 2026",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Housie on the loudspeaker: the caller calls numbers so loud the neighbours start playing from their balconies. End: the aunty from the opposite flat shouts FULL HOUSE first.",
+      "format": "Housie twist",
+      "source": "Trend: \"played housie like this? notify neighbours\" (81 comments)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Desi Bridgerton kitty: Tanya announces a Bridgerton theme; the gang arrives in sarees with lace gloves and fascinators. End: Tina enters as the Queen with a giant wig and a fan.",
+      "format": "Theme showcase comedy",
+      "source": "Trend: The Nod, desi Bridgerton aunties; like our Bollywood reel",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Kitty game in 30 seconds: the gang plays Newspaper Dance, paper folds smaller every round. End: Tina simply lifts Tanya on her back and wins.",
+      "format": "One-minute game",
+      "source": "Trend: one-minute game demos (Roop ki rani 646 likes) + ties to our carousel",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Karwa Chauth kitty: everyone is fasting, the host serves only water, and everyone stares at the snack table. End: someone shouts \"chaand nikal aaya!\" and the table is cleared in 2 seconds.",
+      "format": "Festival scene",
+      "source": "Trend: Karwa Chauth posts in kitty hashtags this week",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Teen patti card party: Gold & Silver theme, Shruti the calculator queen counts every chip. End: Myra, the new girl who \"doesn't know cards\", wins every hand.",
+      "format": "Theme showcase comedy",
+      "source": "Trend: Gold & Silver card party (129 likes, 11 comments)",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "Twins kitty theme: everyone must come dressed as a twin with a partner. End: Tina's \"twin\" turns out to be her husband in the same kurta.",
+      "format": "Theme showcase comedy",
+      "source": "Trend: twins kitty theme reels",
+      "score": 7,
+      "used": ""
+    },
+    {
+      "added": "2026-10-22",
+      "idea": "\"That friend\" at Housie: one lady questions every number (\"Pakka 27 bola? 72 toh nahi?\"). End: she claims Full House... with numbers from a different game.",
+      "format": "That friend / multi-persona",
+      "source": "Trend: lightreel \"that friend\" scenarios",
+      "score": 7,
+      "used": ""
+    }
+  ],
   "carousels": [
     {
       "id": "KGI-001",
@@ -166,6 +247,125 @@
       "tagline": "Akhbaar chhota, masti badi!",
       "players": "6 to 20 (in pairs)",
       "time": "10 to 15 minutes"
+    }
+  ],
+  "research": [
+    {
+      "date": "2026-10-22",
+      "pattern": "Aunty character comedy",
+      "source": "Missing all the ‘billi parties’ much?👀 kushakapila . . . #billimaasi #kushakapila #kittyparties #southdelhi #southdelhigirls #westdelhigirl",
+      "likes": 3949,
+      "comments": 34,
+      "link": "https://www.instagram.com/p/B_1i9r2DvEJ/",
+      "learn": "Kusha Kapila \"billi maasi\" kitty aunty: a strong, exaggerated aunty persona gets big likes and comments. Our Tina can be that persona."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Aunty character comedy",
+      "source": "Meet Pummy aunty from Rajori Garden(West Dilli) waiting for things to get back to normal so that she can get back to her kitty parties🤣🤣🤣",
+      "likes": 864,
+      "comments": 11,
+      "link": "https://www.instagram.com/p/CC8eypMpW4A/",
+      "learn": "Named, local aunty (Pummy aunty, Rajouri Garden) missing her kitty: specific place + persona = relatable."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Housie with a twist",
+      "source": "Have you ever played housie like this ? 🤟🤩 Time to notify your neighbours 😄  #DforDelhi #instagram #instagramjoke #funnyvideo #funny #wan",
+      "likes": 2618,
+      "comments": 81,
+      "link": "https://www.instagram.com/p/B-FW73Ll4xT/",
+      "learn": "\"Have you ever played housie like this?\" got 81 comments: an unusual way of playing Housie makes people comment and tag."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Housie with a twist + festival",
+      "source": "Aao khele safai wali housie😂😂  #kittyparty #tambola #kittypartyfun #housie #gharkisafai   [Diwali ki safai, Play Housie, Play Tambola, Kit",
+      "likes": 8,
+      "comments": 1,
+      "link": "https://www.instagram.com/reel/DewLWVZPA-B/",
+      "learn": "\"Safai wali housie\" (Diwali cleaning chores as Housie): festival-timed twist on Housie, fresh this week."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "One-minute game",
+      "source": "Roop ki rani - Kitty fun game - for any time one minute game  #funwithfriends #kittypartygames #trendingnow",
+      "likes": 646,
+      "comments": 18,
+      "link": "https://www.instagram.com/reel/DewcyejAHed/",
+      "learn": "\"Roop ki rani, one minute game\" is the best recent post (646 likes, posted this week): quick game demos are what kitty accounts save."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "One-minute game",
+      "source": "Would you be able to beat this 30 -second challenge?😂 . . . . . Tag your kitty gang!💕 #kittypartygames #contentcreator #bathinda #trending",
+      "likes": 11,
+      "comments": 3,
+      "link": "https://www.instagram.com/reel/DewtjVKz3ea/",
+      "learn": "\"30-second challenge, tag your kitty gang\": challenge framing + tag prompt."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "One-minute game",
+      "source": "🌸🎨 Flower Thumb Impression Game | Fun Kitty Party Game Idea 🎲  A fun, creative & easy-to-play game for your next kitty party! 💕 Roll the",
+      "likes": 56,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DeyDD7XhLON/",
+      "learn": "Flower thumb impression game: creative / craft games are trending for kitty groups."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Theme showcase",
+      "source": "✨👑 SONA CHANDI – GOLD & SILVER CARD PARTY ✨🪙  A little sparkle, a lot of laughter, endless fun & a whole lot of QUEEN ENERGY! 💛🤍👑  Our ",
+      "likes": 129,
+      "comments": 11,
+      "link": "https://www.instagram.com/reel/Dew2zEOTGWx/",
+      "learn": "Gold & Silver card party: card-party theme with \"queen energy\" caption gets comments."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Theme showcase",
+      "source": "Shandar twins Kitty theme ✌️💃💃💃💃#kittygamesfun #kittypartygames #twinskitty #viralkittygame #instagrowth",
+      "likes": 22,
+      "comments": 1,
+      "link": "https://www.instagram.com/reel/Dew5teWMDaK/",
+      "learn": "Twins kitty theme: pairs dress alike; easy visual theme."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Theme showcase",
+      "source": "💎✨ DENIM & DIAMONDS — A THEME TO REMEMBER! 👖💙  When denim meets diamonds, every little detail deserves to sparkle! ✨💎  A complete custom",
+      "likes": 11,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DewFki3PywL/",
+      "learn": "Denim & Diamonds theme: Western themes are popular with kitty planners."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Theme showcase (press)",
+      "source": "The Nod, Mar 2026: kitty party aunties on Instagram, desi Bridgerton (jewel saris, lace gloves, fascinators)",
+      "likes": null,
+      "comments": null,
+      "link": "https://thenodmag.com/content/kitty-party-ladies-instagram-social-media-cringe-content",
+      "learn": "Over-the-top themed kitty looks are a recognised IG trend; humour + dressing up is the draw."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "Matching outfits (viral clip)",
+      "source": "Technosports viral reels 1 Oct 2026: \"Same pinch aunty\" film clip, matching outfits",
+      "likes": null,
+      "comments": null,
+      "link": "https://technosports.co.in/top-5-viral-instagram-reels-today-oct-1-2026/",
+      "learn": "Matching-outfit embarrassment is a viral joke right now: our \"same saree\" idea fits it."
+    },
+    {
+      "date": "2026-10-22",
+      "pattern": "\"That friend\" / multi-persona",
+      "source": "lightreel.ai weekly report Oct 10-17 2026",
+      "likes": null,
+      "comments": null,
+      "link": "https://lightreel.ai/blogs/whats-trending-on-instagram",
+      "learn": "Exaggerated \"that friend\" scenarios and multi-persona reactions remain active comedy formats."
     }
   ]
 }
