@@ -36,7 +36,7 @@ room tone, cover.** Use the `scene` kit for almost every shot; the older kits ar
 - `clock`: { "h": 4, "m": 30 } small wall clock top right
 - `camera`: "still" to stop the slow push-in, "punch" / "push" for energy
 - `music`: false on a shot to cut the party music (e.g. before a reveal; the villain riff or thunder carries it)
-- `sfx`: [{ "at": 0.1, "name": "doorbell", "vol": 0.5 }] seconds after the shot starts. Names: whoosh, whip, pop, cricket, shutter, ping, scratch, sting, boing, slurp, thud, heartbeat, calc, doorbell, creak, clap, chimes, thunder, villain, sitar, gasp, cage (Housie balls tumbling), ballpop, swish, sparkle, crowd, rip, riser, tick, sparkle, impact, riser, ballpop, tick, flatline, rip, slap, swish, crowd
+- `sfx`: [{ "at": 0.1, "name": "doorbell", "vol": 0.5 }] seconds after the shot starts. Names: whoosh, whip, pop, cricket, shutter, ping, scratch, sting, boing, slurp, thud, heartbeat, calc, doorbell, creak, clap, chimes, thunder, villain, sitar, gasp, cage (Housie balls tumbling), ballpop, swish, sparkle, crowd, rip, riser, tick, tabla, boom, rimshot, slideup, slidedown, ding, drip, zip, footsteps, laugh (room of ladies laughing), giggle, ohho, haaye, waah, haww (Hindi crowd reactions). Automatic: crowd laugh after the last punchline, giggles and gasps after other punchlines; add `laugh` yourself wherever a moment is genuinely funny, sparkle, impact, riser, ballpop, tick, flatline, rip, slap, swish, crowd
   (Automatic already: whip on every cut, pop on stickers and punchlines, ping on chat messages, shutter on camera flash, whoosh on hooks, cricket on silenceBefore.)
 
 ## Top-level extras

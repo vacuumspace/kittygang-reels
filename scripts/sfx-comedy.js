@@ -92,3 +92,15 @@ console.log('comedy sfx done:', fs.readdirSync(OUT).length, 'files');
 { const A = buf(0.25), f = bp(1000, 2); add(A, 0, 0.18, (t) => f(rnd(), 900 + 30000 * t) * Math.min(1, t * 60) * Math.exp(-t * 14) * 1.2); wav('zip', A); }
 // footsteps: four soft steps
 { const A = buf(1.2); for (let k = 0; k < 4; k++) { const f = bp(140, 1.2); add(A, k * 0.26, 0.12, (t) => f(rnd()) * Math.exp(-t * 40) * 1.4); } wav('footsteps', A); }
+// laugh: a room of ladies giggling, built from "ha" syllables (voiced pulse train through 'aa' vowel formants,
+// plus breath), each voice with its own pitch and rhythm, falling pitch and fading like a real laugh
+function laughVoice(A, at, f0, n, rate, g) {
+  const F = [[850, 6], [1250, 8], [2800, 10]];
+  for (let k = 0; k < n; k++) {
+    const st = at + k * (1 / rate) * (0.9 + 0.2 * Math.abs(rnd())), len = (1 / rate) * 0.62, p0 = f0 * (1 - 0.035 * k) * (1 + 0.04 * rnd());
+    const flt = F.map(([fc, q]) => bp(fc * (1 + 0.05 * rnd()), q)), br = bp(1500, 0.7); let ph = 0;
+    add(A, st, len, (t) => { ph += p0 * (1 + 0.08 * Math.sin(t * 30)) / SR; const pulse = (ph % 1) < 0.35 ? 1 : -0.4; const src = pulse * 0.6 + rnd() * 0.25; const env = Math.sin(Math.PI * Math.min(1, t / len)) ** 1.5 * Math.exp(-k * 0.12); return (flt[0](src) * 1 + flt[1](src) * 0.6 + flt[2](src) * 0.25 + br(rnd()) * 0.25) * env * g; });
+  }
+}
+{ const A = buf(2.4); [[0.0, 260, 9, 6.5, 1], [0.08, 300, 8, 7.2, 0.8], [0.15, 225, 7, 5.8, 0.9], [0.05, 340, 8, 7.8, 0.6], [0.22, 280, 6, 6.2, 0.7]].forEach(([at, f0, n, r, g]) => laughVoice(A, at, f0, n, r, g)); wav('laugh', A); }
+{ const A = buf(1.2); [[0.0, 300, 5, 8, 1], [0.06, 340, 4, 8.5, 0.7]].forEach(([at, f0, n, r, g]) => laughVoice(A, at, f0, n, r, g)); wav('giggle', A); }

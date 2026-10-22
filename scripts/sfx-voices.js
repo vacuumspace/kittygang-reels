@@ -9,7 +9,7 @@ const ROOT = path.join(__dirname, '..');
 const CAST = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'cast.json'), 'utf8'));
 const TMP = path.join(ROOT, 'out', 'sfxv');
 fs.mkdirSync(TMP, { recursive: true });
-const REACTIONS = { ohho: 'ओहोऽ!', haaye: 'हाये!', waah: 'वाह!', haww: 'हॉ!' };
+const REACTIONS = { ohho: 'ओहोऽ!', haaye: 'हाये!', waah: 'वाह!', haww: 'हॉ!', laughv: 'हाहाहाहा... हाहा!' };
 const cmd = process.env.EDGE_TTS_BIN ? [process.env.EDGE_TTS_BIN] : ['uvx', 'edge-tts'];
 for (const [name, text] of Object.entries(REACTIONS)) {
   const parts = [];

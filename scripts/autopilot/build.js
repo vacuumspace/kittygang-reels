@@ -9,6 +9,8 @@ const { execFileSync } = require('child_process');
 const ROOT = path.join(__dirname, '..', '..');
 const CAST = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'cast.json'), 'utf8'));
 const FPS = 30;
+// crowd laugh used after the last punchline and as a giggle between punches (style picked by the team)
+const LAUGH = 'laugh', GIGGLE = 'giggle';
 // Pace: every voice a little faster than its base setting (comedy needs speed).
 const boost = (r) => { const m = String(r || '+0%').match(/^([+-]?\d+)/); const v = (m ? Number(m[1]) : 0) + (D.pace ?? 18); return (v >= 0 ? '+' : '') + v + '%'; };
 const draftFile = process.argv[2];
@@ -80,8 +82,8 @@ function envelope(file) {
       // punchlines: a hit on the line, then the room reacts (twist: boom + "Ohho!", button: tabla, others: a quick gasp)
       if (L.punch) {
         if (L.beat === 'twist') { sfx.push({ at: lt, name: 'boom', vol: 0.45 }); sfx.push({ at: lt + d + 0.05, name: 'ohho', vol: 0.45 }); }
-        else if (L.beat === 'button') sfx.push({ at: lt + d + 0.05, name: 'tabla', vol: 0.55 });
-        else { sfx.push({ at: lt, name: 'pop', vol: 0.3 }); sfx.push({ at: lt + d + 0.02, name: punchN++ % 2 ? 'haaye' : 'haww', vol: 0.35 }); }
+        else if (L.beat === 'button') { sfx.push({ at: lt + d + 0.05, name: 'tabla', vol: 0.55 }); sfx.push({ at: lt + d + 0.35, name: LAUGH, vol: 0.4 }); }
+        else { sfx.push({ at: lt, name: 'pop', vol: 0.3 }); sfx.push({ at: lt + d + 0.02, name: ['haww', GIGGLE, 'haaye'][punchN++ % 3], vol: 0.35 }); }
       }
       lt += d + (L.gap ?? 0.12);
       console.log(L.who.padEnd(7), d.toFixed(2), L.text);
