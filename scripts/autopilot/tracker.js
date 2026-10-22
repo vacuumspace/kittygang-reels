@@ -63,7 +63,7 @@ async function publishTracker(tr) {
   const out = path.join(ROOT, 'out', 'tracker.xlsx');
   fs.mkdirSync(path.dirname(out), { recursive: true });
   await writeXlsx(tr, out);
-  if (process.env.R2_ACCESS_KEY_ID) return r2put(out, 'reels/autopilot/Kitty-Gang-Reels-Tracker.xlsx', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+  if (process.env.R2_ACCESS_KEY_ID) return r2put(out, 'content/Kitty-Party-Content-Tracker.xlsx', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
   return out;
 }
 module.exports = { load, save, writeXlsx, r2put, agent, publishTracker, ROOT };
