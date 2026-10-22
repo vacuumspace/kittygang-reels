@@ -50,7 +50,8 @@ function envelope(file) {
 }
 
 (async () => {
-  let t = 0.3, n = 0;
+  // the first frame is the reel's first shot (Instagram picks covers from it), so no lead-in
+  let t = 0, n = 0;
   const lines = [], shots = [], sfx = [];
   for (const [si, s] of D.shots.entries()) {
     const shot = { ...s, start: t };
@@ -91,7 +92,7 @@ function envelope(file) {
   const total = +(t + (D.tail ?? 0.6)).toFixed(2);
   execFileSync('node', [path.join(ROOT, 'scripts', 'music-quirky.js'), path.join(OUT, 'music.wav'), String(Math.ceil(total + 1))], { stdio: 'ignore' });
   fs.rmSync(TMP, { recursive: true, force: true });
-  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', frames: Math.round(total * FPS) };
+  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', frames: Math.round(total * FPS), cover: D.cover };
   fs.mkdirSync(path.join(ROOT, 'autopilot', 'timed'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'autopilot', 'timed', D.id + '.json'), JSON.stringify({ spec }));
   console.log('total', total, 's');

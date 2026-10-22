@@ -1,6 +1,6 @@
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame } from 'remotion';
 import { loadFont } from '@remotion/google-fonts/Fredoka';
-import { frameAt } from './engine';
+import { frameAt, coverFrame } from './engine';
 
 const { fontFamily } = loadFont('normal', { weights: ['500', '600', '700'] });
 export const FPS = 30;
@@ -32,3 +32,10 @@ export const AutoReel: React.FC<{ spec: Spec }> = ({ spec }) => {
     </AbsoluteFill>
   );
 };
+
+// Cover image for the post (one frame): the reel's best moment plus a bold title.
+export const AutoCover: React.FC<{ spec: Spec }> = ({ spec }) => (
+  <AbsoluteFill style={{ background: '#FFF4F7' }}>
+    <svg viewBox="0 0 1080 1920" width={1080} height={1920} style={{ position: 'absolute', inset: 0, fontFamily }} dangerouslySetInnerHTML={{ __html: coverFrame(spec) }} />
+  </AbsoluteFill>
+);

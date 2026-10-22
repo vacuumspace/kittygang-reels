@@ -75,3 +75,7 @@ Need something that is not here? Use the nearest prop or a sticker, and add the 
 - `game`: the one repeating funny pattern, e.g. "every excuse gets busted".
 - `mute`: array, one entry per beat: what a viewer understands from pictures and captions alone.
 - `review.clarity`: must be 5. Total is out of 55 (11 scores).
+
+## Cover (required)
+- `cover`: { "shot": index of the strongest shot (usually the twist), "at": seconds into that shot, "title": ["short line 1", "short line 2"] }.
+  The title is the premise in under 25 characters per line (e.g. "Kitty theme: BOLLYWOOD", "Tina aayi Gabbar banke!"). It is posted as the reel cover.

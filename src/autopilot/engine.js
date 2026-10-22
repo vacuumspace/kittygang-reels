@@ -144,7 +144,7 @@ const KITS = {
 
 // ---------- frame ----------
 export function frameAt(spec, t) {
-  const sh = spec.shots.find((s) => t >= s.start && t < s.end) || spec.shots[spec.shots.length - 1];
+  const sh = t < spec.shots[0].start ? spec.shots[0] : spec.shots.find((s) => t >= s.start && t < s.end) || spec.shots[spec.shots.length - 1];
   const u = t - sh.start, len = sh.end - sh.start;
   let body = (KITS[sh.kit] || KITS.card)(spec, sh, t);
   body += (sh.props || []).map((p) => propAt(p, sh, t)).join('');
@@ -161,7 +161,21 @@ export function frameAt(spec, t) {
   if (sh.hook) o += hookBanner(sh.hook, sh.start, t, sh.hookY || 520);
   if (sh.chip) o += chip(sh.chip, sh.start + 0.2, t, sh.chipY || 560);
   if (sh.kit !== 'phone') { const l = spec.lines.find((x) => t >= x.start - 0.05 && t <= x.start + x.dur + 0.2); if (l && !sh.hook) o += caption(l.text, l.start - 0.05, t); }
-  const fadeIn = t < 0.25 ? 1 - t / 0.25 : 0, fadeOut = sat((t - (spec.total - 0.5)) / 0.5);
-  if (fadeIn + fadeOut > 0) o += '<rect width="1080" height="1920" fill="#FFF4F7" opacity="' + f2(Math.max(fadeIn, fadeOut)) + '"></rect>';
+  // no fade-in: frame 1 must be the real scene (it is what Instagram shows before a cover is set)
+  const fadeOut = sat((t - (spec.total - 0.5)) / 0.5);
+  if (fadeOut > 0) o += '<rect width="1080" height="1920" fill="#FFF4F7" opacity="' + f2(fadeOut) + '"></rect>';
+  return o;
+}
+
+// Cover: the strongest frame of the reel (draft "cover": { shot: index, at: seconds into that shot, title: [line1, line2] })
+// with a bold title kept inside the 3:4 grid crop (y 240-1680).
+export function coverFrame(spec) {
+  const c = spec.cover || {};
+  const sh = spec.shots[c.shot ?? Math.floor(spec.shots.length / 2)];
+  const t = sh.start + (c.at ?? Math.min(1.2, (sh.end - sh.start) * 0.7));
+  let o = frameAt({ ...spec, lines: [] }, t);
+  // title: one size for every line, each on its own tilted pill, well spaced
+  const size = 66, gap = 150;
+  (c.title || []).forEach((tx, i) => { const w = tx.length * size * 0.54 + 90; o += '<g transform="translate(540 ' + ((c.titleY || 360) + i * gap) + ') rotate(' + (i % 2 ? 2 : -2) + ')"><rect x="' + f1(-w / 2) + '" y="' + f1(-size * 0.95) + '" width="' + f1(w) + '" height="' + f1(size * 1.3) + '" rx="24" fill="' + (i === c.title.length - 1 ? PINK : PLUM) + '"></rect><text x="0" y="' + f1(size * 0.14) + '" text-anchor="middle" font-family="Fredoka" font-weight="600" font-size="' + size + '" fill="#FFFFFF">' + esc(tx) + '</text></g>'; });
   return o;
 }

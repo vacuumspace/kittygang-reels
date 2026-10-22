@@ -33,6 +33,7 @@ function qa(draft, spec, video) {
   add('clarity scored 5 with logline and mute test', draft.review?.clarity === 5 && !!draft.logline && Array.isArray(draft.mute), 'clarity ' + (draft.review?.clarity ?? 'missing'));
   add('has a hook in the first shot', !!(draft.shots[0]?.hook || draft.shots[0]?.lines?.length), '');
   add('has a punchline', spec.lines.some((l) => l.punch), '');
+  add('has a cover with a title', !!(draft.cover && draft.cover.title && draft.cover.title.length), '');
   if (video) add('video file exists', fs.existsSync(video), video);
   if (video && fs.existsSync(video)) {
     const all = measure(video);

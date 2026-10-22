@@ -28,8 +28,8 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
       const spec = JSON.parse(fs.readFileSync(path.join(ROOT, props), 'utf8')).spec;
       const mp4 = `out/${D.id}.mp4`;
       run('npx', ['remotion', 'render', 'AutoReel', mp4, `--props=${props}`, '--log=error']);
-      // cover = hook frame; storyboard = the middle of every shot side by side
-      run('npx', ['remotion', 'still', 'AutoReel', `out/${D.id}-cover.jpg`, `--props=${props}`, '--frame=24', '--image-format=jpeg', '--log=error']);
+      // cover = the draft's chosen frame with its title (AutoCover); storyboard = the middle of every shot side by side
+      run('npx', ['remotion', 'still', 'AutoCover', `out/${D.id}-cover.jpg`, `--props=${props}`, '--image-format=jpeg', '--log=error']);
       const frames = spec.shots.map((s, i) => { const fr = Math.round(((s.start + s.end) / 2) * 30); const o = `out/${D.id}-s${i}.jpg`; run('npx', ['remotion', 'still', 'AutoReel', o, `--props=${props}`, `--frame=${fr}`, '--image-format=jpeg', '--scale=0.3', '--log=error']); return o; });
       const board = `out/${D.id}-board.jpg`;
       execFileSync('ffmpeg', ['-y', '-loglevel', 'error', ...frames.flatMap((x) => ['-i', x]), '-filter_complex', frames.map((_, i) => `[${i}]`).join('') + `hstack=${frames.length}`, board], { cwd: ROOT });
@@ -45,7 +45,7 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
         rec.cover_url = T.r2put(path.join(ROOT, `out/${D.id}-cover.jpg`), `reels/autopilot/${D.id}-cover.jpg`, 'image/jpeg');
         rec.board_url = T.r2put(path.join(ROOT, board), `reels/autopilot/${D.id}-board.jpg`, 'image/jpeg');
         const caption = [D.caption, (D.hashtags || ['#kittyparty', '#kittygang', '#kittypartygames', '#ladieskitty', '#housie']).join(' ')].filter(Boolean).join('\n\n');
-        const q = await T.agent('reels/queue', { video_url: rec.video_url, caption, title: D.title, local_id: D.id });
+        const q = await T.agent('reels/queue', { video_url: rec.video_url, cover_url: rec.cover_url, caption, title: D.title, local_id: D.id });
         Object.assign(rec, { status: 'queued', queue_id: q.id, scheduled_ist: q.scheduled_ist });
         console.log('queued for', q.scheduled_ist, 'IST');
       }

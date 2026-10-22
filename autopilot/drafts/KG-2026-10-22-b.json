@@ -666,5 +666,14 @@
       ],
       "hold": 0.7
     }
-  ]
+  ],
+  "cover": {
+    "shot": 5,
+    "at": 1.2,
+    "title": [
+      "Kitty theme: BOLLYWOOD",
+      "Tina aayi Gabbar banke!"
+    ],
+    "titleY": 330
+  }
 }
