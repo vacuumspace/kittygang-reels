@@ -1,0 +1,43 @@
+name: Theme Housie reel
+
+on:
+  schedule:
+    - cron: '0 19 * * *'    # 12:30 AM IST: today's theme reel, posted on Instagram + YouTube Shorts
+  workflow_dispatch:
+    inputs:
+      date: { description: 'IST date YYYY-MM-DD (blank = today)', required: false }
+      dry: { description: 'Render only, do not post', type: boolean, default: false }
+
+concurrency: { group: render, cancel-in-progress: false }
+
+jobs:
+  theme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core > /dev/null
+      - run: npm ci
+      - name: Render today's theme reel and post it
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+          AGENT_KEY: ${{ secrets.AGENT_KEY }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PLAYLIST_ID: ${{ secrets.YT_THEME_PLAYLIST_ID }}
+        run: node scripts/theme/daily.js ${{ github.event.inputs.date }} ${{ github.event.inputs.dry == 'true' && '--dry' || '' }}
+      - name: Save tracker
+        if: always()
+        run: |
+          git config user.name "kittygang-bot"
+          git config user.email "bot@kittyparty.club"
+          git add autopilot/tracker.json
+          git diff --cached --quiet || (git commit -m "tracker: theme reel" && git pull --rebase && git push)
