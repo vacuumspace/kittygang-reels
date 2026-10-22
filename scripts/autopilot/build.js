@@ -10,7 +10,7 @@ const ROOT = path.join(__dirname, '..', '..');
 const CAST = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'cast.json'), 'utf8'));
 const FPS = 30;
 // crowd laugh used after the last punchline and as a giggle between punches (style picked by the team)
-const LAUGH = 'laugh', GIGGLE = 'giggle';
+const LAUGH = 'laughv', GIGGLE = 'laughv';
 // Pace: every voice a little faster than its base setting (comedy needs speed).
 const boost = (r) => { const m = String(r || '+0%').match(/^([+-]?\d+)/); const v = (m ? Number(m[1]) : 0) + (D.pace ?? 18); return (v >= 0 ? '+' : '') + v + '%'; };
 const draftFile = process.argv[2];
