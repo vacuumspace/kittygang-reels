@@ -1,5 +1,6 @@
 import { Composition } from 'remotion';
 import { AutoReel, AutoCover, type Spec } from './autopilot/AutoReel';
+import { Slide } from './carousel/Slide';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -22,5 +23,6 @@ export const RemotionRoot: React.FC = () => (
     height={1920}
     defaultProps={{ spec: { id: 'none', total: 10, lines: [], shots: [{ start: 0, end: 10, kit: 'card' }], sfx: [] } as Spec }}
   />
+  <Composition id="Slide" component={Slide as any} durationInFrames={1} fps={30} width={1080} height={1350} defaultProps={{ svg: '' }} />
   </>
 );

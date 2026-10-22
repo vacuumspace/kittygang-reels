@@ -67,7 +67,7 @@ https://claude.ai/artifact/TyH5jMemjRZmmnWQa9BD12 (board "Final cast · Kitty Ga
 - **Voices:** reels/scripts/voice-cast.js (multi-character, per-line, loudness-levelled, per-frame lip-sync envelope into timing.json).
 - **Music and SFX:** reels/scripts/music-quirky.js (and music-garba.js), sfx.js, sfx-comedy.js into public/.
 - **Storyboards:** canvas boards built by OneDrive generators (kgreels.js + kgkit.js + stageKit.js). Check frames at zoom before publishing.
-- **Output:** 1080 x 1920 MP4 into OneDrive AI Generated/reels. Pipeline notes and lessons: reels/REEL PIPELINE.md.
+- **Output:** 1080 x 1920 MP4 into OneDrive Content/Claude Reels/reels. Pipeline notes and lessons: reels/REEL PIPELINE.md.
 
 ## 7. Writing room and production pipeline (added 2026-10-21)
 

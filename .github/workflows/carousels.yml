@@ -1,0 +1,36 @@
+name: Render carousels
+
+on:
+  push:
+    branches: [main]
+    paths: ['carousels/drafts/**']
+  workflow_dispatch:
+
+# same group as the reel render so the two never write the tracker at the same time
+concurrency: { group: render, cancel-in-progress: false }
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: npm ci
+      - name: Render new game carousels, publish web pages, book posting slots
+        env:
+          AGENT_KEY: ${{ secrets.AGENT_KEY }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: node scripts/carousels/render-new.js
+      - name: Save tracker
+        run: |
+          git config user.name "kittygang-bot"
+          git config user.email "bot@kittyparty.club"
+          git add autopilot/tracker.json
+          git diff --cached --quiet || (git commit -m "tracker: game carousel rendered and queued" && git pull --rebase && git push)

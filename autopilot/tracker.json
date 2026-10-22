@@ -120,5 +120,21 @@
       "board_url": "https://claude.ai/artifact/GxdDasKXAZH5Vt88EvAmZ9"
     }
   ],
-  "ideas": []
+  "ideas": [],
+  "carousels": [
+    {
+      "id": "KGI-001",
+      "n": 1,
+      "created": "2026-10-22",
+      "game": "Rubber Band Cup Tower",
+      "slug": "rubber-band-cup-tower-kitty-game",
+      "caption": "Agli kitty mein yeh try karo. Haath nahi, sirf dhaage! Kaunsi team jeetegi?",
+      "status": "published",
+      "scheduled_ist": "2026-10-22 14:55",
+      "permalink": "https://www.instagram.com/p/DeyqKnGDs4I/",
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/rubber-band-cup-tower-kitty-game",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-001/s1.jpg",
+      "slides": 9
+    }
+  ]
 }

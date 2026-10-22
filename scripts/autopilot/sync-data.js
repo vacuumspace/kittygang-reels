@@ -13,7 +13,8 @@ const T = require('./tracker');
   fs.writeFileSync(path.join(dir, 'our-posts.json'), JSON.stringify(content.posts, null, 1));
   fs.writeFileSync(path.join(dir, 'queue.json'), JSON.stringify(queue.reels, null, 1));
   const tr = T.load();
-  for (const r of tr.reels) {
+  // reels and game carousels share the posting queue and the stats source
+  for (const r of [...tr.reels, ...(tr.carousels || [])]) {
     const q = queue.reels.find((x) => x.local_id === r.id);
     if (q) Object.assign(r, { status: q.status === 'publishing' ? 'queued' : q.status, permalink: q.permalink || r.permalink, media_id: q.media_id || r.media_id, error: q.error || undefined });
     const p = content.posts.find((x) => (r.media_id && x.media_id === r.media_id) || (r.permalink && x.permalink === r.permalink));

@@ -1,0 +1,95 @@
+{
+  "id": "KGI-002",
+  "n": 2,
+  "slug": "newspaper-dance-kitty-party-game",
+  "game": "Newspaper Dance",
+  "tagline": "Akhbaar chhota, masti badi!",
+  "cover_art": [
+    { "k": "paper", "x": 540, "y": 300, "w": 420 },
+    { "k": "person", "x": 470, "y": 200, "s": 1.25, "color": "pink" },
+    { "k": "person", "x": 610, "y": 200, "s": 1.25, "color": "yel" },
+    { "k": "note", "x": 300, "y": 160, "s": 1.1, "color": "#FFFFFF" },
+    { "k": "note", "x": 780, "y": 120, "s": 1.1, "color": "#FFFFFF" }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas akhbaar aur gaane",
+    "items": [
+      { "label": "Purane akhbaar", "sub": "har jodi ko 1", "draw": [{ "k": "paper", "x": 150, "y": 120, "w": 240 }] },
+      { "label": "Gaane", "sub": "phone + speaker", "draw": [{ "k": "speaker", "x": 120, "y": 110, "s": 0.8 }, { "k": "note", "x": 220, "y": 110, "s": 0.8, "color": "pink" }] },
+      { "label": "Jodiyaan", "sub": "2-2 ladies", "draw": [{ "k": "person", "x": 110, "y": 100, "s": 0.95, "color": "pink" }, { "k": "person", "x": 195, "y": 100, "s": 0.95, "color": "yel" }] }
+    ]
+  },
+  "steps": [
+    { "title": "Jodi banao, akhbaar bichhao", "body": "Har jodi ka ek poora akhbaar, floor par thodi doori par.",
+      "draw": [
+        { "k": "paper", "x": 180, "y": 560, "w": 260 }, { "k": "person", "x": 140, "y": 460, "s": 1.0, "color": "pink" }, { "k": "person", "x": 220, "y": 460, "s": 1.0, "color": "yel" },
+        { "k": "paper", "x": 480, "y": 560, "w": 260 }, { "k": "person", "x": 440, "y": 460, "s": 1.0, "color": "green" }, { "k": "person", "x": 520, "y": 460, "s": 1.0, "color": "pink" },
+        { "k": "paper", "x": 780, "y": 560, "w": 260 }, { "k": "person", "x": 740, "y": 460, "s": 1.0, "color": "yel" }, { "k": "person", "x": 820, "y": 460, "s": 1.0, "color": "green" },
+        { "k": "text", "x": 180, "y": 670, "text": "Jodi 1", "size": 34, "color": "mute" }, { "k": "text", "x": 480, "y": 670, "text": "Jodi 2", "size": 34, "color": "mute" }, { "k": "text", "x": 780, "y": 670, "text": "Jodi 3", "size": 34, "color": "mute" }
+      ] },
+    { "title": "Gaana chalao, akhbaar par naacho", "body": "Dono ke paer sirf akhbaar par rahne chahiye.",
+      "draw": [
+        { "k": "paper", "x": 480, "y": 560, "w": 420 }, { "k": "person", "x": 410, "y": 420, "s": 1.5, "color": "pink" }, { "k": "person", "x": 550, "y": 420, "s": 1.5, "color": "yel" },
+        { "k": "note", "x": 200, "y": 260, "s": 1.2, "color": "pink" }, { "k": "note", "x": 760, "y": 220, "s": 1.2, "color": "pink" }, { "k": "note", "x": 820, "y": 400, "s": 0.9, "color": "ink" },
+        { "k": "speaker", "x": 140, "y": 500, "s": 0.9 }
+      ] },
+    { "title": "Gaana ruka? Akhbaar aadha fold karo", "body": "Har round ke baad akhbaar chhota hota jaayega.",
+      "draw": [
+        { "k": "paper", "x": 200, "y": 380, "w": 300 }, { "k": "text", "x": 200, "y": 470, "text": "Round 1", "size": 34, "color": "mute" },
+        { "k": "arrow", "x1": 360, "y1": 380, "x2": 420, "y2": 380 },
+        { "k": "paper", "x": 520, "y": 380, "w": 300, "fold": 0.5 }, { "k": "text", "x": 520, "y": 470, "text": "Round 2", "size": 34, "color": "mute" },
+        { "k": "arrow", "x1": 640, "y1": 380, "x2": 700, "y2": 380 },
+        { "k": "paper", "x": 790, "y": 380, "w": 300, "fold": 0.25 }, { "k": "text", "x": 790, "y": 470, "text": "Round 3", "size": 34, "color": "mute" },
+        { "k": "text", "x": 480, "y": 620, "text": "Fold karte jao, jagah kam hoti jaayegi!", "size": 40, "color": "pink" }
+      ] },
+    { "title": "Paer bahar gaya? Jodi out!", "body": "Ek ladki doosri ko utha le, ya ek paer par khade raho. Sab allowed!",
+      "draw": [
+        { "k": "paper", "x": 250, "y": 560, "w": 300, "fold": 0.25 }, { "k": "person", "x": 225, "y": 440, "s": 1.2, "color": "pink" }, { "k": "person", "x": 330, "y": 440, "s": 1.2, "color": "yel" },
+        { "k": "svg", "markup": "<rect x='350' y='520' width='40' height='22' rx='8' fill='#4A1238'></rect>" }, { "k": "cross", "x": 250, "y": 250, "s": 1.0 }, { "k": "text", "x": 250, "y": 680, "text": "Paer bahar = out", "size": 34, "color": "mute" },
+        { "k": "paper", "x": 700, "y": 560, "w": 300, "fold": 0.25 }, { "k": "person", "x": 700, "y": 440, "s": 1.2, "color": "green" }, { "k": "person", "x": 700, "y": 300, "s": 1.0, "color": "pink" },
+        { "k": "tick", "x": 860, "y": 250, "s": 1.0 }, { "k": "text", "x": 700, "y": 680, "text": "Utha liya = safe!", "size": 34, "color": "mute" }
+      ] }
+  ],
+  "rules": {
+    "title": "Aakhri bachi jodi jeeti!",
+    "items": [
+      { "ok": false, "text": ["Paer akhbaar se bahar?", "Jodi out."] },
+      { "ok": false, "text": ["Akhbaar phat gaya?", "Jodi out."] },
+      { "ok": false, "text": ["Gaana rukne par bhi hile?", "Jodi out."] },
+      { "ok": true, "text": ["Sabse chhote akhbaar par", "tiki jodi jeeti!"] }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [["Har round mein gaana badlo,", "Bollywood se garba tak!"], ["Saree mein khelo,", "asli kitty challenge."], ["Jeetne wali jodi ko", "agli kitty ka 'dance queen' crown."]],
+    "tip": "Do layer akhbaar lo, jaldi nahi phatega."
+  },
+  "comment_hint": "kitne round tike?",
+  "caption": "Akhbaar chhota hota jaayega, masti badhti jaayegi! Agli kitty mein yeh khelo. Aapki jodi kitne round tiki?",
+  "hashtags": ["#kittyparty", "#kittypartygames", "#kittypartyideas", "#ladieskitty", "#partygames", "#newspaperdance"],
+  "web": {
+    "title": "Newspaper Dance: Kitty Party Game Rules, How to Play and Fun Twists",
+    "description": "Newspaper Dance is a classic kitty party game for pairs. Here is how to play it step by step, the rules, what you need and fun twists to make it crazier.",
+    "intro": "Newspaper Dance is a pair game where two ladies dance on a sheet of newspaper, and every time the music stops the paper is folded in half. Any pair whose foot touches the floor outside the paper is out. The last pair standing on the smallest piece of paper wins. It needs only old newspapers and music, takes about 15 minutes, and works for 6 to 20 players.",
+    "players": "6 to 20 (in pairs)",
+    "time": "10 to 15 minutes",
+    "materials": ["One old newspaper sheet per pair", "Music on a phone or speaker", "One person to play and stop the music"],
+    "steps": [
+      "Make pairs and give each pair one full newspaper sheet spread on the floor.",
+      "Play a song. Both partners dance, but their feet must stay on the newspaper.",
+      "Stop the music suddenly. Every pair folds their newspaper in half and stands on it.",
+      "Repeat. If any foot touches the floor outside the paper, that pair is out. Lifting your partner or standing on one leg is allowed."
+    ],
+    "rules": ["A foot outside the paper means the pair is out.", "A torn newspaper means the pair is out.", "Moving after the music stops means the pair is out.", "The last pair on the paper wins."],
+    "variations": ["Change the song style every round, from Bollywood to garba.", "Play it in sarees for an extra challenge.", "Give the winning pair a 'dance queen' crown for the next kitty."],
+    "tips": ["Use two layers of newspaper so it does not tear too early.", "Clear the space and keep sharp furniture corners away.", "Choose a host who stops the music at unexpected moments."],
+    "faq": [
+      { "q": "How many people do you need for Newspaper Dance?", "a": "At least 3 pairs (6 ladies). It works best with 4 to 8 pairs, and bigger groups can play in two rounds." },
+      { "q": "What do you need to play Newspaper Dance at a kitty party?", "a": "Only old newspapers (one sheet per pair) and music. Someone controls the music and checks feet when it stops." },
+      { "q": "How long does the game take?", "a": "About 10 to 15 minutes, usually 4 to 6 rounds before the paper becomes too small." },
+      { "q": "Is lifting your partner allowed?", "a": "Yes. Lifting your partner, hugging tight or standing on one leg are all allowed as long as no foot touches the floor outside the paper." },
+      { "q": "What prize can we give the winners?", "a": "Small prizes work well: a bangle set, chocolates, or a fun 'dance queen' crown they wear until the next kitty." }
+    ]
+  }
+}
