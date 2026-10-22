@@ -36,16 +36,22 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
 
   const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'theme', 'config.json'), 'utf8'));
   const dayN = Math.floor(Date.parse(d.date) / 86400e3);
-  const copy = cfg.variants.find((v) => v.id === cfg.pinned) || cfg.variants[dayN % cfg.variants.length];
+  // a different storyline every night (never yesterday's), then the next words variant for that story
+  const past = tr.reels.filter((x) => x.format === 'Theme Housie' && x.id < id && x.status !== 'failed').sort((x, y) => (x.id < y.id ? -1 : 1));
+  const last = past.length ? past[past.length - 1].story || 'pov' : null;
+  const order = cfg.order.filter((k) => cfg.stories[k]);
+  const story = cfg.pinnedStory && cfg.pinnedStory !== last ? cfg.pinnedStory : order[(order.indexOf(last) + 1) % order.length];
+  const S = cfg.stories[story], used = past.filter((x) => (x.story || 'pov') === story).length;
+  const copy = S.variants.find((v) => v.id === S.pinned) || S.variants[used % S.variants.length];
   const times = d.times.length ? d.times : ['12 PM', '3 PM', '7 PM'];
-  const rec = { id, created: d.date, title: `${d.theme.name} Housie night`, format: 'Theme Housie', theme: d.theme.id, variant: copy.id, hook: copy.hook, cast: [], status: 'rendering', idea: `Theme of the day reel: ${d.theme.name}, games ${times.join(', ')}` };
+  const rec = { id, created: d.date, title: `${d.theme.name} Housie night`, format: 'Theme Housie', theme: d.theme.id, story, variant: copy.id, hook: copy.hook, cast: [], status: 'rendering', idea: `Theme of the day reel: ${d.theme.name}, games ${times.join(', ')}` };
   try {
-    const r = await build({ id: d.theme.id, pack: d.theme.pack, sounds: d.theme.sounds, day: d.day, times, copy });
+    const r = await build({ id: d.theme.id, pack: d.theme.pack, sounds: d.theme.sounds, day: d.day, times, copy, story, seed: dayN });
     const mp4 = path.join(ROOT, r.mp4), q = qa(mp4);
     const m = lufs(mp4).match(/I:\s+(-?[\d.]+) LUFS/g); const L = m ? Number(m.pop().match(/-?[\d.]+/)[0]) : null;
     rec.duration = Math.round(q.dur * 10) / 10; rec.lufs = L;
     if (!q.ok || (L != null && L < -24)) throw new Error(`QA failed: ${q.dur}s, ${L} LUFS`);
-    rec.caption = [fill(cfg.caption, { theme: d.theme.name, times: times.join(', '), day: d.day }), cfg.hashtags.join(' ')].join('\n\n');
+    rec.caption = [fill(S.caption || cfg.caption, { theme: d.theme.name, times: times.join(', '), day: d.day }), cfg.hashtags.join(' ')].join('\n\n');
     if (DRY) { rec.status = 'rendered'; return console.log('dry run: rendered', r.mp4); }
     rec.video_url = T.r2put(mp4, `reels/theme/${id}.mp4`, 'video/mp4');
     rec.cover_url = T.r2put(path.join(ROOT, r.cover), `reels/theme/${id}-cover.jpg`, 'image/jpeg');

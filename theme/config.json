@@ -1,11 +1,110 @@
 {
-  "_about": "Nightly theme Housie reel (scripts/theme/daily.js). Each night uses the next variant in turn, or the pinned one. The researcher routine reviews stats per variant (tracker reels with format 'Theme Housie') and edits this file: add a fresh variant, drop a weak one, or pin a clear winner. {theme}, {group}, {n}, {day}, {times} are filled in.",
-  "pinned": "",
-  "variants": [
-    { "id": "pov-online", "cover": "AAJ KI HOUSIE THEME", "hook": "POV: kitty group online", "hook2": "aaj ki theme: {theme}", "start": "Game shuru!", "almostGroup": "{group}: bas ek aur!", "tense": "Bas {n} chahiye!", "full": "FULL HOUSE!", "play": "Kitty Party app pe khelo" },
-    { "id": "pov-ek-number", "cover": "AAJ RAAT KI THEME", "hook": "POV: bas ek number door", "hook2": "{theme} Housie night", "start": "Tickets ready?", "almostGroup": "{group}: ek aur aaja!", "tense": "{n} aaja yaar!", "full": "FULL HOUSE!", "play": "Kitty Party app pe khelo" },
-    { "id": "pov-sab-aa-gaye", "cover": "AAJ KI HOUSIE THEME", "hook": "POV: sab aa gaye, game shuru", "hook2": "aaj ki theme: {theme}", "start": "Number aane do!", "almostGroup": "{group}: bas ek baaki!", "tense": "Sirf {n} chahiye!", "full": "FULL HOUSE!", "play": "Kitty Party app pe khelo" }
+  "_about": "Nightly theme Housie reel (scripts/theme/daily.js). Every night uses the NEXT storyline in `order` (never the previous night's), then the next words variant of that story, and numbers seeded by the date. The researcher routine reviews stats per story and variant (tracker reels with format 'Theme Housie', fields story + variant) and edits this file: add a fresh variant, drop a weak one, pin a winner (stories.<id>.pinned), or set pinnedStory. Placeholders: {theme}, {group}, {n}, {i}, {day}, {times}. New storylines need engine code (src/theme/engine.js + STORIES in scripts/theme/build.js).",
+  "order": [
+    "pov",
+    "guess",
+    "race"
   ],
+  "pinnedStory": "",
+  "stories": {
+    "pov": {
+      "about": "POV game night on a phone: friends join, numbers called, first prize group almost done, reactions, one number left, Full House.",
+      "pinned": "",
+      "variants": [
+        {
+          "id": "pov-online",
+          "cover": "AAJ KI HOUSIE THEME",
+          "hook": "POV: kitty group online",
+          "hook2": "aaj ki theme: {theme}",
+          "start": "Game shuru!",
+          "almostGroup": "{group}: bas ek aur!",
+          "tense": "Bas {n} chahiye!",
+          "full": "FULL HOUSE!",
+          "play": "Kitty Party app pe khelo"
+        },
+        {
+          "id": "pov-ek-number",
+          "cover": "AAJ RAAT KI THEME",
+          "hook": "POV: bas ek number door",
+          "hook2": "{theme} Housie night",
+          "start": "Tickets ready?",
+          "almostGroup": "{group}: ek aur aaja!",
+          "tense": "{n} aaja yaar!",
+          "full": "FULL HOUSE!",
+          "play": "Kitty Party app pe khelo"
+        },
+        {
+          "id": "pov-sab-aa-gaye",
+          "cover": "AAJ KI HOUSIE THEME",
+          "hook": "POV: sab aa gaye, game shuru",
+          "hook2": "aaj ki theme: {theme}",
+          "start": "Number aane do!",
+          "almostGroup": "{group}: bas ek baaki!",
+          "tense": "Sirf {n} chahiye!",
+          "full": "FULL HOUSE!",
+          "play": "Kitty Party app pe khelo"
+        }
+      ],
+      "caption": "Aaj ki Housie theme: {theme}\n\nPublic Housie aaj {times}. Ticket lo, number suno, Full House maaro!\n\nDownload \"Kitty Party\" app from Play Store or App Store."
+    },
+    "guess": {
+      "about": "Quiz: the theme's own number calls play with the ball hidden; viewers guess, ball reveals; 3 rounds; ask for comments.",
+      "pinned": "",
+      "variants": [
+        {
+          "id": "guess-calls",
+          "hook": "Number call suno",
+          "hook2": "Guess karo kaunsa number!",
+          "sound": "Sound ON karo",
+          "round": "Guess {i}/3",
+          "listen": "Call suno...",
+          "last": "Last one! Dhyan se suno",
+          "tally": "Kitne sahi hue?",
+          "comment": "3/3 wale comment karo"
+        },
+        {
+          "id": "guess-champion",
+          "hook": "Housie champion ho?",
+          "hook2": "Call suno, number batao!",
+          "sound": "Sound ON karo",
+          "round": "Round {i}",
+          "listen": "Suno dhyan se...",
+          "last": "Sabse tough wala!",
+          "tally": "Score kitna hua?",
+          "comment": "Apna score comment karo"
+        }
+      ],
+      "caption": "{theme} ki number calls suno aur guess karo! Kitne sahi hue? Comment mein score batao.\n\nPublic Housie aaj {times}.\n\nDownload \"Kitty Party\" app from Play Store or App Store."
+    },
+    "race": {
+      "about": "Race: 5 friends' tickets as progress bars racing to Full House as numbers come; two need one number; you win.",
+      "pinned": "",
+      "variants": [
+        {
+          "id": "race-kaun",
+          "hook": "5 saheliyan, 1 Full House",
+          "hook2": "Kaun jeetega?",
+          "tense": "Meera aur aap, dono ko 1 chahiye!",
+          "full": "FULL HOUSE! Aap jeet gaye!"
+        },
+        {
+          "id": "race-photo-finish",
+          "hook": "Kitty group ka Housie race",
+          "hook2": "Kiska ticket pehle bharega?",
+          "tense": "Photo finish! Bas ek number!",
+          "full": "FULL HOUSE! Jeet aapki!"
+        }
+      ],
+      "caption": "5 saheliyan, ek Full House. Aap hote toh jeet jaate? {theme} theme mein khelo!\n\nPublic Housie aaj {times}.\n\nDownload \"Kitty Party\" app from Play Store or App Store."
+    }
+  },
   "caption": "Aaj ki Housie theme: {theme}\n\nPublic Housie aaj {times}. Ticket lo, number suno, Full House maaro!\n\nDownload \"Kitty Party\" app from Play Store or App Store.",
-  "hashtags": ["#kittyparty", "#housie", "#tambola", "#kittypartygames", "#ladieskitty", "#housienight"]
+  "hashtags": [
+    "#kittyparty",
+    "#housie",
+    "#tambola",
+    "#kittypartygames",
+    "#ladieskitty",
+    "#housienight"
+  ]
 }

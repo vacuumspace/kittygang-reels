@@ -31,7 +31,7 @@ The reel writer and the game writer pick from this bank, so the quality of their
 5. Keep the bank tidy: at most 15 unused ideas of each type. If over, set the lowest-scoring old ones to
    `"used": "dropped"`. Festival ideas whose festival has passed: `"used": "expired"`.
 6. Theme Housie reel (posted every night at 12:30 AM by `.github/workflows/theme.yml`): look at `reels` with
-   `"format": "Theme Housie"` and their `stats`, grouped by `variant`. Judge the hook by `stats.skip` (skip rate, lower is better), the reel by `stats.watched_pct`
+   `"format": "Theme Housie"` and their `stats`, grouped by `story` and `variant`. Judge the hook by `stats.skip` (skip rate, lower is better), the reel by `stats.watched_pct`
    (higher is better), and reach by shares + saves. Once a variant has 3+ posts with stats:
    - Add one dated line to `theme/LEARNINGS.md` (what works: hook words, cover, caption; numbers to back it).
    - Edit `theme/config.json`: drop the weakest variant (keep at least 2), add one fresh variant built from what works

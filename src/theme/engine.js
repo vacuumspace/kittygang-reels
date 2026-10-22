@@ -103,42 +103,119 @@ const view = (spec, t, st, [x, y, s]) => '<g transform="translate(' + f1(x) + ' 
 
 export function frameAt(spec, t) {
   uid = 0;
+  const L = spec.tl || TL;
+  if (t < L.hook) return coverFrame(spec, t);
+  if (spec.story === 'guess') return guessFrame(spec, t, L);
+  if (spec.story === 'race') return raceFrame(spec, t, L);
   const M = spec.theme.manifest, C = M.colors, N = spec.numbers, X = spec.copy || {};
   const ink = C.boxInk, deep = C.accentDeep;
   const g0 = M.ticketLayout.groups[0].name, seq = N.seq, all = spec.ticket.flat(), rk = Object.keys(M.reactions);
   const say = (s) => String(s).replace('{group}', g0).replace('{n}', N.last).replace('{theme}', M.name);
   // cover / opening
-  if (t < TL.hook) return homeBg(spec, t) + pill(spec, 380, X.cover || 'AAJ KI HOUSIE THEME', 60, deep, '#FFFFFF', -2, 0.05, t) + '<g transform="translate(540 600) scale(' + f3(back((t - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 130, '#FFFFFF', { stroke: deep, sw: 18 }) + '</g>' + mascot(spec, 290, 700, 500, t) + pill(spec, 1300, spec.day, 64, '#FFE58A', ink, 2, 0.5, t) + timeChips(spec, 1470, 50, 0.8, t);
   // hook: phone rises, friends join
-  if (t < TL.dive) { const u = ease((t - TL.hook) / 0.6), py = lerp(1900, 560, u), joined = Math.max(0, Math.min(5, Math.floor((t - TL.hook - 0.5) / 0.28)));
-    return homeBg(spec, t) + pill(spec, 300, X.hook || 'POV: kitty group online', 66, '#FFE58A', ink, -2, TL.hook + 0.1, t) + pill(spec, 440, say(X.hook2 || 'aaj ki theme: {theme}'), 50, '#FFFFFF', deep, 1, TL.hook + 0.3, t)
+  if (t < L.dive) { const u = ease((t - L.hook) / 0.6), py = lerp(1900, 560, u), joined = Math.max(0, Math.min(5, Math.floor((t - L.hook - 0.5) / 0.28)));
+    return homeBg(spec, t) + pill(spec, 300, X.hook || 'POV: kitty group online', 66, '#FFE58A', ink, -2, L.hook + 0.1, t) + pill(spec, 440, say(X.hook2 || 'aaj ki theme: {theme}'), 50, '#FFFFFF', deep, 1, L.hook + 0.3, t)
       + '<rect x="258" y="' + f1(py - 12) + '" width="564" height="' + f1(540 * PH / PW + 24) + '" rx="54" fill="#2A0E22"></rect><clipPath id="phc"><rect x="270" y="' + f1(py) + '" width="540" height="' + f1(540 * PH / PW) + '" rx="44"></rect></clipPath><g clip-path="url(#phc)">' + view(spec, t, { joined }, [270, py, 540 / PW]) + '</g>'; }
   // dive into the phone
-  if (t < TL.call1) { const u = ease((t - TL.dive) / 0.9), a = [270, 560, 540 / PW], b = camT(195, 300, 1.15), tr = [lerp(a[0], b[0], u), lerp(a[1], b[1], u), lerp(a[2], b[2], u)];
-    return homeBg(spec, t) + '<g opacity="' + f3(1 - u) + '"><rect x="' + f1(tr[0] - 12) + '" y="' + f1(tr[1] - 12) + '" width="' + f1(PW * tr[2] + 24) + '" height="' + f1(PH * tr[2] + 24) + '" rx="' + f1(46 * tr[2]) + '" fill="#2A0E22"></rect></g>' + view(spec, t, { joined: 5, spin: true }, tr) + (t > TL.dive + 0.5 ? band(spec) + pill(spec, 1840, X.start || 'Game shuru!', 90, '#FFE58A', ink, -3, TL.dive + 0.5, t) : ''); }
+  if (t < L.call1) { const u = ease((t - L.dive) / 0.9), a = [270, 560, 540 / PW], b = camT(195, 300, 1.15), tr = [lerp(a[0], b[0], u), lerp(a[1], b[1], u), lerp(a[2], b[2], u)];
+    return homeBg(spec, t) + '<g opacity="' + f3(1 - u) + '"><rect x="' + f1(tr[0] - 12) + '" y="' + f1(tr[1] - 12) + '" width="' + f1(PW * tr[2] + 24) + '" height="' + f1(PH * tr[2] + 24) + '" rx="' + f1(46 * tr[2]) + '" fill="#2A0E22"></rect></g>' + view(spec, t, { joined: 5, spin: true }, tr) + (t > L.dive + 0.5 ? band(spec) + pill(spec, 1840, X.start || 'Game shuru!', 90, '#FFE58A', ink, -3, L.dive + 0.5, t) : ''); }
   // first number: ball pops, dab
-  const a1 = TL.call1 + 0.4, d1 = TL.call1 + 1.4;
-  if (t < TL.pan) return view(spec, t, { called: [N.first, 86, 60, 8], ball: N.first, ballAt: a1, marked: t > d1 ? [N.first] : [], markAt: { [N.first]: d1 } }, camT(195, 330, 1.05)) + caption(spec, 1780, 'Number ' + N.first + '!', a1 + 0.2, t);
+  const a1 = L.call1 + 0.4, d1 = L.call1 + 1.4;
+  if (t < L.pan) return view(spec, t, { called: [N.first, 86, 60, 8], ball: N.first, ballAt: a1, marked: t > d1 ? [N.first] : [], markAt: { [N.first]: d1 } }, camT(195, 330, 1.05)) + caption(spec, 1780, 'Number ' + N.first + '!', a1 + 0.2, t);
   // camera pans to the ticket; quick calls fill the first prize group except one number
-  if (t < TL.react) { const u = ease((t - TL.pan) / 0.8), c = camT(195, lerp(330, 520, u), lerp(1.05, 1.35, u)), a2 = TL.pan + 0.3;
-    const marks = [N.first]; const markAt = { [N.first]: 0 }; seq.slice(1).forEach((n, i) => { const at = TL.pan + 1.0 + i * Math.min(0.65, 1.5 / Math.max(1, seq.length - 1)); if (t > at) { marks.push(n); markAt[n] = at; } });
-    return view(spec, t, { called: [N.second, N.first, 86, 60], ball: N.second, ballAt: a2, marked: marks, markAt }, c) + caption(spec, 170, say(X.almostGroup || '{group}: bas ek aur!'), TL.pan + 2.4, t); }
+  if (t < L.react) { const u = ease((t - L.pan) / 0.8), c = camT(195, lerp(330, 520, u), lerp(1.05, 1.35, u)), a2 = L.pan + 0.3;
+    const marks = [N.first]; const markAt = { [N.first]: 0 }; seq.slice(1).forEach((n, i) => { const at = L.pan + 1.0 + i * Math.min(0.65, 1.5 / Math.max(1, seq.length - 1)); if (t > at) { marks.push(n); markAt[n] = at; } });
+    return view(spec, t, { called: [N.second, N.first, 86, 60], ball: N.second, ballAt: a2, marked: marks, markAt }, c) + caption(spec, 170, say(X.almostGroup || '{group}: bas ek aur!'), L.pan + 2.4, t); }
   // reactions fly from the players
   const done = seq.concat([N.react]);
-  if (t < TL.tense) { const u = ease((t - TL.react) / 0.6), c = camT(195, lerp(520, 300, u), lerp(1.35, 1.1, u)), R = TL.react;
+  if (t < L.tense) { const u = ease((t - L.react) / 0.6), c = camT(195, lerp(520, 300, u), lerp(1.35, 1.1, u)), R = L.react;
     let o = view(spec, t, { called: [N.react, N.second, N.first, 86], ball: N.react, ballAt: R + 0.1, marked: done, markAt: { [N.react]: R + 0.5 }, reacts: [0, 1, 2, 3, 4].map((i) => [rk[(i * 2) % rk.length], i, R + 0.6 + i * 0.2]) }, c);
     Object.values(M.reactions).forEach((r0, i) => { const v = (t - R - 0.4 - i * 0.18) / 1.8; if (v > 0 && v < 1) o += '<g opacity="' + f3(1 - v * v) + '">' + inline(spec, r0.art, 120 + i * 180, 1750 - v * 900, 150, 150) + '</g>'; });
     return o; }
   // tension: one number left
   const almost = all.filter((n) => n !== N.last);
-  if (t < TL.full) return view(spec, t, { called: [N.react, N.second, N.first, 8], ball: '?', marked: almost, spin: true }, camT(195, 300, 1.1)) + caption(spec, 1780, say(X.tense || 'Bas {n} chahiye!'), TL.tense + 0.2, t);
+  if (t < L.full) return view(spec, t, { called: [N.react, N.second, N.first, 8], ball: '?', marked: almost, spin: true }, camT(195, 300, 1.1)) + caption(spec, 1780, say(X.tense || 'Bas {n} chahiye!'), L.tense + 0.2, t);
   // full house
-  if (t < TL.end) { const a3 = TL.full + 0.1, d3 = TL.full + 0.8;
+  if (t < L.end) { const a3 = L.full + 0.1, d3 = L.full + 0.8;
     return view(spec, t, { called: [N.last, N.react, N.second, N.first], ball: N.last, ballAt: a3, marked: t > d3 ? all : almost, markAt: { [N.last]: d3 }, full: t > d3 ? d3 : false }, camT(195, 422, 1.0)) + (t > d3 + 0.2 ? band(spec, 0.6) + pill(spec, 1840, X.full || 'FULL HOUSE!', 110, '#FFE58A', ink, -3, d3 + 0.2, t) : ''); }
   // closing: download the app, after the times card
-  if (t >= TL.app) return appCard(spec, t, TL.app);
-  return homeBg(spec, t) + pill(spec, 520, 'Aaj ki theme', 62, '#FFFFFF', deep, 0, TL.end + 0.05, t) + '<g transform="translate(540 730) scale(' + f3(back((t - TL.end - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 120, '#FFFFFF', { stroke: deep, sw: 16 }) + '</g>' + pill(spec, 880, spec.day + ' · Public Housie', 56, '#FFE58A', ink, -2, TL.end + 0.4, t) + timeChips(spec, 1030, 46, TL.end + 0.6, t) + pill(spec, 1330, X.play || 'Kitty Party app pe khelo', 54, deep, '#FFFFFF', 1, TL.end + 1.2, t) + mascot(spec, 390, 1420, 300, t) + T(540, 1820, '@kittyparty.app', 44, '#FFFFFF', { w: 600 });
+  if (t >= L.app) return appCard(spec, t, L.app);
+  return timesCard(spec, t, L.end);
 }
+// opening cover, same for every story: theme, date, all of the day's game times
+function coverFrame(spec, t) {
+  const M = spec.theme.manifest, C = M.colors, ink = C.boxInk, deep = C.accentDeep;
+  return homeBg(spec, t) + pill(spec, 380, (spec.copy || {}).cover || 'AAJ KI HOUSIE THEME', 60, deep, '#FFFFFF', -2, 0.05, t) + '<g transform="translate(540 600) scale(' + f3(back((t - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 130, '#FFFFFF', { stroke: deep, sw: 18 }) + '</g>' + mascot(spec, 290, 700, 500, t) + pill(spec, 1300, spec.day, 64, '#FFE58A', ink, 2, 0.5, t) + timeChips(spec, 1470, 50, 0.8, t);
+}
+// times card before the app card, same for every story
+function timesCard(spec, t, at) {
+  const M = spec.theme.manifest, C = M.colors, ink = C.boxInk, deep = C.accentDeep;
+  return homeBg(spec, t) + pill(spec, 520, 'Aaj ki theme', 62, '#FFFFFF', deep, 0, at + 0.05, t) + '<g transform="translate(540 730) scale(' + f3(back((t - at - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 120, '#FFFFFF', { stroke: deep, sw: 16 }) + '</g>' + pill(spec, 880, spec.day + ' · Public Housie', 56, '#FFE58A', ink, -2, at + 0.4, t) + timeChips(spec, 1030, 46, at + 0.6, t) + pill(spec, 1330, (spec.copy || {}).play || 'Kitty Party app pe khelo', 54, deep, '#FFFFFF', 1, at + 1.2, t) + mascot(spec, 390, 1420, 300, t) + T(540, 1820, '@kittyparty.app', 44, '#FFFFFF', { w: 600 });
+}
+// big mascot ball on the theme background with a number (or ?) on its disc
+function bigBall(spec, t, cx, cy, size, label, popAt, spin) {
+  const [dx, dy, r] = spec.theme.manifest.scene.disc, k = size / 170, x = cx - size / 2, y = cy - size / 2;
+  const pop = popAt ? back((t - popAt) / 0.35) : 1, rot = spin ? Math.sin(t * 9) * 7 : 0, big = String(label).length > 1;
+  const num = label !== '' ? '<g transform="translate(' + f1(x + dx * k) + ' ' + f1(y + dy * k) + ') scale(' + f3(pop) + ')">' + T(0, r * k * 0.36, label, r * k * (big ? 0.95 : 1.1), spec.theme.manifest.colors.boxInk) + '</g>' : '';
+  return '<g transform="translate(' + cx + ' ' + cy + ') rotate(' + f1(rot) + ') translate(' + (-cx) + ' ' + (-cy) + ')">' + mascot(spec, x, y, size, t) + num + '</g>';
+}
+function confetti(spec, t, at) {
+  if (t < at) return '';
+  const u = t - at, C = spec.theme.manifest.colors; let o = '';
+  for (let i = 0; i < 70; i++) { const x = (i * 157) % 1080, y = (((i * 263) % 700) - 300 + u * (380 + (i % 5) * 90)) % 1960; o += '<rect x="' + x + '" y="' + f1(y) + '" width="24" height="13" rx="5" fill="' + C.confetti[i % C.confetti.length] + '" transform="rotate(' + f1((i * 37 + u * 220) % 360) + ' ' + x + ' ' + f1(y) + ')"></rect>'; }
+  return o;
+}
+
+// Story "guess": the theme's own number calls are the quiz. Hear the call, guess, then the ball shows it.
+function guessFrame(spec, t, L) {
+  const M = spec.theme.manifest, C = M.colors, ink = C.boxInk, deep = C.accentDeep, X = spec.copy || {}, Q = spec.numbers.quiz;
+  if (t >= L.app) return appCard(spec, t, L.app);
+  if (t >= L.end) return timesCard(spec, t, L.end);
+  let o = homeBg(spec, t) + '<rect width="1080" height="1920" fill="' + deep + '" opacity="0.18"></rect>';
+  if (t < L.q[0]) return o + pill(spec, 330, X.hook || 'Number call suno', 70, '#FFE58A', ink, -2, L.hook + 0.1, t) + pill(spec, 470, X.hook2 || 'Guess karo kaunsa number!', 54, '#FFFFFF', deep, 1.5, L.hook + 0.4, t) + bigBall(spec, t, 540, 1050, 600, '?', 0, true) + pill(spec, 1560, X.sound || 'Sound ON karo', 50, deep, '#FFFFFF', -1, L.hook + 0.9, t);
+  if (t < L.tally) {
+    const i = L.q.filter((q) => t >= q).length - 1, q = L.q[i], rv = q + (L.reveal || 3.6), shown = t >= rv;
+    o += pill(spec, 250, (X.round || 'Guess {i}/3').replace('{i}', i + 1), 62, '#FFE58A', ink, -2, q + 0.05, t);
+    o += bigBall(spec, t, 540, 860, 640, shown ? Q[i] : '?', shown ? rv : 0, !shown);
+    if (!shown) {
+      const left = Math.ceil(rv - t);
+      if (t > q + 0.9 && left <= 3) { const k = back((t - (rv - left)) / 0.25); o += '<g transform="translate(540 1420) scale(' + f3(k) + ')"><circle r="120" fill="#FFFFFF" opacity="0.95"></circle>' + T(0, 44, left, 130, deep) + '</g>'; }
+      o += pill(spec, 1700, i === 2 ? (X.last || 'Last one! Dhyan se suno') : (X.listen || 'Call suno...'), 52, deep, '#FFFFFF', 1, q + 0.3, t);
+    } else o += caption(spec, 1420, 'Number ' + Q[i] + '!', rv + 0.15, t) + pill(spec, 1640, ['Sahi tha?', 'Ab batao!', 'Kitne sahi?'][i], 56, '#FFE58A', ink, -2, rv + 0.5, t);
+    return o;
+  }
+  // tally: all three numbers, comment ask
+  o += pill(spec, 420, X.tally || 'Kitne sahi hue?', 76, '#FFE58A', ink, -2, L.tally + 0.05, t);
+  Q.forEach((n, i) => { o += bigBall(spec, t, 230 + i * 310, 860, 300, n, L.tally + 0.3 + i * 0.2, false); });
+  return o + pill(spec, 1300, X.comment || '3/3 wale comment karo', 56, '#FFFFFF', deep, 1.5, L.tally + 1.0, t) + pill(spec, 1440, M.name + ' ki calls, sirf app pe', 46, deep, '#FFFFFF', -1, L.tally + 1.4, t);
+}
+
+// Story "race": five friends on one game, their tickets race to Full House, you win at the end.
+const RACE = { names: ['Sunita', 'Meera', 'Anjali', 'Kavya', 'You'], steps: [[9, 8, 7, 6, 8], [11, 9, 8, 8, 10], [12, 11, 9, 10, 12], [13, 12, 10, 12, 13], [13, 14, 11, 12, 14], [13, 14, 11, 12, 15]] };
+function raceFrame(spec, t, L) {
+  const M = spec.theme.manifest, C = M.colors, ink = C.boxInk, deep = C.accentDeep, X = spec.copy || {}, N = spec.numbers.race;
+  if (t >= L.app) return appCard(spec, t, L.app);
+  if (t >= L.end) return timesCard(spec, t, L.end);
+  // each number lands, then the bars grow
+  const marks = L.calls.concat([L.full]); let si = 0; marks.forEach((m, i) => { if (t >= m + 0.9) si = i + 1; });
+  const prev = RACE.steps[Math.max(0, si - 1)], cur = RACE.steps[Math.min(si, RACE.steps.length - 1)], at = si ? marks[si - 1] + 0.9 : 0, u = si ? ease((t - at) / 0.5) : 1;
+  const called = L.calls.filter((c) => t >= c).length;
+  const ballN = t >= L.full ? 90 : called ? N[called - 1] : '?', popAt = t >= L.full ? L.full : called ? L.calls[called - 1] : 0;
+  let o = homeBg(spec, t) + '<rect width="1080" height="1920" fill="' + deep + '" opacity="0.22"></rect>';
+  o += t < L.race ? pill(spec, 200, X.hook || '5 saheliyan, 1 Full House', 62, '#FFE58A', ink, -2, L.hook + 0.1, t) : pill(spec, 200, X.hook2 || 'Kaun jeetega?', 70, '#FFE58A', ink, -2, L.race, t);
+  o += bigBall(spec, t, 540, 470, 330, ballN, popAt, ballN === '?');
+  RACE.names.forEach((nm, i) => {
+    const y = 760 + i * 190, k = back((t - L.hook - 0.3 - i * 0.12) / 0.35); if (k <= 0.01) return;
+    const v = lerp(prev[i], cur[i], u), w = 640 * v / 15, me = i === 4, win = me && t >= L.full + 0.9;
+    o += '<g transform="translate(0 ' + y + ') scale(1 ' + f3(k) + ')"><rect x="40" y="-78" width="1000" height="156" rx="40" fill="#FFFFFF" opacity="' + (me ? 0.98 : 0.86) + '"' + (me ? ' stroke="' + C.cta + '" stroke-width="8"' : '') + '></rect>';
+    o += '<circle cx="130" cy="0" r="58" fill="' + C.chip + '"></circle>' + (spec.avatars[i] ? raw(spec.avatars[i], 76, -54, 108, 108) : '') + T(250, -22, nm, 40, ink, { a: 'start' });
+    o += '<rect x="250" y="8" width="640" height="40" rx="20" fill="' + C.line + '"></rect><rect x="250" y="8" width="' + f1(Math.max(40, w)) + '" height="40" rx="20" fill="' + (win ? C.cta : C.mark) + '"></rect>' + T(965, 40, Math.round(v) + '/15', 38, deep) + '</g>';
+  });
+  if (t >= L.tense && t < L.full) o += band(spec, 0.62) + pill(spec, 1820, X.tense || 'Meera aur aap, dono ko 1 chahiye!', 52, '#FFE58A', ink, -2, L.tense + 0.1, t);
+  if (t >= L.full + 0.9) o += confetti(spec, t, L.full + 0.9) + band(spec, 0.62) + pill(spec, 1820, X.full || 'FULL HOUSE! Aap jeet gaye!', 66, '#FFE58A', ink, -2, L.full + 1.0, t);
+  return o;
+}
+
 // closing card on every reel: download the app, in the theme's colours
 const playGlyph = (x, y, s) => '<g transform="translate(' + x + ' ' + y + ') scale(' + s + ')"><path d="M0 0 L0 40 L20 20Z" fill="#00D7FE"></path><path d="M0 0 L20 20 L27 13 L4 0Z" fill="#00F076"></path><path d="M0 40 L20 20 L27 27 L4 40Z" fill="#FF3A44"></path><path d="M20 20 L27 13 L36 18 Q38 20 36 22 L27 27Z" fill="#FFD500"></path></g>';
 const appleGlyph = (x, y, s) => '<g transform="translate(' + x + ' ' + y + ') scale(' + s + ')" fill="#FFFFFF"><path d="M27 21c0-5 4-7 4-7-2-3-6-4-7-4-3 0-5 2-7 2s-4-2-7-2C5 10 0 14 0 22c0 8 6 18 10 18 2 0 3-1 6-1s4 1 6 1c4 0 7-7 8-10-1 0-3-3-3-9z"></path><path d="M20 7c2-2 2-5 2-6-2 0-4 1-5 3-1 1-2 4-2 5 2 0 4-1 5-2z"></path></g>';
@@ -148,7 +225,7 @@ function badge(x, y, top, big, glyph, k) {
 }
 function appCard(spec, t, at) {
   const M = spec.theme.manifest, C = M.colors, deep = C.accentDeep, ink = C.boxInk;
-  const k = (d, dur = 0.4) => back((t - at - d) / dur), fade = sat((t - (TL.total - 0.5)) / 0.5);
+  const k = (d, dur = 0.4) => back((t - at - d) / dur), fade = sat((t - (spec.total - 0.5)) / 0.5);
   const phoneK = ease((t - at - 0.9) / 0.6), py = lerp(1980, 1150, phoneK), pw = 360, ph = pw * PH / PW;
   let o = homeBg(spec, t) + '<rect width="1080" height="1920" fill="' + deep + '" opacity="0.28"></rect>';
   // the app on a phone, tilted, with the theme's own game screen (Full House moment)
@@ -165,4 +242,4 @@ function appCard(spec, t, at) {
   return o + (fade > 0 ? '<rect width="1080" height="1920" fill="' + C.gameGradient[2] + '" opacity="' + f3(fade) + '"></rect>' : '');
 }
 // cover image: the opening scene once everything has landed
-export const coverAt = (spec) => frameAt(spec, TL.hook - 0.05);
+export const coverAt = (spec) => { uid = 0; return coverFrame(spec, (spec.tl || TL).hook - 0.05); };
