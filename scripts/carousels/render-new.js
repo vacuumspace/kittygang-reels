@@ -39,7 +39,7 @@ function check(d, slides) {
   try { const r = await fetch(PUBLIC + '/games/index.json?t=' + Date.now()); if (r.ok) index = await r.json(); } catch (e) { /* first game */ }
   for (const d of drafts) {
     console.log('\n=== ' + d.id + ' · ' + d.game);
-    const rec = { id: d.id, n: d.n, created: ist(), game: d.game, slug: d.slug, caption: d.caption, status: 'rendering' };
+    const rec = { id: d.id, n: d.n, created: ist(), game: d.game, tagline: d.tagline, players: d.web?.players, time: d.web?.time, slug: d.slug, caption: d.caption, status: 'rendering' };
     try {
       const slides = build(d);
       const errs = check(d, slides);

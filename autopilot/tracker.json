@@ -134,7 +134,10 @@
       "permalink": "https://www.instagram.com/p/DeyqKnGDs4I/",
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/rubber-band-cup-tower-kitty-game",
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-001/s1.jpg",
-      "slides": 9
+      "slides": 9,
+      "tagline": "Haath nahi, sirf dhaage!",
+      "players": "8 to 20 (teams of 4)",
+      "time": "10 to 15 minutes"
     },
     {
       "id": "KGI-002",
@@ -159,7 +162,10 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/newspaper-dance-kitty-party-game",
       "queue_id": "ab921b7d-e2f5-4bda-8d78-38d2851d7016",
-      "scheduled_ist": "2026-10-23 10:55"
+      "scheduled_ist": "2026-10-23 10:55",
+      "tagline": "Akhbaar chhota, masti badi!",
+      "players": "6 to 20 (in pairs)",
+      "time": "10 to 15 minutes"
     }
   ]
 }
