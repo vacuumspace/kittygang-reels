@@ -1,0 +1,710 @@
+{
+  "id": "KG-2026-10-23-b",
+  "title": "Sirf ek piece bana tha",
+  "format": "Door entrances, matching outfits",
+  "idea": "Tina guards the door to show off her one-of-a-kind saree; every guest walks in wearing the same one, and finally so does the host.",
+  "logline": "Tina waits at the door to show off her 'only one piece' saree, but every guest walks in wearing the same saree, and then the host does too.",
+  "game": "every doorbell brings one more copy of Tina's 'only one piece' saree",
+  "mute": [
+    "Tina twirls at the front door in a peacock saree, chip: ONLY 1 PIECE",
+    "host calls her inside, Tina refuses: she wants everyone to see her first",
+    "doorbell: Shruti walks in wearing the same saree, chip PIECE #2, Tina gasps",
+    "Shruti bought it for 450 at Lajpat Nagar, Tina calls it a copy",
+    "Tina sure nobody else will come in it, doorbell rings",
+    "Aditi in the same saree sipping chai, chip PIECE #3, Tina sweats",
+    "Shruti spots the sale tag on Tina's saree: SALE 399, cheaper than hers",
+    "Tina: it was a Dubai sale",
+    "host Tanya twirls in, same saree, says Tina's opening line, chip PIECE #4",
+    "all three stare: sale wali? Tanya caught"
+  ],
+  "beats": "hook: Tina 'sirf ek piece' twirl / setup: she guards the door / esc: Shruti same saree, Aditi same saree, sale tag on Tina / twist: host walks in in it with Tina's line / button: ALL 'Sale wali?!'",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 4,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Same-saree panic is a real kitty moment every woman has lived. One want (be the only one), one game (each doorbell = another copy) with a PIECE # counter chip, all the same colour so it reads muted. Tina's show-off voice fits the lead; Shruti's price knowledge powers the tag beat. Twist is a see-it entry and mirrors the opening line. Rewrite 1 made Aditi silent (slurp only) to keep 3 talkers; endings tried: Tina rebrands it as group uniform, Tanya hands out more from a bag, ALL 'Sale wali?!' (kept, shortest and loops)."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1.2,
+    "title": [
+      "Limited edition saree",
+      "Aur sabne pehni hai!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Sirf ek piece bana tha... aur poori kitty ne pehna. Tag that friend who always says 'limited edition'!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#samesaree",
+    "#ladieskitty",
+    "#sareelove",
+    "#kittypartytheme"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SIRF 1 PIECE",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 540,
+          "y": 1780,
+          "s": 2.2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "twirl": true,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Shoe rack",
+          "x": 930,
+          "y": 1820,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 300,
+          "y": 800,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 800,
+          "y": 760,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, sirf ek piece bana tha!",
+          "say": "डार्लिंग, सिर्फ़ एक पीस बना था!",
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SIRF 1 PIECE",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "turn": 0.6,
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mocktail tray",
+          "x": 820,
+          "y": 1820,
+          "s": 1.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Tina, andar aa ke baitho na!",
+          "say": "टीना, अंदर आ के बैठो ना!",
+          "beat": "setup"
+        },
+        {
+          "who": "Tina",
+          "text": "Nahi! Sab pehle mujhe dekhengi.",
+          "say": "नहीं! सब पहले मुझे देखेंगी।",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PIECE #2",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "wave",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.5
+        },
+        {
+          "name": "Tina",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "talkR",
+          "turn": 0.6,
+          "mouth": "smirk"
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 330,
+          "y": 900,
+          "at": 1.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Aao aao! Dekho meri saree...",
+          "say": "आओ आओ! देखो मेरी साड़ी...",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Arre! Same saree!",
+          "say": "अरे! सेम साड़ी!",
+          "gap": 0.03,
+          "punch": true
+        },
+        {
+          "who": "Tina",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PIECE #2",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "turn": -0.5
+        },
+        {
+          "name": "Tina",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "turn": 0.6,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Lajpat Nagar, saade chaar sau!",
+          "say": "लाजपत नगर, साढ़े चार सौ!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Woh copy hai, darling.",
+          "say": "वो कॉपी है, डार्लिंग।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PIECE #2",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 540,
+          "y": 1780,
+          "s": 2.2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.9,
+          "name": "doorbell",
+          "vol": 0.55
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Ab koi nahi aayegi isme.",
+          "say": "अब कोई नहीं आएगी इसमें।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Pakka?",
+          "say": "पक्का?",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.5
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PIECE #3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        },
+        {
+          "name": "Tina",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "turn": 0.6,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 560,
+          "y": 1840,
+          "s": 1.8,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "relaxed",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 400,
+          "y": 1000,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "creak",
+          "vol": 0.3
+        },
+        {
+          "at": 0.5,
+          "name": "slurp",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Tum bhi?!",
+          "say": "तुम भी?!",
+          "beat": "escalation",
+          "silenceBefore": true
+        },
+        {
+          "who": "Shruti",
+          "text": "Teesri!",
+          "say": "तीसरी!",
+          "gap": 0.03,
+          "punch": true
+        },
+        {
+          "who": "Tina",
+          "text": "Haaye!",
+          "say": "हाय!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TAG: SALE ₹399",
+      "chipY": 1560,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1780,
+          "s": 2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "talkL",
+          "prop": "",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        },
+        {
+          "name": "Tina",
+          "x": 320,
+          "y": 1780,
+          "s": 2.1,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": 0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 760,
+          "y": 880,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "scratch",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Yeh kya latak raha hai?",
+          "say": "ये क्या लटक रहा है?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Kuch nahi!",
+          "say": "कुछ नहीं!",
+          "gap": 0.03
+        },
+        {
+          "who": "Shruti",
+          "text": "Sale! Teen sau ninyaanve!",
+          "say": "सेल! तीन सौ निन्यानवे!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TAG: SALE ₹399",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 540,
+          "y": 1780,
+          "s": 2.2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Dubai ki sale thi, darling.",
+          "say": "दुबई की सेल थी, डार्लिंग।",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "HOST AA RAHI HAI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 280,
+          "y": 1760,
+          "s": 1.9,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "mouth": "smirk",
+          "turn": 0.5
+        },
+        {
+          "name": "Shruti",
+          "x": 560,
+          "y": 1760,
+          "s": 1.8,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "relaxed",
+          "prop": "",
+          "mouth": "flat",
+          "turn": 0.5
+        },
+        {
+          "name": "Aditi",
+          "x": 840,
+          "y": 1760,
+          "s": 1.8,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "footsteps",
+          "vol": 0.4
+        },
+        {
+          "at": 1.2,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ladies! Meri nayi saree dekho!",
+          "say": "लेडीज़! मेरी नई साड़ी देखो!",
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "KITTY PARTY",
+      "chip": "PIECE #4",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "wave",
+          "twirl": true,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "from": [
+            1150,
+            1760
+          ],
+          "moveAt": 0,
+          "moveDur": 0.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 300,
+          "y": 800,
+          "at": 0.7
+        },
+        {
+          "kind": "spark",
+          "x": 800,
+          "y": 760,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 1.6,
+          "name": "haww",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Sirf ek piece bana tha!",
+          "say": "सिर्फ़ एक पीस बना था!",
+          "punch": true,
+          "beat": "twist",
+          "gap": 0.1
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "PIECE #4",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 280,
+          "y": 1760,
+          "s": 1.9,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hips",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.5
+        },
+        {
+          "name": "Shruti",
+          "x": 560,
+          "y": 1760,
+          "s": 1.8,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.5
+        },
+        {
+          "name": "Aditi",
+          "x": 840,
+          "y": 1760,
+          "s": 1.8,
+          "main": "#1F7A8C",
+          "mainSh": "#155E6C",
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Sale wali?!",
+          "say": "सेल वाली?!",
+          "beat": "button",
+          "silenceBefore": true
+        },
+        {
+          "who": "Tanya",
+          "text": "Tumhe kaise pata?",
+          "say": "तुम्हें कैसे पता?",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.8
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
