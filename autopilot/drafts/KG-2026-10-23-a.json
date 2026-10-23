@@ -1,0 +1,801 @@
+{
+  "id": "KG-2026-10-23-a",
+  "title": "Diwali gift exchange",
+  "format": "Living-room sitcom, Diwali gift exchange",
+  "idea": "At the kitty Diwali gift exchange every box opened is soan papdi; Myra is sure hers is kaju katli, and it turns out to be the very box she gave last year.",
+  "logline": "At the Diwali kitty gift exchange every box is soan papdi, and Myra's \"kaju katli\" box is the one she gave away last Diwali.",
+  "game": "every gift box opened is soan papdi",
+  "mute": [
+    "Diwali gift exchange, Myra sure her box has kaju katli",
+    "Ruhi shakes a heavy box, sure it is kaju katli",
+    "Ruhi opens it: soan papdi (counter 1), Myra gasps",
+    "Tina shows off her Dubai box",
+    "Tina opens it: soan papdi, Dubai wali (counter 2)",
+    "all the other boxes ripped open: soan papdi everywhere (counter 9)",
+    "Myra hugs her box, sure hers is different, gang says open it",
+    "Myra opens it: soan papdi too (counter 10)",
+    "Ruhi spots writing under the box: WITH LOVE, MYRA",
+    "Myra realises it is her own gift from last Diwali",
+    "Myra rewraps it for next kitty with the same kaju katli line, gang shouts her name"
+  ],
+  "beats": "hook: Myra sure of kaju katli / esc: Ruhi soan papdi, Tina Dubai soan papdi, all boxes soan papdi / twist: Myra's box is soan papdi with \"With love, Myra\" / button: Myra rewraps it with the same kaju katli line",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Every Indian household knows the soan papdi that travels from house to house at Diwali. One want (kaju katli), one game (every box is soan papdi), counter chip keeps it mute-proof, see-it reveal (name written on the box), button flips the opening line from hope to a con. Rewrite 1 cut Shruti and Tanya to keep 3 talkers and put the counter on screen."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1.2,
+    "title": [
+      "Diwali gift exchange",
+      "Phir se soan papdi!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Ek soan papdi, poori society ki Diwali. Tumhare group mein soan papdi kaun ghumaata hai? Tag her!",
+  "hashtags": [
+    "#kittyparty",
+    "#soanpapdi",
+    "#diwali",
+    "#diwaligifts",
+    "#ladieskitty",
+    "#kittygang"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI GIFT EXCHANGE",
+      "front": true,
+      "chip": "KAJU KATLI KISKO MILEGI?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hips",
+          "mouth": "smirk",
+          "turn": -0.4
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 820,
+          "y": 1760,
+          "s": 2.2
+        },
+        {
+          "name": "Gift box",
+          "x": 250,
+          "y": 1740,
+          "s": 1.8,
+          "rot": -8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "sitar",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Mere wale mein kaju katli hai!",
+          "say": "मेरे वाले में काजू कतली है!",
+          "beat": "hook"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Pehle main kholti hoon!",
+          "say": "पहले मैं खोलती हूँ!",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "KAJU KATLI KISKO MILEGI?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.3
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "relaxed",
+          "mouth": "smile",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 470,
+          "y": 1180,
+          "s": 1.8,
+          "rot": 10
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "boing",
+          "vol": 0.3
+        },
+        {
+          "at": 1.4,
+          "name": "rip",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Bhaari hai... pakka kaju katli!",
+          "say": "भारी है... पक्का काजू कतली!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Kholo, kholo!",
+          "say": "खोलो, खोलो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "SOAN PAPDI: 1",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.3
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1200,
+          "s": 2.4,
+          "at": 0.1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Arre... soan papdi.",
+          "say": "अरे... सोन पापड़ी।",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "SOAN PAPDI: 1",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "wave",
+          "mouth": "laugh",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 560,
+          "y": 1250,
+          "s": 2.6,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "plane",
+          "x": 760,
+          "y": 700,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, mera toh Dubai se aaya hai.",
+          "say": "डार्लिंग, मेरा तो दुबई से आया है।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Waah! Kholo!",
+          "say": "वाह! खोलो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "SOAN PAPDI: 2",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.4
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1200,
+          "s": 2.4,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "rip",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Soan papdi... Dubai wali.",
+          "say": "सोन पापड़ी... दुबई वाली।",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "camera": "push",
+      "chip": "SOAN PAPDI: 9",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "x": 780,
+          "y": 1760,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 200,
+          "y": 1280,
+          "s": 1.5,
+          "at": 0.9,
+          "rot": -10
+        },
+        {
+          "name": "Mithai box",
+          "x": 420,
+          "y": 1180,
+          "s": 1.5,
+          "at": 1.1
+        },
+        {
+          "name": "Mithai box",
+          "x": 660,
+          "y": 1220,
+          "s": 1.5,
+          "at": 1.3,
+          "rot": 8
+        },
+        {
+          "name": "Mithai box",
+          "x": 880,
+          "y": 1150,
+          "s": 1.5,
+          "at": 1.5,
+          "rot": -6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.85,
+          "name": "rip",
+          "vol": 0.4
+        },
+        {
+          "at": 1.05,
+          "name": "rip",
+          "vol": 0.4
+        },
+        {
+          "at": 1.25,
+          "name": "rip",
+          "vol": 0.4
+        },
+        {
+          "at": 1.45,
+          "name": "rip",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Baaki saare bhi khol do!",
+          "say": "बाकी सारे भी खोल दो!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Poori society ki ek hi dukaan?!",
+          "say": "पूरी सोसाइटी की एक ही दुकान?!",
+          "punch": true,
+          "gap": 0.2,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "SOAN PAPDI: 9",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hold",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 560,
+          "y": 1300,
+          "s": 2.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 820,
+          "y": 900,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "riser",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Mera wala alag hai, dekhna!",
+          "say": "मेरा वाला अलग है, देखना!",
+          "beat": "turn"
+        },
+        {
+          "who": "ALL",
+          "text": "Kholo!",
+          "say": "खोलो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "SOAN PAPDI: 10",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1280,
+          "s": 2.4,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 700,
+          "y": 760,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "rip",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Soan... papdi.",
+          "say": "सोन... पापड़ी।",
+          "punch": true,
+          "silenceBefore": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "NEECHE LIKHA: WITH LOVE, MYRA",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1200,
+          "s": 2.6,
+          "rot": 180
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 240,
+          "y": 760,
+          "at": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Ruko, neeche kuch likha hai!",
+          "say": "रुको, नीचे कुछ लिखा है!",
+          "beat": "twist"
+        },
+        {
+          "who": "Ruhi",
+          "text": "With love... Myra?!",
+          "say": "विद लव... मायरा?!",
+          "punch": true,
+          "gap": 0.1,
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "NEECHE LIKHA: WITH LOVE, MYRA",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "x": 790,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1250,
+          "s": 2.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 450,
+          "y": 1000,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "thunder",
+          "vol": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Yeh toh maine pichhli Diwali di thi!",
+          "say": "ये तो मैंने पिछली दिवाली दी थी!",
+          "punch": true,
+          "beat": "twist"
+        },
+        {
+          "who": "Tina",
+          "text": "Ghoom ghoom ke ghar aa gayi.",
+          "say": "घूम घूम के घर आ गई।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI GIFT EXCHANGE",
+      "camera": "punch",
+      "chip": "AGLI KITTY: KAJU KATLI?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 230,
+          "y": 1760,
+          "s": 1.7,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1720,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tina",
+          "x": 870,
+          "y": 1760,
+          "s": 1.7,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 560,
+          "y": 1300,
+          "s": 2.2,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 760,
+          "y": 820,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "zip",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Agli kitty... kaju katli hai, pakka!",
+          "say": "अगली किटी... काजू कतली है, पक्का!",
+          "beat": "button"
+        },
+        {
+          "who": "ALL",
+          "text": "Myra!",
+          "say": "मायरा!",
+          "punch": true,
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.7
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
