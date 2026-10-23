@@ -683,7 +683,7 @@
       "game": "Newspaper Dance",
       "slug": "newspaper-dance-kitty-party-game",
       "caption": "Akhbaar chhota hota jaayega, masti badhti jaayegi! Agli kitty mein yeh khelo. Aapki jodi kitne round tiki?",
-      "status": "queued",
+      "status": "published",
       "slides": 9,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/board.jpg",
       "image_urls": [
@@ -702,7 +702,9 @@
       "scheduled_ist": "2026-10-23 10:55",
       "tagline": "Akhbaar chhota, masti badi!",
       "players": "6 to 20 (in pairs)",
-      "time": "10 to 15 minutes"
+      "time": "10 to 15 minutes",
+      "permalink": "https://www.instagram.com/p/De0zYCClXiW/",
+      "media_id": "17880719187549061"
     },
     {
       "id": "KGI-003",
