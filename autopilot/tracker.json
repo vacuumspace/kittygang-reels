@@ -703,6 +703,34 @@
       "tagline": "Akhbaar chhota, masti badi!",
       "players": "6 to 20 (in pairs)",
       "time": "10 to 15 minutes"
+    },
+    {
+      "id": "KGI-003",
+      "n": 3,
+      "created": "2026-10-23",
+      "game": "Diya Spoon Relay",
+      "tagline": "Haath peeche, diya aage!",
+      "players": "8 to 20 (two teams)",
+      "time": "10 minutes",
+      "slug": "diya-spoon-relay-diwali-kitty-party-game",
+      "caption": "Diwali kitty ke liye perfect! Munh mein chammach, chammach par diya, aur aakhri lady ko wish bhi bolni hai. Aapki team mein sabse pehle diya kaun giraayega?",
+      "status": "queued",
+      "slides": 9,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-003/s9.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/diya-spoon-relay-diwali-kitty-party-game",
+      "queue_id": "a4e94768-7223-4935-bd02-153d93e5c1d5",
+      "scheduled_ist": "2026-10-24 11:39"
     }
   ],
   "research": [
