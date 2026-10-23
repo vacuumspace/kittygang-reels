@@ -392,6 +392,380 @@
       "yt_id": "2QrO0OBSI_4",
       "yt_url": "https://youtube.com/shorts/2QrO0OBSI_4",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-23-a",
+      "created": "2026-10-23",
+      "title": "Diwali gift exchange",
+      "format": "Living-room sitcom, Diwali gift exchange",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tina",
+        "Myra"
+      ],
+      "caption": "Ek soan papdi, poori society ki Diwali. Tumhare group mein soan papdi kaun ghumaata hai? Tag her!",
+      "status": "queued",
+      "idea": "At the kitty Diwali gift exchange every box opened is soan papdi; Myra is sure hers is kaju katli, and it turns out to be the very box she gave last year.",
+      "beats": "hook: Myra sure of kaju katli / esc: Ruhi soan papdi, Tina Dubai soan papdi, all boxes soan papdi / twist: Myra's box is soan papdi with \"With love, Myra\" / button: Myra rewraps it with the same kaju katli line",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mere wale mein kaju katli hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Pehle main kholti hoon!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Bhaari hai... pakka kaju katli!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Kholo, kholo!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre... soan papdi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, mera toh Dubai se aaya hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Waah! Kholo!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Soan papdi... Dubai wali.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Baaki saare bhi khol do!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Poori society ki ek hi dukaan?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera wala alag hai, dekhna!",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Kholo!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Soan... papdi.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ruko, neeche kuch likha hai!",
+          "beat": "twist"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "With love... Myra?!",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Yeh toh maine pichhli Diwali di thi!",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Ghoom ghoom ke ghar aa gayi.",
+          "beat": ""
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Agli kitty... kaju katli hai, pakka!",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Myra!",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.21,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Every Indian household knows the soan papdi that travels from house to house at Diwali. One want (kaju katli), one game (every box is soan papdi), counter chip keeps it mute-proof, see-it reveal (name written on the box), button flips the opening line from hope to a con. Rewrite 1 cut Shruti and Tanya to keep 3 talkers and put the counter on screen."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-23-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-23-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-23-a-board.jpg",
+      "queue_id": "5f03ac1b-f435-4365-9f0d-766938b38b65",
+      "scheduled_ist": "2026-10-24 13:34",
+      "yt_id": "zkBSmfCohFU",
+      "yt_url": "https://youtube.com/shorts/zkBSmfCohFU",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-10-23-b",
+      "created": "2026-10-23",
+      "title": "Sirf ek piece bana tha",
+      "format": "Door entrances, matching outfits",
+      "hook": "",
+      "cast": [
+        "Tina",
+        "Tanya",
+        "Shruti",
+        "Aditi"
+      ],
+      "caption": "Sirf ek piece bana tha... aur poori kitty ne pehna. Tag that friend who always says 'limited edition'!",
+      "status": "queued",
+      "idea": "Tina guards the door to show off her one-of-a-kind saree; every guest walks in wearing the same one, and finally so does the host.",
+      "beats": "hook: Tina 'sirf ek piece' twirl / setup: she guards the door / esc: Shruti same saree, Aditi same saree, sale tag on Tina / twist: host walks in in it with Tina's line / button: ALL 'Sale wali?!'",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, sirf ek piece bana tha!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Tina, andar aa ke baitho na!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Nahi! Sab pehle mujhe dekhengi.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Aao aao! Dekho meri saree...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Arre! Same saree!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Lajpat Nagar, saade chaar sau!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Woh copy hai, darling.",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Ab koi nahi aayegi isme.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pakka?",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Tum bhi?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Teesri!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Haaye!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Yeh kya latak raha hai?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Kuch nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sale! Teen sau ninyaanve!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Dubai ki sale thi, darling.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ladies! Meri nayi saree dekho!",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sirf ek piece bana tha!",
+          "beat": "twist"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Sale wali?!",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Tumhe kaise pata?",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.38,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 4,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Same-saree panic is a real kitty moment every woman has lived. One want (be the only one), one game (each doorbell = another copy) with a PIECE # counter chip, all the same colour so it reads muted. Tina's show-off voice fits the lead; Shruti's price knowledge powers the tag beat. Twist is a see-it entry and mirrors the opening line. Rewrite 1 made Aditi silent (slurp only) to keep 3 talkers; endings tried: Tina rebrands it as group uniform, Tanya hands out more from a bag, ALL 'Sale wali?!' (kept, shortest and loops)."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-23-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-23-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-23-b-board.jpg",
+      "queue_id": "04ba0638-99bf-43bc-af81-c067304e8a66",
+      "scheduled_ist": "2026-10-25 20:59",
+      "yt_id": "t-9N_CoOZMQ",
+      "yt_url": "https://youtube.com/shorts/t-9N_CoOZMQ",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
