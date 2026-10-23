@@ -1,0 +1,619 @@
+{
+  "id": "KGI-003",
+  "n": 3,
+  "slug": "diya-spoon-relay-diwali-kitty-party-game",
+  "game": "Diya Spoon Relay",
+  "tagline": "Haath peeche, diya aage!",
+  "cover_art": [
+    {
+      "k": "person",
+      "x": 330,
+      "y": 200,
+      "s": 1.4,
+      "color": "pink"
+    },
+    {
+      "k": "spoon",
+      "x": 451.8,
+      "y": 172,
+      "s": 0.63,
+      "rot": 90
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M432.9 145.54000000000002 Q470.7 188.38 508.5 145.54000000000002 Z' fill='#E8742A' stroke='#4A1238' stroke-width='5.04'></path><ellipse cx='470.7' cy='125.38000000000001' rx='11.34' ry='20.16' fill='#F7E04A' stroke='#E8742A' stroke-width='3.7800000000000002'></ellipse>"
+    },
+    {
+      "k": "person",
+      "x": 750,
+      "y": 200,
+      "s": 1.4,
+      "color": "yel"
+    },
+    {
+      "k": "spoon",
+      "x": 628.2,
+      "y": 172,
+      "s": 0.63,
+      "rot": -90
+    },
+    {
+      "k": "arrow",
+      "x1": 470,
+      "y1": 90,
+      "x2": 610,
+      "y2": 90,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M97 284.6 Q130 322 163 284.6 Z' fill='#E8742A' stroke='#4A1238' stroke-width='4.4'></path><ellipse cx='130' cy='267' rx='9.9' ry='17.6' fill='#F7E04A' stroke='#E8742A' stroke-width='3.3000000000000003'></ellipse>"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M917 284.6 Q950 322 983 284.6 Z' fill='#E8742A' stroke='#4A1238' stroke-width='4.4'></path><ellipse cx='950' cy='267' rx='9.9' ry='17.6' fill='#F7E04A' stroke='#E8742A' stroke-width='3.3000000000000003'></ellipse>"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Chammach, diye aur do thali",
+    "items": [
+      {
+        "label": "Steel chammach",
+        "sub": "har lady ka apna",
+        "draw": [
+          {
+            "k": "spoon",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "label": "LED diye",
+        "sub": "5 per team",
+        "draw": [
+          {
+            "k": "text",
+            "x": 40,
+            "y": 60,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 190,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "svg",
+            "markup": "<path d='M48 130.4 Q90 178 132 130.4 Z' fill='#E8742A' stroke='#4A1238' stroke-width='5.6'></path><ellipse cx='90' cy='108' rx='12.6' ry='22.4' fill='#F7E04A' stroke='#E8742A' stroke-width='4.199999999999999'></ellipse>"
+          },
+          {
+            "k": "svg",
+            "markup": "<path d='M128 130.4 Q170 178 212 130.4 Z' fill='#E8742A' stroke='#4A1238' stroke-width='5.6'></path><ellipse cx='170' cy='108' rx='12.6' ry='22.4' fill='#F7E04A' stroke='#E8742A' stroke-width='4.199999999999999'></ellipse>"
+          },
+          {
+            "k": "svg",
+            "markup": "<path d='M208 130.4 Q250 178 292 130.4 Z' fill='#E8742A' stroke='#4A1238' stroke-width='5.6'></path><ellipse cx='250' cy='108' rx='12.6' ry='22.4' fill='#F7E04A' stroke='#E8742A' stroke-width='4.199999999999999'></ellipse>"
+          }
+        ]
+      },
+      {
+        "label": "Do thali",
+        "sub": "finish line par",
+        "draw": [
+          {
+            "k": "plate",
+            "x": 150,
+            "y": 110,
+            "s": 1
+          },
+          {
+            "k": "svg",
+            "markup": "<path d='M120 96 Q150 130 180 96 Z' fill='#E8742A' stroke='#4A1238' stroke-width='4'></path><ellipse cx='150' cy='80' rx='9' ry='16' fill='#F7E04A' stroke='#E8742A' stroke-width='3'></ellipse>"
+          }
+        ]
+      },
+      {
+        "label": "Do bowl",
+        "sub": "start par diye",
+        "draw": [
+          {
+            "k": "bowl",
+            "x": 150,
+            "y": 120,
+            "s": 0.9,
+            "color": "blue"
+          }
+        ]
+      },
+      {
+        "label": "Timer",
+        "sub": "10 minute",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "10:00"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Do team, do lambi line",
+      "body": "Start par diye ka bowl, end par khaali thali. Sabke munh mein chammach.",
+      "draw": [
+        {
+          "k": "bowl",
+          "x": 90,
+          "y": 300,
+          "s": 0.6,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 260,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "spoon",
+          "x": 329.6,
+          "y": 244,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M318.8 228.88 Q340.40000000000003 253.36 362.00000000000006 228.88 Z' fill='#E8742A' stroke='#4A1238' stroke-width='2.8800000000000003'></path><ellipse cx='340.40000000000003' cy='217.36' rx='6.48' ry='11.520000000000001' fill='#F7E04A' stroke='#E8742A' stroke-width='2.16'></ellipse>"
+        },
+        {
+          "k": "person",
+          "x": 400,
+          "y": 260,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "spoon",
+          "x": 469.6,
+          "y": 244,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "person",
+          "x": 540,
+          "y": 260,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "spoon",
+          "x": 609.6,
+          "y": 244,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "person",
+          "x": 680,
+          "y": 260,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "spoon",
+          "x": 749.6,
+          "y": 244,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "plate",
+          "x": 860,
+          "y": 310,
+          "s": 0.6
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 150,
+          "text": "Team A",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "bowl",
+          "x": 90,
+          "y": 560,
+          "s": 0.6,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 520,
+          "s": 0.8,
+          "color": "yel"
+        },
+        {
+          "k": "spoon",
+          "x": 329.6,
+          "y": 504,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M318.8 488.88 Q340.40000000000003 513.36 362.00000000000006 488.88 Z' fill='#E8742A' stroke='#4A1238' stroke-width='2.8800000000000003'></path><ellipse cx='340.40000000000003' cy='477.35999999999996' rx='6.48' ry='11.520000000000001' fill='#F7E04A' stroke='#E8742A' stroke-width='2.16'></ellipse>"
+        },
+        {
+          "k": "person",
+          "x": 400,
+          "y": 520,
+          "s": 0.8,
+          "color": "yel"
+        },
+        {
+          "k": "spoon",
+          "x": 469.6,
+          "y": 504,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "person",
+          "x": 540,
+          "y": 520,
+          "s": 0.8,
+          "color": "yel"
+        },
+        {
+          "k": "spoon",
+          "x": 609.6,
+          "y": 504,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "person",
+          "x": 680,
+          "y": 520,
+          "s": 0.8,
+          "color": "yel"
+        },
+        {
+          "k": "spoon",
+          "x": 749.6,
+          "y": 504,
+          "s": 0.36000000000000004,
+          "rot": 90
+        },
+        {
+          "k": "plate",
+          "x": 860,
+          "y": 570,
+          "s": 0.6
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 410,
+          "text": "Team B",
+          "size": 40,
+          "color": "#B8860B"
+        },
+        {
+          "k": "text",
+          "x": 90,
+          "y": 680,
+          "text": "Start",
+          "size": 32,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 860,
+          "y": 680,
+          "text": "Thali",
+          "size": 32,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Chammach munh mein, haath peeche",
+      "body": "Pehli lady bowl se diya chammach par rakhe. Uske baad haath band!",
+      "draw": [
+        {
+          "k": "person",
+          "x": 380,
+          "y": 380,
+          "s": 2,
+          "color": "pink"
+        },
+        {
+          "k": "spoon",
+          "x": 554,
+          "y": 340,
+          "s": 0.9,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M527 302.2 Q581 363.4 635 302.2 Z' fill='#E8742A' stroke='#4A1238' stroke-width='7.2'></path><ellipse cx='581' cy='273.4' rx='16.2' ry='28.8' fill='#F7E04A' stroke='#E8742A' stroke-width='5.4'></ellipse>"
+        },
+        {
+          "k": "hand",
+          "x": 720,
+          "y": 520,
+          "s": 1.1,
+          "rot": 0
+        },
+        {
+          "k": "cross",
+          "x": 720,
+          "y": 520,
+          "s": 1
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 660,
+          "text": "Haath = no!",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 380,
+          "y": 680,
+          "text": "Sirf munh se pakdo",
+          "size": 36,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Diya chammach se chammach",
+      "body": "Bina haath ke agli lady ke chammach par diya khiskao.",
+      "draw": [
+        {
+          "k": "person",
+          "x": 230,
+          "y": 380,
+          "s": 1.8,
+          "color": "pink"
+        },
+        {
+          "k": "spoon",
+          "x": 386.6,
+          "y": 344,
+          "s": 0.81,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M362.3 309.98 Q410.90000000000003 365.06000000000006 459.50000000000006 309.98 Z' fill='#E8742A' stroke='#4A1238' stroke-width='6.48'></path><ellipse cx='410.90000000000003' cy='284.06' rx='14.580000000000002' ry='25.92' fill='#F7E04A' stroke='#E8742A' stroke-width='4.86'></ellipse>"
+        },
+        {
+          "k": "person",
+          "x": 730,
+          "y": 380,
+          "s": 1.8,
+          "color": "green"
+        },
+        {
+          "k": "spoon",
+          "x": 573.4,
+          "y": 344,
+          "s": 0.81,
+          "rot": -90
+        },
+        {
+          "k": "arrow",
+          "x1": 420,
+          "y1": 200,
+          "x2": 560,
+          "y2": 200,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 640,
+          "text": "Gira? Wapas start se!",
+          "size": 40,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Aakhri lady: Diwali wish bolo!",
+      "body": "Chammach munh mein rakhe hi host ko poori wish bolo, phir thali mein.",
+      "draw": [
+        {
+          "k": "person",
+          "x": 250,
+          "y": 400,
+          "s": 1.7,
+          "color": "yel"
+        },
+        {
+          "k": "spoon",
+          "x": 397.9,
+          "y": 366,
+          "s": 0.765,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M374.95 333.87 Q420.84999999999997 385.89000000000004 466.74999999999994 333.87 Z' fill='#E8742A' stroke='#4A1238' stroke-width='6.12'></path><ellipse cx='420.84999999999997' cy='309.39000000000004' rx='13.77' ry='24.48' fill='#F7E04A' stroke='#E8742A' stroke-width='4.59'></ellipse>"
+        },
+        {
+          "k": "box",
+          "x": 300,
+          "y": 200,
+          "w": 420,
+          "h": 100,
+          "color": "white",
+          "text": "Happy Diwali, didi!"
+        },
+        {
+          "k": "person",
+          "x": 720,
+          "y": 400,
+          "s": 1.7,
+          "color": "green",
+          "label": "Host"
+        },
+        {
+          "k": "plate",
+          "x": 500,
+          "y": 620,
+          "s": 0.8
+        },
+        {
+          "k": "arrow",
+          "x1": 420,
+          "y1": 420,
+          "x2": 490,
+          "y2": 570,
+          "color": "pink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Pehle 5 diye, team jeeti!",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Haath lagaya?",
+          "Diya wapas start par."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Diya gira?",
+          "Wapas start se."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Wish adhoori ya hasi aa gayi?",
+          "Dobara bolo."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse pehle 5 diye thali mein,",
+          "woh team jeeti!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Aakhri lady blindfold mein,",
+        "team awaaz se raasta bataye."
+      ],
+      [
+        "Har lady ko apne paer",
+        "par ghoom ke pass karna hai."
+      ],
+      [
+        "Wish mein host ka naam",
+        "aur ek mithai ka naam zaroori."
+      ]
+    ],
+    "tip": "Asli jalta diya nahi, sirf LED ya khaali mitti ka diya."
+  },
+  "comment_hint": "kaun gira diya?",
+  "caption": "Diwali kitty ke liye perfect! Munh mein chammach, chammach par diya, aur aakhri lady ko wish bhi bolni hai. Aapki team mein sabse pehle diya kaun giraayega?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#diwaligames",
+    "#diwalikittyparty",
+    "#diyaspoonrelay"
+  ],
+  "web": {
+    "title": "Diya Spoon Relay: Diwali Kitty Party Game Rules and Twists",
+    "description": "Diya Spoon Relay is a Diwali kitty party game where teams pass a diya spoon to spoon with no hands. How to play, rules, what you need, twists and FAQs.",
+    "intro": "Diya Spoon Relay is a Diwali kitty party game where two teams pass a small LED or unlit clay diya down a line from spoon to spoon, with each lady holding a steel spoon in her mouth and her hands behind her back. The first team to get 5 diyas into its thali wins, but the last lady in the line must say a full Diwali wish to the host with the spoon still in her mouth before she can drop the diya. It needs only spoons, diyas, two bowls and two thalis, and takes about 10 minutes for 8 to 20 ladies.",
+    "players": "8 to 20 (two teams)",
+    "time": "10 minutes",
+    "materials": [
+      "One clean steel spoon per lady (each uses her own)",
+      "10 LED tealight diyas or small unlit clay diyas (5 per team)",
+      "Two bowls to hold the diyas at the start",
+      "Two thalis or plates at the finish",
+      "A phone timer"
+    ],
+    "steps": [
+      "Split the group into two teams and stand each team in a straight line. Put a bowl of 5 diyas at the start of each line and an empty thali at the end.",
+      "Every lady holds a steel spoon in her mouth by the handle and keeps her hands behind her back. Only the first lady may use her hands, once, to place a diya on her spoon.",
+      "Pass the diya from spoon to spoon down the line without using hands. If it falls, it goes back to the start bowl.",
+      "The last lady walks to the host and says a full Diwali wish with the spoon still in her mouth, for example \"Happy Diwali, didi!\". Then she tips the diya into the thali and the next diya starts."
+    ],
+    "rules": [
+      "Touching the diya or spoon with your hands sends the diya back to the start.",
+      "A dropped diya goes back to the start bowl.",
+      "If the wish is incomplete or she bursts out laughing, she must say it again.",
+      "The first team with all 5 diyas in its thali wins."
+    ],
+    "variations": [
+      "Blindfold the last lady and let her team guide her to the host by voice.",
+      "Make every lady spin once on the spot before passing the diya.",
+      "The wish must include the host's name and the name of one Diwali sweet."
+    ],
+    "tips": [
+      "Never use a lit diya or candle. LED tealights or empty clay diyas only.",
+      "Give every lady her own washed spoon so nobody shares.",
+      "Flat-bottomed diyas balance better than round ones, so start with those."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Diya Spoon Relay?",
+        "a": "At least 8 ladies, so each team has 4. It works up to 20, with 10 ladies per team."
+      },
+      {
+        "q": "What do you need to play Diya Spoon Relay?",
+        "a": "One steel spoon per lady, 10 LED or unlit clay diyas, two bowls, two thalis and a timer. Everything is already in most homes during Diwali."
+      },
+      {
+        "q": "Is it safe to use real diyas?",
+        "a": "Only unlit ones. Never pass a lit diya or candle. LED tealights look festive and are completely safe."
+      },
+      {
+        "q": "Is Diya Spoon Relay good for a Diwali kitty party?",
+        "a": "Yes. It is quick, needs no prep, gets everyone laughing, and the Diwali wish twist makes it feel festive."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "About 10 minutes for 5 diyas per team. Use 3 diyas per team if you are short on time."
+      }
+    ]
+  }
+}
