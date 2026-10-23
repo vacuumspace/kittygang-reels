@@ -122,17 +122,17 @@
       "yt_url": "https://youtube.com/shorts/kgWUZS-XiRo",
       "yt_privacy": "public",
       "stats": {
-        "views": 199,
-        "reach": 178,
+        "views": 236,
+        "reach": 211,
         "likes": 1,
         "comments": 0,
         "saves": 0,
         "shares": 0,
-        "score": 0.6,
-        "skip": 76.3,
-        "watch_s": 4.2,
-        "watched_pct": 16,
-        "as_of": "2026-10-22"
+        "score": 0.5,
+        "skip": 76.8,
+        "watch_s": 4,
+        "watched_pct": 15,
+        "as_of": "2026-10-23"
       }
     },
     {
@@ -149,7 +149,7 @@
         "Tina"
       ],
       "caption": "Diwali se pehle har host ka secret plan. Aapki kitty mein kaun karti hai aisa?",
-      "status": "queued",
+      "status": "published",
       "idea": "Host runs a Diwali special Housie where every number is a cleaning chore; whoever cuts it does it. The host ends up with a spotless house.",
       "beats": "hook: Diwali Housie / esc: fan, window, almirah / twist: bathroom / button: host relaxing, Full House",
       "script": [
@@ -332,7 +332,22 @@
       "scheduled_ist": "2026-10-23 19:49",
       "yt_id": "SQFiJwGdy-A",
       "yt_url": "https://youtube.com/shorts/SQFiJwGdy-A",
-      "yt_privacy": "scheduled 2026-10-23 19:49 IST"
+      "yt_privacy": "scheduled 2026-10-23 19:49 IST",
+      "permalink": "https://www.instagram.com/reel/De1wjG1gddv/",
+      "media_id": "18372883525244479",
+      "stats": {
+        "views": 374,
+        "reach": 270,
+        "likes": 3,
+        "comments": 0,
+        "saves": 1,
+        "shares": 0,
+        "score": 2.2,
+        "skip": 58,
+        "watch_s": 6.4,
+        "watched_pct": 19,
+        "as_of": "2026-10-23"
+      }
     },
     {
       "id": "TH-2026-10-22",
@@ -357,17 +372,17 @@
       "yt_url": "https://youtube.com/shorts/vdVmgTA_VLk",
       "yt_privacy": "public",
       "stats": {
-        "views": 76,
-        "reach": 58,
-        "likes": 0,
+        "views": 180,
+        "reach": 164,
+        "likes": 1,
         "comments": 0,
         "saves": 0,
         "shares": 0,
-        "score": 0,
-        "skip": 78.3,
-        "watch_s": 3.6,
-        "watched_pct": 14,
-        "as_of": "2026-10-22"
+        "score": 0.6,
+        "skip": 90.9,
+        "watch_s": 2.3,
+        "watched_pct": 9,
+        "as_of": "2026-10-23"
       }
     },
     {
@@ -391,7 +406,20 @@
       "media_id": "17993310116850711",
       "yt_id": "2QrO0OBSI_4",
       "yt_url": "https://youtube.com/shorts/2QrO0OBSI_4",
-      "yt_privacy": "public"
+      "yt_privacy": "public",
+      "stats": {
+        "views": 144,
+        "reach": 118,
+        "likes": 1,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "score": 0.8,
+        "skip": 63.3,
+        "watch_s": 5,
+        "watched_pct": 19,
+        "as_of": "2026-10-23"
+      }
     },
     {
       "id": "KG-2026-10-23-a",
@@ -1040,14 +1068,14 @@
       "players": "8 to 20 (teams of 4)",
       "time": "10 to 15 minutes",
       "stats": {
-        "views": 471,
-        "reach": 218,
+        "views": 627,
+        "reach": 283,
         "likes": 5,
         "comments": 0,
-        "saves": 2,
+        "saves": 5,
         "shares": 1,
-        "score": 6.4,
-        "as_of": "2026-10-22"
+        "score": 8.1,
+        "as_of": "2026-10-23"
       }
     },
     {
@@ -1078,7 +1106,17 @@
       "players": "6 to 20 (in pairs)",
       "time": "10 to 15 minutes",
       "permalink": "https://www.instagram.com/p/De0zYCClXiW/",
-      "media_id": "17880719187549061"
+      "media_id": "17880719187549061",
+      "stats": {
+        "views": 350,
+        "reach": 145,
+        "likes": 1,
+        "comments": 0,
+        "saves": 1,
+        "shares": 0,
+        "score": 2.8,
+        "as_of": "2026-10-23"
+      }
     },
     {
       "id": "KGI-003",
