@@ -55,9 +55,7 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
         if (process.env.YT_REFRESH_TOKEN) {
           try {
             const tags = (D.hashtags || []).map((h) => h.replace(/^#/, ''));
-            const yt = await uploadShort({ file: path.join(ROOT, mp4), title: D.title + ' | Kitty Gang', description: [D.caption, (D.hashtags || []).join(' ') + ' #Shorts'].join('
-
-'), tags, publishAt: q.scheduled_for ? new Date(q.scheduled_for).toISOString() : undefined });
+            const yt = await uploadShort({ file: path.join(ROOT, mp4), title: D.title + ' | Kitty Gang', description: [D.caption, (D.hashtags || []).join(' ') + ' #Shorts'].join('\n\n'), tags, publishAt: q.scheduled_for ? new Date(q.scheduled_for).toISOString() : undefined });
             Object.assign(rec, { yt_id: yt.id, yt_url: yt.url, yt_privacy: yt.privacy });
             console.log('youtube short', yt.url, yt.privacy, yt.publishAt || '');
           } catch (e) { rec.yt_error = String(e.message).slice(0, 200); console.error('youtube', e.message); }
