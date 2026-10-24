@@ -1223,6 +1223,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/diya-spoon-relay-diwali-kitty-party-game",
       "queue_id": "a4e94768-7223-4935-bd02-153d93e5c1d5",
       "scheduled_ist": "2026-10-24 11:39"
+    },
+    {
+      "id": "KGI-004",
+      "n": 4,
+      "created": "2026-10-24",
+      "game": "Mithai Pehchano",
+      "tagline": "Aankh band, munh meetha!",
+      "players": "8 to 20",
+      "time": "15 to 20 minutes",
+      "slug": "mithai-pehchano-blindfold-kitty-party-game",
+      "caption": "Aankh band, munh meetha, aur galat jawab pe agli kitty ki mithai tumhari taraf se! Aap kitni mithai pehchaan logi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/mithai-pehchano-blindfold-kitty-party-game",
+      "queue_id": "e4a4ebe1-4270-4e06-9317-04edd74b4e7e",
+      "scheduled_ist": "2026-10-25 10:57"
     }
   ],
   "research": [
