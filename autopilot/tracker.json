@@ -1026,6 +1026,415 @@
         "no shot over 5 s (5.7 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-10-24-b",
+      "created": "2026-10-24",
+      "title": "Sab asli hai, darling!",
+      "format": "Living-room sitcom, theme day + call from home",
+      "hook": "",
+      "cast": [
+        "Tina",
+        "Tanya",
+        "Ruhi",
+        "Shruti"
+      ],
+      "caption": "Har Sona Chandi kitty mein ek Tina hoti hai. Uska naam comment karo, aur usse tag karo!",
+      "status": "queued",
+      "idea": "Tina arrives at the Sona Chandi kitty in head-to-toe gold swearing it is all real; her phone keeps buzzing; the message is from her saas asking where her haar is.",
+      "beats": "hook: Tina in gold, 'sab asli hai' / setup: she wants to shine the most / esc: jhumke (3 calls), kangan (7 calls), rani haar (11 calls) / twist: Ruhi reads saas's message 'mera haar kahan hai' / button: same door, 'asli hai, darling... saas ka!'",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaye Tina! Itna sona?!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, sab asli hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Kiska phone?",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Koi nahi! Chalo andar.",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Aaj sabse zyada main chamkungi!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaye, jhumke toh dekho!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Naye hain?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Dubai se, darling.",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Phone baj raha hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Bajne do!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kangan kitne tole ke?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Gine nahi jaate, darling!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Aur yeh rani haar?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Khandani hai!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Saasu maa ka message!",
+          "beat": "twist"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Mat padhna!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Bahu, mera haar kahan hai?!",
+          "beat": "twist"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Khandani toh hai... saas ka.",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Pooja saat baje hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Tina, sab asli hai na?",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Asli hai, darling... saas ka!",
+          "beat": "button"
+        }
+      ],
+      "duration": 33.35,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Rides the Sona Chandi pre-Diwali theme trend and the call-from-home pattern. One want (shine), one game (brag then buzz) with a visible missed-call counter, see-it twist on the chip, button mirrors the door opening with the same line flipped. Kind: borrowing jewellery from saas, nobody is shamed. Ending variants tried: Tina gives the haar to the host (weak), saas walks in (needs a new character), same-door 'saas ka' (kept)."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-b-board.jpg",
+      "queue_id": "5b544d7a-09b7-40c2-97bd-fa760216149f",
+      "scheduled_ist": "2026-10-26 13:45",
+      "yt_id": "sLHhotZ2aGs",
+      "yt_url": "https://youtube.com/shorts/sLHhotZ2aGs",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-10-24-c",
+      "created": "2026-10-24",
+      "title": "Dhanteras ki kitty",
+      "format": "Living-room sitcom, kitty draw + hisaab",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Shruti"
+      ],
+      "caption": "Kitty nikalne se pehle sunaar ko call karne wali dost. Tag your Ruhi!",
+      "status": "queued",
+      "idea": "At the Dhanteras kitty draw Ruhi shops gold in her head before the chit is even opened; she wins, then Shruti's hisaab shows she owes three months plus late fine, exactly the whole pot.",
+      "beats": "hook: Ruhi books jhumke before the draw / esc: jhumke, kangan, saas ka sikka / win: Meri! Meri! / twist: 3 months pending + late fine = whole pot / button: same phone call, unpack karo",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haan sunaar ji, jhumke pack karo!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Arre, draw toh hone do!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Dhanteras hai, kitty meri hi niklegi!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Itna confidence?",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Pehle jhumke, aath hazaar.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aath.",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Phir kangan, baarah hazaar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bees.",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Aur saasu maa ke liye sikka!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saas ke liye?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Impression bhi toh banana hai!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur Dhanteras ki kitty gayi...",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruhi ki!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Meri! Meri!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Sunaar ji, aa rahi hoon!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ek minute, Ruhi ji.",
+          "beat": "twist"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "July, August, September... pending.",
+          "beat": ""
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Plus late fine... poore tees hazaar.",
+          "beat": "twist"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kisi ko mat batana, please!",
+          "beat": "twist"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Group pe daal diya!",
+          "beat": ""
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Lo. Gin lo.",
+          "beat": "button"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Gin liya.",
+          "beat": ""
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Sunaar ji... jhumke unpack karo.",
+          "beat": "button"
+        }
+      ],
+      "duration": 39.77,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Real kitty moment: the monthly draw, plus the friend who has not paid. Rs 30,000 pot chip keeps the stake on screen for muted viewers. Game played three times (jhumke, kangan, saas ka sikka, the last one absurd), claim before reveal on the win (Meri! Meri!), see-it reveal on Shruti's calculator and chip. Ruhi's catchphrase answered by Tanya's group habit. Button mirrors the opening phone call flipped (pack karo / unpack karo). Endings tried: Aditi deadpan close, Shruti keeps the envelope as treasurer, the unpack call; kept the call because it loops into the hook. Rewrite 1 dropped Myra to keep 3 talkers."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-c.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-c-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-c-board.jpg",
+      "queue_id": "5ad58fdf-49a1-4ff7-911e-0ec77868c1a7",
+      "scheduled_ist": "2026-10-27 13:24",
+      "yt_id": "6Kgx6GzOG3k",
+      "yt_url": "https://youtube.com/shorts/6Kgx6GzOG3k",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
