@@ -1,0 +1,921 @@
+{
+  "id": "KG-2026-10-24-c",
+  "title": "Dhanteras ki kitty",
+  "format": "Living-room sitcom, kitty draw + hisaab",
+  "idea": "At the Dhanteras kitty draw Ruhi shops gold in her head before the chit is even opened; she wins, then Shruti's hisaab shows she owes three months plus late fine, exactly the whole pot.",
+  "logline": "Ruhi books her Dhanteras jhumke before the kitty draw, wins the Rs 30,000 pot, and Shruti's hisaab takes every rupee back.",
+  "game": "Ruhi spends the kitty pot before she has won it",
+  "mute": [
+    "Dhanteras kitty, Rs 30,000 pot, Ruhi on the phone with shopping bags already",
+    "Ruhi sure the kitty is hers, Shruti doubtful on the sofa",
+    "jewellery box pops up: Ruhi wants jhumke",
+    "bangles pop up: kangan too",
+    "Ruhi adds a gift for her saas, Tanya shocked",
+    "Tanya opens the chit: Ruhi wins, Ruhi hops with the envelope",
+    "Shruti stops her: chip says RUHI: 3 MAHINE PENDING",
+    "Shruti's calculator: dues plus late fine = Rs 30,000",
+    "Ruhi begs secrecy, Tanya has already posted it on the group",
+    "Ruhi hands the whole envelope to Shruti",
+    "Ruhi back on the phone, flat face: jhumke cancelled"
+  ],
+  "beats": "hook: Ruhi books jhumke before the draw / esc: jhumke, kangan, saas ka sikka / win: Meri! Meri! / twist: 3 months pending + late fine = whole pot / button: same phone call, unpack karo",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 5,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Real kitty moment: the monthly draw, plus the friend who has not paid. Rs 30,000 pot chip keeps the stake on screen for muted viewers. Game played three times (jhumke, kangan, saas ka sikka, the last one absurd), claim before reveal on the win (Meri! Meri!), see-it reveal on Shruti's calculator and chip. Ruhi's catchphrase answered by Tanya's group habit. Button mirrors the opening phone call flipped (pack karo / unpack karo). Endings tried: Aditi deadpan close, Shruti keeps the envelope as treasurer, the unpack call; kept the call because it loops into the hook. Rewrite 1 dropped Myra to keep 3 talkers."
+  },
+  "cover": {
+    "shot": 10,
+    "at": 1,
+    "title": [
+      "Dhanteras ki kitty jeeti",
+      "Par hisaab baaki tha!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Kitty nikalne se pehle sunaar ko call karne wali dost. Tag your Ruhi!",
+  "hashtags": [
+    "#kittyparty",
+    "#dhanteras",
+    "#kittygang",
+    "#ladieskitty",
+    "#diwali",
+    "#kittypartyfun"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS KITTY",
+      "front": true,
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.3
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkL",
+          "mouth": "o",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Shopping bags",
+          "x": 150,
+          "y": 1790,
+          "s": 1.8
+        },
+        {
+          "name": "Kitty pot",
+          "x": 600,
+          "y": 1720,
+          "s": 1.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "sitar",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Haan sunaar ji, jhumke pack karo!",
+          "say": "हाँ सुनार जी, झुमके पैक करो!",
+          "beat": "hook"
+        },
+        {
+          "who": "Tanya",
+          "text": "Arre, draw toh hone do!",
+          "say": "अरे, ड्रॉ तो होने दो!",
+          "gap": 0.04,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS KITTY",
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 400,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "turn": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Dhanteras hai, kitty meri hi niklegi!",
+          "say": "धनतेरस है, किटी मेरी ही निकलेगी!",
+          "beat": "setup"
+        },
+        {
+          "who": "Shruti",
+          "text": "Itna confidence?",
+          "say": "इतना कॉन्फ़िडेंस?",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.3
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 580,
+          "y": 1100,
+          "s": 2.2,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "sparkle",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Pehle jhumke, aath hazaar.",
+          "say": "पहले झुमके, आठ हज़ार।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Aath.",
+          "say": "आठ।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.3,
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 480,
+          "y": 1100,
+          "s": 1.8
+        },
+        {
+          "name": "Bangles stack",
+          "x": 680,
+          "y": 1080,
+          "s": 2.2,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "sparkle",
+          "vol": 0.45
+        },
+        {
+          "at": 1.6,
+          "name": "calc",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Phir kangan, baarah hazaar!",
+          "say": "फिर कंगन, बारह हज़ार!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Bees.",
+          "say": "बीस।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1120,
+          "s": 2,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 880,
+          "y": 760,
+          "at": 1.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Aur saasu maa ke liye sikka!",
+          "say": "और सासू माँ के लिए सिक्का!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Saas ke liye?!",
+          "say": "सास के लिए?!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Impression bhi toh banana hai!",
+          "say": "इम्प्रेशन भी तो बनाना है!",
+          "punch": true,
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS KITTY",
+      "front": true,
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "smirk",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 540,
+          "y": 1720,
+          "s": 1.8
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Aur Dhanteras ki kitty gayi...",
+          "say": "और धनतेरस की किटी गई...",
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS KITTY",
+      "front": true,
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "smirk",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 540,
+          "y": 1720,
+          "s": 1.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.45
+        },
+        {
+          "at": 0.2,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruhi ki!",
+          "say": "रूही की!",
+          "punch": true,
+          "silenceBefore": true,
+          "gap": 0.03
+        },
+        {
+          "who": "Ruhi",
+          "text": "Meri! Meri!",
+          "say": "मेरी! मेरी!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 30,000",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "twirl",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 700,
+          "y": 1180,
+          "s": 2.2,
+          "rot": 10,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 260,
+          "y": 700,
+          "at": 0.2
+        },
+        {
+          "kind": "spark",
+          "x": 830,
+          "y": 640,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "waah",
+          "vol": 0.45
+        },
+        {
+          "at": 0.3,
+          "name": "sparkle",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Sunaar ji, aa rahi hoon!",
+          "say": "सुनार जी, आ रही हूँ!",
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "RUHI: 3 MAHINE PENDING",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 860,
+          "y": 1300,
+          "s": 1.8,
+          "rot": 10
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 1000,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "scratch",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ek minute, Ruhi ji.",
+          "say": "एक मिनट, रूही जी।",
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "RUHI: 3 MAHINE PENDING",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 860,
+          "y": 1300,
+          "s": 1.8,
+          "rot": 10
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "July, August, September... pending.",
+          "say": "जुलाई, अगस्त, सितंबर... पेंडिंग।",
+          "gap": 0.1
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "3 MAHINE + LATE FINE = Rs 30,000",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "calc",
+          "vol": 0.5
+        },
+        {
+          "at": 1.5,
+          "name": "ding",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Plus late fine... poore tees hazaar.",
+          "say": "प्लस लेट फ़ाइन... पूरे तीस हज़ार।",
+          "punch": true,
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.25
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "RUHI: 3 MAHINE PENDING",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kisi ko mat batana, please!",
+          "say": "किसी को मत बताना, प्लीज़!",
+          "beat": "twist"
+        },
+        {
+          "who": "Tanya",
+          "text": "Group pe daal diya!",
+          "say": "ग्रुप पे डाल दिया!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 560,
+          "y": 1250,
+          "s": 2,
+          "rot": -8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "swish",
+          "vol": 0.4
+        },
+        {
+          "at": 1.4,
+          "name": "calc",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Lo. Gin lo.",
+          "say": "लो। गिन लो।",
+          "beat": "button"
+        },
+        {
+          "who": "Shruti",
+          "text": "Gin liya.",
+          "say": "गिन लिया।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS KITTY",
+      "front": true,
+      "chip": "KITTY POT: Rs 0",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.3
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Shopping bags",
+          "x": 150,
+          "y": 1790,
+          "s": 1.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 2,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Sunaar ji... jhumke unpack karo.",
+          "say": "सुनार जी... झुमके अनपैक करो।",
+          "punch": true,
+          "silenceBefore": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.7
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "fixes": "KG-2026-10-24-a (QA: shot 5.7 s); split shots 4 and 7 so no shot carries three lines and 6"
+}

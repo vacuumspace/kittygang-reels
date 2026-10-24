@@ -1,0 +1,866 @@
+{
+  "id": "KG-2026-10-24-b",
+  "title": "Sab asli hai, darling!",
+  "format": "Living-room sitcom, theme day + call from home",
+  "idea": "Tina arrives at the Sona Chandi kitty in head-to-toe gold swearing it is all real; her phone keeps buzzing; the message is from her saas asking where her haar is.",
+  "logline": "At the gold and silver kitty, Tina shows off her 'khandani' rani haar while her phone keeps buzzing, and the message turns out to be her saas asking for her haar back.",
+  "game": "every time Tina brags about her gold, her phone buzzes again (missed calls 1, 3, 7, 11)",
+  "mute": [
+    "Tina arrives at the door covered in gold, host is amazed",
+    "Tina's phone rings: SAASU MAA CALLING, she cuts it",
+    "Sona Chandi kitty, Tina wants to shine the most",
+    "Ruhi admires the jhumke, Tina says Dubai",
+    "phone buzzes again, 3 missed calls, Tina ignores it",
+    "Shruti asks about the kangan, 7 missed calls",
+    "Tina twirls the rani haar, 11 missed calls",
+    "Ruhi grabs the phone: saas ka message, Tina panics",
+    "message on screen: BAHU, MERA HAAR KAHAN HAI?",
+    "the haar is the saas's, pooja at 7, Tina panics",
+    "Tina runs out the same door: asli hai... saas ka"
+  ],
+  "beats": "hook: Tina in gold, 'sab asli hai' / setup: she wants to shine the most / esc: jhumke (3 calls), kangan (7 calls), rani haar (11 calls) / twist: Ruhi reads saas's message 'mera haar kahan hai' / button: same door, 'asli hai, darling... saas ka!'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Rides the Sona Chandi pre-Diwali theme trend and the call-from-home pattern. One want (shine), one game (brag then buzz) with a visible missed-call counter, see-it twist on the chip, button mirrors the door opening with the same line flipped. Kind: borrowing jewellery from saas, nobody is shamed. Ending variants tried: Tina gives the haar to the host (weak), saas walks in (needs a new character), same-door 'saas ka' (kept)."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1,
+    "title": [
+      "Sab asli hai, darling!",
+      "Par haar kiska hai?"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har Sona Chandi kitty mein ek Tina hoti hai. Uska naam comment karo, aur usse tag karo!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#sonachandi",
+    "#ladieskitty",
+    "#diwalikitty",
+    "#saasbahu",
+    "#kittypartytheme"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chars": [
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Bangles stack",
+          "x": 930,
+          "y": 1180,
+          "s": 1.3,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 820,
+          "at": 0.2
+        },
+        {
+          "kind": "spark",
+          "x": 900,
+          "y": 980,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haaye Tina! Itna sona?!",
+          "say": "हाय टीना! इतना सोना?!",
+          "beat": "hook"
+        },
+        {
+          "who": "Tina",
+          "text": "Darling, sab asli hai!",
+          "say": "डार्लिंग, सब असली है!",
+          "punch": true,
+          "gap": 0.04,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SAASU MAA CALLING...",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": -0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "smile",
+          "turn": 0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 880,
+          "y": 760,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 0.6,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Kiska phone?",
+          "say": "किसका फ़ोन?",
+          "beat": "setup"
+        },
+        {
+          "who": "Tina",
+          "text": "Koi nahi! Chalo andar.",
+          "say": "कोई नहीं! चलो अंदर।",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SONA CHANDI KITTY",
+      "front": true,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.4
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 540,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "twirl",
+          "twirl": true,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 860,
+          "y": 1760,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 540,
+          "y": 900,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "sparkle",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Aaj sabse zyada main chamkungi!",
+          "say": "आज सबसे ज़्यादा मैं चमकूँगी!",
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaye, jhumke toh dekho!",
+          "say": "हाय, झुमके तो देखो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 780,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 820,
+          "y": 760,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Naye hain?",
+          "say": "नए हैं?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Dubai se, darling.",
+          "say": "दुबई से, डार्लिंग।",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "MISSED CALLS: 3",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 780,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": -0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 0.4,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Phone baj raha hai.",
+          "say": "फ़ोन बज रहा है।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Bajne do!",
+          "say": "बजने दो!",
+          "punch": true,
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "MISSED CALLS: 7",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 780,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "smirk",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Bangles stack",
+          "x": 560,
+          "y": 1150,
+          "s": 1.8,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 860,
+          "y": 780,
+          "at": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "calc",
+          "vol": 0.4
+        },
+        {
+          "at": 1.5,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 1.8,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Kangan kitne tole ke?",
+          "say": "कंगन कितने तोले के?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Gine nahi jaate, darling!",
+          "say": "गिने नहीं जाते, डार्लिंग!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SONA CHANDI KITTY",
+      "chip": "MISSED CALLS: 11",
+      "chipY": 1560,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 230,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 560,
+          "y": 1720,
+          "s": 2.1,
+          "pose": "twirl",
+          "twirl": true,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Shruti",
+          "x": 880,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 560,
+          "y": 860,
+          "at": 0.6
+        },
+        {
+          "kind": "spark",
+          "x": 420,
+          "y": 980,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "sitar",
+          "vol": 0.4
+        },
+        {
+          "at": 0.7,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 1.6,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 1.8,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 2,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Aur yeh rani haar?!",
+          "say": "और ये रानी हार?!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tina",
+          "text": "Khandani hai!",
+          "say": "ख़ानदानी है!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "SAASU MAA: 1 NEW MESSAGE",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 780,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 860,
+          "y": 760,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Saasu maa ka message!",
+          "say": "सासू माँ का मैसेज!",
+          "beat": "twist",
+          "silenceBefore": true
+        },
+        {
+          "who": "Tina",
+          "text": "Mat padhna!",
+          "say": "मत पढ़ना!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "BAHU, MERA HAAR KAHAN HAI?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 230,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "open",
+          "turn": 0.5
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 560,
+          "y": 1720,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 880,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "relaxed",
+          "prop": "",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 300,
+          "y": 1150,
+          "s": 1.8,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 660,
+          "y": 820,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "scratch",
+          "vol": 0.5
+        },
+        {
+          "at": 1.8,
+          "name": "haww",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Bahu, mera haar kahan hai?!",
+          "say": "बहू, मेरा हार कहाँ है?!",
+          "punch": true,
+          "beat": "twist"
+        },
+        {
+          "who": "Shruti",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "POOJA 7 BAJE",
+      "chipY": 600,
+      "clock": {
+        "h": 6,
+        "m": 50
+      },
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 780,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 880,
+          "y": 780,
+          "at": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "tick",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Khandani toh hai... saas ka.",
+          "say": "ख़ानदानी तो है... सास का।",
+          "punch": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Tina",
+          "text": "Pooja saat baje hai!",
+          "say": "पूजा सात बजे है!",
+          "gap": 0.05,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "clock": {
+        "h": 6,
+        "m": 52
+      },
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tina",
+          "main": "#F5C451",
+          "mainSh": "#D9A53A",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.4,
+          "from": [
+            290,
+            1800
+          ],
+          "moveAt": 0,
+          "moveDur": 0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 820,
+          "at": 1.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Tina, sab asli hai na?",
+          "say": "टीना, सब असली है ना?",
+          "beat": "button"
+        },
+        {
+          "who": "Tina",
+          "text": "Asli hai, darling... saas ka!",
+          "say": "असली है, डार्लिंग... सास का!",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.7
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
