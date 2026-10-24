@@ -818,6 +818,212 @@
       "yt_id": "OQolCN165To",
       "yt_url": "https://youtube.com/shorts/OQolCN165To",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-24-a",
+      "created": "2026-10-24",
+      "title": "Dhanteras ki kitty",
+      "format": "Living-room sitcom, kitty draw + hisaab",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Shruti"
+      ],
+      "caption": "Kitty nikalne se pehle sunaar ko call karne wali dost. Tag your Ruhi!",
+      "status": "needs-fix",
+      "idea": "At the Dhanteras kitty draw Ruhi shops gold in her head before the chit is even opened; she wins, then Shruti's hisaab shows she owes three months plus late fine, exactly the whole pot.",
+      "beats": "hook: Ruhi books jhumke before the draw / esc: jhumke, kangan, saas ka sikka / win: Meri! Meri! / twist: 3 months pending + late fine = whole pot / button: same phone call, unpack karo",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haan sunaar ji, jhumke pack karo!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Arre, draw toh hone do!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Dhanteras hai, kitty meri hi niklegi!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Itna confidence?",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Pehle jhumke, aath hazaar.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aath.",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Phir kangan, baarah hazaar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bees.",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Aur saasu maa ke liye sikka!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saas ke liye?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Impression bhi toh banana hai!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur Dhanteras ki kitty gayi...",
+          "beat": "turn"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruhi ki!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Meri! Meri!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Sunaar ji, aa rahi hoon!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ek minute, Ruhi ji.",
+          "beat": "twist"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "July, August, September... pending.",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Plus late fine... poore tees hazaar.",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kisi ko mat batana, please!",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Group pe daal diya!",
+          "beat": ""
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Lo. Gin lo.",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Gin liya.",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Sunaar ji... jhumke unpack karo.",
+          "beat": "button"
+        }
+      ],
+      "duration": 39.59,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Real kitty moment: the monthly draw, plus the friend who has not paid. Rs 30,000 pot chip keeps the stake on screen for muted viewers. Game played three times (jhumke, kangan, saas ka sikka, the last one absurd), claim before reveal on the win (Meri! Meri!), see-it reveal on Shruti's calculator and chip. Ruhi's catchphrase answered by Tanya's group habit. Button mirrors the opening phone call flipped (pack karo / unpack karo). Endings tried: Aditi deadpan close, Shruti keeps the envelope as treasurer, the unpack call; kept the call because it loops into the hook. Rewrite 1 dropped Myra to keep 3 talkers."
+      },
+      "qa": [
+        "no shot over 5 s (5.7 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-24-a-board.jpg"
     }
   ],
   "ideas": [
