@@ -1,0 +1,520 @@
+{
+  "id": "KGI-004",
+  "n": 4,
+  "slug": "mithai-pehchano-blindfold-kitty-party-game",
+  "game": "Mithai Pehchano",
+  "tagline": "Aankh band, munh meetha!",
+  "cover_art": [
+    {
+      "k": "blindfold",
+      "x": 330,
+      "y": 190,
+      "s": 1.4
+    },
+    {
+      "k": "hand",
+      "x": 470,
+      "y": 210,
+      "rot": -90,
+      "s": 1
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1='470' y1='190' x2='430' y2='180' stroke='#C98B4E' stroke-width='6' stroke-linecap='round'></line>"
+    },
+    {
+      "k": "svg",
+      "markup": "<polygon points='425,161.8 448.8,180 425,198.2 401.2,180' fill='#EEE6D2' stroke='#4A1238' stroke-width='2.8'></polygon><polygon points='425,168.8 439.7,180 425,191.2 410.3,180' fill='#D9D9D9' opacity='0.7'></polygon>"
+    },
+    {
+      "k": "plate",
+      "x": 760,
+      "y": 290,
+      "s": 1.3
+    },
+    {
+      "k": "svg",
+      "markup": "<polygon points='690,246.6 720.6,270 690,293.4 659.4,270' fill='#EEE6D2' stroke='#4A1238' stroke-width='3.6'></polygon><polygon points='690,255.6 708.9,270 690,284.4 671.1,270' fill='#D9D9D9' opacity='0.7'></polygon>"
+    },
+    {
+      "k": "svg",
+      "markup": "<circle cx='760' cy='262' r='23.400000000000002' fill='#F2A93B' stroke='#4A1238' stroke-width='3.6'></circle><circle cx='752.8' cy='256.6' r='2.7' fill='#4A1238' opacity='0.4'></circle><circle cx='768.1' cy='266.5' r='2.7' fill='#4A1238' opacity='0.4'></circle><circle cx='761.8' cy='251.2' r='2.7' fill='#4A1238' opacity='0.4'></circle>"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x='806.6' y='254' width='46.800000000000004' height='36' rx='4.5' fill='#F7EEDC' stroke='#4A1238' stroke-width='3.6'></rect><circle cx='830' cy='272' r='5.4' fill='#3FA34D'></circle>"
+    },
+    {
+      "k": "text",
+      "x": 760,
+      "y": 120,
+      "text": "?",
+      "size": 110,
+      "color": "white"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Mithai, patti aur toothpick",
+    "items": [
+      {
+        "label": "5-6 mithai",
+        "sub": "chhote tukde",
+        "draw": [
+          {
+            "k": "plate",
+            "x": 150,
+            "y": 120,
+            "s": 1.1
+          },
+          {
+            "k": "svg",
+            "markup": "<polygon points='90,84 124,110 90,136 56,110' fill='#EEE6D2' stroke='#4A1238' stroke-width='4'></polygon><polygon points='90,94 111,110 90,126 69,110' fill='#D9D9D9' opacity='0.7'></polygon>"
+          },
+          {
+            "k": "svg",
+            "markup": "<circle cx='150' cy='105' r='26' fill='#F2A93B' stroke='#4A1238' stroke-width='4'></circle><circle cx='142' cy='99' r='3' fill='#4A1238' opacity='0.4'></circle><circle cx='159' cy='110' r='3' fill='#4A1238' opacity='0.4'></circle><circle cx='152' cy='93' r='3' fill='#4A1238' opacity='0.4'></circle>"
+          },
+          {
+            "k": "svg",
+            "markup": "<rect x='184' y='92' width='52' height='40' rx='5' fill='#F7EEDC' stroke='#4A1238' stroke-width='4'></rect><circle cx='210' cy='112' r='6' fill='#3FA34D'></circle>"
+          },
+          {
+            "k": "svg",
+            "markup": "<ellipse cx='115' cy='140' rx='19.599999999999998' ry='12.6' fill='#C98B4E' stroke='#4A1238' stroke-width='2.8'></ellipse><circle cx='115' cy='140' r='4.199999999999999' fill='#8A5A2B'></circle>"
+          },
+          {
+            "k": "svg",
+            "markup": "<rect x='168.2' y='123.2' width='33.599999999999994' height='33.599999999999994' rx='2.8' fill='#F3D88A' stroke='#4A1238' stroke-width='2.8'></rect><path d='M173.8 133 L196.2 133 M173.8 140 L196.2 140 M173.8 147 L196.2 147' stroke='#C9A548' stroke-width='2.0999999999999996'></path>"
+          }
+        ]
+      },
+      {
+        "label": "Dupatta patti",
+        "sub": "aankh band",
+        "draw": [
+          {
+            "k": "blindfold",
+            "x": 150,
+            "y": 110,
+            "s": 1
+          }
+        ]
+      },
+      {
+        "label": "Toothpicks",
+        "sub": "har lady ka alag",
+        "draw": [
+          {
+            "k": "text",
+            "x": 60,
+            "y": 40,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 240,
+            "y": 190,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<line x1='80' y1='170' x2='140' y2='60' stroke='#C98B4E' stroke-width='6' stroke-linecap='round'></line>"
+          },
+          {
+            "k": "svg",
+            "markup": "<line x1='120' y1='175' x2='180' y2='60' stroke='#C98B4E' stroke-width='6' stroke-linecap='round'></line>"
+          },
+          {
+            "k": "svg",
+            "markup": "<line x1='160' y1='175' x2='220' y2='65' stroke='#C98B4E' stroke-width='6' stroke-linecap='round'></line>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "10 second",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.8,
+            "text": "0:10"
+          }
+        ]
+      },
+      {
+        "label": "Score kagaz",
+        "sub": "pen ke saath",
+        "draw": [
+          {
+            "k": "box",
+            "x": 150,
+            "y": 110,
+            "w": 200,
+            "h": 140,
+            "color": "white",
+            "text": "Neha 3"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Mithai ke chhote tukde karo",
+      "body": "5 se 6 tarah ki mithai, har tukda ek bite ka.",
+      "draw": [
+        {
+          "k": "plate",
+          "x": 480,
+          "y": 420,
+          "s": 2.4
+        },
+        {
+          "k": "svg",
+          "markup": "<polygon points='330,363.6 377.6,400 330,436.4 282.4,400' fill='#EEE6D2' stroke='#4A1238' stroke-width='5.6'></polygon><polygon points='330,377.6 359.4,400 330,422.4 300.6,400' fill='#D9D9D9' opacity='0.7'></polygon>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='450' cy='385' r='36.4' fill='#F2A93B' stroke='#4A1238' stroke-width='5.6'></circle><circle cx='438.8' cy='376.6' r='4.199999999999999' fill='#4A1238' opacity='0.4'></circle><circle cx='462.6' cy='392' r='4.199999999999999' fill='#4A1238' opacity='0.4'></circle><circle cx='452.8' cy='368.2' r='4.199999999999999' fill='#4A1238' opacity='0.4'></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='533.6' y='372' width='72.8' height='56' rx='7' fill='#F7EEDC' stroke='#4A1238' stroke-width='5.6'></rect><circle cx='570' cy='400' r='8.399999999999999' fill='#3FA34D'></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<ellipse cx='400' cy='470' rx='39.199999999999996' ry='25.2' fill='#C98B4E' stroke='#4A1238' stroke-width='5.6'></ellipse><circle cx='400' cy='470' r='8.399999999999999' fill='#8A5A2B'></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='496.4' y='436.4' width='67.19999999999999' height='67.19999999999999' rx='5.6' fill='#F3D88A' stroke='#4A1238' stroke-width='5.6'></rect><path d='M507.6 456 L552.4 456 M507.6 470 L552.4 470 M507.6 484 L552.4 484' stroke='#C9A548' stroke-width='4.199999999999999'></path>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 640,
+          "text": "Kaju katli, laddoo, barfi, peda, soan papdi",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 220,
+          "text": "Ek bite = ek tukda",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Ek lady ki aankh pe patti",
+      "body": "Dupatte se aankh baandho, baaki sab chupchaap dekhenge.",
+      "draw": [
+        {
+          "k": "blindfold",
+          "x": 480,
+          "y": 380,
+          "s": 2.2
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 440,
+          "s": 1.2,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 780,
+          "y": 440,
+          "s": 1.2,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 300,
+          "text": "shhh",
+          "size": 40,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 780,
+          "y": 300,
+          "text": "shhh",
+          "size": 40,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Host toothpick se khilaye",
+      "body": "Host ek tukda toothpick par lagaake munh tak le jaaye.",
+      "draw": [
+        {
+          "k": "blindfold",
+          "x": 300,
+          "y": 380,
+          "s": 2
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 400,
+          "s": 1.8,
+          "color": "pink",
+          "label": "Host"
+        },
+        {
+          "k": "hand",
+          "x": 540,
+          "y": 330,
+          "rot": -90,
+          "s": 1.4
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1='540' y1='300' x2='420' y2='290' stroke='#C98B4E' stroke-width='8.399999999999999' stroke-linecap='round'></line>"
+        },
+        {
+          "k": "svg",
+          "markup": "<polygon points='410,264 444,290 410,316 376,290' fill='#EEE6D2' stroke='#4A1238' stroke-width='4'></polygon><polygon points='410,274 431,290 410,306 389,290' fill='#D9D9D9' opacity='0.7'></polygon>"
+        },
+        {
+          "k": "arrow",
+          "x1": 640,
+          "y1": 230,
+          "x2": 470,
+          "y2": 230,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "10 second mein naam bolo",
+      "body": "Timer chalu. Sahi naam bola toh 1 point.",
+      "draw": [
+        {
+          "k": "blindfold",
+          "x": 300,
+          "y": 400,
+          "s": 2
+        },
+        {
+          "k": "timer",
+          "x": 700,
+          "y": 380,
+          "s": 1.5,
+          "text": "0:10"
+        },
+        {
+          "k": "box",
+          "x": 300,
+          "y": 150,
+          "w": 340,
+          "h": 100,
+          "color": "white",
+          "text": "Kaju katli!"
+        },
+        {
+          "k": "tick",
+          "x": 700,
+          "y": 640,
+          "s": 0.9
+        }
+      ]
+    },
+    {
+      "title": "Galat jawab? Wahi mithai laao!",
+      "body": "Galat naam bola toh agli kitty mein wohi mithai tumhari taraf se.",
+      "draw": [
+        {
+          "k": "blindfold",
+          "x": 250,
+          "y": 400,
+          "s": 1.8
+        },
+        {
+          "k": "cross",
+          "x": 250,
+          "y": 150,
+          "s": 1
+        },
+        {
+          "k": "box",
+          "x": 250,
+          "y": 620,
+          "w": 300,
+          "h": 80,
+          "color": "white",
+          "text": "\"Peda!\""
+        },
+        {
+          "k": "arrow",
+          "x1": 430,
+          "y1": 400,
+          "x2": 560,
+          "y2": 400,
+          "color": "pink"
+        },
+        {
+          "k": "box",
+          "x": 740,
+          "y": 420,
+          "w": 300,
+          "h": 220,
+          "color": "yel"
+        },
+        {
+          "k": "text",
+          "x": 740,
+          "y": 280,
+          "text": "Agli kitty",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='687.2' y='367.2' width='105.60000000000001' height='105.60000000000001' rx='8.8' fill='#F3D88A' stroke='#4A1238' stroke-width='8.8'></rect><path d='M704.8 398 L775.2 398 M704.8 420 L775.2 420 M704.8 442 L775.2 442' stroke='#C9A548' stroke-width='6.6000000000000005'></path>"
+        },
+        {
+          "k": "text",
+          "x": 740,
+          "y": 640,
+          "text": "Asli tha soan papdi",
+          "size": 34,
+          "color": "mute"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada points wali jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Patti ke neeche se jhaanka?",
+          "Point cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "10 second ke baad bola?",
+          "Jawab nahi maana jaayega."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Baaki ladies ne hint diya?",
+          "Unka ek point kata."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse zyada sahi naam,",
+          "woh Mithai Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Do mithai ek saath khilao,",
+        "dono ke naam bolo."
+      ],
+      [
+        "Shehar bhi batao:",
+        "Agra ka petha ya Mathura ka peda?"
+      ],
+      [
+        "Final round mein",
+        "sirf 5 second milenge."
+      ]
+    ],
+    "tip": "Pehle pooch lo, kisi ko nuts ya sugar se dikkat toh nahi."
+  },
+  "comment_hint": "kitni pehchaani?",
+  "caption": "Aankh band, munh meetha, aur galat jawab pe agli kitty ki mithai tumhari taraf se! Aap kitni mithai pehchaan logi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#mithaipehchano",
+    "#diwaligames"
+  ],
+  "web": {
+    "title": "Mithai Pehchano: Blindfold Sweet Tasting Kitty Party Game",
+    "description": "Mithai Pehchano is a blindfold sweet tasting game for kitty parties. Learn how to play, what you need, the rules, fun twists and tips for Diwali.",
+    "intro": "Mithai Pehchano is a blindfold tasting game where each lady tastes one small piece of Indian mithai and has 10 seconds to name it. Every correct name scores a point, and the lady with the most points at the end wins. The twist: anyone who guesses wrong has to bring that exact mithai to the next kitty. It is perfect for Diwali week, needs only leftover sweets, a dupatta and toothpicks, and takes about 15 minutes.",
+    "players": "8 to 20",
+    "time": "15 to 20 minutes",
+    "materials": [
+      "5 to 6 kinds of mithai (kaju katli, laddoo, barfi, peda, soan papdi), cut into one-bite pieces",
+      "A dupatta or scarf as a blindfold",
+      "Toothpicks, a fresh one for each lady",
+      "A phone timer",
+      "Paper and pen to keep score"
+    ],
+    "steps": [
+      "Cut 5 to 6 kinds of mithai into small one-bite pieces and keep them on a plate, out of sight of the players.",
+      "Blindfold one lady with a dupatta. Everyone else stays quiet and gives no hints.",
+      "The host picks a piece with a fresh toothpick and feeds it to the blindfolded lady.",
+      "Start a 10 second timer. If she names the mithai correctly, she gets 1 point.",
+      "If she names it wrong, she must bring that exact mithai to the next kitty. Repeat for every lady, 2 or 3 rounds each."
+    ],
+    "rules": [
+      "Peeking from under the blindfold cancels the point.",
+      "An answer after 10 seconds does not count.",
+      "Anyone who gives a hint loses one of her own points.",
+      "The lady with the most correct answers is the Mithai Queen."
+    ],
+    "variations": [
+      "Feed two pieces at once and ask for both names.",
+      "Ask for the city as well, like Agra ka petha or Mathura ka peda.",
+      "Give only 5 seconds in the final round."
+    ],
+    "tips": [
+      "Ask about nut allergies, diabetes or fasting before you start, and keep a sugar free option ready.",
+      "Use a fresh toothpick for every lady.",
+      "Cut pieces really small so nothing is wasted; leftovers go back in the box for tea time.",
+      "Keep one tricky pair, like barfi and milk cake, to make it harder."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Mithai Pehchano?",
+        "a": "It works for 8 to 20 ladies. Each lady takes her turn alone, so bigger groups simply play fewer rounds each."
+      },
+      {
+        "q": "What do you need to play the blindfold mithai game?",
+        "a": "5 to 6 kinds of mithai cut into bite size pieces, a dupatta as a blindfold, toothpicks, a phone timer and a paper to keep score."
+      },
+      {
+        "q": "Is Mithai Pehchano a good Diwali kitty party game?",
+        "a": "Yes. It uses the sweets that are already in every home during Diwali, needs no setup and gets everyone laughing at the wrong guesses."
+      },
+      {
+        "q": "Which sweets are best for a mithai tasting game?",
+        "a": "Mix easy and tricky ones: kaju katli, motichoor laddoo, peda, soan papdi, plain barfi, milk cake or coconut barfi. Similar looking sweets make it harder."
+      },
+      {
+        "q": "What if someone has diabetes or a nut allergy?",
+        "a": "Ask before the game. Keep sugar free sweets or nut free options for her, or let her play as the host who feeds and times the others."
+      }
+    ]
+  }
+}
