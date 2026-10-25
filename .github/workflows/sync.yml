@@ -24,8 +24,12 @@ jobs:
           R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
         run: node scripts/autopilot/sync-data.js
+      # the next 3 days' booked themes for the Theme Reel Writer routine (theme/WRITER.md)
+      - env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: node scripts/theme/upcoming.js
       - run: |
           git config user.name "kittygang-bot"
           git config user.email "bot@kittyparty.club"
-          git add autopilot/data autopilot/tracker.json
+          git add autopilot/data autopilot/tracker.json theme/data
           git diff --cached --quiet || (git commit -m "sync: stats and trends" && git pull --rebase && git push)

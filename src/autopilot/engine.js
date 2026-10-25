@@ -4,10 +4,12 @@
 // Kits: scene (dressed set from sets.js, the default for story shots), hook, solo, duo, room, phone, camera, map, door, card.
 // scene shot: { kit:'scene', set:'living'|'entrance'|'camera', banner, night, front, flash, focus:[x,y],
 //   chars:[{ name, look, x, y, s, from:[x,y], moveAt, moveDur, twirl, ...face/pose }] }
+// Theme kits (theme reels; spec.T = the day's theme from scripts/theme/build.js loadTheme): tgame, thome, tball, ttimes, tapp.
 // Common shot fields: hook:[l1,l2] text banner, chip:"text", stickers:[{kind, x, y, at}],
 //   props:[{name, x, y, s}], clock:{h, m}, camera:"push"|"punch"|"still", night/sunrise (door).
 import * as K from '../kg/kgkit';
 import { SETS, FRONTS, WARDROBE, cameraUI, propSvg, put } from './sets';
+import { themeKit as TK } from '../theme/engine';
 
 const { stage, spark, sweat, clock, bubble, icon, BG, DOT } = K;
 // new cast names drawn with an existing look (Tina wears Tash's face and build)
@@ -94,7 +96,7 @@ const KITS = {
   scene(spec, sh, t) {
     const people = (sh.chars || []).map((c, i) => char(spec, c, c.x ?? 540, c.y ?? 1760, c.s ?? 2, t, i, sh)).join('');
     if (sh.set === 'camera') { const flash = sh.flash && t - sh.start > 0.6 && t - sh.start < 0.9; return cameraUI(SETS.living({ banner: sh.banner }) + people, { flash, focus: sh.focus }); }
-    return (SETS[sh.set] || SETS.living)({ banner: sh.banner, night: sh.night }) + people;
+    return (SETS[sh.set] || SETS.living)({ banner: sh.banner === true && spec.T ? spec.T.theme.name.toUpperCase() + ' HOUSIE' : sh.banner, night: sh.night }) + people;
   },
   hook(spec, sh, t) { const c = sh.char; return (c ? stage(c.name) + char(spec, c, 540, 1760, 2.6, t, 0, sh) : stage(null)); },
   solo(spec, sh, t) { const c = sh.char; return stage(c.name) + '<ellipse cx="540" cy="1695" rx="300" ry="34" fill="' + PLUM + '" opacity="0.08"></ellipse>' + char(spec, c, 540, 1700, 3.0, t, 0, sh); },
@@ -142,11 +144,62 @@ const KITS = {
   card(spec, sh, t) { return '<rect width="1080" height="1920" fill="' + (sh.bg || BLUSH) + '"></rect>'; },
 };
 
+
+// ---------- theme kits (spec.T = the booked theme: its art, ticket, mascot ball, reactions) ----------
+// Game state for a tgame shot: the ticket's first `marked` numbers are marked; `ball` pops 0.3 s in and,
+// with `dab`, gets marked 1 s in; `full` throws confetti once the last number lands.
+function gameState(spec, sh, t) {
+  const ball = sh.ball ?? sh.call;
+  const TS = spec.T, all = TS.ticket.flat(), u = t - sh.start, ballAt = sh.start + 0.3, dabAt = sh.start + 1.0;
+  const count = sh.marked === 'all' ? all.length : Math.min(all.length, sh.marked ?? 0);
+  const marked = all.slice(0, count), markAt = {};
+  if (sh.dab && typeof ball === 'number' && u >= 1.0) { marked.push(ball); markAt[ball] = dabAt; }
+  const prev = marked.filter((n) => n !== ball).slice(-3).reverse();
+  const called = sh.called || (ball != null && ball !== '?' ? [ball, ...prev] : prev);
+  const joined = sh.joined != null ? Math.min(5, Math.floor(u / 0.3)) : 5;
+  const reacts = sh.reacts ? [0, 1, 2, 3, 4].map((i) => [Object.keys(TS.theme.manifest.reactions)[i % Object.keys(TS.theme.manifest.reactions).length], i, sh.start + 0.5 + i * 0.2]) : [];
+  return { called, ball: ball ?? '', ballAt: ball != null ? ballAt : 0, marked, markAt, joined, reacts, spin: ball === '?', full: sh.full ? dabAt : false };
+}
+const VIEWS = { full: [195, 422, 1], ticket: [195, 530, 1.3], ball: [195, 250, 1.25], players: [195, 300, 1.15] };
+const people = (spec, sh, t) => (sh.chars || []).map((c, i) => char(spec, c, c.x ?? 540, c.y ?? 1760, c.s ?? 2, t, i, sh)).join('');
+function floatReactions(spec, sh, t) {
+  if (!sh.burst) return '';
+  const keys = Object.keys(spec.T.theme.manifest.reactions); let o = '';
+  keys.forEach((k, i) => { const v = (t - sh.start - (sh.burst === true ? 0.4 : sh.burst) - i * 0.18) / 1.8; if (v > 0 && v < 1) o += '<g opacity="' + f2(1 - v * v) + '">' + TK.reaction(spec.T, k, 160 + i * 190, 1750 - v * 900, 150) + '</g>'; });
+  return o;
+}
+Object.assign(KITS, {
+  // the app's game screen in the day's theme: view full | ticket | ball | players | phone (held phone over the theme's home art, chars beside it)
+  tgame(spec, sh, t) {
+    const st = gameState(spec, sh, t);
+    if (sh.view === 'phone') return TK.home(spec.T, t) + TK.phone(spec.T, t, st, sh.px ?? 540, sh.py ?? 330, sh.pw ?? 520, sh.rot ?? -4) + people(spec, sh, t) + floatReactions(spec, sh, t);
+    const [cx, cy, z] = VIEWS[sh.view] || VIEWS.full;
+    return TK.home(spec.T, t) + TK.screen(spec.T, t, st, cx, cy, z) + floatReactions(spec, sh, t);
+  },
+  // the theme's own home scene (animated art + particles) with Kitty Gang characters on it; optional mascot ball
+  thome(spec, sh, t) {
+    let o = TK.home(spec.T, t);
+    if (sh.ball) { const b = sh.ball, shown = b.revealAt == null || t - sh.start >= b.revealAt; o += TK.ball(spec.T, t, b.x ?? 540, b.y ?? 760, b.size ?? 420, shown ? (b.n ?? '') : '?', shown && b.revealAt != null ? sh.start + b.revealAt : 0, !shown); }
+    return o + people(spec, sh, t) + floatReactions(spec, sh, t) + (sh.confetti ? TK.confetti(spec.T, t, sh.start + (sh.confetti === true ? 0.3 : sh.confetti)) : '');
+  },
+  // big mascot ball: '?' spinning with a 3-2-1 until revealAt, then the number pops (quiz / guess formats)
+  tball(spec, sh, t) {
+    const u = t - sh.start, rv = sh.revealAt ?? 3, shown = u >= rv, C = spec.T.theme.manifest.colors;
+    let o = TK.home(spec.T, t) + '<rect width="1080" height="1920" fill="' + C.accentDeep + '" opacity="0.2"></rect>' + TK.ball(spec.T, t, 540, sh.y ?? 900, sh.size ?? 640, shown ? sh.n : '?', shown ? sh.start + rv : 0, !shown);
+    const left = Math.ceil(rv - u);
+    if (!shown && sh.countdown !== false && left <= 3 && u > 0.6) o += '<g transform="translate(540 1480) scale(' + f2(back((u - (rv - left)) / 0.25)) + ')"><circle r="110" fill="#FFFFFF" opacity="0.95"></circle><text x="0" y="40" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="120" fill="' + C.accentDeep + '">' + left + '</text></g>';
+    return o + people(spec, sh, t) + floatReactions(spec, sh, t);
+  },
+  ttimes(spec, sh, t) { return TK.times(spec.T, t, sh.start); },
+  tapp(spec, sh, t) { return TK.app(spec.T, t, sh.start); },
+});
+
 // ---------- frame ----------
 export function frameAt(spec, t) {
   const sh = t < spec.shots[0].start ? spec.shots[0] : spec.shots.find((s) => t >= s.start && t < s.end) || spec.shots[spec.shots.length - 1];
   const u = t - sh.start, len = sh.end - sh.start;
   let body = (KITS[sh.kit] || KITS.card)(spec, sh, t);
+  if (sh.kit === 'ttimes' || sh.kit === 'tapp') return body;
   body += (sh.props || []).map((p) => propAt(p, sh, t)).join('');
   if (sh.kit === 'scene' && sh.front && FRONTS[sh.set]) body += FRONTS[sh.set]();
   if (sh.clock) body += clock(900, 300, 80, sh.clock.h, sh.clock.m || 0);
@@ -170,6 +223,7 @@ export function frameAt(spec, t) {
 // Cover: the strongest frame of the reel (draft "cover": { shot: index, at: seconds into that shot, title: [line1, line2] })
 // with a bold title kept inside the 3:4 grid crop (y 240-1680).
 export function coverFrame(spec) {
+  if (spec.T) return TK.cover(spec.T);
   const c = spec.cover || {};
   const sh = spec.shots[c.shot ?? Math.floor(spec.shots.length / 2)];
   const t = sh.start + (c.at ?? Math.min(1.2, (sh.end - sh.start) * 0.7));

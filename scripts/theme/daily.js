@@ -1,6 +1,9 @@
-// Nightly theme Housie reel: reads today's booked theme + public game times from the app, renders the
-// "POV: game night" reel in that theme (its art, music and number calls), posts it on Instagram right away
-// and on YouTube Shorts (Housie Themes playlist), and logs it in the tracker so the stats sync can learn.
+// Nightly theme Housie reel: reads today's booked theme + public game times from the app, renders a reel in
+// that theme (its art, music and number calls), posts it on Instagram right away and on YouTube Shorts
+// (Housie Themes playlist), and logs it in the tracker so the stats sync can learn.
+// The reel is tonight's AI-written draft (theme/drafts/TH-<date>.json, by the Theme Reel Writer routine:
+// a new format every night, rendered by the Kitty Gang engine with theme kits). With no draft, or if it
+// fails, one of the built-in storylines (theme/config.json) is used so a reel always goes out.
 //   node scripts/theme/daily.js [YYYY-MM-DD] [--dry]
 // CI env: FIREBASE_SA, AGENT_KEY, R2_*, YT_* (YT_PLAYLIST_ID = Housie Themes playlist)
 const fs = require('fs');
@@ -18,9 +21,23 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const fill = (s, v) => String(s).replace(/\{(\w+)\}/g, (_, k) => v[k] ?? '');
 
 // light checks before anything goes public
-function qa(file) {
+function qa(file, min = 20, max = 40) {
   const dur = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file]).toString().trim());
-  return { dur, ok: dur > 20 && dur < 40 && fs.statSync(file).size > 1e6 };
+  return { dur, ok: dur > min && dur < max && fs.statSync(file).size > 1e6 };
+}
+
+// AI-written draft: voiced and timed by the Kitty Gang builder in theme mode, rendered by AutoReel
+function renderDraft(D, d, times, seed) {
+  const id = 'TH-' + d.date, file = path.join(ROOT, '.remotion', id + '.json');
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, JSON.stringify({ ...D, id, theme: { id: d.theme.id, pack: d.theme.pack, sounds: d.theme.sounds, day: d.day, times, seed } }));
+  const run = (args) => execFileSync(args[0], args.slice(1), { cwd: ROOT, stdio: 'inherit', shell: process.platform === 'win32' });
+  run(['node', 'scripts/autopilot/build.js', file]);
+  const props = `autopilot/timed/${id}.json`, mp4 = `out/${id}.mp4`, cover = `out/${id}-cover.jpg`;
+  fs.mkdirSync(path.join(ROOT, 'out'), { recursive: true });
+  run(['npx', 'remotion', 'render', 'AutoReel', mp4, `--props=${props}`, '--log=error']);
+  run(['npx', 'remotion', 'still', 'AutoCover', cover, `--props=${props}`, '--image-format=jpeg', '--log=error']);
+  return { mp4, cover };
 }
 // ffmpeg prints the loudness summary on stderr
 const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-nostats', '-i', file, '-af', 'ebur128', '-f', 'null', '-'], { stdio: ['ignore', 'pipe', 'pipe'], encoding: 'utf8' }) + ''; } catch (e) { return String(e.stderr || ''); } };
@@ -46,13 +63,28 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
   const copy = S.variants.find((v) => v.id === S.pinned) || S.variants[used % S.variants.length];
   const times = d.times.length ? d.times : ['12 PM', '3 PM', '7 PM'];
   const rec = { id, created: d.date, title: `${d.theme.name} Housie night`, format: 'Theme Housie', theme: d.theme.id, story, variant: copy.id, hook: copy.hook, cast: [], status: 'rendering', idea: `Theme of the day reel: ${d.theme.name}, games ${times.join(', ')}` };
+  const draftFile = path.join(ROOT, 'theme', 'drafts', id + '.json');
+  const D = fs.existsSync(draftFile) ? JSON.parse(fs.readFileSync(draftFile, 'utf8')) : null;
   try {
-    const r = await build({ id: d.theme.id, pack: d.theme.pack, sounds: d.theme.sounds, day: d.day, times, copy, story, seed: dayN });
-    const mp4 = path.join(ROOT, r.mp4), q = qa(mp4);
+    let r = null, ai = false;
+    const base = { ...rec };
+    const fallback = async (why) => { console.error('AI draft failed, using a built-in storyline:', why); ai = false; Object.assign(rec, base, { ai_error: String(why).slice(0, 200) }); return build({ id: d.theme.id, pack: d.theme.pack, sounds: d.theme.sounds, day: d.day, times, copy, story, seed: dayN }); };
+    if (D && !D.skip) {
+      try {
+        r = renderDraft(D, d, times, dayN); ai = true;
+        Object.assign(rec, { story: 'ai', variant: (D.experiment && D.experiment.format) || D.format, title: D.title, hook: ((D.shots[0] && D.shots[0].hook) || []).join(' '), idea: D.idea, beats: D.beats, experiment: D.experiment });
+      } catch (e) { r = await fallback(e.message); }
+    }
+    if (!r) r = await build({ id: d.theme.id, pack: d.theme.pack, sounds: d.theme.sounds, day: d.day, times, copy, story, seed: dayN });
+    let mp4 = path.join(ROOT, r.mp4), q = ai ? qa(mp4, 12, 60) : qa(mp4);
+    if (ai && !q.ok) { r = await fallback(`QA: ${q.dur}s`); mp4 = path.join(ROOT, r.mp4); q = qa(mp4); }
     const m = lufs(mp4).match(/I:\s+(-?[\d.]+) LUFS/g); const L = m ? Number(m.pop().match(/-?[\d.]+/)[0]) : null;
     rec.duration = Math.round(q.dur * 10) / 10; rec.lufs = L;
     if (!q.ok || (L != null && L < -24)) throw new Error(`QA failed: ${q.dur}s, ${L} LUFS`);
-    rec.caption = [fill(S.caption || cfg.caption, { theme: d.theme.name, times: times.join(', '), day: d.day }), cfg.hashtags.join(' ')].join('\n\n');
+    const capVars = { theme: d.theme.name, times: times.join(', '), day: d.day };
+    rec.caption = ai
+      ? [fill(D.caption || '', capVars), `Public Housie aaj ${capVars.times}.`, 'Download "Kitty Party" app from Play Store or App Store.', (D.hashtags || cfg.hashtags).join(' ')].filter(Boolean).join('\n\n')
+      : [fill(S.caption || cfg.caption, capVars), cfg.hashtags.join(' ')].join('\n\n');
     if (DRY) { rec.status = 'rendered'; return console.log('dry run: rendered', r.mp4); }
     rec.video_url = T.r2put(mp4, `reels/theme/${id}.mp4`, 'video/mp4');
     rec.cover_url = T.r2put(path.join(ROOT, r.cover), `reels/theme/${id}-cover.jpg`, 'image/jpeg');
@@ -82,7 +114,7 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
       tr.reels = tr.reels.filter((x) => x.id !== id).concat(rec);
       T.save(tr);
       console.log('tracker:', await T.publishTracker(tr));
-      await T.status('theme-reel', rec.status === 'failed' ? 'failed' : 'ok', rec.status === 'failed' ? null : `Posted ${d.theme.name} reel (${rec.variant})${rec.yt_url ? ' + YouTube Short' : ''}`, rec.error);
+      await T.status('theme-reel', rec.status === 'failed' ? 'failed' : 'ok', rec.status === 'failed' ? null : `Posted ${d.theme.name} reel (${rec.story === 'ai' ? 'AI: ' : ''}${rec.variant})${rec.yt_url ? ' + YouTube Short' : ''}`, rec.error);
     }
   }
   if (rec.status === 'failed') process.exit(1);

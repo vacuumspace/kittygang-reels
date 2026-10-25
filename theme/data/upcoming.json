@@ -1,0 +1,239 @@
+{
+ "updated": "2026-10-25T16:22:40.769Z",
+ "days": [
+  {
+   "date": "2026-10-25",
+   "day": "Sun, 25 Oct",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "witchsbrew",
+    "name": "Witch's Brew",
+    "pack": "themes/witchsbrew/v1",
+    "sounds": "sounds/witchsbrew/v4",
+    "colors": {
+     "accent": "#2F8F3A",
+     "accentDeep": "#1D5E24",
+     "gameInk": "#EFFFF2"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Broomstick",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Cauldron",
+      "points": 50,
+      "numbers": 5
+     },
+     {
+      "name": "Spell Book",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Black Cat",
+      "points": 50,
+      "numbers": 3
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_0",
+      "gh_1"
+     ],
+     "housie": [
+      "gs_1",
+      "gs_2",
+      "gs_0"
+     ],
+     "mascotBall": [
+      "sc_5",
+      "sc_6",
+      "sc_0",
+      "sc_1",
+      "sc_2",
+      "sc_3",
+      "sc_4"
+     ],
+     "particles": [
+      "gh_2",
+      "gh_3",
+      "fx_0",
+      "fx_1",
+      "fx_2",
+      "fx_3"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "day": "Mon, 26 Oct",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "spookyweb",
+    "name": "Spooky Web",
+    "pack": "themes/spookyweb/v1",
+    "sounds": "sounds/spookyweb/v4",
+    "colors": {
+     "accent": "#C2272D",
+     "accentDeep": "#8A1414",
+     "gameInk": "#F2F2F7"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Spider Web",
+      "points": 50,
+      "numbers": 5
+     },
+     {
+      "name": "Spider",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Full Moon",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Bats",
+      "points": 50,
+      "numbers": 4
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_1",
+      "gh_2",
+      "gh_0"
+     ],
+     "housie": [
+      "gs_0",
+      "gs_1"
+     ],
+     "mascotBall": [
+      "sc_1",
+      "sc_0"
+     ],
+     "particles": [
+      "gh_3",
+      "fx_2"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "day": "Tue, 27 Oct",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "trickortreat",
+    "name": "Trick or Treat",
+    "pack": "themes/trickortreat/v1",
+    "sounds": "sounds/trickortreat/v3",
+    "colors": {
+     "accent": "#D6338A",
+     "accentDeep": "#9C2A7A",
+     "gameInk": "#FFF0FA"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Lollipops",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Toffees",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Friendly Ghost",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Candy Bucket",
+      "points": 50,
+      "numbers": 5
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_2",
+      "gh_3",
+      "gh_0",
+      "gh_1"
+     ],
+     "housie": [
+      "gs_4",
+      "gs_5",
+      "gs_0",
+      "gs_1",
+      "gs_2",
+      "gs_3"
+     ],
+     "mascotBall": [
+      "sc_1",
+      "sc_2",
+      "sc_0"
+     ],
+     "particles": [
+      "gh_4",
+      "gh_5",
+      "gh_6",
+      "gh_7",
+      "fx_0",
+      "fx_1",
+      "fx_2",
+      "fx_3"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -18,8 +18,10 @@ workflow turns it into a finished video and posts it automatically (one post a d
      holidays, wedding season, school exams), and weekdays (Monday blues, Sunday kitty).
    - A quick web search for what is trending in Indian Instagram reels this week (formats, audio styles, phrases).
    Each idea: { added, idea (one line premise), format, source, score 1-10 (relatable + shareable + fits our gang), used: "" }.
-3. Pick the highest-scoring unused idea. Rotate formats and lead characters (do not repeat the same format or lead
-   character two reels in a row unless LEARNINGS says it wins).
+3. Pick the reel TYPE first: every reel is a live experiment. Read `autopilot/EXPERIMENTS.md` and pick a type that is
+   not among the last 4 reels' `experiment.type` in tracker.json (once LEARNINGS shows a winner, use it at most every
+   2nd reel). Then pick the highest-scoring unused idea that fits that type (or adapt one). Do not repeat the lead
+   character two reels in a row. Add `"experiment": { "type", "hook", "variable", "hypothesis" }` to the draft.
 4. Write the script. Shape (any length that keeps it flowing, usually 20-40 s, lines of 7 words or less, a laugh or surprise every 5 s):
    - 0-2 s HOOK: start in the middle of the action with a spoken line AND a visual joke together (never a soft question).
    - 2-6 s SETUP: what the main character wants, in one line. One main character with a want; max 3 talking characters.
@@ -54,7 +56,7 @@ workflow turns it into a finished video and posts it automatically (one post a d
    read its qa list and write the fixed version (new id) before anything else.
 5. Write `autopilot/drafts/<id>.json` following DRAFT-FORMAT.md exactly (valid JSON, Devanagari `say` for every Hindi line).
    Mark the idea as used with the reel id. Caption: one funny line + a share trigger ("Tag your Avika"), hashtags 5-8.
-6. On Mondays (IST) also update `autopilot/LEARNINGS.md`: compare reels by score, views, shares, saves, `stats.skip`
+6. On Mondays (IST) also update `autopilot/LEARNINGS.md`: compare reel TYPES (`experiment.type`) and reels by score, views, shares, saves, `stats.skip`
    (skip rate: % who swipe away in the first 3 s, judges the hook and cover; lower is better) and `stats.watched_pct`
    (average watch time as % of the reel length, judges the middle; higher is better); list what to do
    more and less of (formats, hooks, characters, length, topics, posting slot). Keep it under 60 lines; newest first.

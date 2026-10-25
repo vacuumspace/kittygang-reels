@@ -30,14 +30,13 @@ The reel writer and the game writer pick from this bank, so the quality of their
    - Never duplicate an idea already in the bank (used or not). Never copy a creator's post; take the pattern only.
 5. Keep the bank tidy: at most 15 unused ideas of each type. If over, set the lowest-scoring old ones to
    `"used": "dropped"`. Festival ideas whose festival has passed: `"used": "expired"`.
-6. Theme Housie reel (posted every night at 12:30 AM by `.github/workflows/theme.yml`): look at `reels` with
-   `"format": "Theme Housie"` and their `stats`, grouped by `story` and `variant`. Judge the hook by `stats.skip` (skip rate, lower is better), the reel by `stats.watched_pct`
-   (higher is better), and reach by shares + saves. Once a variant has 3+ posts with stats:
-   - Add one dated line to `theme/LEARNINGS.md` (what works: hook words, cover, caption; numbers to back it).
-   - Edit `theme/config.json`: drop the weakest variant (keep at least 2), add one fresh variant built from what works
-     and this week's trends (same keys; Hinglish, short, real Housie talk; `{theme}`, `{group}`, `{n}` placeholders),
-     or set `pinned` to a clear winner (2x the others on shares + saves). Caption and hashtags can be tuned too.
-   - Never change the app download line or the times; no emoji in on-screen words.
+6. Experiments: every Kitty Gang reel (`experiment.type`) and every nightly Theme Housie reel (`experiment.format`,
+   written by the Theme Reel Writer from `theme/WRITER.md`) tests one thing. Judge the hook by `stats.skip` (lower is
+   better), the middle by `stats.watched_pct` (higher is better), reach by shares + saves. When a type or format has
+   2+ posts with stats, add one dated line to `autopilot/LEARNINGS.md` (Kitty Gang) or `theme/LEARNINGS.md` (theme
+   reels): what won, what lost, the numbers. Add 1 or 2 new format ideas a week to the menus in
+   `autopilot/EXPERIMENTS.md` and `theme/WRITER.md` from this week's trends (patterns only). `theme/config.json` is
+   only the backup storylines now; leave it unless a backup reel was posted.
 7. Validate: `node -e "JSON.parse(require('fs').readFileSync('autopilot/tracker.json'));JSON.parse(require('fs').readFileSync('theme/config.json'))"`. Commit
-   "content bank: research YYYY-MM-DD" and `git push`. Only touch `autopilot/tracker.json`, `theme/config.json` and `theme/LEARNINGS.md`. No em dashes.
+   "content bank: research YYYY-MM-DD" and `git push`. Only touch `autopilot/tracker.json`, `autopilot/LEARNINGS.md`, `autopilot/EXPERIMENTS.md`, `theme/WRITER.md`, `theme/config.json` and `theme/LEARNINGS.md`. No em dashes.
    Never add AI or Claude mentions to commits or files.

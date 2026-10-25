@@ -2,6 +2,9 @@
 //   node scripts/autopilot/build.js autopilot/drafts/<id>.json
 // Draft: { id, title, caption, music:"quirky", shots:[{ kit, ..., dur?, hold?, lines:[{ who, text, say?, punch?, silenceBefore?, gap? }], sfx:[{at,name,vol}] }] }
 // Output: public/autopilot/<id>/NN.wav + music.wav, autopilot/timed/<id>.json ({ spec }).
+// Theme reels (draft.theme = { id, pack, sounds, day, times, seed }, set by scripts/theme/daily.js): the theme's
+// music instead of the quirky track, `call: N` on a shot plays the theme's own call for number N, and the
+// times card + Download app card are added at the end. spec.T carries the theme for the engine's theme kits.
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
@@ -53,6 +56,14 @@ function envelope(file) {
 }
 
 (async () => {
+  const TH = D.theme ? require('../theme/build') : null;
+  const TS = TH ? await TH.loadTheme(D.theme) : null;
+  const calls = [], callFiles = {};
+  const callFile = async (n) => {
+    const file = TH.call(n);
+    if (!callFiles[file]) { fs.writeFileSync(path.join(OUT, file), await TH.get(`${TH.R2}/${D.theme.sounds}/${file}`)); callFiles[file] = dur(path.join(OUT, file)); }
+    return { file, d: callFiles[file] };
+  };
   // the first frame is the reel's first shot (Instagram picks covers from it), so no lead-in
   let t = 0, n = 0, punchN = 0;
   const lines = [], shots = [], sfx = [];
@@ -62,6 +73,14 @@ function envelope(file) {
     // cuts: vary the transition sound so it never feels like the same whoosh on repeat
     if (si > 0) sfx.push({ at: t, name: ['whip', 'swish', 'whoosh'][si % 3], vol: 0.2 });
     let lt = t + (s.lead ?? 0.1);
+    // the theme's number call plays first, then any lines
+    let callEnd = 0;
+    if (TS && s.call != null) {
+      const c = await callFile(s.call);
+      calls.push({ at: +(t + 0.3).toFixed(2), until: +(t + 0.45 + c.d).toFixed(2), file: c.file });
+      sfx.push({ at: t + 0.25, name: 'ballpop', vol: 0.5 });
+      callEnd = t + 0.45 + c.d; lt = Math.max(lt, callEnd + 0.1);
+    }
     for (const L of s.lines || []) {
       if (L.silenceBefore) { lt += 0.7; sfx.push({ at: lt - 0.8, name: 'cricket', vol: 0.5 }); }
       const file = String(n++).padStart(2, '0') + '.wav', dest = path.join(OUT, file);
@@ -88,7 +107,16 @@ function envelope(file) {
       lt += d + (L.gap ?? 0.12);
       console.log(L.who.padEnd(7), d.toFixed(2), L.text);
     }
-    const end = (s.lines?.length ? lt - (s.lines[s.lines.length - 1].gap ?? 0.12) + (s.hold ?? 0.3) : t + (s.dur ?? 1.5));
+    let end = (s.lines?.length ? lt - (s.lines[s.lines.length - 1].gap ?? 0.12) + (s.hold ?? 0.3) : t + (s.dur ?? 1.5));
+    end = Math.max(end, callEnd + 0.4);
+    // theme kit sounds: the ball pops, dabs, the 3-2-1 before a reveal, Full House
+    if (TS) {
+      if (s.kit === 'tgame' && s.ball != null && s.call == null) sfx.push({ at: t + 0.3, name: 'ballpop', vol: 0.5 });
+      if (s.kit === 'tgame' && s.dab) sfx.push({ at: t + 1.0, name: 'pop', vol: 0.55 });
+      if (s.full) sfx.push({ at: t + 1.0, name: 'impact', vol: 0.5 }, { at: t + 1.05, name: 'crowd', vol: 0.45 }, { at: t + 1.2, name: 'waah', vol: 0.5 }, { at: t + 1.4, name: 'clap', vol: 0.45 });
+      if (s.kit === 'tball') { const rv = s.revealAt ?? 3; [3, 2, 1].forEach((k) => rv - k > 0.5 && sfx.push({ at: t + rv - k, name: 'tick', vol: 0.4 })); sfx.push({ at: t + rv, name: 'ballpop', vol: 0.6 }, { at: t + rv + 0.15, name: 'ding', vol: 0.45 }); end = Math.max(end, t + rv + 1.2); }
+      if (s.burst) sfx.push({ at: t + 0.4, name: 'sparkle', vol: 0.35 });
+    }
     shot.end = +end.toFixed(2);
     const STICK = { sweat: 'drip', question: 'slideup', exclaim: 'sting', bulb: 'ding', spark: 'sparkle', heart: 'pop', bolt: 'pop' };
     for (const st of s.stickers || []) sfx.push({ at: t + (st.at || 0.3), name: STICK[st.kind] || 'pop', vol: 0.3 });
@@ -102,10 +130,18 @@ function envelope(file) {
     shots.push(shot);
     t = end;
   }
-  const total = +(t + (D.tail ?? 0.6)).toFixed(2);
-  execFileSync('node', [path.join(ROOT, 'scripts', 'music-quirky.js'), path.join(OUT, 'music.wav'), String(Math.ceil(total + 1))], { stdio: 'ignore' });
+  // theme reels always close on the times card, then the Download app card (team rule)
+  if (TS) {
+    shots.push({ kit: 'ttimes', start: +t.toFixed(2), end: +(t + 3).toFixed(2) }, { kit: 'tapp', start: +(t + 3).toFixed(2), end: +(t + 6.8).toFixed(2) });
+    sfx.push({ at: t, name: 'whoosh', vol: 0.45 }, { at: t + 0.6, name: 'ding', vol: 0.35 }, { at: t + 1.2, name: 'sparkle', vol: 0.35 }, { at: t + 3, name: 'whoosh', vol: 0.45 }, { at: t + 3.1, name: 'pop', vol: 0.5 }, { at: t + 3.8, name: 'ding', vol: 0.4 }, { at: t + 4, name: 'slideup', vol: 0.4 });
+    t += 6.8;
+  }
+  const total = +(t + (TS ? 0 : D.tail ?? 0.6)).toFixed(2);
+  if (TS) fs.writeFileSync(path.join(OUT, 'music.m4a'), await TH.get(`${TH.R2}/${D.theme.sounds}/music.m4a`));
+  else execFileSync('node', [path.join(ROOT, 'scripts', 'music-quirky.js'), path.join(OUT, 'music.wav'), String(Math.ceil(total + 1))], { stdio: 'ignore' });
   fs.rmSync(TMP, { recursive: true, force: true });
-  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', frames: Math.round(total * FPS), cover: D.cover, ambience: D.ambience };
+  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', musicFile: TS ? 'music.m4a' : 'music.wav', calls, frames: Math.round(total * FPS), cover: D.cover, ambience: D.ambience };
+  if (TS) spec.T = { ...TS, total };
   fs.mkdirSync(path.join(ROOT, 'autopilot', 'timed'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'autopilot', 'timed', D.id + '.json'), JSON.stringify({ spec }));
   console.log('total', total, 's');

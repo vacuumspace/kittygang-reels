@@ -243,3 +243,21 @@ function appCard(spec, t, at) {
 }
 // cover image: the opening scene once everything has landed
 export const coverAt = (spec) => { uid = 0; return coverFrame(spec, (spec.tl || TL).hook - 0.05); };
+
+// Pieces the AI-written theme reels (src/autopilot/engine.js theme kits) draw with.
+// `spec` here is the theme spec built by scripts/theme/build.js loadTheme().
+export const themeKit = {
+  home: (spec, t) => { uid = 0; return homeBg(spec, t); },
+  // the game screen filling the frame (camera centre cx, cy in app units, zoom z) or held in a tilted phone
+  screen: (spec, t, st, cx = 195, cy = 422, z = 1) => view(spec, t, st, camT(cx, cy, z)),
+  phone: (spec, t, st, x = 540, y = 360, w = 520, rot = -4) => {
+    const h = w * PH / PW, k = 'ph' + (uid++);
+    return '<g transform="rotate(' + rot + ' ' + x + ' ' + f1(y + h / 2) + ')"><rect x="' + f1(x - w / 2 - 14) + '" y="' + f1(y - 14) + '" width="' + f1(w + 28) + '" height="' + f1(h + 28) + '" rx="56" fill="#2A0E22"></rect><clipPath id="' + k + '"><rect x="' + f1(x - w / 2) + '" y="' + f1(y) + '" width="' + w + '" height="' + f1(h) + '" rx="44"></rect></clipPath><g clip-path="url(#' + k + ')">' + view(spec, t, st, [x - w / 2, y, w / PW]) + '</g></g>';
+  },
+  ball: (spec, t, cx, cy, size, label, popAt, spin) => bigBall(spec, t, cx, cy, size, label, popAt, spin),
+  confetti: (spec, t, at) => confetti(spec, t, at),
+  reaction: (spec, key, x, y, size) => { const r0 = spec.theme.manifest.reactions[key] || Object.values(spec.theme.manifest.reactions)[0]; return r0 ? inline(spec, r0.art, x - size / 2, y - size / 2, size, size) : ''; },
+  times: (spec, t, at) => { uid = 0; return timesCard(spec, t, at); },
+  app: (spec, t, at) => { uid = 0; return appCard(spec, t, at); },
+  cover: (spec) => { uid = 0; return coverFrame(spec, 2.15); },
+};

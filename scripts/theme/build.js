@@ -74,7 +74,8 @@ function plan(story, manifest, seed) {
   return { tl: L, ticket, numbers: N, calls, sfx };
 }
 
-async function build({ id, pack, sounds, day, times, copy = {}, story = 'pov', seed = 1, render = true }) {
+// The booked theme's pack (art, manifest, ticket layout) plus avatars, ready for the engines.
+async function loadPack(id, pack) {
   const work = path.join(ROOT, '.remotion', 'theme-' + id); fs.rmSync(work, { recursive: true, force: true }); fs.mkdirSync(work, { recursive: true });
   fs.writeFileSync(path.join(work, 'pack.zip'), await get(`${R2}/${pack}.zip`));
   run('unzip', ['-q', '-o', path.join(work, 'pack.zip'), '-d', path.join(work, 'pack')]);
@@ -83,6 +84,20 @@ async function build({ id, pack, sounds, day, times, copy = {}, story = 'pov', s
   if (!manifest.ticketLayout) throw new Error(id + ' pack has no themed ticket, the reel needs one');
   const art = Object.fromEntries(fs.readdirSync(packDir).filter((f) => f.endsWith('.svg')).map((f) => [f, fs.readFileSync(path.join(packDir, f), 'utf8')]));
   const avatars = await Promise.all(AVATARS.map(async (a) => (await get(`${R2}/avatars/v1/${a}.svg`)).toString('utf8')));
+  return { manifest, art, avatars };
+}
+// Theme spec for the AI-written reels (Kitty Gang engine theme kits): the pack plus a date-seeded ticket.
+// The music and number calls a draft uses are copied by scripts/autopilot/build.js.
+async function loadTheme({ id, pack, day, times, seed = 1 }) {
+  const { manifest, art, avatars } = await loadPack(id, pack);
+  const pool = shuffled(rng(seed));
+  let p = 0; const ticket = manifest.ticketLayout.groups.map((g) => g.slots.map(() => pool[p++ % pool.length]));
+  const logo = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'assets', 'brand', 'kp-logo.png')).toString('base64');
+  return { logo, theme: { id, name: manifest.name, manifest }, art, avatars, day, times, ticket, copy: {} };
+}
+
+async function build({ id, pack, sounds, day, times, copy = {}, story = 'pov', seed = 1, render = true }) {
+  const { manifest, art, avatars } = await loadPack(id, pack);
   const P = plan(story, manifest, seed);
 
   const pub = path.join(ROOT, 'public', 'theme', id); fs.rmSync(pub, { recursive: true, force: true }); fs.mkdirSync(pub, { recursive: true });
@@ -99,7 +114,7 @@ async function build({ id, pack, sounds, day, times, copy = {}, story = 'pov', s
   run('npx', ['remotion', 'still', 'ThemeCover', out.cover, `--props=${props}`, '--image-format=jpeg', '--log=error']);
   return out;
 }
-module.exports = { build, STORIES };
+module.exports = { build, loadTheme, STORIES, R2, get, call };
 
 if (require.main === module) {
   const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.slice(k.length + 3) : d; };

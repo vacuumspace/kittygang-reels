@@ -9,3 +9,4 @@ The researcher routine adds a dated line here when the stats show something, and
 - Only real app screens and the theme's own art; never invent app features.
 
 ## Log
+- 2026-10-25: built-in storylines (pov, guess, race) on 22-24 Oct: skip 67 to 89%, watch 2.3 to 5.9 s, 0 shares, about 210 views each. Kitty Gang Housie sitcom (KG-2026-10-22-c): 1,098 views, 54% skip, 5 shares. From 26 Oct every night is an AI-written experiment (theme/WRITER.md).

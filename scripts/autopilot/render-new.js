@@ -23,7 +23,7 @@ const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0
     const D = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'drafts', f), 'utf8'));
     if (done.has(D.id) || D.skip) continue;
     console.log('\n=== ' + D.id + ' · ' + D.title);
-    const rec = { id: D.id, created: ist(), title: D.title, format: D.format, hook: (D.shots[0]?.hook || []).join(' '), cast: [...new Set(D.shots.flatMap((s) => [s.char?.name, ...(s.chars || []).map((c) => c.name), ...(s.lines || []).map((l) => l.who)]).filter((x) => x && x !== 'ALL'))], caption: D.caption, status: 'rendering', idea: D.idea, beats: D.beats };
+    const rec = { id: D.id, created: ist(), title: D.title, format: D.format, hook: (D.shots[0]?.hook || []).join(' '), cast: [...new Set(D.shots.flatMap((s) => [s.char?.name, ...(s.chars || []).map((c) => c.name), ...(s.lines || []).map((l) => l.who)]).filter((x) => x && x !== 'ALL'))], caption: D.caption, status: 'rendering', idea: D.idea, beats: D.beats, experiment: D.experiment };
     rec.script = D.shots.flatMap((s, i) => (s.lines || []).map((l) => ({ shot: i + 1, kit: s.kit, who: l.who, line: l.text, beat: l.beat || '' })));
     try {
       run('node', ['scripts/autopilot/build.js', `autopilot/drafts/${f}`]);

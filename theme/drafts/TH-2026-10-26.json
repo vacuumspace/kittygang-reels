@@ -1,0 +1,25 @@
+{
+  "title": "Dono ka ek hi number baaki!",
+  "format": "Kitty Gang sitcom at the theme's Housie",
+  "experiment": { "format": "sitcom", "hook": "cold open on the game, 1 number left", "variable": "Kitty Gang characters instead of only the app screen", "hypothesis": "faces and a rivalry in the first 2 s cut the skip rate under 60%" },
+  "idea": "Tanya and Ruhi both need 44 for Full House in Spooky Web Housie; 13 comes, then 44, Tanya wins.",
+  "beats": "hook: 1 number left / setup: both need 44 / escalation: 13 comes / turn: 3-2-1 reveal / button: Ruhi's excuse",
+  "caption": "Ek number, do saheliyan, aur {theme} ki raat. Aapke group mein Ruhi kaun hai? Tag karo!",
+  "hashtags": ["#kittyparty", "#housie", "#tambola", "#halloween", "#kittygang"],
+  "ambience": { "name": "crowd", "vol": 0.08 },
+  "pace": 22,
+  "shots": [
+    { "kit": "tgame", "view": "phone", "py": 300, "pw": 470, "ball": "?", "marked": 14, "hook": ["Bas 1 number", "aur Full House!"], "hookY": 1450, "chars": [{ "name": "Tanya", "x": 900, "y": 1900, "s": 1.5, "pose": "phone2" }], "dur": 1.9, "sfx": [{ "at": 0.2, "name": "heartbeat", "vol": 0.6 }] },
+    { "kit": "thome", "chars": [{ "name": "Tanya", "x": 330, "y": 1780, "s": 2.0, "pose": "talkR" }, { "name": "Ruhi", "x": 760, "y": 1780, "s": 2.0, "turn": -0.5 }],
+      "lines": [{ "who": "Tanya", "text": "Bas 44 chahiye, phir Full House!", "say": "बस चवालीस चाहिए, फिर फुल हाउस!", "beat": "setup" },
+                { "who": "Ruhi", "text": "Mera bhi 44 hi baaki hai!", "say": "मेरा भी चवालीस ही बाकी है!", "punch": true, "beat": "twist" }] },
+    { "kit": "tgame", "view": "ball", "call": 13, "marked": 14,
+      "lines": [{ "who": "Tanya", "text": "Terah?! Yeh kaun maangta hai?", "say": "तेरह?! ये कौन मांगता है?", "beat": "escalation" }] },
+    { "kit": "tball", "n": 44, "revealAt": 3, "chip": "Agla number...", "chipY": 300,
+      "lines": [{ "who": "ALL", "text": "Chawaalees!", "say": "चवालीस!", "punch": true }], "lead": 3.2 },
+    { "kit": "tgame", "view": "full", "ball": 44, "marked": 14, "dab": true, "full": true, "burst": 1.2, "dur": 2.6 },
+    { "kit": "thome", "confetti": true, "chars": [{ "name": "Tanya", "x": 330, "y": 1780, "s": 2.0, "hop": true }, { "name": "Ruhi", "x": 760, "y": 1780, "s": 2.0, "turn": -0.5, "mouth": "flat" }],
+      "lines": [{ "who": "Tanya", "text": "Full House! Spider Web bhi mera!", "say": "फुल हाउस! स्पाइडर वेब भी मेरा!" },
+                { "who": "Ruhi", "text": "Main toh bas haaye karne aayi thi.", "say": "मैं तो बस हाय करने आई थी।", "punch": true, "beat": "button" }] }
+  ]
+}
