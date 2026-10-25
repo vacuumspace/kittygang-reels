@@ -31,7 +31,8 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
   if (!d.theme) { console.log('no theme booked for', d.date); if (!DRY) await T.status('theme-reel', 'ok', `No theme booked for ${d.day}, nothing posted`); return; }
   const id = 'TH-' + d.date;
   const tr = T.load();
-  if (!DRY && tr.reels.some((r) => r.id === id && ['posted', 'publishing'].includes(r.status))) return console.log(id, 'already posted');
+  // backup runs: put the admin status back from "running" (no new log row)
+  if (!DRY && tr.reels.some((r) => r.id === id && ['posted', 'publishing'].includes(r.status))) { await T.status('theme-reel', 'ok'); return console.log(id, 'already posted'); }
   console.log(id, d.theme.name, d.day, d.times.join(', '));
 
   const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'theme', 'config.json'), 'utf8'));

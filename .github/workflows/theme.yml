@@ -3,7 +3,8 @@ name: Theme Housie reel
 on:
   schedule:
     - cron: '0 19 * * *'    # 12:30 AM IST: today's theme reel, posted on Instagram + YouTube Shorts
-    # GitHub sometimes delays or drops scheduled runs; these backups do nothing once the day's reel is posted
+    # GitHub delays night runs 2-3 hours, so the messaging Worker also starts this at 12:20 AM IST (workflow_dispatch).
+    # All of these are backups and do nothing once the day's reel is posted
     - cron: '40 19 * * *'   # 1:10 AM IST
     - cron: '30 20 * * *'   # 2:00 AM IST
     - cron: '30 22 * * *'   # 4:00 AM IST
