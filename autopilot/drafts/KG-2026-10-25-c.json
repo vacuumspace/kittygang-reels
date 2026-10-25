@@ -1,0 +1,970 @@
+{
+  "id": "KG-2026-10-25-c",
+  "title": "Karwa Chauth ka gift",
+  "format": "Living-room sitcom, gift show and tell",
+  "idea": "The day after Karwa Chauth the gang shows off their husbands' gifts while Tanya hides her bag; her gift is a pressure cooker, and it wins the room.",
+  "logline": "At the kitty after Karwa Chauth everyone flaunts a fancy gift, Tanya hides hers, and her pressure cooker with five years warranty beats them all.",
+  "game": "every gift is flashier than the last while Tanya hides her bag",
+  "mute": [
+    "Ruhi shows off a ring at the Karwa Chauth kitty",
+    "Tanya hugs her bag, sweating, hiding her own gift",
+    "Shruti shows a bracelet bought on sale",
+    "Tina got a Dubai trip, plane sticker",
+    "everyone turns to Tanya and her bag",
+    "twist: Tanya lifts out a pressure cooker",
+    "Shruti is thrilled: 5 litre, bill attached, 5 years warranty",
+    "Ruhi's ring has no warranty, Tina wants a cooker too",
+    "Tanya proudly shows the cooker, Ruhi wants to exchange her ring"
+  ],
+  "beats": "hook: Ruhi's ring / esc: bracelet on sale, Dubai trip, what's in your bag / twist: pressure cooker / turn: warranty wins / button: Tanya says Ruhi's line, Ruhi wants to exchange",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Timely for the kitty right after Karwa Chauth (29 Oct). Real scene: the day-after gift talk. Claim before reveal (Tanya hides, then the drop), see-it twist (cooker pops out), flip (practical gift wins), button mirrors the hook line. Picked over the two 9s: Fashion Police repeats Tina at the door from KG-2026-10-23-b, and the lehenga video call needs photo proofs no kit can show."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 0.9,
+    "title": [
+      "Karwa Chauth ka gift",
+      "Pressure cooker!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Karwa Chauth ke baad har kitty mein yahi scene hota hai. Tag the friend jiska gift sabse kaam ka hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#karwachauth",
+    "#karwachauthgift",
+    "#ladieskitty",
+    "#kittygang",
+    "#desiwives"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "KARWA CHAUTH KITTY",
+      "front": true,
+      "chip": "KARWA CHAUTH KA GIFT?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 690,
+          "y": 1420,
+          "s": 1.6,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 1200,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 380,
+          "y": 1150,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Dekho! Inhone diya!",
+          "say": "देखो! इन्होंने दिया!",
+          "beat": "hook"
+        },
+        {
+          "who": "Shruti",
+          "text": "Haaye, ring!",
+          "say": "हाय, रिंग!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KARWA CHAUTH KA GIFT?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 690,
+          "y": 1420,
+          "s": 1.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Karwa Chauth ka gift!",
+          "say": "करवा चौथ का गिफ़्ट!",
+          "gap": 0.05,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "TANYA KA GIFT: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 480,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": 0.3
+        }
+      ],
+      "props": [
+        {
+          "name": "Handbag",
+          "x": 680,
+          "y": 1560,
+          "s": 1.8
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 880,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Bas mera gift koi na pooche...",
+          "say": "बस मेरा गिफ़्ट कोई ना पूछे...",
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "SHRUTI: BRACELET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "wave",
+          "prop": "",
+          "mouth": "laugh",
+          "turn": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "smile",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Bangles stack",
+          "x": 300,
+          "y": 1130,
+          "s": 1.8,
+          "at": 0.2
+        },
+        {
+          "name": "Handbag",
+          "x": 960,
+          "y": 1580,
+          "s": 1.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Mujhe bracelet mila!",
+          "say": "मुझे ब्रेसलेट मिला!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Arre waah!",
+          "say": "अरे वाह!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "SHRUTI: BRACELET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "wave",
+          "prop": "",
+          "mouth": "laugh",
+          "turn": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "smile",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Bangles stack",
+          "x": 300,
+          "y": 1130,
+          "s": 1.8
+        },
+        {
+          "name": "Handbag",
+          "x": 960,
+          "y": 1580,
+          "s": 1.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Sale mein, chaalis percent off!",
+          "say": "सेल में, चालीस परसेंट ऑफ़!",
+          "gap": 0.05,
+          "punch": true
+        }
+      ],
+      "hold": 0.1,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TINA: DUBAI TRIP",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "plane",
+          "x": 330,
+          "y": 820,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "whoosh",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, mujhe Dubai trip mila.",
+          "say": "डार्लिंग, मुझे दुबई ट्रिप मिला।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Dubai?!",
+          "say": "हाऽव! दुबई?!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TINA: DUBAI TRIP",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Business class, obviously.",
+          "say": "बिज़नेस क्लास, ऑब्वियसली।",
+          "gap": 0.05,
+          "punch": true
+        }
+      ],
+      "hold": 0.1,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "TANYA KA GIFT: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 220,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1720,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tina",
+          "x": 870,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Handbag",
+          "x": 700,
+          "y": 1530,
+          "s": 1.7
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 860,
+          "at": 0.5
+        },
+        {
+          "kind": "question",
+          "x": 540,
+          "y": 620,
+          "at": 1.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Tanya, tumhe kya mila?",
+          "say": "तान्या, तुम्हें क्या मिला?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Kuch nahi!",
+          "say": "कुछ नहीं!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "TANYA KA GIFT: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 220,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1720,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tina",
+          "x": 870,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Handbag",
+          "x": 700,
+          "y": 1530,
+          "s": 1.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Toh bag mein kya hai?",
+          "say": "तो बैग में क्या है?",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "TANYA: PRESSURE COOKER",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Tina",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 560,
+          "y": 1180,
+          "s": 2.4,
+          "at": 0.7
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 840,
+          "y": 820,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.7,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 0.75,
+          "name": "boom",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Pressure cooker.",
+          "say": "प्रेशर कुकर।",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "twist"
+        },
+        {
+          "who": "Tina",
+          "text": "Cooker?!",
+          "say": "कुकर?!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.35
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "5 SAAL WARRANTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "clapR",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "open",
+          "turn": 0.4,
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "smile",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 780,
+          "y": 1300,
+          "s": 2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 330,
+          "y": 820,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "calc",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Paanch litre! Steel wala!",
+          "say": "पाँच लीटर! स्टील वाला!",
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Bill bhi chipka hai.",
+          "say": "बिल भी चिपका है।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "5 SAAL WARRANTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "clapR",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "open",
+          "turn": 0.4,
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "smile",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 780,
+          "y": 1300,
+          "s": 2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Paanch saal warranty!",
+          "say": "पाँच साल वारंटी!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "RING KI WARRANTY?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 230,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkR",
+          "prop": "",
+          "mouth": "smirk",
+          "turn": 0.5
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1720,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tina",
+          "x": 860,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "hips",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ruhi, ring ki warranty?",
+          "say": "रूही, रिंग की वारंटी?",
+          "beat": "turn"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Nahi...",
+          "say": "नहीं...",
+          "gap": 0.08
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "RING KI WARRANTY?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 230,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "talkR",
+          "prop": "",
+          "mouth": "smirk",
+          "turn": 0.5
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1720,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tina",
+          "x": 860,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "hips",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, mujhe bhi cooker chahiye.",
+          "say": "डार्लिंग, मुझे भी कुकर चाहिए।",
+          "gap": 0.05,
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "KARWA CHAUTH KITTY",
+      "camera": "punch",
+      "chip": "KARWA CHAUTH KA GIFT?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 220,
+          "y": 1760,
+          "s": 1.7,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": 0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 720,
+          "y": 1180,
+          "s": 2.2
+        },
+        {
+          "name": "Jewellery box",
+          "x": 200,
+          "y": 1840,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 820,
+          "y": 900,
+          "at": 0.2
+        },
+        {
+          "kind": "spark",
+          "x": 600,
+          "y": 820,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 0.3,
+          "name": "clap",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Dekho! Inhone diya!",
+          "say": "देखो! इन्होंने दिया!",
+          "beat": "button"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ring exchange hoti hai kya?",
+          "say": "रिंग एक्सचेंज होती है क्या?",
+          "gap": 0.05,
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.7
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "fixes": "KG-2026-10-25-a (QA: shot 5.4 s); split shots 1, 3, 4, 5, 7, 8 so no shot carries three lines"
+}

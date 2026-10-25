@@ -1,0 +1,700 @@
+{
+  "id": "KG-2026-10-25-b",
+  "title": "Das rupaye kam hain!",
+  "format": "Living-room sitcom, Housie prize hisaab",
+  "idea": "After Full House, Shruti finds the kitty pot Rs 10 short and turns the room upside down hunting for it, while Aditi sips chai with the note stuck under her cup.",
+  "logline": "Ishita wins Housie, Shruti won't pay out because the pot is Rs 10 short, and the missing note is stuck under Aditi's chai cup.",
+  "game": "the hunt for Rs 10 gets bigger every time (purse, sofa, CCTV) while the note sits under Aditi's cup",
+  "mute": [
+    "Ishita wins Full House, wants her prize; Shruti stops her with a calculator",
+    "chip: KITTY POT Rs 10 KAM, Shruti shocked",
+    "Shruti asks who didn't pay, Ishita swears she did",
+    "Ishita empties her purse proudly: only Housie tickets",
+    "Shruti finds Rs 2 under the sofa cushion, Ishita: 8 more",
+    "Shruti on the phone wants CCTV, Ishita shocked",
+    "Aditi lifts her chai cup: the Rs 10 note is stuck under it",
+    "Shruti hands Ishita the prize envelope",
+    "Aditi holds out an empty cup, Shruti charges Rs 10 for chai"
+  ],
+  "beats": "hook: Full House, paise do / setup: Rs 10 kam / esc: purse, sofa, CCTV / twist: note under Aditi's cup / button: chai ke das rupaye",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 5,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "The Rs 10 hisaab after Housie is a scene every kitty has lived and everyone knows a Shruti. One want (the hisaab must match), one game (the hunt grows: purse, sofa, CCTV), chip keeps the stake on screen for muted viewers. Aditi sips in the background of every hunt shot so the reveal is a see-it, and the button mirrors the opening (das rupaye kam, now chai ke das rupaye). New lead (Shruti) after Tina and Tanya. Endings tried: Aditi 'Har mahine yahi hota hai' (flat), Ishita pays the Rs 10 herself (soft), Shruti charges for the chai (kept, loops to the start)."
+  },
+  "cover": {
+    "shot": 1,
+    "at": 1,
+    "title": [
+      "Kitty pot: Rs 10 kam!",
+      "Kisne nahi diye?!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har kitty mein ek Shruti hoti hai jo das rupaye ke liye CCTV mangwa le. Tag your Shruti!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#housie",
+    "#tambola",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#hisaab"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 300,
+          "y": 1750,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.5,
+          "hop": true
+        },
+        {
+          "name": "Aditi",
+          "x": 560,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 560,
+          "y": 1800,
+          "s": 1.8
+        },
+        {
+          "name": "Housie ticket",
+          "x": 200,
+          "y": 1000,
+          "s": 1.6,
+          "rot": -12,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "clap",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Full House! Mere paise do!",
+          "say": "फ़ुल हाउस! मेरे पैसे दो!",
+          "beat": "hook"
+        },
+        {
+          "who": "Shruti",
+          "text": "Ruko! Pehle hisaab.",
+          "say": "रुको! पहले हिसाब।",
+          "gap": 0.04,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "KITTY POT: Rs 10 KAM",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 860,
+          "y": 1800,
+          "s": 1.8
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 260,
+          "y": 820,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "calc",
+          "vol": 0.5
+        },
+        {
+          "at": 0.9,
+          "name": "scratch",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Das rupaye kam hain!",
+          "say": "दस रुपये कम हैं!",
+          "punch": true,
+          "beat": "setup"
+        },
+        {
+          "who": "Ishita",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 10 KAM",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": 0.5
+        },
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "turn": -0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 540,
+          "y": 760,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Kisne nahi diye?",
+          "say": "किसने नहीं दिए?",
+          "beat": "setup"
+        },
+        {
+          "who": "Ishita",
+          "text": "Maine toh sabse pehle diye!",
+          "say": "मैंने तो सबसे पहले दिए!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "KITTY POT: Rs 10 KAM",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "turn": 0.5
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Handbag",
+          "x": 540,
+          "y": 1640,
+          "s": 1.8
+        },
+        {
+          "name": "Housie ticket",
+          "x": 430,
+          "y": 1180,
+          "s": 1.4,
+          "rot": -15,
+          "at": 0.9
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1100,
+          "s": 1.4,
+          "rot": 10,
+          "at": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 700,
+          "y": 1250,
+          "s": 1.4,
+          "rot": 20,
+          "at": 1.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "zip",
+          "vol": 0.4
+        },
+        {
+          "at": 1,
+          "name": "swish",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Lo, purse dekh lo!",
+          "say": "लो, पर्स देख लो!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Sirf Housie tickets?!",
+          "say": "सिर्फ़ हाउज़ी टिकट्स?!",
+          "punch": true,
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "KITTY POT: Rs 10 KAM",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 820,
+          "y": 1150,
+          "s": 1.8,
+          "rot": 12
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Lucky wale hain!",
+          "say": "लकी वाले हैं!",
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "MILE: Rs 2",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.5
+        },
+        {
+          "name": "Aditi",
+          "x": 700,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Ishita",
+          "x": 860,
+          "y": 1770,
+          "s": 1.9,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Cushions",
+          "x": 330,
+          "y": 1050,
+          "s": 1.6,
+          "rot": -18
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 260,
+          "y": 900,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "swish",
+          "vol": 0.35
+        },
+        {
+          "at": 0.6,
+          "name": "ding",
+          "vol": 0.45
+        },
+        {
+          "at": 1.8,
+          "name": "slurp",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Sofa ke neeche... do rupaye!",
+          "say": "सोफ़े के नीचे... दो रुपये!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ishita",
+          "text": "Aath aur!",
+          "say": "आठ और!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "KITTY POT: Rs 10 KAM",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": 0.5
+        },
+        {
+          "name": "Aditi",
+          "x": 700,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Ishita",
+          "x": 860,
+          "y": 1770,
+          "s": 1.9,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bolt",
+          "x": 330,
+          "y": 820,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.9,
+          "name": "slurp",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Society ka CCTV mangwao!",
+          "say": "सोसाइटी का सीसीटीवी मंगवाओ!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ishita",
+          "text": "Das rupaye ke liye?!",
+          "say": "दस रुपये के लिए?!",
+          "punch": true,
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "CUP KE NEECHE: Rs 10",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.6,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Cutting chai",
+          "x": 820,
+          "y": 1500,
+          "s": 1.6,
+          "at": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 820,
+          "y": 900,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "sting",
+          "vol": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Yeh dhoond rahi ho?",
+          "say": "ये ढूँढ रही हो?",
+          "silenceBefore": true,
+          "beat": "twist"
+        },
+        {
+          "who": "Shruti",
+          "text": "Aditi!",
+          "say": "अदिति!",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.25
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.5
+        },
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.5,
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 560,
+          "y": 1200,
+          "s": 1.8,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "waah",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Hisaab poora! Ab paise do!",
+          "say": "हिसाब पूरा! अब पैसे दो!",
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "CHAI: Rs 10",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.5
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": -0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "calc",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Ab chai kam hai.",
+          "say": "अब चाय कम है।",
+          "beat": "button"
+        },
+        {
+          "who": "Shruti",
+          "text": "Chai ke das rupaye.",
+          "say": "चाय के दस रुपये।",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.7
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
