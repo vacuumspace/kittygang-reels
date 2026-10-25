@@ -2059,6 +2059,37 @@
       "yt_id": "S0gClQFRQgQ",
       "yt_url": "https://youtube.com/shorts/S0gClQFRQgQ",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-10-26",
+      "created": "2026-10-26",
+      "title": "Dono ka ek hi number baaki!",
+      "format": "Theme Housie",
+      "theme": "spookyweb",
+      "story": "ai",
+      "variant": "sitcom",
+      "hook": "Bas 1 number aur Full House!",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya and Ruhi both need 44 for Full House in Spooky Web Housie; 13 comes, then 44, Tanya wins.",
+      "beats": "hook: 1 number left / setup: both need 44 / escalation: 13 comes / turn: 3-2-1 reveal / button: Ruhi's excuse",
+      "experiment": {
+        "format": "sitcom",
+        "hook": "cold open on the game, 1 number left",
+        "variable": "Kitty Gang characters instead of only the app screen",
+        "hypothesis": "faces and a rivalry in the first 2 s cut the skip rate under 60%"
+      },
+      "duration": 32,
+      "lufs": null,
+      "caption": "Ek number, do saheliyan, aur Spooky Web ki raat. Aapke group mein Ruhi kaun hai? Tag karo!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #halloween #kittygang",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-26.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-26-cover.jpg",
+      "job_id": "0a9cc436-18ee-47c8-be2e-94b0582c2564",
+      "permalink": "https://www.instagram.com/reel/De7ZVIOCr2k/",
+      "media_id": "17891899365455648",
+      "yt_id": "PpOhaFfl1K8",
+      "yt_url": "https://youtube.com/shorts/PpOhaFfl1K8",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
