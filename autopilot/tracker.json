@@ -2167,7 +2167,7 @@
       "time": "15 to 20 minutes",
       "slug": "mithai-pehchano-blindfold-kitty-party-game",
       "caption": "Aankh band, munh meetha, aur galat jawab pe agli kitty ki mithai tumhari taraf se! Aap kitni mithai pehchaan logi?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-004/board.jpg",
       "image_urls": [
@@ -2184,7 +2184,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/mithai-pehchano-blindfold-kitty-party-game",
       "queue_id": "e4a4ebe1-4270-4e06-9317-04edd74b4e7e",
-      "scheduled_ist": "2026-10-25 10:57"
+      "scheduled_ist": "2026-10-25 10:57",
+      "permalink": "https://www.instagram.com/p/De59iu_AMCu/",
+      "media_id": "18106957121252455"
     },
     {
       "id": "KGI-005",
