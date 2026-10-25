@@ -1685,6 +1685,380 @@
         "no shot over 5 s (5.4 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-10-25-b",
+      "created": "2026-10-25",
+      "title": "Das rupaye kam hain!",
+      "format": "Living-room sitcom, Housie prize hisaab",
+      "hook": "",
+      "cast": [
+        "Ishita",
+        "Aditi",
+        "Shruti"
+      ],
+      "caption": "Har kitty mein ek Shruti hoti hai jo das rupaye ke liye CCTV mangwa le. Tag your Shruti!",
+      "status": "queued",
+      "idea": "After Full House, Shruti finds the kitty pot Rs 10 short and turns the room upside down hunting for it, while Aditi sips chai with the note stuck under her cup.",
+      "beats": "hook: Full House, paise do / setup: Rs 10 kam / esc: purse, sofa, CCTV / twist: note under Aditi's cup / button: chai ke das rupaye",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Full House! Mere paise do!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruko! Pehle hisaab.",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Das rupaye kam hain!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kisne nahi diye?",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Maine toh sabse pehle diye!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Lo, purse dekh lo!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sirf Housie tickets?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Lucky wale hain!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sofa ke neeche... do rupaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Aath aur!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Society ka CCTV mangwao!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Das rupaye ke liye?!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Yeh dhoond rahi ho?",
+          "beat": "twist"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aditi!",
+          "beat": "twist"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Hisaab poora! Ab paise do!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Ab chai kam hai.",
+          "beat": "button"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chai ke das rupaye.",
+          "beat": "button"
+        }
+      ],
+      "duration": 27.87,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "The Rs 10 hisaab after Housie is a scene every kitty has lived and everyone knows a Shruti. One want (the hisaab must match), one game (the hunt grows: purse, sofa, CCTV), chip keeps the stake on screen for muted viewers. Aditi sips in the background of every hunt shot so the reveal is a see-it, and the button mirrors the opening (das rupaye kam, now chai ke das rupaye). New lead (Shruti) after Tina and Tanya. Endings tried: Aditi 'Har mahine yahi hota hai' (flat), Ishita pays the Rs 10 herself (soft), Shruti charges for the chai (kept, loops to the start)."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-b-board.jpg",
+      "queue_id": "a7f9f299-fdfe-4a52-bac3-46b8c7e56e87",
+      "scheduled_ist": "2026-10-28 13:46",
+      "yt_id": "O-_YqfTeQ_c",
+      "yt_url": "https://youtube.com/shorts/O-_YqfTeQ_c",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-10-25-c",
+      "created": "2026-10-25",
+      "title": "Karwa Chauth ka gift",
+      "format": "Living-room sitcom, gift show and tell",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Shruti",
+        "Tina"
+      ],
+      "caption": "Karwa Chauth ke baad har kitty mein yahi scene hota hai. Tag the friend jiska gift sabse kaam ka hai!",
+      "status": "queued",
+      "idea": "The day after Karwa Chauth the gang shows off their husbands' gifts while Tanya hides her bag; her gift is a pressure cooker, and it wins the room.",
+      "beats": "hook: Ruhi's ring / esc: bracelet on sale, Dubai trip, what's in your bag / twist: pressure cooker / turn: warranty wins / button: Tanya says Ruhi's line, Ruhi wants to exchange",
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Dekho! Inhone diya!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaye, ring!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Karwa Chauth ka gift!",
+          "beat": "hook"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bas mera gift koi na pooche...",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mujhe bracelet mila!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Arre waah!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sale mein, chaalis percent off!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, mujhe Dubai trip mila.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Dubai?!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Business class, obviously.",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Tanya, tumhe kya mila?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Kuch nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Toh bag mein kya hai?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Pressure cooker.",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Cooker?!",
+          "beat": ""
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paanch litre! Steel wala!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bill bhi chipka hai.",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paanch saal warranty!",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruhi, ring ki warranty?",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Nahi...",
+          "beat": ""
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, mujhe bhi cooker chahiye.",
+          "beat": "turn"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dekho! Inhone diya!",
+          "beat": "button"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ring exchange hoti hai kya?",
+          "beat": "button"
+        }
+      ],
+      "duration": 34.76,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Timely for the kitty right after Karwa Chauth (29 Oct). Real scene: the day-after gift talk. Claim before reveal (Tanya hides, then the drop), see-it twist (cooker pops out), flip (practical gift wins), button mirrors the hook line. Picked over the two 9s: Fashion Police repeats Tina at the door from KG-2026-10-23-b, and the lehenga video call needs photo proofs no kit can show."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-c.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-c-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-25-c-board.jpg",
+      "queue_id": "7dc8c932-2c18-448e-8951-5ac3e17ae820",
+      "scheduled_ist": "2026-10-29 20:29",
+      "yt_id": "S0gClQFRQgQ",
+      "yt_url": "https://youtube.com/shorts/S0gClQFRQgQ",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
