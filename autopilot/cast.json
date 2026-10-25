@@ -1,5 +1,5 @@
 {
-  "note": "Every voice reads Devanagari (say) except script:en voices, which read the Hinglish text. Hindi Swara, Marathi Aarohi and Nepali Hemkala all read Devanagari. Tash was renamed Tina (2026-10-22): same look, Hindi voice.",
+  "note": "Every Hindi line uses hi-IN-SwaraNeural (the only native Hindi female voice); each friend differs by pitch and speed. Marathi Aarohi and Nepali Hemkala were dropped on 2026-10-26: they sounded south Indian (hai = \"hayiii\", main = \"mayii\"). Zoya (script:en) reads the Hinglish text with en-IN Neerja.",
   "voices": {
     "Tanya": {
       "voice": "hi-IN-SwaraNeural",
@@ -7,9 +7,9 @@
       "pitch": "+8%"
     },
     "Ruhi": {
-      "voice": "mr-IN-AarohiNeural",
+      "voice": "hi-IN-SwaraNeural",
       "rate": "+2%",
-      "pitch": "-4%"
+      "pitch": "-6%"
     },
     "Shruti": {
       "voice": "hi-IN-SwaraNeural",
@@ -17,14 +17,14 @@
       "pitch": "-14%"
     },
     "Tina": {
-      "voice": "mr-IN-AarohiNeural",
+      "voice": "hi-IN-SwaraNeural",
       "rate": "-6%",
-      "pitch": "-18%"
+      "pitch": "-20%"
     },
     "Megha": {
-      "voice": "ne-NP-HemkalaNeural",
+      "voice": "hi-IN-SwaraNeural",
       "rate": "+18%",
-      "pitch": "+6%"
+      "pitch": "+16%"
     },
     "Zoya": {
       "voice": "en-IN-NeerjaNeural",
@@ -33,14 +33,14 @@
       "script": "en"
     },
     "Myra": {
-      "voice": "ne-NP-HemkalaNeural",
+      "voice": "hi-IN-SwaraNeural",
       "rate": "+0%",
-      "pitch": "+14%"
+      "pitch": "+22%"
     },
     "Aditi": {
-      "voice": "mr-IN-AarohiNeural",
+      "voice": "hi-IN-SwaraNeural",
       "rate": "-18%",
-      "pitch": "-14%"
+      "pitch": "-10%"
     },
     "Avika": {
       "voice": "hi-IN-SwaraNeural",
@@ -48,9 +48,9 @@
       "pitch": "+2%"
     },
     "Ishita": {
-      "voice": "mr-IN-AarohiNeural",
+      "voice": "hi-IN-SwaraNeural",
       "rate": "-4%",
-      "pitch": "-8%"
+      "pitch": "+12%"
     }
   },
   "chorus": [
@@ -60,14 +60,14 @@
       "pitch": "+10%"
     },
     {
-      "voice": "mr-IN-AarohiNeural",
-      "rate": "+15%",
-      "pitch": "+0%"
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+12%",
+      "pitch": "-8%"
     },
     {
-      "voice": "ne-NP-HemkalaNeural",
-      "rate": "+15%",
-      "pitch": "+6%"
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+18%",
+      "pitch": "+20%"
     },
     {
       "voice": "en-IN-NeerjaNeural",
@@ -78,12 +78,12 @@
     {
       "voice": "hi-IN-SwaraNeural",
       "rate": "+10%",
-      "pitch": "-12%"
+      "pitch": "-16%"
     },
     {
-      "voice": "mr-IN-AarohiNeural",
-      "rate": "+10%",
-      "pitch": "+8%"
+      "voice": "hi-IN-SwaraNeural",
+      "rate": "+14%",
+      "pitch": "+4%"
     }
   ]
 }
