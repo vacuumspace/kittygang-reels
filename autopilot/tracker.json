@@ -2471,6 +2471,32 @@
         "no shot over 5 s (5.3 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-26-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-10-27",
+      "created": "2026-10-27",
+      "title": "Har Housie mein yeh 4 log!",
+      "format": "Theme Housie",
+      "theme": "trickortreat",
+      "story": "ai",
+      "variant": "types-of-players",
+      "hook": "Har Housie mein yeh 4 log!",
+      "cast": [],
+      "status": "failed",
+      "idea": "Four Housie types in Trick or Treat Housie: the early claimer, the double checker, the reaction spammer, and the quiet one who actually wins Full House.",
+      "beats": "hook: Har Housie mein 4 log / type 1: Ishita claims Lollipops after one number / type 2: Shruti checks again and again / type 3: Zoya spams ghost reactions, misses the number / turn: Aditi silently gets Full House / button: Aditi's deadpan line to Ishita",
+      "experiment": {
+        "format": "types-of-players",
+        "hook": "3 gang faces on the Trick or Treat home art with the banner 'Har Housie mein yeh 4 log!' and reactions flying",
+        "variable": "a numbered list of 4 relatable player types (recognition and tagging) instead of one two-person story",
+        "hypothesis": "people tag the friend they recognise: at least 3 shares and watched % above 25, skip under 60%"
+      },
+      "duration": 33.7,
+      "lufs": null,
+      "caption": "Trick or Treat Housie mein aap kaun ho: 1, 2, 3 ya 4? Comment mein number likho aur us saheli ko tag karo!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #trickortreat #halloween #kittygang",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-27.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-27-cover.jpg",
+      "error": "fetch failed"
     }
   ],
   "ideas": [
