@@ -1,0 +1,33 @@
+{
+  "title": "Har Housie mein yeh 4 log!",
+  "format": "Kitty Gang types-of-players at the theme's Housie",
+  "experiment": { "format": "types-of-players", "hook": "3 gang faces on the Trick or Treat home art with the banner 'Har Housie mein yeh 4 log!' and reactions flying", "variable": "a numbered list of 4 relatable player types (recognition and tagging) instead of one two-person story", "hypothesis": "people tag the friend they recognise: at least 3 shares and watched % above 25, skip under 60%" },
+  "idea": "Four Housie types in Trick or Treat Housie: the early claimer, the double checker, the reaction spammer, and the quiet one who actually wins Full House.",
+  "beats": "hook: Har Housie mein 4 log / type 1: Ishita claims Lollipops after one number / type 2: Shruti checks again and again / type 3: Zoya spams ghost reactions, misses the number / turn: Aditi silently gets Full House / button: Aditi's deadpan line to Ishita",
+  "caption": "{theme} Housie mein aap kaun ho: 1, 2, 3 ya 4? Comment mein number likho aur us saheli ko tag karo!",
+  "hashtags": ["#kittyparty", "#housie", "#tambola", "#trickortreat", "#halloween", "#kittygang"],
+  "ambience": { "name": "crowd", "vol": 0.08 },
+  "pace": 22,
+  "shots": [
+    { "kit": "thome", "hook": ["Har Housie mein", "yeh 4 log!"], "burst": true,
+      "chars": [{ "name": "Ishita", "x": 270, "y": 1780, "s": 2.0, "pose": "hips", "mouth": "smirk" }, { "name": "Zoya", "x": 540, "y": 1780, "s": 2.0, "pose": "phone2" }, { "name": "Aditi", "x": 810, "y": 1780, "s": 2.0, "pose": "cup", "eyes": "half", "turn": -0.4 }],
+      "dur": 2.0, "sfx": [{ "at": 0.1, "name": "riser", "vol": 0.5 }] },
+    { "kit": "tgame", "view": "phone", "py": 300, "pw": 470, "ball": 12, "marked": 1, "chip": "1. Jaldi claim wali", "chipY": 1560,
+      "chars": [{ "name": "Ishita", "x": 880, "y": 1900, "s": 1.6, "pose": "hips" }],
+      "lines": [{ "who": "Ishita", "text": "Ruko! Lollipops claim hai!", "say": "रुको! लॉलीपॉप्स क्लेम है!", "beat": "setup" }] },
+    { "kit": "thome", "chars": [{ "name": "Ishita", "x": 330, "y": 1780, "s": 2.0, "pose": "hips", "turn": 0.5 }, { "name": "Tanya", "x": 760, "y": 1780, "s": 2.0, "pose": "talkL", "turn": -0.5 }],
+      "lines": [{ "who": "Tanya", "text": "Abhi toh ek number aaya hai!", "say": "अभी तो एक नंबर आया है!", "punch": true, "beat": "escalation" }] },
+    { "kit": "tgame", "view": "ticket", "ball": 45, "marked": 9, "chip": "2. Do baar check wali", "chipY": 1560,
+      "lines": [{ "who": "Shruti", "text": "Ek baar aur check karti hoon.", "say": "एक बार और चेक करती हूँ।", "beat": "escalation" },
+                { "who": "Shruti", "text": "Nahi, bas ek baar aur.", "say": "नहीं, बस एक बार और।", "punch": true, "gap": 0.05 }] },
+    { "kit": "tgame", "view": "players", "reacts": true, "burst": true, "ball": 63, "chip": "3. Har number pe reaction", "chipY": 1560,
+      "lines": [{ "who": "Zoya", "text": "Ghost bhejo! Aur ghost bhejo!", "say": "घोस्ट भेजो! और घोस्ट भेजो!", "beat": "escalation" },
+                { "who": "Zoya", "text": "Waise number kaunsa tha?", "say": "वैसे नंबर कौनसा था?", "punch": true }] },
+    { "kit": "tgame", "view": "full", "call": 27, "marked": 14, "dab": true, "full": true, "burst": 1.4, "chip": "4. Chup chaap wali", "chipY": 1560, "dur": 2.6,
+      "sfx": [{ "at": 0.0, "name": "cage", "vol": 0.4 }] },
+    { "kit": "thome", "confetti": true,
+      "chars": [{ "name": "Ishita", "x": 300, "y": 1780, "s": 2.0, "mouth": "o", "turn": 0.5 }, { "name": "Aditi", "x": 780, "y": 1780, "s": 2.0, "pose": "cup", "eyes": "half", "mouth": "flat", "turn": -0.5 }],
+      "lines": [{ "who": "Ishita", "text": "Aditi? Full House? Kab hua?!", "say": "अदिति? फुल हाउस? कब हुआ?!", "beat": "turn" },
+                { "who": "Aditi", "text": "Jab tum claim kar rahi thi.", "say": "जब तुम क्लेम कर रही थी।", "punch": true, "silenceBefore": true, "beat": "button" }] }
+  ]
+}
