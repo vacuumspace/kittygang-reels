@@ -1,0 +1,785 @@
+{
+  "id": "KG-2026-10-26-a",
+  "title": "Seen by 14, paid by 0",
+  "format": "Group chat + home reaction cutaways",
+  "idea": "Shruti asks the group for kitty money and gets Seen by 14, zero replies; Tina posts a new saree and the chat explodes; Shruti trades the saree link for payments.",
+  "logline": "Nobody pays Shruti the kitty money, but when Tina posts a new saree, Shruti says the saree link goes only to those who pay, and everyone pays in a minute.",
+  "game": "the group ignores money but goes crazy for a saree",
+  "experiment": {
+    "type": "group-chat",
+    "hook": "Shruti glaring at her phone with the banner \"14 ne dekha, 0 ne bheja\" and the PAID 0/14 chip",
+    "variable": "story told mostly on a WhatsApp group screen instead of a living-room scene",
+    "hypothesis": "a chat every kitty admin knows gets more shares and saves than the sitcom baseline: skip rate under 60% and at least 3 shares"
+  },
+  "beats": "hook: seen by 14, paid 0 / esc: Tina posts saree, 40 replies, Shruti fumes / twist: link only for payers, payments pour in, even Tina pays / button: 14/14, and Shruti never had the link",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 4,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Every kitty treasurer lives the Seen by 14 moment; the PAID counter chip keeps the stake visible on mute; the swap (link for money) is a see-it reveal on the chat; button flips the opening and Shruti outsmarts them with a link she does not even have. Rewrote once: first ending (Tina pays for her own saree link) needed reasoning, so Tina now just gets told to pay too."
+  },
+  "mute": [
+    "Shruti asks for kitty money, 14 saw, 0 paid",
+    "Shruti stares at her phone, still 0/14",
+    "Tina posts a new saree, everyone replies at once",
+    "chat floods with link requests, payments still 0",
+    "Shruti fuming at her phone",
+    "Shruti gets an idea",
+    "Shruti: saree link only for those who pay",
+    "payments pour in, counter jumps to 13",
+    "Tina is told to pay too, 14/14",
+    "Shruti relaxed with chai, 14/14",
+    "Ruhi asks for the link, Shruti says ask Tina"
+  ],
+  "cover": {
+    "shot": 6,
+    "at": 1.2,
+    "title": [
+      "Kitty ka paisa?",
+      "Seen by 14!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Kitty ka paisa: seen by 14. Nayi saree: 40 replies. Har group ki treasurer ko bhejo!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#whatsappgroup",
+    "#kittypartyfun",
+    "#saree"
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.06
+  },
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "hook": [
+        "14 ne dekha,",
+        "0 ne bheja"
+      ],
+      "chip": "PAID: 0 / 14",
+      "chipY": 1500,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "phone2",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Chai kettle",
+          "x": 880,
+          "y": 1800,
+          "s": 1.6
+        },
+        {
+          "name": "Cutting chai",
+          "x": 200,
+          "y": 1810,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 820,
+          "y": 900,
+          "at": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Kitty ka paisa! Aaj last date!",
+          "say": "किटी का पैसा! आज लास्ट डेट!",
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "PAID: 0 / 14",
+      "chipY": 200,
+      "chat": [
+        [
+          "Shruti",
+          "Kitty ka paisa bhejo",
+          1,
+          "10:01 AM",
+          0
+        ],
+        [
+          "Shruti",
+          "Aaj last date hai!",
+          1,
+          "10:01 AM",
+          0.5
+        ],
+        [
+          "Shruti",
+          "Seen by 14",
+          1,
+          "10:40 AM",
+          0.6
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 1.2,
+          "name": "cricket",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Seen by chaudah. Reply... zero.",
+          "say": "सीन बाय चौदह। रिप्लाई... ज़ीरो।",
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.5
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "PAID: 0 / 14",
+      "chipY": 200,
+      "chat": [
+        [
+          "Shruti",
+          "Kitty ka paisa bhejo",
+          1,
+          "10:01 AM",
+          0
+        ],
+        [
+          "Shruti",
+          "Aaj last date hai!",
+          1,
+          "10:01 AM",
+          0
+        ],
+        [
+          "Tina",
+          "Nayi Banarasi aayi!",
+          0,
+          "10:42 AM",
+          0.1
+        ],
+        [
+          "Ruhi",
+          "Haaw! Kahan se li?",
+          0,
+          "10:42 AM",
+          1.2
+        ],
+        [
+          "Myra",
+          "Kitne ki hai?",
+          0,
+          "10:42 AM",
+          1.8
+        ]
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, nayi Banarasi aayi hai.",
+          "say": "डार्लिंग, नई बनारसी आई है।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Kahan se li?",
+          "say": "हाऽव! कहाँ से ली?",
+          "gap": 0.03
+        },
+        {
+          "who": "Myra",
+          "text": "Kitne ki hai?",
+          "say": "कितने की है?",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "PAID: 0 / 14",
+      "chipY": 200,
+      "typing": "11 log",
+      "chat": [
+        [
+          "Tina",
+          "Nayi Banarasi aayi!",
+          0,
+          "10:42 AM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Haaw! Kahan se li?",
+          0,
+          "10:42 AM",
+          0
+        ],
+        [
+          "Myra",
+          "Kitne ki hai?",
+          0,
+          "10:42 AM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Link bhejo please!",
+          0,
+          "10:43 AM",
+          0.2
+        ],
+        [
+          "Myra",
+          "Mujhe bhi chahiye!",
+          0,
+          "10:43 AM",
+          0.9
+        ],
+        [
+          "Ruhi",
+          "Blouse bhi dikhao!",
+          0,
+          "10:43 AM",
+          1.5
+        ]
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 930,
+          "y": 420,
+          "at": 0.4,
+          "s": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Link bhejo please!",
+          "say": "लिंक भेजो प्लीज़!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Mujhe bhi chahiye!",
+          "say": "मुझे भी चाहिए!",
+          "gap": 0.03
+        },
+        {
+          "who": "Ruhi",
+          "text": "Blouse bhi dikhao!",
+          "say": "ब्लाउज़ भी दिखाओ!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "PAID: 0 / 14",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 860,
+          "y": 1300,
+          "s": 1.8,
+          "at": 0.2
+        },
+        {
+          "name": "Indoor plant",
+          "x": 150,
+          "y": 1800,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bolt",
+          "x": 300,
+          "y": 900,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ping",
+          "vol": 0.4
+        },
+        {
+          "at": 0.3,
+          "name": "ping",
+          "vol": 0.4
+        },
+        {
+          "at": 0.5,
+          "name": "ping",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Paise pe seen... saree pe chaalis reply?!",
+          "say": "पैसे पे सीन... साड़ी पे चालीस रिप्लाई?!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "PAID: 0 / 14",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "phone2",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 150,
+          "y": 1800,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 820,
+          "y": 820,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ruko. Ab dekho.",
+          "say": "रुको। अब देखो।",
+          "beat": "turn",
+          "silenceBefore": true
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "punch",
+      "chip": "PAID: 0 / 14",
+      "chipY": 200,
+      "chat": [
+        [
+          "Ruhi",
+          "Link bhejo please!",
+          0,
+          "10:43 AM",
+          0
+        ],
+        [
+          "Myra",
+          "Mujhe bhi chahiye!",
+          0,
+          "10:43 AM",
+          0
+        ],
+        [
+          "Shruti",
+          "Saree ka link...",
+          1,
+          "10:45 AM",
+          0.2
+        ],
+        [
+          "Shruti",
+          "Sirf paid walon ko!",
+          1,
+          "10:45 AM",
+          1.1
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Saree ka link... sirf paisa bhejne walon ko!",
+          "say": "साड़ी का लिंक... सिर्फ़ पैसा भेजने वालों को!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "PAID: 13 / 14",
+      "chipY": 200,
+      "chat": [
+        [
+          "Shruti",
+          "Sirf paid walon ko!",
+          1,
+          "10:45 AM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Paid Rs 2000",
+          0,
+          "10:45 AM",
+          0.2
+        ],
+        [
+          "Myra",
+          "Paid Rs 2000",
+          0,
+          "10:45 AM",
+          0.5
+        ],
+        [
+          "Ruhi",
+          "Screenshot bhi bheja",
+          0,
+          "10:45 AM",
+          0.9
+        ],
+        [
+          "Myra",
+          "Ab link do!",
+          0,
+          "10:46 AM",
+          1.5
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "ding",
+          "vol": 0.45
+        },
+        {
+          "at": 0.5,
+          "name": "ding",
+          "vol": 0.45
+        },
+        {
+          "at": 0.7,
+          "name": "ding",
+          "vol": 0.4
+        },
+        {
+          "at": 0.9,
+          "name": "ding",
+          "vol": 0.4
+        },
+        {
+          "at": 1.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Bhej diya!",
+          "say": "भेज दिया!",
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Maine bhi!",
+          "say": "मैंने भी!",
+          "gap": 0.03
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ab link do!",
+          "say": "अब लिंक दो!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "PAID: 14 / 14",
+      "chipY": 200,
+      "chat": [
+        [
+          "Myra",
+          "Ab link do!",
+          0,
+          "10:46 AM",
+          0
+        ],
+        [
+          "Tina",
+          "Link toh mere paas!",
+          0,
+          "10:46 AM",
+          0.1
+        ],
+        [
+          "Shruti",
+          "Toh tum bhi bhejo",
+          1,
+          "10:46 AM",
+          1.4
+        ],
+        [
+          "Tina",
+          "Paid Rs 2000",
+          0,
+          "10:47 AM",
+          2.1
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 2.1,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, link toh mere paas hai!",
+          "say": "डार्लिंग, लिंक तो मेरे पास है!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Toh tum bhi bhejo.",
+          "say": "तो तुम भी भेजो।",
+          "punch": true,
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.5
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "push",
+      "chip": "PAID: 14 / 14",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1700,
+          "s": 2,
+          "pose": "cup",
+          "prop": "",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 150,
+          "y": 1800,
+          "s": 1.6
+        },
+        {
+          "name": "Prize envelope",
+          "x": 880,
+          "y": 1780,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 300,
+          "y": 700,
+          "at": 0.2
+        },
+        {
+          "kind": "spark",
+          "x": 800,
+          "y": 660,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 0.4,
+          "name": "slurp",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Seen by chaudah. Paid by chaudah.",
+          "say": "सीन बाय चौदह। पेड बाय चौदह।",
+          "beat": "button"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "PAID: 14 / 14",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1760,
+          "s": 2,
+          "pose": "cup",
+          "prop": "",
+          "turn": -0.4,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 960,
+          "y": 1800,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 400,
+          "y": 1000,
+          "at": 1.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Ab saree ka link?",
+          "say": "अब साड़ी का लिंक?",
+          "beat": "button"
+        },
+        {
+          "who": "Shruti",
+          "text": "Link? Tina se maango.",
+          "say": "लिंक? टीना से माँगो।",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "button"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.7
+    }
+  ]
+}
