@@ -3048,7 +3048,7 @@
       "time": "15 minutes",
       "slug": "rangoli-dice-diwali-kitty-party-game",
       "caption": "Dice bolega kaunsi patti bharni hai, aur 1 aaya toh sheet hi badal jaayegi! Diwali kitty mein khelo. Aapki rangoli pehle poori hogi ya padosan ki?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-005/board.jpg",
       "image_urls": [
@@ -3065,7 +3065,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/rangoli-dice-diwali-kitty-party-game",
       "queue_id": "96a5b836-e7b7-47dc-b149-234fe786a58f",
-      "scheduled_ist": "2026-10-26 17:27"
+      "scheduled_ist": "2026-10-26 17:27",
+      "permalink": "https://www.instagram.com/p/De9O-hpDUAu/",
+      "media_id": "18122849596734211"
     },
     {
       "id": "KGI-006",
