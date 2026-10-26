@@ -2314,6 +2314,163 @@
       "yt_id": "GdR4VWTCXYU",
       "yt_url": "https://youtube.com/shorts/GdR4VWTCXYU",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-10-26-b",
+      "created": "2026-10-26",
+      "title": "Pink nahi toh entry nahi!",
+      "format": "Door arrivals, dress-code judge at the front door",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Tanya",
+        "Avika",
+        "Myra"
+      ],
+      "caption": "Dress code wali admin, apna hi message bhool gayi. Tag your Tanya!",
+      "status": "needs-fix",
+      "idea": "Tanya stands at her own front door scoring every guest zero for not wearing pink; all of them came in yellow, because Tanya's own group message said YELLOW.",
+      "beats": "hook: pink or no entry / esc: Shruti 0, Avika -2, Myra -10 / twist: Tanya's own message says YELLOW / button: guests score Tanya zero",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya in pink blocks the doorway with a scoreboard and shouts 'Pink nahi, toh entry nahi!' at Shruti standing there in yellow",
+        "variable": "story told as a string of front-door entries (one guest per doorbell, a score chip each) instead of a living-room scene",
+        "hypothesis": "a doorbell plus a new face every 4 s holds viewers through the middle: watched % above 30 and skip rate under 55%, with at least 3 shares from organisers tagging friends"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Pink nahi, toh entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mustard? Zero!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Meri kitty, mere rules.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Sorry sorry, traffic tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Late bhi, yellow bhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Matlab?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Minus do!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Arre!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Dekho! Sabse zyada yellow!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sabse zyada galat. Minus das!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Yeh rule kab bana?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Group pe dekho, sab likha hai!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Theme... yellow. Compulsory.",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Yellow?",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Aapne hi likha tha!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Pink? Zero!",
+          "beat": "button"
+        }
+      ],
+      "duration": 27.61,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Every group has a dress-code admin; Tanya's catchphrase 'Group pe dekho, sab likha hai' sets up her own downfall, so the twist is a see-it phone screen, not a fact to work out. Pink host vs yellow guests reads on mute from frame one. Myra claims first ('Sabse zyada yellow!') before the drop. Button reuses 'Pink? Zero!' with the scoreboard flipped onto Tanya. Rewrote once: first draft had Tanya rating outfits 1 to 10 (idea as banked) but the scores alone had no reveal; second ending (Tanya's tag still on her saree) was weaker than the group message callback."
+      },
+      "qa": [
+        "no shot over 5 s (5.3 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-26-b-board.jpg"
     }
   ],
   "ideas": [
