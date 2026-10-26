@@ -2122,6 +2122,196 @@
       "yt_id": "PpOhaFfl1K8",
       "yt_url": "https://youtube.com/shorts/PpOhaFfl1K8",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-26-a",
+      "created": "2026-10-26",
+      "title": "Seen by 14, paid by 0",
+      "format": "Group chat + home reaction cutaways",
+      "hook": "14 ne dekha, 0 ne bheja",
+      "cast": [
+        "Shruti",
+        "Tina",
+        "Ruhi",
+        "Myra"
+      ],
+      "caption": "Kitty ka paisa: seen by 14. Nayi saree: 40 replies. Har group ki treasurer ko bhejo!",
+      "status": "queued",
+      "idea": "Shruti asks the group for kitty money and gets Seen by 14, zero replies; Tina posts a new saree and the chat explodes; Shruti trades the saree link for payments.",
+      "beats": "hook: seen by 14, paid 0 / esc: Tina posts saree, 40 replies, Shruti fumes / twist: link only for payers, payments pour in, even Tina pays / button: 14/14, and Shruti never had the link",
+      "experiment": {
+        "type": "group-chat",
+        "hook": "Shruti glaring at her phone with the banner \"14 ne dekha, 0 ne bheja\" and the PAID 0/14 chip",
+        "variable": "story told mostly on a WhatsApp group screen instead of a living-room scene",
+        "hypothesis": "a chat every kitty admin knows gets more shares and saves than the sitcom baseline: skip rate under 60% and at least 3 shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kitty ka paisa! Aaj last date!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Seen by chaudah. Reply... zero.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "phone",
+          "who": "Tina",
+          "line": "Darling, nayi Banarasi aayi hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Haaw! Kahan se li?",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Kitne ki hai?",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Link bhejo please!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Mujhe bhi chahiye!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Blouse bhi dikhao!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paise pe seen... saree pe chaalis reply?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruko. Ab dekho.",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Saree ka link... sirf paisa bhejne walon ko!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Bhej diya!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Maine bhi!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Ab link do!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "phone",
+          "who": "Tina",
+          "line": "Darling, link toh mere paas hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Toh tum bhi bhejo.",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Seen by chaudah. Paid by chaudah.",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ab saree ka link?",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Link? Tina se maango.",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw!",
+          "beat": ""
+        }
+      ],
+      "duration": 39.72,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 4,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Every kitty treasurer lives the Seen by 14 moment; the PAID counter chip keeps the stake visible on mute; the swap (link for money) is a see-it reveal on the chat; button flips the opening and Shruti outsmarts them with a link she does not even have. Rewrote once: first ending (Tina pays for her own saree link) needed reasoning, so Tina now just gets told to pay too."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-26-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-26-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-26-a-board.jpg",
+      "queue_id": "c98b1316-6932-43d4-b705-a77be389ee23",
+      "scheduled_ist": "2026-10-30 21:16",
+      "yt_id": "GdR4VWTCXYU",
+      "yt_url": "https://youtube.com/shorts/GdR4VWTCXYU",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
