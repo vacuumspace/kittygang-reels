@@ -1,0 +1,616 @@
+{
+  "id": "KGI-006",
+  "n": 6,
+  "slug": "ek-haath-packing-diwali-gift-wrap-kitty-game",
+  "game": "Ek Haath Packing",
+  "tagline": "Ek haath, do ladies, ek gift!",
+  "cover_art": [
+    {
+      "k": "person",
+      "x": 170,
+      "y": 190,
+      "s": 1.5,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M110 227.5 Q57.5 280 125 302.5' stroke='#4A1238' stroke-width='7.5' fill='none' stroke-dasharray='15 10.5'></path>"
+    },
+    {
+      "k": "hand",
+      "x": 300,
+      "y": 230,
+      "rot": -70,
+      "s": 1
+    },
+    {
+      "k": "svg",
+      "markup": "<g><rect x='410' y='125' width='260' height='190' rx='8' fill='#F4F1E8' stroke='#4A1238' stroke-width='6'></rect><path d='M430.8 163 L519.2 163 M560.8 163 L649.2 163' stroke='#B9B2A6' stroke-width='4.800000000000001'></path><path d='M430.8 201 L519.2 201 M560.8 201 L649.2 201' stroke='#B9B2A6' stroke-width='4.800000000000001'></path><path d='M430.8 239 L519.2 239 M560.8 239 L649.2 239' stroke='#B9B2A6' stroke-width='4.800000000000001'></path><path d='M430.8 277 L519.2 277 M560.8 277 L649.2 277' stroke='#B9B2A6' stroke-width='4.800000000000001'></path><rect x='524.4' y='125' width='31.2' height='190' fill='#E85D8A' stroke='#4A1238' stroke-width='3.5999999999999996'></rect><rect x='410' y='204.4' width='260' height='31.2' fill='#E85D8A' stroke='#4A1238' stroke-width='3.5999999999999996'></rect><path d='M540 125 C459.92 62.07999999999999 454.2 136.44 540 125 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></path><path d='M540 125 C620.08 62.07999999999999 625.8 136.44 540 125 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></path><circle cx='540' cy='125' r='14.3' fill='#C2185B' stroke='#4A1238' stroke-width='4.199999999999999'></circle></g>"
+    },
+    {
+      "k": "hand",
+      "x": 780,
+      "y": 230,
+      "rot": 70,
+      "s": 1
+    },
+    {
+      "k": "person",
+      "x": 910,
+      "y": 190,
+      "s": 1.5,
+      "color": "green"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M970 227.5 Q1022.5 280 955 302.5' stroke='#4A1238' stroke-width='7.5' fill='none' stroke-dasharray='15 10.5'></path>"
+    },
+    {
+      "k": "text",
+      "x": 540,
+      "y": 60,
+      "text": "Badlo!",
+      "size": 64,
+      "color": "yel"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Dabba, akhbaar, tape, ribbon",
+    "items": [
+      {
+        "label": "Khaali dabba",
+        "sub": "mithai ya joote ka",
+        "draw": [
+          {
+            "k": "text",
+            "x": 40,
+            "y": 40,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 260,
+            "y": 190,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g><rect x='65' y='65' width='170' height='110' rx='8' fill='#F2A93B' stroke='#4A1238' stroke-width='4'></rect><rect x='59' y='45.2' width='182' height='24.2' rx='6' fill='#E8743B' stroke='#4A1238' stroke-width='4'></rect></g>"
+          }
+        ]
+      },
+      {
+        "label": "Purana akhbaar",
+        "sub": "2 sheet har jodi",
+        "draw": [
+          {
+            "k": "paper",
+            "x": 150,
+            "y": 110,
+            "w": 260,
+            "fold": 1
+          }
+        ]
+      },
+      {
+        "label": "Tape ke tukde",
+        "sub": "pehle se kate",
+        "draw": [
+          {
+            "k": "text",
+            "x": 20,
+            "y": 40,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 270,
+            "y": 190,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<circle cx='90' cy='110' r='55' fill='#BFE3F2' stroke='#4A1238' stroke-width='4'></circle><circle cx='90' cy='110' r='30.250000000000004' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><rect x='155' y='67' width='90' height='26' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(-10 200 80)'></rect><rect x='170' y='112' width='90' height='26' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(6 215 125)'></rect><rect x='150' y='155' width='90' height='26' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(-4 195 168)'></rect>"
+          }
+        ]
+      },
+      {
+        "label": "Ribbon",
+        "sub": "1 meter har jodi",
+        "draw": [
+          {
+            "k": "text",
+            "x": 30,
+            "y": 50,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 280,
+            "y": 170,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<path d='M40 130 C90 50 140 180 190 100 S260 80 270 140' stroke='#E85D8A' stroke-width='16' fill='none' stroke-linecap='round'></path>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "2 minute",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "2:00"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Jodi banao, ek haath peeche",
+      "body": "Do ladies ki jodi. Dono ka ek haath kamar ke peeche.",
+      "draw": [
+        {
+          "k": "person",
+          "x": 260,
+          "y": 330,
+          "s": 2,
+          "color": "pink",
+          "label": "Left haath peeche"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M180 380 Q110 450 200 480' stroke='#4A1238' stroke-width='10' fill='none' stroke-dasharray='20 14'></path>"
+        },
+        {
+          "k": "hand",
+          "x": 420,
+          "y": 420,
+          "rot": -60,
+          "s": 1.2
+        },
+        {
+          "k": "person",
+          "x": 700,
+          "y": 330,
+          "s": 2,
+          "color": "green",
+          "label": "Right haath peeche"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M780 380 Q850 450 760 480' stroke='#4A1238' stroke-width='10' fill='none' stroke-dasharray='20 14'></path>"
+        },
+        {
+          "k": "hand",
+          "x": 540,
+          "y": 420,
+          "rot": 60,
+          "s": 1.2
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='415' y='315' width='130' height='90' rx='8' fill='#F2A93B' stroke='#4A1238' stroke-width='5'></rect><rect x='409' y='298.8' width='142' height='19.8' rx='6' fill='#E8743B' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 110,
+          "text": "Sirf 2 haath, 2 ladies",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Har jodi ki table taiyaar",
+      "body": "Khaali dabba, akhbaar, kate tape ke tukde aur ribbon rakho.",
+      "draw": [
+        {
+          "k": "table",
+          "x": 480,
+          "y": 360,
+          "w": 820,
+          "h": 520,
+          "top": true
+        },
+        {
+          "k": "paper",
+          "x": 330,
+          "y": 330,
+          "w": 340,
+          "fold": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='255' y='270' width='150' height='100' rx='8' fill='#F2A93B' stroke='#4A1238' stroke-width='5'></rect><rect x='249' y='252' width='162' height='22' rx='6' fill='#E8743B' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='585' y='125' width='110' height='30' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(0 640 140)'></rect><rect x='725' y='125' width='110' height='30' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(0 780 140)'></rect><rect x='585' y='175' width='110' height='30' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(0 640 190)'></rect><rect x='725' y='175' width='110' height='30' fill='#BFE3F2' opacity='0.9' stroke='#4A1238' stroke-width='3' transform='rotate(0 780 190)'></rect>"
+        },
+        {
+          "k": "text",
+          "x": 710,
+          "y": 250,
+          "text": "tape tayyar",
+          "size": 32,
+          "color": "mute"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M580 450 C630 370 680 500 730 420 S800 400 810 460' stroke='#E85D8A' stroke-width='16' fill='none' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "timer",
+          "x": 330,
+          "y": 530,
+          "s": 0.55,
+          "text": "2:00"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 690,
+          "text": "Kainchi nahi, sab pehle se kata",
+          "size": 38,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "2 minute mein gift pack",
+      "body": "Milkar dabba lapeto, tape lagao, phir ribbon ki bow bandho.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 100,
+          "y": 60,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 900,
+          "y": 660,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='300' y='255' width='360' height='250' rx='8' fill='#F2A93B' stroke='#4A1238' stroke-width='7'></rect><path d='M300 255 L516 255 L462 505 L300 505 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='7' stroke-linejoin='round'></path><path d='M516 255 L606 167.5 L552 305 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='7' stroke-linejoin='round'></path><rect x='444' y='342.5' width='64.8' height='35' fill='#BFE3F2' opacity='0.85' stroke='#4A1238' stroke-width='3.5'></rect></g>"
+        },
+        {
+          "k": "hand",
+          "x": 260,
+          "y": 400,
+          "rot": -90,
+          "s": 1.4
+        },
+        {
+          "k": "hand",
+          "x": 700,
+          "y": 400,
+          "rot": 90,
+          "s": 1.4
+        },
+        {
+          "k": "arrow",
+          "x1": 280,
+          "y1": 200,
+          "x2": 440,
+          "y2": 220,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 170,
+          "y": 200,
+          "text": "lapeto",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "timer",
+          "x": 830,
+          "y": 210,
+          "s": 0.75,
+          "text": "1:20"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 640,
+          "text": "Ek haath tumhara, ek partner ka",
+          "size": 40,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "1 minute par: Badlo!",
+      "body": "Right wali lady agli table par jaaye aur wahan ka dabba poora kare.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 480,
+          "y": 80,
+          "text": "BADLO!",
+          "size": 80,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='120' y='260' width='200' height='140' rx='8' fill='#F2A93B' stroke='#4A1238' stroke-width='5'></rect><path d='M120 260 L240 260 L210 400 L120 400 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M240 260 L290 211 L260 288 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><rect x='200' y='309' width='36' height='19.6' fill='#BFE3F2' opacity='0.85' stroke='#4A1238' stroke-width='2.5'></rect></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='640' y='260' width='200' height='140' rx='8' fill='#F2A93B' stroke='#4A1238' stroke-width='5'></rect><path d='M640 260 L760 260 L730 400 L640 400 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M760 260 L810 211 L780 288 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><rect x='720' y='309' width='36' height='19.6' fill='#BFE3F2' opacity='0.85' stroke='#4A1238' stroke-width='2.5'></rect></g>"
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 540,
+          "s": 1.1,
+          "color": "pink",
+          "label": "Ruko"
+        },
+        {
+          "k": "person",
+          "x": 310,
+          "y": 540,
+          "s": 1.1,
+          "color": "green",
+          "label": "Jao"
+        },
+        {
+          "k": "person",
+          "x": 650,
+          "y": 540,
+          "s": 1.1,
+          "color": "yel",
+          "label": "Ruko"
+        },
+        {
+          "k": "person",
+          "x": 830,
+          "y": 540,
+          "s": 1.1,
+          "color": "blue",
+          "label": "Jao"
+        },
+        {
+          "k": "arrow",
+          "x1": 330,
+          "y1": 430,
+          "x2": 820,
+          "y2": 430,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 575,
+          "y": 410,
+          "text": "aage jao",
+          "size": 34,
+          "color": "pink"
+        },
+        {
+          "k": "timer",
+          "x": 480,
+          "y": 250,
+          "s": 0.55,
+          "text": "1:00"
+        }
+      ]
+    },
+    {
+      "title": "Sabse sundar dabba jeeta",
+      "body": "Time khatam, haath upar. Group vote kare kaunsa dabba sabse saaf.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 100,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 920,
+          "y": 580,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='70' y='300' width='220' height='160' rx='8' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></rect><path d='M87.6 332 L162.39999999999998 332 M197.6 332 L272.4 332' stroke='#B9B2A6' stroke-width='4'></path><path d='M87.6 364 L162.39999999999998 364 M197.6 364 L272.4 364' stroke='#B9B2A6' stroke-width='4'></path><path d='M87.6 396 L162.39999999999998 396 M197.6 396 L272.4 396' stroke='#B9B2A6' stroke-width='4'></path><path d='M87.6 428 L162.39999999999998 428 M197.6 428 L272.4 428' stroke='#B9B2A6' stroke-width='4'></path><rect x='166.8' y='300' width='26.4' height='160' fill='#E85D8A' stroke='#4A1238' stroke-width='3'></rect><rect x='70' y='366.8' width='220' height='26.4' fill='#E85D8A' stroke='#4A1238' stroke-width='3'></rect><path d='M180 300 C112.24000000000001 246.76 107.4 309.68 180 300 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></path><path d='M180 300 C247.76 246.76 252.6 309.68 180 300 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></path><circle cx='180' cy='300' r='12.1' fill='#C2185B' stroke='#4A1238' stroke-width='3.5'></circle></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><path d='M370 310 L436 286 L524 306 L590 290 L598 460 L360 456 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><rect x='506.4' y='340' width='48.4' height='48' fill='#F2A93B' stroke='#4A1238' stroke-width='3'></rect><path d='M392 332 L480 412 M414 420 L491 348' stroke='#BFE3F2' stroke-width='15' opacity='0.9'></path><path d='M480 300 q-55 -32 -33 8 M480 300 q22 -56 61.60000000000001 -16' stroke='#E85D8A' stroke-width='8' fill='none' stroke-linecap='round'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='670' y='300' width='220' height='160' rx='8' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></rect><path d='M687.6 332 L762.4 332 M797.6 332 L872.4 332' stroke='#B9B2A6' stroke-width='4'></path><path d='M687.6 364 L762.4 364 M797.6 364 L872.4 364' stroke='#B9B2A6' stroke-width='4'></path><path d='M687.6 396 L762.4 396 M797.6 396 L872.4 396' stroke='#B9B2A6' stroke-width='4'></path><path d='M687.6 428 L762.4 428 M797.6 428 L872.4 428' stroke='#B9B2A6' stroke-width='4'></path><rect x='766.8' y='300' width='26.4' height='160' fill='#E85D8A' stroke='#4A1238' stroke-width='3'></rect><rect x='670' y='366.8' width='220' height='26.4' fill='#E85D8A' stroke='#4A1238' stroke-width='3'></rect><path d='M780 300 C712.24 246.76 707.4 309.68 780 300 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></path><path d='M780 300 C847.76 246.76 852.6 309.68 780 300 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></path><circle cx='780' cy='300' r='12.1' fill='#C2185B' stroke='#4A1238' stroke-width='3.5'></circle></g>"
+        },
+        {
+          "k": "tick",
+          "x": 180,
+          "y": 160,
+          "s": 1
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 200,
+          "text": "haha!",
+          "size": 44,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 560,
+          "text": "Packing Queen",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 560,
+          "text": "Ulta award",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 780,
+          "y": 560,
+          "text": "Runner up",
+          "size": 36,
+          "color": "ink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse saaf packing jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Peeche wala haath aage aaya?",
+          "Jodi 10 second freeze."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Akhbaar phata, dabba dikha?",
+          "Ek point kam."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Bow nahi bandhi?",
+          "Woh dabba vote se bahar."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Tight packing, sundar bow,",
+          "woh jodi Packing Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Bow sirf ulte haath",
+        "se bandhni hai."
+      ],
+      [
+        "Do baar Badlo bolo:",
+        "40 aur 80 second par."
+      ],
+      [
+        "Asli Diwali gift pack karo,",
+        "jeetne wali ghar le jaaye."
+      ]
+    ],
+    "tip": "Tape ke tukde pehle kaat ke table ke kinare chipkao."
+  },
+  "comment_hint": "kiska dabba?",
+  "caption": "Ek haath tumhara, ek partner ka, aur beech mein \"Badlo!\" Diwali kitty mein yeh gift packing race khelo. Aapki jodi ka dabba sundar banega ya ulta?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#ekhaathpacking",
+    "#diwaligames",
+    "#diwalikitty"
+  ],
+  "web": {
+    "title": "Ek Haath Packing: Diwali Gift Wrap Kitty Party Game Rules",
+    "description": "Ek Haath Packing is a Diwali kitty party game where pairs wrap a gift box using only one hand each. Learn what you need, how to play, rules and twists.",
+    "intro": "Ek Haath Packing is a Diwali kitty party game where two ladies stand side by side, each keeps one hand behind her back, and together they wrap an empty box in newspaper, tape it and tie a ribbon bow in 2 minutes. The neatest wrapped box, chosen by a group vote, wins. The crazy twist: at the 1 minute mark the host shouts \"Badlo!\" and one lady from every pair moves to the next table, so she finishes someone else's half wrapped box with a brand new partner. It needs only empty boxes, old newspaper, tape and ribbon, and takes about 10 to 15 minutes.",
+    "players": "8 to 20 (in pairs)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One empty box per pair (a mithai box, shoe box or any carton)",
+      "2 sheets of old newspaper per pair",
+      "Tape, cut into strips before the game and stuck on the table edge",
+      "About 1 metre of ribbon or old saree lace per pair",
+      "A phone timer"
+    ],
+    "steps": [
+      "Make pairs. Both ladies stand side by side at a table and put their outer hand behind their back, so the pair has only two hands between them.",
+      "Give every table an empty box, 2 sheets of newspaper, ready cut tape strips and a piece of ribbon. Keep scissors away; everything is cut beforehand.",
+      "Start a 2 minute timer. Working together, each pair wraps the box in newspaper, tapes it shut and ties a ribbon bow on top.",
+      "At 1 minute the host shouts \"Badlo!\" The lady on the right of every pair moves to the next table and keeps wrapping that box with her new partner.",
+      "When time is up, everyone raises her hand and stops. The group votes for the neatest box, and the pair standing at it wins."
+    ],
+    "rules": [
+      "The hand behind the back must stay there; if it comes out, the pair freezes for 10 seconds.",
+      "If the newspaper tears and the box shows through, that box loses a point.",
+      "A box without a bow cannot win the vote.",
+      "Anyone who does not move on \"Badlo!\" puts her pair out of the round.",
+      "The pair holding the neatest, tightest box with a proper bow at the end wins."
+    ],
+    "variations": [
+      "The bow must be tied with the non writing hand only.",
+      "Shout \"Badlo!\" twice, at 40 and 80 seconds, so most boxes pass through three pairs.",
+      "Wrap a real Diwali gift or a box of mithai, and the winning pair takes it home.",
+      "Give a funny \"Ulta Award\" to the messiest box and let the group name it."
+    ],
+    "tips": [
+      "Cut all the tape strips before guests arrive and stick them along the table edge.",
+      "Use boxes of the same size so the vote is fair.",
+      "Lay the newspaper flat on the table before you say start; it saves 20 seconds of chaos.",
+      "Keep the wrapped boxes for the next kitty or for Diwali gifting."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Ek Haath Packing?",
+        "a": "It works for 8 to 20 ladies playing in pairs. With 4 to 10 pairs you get enough tables for the \"Badlo!\" swap to feel chaotic."
+      },
+      {
+        "q": "What do you need to play the one hand gift wrapping game?",
+        "a": "One empty box, 2 newspaper sheets, ready cut tape strips and about a metre of ribbon per pair, plus a phone timer. No scissors are needed during the game."
+      },
+      {
+        "q": "Is Ek Haath Packing a good Diwali kitty party game?",
+        "a": "Yes. Gift packing is part of every Diwali, and doing it with one hand each and a partner swap halfway makes it a funny team game that needs no skill."
+      },
+      {
+        "q": "How does the \"Badlo!\" swap work?",
+        "a": "At 1 minute the lady on the right of each pair moves one table along. The box stays where it is, so she finishes another pair's wrapping with a new partner."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "Each round is 2 minutes, plus a minute for the vote. Three rounds with fresh boxes fit easily into 10 to 15 minutes."
+      }
+    ]
+  }
+}
