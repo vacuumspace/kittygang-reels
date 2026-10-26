@@ -2717,6 +2717,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/rangoli-dice-diwali-kitty-party-game",
       "queue_id": "96a5b836-e7b7-47dc-b149-234fe786a58f",
       "scheduled_ist": "2026-10-26 17:27"
+    },
+    {
+      "id": "KGI-006",
+      "n": 6,
+      "created": "2026-10-26",
+      "game": "Ek Haath Packing",
+      "tagline": "Ek haath, do ladies, ek gift!",
+      "players": "8 to 20 (in pairs)",
+      "time": "10 to 15 minutes",
+      "slug": "ek-haath-packing-diwali-gift-wrap-kitty-game",
+      "caption": "Ek haath tumhara, ek partner ka, aur beech mein \"Badlo!\" Diwali kitty mein yeh gift packing race khelo. Aapki jodi ka dabba sundar banega ya ulta?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-006/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/ek-haath-packing-diwali-gift-wrap-kitty-game",
+      "queue_id": "86411872-a9fb-4acd-aa4b-7f07babd0588",
+      "scheduled_ist": "2026-10-27 17:04"
     }
   ],
   "research": [
