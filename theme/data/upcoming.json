@@ -1,77 +1,6 @@
 {
- "updated": "2026-10-26T16:14:12.850Z",
+ "updated": "2026-10-26T22:49:55.515Z",
  "days": [
-  {
-   "date": "2026-10-26",
-   "day": "Mon, 26 Oct",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "spookyweb",
-    "name": "Spooky Web",
-    "pack": "themes/spookyweb/v1",
-    "sounds": "sounds/spookyweb/v4",
-    "colors": {
-     "accent": "#C2272D",
-     "accentDeep": "#8A1414",
-     "gameInk": "#F2F2F7"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Spider Web",
-      "points": 50,
-      "numbers": 5
-     },
-     {
-      "name": "Spider",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Full Moon",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Bats",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_1",
-      "gh_2",
-      "gh_0"
-     ],
-     "housie": [
-      "gs_0",
-      "gs_1"
-     ],
-     "mascotBall": [
-      "sc_1",
-      "sc_0"
-     ],
-     "particles": [
-      "gh_3",
-      "fx_2"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-10-27",
    "day": "Tue, 27 Oct",
@@ -87,7 +16,7 @@
     "id": "trickortreat",
     "name": "Trick or Treat",
     "pack": "themes/trickortreat/v1",
-    "sounds": "sounds/trickortreat/v3",
+    "sounds": "sounds/trickortreat/v4",
     "colors": {
      "accent": "#D6338A",
      "accentDeep": "#9C2A7A",
@@ -166,7 +95,154 @@
     "7 PM",
     "11 PM"
    ],
-   "theme": null
+   "theme": {
+    "id": "mehendiraat",
+    "name": "Mehendi Raat",
+    "pack": "themes/mehendiraat/v1",
+    "sounds": "sounds/mehendiraat/v1",
+    "colors": {
+     "accent": "#B5541C",
+     "accentDeep": "#7A3510",
+     "gameInk": "#FBF6E8"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Keri Bel",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Mehendi Cone",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Hatheli",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Kangan",
+      "points": 50,
+      "numbers": 4
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_4",
+      "gh_5",
+      "gh_0",
+      "gh_1",
+      "gh_2",
+      "gh_3"
+     ],
+     "housie": [
+      "gs_1",
+      "gs_2",
+      "gs_0"
+     ],
+     "mascotBall": [
+      "sc_3",
+      "sc_0",
+      "sc_1",
+      "sc_2"
+     ],
+     "particles": [
+      "gh_6",
+      "gh_7",
+      "fx_1",
+      "fx_2",
+      "fx_3"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "day": "Thu, 29 Oct",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "chandnichhat",
+    "name": "Chandni Chhat",
+    "pack": "themes/chandnichhat/v1",
+    "sounds": "sounds/chandnichhat/v1",
+    "colors": {
+     "accent": "#3A4FA8",
+     "accentDeep": "#222F72",
+     "gameInk": "#F4F6FF"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Chand",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Badal",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Taare",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Ladi",
+      "points": 50,
+      "numbers": 4
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_2",
+      "gh_3",
+      "gh_0",
+      "gh_1"
+     ],
+     "housie": [
+      "gs_5",
+      "gs_6",
+      "gs_0",
+      "gs_1",
+      "gs_2",
+      "gs_3",
+      "gs_4"
+     ],
+     "mascotBall": [
+      "sc_0"
+     ],
+     "particles": [
+      "gh_4",
+      "gh_5",
+      "gh_6",
+      "fx_3",
+      "fx_4",
+      "fx_5"
+     ]
+    }
+   }
   }
  ]
 }
