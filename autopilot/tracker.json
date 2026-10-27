@@ -3073,6 +3073,32 @@
         "no shot over 5 s (6.2 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-10-28",
+      "created": "2026-10-28",
+      "title": "Mehendi Raat Housie: soch vs sach",
+      "format": "Theme Housie",
+      "theme": "mehendiraat",
+      "story": "ai",
+      "variant": "expectation-vs-reality",
+      "hook": "Mehendi Raat Housie Soch vs Sach",
+      "cast": [],
+      "status": "failed",
+      "idea": "The gang dresses up for Mehendi Raat Housie, but with wet mehendi nobody can tap the ticket, and the one friend who skipped the mehendi wins Full House.",
+      "beats": "hook: soch vs sach banner / soch: Zoya's mehendi photo, Tanya's dress code / sach: Myra can't tap with wet mehendi / esc: nose tap, elbow for Kangan, mehendi on the screen / turn: Aditi gets Full House / button: Aditi will get mehendi after Housie",
+      "experiment": {
+        "format": "expectation-vs-reality",
+        "hook": "banner 'Mehendi Raat Housie: soch vs sach' over 3 dressed-up gang faces on the Mehendi Raat home art, reactions flying, chip SOCH",
+        "variable": "a two-part contrast (pretty plan, then messy reality) built on one physical gag everyone knows: wet mehendi hands that cannot tap the phone",
+        "hypothesis": "an instantly recognisable mehendi problem hooks harder than a rivalry: skip under 55%, watched % above 25, at least 2 shares"
+      },
+      "duration": 38.1,
+      "lufs": null,
+      "caption": "Mehendi Raat Housie pe aap kaun ho: mehendi pehle ya Housie pehle? Comment karo aur mehendi wali saheli ko tag karo!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #mehendi #mehendiraat #kittygang",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-28.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-28-cover.jpg",
+      "error": "fetch failed"
     }
   ],
   "ideas": [
