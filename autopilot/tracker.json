@@ -3218,6 +3218,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/ek-haath-packing-diwali-gift-wrap-kitty-game",
       "queue_id": "86411872-a9fb-4acd-aa4b-7f07babd0588",
       "scheduled_ist": "2026-10-27 17:04"
+    },
+    {
+      "id": "KGI-007",
+      "n": 7,
+      "created": "2026-10-27",
+      "game": "Kuch Nahi Chahiye",
+      "tagline": "Pati poochhe, aap likho!",
+      "players": "8 to 20",
+      "time": "10 to 15 minutes",
+      "slug": "kuch-nahi-chahiye-a-to-z-diwali-kitty-party-game",
+      "caption": "Pati poochte hain \"Diwali pe kya chahiye?\" aur hum kehte hain \"kuch nahi\". Is kitty mein A se Z sab likh do! Aapki X wali wish kya hogi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/kuch-nahi-chahiye-a-to-z-diwali-kitty-party-game",
+      "queue_id": "54760a68-6c58-4d61-99b1-f038598b51b4",
+      "scheduled_ist": "2026-10-28 16:36"
     }
   ],
   "research": [
