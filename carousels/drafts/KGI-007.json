@@ -1,0 +1,963 @@
+{
+  "id": "KGI-007",
+  "n": 7,
+  "slug": "kuch-nahi-chahiye-a-to-z-diwali-kitty-party-game",
+  "game": "Kuch Nahi Chahiye",
+  "tagline": "Pati poochhe, aap likho!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 55,
+      "y": 35,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 485,
+      "y": 195,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<g><rect x='60' y='40' width='420' height='110' rx='26' fill='#DFF5E1' stroke='#4A1238' stroke-width='5'></rect><path d='M100 150 L90 190 L150 150' fill='#DFF5E1' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path></g>"
+    },
+    {
+      "k": "text",
+      "x": 270,
+      "y": 108.3,
+      "text": "Diwali pe kya chahiye?",
+      "size": 38,
+      "color": "ink"
+    },
+    {
+      "k": "person",
+      "x": 150,
+      "y": 270,
+      "s": 1.3,
+      "color": "blue"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='rotate(-4 710 154)'><rect x='560' y='10' width='300' height='288' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M630 10 L630 298' stroke='#E85D8A' stroke-width='3'></path></g>"
+    },
+    {
+      "k": "text",
+      "x": 595,
+      "y": 86.5,
+      "text": "A",
+      "size": 38,
+      "color": "pink"
+    },
+    {
+      "k": "text",
+      "x": 650,
+      "y": 86.5,
+      "text": "Anklet",
+      "size": 38,
+      "color": "ink",
+      "a": "start"
+    },
+    {
+      "k": "text",
+      "x": 595,
+      "y": 148.5,
+      "text": "B",
+      "size": 38,
+      "color": "pink"
+    },
+    {
+      "k": "text",
+      "x": 650,
+      "y": 148.5,
+      "text": "Bangles",
+      "size": 38,
+      "color": "ink",
+      "a": "start"
+    },
+    {
+      "k": "text",
+      "x": 595,
+      "y": 210.5,
+      "text": "C",
+      "size": 38,
+      "color": "pink"
+    },
+    {
+      "k": "text",
+      "x": 650,
+      "y": 210.5,
+      "text": "Cooker",
+      "size": 38,
+      "color": "ink",
+      "a": "start"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M642 198.34 L777.6800000000001 198.34' stroke='#E85D8A' stroke-width='7' stroke-linecap='round'></path>"
+    },
+    {
+      "k": "text",
+      "x": 595,
+      "y": 272.5,
+      "text": "D",
+      "size": 38,
+      "color": "pink"
+    },
+    {
+      "k": "text",
+      "x": 650,
+      "y": 272.5,
+      "text": "Diamond",
+      "size": 38,
+      "color": "ink",
+      "a": "start"
+    },
+    {
+      "k": "text",
+      "x": 550,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 870,
+      "y": 308,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 990,
+      "y": 270,
+      "s": 1.3,
+      "color": "yel"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas kagaz, pen aur timer",
+    "items": [
+      {
+        "label": "Kagaz",
+        "sub": "1 har lady",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='rotate(0 150 115)'><rect x='60' y='20' width='180' height='190' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M130 20 L130 210' stroke='#E85D8A' stroke-width='3'></path></g>"
+          },
+          {
+            "k": "text",
+            "x": 95,
+            "y": 87.5,
+            "text": "A",
+            "size": 32,
+            "color": "pink"
+          },
+          {
+            "k": "text",
+            "x": 95,
+            "y": 137.5,
+            "text": "B",
+            "size": 32,
+            "color": "pink"
+          },
+          {
+            "k": "text",
+            "x": 95,
+            "y": 187.5,
+            "text": "C",
+            "size": 32,
+            "color": "pink"
+          },
+          {
+            "k": "text",
+            "x": 50,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 250,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Pen",
+        "sub": "1 har lady",
+        "draw": [
+          {
+            "k": "text",
+            "x": 100,
+            "y": 30,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 200,
+            "y": 200,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 170) rotate(30) scale(1.2)'><rect x='-9' y='-110' width='18' height='95' rx='4' fill='#3B7DD8' stroke='#4A1238' stroke-width='4'></rect><path d='M-9 -15 L0 8 L9 -15 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path></g>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "2 minute",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "2:00"
+          }
+        ]
+      },
+      {
+        "label": "Pati ka message",
+        "sub": "host padhegi",
+        "draw": [
+          {
+            "k": "text",
+            "x": 15,
+            "y": 35,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 285,
+            "y": 185,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g><rect x='20' y='40' width='260' height='100' rx='26' fill='#DFF5E1' stroke='#4A1238' stroke-width='5'></rect><path d='M60 140 L50 180 L110 140' fill='#DFF5E1' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path></g>"
+          },
+          {
+            "k": "text",
+            "x": 150,
+            "y": 101.9,
+            "text": "Kya chahiye?",
+            "size": 34,
+            "color": "ink"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Kagaz par A se Z likho",
+      "body": "Har lady kagaz ki left side par A se Z tak letters likhe.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 480 310)'><rect x='300' y='20' width='360' height='580' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M370 20 L370 600' stroke='#E85D8A' stroke-width='3'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 335,
+          "y": 117.5,
+          "text": "A",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 335,
+          "y": 207.5,
+          "text": "B",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 335,
+          "y": 297.5,
+          "text": "C",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 335,
+          "y": 387.5,
+          "text": "D",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 335,
+          "y": 477.5,
+          "text": "E",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 335,
+          "y": 567.5,
+          "text": "...",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 290,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 670,
+          "y": 610,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(720 560) rotate(30) scale(1.5)'><rect x='-9' y='-110' width='18' height='95' rx='4' fill='#3B7DD8' stroke='#4A1238' stroke-width='4'></rect><path d='M-9 -15 L0 8 L9 -15 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 250,
+          "y1": 120,
+          "x2": 250,
+          "y2": 560,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 140,
+          "y": 350,
+          "text": "A se Z",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Host padhe pati ka message",
+      "body": "\"Diwali pe kya chahiye?\" Timer start, sirf 2 minute.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 55,
+          "y": 55,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 625,
+          "y": 245,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='60' y='60' width='560' height='140' rx='26' fill='#DFF5E1' stroke='#4A1238' stroke-width='5'></rect><path d='M100 200 L90 240 L150 200' fill='#DFF5E1' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 340,
+          "y": 146.8,
+          "text": "Diwali pe kya chahiye?",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 440,
+          "s": 2,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "timer",
+          "x": 760,
+          "y": 330,
+          "s": 0.9,
+          "text": "2:00"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 600,
+          "text": "Start!",
+          "size": 48,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Har letter ki ek wish",
+      "body": "A Anklet, B Bangles, C Cooker. Jitni jaldi, utni zyada wishes.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 480 310)'><rect x='250' y='20' width='460' height='580' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M320 20 L320 600' stroke='#E85D8A' stroke-width='3'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 285,
+          "y": 117.5,
+          "text": "A",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 340,
+          "y": 117.5,
+          "text": "Anklet",
+          "size": 48,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 285,
+          "y": 207.5,
+          "text": "B",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 340,
+          "y": 207.5,
+          "text": "Bangles",
+          "size": 48,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 285,
+          "y": 297.5,
+          "text": "C",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 340,
+          "y": 297.5,
+          "text": "Cooker",
+          "size": 48,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 285,
+          "y": 387.5,
+          "text": "D",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 340,
+          "y": 387.5,
+          "text": "Dubai trip",
+          "size": 48,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 285,
+          "y": 477.5,
+          "text": "E",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 340,
+          "y": 477.5,
+          "text": "Earrings",
+          "size": 48,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 285,
+          "y": 567.5,
+          "text": "F",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 240,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 610,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(700 600) rotate(35) scale(1.5)'><rect x='-9' y='-110' width='18' height='95' rx='4' fill='#3B7DD8' stroke='#4A1238' stroke-width='4'></rect><path d='M-9 -15 L0 8 L9 -15 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path></g>"
+        },
+        {
+          "k": "timer",
+          "x": 880,
+          "y": 200,
+          "s": 0.6,
+          "text": "0:48"
+        }
+      ]
+    },
+    {
+      "title": "Letter bolo, sab padho",
+      "body": "Host Housie ki tarah letter bole. Sab apni wish zor se padhein.",
+      "draw": [
+        {
+          "k": "person",
+          "x": 480,
+          "y": 170,
+          "s": 1.5,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 40,
+          "text": "\"C!\"",
+          "size": 64,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 560,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 380,
+          "y": 560,
+          "s": 1.3,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 600,
+          "y": 560,
+          "s": 1.3,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 840,
+          "y": 560,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 430,
+          "text": "Cooker",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 380,
+          "y": 430,
+          "text": "Cooker",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 600,
+          "y": 430,
+          "text": "Chain",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 840,
+          "y": 430,
+          "text": "Cruise",
+          "size": 34,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Same wish? Dono kaat do",
+      "body": "Jo wish kisi aur ne bhi likhi, sab kaatein. Bachi wishes gino.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 240 260)'><rect x='40' y='60' width='400' height='400' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M110 60 L110 460' stroke='#E85D8A' stroke-width='3'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 75,
+          "y": 157.5,
+          "text": "A",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 157.5,
+          "text": "Anklet",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 75,
+          "y": 247.5,
+          "text": "B",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 247.5,
+          "text": "Bangles",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M122 233.42 L302.48 233.42' stroke='#E85D8A' stroke-width='7' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "text",
+          "x": 75,
+          "y": 337.5,
+          "text": "C",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 337.5,
+          "text": "Cooker",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M122 323.42 L277.84000000000003 323.42' stroke='#E85D8A' stroke-width='7' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "text",
+          "x": 75,
+          "y": 427.5,
+          "text": "D",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 427.5,
+          "text": "Dubai trip",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 30,
+          "y": 50,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 470,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 720 260)'><rect x='520' y='60' width='400' height='400' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M590 60 L590 460' stroke='#E85D8A' stroke-width='3'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 555,
+          "y": 157.5,
+          "text": "A",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 610,
+          "y": 157.5,
+          "text": "Air fryer",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 555,
+          "y": 247.5,
+          "text": "B",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 610,
+          "y": 247.5,
+          "text": "Bangles",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M602 233.42 L782.48 233.42' stroke='#E85D8A' stroke-width='7' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "text",
+          "x": 555,
+          "y": 337.5,
+          "text": "C",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 610,
+          "y": 337.5,
+          "text": "Cooker",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M602 323.42 L757.84 323.42' stroke='#E85D8A' stroke-width='7' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "text",
+          "x": 555,
+          "y": 427.5,
+          "text": "D",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 610,
+          "y": 427.5,
+          "text": "Diamond",
+          "size": 44,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 510,
+          "y": 50,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 470,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 240,
+          "y": 560,
+          "text": "2 bachi",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 560,
+          "text": "2 bachi",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 660,
+          "text": "Sabse zyada unique wishes jeeti",
+          "size": 40,
+          "color": "ink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada unique wishes jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Timer ke baad likha?",
+          "Woh wish nahi ginegi."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Same wish kisi aur ki bhi?",
+          "Dono ki kat gayi."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Galat letter ki wish?",
+          "Zero point."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse zyada wishes bachi,",
+          "woh Wish Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Kisi ne \"kuch nahi\" likha?",
+        "Usko 2 bonus point."
+      ],
+      [
+        "Sirf 90 second do, ya",
+        "ulte haath se likho."
+      ],
+      [
+        "Winner ki list uske pati",
+        "ko bhejo, Diwali sorted!"
+      ]
+    ],
+    "tip": "A se Z wali sheets pehle se likh ke rakho, time bachega."
+  },
+  "comment_hint": "aapki X wish?",
+  "caption": "Pati poochte hain \"Diwali pe kya chahiye?\" aur hum kehte hain \"kuch nahi\". Is kitty mein A se Z sab likh do! Aapki X wali wish kya hogi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#kuchnahichahiye",
+    "#diwaligames",
+    "#diwalikitty"
+  ],
+  "web": {
+    "title": "Kuch Nahi Chahiye A to Z: Diwali Kitty Party Game Rules",
+    "description": "Kuch Nahi Chahiye A to Z is a Diwali kitty party writing game where ladies list a wish for every letter. Learn what you need, how to play, rules and twists.",
+    "intro": "Kuch Nahi Chahiye A to Z is a pen and paper kitty party game where the host reads a husband's classic text, \"Diwali pe kya chahiye?\", and every lady has 2 minutes to write one wish for each letter from A to Z (Anklet, Bangles, Cooker, Dubai trip...). The lady with the most unique wishes left at the end wins. The crazy twist: answers are read out letter by letter like Housie numbers, and any wish that someone else also wrote is cut from every sheet, so only original wishes score. It needs only paper, pens and a phone timer and takes 10 to 15 minutes.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One sheet of paper per lady, with the letters A to Z written down the left side",
+      "One pen per lady",
+      "A phone timer",
+      "The host's phone or a chit with the message \"Diwali pe kya chahiye?\""
+    ],
+    "steps": [
+      "Give every lady a sheet of paper and a pen, and have her write the letters A to Z down the left side before the game starts.",
+      "The host reads out the husband's message, \"Diwali pe kya chahiye?\", and starts a 2 minute timer.",
+      "Every lady writes one wish for as many letters as she can: A for Anklet, B for Bangles, C for Cooker, and so on. One wish per letter.",
+      "When time is up, pens go down. The host calls the letters one by one like Housie numbers, and every lady reads her wish for that letter aloud.",
+      "Any wish that two or more ladies wrote is cut on all those sheets. Each lady counts the wishes left uncut, and the highest count wins."
+    ],
+    "rules": [
+      "Nothing written after the timer ends counts.",
+      "A wish shared by two or more ladies is cut from every sheet that has it.",
+      "The wish must start with the right letter, or it scores zero.",
+      "Only one wish per letter counts.",
+      "The lady with the most unique, uncut wishes is the Wish Queen."
+    ],
+    "variations": [
+      "Anyone who honestly writes \"kuch nahi\" for a letter gets 2 bonus points.",
+      "Cut the time to 90 seconds, or make everyone write with the non writing hand.",
+      "Send the winner's list to her husband as her official Diwali wishlist.",
+      "Play a Hindi round where wishes must be Hindi words (Payal, Jhumka, Kangan)."
+    ],
+    "tips": [
+      "Write A to Z on the sheets before guests arrive to save time.",
+      "Let the group decide in a quick vote if two wishes are \"the same\" (Gold chain and Sone ki chain).",
+      "Read the funniest unique wish of each lady aloud at the end.",
+      "Keep the sheets; they make great giggles at the next kitty."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Kuch Nahi Chahiye A to Z?",
+        "a": "It works for 8 to 20 ladies. More players means more common wishes get cut, which makes the game funnier."
+      },
+      {
+        "q": "What do you need to play this A to Z wish game?",
+        "a": "Just one sheet of paper and one pen per lady, plus a phone timer. Nothing else is needed."
+      },
+      {
+        "q": "Is it a good Diwali or Dhanteras kitty party game?",
+        "a": "Yes. Everyone has heard \"Diwali pe kya chahiye?\" from her husband, so the theme gets laughs, and it can be played sitting down in any living room."
+      },
+      {
+        "q": "How are the wishes scored?",
+        "a": "Each uncut wish is one point. Any wish written by two or more ladies is cut from all their sheets, so only original wishes score."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "Writing takes 2 minutes and reading out the letters takes about 8 to 10 minutes, so the whole game fits in 10 to 15 minutes."
+      }
+    ]
+  }
+}
