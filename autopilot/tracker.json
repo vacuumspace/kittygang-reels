@@ -2528,6 +2528,364 @@
       "yt_id": "r0v4C1AVTa8",
       "yt_url": "https://youtube.com/shorts/r0v4C1AVTa8",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-27-a",
+      "created": "2026-10-27",
+      "title": "Bumper mixer kiska?",
+      "format": "Quiz, Diwali Housie with a guess-the-winner reveal",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Ishita",
+        "Tanya"
+      ],
+      "caption": "Saas, beti, didi... sabke naam ka ticket, phir bhi mixer gaya host ke ghar. Aapne kya guess kiya tha? Comment karo, aur tag your Ishita!",
+      "status": "queued",
+      "idea": "Diwali kitty bumper prize is a mixer grinder; Ishita buys extra tickets in her saas, beti and kaamwali didi's names, but the Full House ticket says Bittu, the host's own son.",
+      "beats": "hook: bumper mixer, Ishita claims it / setup: one ticket per name / esc: saas, 4 saal ki beti, kaamwali didi / quiz: guess karo / twist: ticket says Bittu, host's son / button: Tanya says 'Mixer toh mera hai!'",
+      "experiment": {
+        "type": "quiz",
+        "hook": "Housie in progress, cage spinning, Tanya lifts the gift-wrapped bumper mixer and Ishita shouts 'Mixer toh mera hai!' with the chip 'BUMPER MIXER: KAUN JEETEGA?'",
+        "variable": "a guess-the-winner pause (chip 'GUESS KARO: SAAS? BETI? DIDI?' plus a 3-2-1 tick) before the reveal, asking viewers to comment their guess",
+        "hypothesis": "the open question keeps viewers to the reveal and invites guesses: watched % above 30, skip under 55% (Housie cold open like our winner), and at least 5 comments, against 0 comments on every reel so far"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Full House ka bumper... mixer!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Haaye! Mixer toh mera hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Shruti, paanch ticket aur!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ek naam, ek hi ticket.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Toh... saas ke naam!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Saas toh Kanpur mein hain!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Dil se yahin hain!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Beti ke naam bhi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Woh toh chaar saal ki hai!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Sapne bade hain!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Aur kaamwali didi ke naam!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Didi Housie khelti hain?",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Mixer ke liye khelengi!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Nabbe! Full House!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Mera hi hoga! Chaaron mere!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ticket pe naam hai...",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bittu.",
+          "beat": "twist"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Bittu kaun?!",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mera beta... bas ek ticket!",
+          "beat": "twist"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Recount!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mixer toh mera hai!",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.93,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Every kitty has an Ishita buying extra tickets and every group jokes the host's family always wins. Opens on Housie in progress like our winner (cage, prize, 'Mera!'). Shruti's rule 'ek naam pe ek ticket' makes the game clear in one line, then saas, a 4 year old, the maid: ordinary, ordinary, absurd, each with a comeback. Quiz pause lists only Ishita's names, so the Bittu reveal is a true surprise and a see-it ticket. Claim before reveal: 'Mera hi hoga! Chaaron mere!' then the drop. Button flips the opening line to the host. Endings tried: (1) didi wins and takes the mixer home, (2) saas wins over video call, (3) Bittu; kept 3, it flips who wins and gives the comment bait 'kisne guess kiya?'. Rewrote once: first pass had Megha and Tina too (5 faces), cut to 3."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-a-board.jpg",
+      "queue_id": "dad41c10-5825-4f63-a0c5-797a3a52d86a",
+      "scheduled_ist": "2026-10-31 19:26",
+      "yt_id": "xwx-B4mk7qY",
+      "yt_url": "https://youtube.com/shorts/xwx-B4mk7qY",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-10-27-c",
+      "created": "2026-10-27",
+      "title": "Pink nahi toh entry nahi!",
+      "format": "Door arrivals, dress-code judge at the front door",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Tanya",
+        "Avika",
+        "Myra"
+      ],
+      "caption": "Dress code wali admin, apna hi message bhool gayi. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya stands at her own front door scoring every guest zero for not wearing pink; all of them came in yellow, because Tanya's own group message said YELLOW.",
+      "beats": "hook: pink or no entry / esc: Shruti 0, Avika -2, Myra -10 / twist: Tanya's own message says YELLOW / button: guests score Tanya zero",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya in pink blocks the doorway with a scoreboard and shouts 'Pink nahi, toh entry nahi!' at Shruti standing there in yellow",
+        "variable": "story told as a string of front-door entries (one guest per doorbell, a score chip each) instead of a living-room scene",
+        "hypothesis": "a doorbell plus a new face every 4 s holds viewers through the middle: watched % above 30 and skip rate under 55%, with at least 3 shares from organisers tagging friends"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Pink nahi, toh entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mustard? Zero!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Meri kitty, mere rules.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Sorry sorry, traffic tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Late bhi, yellow bhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Matlab?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Minus do!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Arre!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Dekho! Sabse zyada yellow!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sabse zyada galat. Minus das!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Yeh rule kab bana?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Group pe dekho, sab likha hai!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Theme... yellow. Compulsory.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Yellow?",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Aapne hi likha tha!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Pink? Zero!",
+          "beat": "button"
+        }
+      ],
+      "duration": 27.64,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Every group has a dress-code admin; Tanya's catchphrase 'Group pe dekho, sab likha hai' sets up her own downfall, so the twist is a see-it phone screen, not a fact to work out. Pink host vs yellow guests reads on mute from frame one. Myra claims first ('Sabse zyada yellow!') before the drop. Button reuses 'Pink? Zero!' with the scoreboard flipped onto Tanya. Rewrote once: first draft had Tanya rating outfits 1 to 10 (idea as banked) but the scores alone had no reveal; second ending (Tanya's tag still on her saree) was weaker than the group message callback."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-c.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-c-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-27-c-board.jpg",
+      "queue_id": "7a446db5-b53b-461e-a93f-be3d72759cb2",
+      "scheduled_ist": "2026-11-01 13:13",
+      "yt_id": "8CkD3_d82AI",
+      "yt_url": "https://youtube.com/shorts/8CkD3_d82AI",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
