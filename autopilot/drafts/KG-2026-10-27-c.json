@@ -1,0 +1,751 @@
+{
+  "id": "KG-2026-10-27-c",
+  "title": "Pink nahi toh entry nahi!",
+  "format": "Door arrivals, dress-code judge at the front door",
+  "idea": "Tanya stands at her own front door scoring every guest zero for not wearing pink; all of them came in yellow, because Tanya's own group message said YELLOW.",
+  "logline": "Tanya gives every yellow-dressed guest a minus score at the door for breaking the pink dress code, until Myra shows Tanya's own group message: theme YELLOW.",
+  "game": "every guest who walks in gets a worse score than the last",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Tanya in pink blocks the doorway with a scoreboard and shouts 'Pink nahi, toh entry nahi!' at Shruti standing there in yellow",
+    "variable": "story told as a string of front-door entries (one guest per doorbell, a score chip each) instead of a living-room scene",
+    "hypothesis": "a doorbell plus a new face every 4 s holds viewers through the middle: watched % above 30 and skip rate under 55%, with at least 3 shares from organisers tagging friends"
+  },
+  "mute": [
+    "Tanya in pink at her door, chip DRESS CODE: PINK, Shruti in yellow gets stopped",
+    "Shruti gets a zero, flat stare",
+    "Avika runs in late, in yellow too",
+    "Avika gets minus 2",
+    "Myra hops in all yellow with marigolds, proud",
+    "Myra gets minus 10, asks when this rule was made",
+    "Tanya tells her to check the group",
+    "phone screen: Tanya's own message says theme YELLOW",
+    "Tanya frozen in her pink saree, guests stare",
+    "guests hold the scoreboard, chip TANYA: 0, same line as the opening flipped"
+  ],
+  "beats": "hook: pink or no entry / esc: Shruti 0, Avika -2, Myra -10 / twist: Tanya's own message says YELLOW / button: guests score Tanya zero",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Every group has a dress-code admin; Tanya's catchphrase 'Group pe dekho, sab likha hai' sets up her own downfall, so the twist is a see-it phone screen, not a fact to work out. Pink host vs yellow guests reads on mute from frame one. Myra claims first ('Sabse zyada yellow!') before the drop. Button reuses 'Pink? Zero!' with the scoreboard flipped onto Tanya. Rewrote once: first draft had Tanya rating outfits 1 to 10 (idea as banked) but the scores alone had no reveal; second ending (Tanya's tag still on her saree) was weaker than the group message callback."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1.2,
+    "title": [
+      "Pink nahi toh",
+      "entry nahi!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Dress code wali admin, apna hi message bhool gayi. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#dresscode",
+    "#kittypartytheme",
+    "#ladieskitty",
+    "#kittypartyfun"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "DRESS CODE: PINK",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "wave",
+          "prop": "",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "smile",
+          "turn": -0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "o",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Pink nahi, toh entry nahi!",
+          "say": "रुको! पिंक नहीं, तो एंट्री नहीं!",
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SHRUTI: 0",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "relaxed",
+          "prop": "",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Mustard? Zero!",
+          "say": "मस्टर्ड? ज़ीरो!",
+          "punch": true,
+          "beat": "setup"
+        },
+        {
+          "who": "Tanya",
+          "text": "Meri kitty, mere rules.",
+          "say": "मेरी किटी, मेरे रूल्स।",
+          "gap": 0.2,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "DRESS CODE: PINK",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "keys",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5,
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "o",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 980,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Sorry sorry, traffic tha!",
+          "say": "सॉरी सॉरी, ट्रैफ़िक था!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Late bhi, yellow bhi?!",
+          "say": "लेट भी, येलो भी?!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "AVIKA: -2",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "keys",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Matlab?",
+          "say": "मतलब?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Minus do!",
+          "say": "माइनस दो!",
+          "punch": true,
+          "gap": 0.03
+        },
+        {
+          "who": "Avika",
+          "text": "Arre!",
+          "say": "अरे!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "DRESS CODE: PINK",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "wave",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.5,
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Marigold",
+          "x": 930,
+          "y": 1300,
+          "s": 1.3,
+          "at": 0.2
+        },
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 680,
+          "y": 820,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 960,
+          "y": 780,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Dekho! Sabse zyada yellow!",
+          "say": "देखो! सबसे ज़्यादा येलो!",
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "DRESS CODE: PINK",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "relaxed",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5,
+          "hop": false
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Marigold",
+          "x": 930,
+          "y": 1300,
+          "s": 1.3
+        },
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 1000,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Sabse zyada galat. Minus das!",
+          "say": "सबसे ज़्यादा ग़लत। माइनस दस!",
+          "punch": true
+        }
+      ],
+      "hold": 0.15,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "MYRA: -10",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "relaxed",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Marigold",
+          "x": 930,
+          "y": 1300,
+          "s": 1.3
+        },
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 900,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Yeh rule kab bana?",
+          "say": "ये रूल कब बना?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Group pe dekho, sab likha hai!",
+          "say": "ग्रुप पे देखो, सब लिखा है!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "phone",
+      "set": "entrance",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "music": false,
+      "chip": "TANYA NE LIKHA",
+      "chipY": 200,
+      "chat": [
+        [
+          "Tanya",
+          "Kal ki kitty, 4 baje",
+          0,
+          "Kal 9:02 PM",
+          0
+        ],
+        [
+          "Tanya",
+          "Theme: YELLOW. Compulsory!",
+          0,
+          "Kal 9:02 PM",
+          0.6
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Theme... yellow. Compulsory.",
+          "say": "थीम... येलो। कम्पल्सरी।",
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "camera": "still",
+      "music": false,
+      "chip": "DRESS CODE: YELLOW",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "phone",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": -0.5
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1420,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1080,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Yellow?",
+          "say": "येलो?",
+          "silenceBefore": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Aapne hi likha tha!",
+          "say": "आपने ही लिखा था!",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "camera": "punch",
+      "chip": "TANYA: 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "pose": "hold",
+          "prop": "",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.5
+        },
+        {
+          "name": "Avika",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "pose": "hips",
+          "main": "#F2C14E",
+          "mainSh": "#D9A736",
+          "mouth": "smirk",
+          "turn": -0.6
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 600,
+          "y": 1250,
+          "s": 1.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 1,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Pink? Zero!",
+          "say": "पिंक? ज़ीरो!",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.8
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.08
+  }
+}

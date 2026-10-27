@@ -1,0 +1,929 @@
+{
+  "id": "KG-2026-10-27-a",
+  "title": "Bumper mixer kiska?",
+  "format": "Quiz, Diwali Housie with a guess-the-winner reveal",
+  "idea": "Diwali kitty bumper prize is a mixer grinder; Ishita buys extra tickets in her saas, beti and kaamwali didi's names, but the Full House ticket says Bittu, the host's own son.",
+  "logline": "Ishita buys Housie tickets in everyone's name to win the bumper mixer, but the winning ticket belongs to Bittu, the host's son.",
+  "game": "every extra ticket Ishita buys is in a sillier name",
+  "experiment": {
+    "type": "quiz",
+    "hook": "Housie in progress, cage spinning, Tanya lifts the gift-wrapped bumper mixer and Ishita shouts 'Mixer toh mera hai!' with the chip 'BUMPER MIXER: KAUN JEETEGA?'",
+    "variable": "a guess-the-winner pause (chip 'GUESS KARO: SAAS? BETI? DIDI?' plus a 3-2-1 tick) before the reveal, asking viewers to comment their guess",
+    "hypothesis": "the open question keeps viewers to the reveal and invites guesses: watched % above 30, skip under 55% (Housie cold open like our winner), and at least 5 comments, against 0 comments on every reel so far"
+  },
+  "mute": [
+    "Housie in progress, Tanya holds a big gift box, chip BUMPER MIXER: KAUN JEETEGA?, Ishita jumps up wanting it",
+    "Ishita asks Shruti for 5 more tickets, Shruti with her calculator says one ticket per name",
+    "Ishita buys a ticket in her saas's name, chip ISHITA: 2 TICKET",
+    "another ticket in her little daughter's name, chip ISHITA: 3 TICKET",
+    "another in the maid's name, chip ISHITA: 4 TICKET, Shruti shocked",
+    "ball 90 pops, Ishita sure she has won",
+    "Shruti holds the winning ticket, chip GUESS KARO: SAAS? BETI? DIDI?, tick tick tick",
+    "close-up ticket, chip NAAM: BITTU, Ishita shocked",
+    "Tanya hugs the gift box, sheepish, chip BITTU = TANYA KA BETA",
+    "Ishita and Shruti shout Recount at Tanya",
+    "Tanya hugs the mixer and says the same line Ishita opened with, chip MIXER: GHAR KA GHAR MEIN"
+  ],
+  "beats": "hook: bumper mixer, Ishita claims it / setup: one ticket per name / esc: saas, 4 saal ki beti, kaamwali didi / quiz: guess karo / twist: ticket says Bittu, host's son / button: Tanya says 'Mixer toh mera hai!'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Every kitty has an Ishita buying extra tickets and every group jokes the host's family always wins. Opens on Housie in progress like our winner (cage, prize, 'Mera!'). Shruti's rule 'ek naam pe ek ticket' makes the game clear in one line, then saas, a 4 year old, the maid: ordinary, ordinary, absurd, each with a comeback. Quiz pause lists only Ishita's names, so the Bittu reveal is a true surprise and a see-it ticket. Claim before reveal: 'Mera hi hoga! Chaaron mere!' then the drop. Button flips the opening line to the host. Endings tried: (1) didi wins and takes the mixer home, (2) saas wins over video call, (3) Bittu; kept 3, it flips who wins and gives the comment bait 'kisne guess kiya?'. Rewrote once: first pass had Megha and Tina too (5 faces), cut to 3."
+  },
+  "cover": {
+    "shot": 10,
+    "at": 0.9,
+    "title": [
+      "Bumper mixer kiska?",
+      "Guess karo!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Saas, beti, didi... sabke naam ka ticket, phir bhi mixer gaya host ke ghar. Aapne kya guess kiya tha? Comment karo, aur tag your Ishita!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#housie",
+    "#tambola",
+    "#diwalikitty",
+    "#ladieskitty",
+    "#kittypartygames"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "front": true,
+      "chip": "BUMPER MIXER: KAUN JEETEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": 0.5
+        },
+        {
+          "name": "Ishita",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "open",
+          "turn": -0.5,
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 470,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 560,
+          "y": 1480,
+          "s": 2.2
+        },
+        {
+          "name": "Housie cage",
+          "x": 870,
+          "y": 1720,
+          "s": 2.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 560,
+          "y": 1180,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Full House ka bumper... mixer!",
+          "say": "फ़ुल हाउस का बंपर... मिक्सर!",
+          "beat": "hook"
+        },
+        {
+          "who": "Ishita",
+          "text": "Haaye! Mixer toh mera hai!",
+          "say": "हाय! मिक्सर तो मेरा है!",
+          "punch": true,
+          "gap": 0.03,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "BUMPER MIXER: KAUN JEETEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 330,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "prop": "",
+          "mouth": "smirk",
+          "turn": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1500,
+          "s": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "calc",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Shruti, paanch ticket aur!",
+          "say": "श्रुति, पाँच टिकट और!",
+          "beat": "setup"
+        },
+        {
+          "who": "Shruti",
+          "text": "Ek naam, ek hi ticket.",
+          "say": "एक नाम, एक ही टिकट।",
+          "gap": 0.05,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ISHITA: 2 TICKET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 330,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 470,
+          "y": 1500,
+          "s": 1.6,
+          "at": 0.2
+        },
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1520,
+          "s": 1.6,
+          "rot": 8,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Toh... saas ke naam!",
+          "say": "तो... सास के नाम!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Saas toh Kanpur mein hain!",
+          "say": "सास तो कानपुर में हैं!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ISHITA: 2 TICKET",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "talkR",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.3
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 820,
+          "y": 1480,
+          "s": 1.6,
+          "rot": 8
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Dil se yahin hain!",
+          "say": "दिल से यहीं हैं!",
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ISHITA: 3 TICKET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 330,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "prop": "",
+          "mouth": "laugh",
+          "turn": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 470,
+          "y": 1500,
+          "s": 1.6
+        },
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1520,
+          "s": 1.6,
+          "rot": 8
+        },
+        {
+          "name": "Housie ticket",
+          "x": 650,
+          "y": 1500,
+          "s": 1.6,
+          "rot": -6,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 860,
+          "y": 980,
+          "at": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Beti ke naam bhi!",
+          "say": "बेटी के नाम भी!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Woh toh chaar saal ki hai!",
+          "say": "वो तो चार साल की है!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ISHITA: 3 TICKET",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "talkR",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.3
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 820,
+          "y": 1480,
+          "s": 1.6,
+          "rot": -6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Sapne bade hain!",
+          "say": "सपने बड़े हैं!",
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ISHITA: 4 TICKET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 330,
+          "y": 1740,
+          "s": 2,
+          "pose": "hips",
+          "prop": "",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 470,
+          "y": 1500,
+          "s": 1.6
+        },
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1520,
+          "s": 1.6,
+          "rot": 8
+        },
+        {
+          "name": "Housie ticket",
+          "x": 650,
+          "y": 1500,
+          "s": 1.6,
+          "rot": -6
+        },
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1440,
+          "s": 1.6,
+          "rot": 3,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 960,
+          "at": 1.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Aur kaamwali didi ke naam!",
+          "say": "और कामवाली दीदी के नाम!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Didi Housie khelti hain?",
+          "say": "दीदी हाउज़ी खेलती हैं?",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ISHITA: 4 TICKET",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hips",
+          "prop": "",
+          "mouth": "laugh",
+          "eyes": "half",
+          "turn": 0.3
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 820,
+          "y": 1480,
+          "s": 1.6,
+          "rot": 3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Mixer ke liye khelengi!",
+          "say": "मिक्सर के लिए खेलेंगी!",
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "front": true,
+      "chip": "BUMPER MIXER: KAUN JEETEGA?",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "o",
+          "turn": 0.6
+        },
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.6,
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 90",
+          "x": 560,
+          "y": 1150,
+          "s": 2.4,
+          "at": 0.3
+        },
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1700,
+          "s": 2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.3,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Nabbe! Full House!",
+          "say": "नब्बे! फ़ुल हाउस!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ishita",
+          "text": "Mera hi hoga! Chaaron mere!",
+          "say": "मेरा ही होगा! चारों मेरे!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "GUESS KARO: SAAS? BETI? DIDI?",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hold",
+          "prop": "",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1420,
+          "s": 2.4,
+          "rot": -4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 250,
+          "y": 900,
+          "at": 0.4
+        },
+        {
+          "kind": "question",
+          "x": 830,
+          "y": 860,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "tick",
+          "vol": 0.45
+        },
+        {
+          "at": 1.7,
+          "name": "tick",
+          "vol": 0.45
+        },
+        {
+          "at": 2.4,
+          "name": "tick",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ticket pe naam hai...",
+          "say": "टिकट पे नाम है...",
+          "beat": "turn"
+        }
+      ],
+      "hold": 1.8
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "NAAM: BITTU",
+      "chipY": 600,
+      "camera": "punch",
+      "music": false,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": 0.6
+        },
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1380,
+          "s": 2.4,
+          "rot": -4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 860,
+          "y": 940,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Bittu.",
+          "say": "बिट्टू।",
+          "punch": true,
+          "beat": "twist"
+        },
+        {
+          "who": "Ishita",
+          "text": "Bittu kaun?!",
+          "say": "बिट्टू कौन?!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "BITTU = TANYA KA BETA",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 600,
+          "y": 1500,
+          "s": 2.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 380,
+          "y": 980,
+          "at": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Mera beta... bas ek ticket!",
+          "say": "मेरा बेटा... बस एक टिकट!",
+          "silenceBefore": true,
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "BITTU = TANYA KA BETA",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 240,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": 0.6
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1700,
+          "s": 1.9,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ishita",
+          "x": 840,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "talkL",
+          "mouth": "o",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 580,
+          "y": 1460,
+          "s": 2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Recount!",
+          "say": "रीकाउंट!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.25
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "front": true,
+      "chip": "MIXER: GHAR KA GHAR MEIN",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.2,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 600,
+          "y": 1500,
+          "s": 2.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 300,
+          "y": 1000,
+          "at": 0.4
+        },
+        {
+          "kind": "spark",
+          "x": 820,
+          "y": 960,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Mixer toh mera hai!",
+          "say": "मिक्सर तो मेरा है!",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.9
+    }
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
