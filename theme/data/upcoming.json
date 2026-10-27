@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T22:49:55.515Z",
+ "updated": "2026-10-27T09:13:05.908Z",
  "days": [
   {
    "date": "2026-10-27",
@@ -176,14 +176,14 @@
     "11 PM"
    ],
    "theme": {
-    "id": "chandnichhat",
-    "name": "Chandni Chhat",
-    "pack": "themes/chandnichhat/v1",
-    "sounds": "sounds/chandnichhat/v1",
+    "id": "karwakatha",
+    "name": "Karwa Katha",
+    "pack": "themes/karwakatha/v2",
+    "sounds": "sounds/karwakatha/v1",
     "colors": {
-     "accent": "#3A4FA8",
-     "accentDeep": "#222F72",
-     "gameInk": "#F4F6FF"
+     "accent": "#C0182F",
+     "accentDeep": "#7A0E1E",
+     "gameInk": "#FFF6EC"
     },
     "reactions": [
      "fire",
@@ -194,50 +194,53 @@
     ],
     "ticketGroups": [
      {
-      "name": "Chand",
+      "name": "Thali Pheri",
+      "points": 50,
+      "numbers": 5
+     },
+     {
+      "name": "Katha",
       "points": 50,
       "numbers": 3
      },
      {
-      "name": "Badal",
+      "name": "Gehun",
       "points": 50,
-      "numbers": 4
+      "numbers": 3
      },
      {
-      "name": "Taare",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Ladi",
+      "name": "Karwa",
       "points": 50,
       "numbers": 4
      }
     ],
     "art": {
      "home": [
+      "gh_7",
+      "gh_8",
+      "gh_0",
+      "gh_1",
       "gh_2",
       "gh_3",
-      "gh_0",
-      "gh_1"
+      "gh_4",
+      "gh_5",
+      "gh_6"
      ],
      "housie": [
+      "gs_4",
       "gs_5",
-      "gs_6",
       "gs_0",
       "gs_1",
       "gs_2",
-      "gs_3",
-      "gs_4"
+      "gs_3"
      ],
      "mascotBall": [
-      "sc_0"
+      "sc_2",
+      "sc_0",
+      "sc_1"
      ],
      "particles": [
-      "gh_4",
-      "gh_5",
-      "gh_6",
-      "fx_3",
+      "gh_9",
       "fx_4",
       "fx_5"
      ]
