@@ -3130,6 +3130,209 @@
       "yt_id": "4OqlvheKtog",
       "yt_url": "https://youtube.com/shorts/4OqlvheKtog",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-28-a",
+      "created": "2026-10-28",
+      "title": "Dhanteras pe kuch nahi chahiye",
+      "format": "Expectation vs reality, Housie in progress + phone screen inserts",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Shruti",
+        "Aditi"
+      ],
+      "caption": "Humne kaha kuch nahi chahiye, unhone maan liya. Tag the wife who says 'kuch nahi chahiye' every Dhanteras.",
+      "status": "queued",
+      "idea": "Mid Housie, Ruhi texts her husband 'Kuch nahi chahiye' for Dhanteras, dreams up a full wish list with every number called, and he brings exactly what she asked for: one steel chammach.",
+      "beats": "hook: Kuch nahi chahiye. Send! mid Housie / setup: nothing means everything / esc: 5 = chandi sikke, 20 = payal, 86 = cooker, catalogue jab / dream: twirl with gifts / twist: phone, one steel chammach / button: Agle saal sab kuch chahiye. Send!",
+      "experiment": {
+        "type": "expectation-reality",
+        "hook": "Housie in progress, cage spinning, Ruhi dabs her ticket with one hand and types with the other, saying 'Kuch nahi chahiye. Send!' while Shruti gasps 'Haaw!'",
+        "variable": "a clear SOCHA (dream) vs MILA (reality) split: three dream shots with gold props popping in, then one phone-screen reality reveal (re-render of KG-2026-10-27-b after QA: faster voices, no shot over 4 s)",
+        "hypothesis": "a timely Dhanteras line every wife has typed, plus the Housie cold open of our winner, gets skip under 55%, watched % above 30 and at least 5 shares from women tagging their husbands"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kuch nahi chahiye. Send!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaw! Kisko?!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Pati ji poochh rahe, kya laun?",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kuch nahi?! Sach mein?",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre, woh samajh jaayenge!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kuch nahi matlab sab kuch!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaw! Woh kaise samjhenge?",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Number paanch!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Paanch? Chandi ke paanch sikke!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bees!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Bees gram ki payal! Aur kangan!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Arre, ticket dekho!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chhiyaasi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Naya cooker bhi! Teen litre wala!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Ticket hai ya catalogue?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera wishlist ticket!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Aaj toh Dhanteras dhamaakedaar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Ek steel chammach?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kuch nahi se toh zyada hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera cooker!",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Agle saal sab kuch chahiye. Send!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Har Dhanteras yahi hota hai.",
+          "beat": "button"
+        }
+      ],
+      "duration": 37.35,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Fix of KG-2026-10-27-b (QA: pace 2.16 w/s, one shot 6.2 s). Split both three-line shots into line + comeback pairs, removed the ... pauses that slowed the voice, pace 24 to 30, shorter holds and faster chat reveal. Story, game and button unchanged. Rewrite 1 (44): husband appeared on screen, which we cannot draw, and the reveal was told not shown. Rewrite 2: reveal is the husband's chat message, a see-it moment; wish list tied to the called numbers so the Housie game drives each beat; button mirrors the 'Send!' hook flipped. Ending options weighed: Aditi already got a gold coin from hers (mean to Ruhi), Ruhi returns the spoon (weak), Ruhi texts 'sab kuch chahiye' (kept, loops into the opening). Timely: Dhanteras on 6 Nov."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-a-board.jpg",
+      "queue_id": "5bccbda8-8d7d-4822-a033-89201f9ce658",
+      "scheduled_ist": "2026-11-02 13:13",
+      "yt_id": "3onpNOH_5Ig",
+      "yt_url": "https://youtube.com/shorts/3onpNOH_5Ig",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
