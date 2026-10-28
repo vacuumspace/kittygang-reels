@@ -1758,7 +1758,7 @@
         "Shruti"
       ],
       "caption": "Har kitty mein ek Shruti hoti hai jo das rupaye ke liye CCTV mangwa le. Tag your Shruti!",
-      "status": "queued",
+      "status": "published",
       "idea": "After Full House, Shruti finds the kitty pot Rs 10 short and turns the room upside down hunting for it, while Aditi sips chai with the note stuck under her cup.",
       "beats": "hook: Full House, paise do / setup: Rs 10 kam / esc: purse, sofa, CCTV / twist: note under Aditi's cup / button: chai ke das rupaye",
       "script": [
@@ -1914,7 +1914,9 @@
       "yt_id": "UmjcbTEC26g",
       "yt_url": "https://youtube.com/shorts/UmjcbTEC26g",
       "yt_privacy": "private",
-      "revoiced": "2026-10-26"
+      "revoiced": "2026-10-26",
+      "permalink": "https://www.instagram.com/reel/DfB_VAUlTdC/",
+      "media_id": "18147520186576527"
     },
     {
       "id": "KG-2026-10-25-c",
