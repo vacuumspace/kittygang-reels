@@ -3915,6 +3915,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/kuch-nahi-chahiye-a-to-z-diwali-kitty-party-game",
       "queue_id": "54760a68-6c58-4d61-99b1-f038598b51b4",
       "scheduled_ist": "2026-10-28 16:36"
+    },
+    {
+      "id": "KGI-008",
+      "n": 8,
+      "created": "2026-10-28",
+      "game": "Pencil Bottle Drop",
+      "tagline": "Gaate raho, pencil daalo!",
+      "players": "8 to 20 (heats of 5)",
+      "time": "10 to 15 minutes",
+      "slug": "pencil-bottle-drop-childrens-day-kitty-party-game",
+      "caption": "Children's Day kitty ke liye! Kamar par pencil, saamne bottle, aur poora time Machli jal ki rani gaate raho. Aap kaunsi poem gaaoge?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-008/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/pencil-bottle-drop-childrens-day-kitty-party-game",
+      "queue_id": "ffde12ba-ca59-4bd6-9112-d6c64a5bde9d",
+      "scheduled_ist": "2026-10-29 17:09"
     }
   ],
   "research": [
