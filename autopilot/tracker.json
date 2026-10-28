@@ -3335,6 +3335,238 @@
       "yt_id": "3onpNOH_5Ig",
       "yt_url": "https://youtube.com/shorts/3onpNOH_5Ig",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-10-28-b",
+      "created": "2026-10-28",
+      "title": "Ek group photo, bas paanch minute",
+      "format": "Photo attempts: camera screen with attempt counter + living-room reactions",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Myra",
+        "Megha",
+        "Zoya"
+      ],
+      "caption": "Ek photo, nau attempt, aur har baar 'bas paanch minute'. Tag the friend whose phone always rings at kitty.",
+      "status": "queued",
+      "idea": "Zoya tries to take one Diwali kitty group photo, but every attempt someone's phone rings from home and she says 'Bas paanch minute'; when the photo finally works, Zoya's own husband messages.",
+      "beats": "hook: Smile! Ek, do... phone rings / esc: Myra mehmaan, Megha doodh, attempt 9 all three phones / turn: phones in the chips bowl, attempt 10 clicks / twist: Zoya's husband saw the story / button: Zoya says 'Bas paanch minute!', bowl held out to her",
+      "experiment": {
+        "type": "photo-attempts",
+        "hook": "a real phone camera screen, Zoya counting 'Smile! Ek, do...' and a phone ringing in Myra's hand before 'teen', Myra breaking the pose: 'Ruko! Ghar se phone!'",
+        "variable": "a visible attempt counter (1, 2, 9, 10) on a camera screen as the stake, with one chorus line ('Bas paanch minute!') that repeats and flips onto the lead at the end",
+        "hypothesis": "the camera screen plus a ringing phone reads in 1 s and every kitty lady knows the call from home, so skip under 55%, watched above 30% and 5+ shares from women tagging the friend whose phone always rings"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Smile! Ek, do...",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ruko! Ghar se phone!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Abhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haan ji? Mehmaan aa gaye?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Bas paanch minute!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Bas ek group photo, please!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chalo chalo, phir se!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Ek, do...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Mera! Samose aa gaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Kya? Doodh khatam?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Bas paanch minute!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Phir se?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Homework?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Dhobi?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Gas wala?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Bas paanch minute!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Nau attempt ho gaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sab phone is katori mein!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ulta karke?",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ulta karke!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Ek, do, teen... cheese!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ho gaya!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Story pe daal rahi hoon!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "phone",
+          "who": "Zoya",
+          "line": "Oh no. Hubby ne story dekh li!",
+          "beat": "twist"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Bas paanch minute!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Phone... katori mein!",
+          "beat": "button"
+        }
+      ],
+      "duration": 33.37,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Rewrite 1 (43): five attempts, each a different call, and the twist was Tanya's saasu maa joining on video call, which needs a face we cannot draw; cut to attempts 1, 2, 9, 10 so the jump to 9 is the absurd beat. Rewrite 2: claim before reveal on attempt 2 (Megha thinks the samosa delivery came), connective replies (Abhi?! / Phir se?! / Ulta karke? Ulta karke!), and the same chorus line flips onto Zoya at the end. Endings weighed: the final photo shows everyone on their phones (told, not funny), Zoya puts her own phone in the bowl and loses the photo (sad), Zoya caught by her husband's message and gets the bowl held out (kept: see-it reveal on the phone screen, mirrors 'Ghar se phone!' and loops). Lead Zoya after a Ruhi reel; real kitty scene (calls from home), Diwali kitty on 8 Nov."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-b-board.jpg",
+      "queue_id": "e43984cd-2112-48da-bd91-72ede59e1186",
+      "scheduled_ist": "2026-11-03 19:21",
+      "yt_id": "deEfXZeC51E",
+      "yt_url": "https://youtube.com/shorts/deEfXZeC51E",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
