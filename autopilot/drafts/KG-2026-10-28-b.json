@@ -1,0 +1,374 @@
+{
+  "id": "KG-2026-10-28-b",
+  "title": "Ek group photo, bas paanch minute",
+  "format": "Photo attempts: camera screen with attempt counter + living-room reactions",
+  "idea": "Zoya tries to take one Diwali kitty group photo, but every attempt someone's phone rings from home and she says 'Bas paanch minute'; when the photo finally works, Zoya's own husband messages.",
+  "logline": "Zoya wants one group photo at the Diwali kitty, every attempt a phone rings from home, and when it finally clicks her own husband messages 'Ghar kab aaogi?'",
+  "game": "every photo attempt is ruined by a call from home and the same reply: 'Bas paanch minute!'",
+  "experiment": {
+    "type": "photo-attempts",
+    "hook": "a real phone camera screen, Zoya counting 'Smile! Ek, do...' and a phone ringing in Myra's hand before 'teen', Myra breaking the pose: 'Ruko! Ghar se phone!'",
+    "variable": "a visible attempt counter (1, 2, 9, 10) on a camera screen as the stake, with one chorus line ('Bas paanch minute!') that repeats and flips onto the lead at the end",
+    "hypothesis": "the camera screen plus a ringing phone reads in 1 s and every kitty lady knows the call from home, so skip under 55%, watched above 30% and 5+ shares from women tagging the friend whose phone always rings"
+  },
+  "mute": [
+    "camera screen, attempt 1, Myra's phone rings, she breaks the pose",
+    "Myra on the phone: guests at home, she says five minutes",
+    "Zoya begs for one group photo, Tanya says again",
+    "attempt 2, Megha happy at her phone, thinks samosas came",
+    "Megha: milk finished at home, five minutes, Zoya shocked",
+    "attempt 9, all three phones ring, all say five minutes",
+    "Zoya: nine attempts!",
+    "Tanya collects all phones face down in the chips bowl",
+    "attempt 10, flash, the photo works, everyone cheers",
+    "Zoya posts it to her story",
+    "phone: Zoya's husband saw the story, asks when she comes home",
+    "Zoya says five minutes, Tanya holds out the chips bowl to her"
+  ],
+  "beats": "hook: Smile! Ek, do... phone rings / esc: Myra mehmaan, Megha doodh, attempt 9 all three phones / turn: phones in the chips bowl, attempt 10 clicks / twist: Zoya's husband saw the story / button: Zoya says 'Bas paanch minute!', bowl held out to her",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Rewrite 1 (43): five attempts, each a different call, and the twist was Tanya's saasu maa joining on video call, which needs a face we cannot draw; cut to attempts 1, 2, 9, 10 so the jump to 9 is the absurd beat. Rewrite 2: claim before reveal on attempt 2 (Megha thinks the samosa delivery came), connective replies (Abhi?! / Phir se?! / Ulta karke? Ulta karke!), and the same chorus line flips onto Zoya at the end. Endings weighed: the final photo shows everyone on their phones (told, not funny), Zoya puts her own phone in the bowl and loses the photo (sad), Zoya caught by her husband's message and gets the bowl held out (kept: see-it reveal on the phone screen, mirrors 'Ghar se phone!' and loops). Lead Zoya after a Ruhi reel; real kitty scene (calls from home), Diwali kitty on 8 Nov."
+  },
+  "cover": {
+    "shot": 5,
+    "at": 1.2,
+    "title": [
+      "Ek group photo",
+      "Attempt 9!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Ek photo, nau attempt, aur har baar 'bas paanch minute'. Tag the friend whose phone always rings at kitty.",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#diwalikitty",
+    "#groupphoto",
+    "#momlife",
+    "#diwali"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "camera",
+      "banner": "DIWALI KITTY",
+      "focus": [540, 1000],
+      "chip": "GROUP PHOTO: ATTEMPT 1",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 230, "y": 1500, "s": 1.55, "pose": "wave", "mouth": "laugh", "eyes": "laugh", "turn": 0.3 },
+        { "name": "Myra", "x": 540, "y": 1500, "s": 1.6, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open" },
+        { "name": "Megha", "x": 850, "y": 1500, "s": 1.55, "pose": "hold", "prop": "bottle", "mouth": "smile", "turn": -0.4 }
+      ],
+      "props": [
+        { "name": "Diya", "x": 140, "y": 1700, "s": 1.4 },
+        { "name": "Fairy lights", "x": 540, "y": 520, "s": 3 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 640, "y": 900, "at": 0.9 }
+      ],
+      "sfx": [
+        { "at": 0.85, "name": "ding", "vol": 0.55 },
+        { "at": 1.15, "name": "ding", "vol": 0.55 },
+        { "at": 1.45, "name": "ding", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Smile! Ek, do...", "beat": "hook" },
+        { "who": "Myra", "text": "Ruko! Ghar se phone!", "say": "रुको! घर से फ़ोन!", "punch": true, "gap": 0.03, "beat": "hook" },
+        { "who": "Zoya", "text": "Abhi?!", "gap": 0.03 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI KITTY",
+      "chip": "ATTEMPT 1: FAIL",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        { "name": "Myra", "x": 360, "y": 1760, "s": 2.1, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": 0.2 },
+        { "name": "Zoya", "x": 790, "y": 1760, "s": 2, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Diya", "x": 560, "y": 1840, "s": 1.3 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 470, "y": 1020, "at": 0.4 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Haan ji? Mehmaan aa gaye?", "say": "हाँ जी? मेहमान आ गए?", "beat": "escalation" },
+        { "who": "Myra", "text": "Bas paanch minute!", "say": "बस पाँच मिनट!", "punch": true, "gap": 0.05, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI KITTY",
+      "front": true,
+      "chip": "GROUP PHOTO: ?",
+      "chipY": 600,
+      "chars": [
+        { "name": "Zoya", "x": 360, "y": 1760, "s": 2.1, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "hop": true, "turn": 0.4 },
+        { "name": "Tanya", "x": 800, "y": 1760, "s": 2, "pose": "clapL", "mouth": "laugh", "turn": -0.4 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Bas ek group photo, please!", "beat": "setup" },
+        { "who": "Tanya", "text": "Chalo chalo, phir se!", "say": "चलो चलो, फिर से!", "gap": 0.04 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "banner": "DIWALI KITTY",
+      "focus": [540, 1000],
+      "chip": "GROUP PHOTO: ATTEMPT 2",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 230, "y": 1500, "s": 1.55, "pose": "wave", "mouth": "smile", "turn": 0.3 },
+        { "name": "Myra", "x": 540, "y": 1500, "s": 1.6, "pose": "hips", "mouth": "smile" },
+        { "name": "Megha", "x": 850, "y": 1500, "s": 1.55, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "laugh", "hop": true, "turn": -0.4 }
+      ],
+      "props": [
+        { "name": "Diya", "x": 140, "y": 1700, "s": 1.4 },
+        { "name": "Fairy lights", "x": 540, "y": 520, "s": 3 }
+      ],
+      "stickers": [
+        { "kind": "heart", "x": 860, "y": 880, "at": 0.9 }
+      ],
+      "sfx": [
+        { "at": 0.6, "name": "ding", "vol": 0.55 },
+        { "at": 0.9, "name": "ding", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Ek, do...", "beat": "escalation" },
+        { "who": "Megha", "text": "Mera! Samose aa gaye!", "say": "मेरा! समोसे आ गए!", "gap": 0.03, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "ATTEMPT 2: FAIL",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Megha", "x": 360, "y": 1760, "s": 2.1, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": 0.3 },
+        { "name": "Zoya", "x": 790, "y": 1760, "s": 2, "pose": "hold", "prop": "phone", "mouth": "flat", "eyes": "half", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Samosa plate", "x": 560, "y": 1850, "s": 1.6 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 470, "y": 1020, "at": 0.3 }
+      ],
+      "lines": [
+        { "who": "Megha", "text": "Kya? Doodh khatam?", "say": "क्या? दूध ख़त्म?", "beat": "escalation" },
+        { "who": "Megha", "text": "Bas paanch minute!", "say": "बस पाँच मिनट!", "punch": true, "gap": 0.04, "beat": "escalation" },
+        { "who": "Zoya", "text": "Phir se?!", "gap": 0.03 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "banner": "DIWALI KITTY",
+      "focus": [540, 1000],
+      "chip": "GROUP PHOTO: ATTEMPT 9",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Tanya", "x": 230, "y": 1500, "s": 1.55, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": 0.3 },
+        { "name": "Myra", "x": 540, "y": 1500, "s": 1.6, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open" },
+        { "name": "Megha", "x": 850, "y": 1500, "s": 1.55, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": -0.4 }
+      ],
+      "props": [
+        { "name": "Diya", "x": 140, "y": 1700, "s": 1.4 },
+        { "name": "Fairy lights", "x": 540, "y": 520, "s": 3 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 230, "y": 880, "at": 0.3 },
+        { "kind": "exclaim", "x": 540, "y": 860, "at": 0.6 },
+        { "kind": "exclaim", "x": 850, "y": 880, "at": 0.9 }
+      ],
+      "sfx": [
+        { "at": 0.2, "name": "ding", "vol": 0.5 },
+        { "at": 0.45, "name": "ding", "vol": 0.5 },
+        { "at": 0.7, "name": "ding", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Homework?!", "say": "होमवर्क?!", "beat": "escalation" },
+        { "who": "Myra", "text": "Dhobi?!", "say": "धोबी?!", "gap": 0.03 },
+        { "who": "Megha", "text": "Gas wala?!", "say": "गैस वाला?!", "gap": 0.03 },
+        { "who": "ALL", "text": "Bas paanch minute!", "say": "बस पाँच मिनट!", "punch": true, "gap": 0.04, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI KITTY",
+      "chip": "ATTEMPT 9: FAIL",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        { "name": "Zoya", "x": 540, "y": 1760, "s": 2.2, "pose": "hold", "prop": "phone", "mouth": "flat", "eyes": "half" }
+      ],
+      "props": [
+        { "name": "Diya", "x": 220, "y": 1840, "s": 1.3 },
+        { "name": "Indoor plant", "x": 900, "y": 1800, "s": 1.6 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Nau attempt ho gaye!", "punch": true, "silenceBefore": true, "beat": "escalation" }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SAB PHONE KATORI MEIN",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        { "name": "Myra", "x": 230, "y": 1760, "s": 1.8, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": 0.4 },
+        { "name": "Tanya", "x": 560, "y": 1720, "s": 2, "pose": "hold", "mouth": "smirk", "eyes": "half" },
+        { "name": "Megha", "x": 880, "y": 1760, "s": 1.8, "pose": "hold", "prop": "phone", "mouth": "o", "turn": -0.4 }
+      ],
+      "props": [
+        { "name": "Chips bowl", "x": 560, "y": 1300, "s": 2.2, "at": 0.2 }
+      ],
+      "sfx": [
+        { "at": 1.6, "name": "thud", "vol": 0.4 },
+        { "at": 1.8, "name": "thud", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Sab phone is katori mein!", "say": "सब फ़ोन इस कटोरी में!", "beat": "turn" },
+        { "who": "Myra", "text": "Ulta karke?", "say": "उल्टा करके?", "gap": 0.04 },
+        { "who": "Tanya", "text": "Ulta karke!", "say": "उल्टा करके!", "punch": true, "gap": 0.04 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "banner": "DIWALI KITTY",
+      "flash": true,
+      "focus": [540, 1000],
+      "chip": "GROUP PHOTO: ATTEMPT 10",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 230, "y": 1500, "s": 1.55, "pose": "wave", "mouth": "laugh", "eyes": "laugh", "turn": 0.3 },
+        { "name": "Myra", "x": 540, "y": 1500, "s": 1.6, "pose": "clapR", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Megha", "x": 850, "y": 1500, "s": 1.55, "pose": "wave", "mouth": "laugh", "eyes": "laugh", "turn": -0.4 }
+      ],
+      "props": [
+        { "name": "Diya", "x": 140, "y": 1700, "s": 1.4 },
+        { "name": "Fairy lights", "x": 540, "y": 520, "s": 3 }
+      ],
+      "stickers": [
+        { "kind": "spark", "x": 260, "y": 760, "at": 1.3 },
+        { "kind": "spark", "x": 820, "y": 740, "at": 1.4 }
+      ],
+      "sfx": [
+        { "at": 1.2, "name": "shutter", "vol": 0.5 },
+        { "at": 1.3, "name": "sparkle", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Ek, do, teen... cheese!", "beat": "turn" },
+        { "who": "ALL", "text": "Ho gaya!", "say": "हो गया!", "gap": 0.05 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI KITTY",
+      "chip": "GROUP PHOTO: DONE",
+      "chipY": 600,
+      "chars": [
+        { "name": "Zoya", "x": 540, "y": 1760, "s": 2.2, "pose": "phone2", "mouth": "laugh", "eyes": "laugh", "hop": true }
+      ],
+      "props": [
+        { "name": "Diya", "x": 220, "y": 1840, "s": 1.3 },
+        { "name": "Chips bowl", "x": 880, "y": 1830, "s": 1.6 }
+      ],
+      "stickers": [
+        { "kind": "heart", "x": 760, "y": 900, "at": 0.4 }
+      ],
+      "sfx": [
+        { "at": 1.5, "name": "ping", "vol": 0.55 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Story pe daal rahi hoon!", "beat": "turn" }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Hubby",
+      "camera": "still",
+      "music": false,
+      "chip": "GROUP PHOTO: DONE",
+      "chipY": 200,
+      "chat": [
+        ["Zoya", "Diwali kitty with my gang!", 1, "8:14 PM", 0],
+        ["Hubby", "Story dekhi. Ghar kab aaogi?", 0, "8:15 PM", 0.7]
+      ],
+      "sfx": [
+        { "at": 1.6, "name": "sting", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Oh no. Hubby ne story dekh li!", "beat": "twist" }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "AB ZOYA KI BAARI",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Zoya", "x": 330, "y": 1760, "s": 2.1, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": 0.4 },
+        { "name": "Tanya", "x": 790, "y": 1760, "s": 2, "pose": "hold", "mouth": "smirk", "eyes": "side", "turn": -0.4 }
+      ],
+      "props": [
+        { "name": "Chips bowl", "x": 640, "y": 1260, "s": 2, "at": 1.2 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 440, "y": 1020, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 2.4, "name": "laughv", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Zoya", "text": "Bas paanch minute!", "punch": true, "beat": "button" },
+        { "who": "Tanya", "text": "Phone... katori mein!", "say": "फ़ोन... कटोरी में!", "punch": true, "gap": 0.05, "beat": "button" }
+      ],
+      "hold": 0.7
+    }
+  ],
+  "pace": 26,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
