@@ -3567,6 +3567,37 @@
       "yt_id": "deEfXZeC51E",
       "yt_url": "https://youtube.com/shorts/deEfXZeC51E",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-10-29",
+      "created": "2026-10-29",
+      "title": "Chand nahi, Karwa line ka number!",
+      "format": "Theme Housie",
+      "theme": "karwakatha",
+      "story": "ai",
+      "variant": "festival-moment",
+      "hook": "Karwa Chauth ka asli intezaar",
+      "cast": [],
+      "status": "posted",
+      "idea": "On Karwa Chauth the gang keeps looking up, but Tanya is not waiting for the moon, she is waiting for her last Karwa line number, and Ishita claims it first.",
+      "beats": "hook: everyone looking up, ball as the moon / setup: chand nahi, Karwa line ka number / esc: 27 nahi aaya, Aditi deadpan, Ruhi's tip / turn: 44 comes, Ishita claims first / button: Aditi, agla chand saade baarah baje",
+      "experiment": {
+        "format": "festival-moment",
+        "hook": "3 gang faces on the Karwa Katha home art looking up at the night sky, the mascot ball spinning in place of the moon, banner 'Karwa Chauth ka asli intezaar'",
+        "variable": "the hook is the festival's own iconic moment (waiting to spot the moon) instead of a Housie situation, with the mascot ball standing in for the moon",
+        "hypothesis": "a moment every Karwa Chauth viewer is living that same night stops the swipe: skip under 60%, watched % above 22, at least 2 shares"
+      },
+      "duration": 44.7,
+      "lufs": null,
+      "caption": "Karwa Katha Housie: aaj aap chand ka wait kar rahe ho ya apne last number ka? Us saheli ko tag karo jo dono karti hai!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #karwachauth #karwachauth2026 #kittygang",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-29.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-29-cover.jpg",
+      "job_id": "f4cc75ca-ec70-4291-b1be-d12cc1059a95",
+      "permalink": "https://www.instagram.com/reel/DfDHz61kzXE/",
+      "media_id": "18108690518353170",
+      "yt_id": "mn97fSBhkjM",
+      "yt_url": "https://youtube.com/shorts/mn97fSBhkjM",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
