@@ -4334,7 +4334,7 @@
       "time": "10 to 15 minutes",
       "slug": "kuch-nahi-chahiye-a-to-z-diwali-kitty-party-game",
       "caption": "Pati poochte hain \"Diwali pe kya chahiye?\" aur hum kehte hain \"kuch nahi\". Is kitty mein A se Z sab likh do! Aapki X wali wish kya hogi?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-007/board.jpg",
       "image_urls": [
@@ -4351,7 +4351,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/kuch-nahi-chahiye-a-to-z-diwali-kitty-party-game",
       "queue_id": "54760a68-6c58-4d61-99b1-f038598b51b4",
-      "scheduled_ist": "2026-10-28 16:36"
+      "scheduled_ist": "2026-10-28 16:36",
+      "permalink": "https://www.instagram.com/p/DfCS7D1iNt0/",
+      "media_id": "18134315695668769"
     },
     {
       "id": "KGI-008",
