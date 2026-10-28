@@ -1,0 +1,872 @@
+{
+  "id": "KG-2026-10-28-a",
+  "title": "Dhanteras pe kuch nahi chahiye",
+  "format": "Expectation vs reality, Housie in progress + phone screen inserts",
+  "idea": "Mid Housie, Ruhi texts her husband 'Kuch nahi chahiye' for Dhanteras, dreams up a full wish list with every number called, and he brings exactly what she asked for: one steel chammach.",
+  "logline": "Ruhi tells her husband she wants nothing for Dhanteras, imagines gold and silver with every Housie number, and he really brings nothing but one steel spoon.",
+  "game": "every Housie number called becomes a bigger Dhanteras wish in Ruhi's head",
+  "experiment": {
+    "type": "expectation-reality",
+    "hook": "Housie in progress, cage spinning, Ruhi dabs her ticket with one hand and types with the other, saying 'Kuch nahi chahiye. Send!' while Shruti gasps 'Haaw!'",
+    "variable": "a clear SOCHA (dream) vs MILA (reality) split: three dream shots with gold props popping in, then one phone-screen reality reveal (re-render of KG-2026-10-27-b after QA: faster voices, no shot over 4 s)",
+    "hypothesis": "a timely Dhanteras line every wife has typed, plus the Housie cold open of our winner, gets skip under 55%, watched % above 30 and at least 5 shares from women tagging their husbands"
+  },
+  "mute": [
+    "Housie running, Ruhi types on her phone, Shruti shocked",
+    "phone: husband asks what to bring for Dhanteras, Ruhi says nothing",
+    "Shruti shocked: nothing? Ruhi sure he will understand",
+    "Ruhi smug: nothing means everything, Shruti doubtful",
+    "number 5 called, Ruhi dreams of silver coins",
+    "number 20 called, Ruhi dreams of a payal and bangles",
+    "number 86 called, Ruhi dreams of a new cooker too",
+    "Aditi unimpressed: ticket or catalogue?",
+    "dream shot: Ruhi twirling with all the gifts",
+    "phone: husband brought one steel spoon, 'you said nothing'",
+    "Ruhi frozen, Shruti laughing",
+    "Ruhi types again: next year I want everything, Aditi deadpan"
+  ],
+  "beats": "hook: Kuch nahi chahiye. Send! mid Housie / setup: nothing means everything / esc: 5 = chandi sikke, 20 = payal, 86 = cooker, catalogue jab / dream: twirl with gifts / twist: phone, one steel chammach / button: Agle saal sab kuch chahiye. Send!",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Fix of KG-2026-10-27-b (QA: pace 2.16 w/s, one shot 6.2 s). Split both three-line shots into line + comeback pairs, removed the ... pauses that slowed the voice, pace 24 to 30, shorter holds and faster chat reveal. Story, game and button unchanged. Rewrite 1 (44): husband appeared on screen, which we cannot draw, and the reveal was told not shown. Rewrite 2: reveal is the husband's chat message, a see-it moment; wish list tied to the called numbers so the Housie game drives each beat; button mirrors the 'Send!' hook flipped. Ending options weighed: Aditi already got a gold coin from hers (mean to Ruhi), Ruhi returns the spoon (weak), Ruhi texts 'sab kuch chahiye' (kept, loops into the opening). Timely: Dhanteras on 6 Nov."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1,
+    "title": [
+      "Dhanteras pe bola",
+      "'Kuch nahi chahiye'"
+    ],
+    "titleY": 330
+  },
+  "caption": "Humne kaha kuch nahi chahiye, unhone maan liya. Tag the wife who says 'kuch nahi chahiye' every Dhanteras.",
+  "hashtags": [
+    "#kittyparty",
+    "#dhanteras",
+    "#kittygang",
+    "#housie",
+    "#ladieskitty",
+    "#diwali",
+    "#husbandwife"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS HOUSIE",
+      "front": true,
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "phone2",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.2
+        },
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 830,
+          "y": 1720,
+          "s": 2.4
+        },
+        {
+          "name": "Housie ticket",
+          "x": 300,
+          "y": 1690,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 820,
+          "y": 1000,
+          "at": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 1.1,
+          "name": "ping",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kuch nahi chahiye. Send!",
+          "say": "कुछ नहीं चाहिए। सेंड!",
+          "beat": "hook"
+        },
+        {
+          "who": "Shruti",
+          "text": "Haaw! Kisko?!",
+          "say": "हाऽव! किसको?!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Pati ji",
+      "camera": "still",
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 200,
+      "chat": [
+        [
+          "Pati ji",
+          "Dhanteras pe kya laun?",
+          0,
+          "5:42 PM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Kuch nahi chahiye",
+          1,
+          "5:43 PM",
+          0.7
+        ]
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Pati ji poochh rahe, kya laun?",
+          "say": "पति जी पूछ रहे, क्या लाऊँ?",
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 340,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.5
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "stickers": [],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Kuch nahi?! Sach mein?",
+          "say": "कुछ नहीं?! सच में?",
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Arre, woh samajh jaayenge!",
+          "say": "अरे, वो समझ जाएँगे!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.5
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "turn": -0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 300,
+          "y": 860,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kuch nahi matlab sab kuch!",
+          "say": "कुछ नहीं मतलब सब कुछ!",
+          "punch": true,
+          "beat": "setup"
+        },
+        {
+          "who": "Shruti",
+          "text": "Haaw! Woh kaise samjhenge?",
+          "say": "हाऽव! वो कैसे समझेंगे?",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS HOUSIE",
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 300,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "smile",
+          "turn": 0.5
+        },
+        {
+          "name": "Ruhi",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.5,
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 5",
+          "x": 560,
+          "y": 1150,
+          "s": 2.2,
+          "at": 0.2
+        },
+        {
+          "name": "Gift box",
+          "x": 880,
+          "y": 1000,
+          "s": 1.6,
+          "at": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.35
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.45
+        },
+        {
+          "at": 1.4,
+          "name": "sparkle",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Number paanch!",
+          "say": "नंबर पाँच!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Paanch? Chandi ke paanch sikke!",
+          "say": "पाँच? चाँदी के पाँच सिक्के!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS HOUSIE",
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 300,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.5
+        },
+        {
+          "name": "Ruhi",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 20",
+          "x": 560,
+          "y": 1150,
+          "s": 2.2,
+          "at": 0.2
+        },
+        {
+          "name": "Bangles stack",
+          "x": 880,
+          "y": 1000,
+          "s": 1.6,
+          "at": 1.3
+        },
+        {
+          "name": "Jewellery box",
+          "x": 200,
+          "y": 1000,
+          "s": 1.6,
+          "at": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.35
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.45
+        },
+        {
+          "at": 1.3,
+          "name": "sparkle",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Bees!",
+          "say": "बीस!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Bees gram ki payal! Aur kangan!",
+          "say": "बीस ग्राम की पायल! और कंगन!",
+          "punch": true,
+          "gap": 0.04
+        },
+        {
+          "who": "Shruti",
+          "text": "Arre, ticket dekho!",
+          "say": "अरे, टिकट देखो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS HOUSIE",
+      "front": true,
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.5
+        },
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 86",
+          "x": 560,
+          "y": 1100,
+          "s": 2,
+          "at": 0.1
+        },
+        {
+          "name": "Pressure cooker",
+          "x": 180,
+          "y": 1060,
+          "s": 1.7,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ballpop",
+          "vol": 0.4
+        },
+        {
+          "at": 1.2,
+          "name": "boing",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Chhiyaasi!",
+          "say": "छियासी!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Naya cooker bhi! Teen litre wala!",
+          "say": "नया कुकर भी! तीन लीटर वाला!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS HOUSIE",
+      "front": true,
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1760,
+          "s": 2,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        },
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 180,
+          "y": 1060,
+          "s": 1.7
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "slurp",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Ticket hai ya catalogue?",
+          "say": "टिकट है या कैटलॉग?",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Mera wishlist ticket!",
+          "say": "मेरा विशलिस्ट टिकट!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15,
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SOCHA THA",
+      "chip": "SOCHA: SONA, CHANDI, COOKER",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1740,
+          "s": 2.2,
+          "pose": "twirl",
+          "twirl": true,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Gift box",
+          "x": 200,
+          "y": 1800,
+          "s": 1.8,
+          "at": 0.2
+        },
+        {
+          "name": "Jewellery box",
+          "x": 880,
+          "y": 1800,
+          "s": 1.8,
+          "at": 0.4
+        },
+        {
+          "name": "Bangles stack",
+          "x": 230,
+          "y": 1050,
+          "s": 1.6,
+          "at": 0.6
+        },
+        {
+          "name": "Pressure cooker",
+          "x": 860,
+          "y": 1050,
+          "s": 1.6,
+          "at": 0.8
+        },
+        {
+          "name": "Diya",
+          "x": 540,
+          "y": 1880,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 300,
+          "y": 760,
+          "at": 0.3
+        },
+        {
+          "kind": "heart",
+          "x": 800,
+          "y": 720,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 0.3,
+          "name": "sitar",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Aaj toh Dhanteras dhamaakedaar!",
+          "say": "आज तो धनतेरस धमाकेदार!",
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Pati ji",
+      "camera": "still",
+      "music": false,
+      "chip": "MILA: 1 STEEL CHAMMACH",
+      "chipY": 200,
+      "chat": [
+        [
+          "Pati ji",
+          "Dhanteras pe kya laun?",
+          0,
+          "5:42 PM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Kuch nahi chahiye",
+          1,
+          "5:43 PM",
+          0
+        ],
+        [
+          "Pati ji",
+          "Le aaya! Ek steel chammach.",
+          0,
+          "8:15 PM",
+          0.3
+        ],
+        [
+          "Pati ji",
+          "Tumne hi toh kaha tha, kuch nahi.",
+          0,
+          "8:15 PM",
+          1
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 1.2,
+          "name": "scratch",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Ek steel chammach?!",
+          "say": "एक स्टील चम्मच?!",
+          "beat": "turn",
+          "silenceBefore": true,
+          "punch": true
+        }
+      ],
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "camera": "punch",
+      "chip": "MILA: 1 STEEL CHAMMACH",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 440,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Kuch nahi se toh zyada hai!",
+          "say": "कुछ नहीं से तो ज़्यादा है!",
+          "punch": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Mera cooker!",
+          "say": "मेरा कुकर!",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DHANTERAS HOUSIE",
+      "front": true,
+      "chip": "DHANTERAS PE KYA AAYEGA?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "phone2",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.2
+        },
+        {
+          "name": "Aditi",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 830,
+          "y": 1720,
+          "s": 2.4
+        },
+        {
+          "name": "Housie ticket",
+          "x": 300,
+          "y": 1690,
+          "s": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "ping",
+          "vol": 0.4
+        },
+        {
+          "at": 2.4,
+          "name": "slurp",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Agle saal sab kuch chahiye. Send!",
+          "say": "अगले साल सब कुछ चाहिए। सेंड!",
+          "beat": "button"
+        },
+        {
+          "who": "Aditi",
+          "text": "Har Dhanteras yahi hota hai.",
+          "say": "हर धनतेरस यही होता है।",
+          "punch": true,
+          "gap": 0.1,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.5
+    }
+  ],
+  "pace": 30,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  }
+}
