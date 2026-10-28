@@ -1,86 +1,6 @@
 {
- "updated": "2026-10-28T16:11:38.893Z",
+ "updated": "2026-10-28T22:45:36.377Z",
  "days": [
-  {
-   "date": "2026-10-28",
-   "day": "Wed, 28 Oct",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "mehendiraat",
-    "name": "Mehendi Raat",
-    "pack": "themes/mehendiraat/v1",
-    "sounds": "sounds/mehendiraat/v1",
-    "colors": {
-     "accent": "#B5541C",
-     "accentDeep": "#7A3510",
-     "gameInk": "#FBF6E8"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Keri Bel",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Mehendi Cone",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Hatheli",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Kangan",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_4",
-      "gh_5",
-      "gh_0",
-      "gh_1",
-      "gh_2",
-      "gh_3"
-     ],
-     "housie": [
-      "gs_1",
-      "gs_2",
-      "gs_0"
-     ],
-     "mascotBall": [
-      "sc_3",
-      "sc_0",
-      "sc_1",
-      "sc_2"
-     ],
-     "particles": [
-      "gh_6",
-      "gh_7",
-      "fx_1",
-      "fx_2",
-      "fx_3"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-10-29",
    "day": "Thu, 29 Oct",
@@ -240,6 +160,85 @@
       "fx_3",
       "fx_4",
       "fx_5"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "day": "Sat, 31 Oct",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "intezaar",
+    "name": "Intezaar",
+    "pack": "themes/intezaar/v1",
+    "sounds": "sounds/intezaar/v1",
+    "colors": {
+     "accent": "#8E3FB0",
+     "accentDeep": "#5E1E80",
+     "gameInk": "#FFF6F0"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Ghadi",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Panchhi",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Chand Nikla",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Sandhya",
+      "points": 50,
+      "numbers": 4
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_4",
+      "gh_5",
+      "gh_0",
+      "gh_1",
+      "gh_2",
+      "gh_3"
+     ],
+     "housie": [
+      "gs_3",
+      "gs_4",
+      "gs_0",
+      "gs_1",
+      "gs_2"
+     ],
+     "mascotBall": [
+      "sc_2",
+      "sc_0",
+      "sc_1"
+     ],
+     "particles": [
+      "gh_6",
+      "fx_2",
+      "fx_3"
      ]
     }
    }
