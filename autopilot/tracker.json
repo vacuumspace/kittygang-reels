@@ -3996,6 +3996,37 @@
         "no shot over 5 s (5.4 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-29-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-10-30",
+      "created": "2026-10-30",
+      "title": "Ishita se pehle guess karo!",
+      "format": "Theme Housie",
+      "theme": "chandnichhat",
+      "story": "ai",
+      "variant": "guess-the-call",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Ishita runs a 3-ball Housie nickname quiz on the moonlit chhat; Myra gets them wrong, Aditi gets them right, and the last answer is the always-late Avika.",
+      "beats": "hook: Ishita dares the viewer / round 1: do batakh, Myra confused, 22 / round 2: sabse upar wala ghar, Aditi deadpan 90 / round 3: bilkul akela, Myra says Avika, 1 / button: Avika arrives, Aditi: tum hi jawab thi",
+      "experiment": {
+        "format": "guess-the-call",
+        "hook": "Ishita, the Housie champ, faces the viewer on the Chandni Chhat rooftop art with the mascot ball spinning above her and dares 'Teen ball. Mujhse pehle guess karo!', chip '3 BALL QUIZ'",
+        "variable": "a spoken dare to the viewer that turns the reel into a play-along quiz with a running score chip, instead of a text banner over gang faces",
+        "hypothesis": "viewers stay to check their own guess on each 3-2-1 reveal: skip under 58%, watched % above 25, at least 3 comments with a score"
+      },
+      "duration": 42,
+      "lufs": null,
+      "caption": "Chandni Chhat Housie quiz: aapne kitne sahi guess kiye? Score comment mein likho aur us saheli ko tag karo jo hamesha late aati hai!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #housiequiz #kittygang #chandnichhat",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-30.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-30-cover.jpg",
+      "job_id": "5f460930-258d-41f4-a1c8-d9c59257bd0d",
+      "permalink": "https://www.instagram.com/reel/DfFsftLgFZ_/",
+      "media_id": "18025002080714286",
+      "yt_id": "eg8PmTyDPsk",
+      "yt_url": "https://youtube.com/shorts/eg8PmTyDPsk",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
