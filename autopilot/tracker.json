@@ -4504,6 +4504,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/pencil-bottle-drop-childrens-day-kitty-party-game",
       "queue_id": "ffde12ba-ca59-4bd6-9112-d6c64a5bde9d",
       "scheduled_ist": "2026-10-29 17:09"
+    },
+    {
+      "id": "KGI-009",
+      "n": 9,
+      "created": "2026-10-29",
+      "game": "Jhaadu Golf",
+      "tagline": "Ek aankh, ek jhaadu, ek goal!",
+      "players": "8 to 20 (one lady at a time)",
+      "time": "10 to 15 minutes",
+      "slug": "jhaadu-golf-diwali-safai-kitty-party-game",
+      "caption": "Diwali safai ab game ban gayi! Ek aankh par dupatta, haath mein jhaadu, aur 30 second mein kachra goal ke paar. Aapki kitty ki Safai Queen kaun banegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-009/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/jhaadu-golf-diwali-safai-kitty-party-game",
+      "queue_id": "8e9fa101-4988-4c63-b29b-0333f3b93abd",
+      "scheduled_ist": "2026-10-30 10:48"
     }
   ],
   "research": [
