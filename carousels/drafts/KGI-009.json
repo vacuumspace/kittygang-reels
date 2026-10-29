@@ -1,0 +1,762 @@
+{
+  "id": "KGI-009",
+  "n": 9,
+  "slug": "jhaadu-golf-diwali-safai-kitty-party-game",
+  "game": "Jhaadu Golf",
+  "tagline": "Ek aankh, ek jhaadu, ek goal!",
+  "cover_art": [
+    {
+      "k": "svg",
+      "markup": "<path d='M80 330 L1090 330' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+    },
+    {
+      "k": "person",
+      "x": 230,
+      "y": 170,
+      "s": 2,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(230 170) scale(2)'><path d='M-34 -54 L34 -30' stroke='#2FA37A' stroke-width='10' stroke-linecap='round'></path><circle cx='13' cy='-36' r='13' fill='#2FA37A' stroke='#4A1238' stroke-width='3'></circle><circle cx='-13' cy='-34' r='4.5' fill='#4A1238'></circle></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M298 230 L440 208' stroke='#FFC93C' stroke-width='44' stroke-linecap='round'></path>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(531.0269799672623 330) rotate(-35) scale(1.220774588761456)'><path d='M-16 -120 L-80 0 Q0 14 80 0 L16 -120 Z' fill='#E9C46A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M-40 -6 L-8 -110 M0 -4 L0 -110 M40 -6 L8 -110' stroke='#C99A2E' stroke-width='4'></path><rect x='-15' y='-290' width='30' height='176' rx='10' fill='#E9C46A' stroke='#4A1238' stroke-width='5'></rect><rect x='-17' y='-170' width='34' height='22' rx='5' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></rect><rect x='-17' y='-260' width='34' height='16' rx='5' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></rect></g>"
+    },
+    {
+      "k": "hand",
+      "x": 440,
+      "y": 200,
+      "rot": -35,
+      "s": 1.2
+    },
+    {
+      "k": "text",
+      "x": 327.96679388644645,
+      "y": 40,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 628.6889470681788,
+      "y": 330,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<circle cx='700' cy='292' r='38' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></circle><path d='M677.2 284.4 L696.2 273 L711.4 288.2 M684.8 307.2 L703.8 295.8 L722.8 305.3' stroke='#C9C2B0' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+    },
+    {
+      "k": "svg",
+      "markup": "<circle cx='760' cy='318' r='11' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='805' cy='320' r='11' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='850' cy='316' r='11' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+    },
+    {
+      "k": "arrow",
+      "x1": 700,
+      "y1": 220,
+      "x2": 900,
+      "y2": 220,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(930 330) scale(0.75)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(1040 330) scale(0.75)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+    },
+    {
+      "k": "text",
+      "x": 80,
+      "y": 40,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1100,
+      "y": 340,
+      "text": " ",
+      "size": 20
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 6 cheezein",
+    "items": [
+      {
+        "label": "Phool jhaadu",
+        "sub": "ghar wali, ek hi kaafi",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 200) rotate(0) scale(0.7)'><path d='M-16 -120 L-80 0 Q0 14 80 0 L16 -120 Z' fill='#E9C46A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M-40 -6 L-8 -110 M0 -4 L0 -110 M40 -6 L8 -110' stroke='#C99A2E' stroke-width='4'></path><rect x='-15' y='-290' width='30' height='176' rx='10' fill='#E9C46A' stroke='#4A1238' stroke-width='5'></rect><rect x='-17' y='-170' width='34' height='22' rx='5' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></rect><rect x='-17' y='-260' width='34' height='16' rx='5' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></rect></g>"
+          },
+          {
+            "k": "text",
+            "x": 60,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 240,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Akhbaar ka gola",
+        "sub": "1 bada, tight dabaao",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<circle cx='150' cy='110' r='70' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></circle><path d='M108 96 L143 75 L171 103 M122 138 L157 117 L192 134.5' stroke='#C9C2B0' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+          },
+          {
+            "k": "text",
+            "x": 60,
+            "y": 20,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 240,
+            "y": 200,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "2 khaali diye",
+        "sub": "bina jalaaye",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(90 150) scale(0.9)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(215 150) scale(0.9)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+          },
+          {
+            "k": "text",
+            "x": 10,
+            "y": 60,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 170,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Dupatta",
+        "sub": "ek aankh dhakne ko",
+        "draw": [
+          {
+            "k": "person",
+            "x": 150,
+            "y": 110,
+            "s": 1.3,
+            "color": "yel"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 110) scale(1.3)'><path d='M-34 -54 L34 -30' stroke='#2FA37A' stroke-width='10' stroke-linecap='round'></path><circle cx='13' cy='-36' r='13' fill='#2FA37A' stroke='#4A1238' stroke-width='3'></circle><circle cx='-13' cy='-34' r='4.5' fill='#4A1238'></circle></g>"
+          }
+        ]
+      },
+      {
+        "label": "Kagaz ka kachra",
+        "sub": "10 chhote gole",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<circle cx='80' cy='90' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='130' cy='130' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='190' cy='85' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='230' cy='140' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='110' cy='170' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='170' cy='175' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='60' cy='150' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='240' cy='80' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='150' cy='60' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='210' cy='190' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+          },
+          {
+            "k": "text",
+            "x": 40,
+            "y": 40,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 260,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "30 second",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "0:30"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Do diye, ek goal",
+      "body": "Darwaze ke paas 2 khaali diye rakho, 1 foot ki doori par.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M40 560 L940 560' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='740' y='90' width='190' height='470' rx='10' fill='#E9B98F' stroke='#4A1238' stroke-width='6'></rect><circle cx='770' cy='330' r='12' fill='#4A1238'></circle>"
+        },
+        {
+          "k": "text",
+          "x": 835,
+          "y": 70,
+          "text": "darwaza",
+          "size": 32,
+          "color": "mute"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(430 560) scale(1)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(640 560) scale(1)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 500,
+          "y1": 520,
+          "x2": 570,
+          "y2": 520,
+          "color": "pink",
+          "w": 6
+        },
+        {
+          "k": "text",
+          "x": 535,
+          "y": 470,
+          "text": "1 foot",
+          "size": 36,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 535,
+          "y": 620,
+          "text": "GOAL",
+          "size": 44,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M120 470 L120 580' stroke='#4A1238' stroke-width='8' stroke-dasharray='16 12'></path>"
+        },
+        {
+          "k": "text",
+          "x": 120,
+          "y": 630,
+          "text": "start line",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "arrow",
+          "x1": 150,
+          "y1": 440,
+          "x2": 340,
+          "y2": 440,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 245,
+          "y": 410,
+          "text": "3 bade kadam",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 40,
+          "y": 60,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Ek aankh par dupatta",
+      "body": "Dupatta tirchha baandho, ek aankh band. Safai mein dhool chali gayi!",
+      "draw": [
+        {
+          "k": "person",
+          "x": 480,
+          "y": 300,
+          "s": 3.2,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(480 300) scale(3.2)'><path d='M-34 -54 L34 -30' stroke='#2FA37A' stroke-width='10' stroke-linecap='round'></path><circle cx='13' cy='-36' r='13' fill='#2FA37A' stroke='#4A1238' stroke-width='3'></circle><circle cx='-13' cy='-34' r='4.5' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 760,
+          "y1": 140,
+          "x2": 580,
+          "y2": 175,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 830,
+          "y": 110,
+          "text": "ek aankh band",
+          "size": 38,
+          "color": "ink"
+        },
+        {
+          "k": "arrow",
+          "x1": 200,
+          "y1": 140,
+          "x2": 425,
+          "y2": 185,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 110,
+          "text": "doosri khuli",
+          "size": 38,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 640,
+          "text": "Dupatta khiska toh round khatam",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Host kachra phailaayegi",
+      "body": "Start line par 1 bada gola, aas paas 10 chhote kagaz ke gole.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M40 580 L940 580' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "hand",
+          "x": 380,
+          "y": 150,
+          "rot": 180,
+          "s": 1.4
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='330' cy='270' r='13' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='420' cy='300' r='13' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='370' cy='360' r='13' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+        },
+        {
+          "k": "arrow",
+          "x1": 470,
+          "y1": 230,
+          "x2": 540,
+          "y2": 420,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='300' cy='532' r='48' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></circle><path d='M271.2 522.4 L295.2 508 L314.4 527.2 M280.8 551.2 L304.8 536.8 L328.8 548.8' stroke='#C9C2B0' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='180' cy='566' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='400' cy='566' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='460' cy='560' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='520' cy='566' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='580' cy='560' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='640' cy='566' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='230' cy='548' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='700' cy='562' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='760' cy='566' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='820' cy='558' r='14' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M120 480 L120 600' stroke='#4A1238' stroke-width='8' stroke-dasharray='16 12'></path>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 650,
+          "text": "Har lady ke liye naya kachra",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 40,
+          "y": 60,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 600,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "30 second, jhaadu chalao!",
+      "body": "Timer chalu. Sirf jhaadu se gola aur kachra goal se nikaalo.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M30 560 L950 560' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 400,
+          "s": 2,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(150 400) scale(2)'><path d='M-34 -54 L34 -30' stroke='#2FA37A' stroke-width='10' stroke-linecap='round'></path><circle cx='13' cy='-36' r='13' fill='#2FA37A' stroke='#4A1238' stroke-width='3'></circle><circle cx='-13' cy='-34' r='4.5' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M218 460 L360 438' stroke='#E85D8A' stroke-width='44' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(451.02697996726226 560) rotate(-35) scale(1.220774588761456)'><path d='M-16 -120 L-80 0 Q0 14 80 0 L16 -120 Z' fill='#E9C46A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M-40 -6 L-8 -110 M0 -4 L0 -110 M40 -6 L8 -110' stroke='#C99A2E' stroke-width='4'></path><rect x='-15' y='-290' width='30' height='176' rx='10' fill='#E9C46A' stroke='#4A1238' stroke-width='5'></rect><rect x='-17' y='-170' width='34' height='22' rx='5' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></rect><rect x='-17' y='-260' width='34' height='16' rx='5' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></rect></g>"
+        },
+        {
+          "k": "hand",
+          "x": 360,
+          "y": 430,
+          "rot": -35,
+          "s": 1.2
+        },
+        {
+          "k": "text",
+          "x": 247.96679388644645,
+          "y": 270,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 548.6889470681788,
+          "y": 560,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='600' cy='520' r='40' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></circle><path d='M576 512 L596 500 L612 516 M584 536 L604 524 L624 534' stroke='#C9C2B0' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='660' cy='548' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='700' cy='546' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='740' cy='548' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+        },
+        {
+          "k": "arrow",
+          "x1": 580,
+          "y1": 430,
+          "x2": 780,
+          "y2": 430,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(810 560) scale(0.7)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(920 560) scale(0.7)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+        },
+        {
+          "k": "timer",
+          "x": 870,
+          "y": 200,
+          "s": 0.75,
+          "text": "0:30"
+        },
+        {
+          "k": "text",
+          "x": 520,
+          "y": 650,
+          "text": "Haath aur pair nahi, sirf jhaadu!",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 30,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Ab points gino",
+      "body": "Bada gola 5 points, har chhota gola 1. Peeche chhoota gola minus 1.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M40 520 L940 520' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 520) scale(0.9)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(470 520) scale(0.9)'><path d='M-60 -34 Q-56 0 0 0 Q56 0 60 -34 L82 -46 L58 -40 Z' fill='#C8693A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><ellipse cx='0' cy='-36' rx='60' ry='12' fill='#8E3F1E' stroke='#4A1238' stroke-width='5'></ellipse></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='640' cy='478' r='40' fill='#F4F1E8' stroke='#4A1238' stroke-width='5'></circle><path d='M616 470 L636 458 L652 474 M624 494 L644 482 L664 492' stroke='#C9C2B0' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 400,
+          "text": "+5",
+          "size": 52,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='720' cy='508' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='770' cy='506' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='820' cy='508' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+        },
+        {
+          "k": "text",
+          "x": 790,
+          "y": 450,
+          "text": "+1 +1 +1",
+          "size": 36,
+          "color": "green"
+        },
+        {
+          "k": "tick",
+          "x": 860,
+          "y": 260,
+          "s": 0.8
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx='110' cy='508' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle><circle cx='170' cy='506' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle>"
+        },
+        {
+          "k": "text",
+          "x": 140,
+          "y": 450,
+          "text": "-1 -1",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "cross",
+          "x": 140,
+          "y": 290,
+          "s": 0.7
+        },
+        {
+          "k": "text",
+          "x": 400,
+          "y": 600,
+          "text": "GOAL",
+          "size": 40,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 490,
+          "y": 680,
+          "text": "Sabse zyada points = Safai Queen",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 40,
+          "y": 200,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada points jeete!",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Haath ya pair se dhakka?",
+          "Woh gola nahi ginega."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Diya gira ya hila?",
+          "Minus 2 points."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Dupatta khiska, dono aankh khuli?",
+          "Us round ke 0 points."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse zyada points wali",
+          "banegi Safai Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Final mein diyon ki doori",
+        "sirf aadha foot."
+      ],
+      [
+        "Saas mode: host peeche se",
+        "bole \"yahan bhi kachra hai!\""
+      ],
+      [
+        "Jodi round: ek jhaadu,",
+        "do ladies, dono ki ek aankh band."
+      ]
+    ],
+    "tip": "Diye kabhi mat jalao, aur kaanch ki cheezein hata do."
+  },
+  "comment_hint": "kitne points aaye?",
+  "caption": "Diwali safai ab game ban gayi! Ek aankh par dupatta, haath mein jhaadu, aur 30 second mein kachra goal ke paar. Aapki kitty ki Safai Queen kaun banegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#diwalikitty",
+    "#jhaadugolf"
+  ],
+  "web": {
+    "title": "Jhaadu Golf: Diwali Kitty Party Game Rules and Twists",
+    "description": "Jhaadu Golf is a funny Diwali kitty party game: sweep a newspaper ball and paper kachra through a diya goal with one eye covered. Rules, steps, scoring, FAQs.",
+    "intro": "Jhaadu Golf is a Diwali safai themed kitty party game where each lady uses a phool jhaadu (broom) to sweep a crumpled newspaper ball and small paper bits through a goal made of two unlit diyas in 30 seconds. The lady with the most points wins: 5 for the big ball, 1 for every small paper bit that goes through, and minus 1 for every bit left behind. The crazy twist is that one eye is covered with a dupatta, as if dust got into it during Diwali cleaning. It needs only things already in the house and works for 8 to 20 ladies in 10 to 15 minutes.",
+    "players": "8 to 20 (one lady at a time)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One phool jhaadu (soft grass broom)",
+      "One big crumpled newspaper ball, pressed tight",
+      "Two empty, unlit clay diyas or small steel katoris for the goal",
+      "A dupatta or scarf to cover one eye",
+      "About 10 small paper balls per turn as the kachra (scrap paper, not food)",
+      "A phone timer set to 30 seconds"
+    ],
+    "steps": [
+      "Place two empty, unlit diyas on the floor near the door about 1 foot apart. The gap between them is the goal.",
+      "Mark a start line about 3 big steps away from the goal.",
+      "Tie a dupatta at a slant across the player's face so that one eye is covered and the other is open.",
+      "The host puts the big newspaper ball on the start line and scatters 10 small paper balls around it as the kachra.",
+      "Start the 30 second timer. The player sweeps the big ball and as many paper bits as she can through the gap between the diyas using only the jhaadu.",
+      "Count the score: 5 points for the big ball, 1 point for each small paper ball through the goal, and minus 1 for each one still behind. Reset for the next lady."
+    ],
+    "rules": [
+      "Only the jhaadu may touch the balls. Anything pushed with a hand or foot does not count.",
+      "If a diya falls or moves, the player loses 2 points.",
+      "If the dupatta slips and both eyes are open, that round scores 0.",
+      "The lady with the most points is crowned the Safai Queen."
+    ],
+    "variations": [
+      "Final round: bring the diyas closer, only half a foot apart.",
+      "Saas mode: the host stands behind the player and keeps saying \"yahan bhi kachra hai!\" to distract her.",
+      "Jodi round: two ladies share one jhaadu, holding it together, and both cover one eye."
+    ],
+    "tips": [
+      "Never light the diyas for this game, and move any glass or fragile decor out of the way first.",
+      "Use scrap paper for the kachra instead of puffed rice or other food, so nothing is wasted.",
+      "A soft phool jhaadu works better than a stiff kharata broom on tiles.",
+      "Keep a few spare paper balls ready so each player gets a fresh set of 10."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Jhaadu Golf?",
+        "a": "Any number from 4 upwards. For 8 to 20 ladies, each plays one 30 second turn and the top 3 can play a final."
+      },
+      {
+        "q": "What do you need to play Jhaadu Golf?",
+        "a": "A phool jhaadu, a newspaper ball, two unlit diyas, a dupatta, some scrap paper balls and a phone timer. Everything is already at home."
+      },
+      {
+        "q": "Is Jhaadu Golf a good Diwali kitty party game?",
+        "a": "Yes. It turns the Diwali safai everyone is busy with into a funny game, and the one eye dupatta twist makes even a simple sweep hard."
+      },
+      {
+        "q": "How long does Jhaadu Golf take?",
+        "a": "Each turn is 30 seconds plus a short reset, so 15 ladies finish in about 10 to 15 minutes."
+      },
+      {
+        "q": "Is Jhaadu Golf safe to play indoors?",
+        "a": "Yes, as long as the diyas are never lit and fragile things are moved away. Play on a clear floor, and older ladies can sweep at their own pace."
+      }
+    ]
+  }
+}
