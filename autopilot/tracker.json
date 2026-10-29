@@ -3624,6 +3624,191 @@
       "yt_id": "mn97fSBhkjM",
       "yt_url": "https://youtube.com/shorts/mn97fSBhkjM",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-29-a",
+      "created": "2026-10-29",
+      "title": "Housie ruki, Tina ki safai chali",
+      "format": "Group chat inserts inside a Diwali Housie, living room",
+      "hook": "Diwali Housie vs Tina ki safai",
+      "cast": [
+        "Ruhi",
+        "Shruti",
+        "Tanya",
+        "Tina"
+      ],
+      "caption": "Har group mein ek Tina hoti hai jo Diwali safai ki photo bhejti hai. Tag your Tina!",
+      "status": "needs-fix",
+      "idea": "Tina skips the kitty for Diwali safai and posts bigger cleaning proof after every Housie number, until dust from the host's own fan lands on her ticket.",
+      "beats": "hook: Housie, phones banned, ping / esc: fridge inside, AC filter, top of the fan on video / twist: Tanya looks up, dust drops on her ticket / button: phones banned flips to phones up, Tanya on the ladder, tag Tina",
+      "experiment": {
+        "type": "group-chat",
+        "hook": "Housie cage spinning, Tanya shouting \"Sab phone neeche!\" and a ping cutting her off, PAUSE chip on screen",
+        "variable": "group chat used as the interruption inside our winning Housie + Diwali safai setting, not as the whole story",
+        "hypothesis": "starting on a game in progress plus a ping keeps skip under 55% and watched over 25%, with at least 4 shares (beating the first group-chat reel)"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sab phone neeche! Pehla number...",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ek second! Tina ka message!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "phone",
+          "who": "Tina",
+          "line": "Darling, fridge andar se bhi chamka diya!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Haaw! Andar se?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chalo chalo! Baais!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mera! Kat gaya!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Phir ping?!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "phone",
+          "who": "Tina",
+          "line": "AC ka filter bhi dho diya, darling.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Filter? Woh nikalta bhi hai?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bas! Agla number... saat!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Ab toh video bheja!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Pankhe ke upar bhi, darling!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Upar bhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Upar kaun dekhta hai?!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Upar...?",
+          "beat": "twist"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mere ticket pe... jaala?!",
+          "beat": "twist"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Saat number kat gaya, Tanya.",
+          "beat": "twist"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sab phone upar! Photo kheecho!",
+          "beat": "button"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Group pe daalun?",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haan! Tina ko tag karna!",
+          "beat": "button"
+        }
+      ],
+      "duration": 39.66,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Every group has a Tina posting Diwali safai proof; the PAUSE counter keeps the stake visible on mute; escalation goes fridge inside, AC filter (Shruti: woh nikalta hai?), top of the fan on video. Twist is a see-it reveal: dust falls on Tanya's own ticket. Endings tried: (1) Tanya quits Housie and cleans, flat; (2) Tanya posts her own proof silently, needs reading; (3) kept: 'Sab phone neeche' flips to 'Sab phone upar, Tina ko tag karna', mirrors the opening and loops. Rewrote once: cut a Myra line so the reel stays on 4 characters."
+      },
+      "qa": [
+        "no shot over 5 s (5.9 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-29-a-board.jpg"
     }
   ],
   "ideas": [
