@@ -1,89 +1,6 @@
 {
- "updated": "2026-10-29T16:18:11.159Z",
+ "updated": "2026-10-29T22:54:30.523Z",
  "days": [
-  {
-   "date": "2026-10-29",
-   "day": "Thu, 29 Oct",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "karwakatha",
-    "name": "Karwa Katha",
-    "pack": "themes/karwakatha/v2",
-    "sounds": "sounds/karwakatha/v1",
-    "colors": {
-     "accent": "#C0182F",
-     "accentDeep": "#7A0E1E",
-     "gameInk": "#FFF6EC"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Thali Pheri",
-      "points": 50,
-      "numbers": 5
-     },
-     {
-      "name": "Katha",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Gehun",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Karwa",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_7",
-      "gh_8",
-      "gh_0",
-      "gh_1",
-      "gh_2",
-      "gh_3",
-      "gh_4",
-      "gh_5",
-      "gh_6"
-     ],
-     "housie": [
-      "gs_4",
-      "gs_5",
-      "gs_0",
-      "gs_1",
-      "gs_2",
-      "gs_3"
-     ],
-     "mascotBall": [
-      "sc_2",
-      "sc_0",
-      "sc_1"
-     ],
-     "particles": [
-      "gh_9",
-      "fx_4",
-      "fx_5"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-10-30",
    "day": "Fri, 30 Oct",
@@ -242,6 +159,19 @@
      ]
     }
    }
+  },
+  {
+   "date": "2026-11-01",
+   "day": "Sun, 1 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": null
   }
  ]
 }
