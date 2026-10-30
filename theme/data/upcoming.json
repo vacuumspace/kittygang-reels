@@ -1,86 +1,6 @@
 {
- "updated": "2026-10-30T16:06:24.389Z",
+ "updated": "2026-10-30T22:34:37.689Z",
  "days": [
-  {
-   "date": "2026-10-30",
-   "day": "Fri, 30 Oct",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "chandnichhat",
-    "name": "Chandni Chhat",
-    "pack": "themes/chandnichhat/v1",
-    "sounds": "sounds/chandnichhat/v1",
-    "colors": {
-     "accent": "#3A4FA8",
-     "accentDeep": "#222F72",
-     "gameInk": "#F4F6FF"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Chand",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Badal",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Taare",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Ladi",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_2",
-      "gh_3",
-      "gh_0",
-      "gh_1"
-     ],
-     "housie": [
-      "gs_5",
-      "gs_6",
-      "gs_0",
-      "gs_1",
-      "gs_2",
-      "gs_3",
-      "gs_4"
-     ],
-     "mascotBall": [
-      "sc_0"
-     ],
-     "particles": [
-      "gh_4",
-      "gh_5",
-      "gh_6",
-      "fx_3",
-      "fx_4",
-      "fx_5"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-10-31",
    "day": "Sat, 31 Oct",
@@ -247,6 +167,99 @@
       "fx_6",
       "fx_7",
       "fx_8"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "day": "Mon, 2 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "rangaiputai",
+    "name": "Rangai Putai",
+    "pack": "themes/rangaiputai/v2",
+    "sounds": "sounds/rangaiputai/v2",
+    "colors": {
+     "accent": "#F06A4A",
+     "accentDeep": "#B8432A",
+     "gameInk": "#FFF8F4"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Deewar",
+      "points": 50,
+      "numbers": 5
+     },
+     {
+      "name": "Roller",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Brush",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Rang Ka Dabba",
+      "points": 50,
+      "numbers": 4
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_3",
+      "gh_4",
+      "gh_0",
+      "gh_1",
+      "gh_2"
+     ],
+     "housie": [
+      "gs_2",
+      "gs_3",
+      "gs_0",
+      "gs_1"
+     ],
+     "mascotBall": [
+      "sc_4",
+      "sc_0",
+      "sc_1",
+      "sc_2",
+      "sc_3"
+     ],
+     "particles": [
+      "gh_5",
+      "gh_6",
+      "gh_7",
+      "gh_8",
+      "gh_9",
+      "gh_10",
+      "gh_11",
+      "gh_12",
+      "fx_1",
+      "fx_2",
+      "fx_3",
+      "fx_4",
+      "fx_5",
+      "fx_6",
+      "fx_7",
+      "fx_8",
+      "fx_9"
      ]
     }
    }
