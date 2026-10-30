@@ -1,0 +1,320 @@
+{
+  "id": "KG-2026-10-30-b",
+  "title": "Champion ki blind chal",
+  "format": "Story-time: Aditi tells last Diwali's taash kitty, flashback, back to today",
+  "idea": "At the Diwali taash kitty Ishita goes blind again; Aditi tells what happened last Diwali when the champion bet blind, raised, threw in her Housie trophy and showed 2, 5, 9.",
+  "logline": "Ishita bets blind at the Diwali taash kitty, and Aditi shows us how the same blind bet ended last Diwali.",
+  "game": "every time Shruti reads out how much Ishita is down, Ishita raises bigger",
+  "mute": [
+    "Diwali taash table today, Ishita shoves her chips in, Myra shocked",
+    "Aditi on the sofa with chai says this happened last Diwali too",
+    "PICHHLI DIWALI chip: Ishita bets blind, Shruti shows she is Rs 20 down",
+    "chip goes to Rs 40: Ishita doubles",
+    "Ishita puts her Housie trophy in the pot, Shruti gasps",
+    "Shruti asks for the show, Ishita smug",
+    "cards flipped: 2, 5, 9, nothing, chip says it",
+    "Ishita calls her loss a Diwali gift",
+    "AAJ chip again: Ishita bets blind and the trophy again",
+    "Aditi sips chai: every Diwali the same"
+  ],
+  "beats": "hook: today, Ishita 'Blind chal!' / setup: Aditi 'last Diwali bhi' / esc: Rs 20 down, double to 40, trophy in the pot / twist: 2, 5, 9 / button: today, 'Blind chal!' again, Aditi 'Har Diwali yahi hota hai'",
+  "experiment": {
+    "type": "story-time",
+    "hook": "taash game in progress: Ishita shoves her chip pile in with 'Blind chal!' and Myra's 'Haaw!' over it, AAJ chip on screen",
+    "variable": "a narrator flashback (Aditi tells last Diwali) that loops back to the same bet today, inside a Diwali card-party scene",
+    "hypothesis": "the open question 'phir kya hua?' at 3 s holds viewers to the reveal: watched over 30% (best so far 27%) with skip under 55% and at least 3 shares"
+  },
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Diwali taash at the kitty is a real scene every group has, and every group has the aunty who always goes blind. Story-time is carried by two chips (AAJ / PICHHLI DIWALI) so a muted viewer always knows when we are. Game: Shruti reads the loss, Ishita raises: Rs 20, double to 40, then the absurd one, her own Housie trophy in the pot. Claim before reveal: 'Dekh lo, champion ke patte' then 2, 5, 9 (see-it reveal on the chip). Endings tried: (1) Ishita learns and folds, 'Pack!', flat; (2) Myra goes blind and gets stuck as next host, needs a new rule explained; (3) kept: back to today, Ishita says 'Blind chal! Aur trophy bhi!' and Aditi closes 'Har Diwali yahi hota hai', mirrors the opening and loops. Rewrote once: dropped a goddess line from the bank idea (religion rule) for 'Yeh haar nahi... Diwali gift hai!'. Every shot holds at most 2 short lines so none runs near 4 s (the last three reels failed QA on a 5.4 s shot)."
+  },
+  "cover": {
+    "shot": 6,
+    "at": 1.2,
+    "title": [
+      "Diwali taash kitty",
+      "Champion ki blind chal"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har kitty mein ek aunty hai jo har Diwali bina patte dekhe chaal chalti hai. Tag your Ishita!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#diwalikitty",
+    "#taashparty",
+    "#teenpatti",
+    "#ladieskitty",
+    "#diwali"
+  ],
+  "ambience": { "name": "crowd", "vol": 0.1 },
+  "pace": 22,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "AAJ: DIWALI TAASH",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Ishita", "x": 380, "y": 1760, "s": 2.1, "pose": "hips", "mouth": "smirk", "eyes": "half", "turn": 0.4 },
+        { "name": "Myra", "x": 800, "y": 1740, "s": 1.9, "pose": "relaxed", "mouth": "o", "eyes": "open", "turn": -0.6 }
+      ],
+      "props": [
+        { "name": "Playing cards", "x": 560, "y": 1650, "s": 2.2 },
+        { "name": "Kitty pot", "x": 700, "y": 1680, "s": 1.8 },
+        { "name": "Diya", "x": 200, "y": 1690, "s": 1.6 },
+        { "name": "Fairy lights", "x": 540, "y": 470, "s": 3 }
+      ],
+      "sfx": [
+        { "at": 0.05, "name": "swish", "vol": 0.5 },
+        { "at": 0.35, "name": "thud", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Ishita", "text": "Blind chal!", "say": "ब्लाइंड चल!", "beat": "hook", "punch": true },
+        { "who": "Myra", "text": "Haaw! Bina patte dekhe?!", "say": "हाऽव! बिना पत्ते देखे?!", "gap": 0.04 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "chip": "AAJ: DIWALI TAASH",
+      "chipY": 600,
+      "chars": [
+        { "name": "Aditi", "x": 380, "y": 1330, "s": 1.25, "pose": "cup", "mouth": "flat", "eyes": "half", "turn": 0.5 },
+        { "name": "Myra", "x": 780, "y": 1740, "s": 1.9, "pose": "relaxed", "mouth": "o", "eyes": "open", "turn": -0.7 }
+      ],
+      "props": [
+        { "name": "Cutting chai", "x": 560, "y": 1420, "s": 1.4 },
+        { "name": "Diya", "x": 900, "y": 1350, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "slurp", "vol": 0.35 }
+      ],
+      "lines": [
+        { "who": "Aditi", "text": "Pichhli Diwali bhi yahi bola tha.", "say": "पिछली दिवाली भी यही बोला था।", "beat": "setup" },
+        { "who": "Myra", "text": "Phir kya hua?", "say": "फिर क्या हुआ?", "gap": 0.04 }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "PICHHLI DIWALI · ISHITA: -Rs 20",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        { "name": "Ishita", "x": 360, "y": 1760, "s": 2.1, "pose": "talkR", "mouth": "laugh", "turn": 0.5 },
+        { "name": "Shruti", "x": 790, "y": 1740, "s": 1.95, "pose": "hold", "prop": "calc", "mouth": "flat", "eyes": "half", "turn": -0.6 }
+      ],
+      "props": [
+        { "name": "Playing cards", "x": 560, "y": 1650, "s": 2.2 },
+        { "name": "Kitty pot", "x": 700, "y": 1680, "s": 1.8 },
+        { "name": "Mithai box", "x": 220, "y": 1690, "s": 1.5 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "riser", "vol": 0.35 },
+        { "at": 1.4, "name": "calc", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Ishita", "text": "Blind chal! Main champion hoon!", "say": "ब्लाइंड चल! मैं चैंपियन हूँ!", "beat": "escalation" },
+        { "who": "Shruti", "text": "Aap bees rupaye neeche ho.", "say": "आप बीस रुपये नीचे हो।", "gap": 0.05 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "PICHHLI DIWALI · ISHITA: -Rs 40",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Ishita", "x": 380, "y": 1760, "s": 2.15, "pose": "clapR", "mouth": "laugh", "eyes": "laugh", "turn": 0.5 },
+        { "name": "Shruti", "x": 790, "y": 1740, "s": 1.95, "pose": "hold", "prop": "calc", "mouth": "o", "eyes": "open", "turn": -0.6 }
+      ],
+      "props": [
+        { "name": "Playing cards", "x": 560, "y": 1650, "s": 2.2 },
+        { "name": "Kitty pot", "x": 700, "y": 1680, "s": 1.8 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 860, "y": 1000, "at": 0.9 }
+      ],
+      "sfx": [
+        { "at": 0.6, "name": "calc", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Ishita", "text": "Toh? Double!", "say": "तो? डबल!", "beat": "escalation" },
+        { "who": "Shruti", "text": "Chaalees?!", "say": "चालीस?!", "gap": 0.03 }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "PICHHLI DIWALI · -Rs 40 + TROPHY",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ishita", "x": 380, "y": 1760, "s": 2.15, "pose": "hips", "mouth": "smirk", "eyes": "half", "turn": 0.5 },
+        { "name": "Shruti", "x": 790, "y": 1740, "s": 1.95, "pose": "hold", "prop": "calc", "mouth": "o", "eyes": "open", "turn": -0.6 }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 640, "y": 1680, "s": 1.8 },
+        { "name": "Trophy", "x": 560, "y": 1640, "s": 1.9, "at": 0.4 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 880, "y": 980, "at": 1.5 }
+      ],
+      "sfx": [
+        { "at": 0.4, "name": "thud", "vol": 0.5 },
+        { "at": 1.5, "name": "haww", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Ishita", "text": "Aur yeh Housie trophy bhi!", "say": "और ये हाउज़ी ट्रॉफी भी!", "beat": "escalation", "punch": true },
+        { "who": "Shruti", "text": "Haaw! Trophy?!", "say": "हाऽव! ट्रॉफी?!", "gap": 0.03 }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "PICHHLI DIWALI · -Rs 40 + TROPHY",
+      "chipY": 600,
+      "camera": "push",
+      "music": false,
+      "chars": [
+        { "name": "Shruti", "x": 780, "y": 1740, "s": 1.95, "pose": "talkL", "mouth": "flat", "eyes": "half", "turn": -0.6 },
+        { "name": "Ishita", "x": 370, "y": 1760, "s": 2.15, "pose": "hold", "mouth": "smirk", "eyes": "half", "turn": 0.5 }
+      ],
+      "props": [
+        { "name": "Playing cards", "x": 470, "y": 1640, "s": 2.2 },
+        { "name": "Trophy", "x": 640, "y": 1640, "s": 1.9 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "heartbeat", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Shruti", "text": "Theek hai. Show karo!", "say": "ठीक है। शो करो!", "beat": "turn" },
+        { "who": "Ishita", "text": "Dekh lo, champion ke patte.", "say": "देख लो, चैंपियन के पत्ते।", "gap": 0.05 }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "chip": "2, 5, 9: KUCH NAHI",
+      "chipY": 1560,
+      "camera": "punch",
+      "music": false,
+      "chars": [
+        { "name": "Shruti", "x": 300, "y": 1740, "s": 1.95, "pose": "hold", "prop": "calc", "mouth": "o", "eyes": "open", "turn": 0.6 }
+      ],
+      "props": [
+        { "name": "Playing cards", "x": 680, "y": 1300, "s": 3.4, "at": 0.2 }
+      ],
+      "sfx": [
+        { "at": 0.2, "name": "swish", "vol": 0.5 },
+        { "at": 1.6, "name": "sting", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Shruti", "text": "Do... paanch... nau.", "say": "दो... पाँच... नौ।", "beat": "turn", "silenceBefore": true },
+        { "who": "Shruti", "text": "Kuch bhi nahi!", "say": "कुछ भी नहीं!", "punch": true, "gap": 0.05 }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "PICHHLI DIWALI · TROPHY GAYI",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        { "name": "Ishita", "x": 540, "y": 1760, "s": 2.25, "pose": "hips", "mouth": "smile", "eyes": "half", "turn": 0 }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 820, "y": 1680, "s": 1.8 },
+        { "name": "Diya", "x": 230, "y": 1690, "s": 1.6 }
+      ],
+      "sfx": [
+        { "at": 1.6, "name": "laughv", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Ishita", "text": "Yeh haar nahi... Diwali gift hai!", "say": "ये हार नहीं... दिवाली गिफ्ट है!", "beat": "turn", "punch": true }
+      ],
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "front": true,
+      "chip": "AAJ: DIWALI TAASH",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Myra", "x": 800, "y": 1740, "s": 1.9, "pose": "relaxed", "mouth": "o", "eyes": "open", "turn": -0.6 },
+        { "name": "Ishita", "x": 380, "y": 1760, "s": 2.1, "pose": "clapR", "mouth": "laugh", "eyes": "laugh", "turn": 0.4 }
+      ],
+      "props": [
+        { "name": "Playing cards", "x": 540, "y": 1650, "s": 2.2 },
+        { "name": "Trophy", "x": 690, "y": 1640, "s": 1.9, "at": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "whoosh", "vol": 0.4 },
+        { "at": 1.4, "name": "thud", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Toh is baar?", "say": "तो इस बार?", "beat": "button" },
+        { "who": "Ishita", "text": "Blind chal! Aur trophy bhi!", "say": "ब्लाइंड चल! और ट्रॉफी भी!", "gap": 0.04 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI TAASH",
+      "chip": "AAJ: DIWALI TAASH",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        { "name": "Aditi", "x": 540, "y": 1330, "s": 1.25, "pose": "cup", "mouth": "flat", "eyes": "half", "turn": 0 }
+      ],
+      "props": [
+        { "name": "Cutting chai", "x": 760, "y": 1420, "s": 1.4 },
+        { "name": "Diya", "x": 300, "y": 1420, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0.05, "name": "slurp", "vol": 0.35 }
+      ],
+      "lines": [
+        { "who": "Aditi", "text": "Har Diwali yahi hota hai.", "say": "हर दिवाली यही होता है।", "beat": "button", "punch": true, "silenceBefore": true }
+      ],
+      "hold": 0.6
+    }
+  ]
+}

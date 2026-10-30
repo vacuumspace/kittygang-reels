@@ -6,3 +6,4 @@
 - 2026-10-27 (KG-2026-10-27-b): "Steel chammach" prop (a single shiny steel spoon, maybe with a small gift ribbon) for the Dhanteras reveal, now carried by the phone message and chip; a male "Pati ji" contact avatar for the phone chat header.
 - 2026-10-28 (KG-2026-10-28-b): "phone ring" sfx (a soft generic ringtone, not a branded tone) for calls from home during photo attempts, now carried by repeated "ding".
 - 2026-10-29 (KG-2026-10-29-a): "Dust clump" prop (a grey fluffy ball of fan dust) to drop onto a Housie ticket, now a small Cobweb; a "Photo message" bubble in the phone kit (thumbnail inside a chat bubble) for safai proof photos, now "Photo:" text.
+- 2026-10-30 (KG-2026-10-30-b): "Taash chips pile" prop (a stack of rajma or plastic chips to shove into the pot) and "Card faces" prop showing a chosen hand (2, 5, 9 face up) for the teen patti show, now Playing cards plus the chip; a "Coin pile" prop for paying into the kitty pot.
