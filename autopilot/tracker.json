@@ -4416,6 +4416,37 @@
       "yt_id": "dXXH8dWUorU",
       "yt_url": "https://youtube.com/shorts/dXXH8dWUorU",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-10-31",
+      "created": "2026-10-31",
+      "title": "Ek number ka intezaar",
+      "format": "Theme Housie",
+      "theme": "intezaar",
+      "story": "ai",
+      "variant": "countdown",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Ishita needs only 44 for Full House at the Intezaar game; three calls land one off (43, 45, 4) while the gang reacts, then 44 pops and Avika arrives just after it ends.",
+      "beats": "hook: one number left, heartbeat / call 3: 43, ek kam / call 2: 45, ek zyada, Tanya: saans lo / call 1: 4, aadha number, Aditi: theme hi yahi hai / reveal: 44 Full House / button: Avika late, Aditi: bas poora intezaar",
+      "experiment": {
+        "format": "countdown",
+        "hook": "Ishita close on the Intezaar home art, heartbeat already thumping at 0 s, mascot ball spinning above her, she says 'Bas ek number. Sirf chawalis.' with chip '1 NUMBER BAAKI'",
+        "variable": "a sound-led suspense structure (heartbeat plus a 3-2-1 call counter chip and three near-miss calls) that withholds one payoff to the end, instead of a joke-per-beat story",
+        "hypothesis": "an open question (will 44 come?) pinned from the first second keeps people to the reveal: skip under 58%, watched % above 25, at least 2 shares"
+      },
+      "duration": 48.6,
+      "lufs": null,
+      "caption": "Intezaar Housie mein ek number ka intezaar sabse lamba hota hai. Aapka last number kaunsa tha? Comment karo!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #intezaar #fullhouse",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-31.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-10-31-cover.jpg",
+      "job_id": "adeb8e8a-15a0-4231-9fe1-0e40c2b90e7c",
+      "permalink": "https://www.instagram.com/reel/DfIRjIgDLZb/",
+      "media_id": "18350418895254269",
+      "yt_id": "PNMR70aAwLA",
+      "yt_url": "https://youtube.com/shorts/PNMR70aAwLA",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
