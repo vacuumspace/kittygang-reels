@@ -5028,6 +5028,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/jhaadu-golf-diwali-safai-kitty-party-game",
       "queue_id": "8e9fa101-4988-4c63-b29b-0333f3b93abd",
       "scheduled_ist": "2026-10-30 10:48"
+    },
+    {
+      "id": "KGI-010",
+      "n": 10,
+      "created": "2026-10-30",
+      "game": "Taash Housie",
+      "tagline": "Joker aaya, patta gaya!",
+      "players": "8 to 20",
+      "time": "10 to 15 minutes",
+      "slug": "taash-housie-diwali-card-party-kitty-game",
+      "caption": "Diwali taash party, par paise nahi! 5 patte ka ticket, host ki gaddi, aur Joker aate hi sab patte idhar udhar. Aapki kitty mein Taash Queen kaun banegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-010/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/taash-housie-diwali-card-party-kitty-game",
+      "queue_id": "7715ddec-e3d5-4a57-a70d-f78f6c686ab6",
+      "scheduled_ist": "2026-10-31 10:58"
     }
   ],
   "research": [
