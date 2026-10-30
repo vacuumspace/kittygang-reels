@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:54:30.523Z",
+ "updated": "2026-10-30T10:17:50.834Z",
  "days": [
   {
    "date": "2026-10-30",
@@ -171,7 +171,85 @@
     "7 PM",
     "11 PM"
    ],
-   "theme": null
+   "theme": {
+    "id": "gharkisafai",
+    "name": "Ghar Ki Safai",
+    "pack": "themes/gharkisafai/v2",
+    "sounds": "sounds/gharkisafai/v2",
+    "colors": {
+     "accent": "#1E9AB0",
+     "accentDeep": "#13707F",
+     "gameInk": "#F2FEFF"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Khidki",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Jhaadu",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Balti",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Pocha",
+      "points": 50,
+      "numbers": 4
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_7",
+      "gh_8",
+      "gh_0",
+      "gh_1",
+      "gh_2",
+      "gh_3",
+      "gh_4",
+      "gh_5",
+      "gh_6"
+     ],
+     "housie": [
+      "gs_2",
+      "gs_3",
+      "gs_0",
+      "gs_1"
+     ],
+     "mascotBall": [
+      "sc_5",
+      "sc_0",
+      "sc_1",
+      "sc_2",
+      "sc_3",
+      "sc_4"
+     ],
+     "particles": [
+      "gh_9",
+      "gh_10",
+      "gh_11",
+      "gh_12",
+      "fx_3",
+      "fx_4",
+      "fx_5",
+      "fx_6",
+      "fx_7",
+      "fx_8"
+     ]
+    }
+   }
   }
  ]
 }
