@@ -1,0 +1,952 @@
+{
+  "id": "KG-2026-10-30-a",
+  "title": "Housie ruki, Tina ki safai chali",
+  "format": "Group chat inserts inside a Diwali Housie, living room",
+  "idea": "Tina skips the kitty for Diwali safai and posts bigger cleaning proof after every Housie number, until dust from the host's own fan lands on her ticket.",
+  "logline": "Tanya's Diwali Housie keeps stopping because Tina, who skipped the kitty to clean, posts bigger safai proof after every number, until dust from Tanya's own fan drops on her ticket.",
+  "game": "every Housie number gets cut off by a bigger Tina safai flex",
+  "experiment": {
+    "type": "group-chat",
+    "hook": "Housie cage spinning, Tanya shouting \"Sab phone neeche!\" and a ping cutting her off, PAUSE chip on screen",
+    "variable": "group chat used as the interruption inside our winning Housie + Diwali safai setting, not as the whole story (second QA re-render of KG-2026-10-29-a: every chat shot now carries only Tina's line, with the reaction on its own living-room cut, so no shot runs near 5 s)",
+    "hypothesis": "starting on a game in progress plus a ping keeps skip under 55% and watched over 25%, with at least 4 shares (beating the first group-chat reel)"
+  },
+  "beats": "hook: Housie, phones banned, ping / esc: fridge inside, AC filter, top of the fan on video / twist: Tanya looks up, dust drops on her ticket / button: phones banned flips to phones up, Tanya on the ladder, tag Tina",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Every group has a Tina posting Diwali safai proof; the PAUSE counter keeps the stake visible on mute; escalation goes fridge inside, AC filter (Shruti: woh nikalta hai?), top of the fan on video. Twist is a see-it reveal: dust falls on Tanya's own ticket. Endings tried: (1) Tanya quits Housie and cleans, flat; (2) Tanya posts her own proof silently, needs reading; (3) kept: 'Sab phone neeche' flips to 'Sab phone upar, Tina ko tag karna', mirrors the opening and loops. Rewrote once: cut a Myra line so the reel stays on 4 characters. Fix pass: the fan shot and the ladder button had 3 lines each (5.9 s), now split into two shots each so every shot stays under 4 s; script unchanged. Second fix pass (from KG-2026-10-29-b, 5.4 s shot): both phone shots now hold only Tina's message and cut to the reaction in the room, and the ticket twist is split into the discovery and Shruti's punch, so the longest shot is about 3 s; script unchanged."
+  },
+  "mute": [
+    "Diwali Housie in progress, host bans phones, a phone pings",
+    "group chat: Tina skipped kitty for safai, posts fridge proof",
+    "Ruhi gasps at the phone",
+    "Housie restarts, Shruti cuts a number, another ping",
+    "chat: Tina cleaned the AC filter",
+    "Shruti puzzled: the filter comes out?",
+    "Tanya calls again, Ruhi gets a video",
+    "Tina on a ladder cleaning the top of her fan",
+    "Ruhi and Shruti gasp at the phone",
+    "Tanya slowly looks up at her own fan",
+    "a clump of dust drops on Tanya Housie ticket",
+    "Shruti smirks, Tanya stares at her ticket",
+    "Tanya on a ladder with a duster, phones up for a photo",
+    "Tanya laughing on the ladder, Ruhi posts it for Tina"
+  ],
+  "cover": {
+    "shot": 10,
+    "at": 0.8,
+    "title": [
+      "Tina ki safai,",
+      "Tanya ka pankha!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har group mein ek Tina hoti hai jo Diwali safai ki photo bhejti hai. Tag your Tina!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#diwalisafai",
+    "#housie",
+    "#tambola",
+    "#ladieskitty",
+    "#diwali"
+  ],
+  "pace": 24,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "front": true,
+      "hook": [
+        "Diwali Housie",
+        "vs Tina ki safai"
+      ],
+      "chip": "HOUSIE PAUSE: 0",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile",
+          "turn": -0.3
+        },
+        {
+          "name": "Tanya",
+          "x": 470,
+          "y": 1760,
+          "s": 2,
+          "pose": "talkR",
+          "mouth": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 830,
+          "y": 1720,
+          "s": 2.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        },
+        {
+          "at": 1.4,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Sab phone neeche! Pehla number...",
+          "say": "सब फ़ोन नीचे! पहला नंबर...",
+          "beat": "hook"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ek second! Tina ka message!",
+          "say": "एक सेकंड! टीना का मैसेज!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "HOUSIE PAUSE: 1",
+      "chipY": 200,
+      "chat": [
+        [
+          "Tina",
+          "Sorry, aaj kitty skip",
+          0,
+          "4:02 PM",
+          0
+        ],
+        [
+          "Tina",
+          "Diwali safai chal rahi hai",
+          0,
+          "4:02 PM",
+          0.3
+        ],
+        [
+          "Tina",
+          "Photo: fridge andar se chamka diya!",
+          0,
+          "4:15 PM",
+          0.8
+        ]
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, fridge andar se bhi chamka diya!",
+          "say": "डार्लिंग, फ्रिज अंदर से भी चमका दिया!",
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "HOUSIE PAUSE: 1",
+      "chipY": 1560,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Andar se?!",
+          "say": "हाऽव! अंदर से?!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15,
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 780,
+          "y": 900,
+          "at": 0.15
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "haww",
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "HOUSIE PAUSE: 1",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "wave",
+          "turn": -0.4,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 22",
+          "x": 570,
+          "y": 1150,
+          "s": 2.3,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.45
+        },
+        {
+          "at": 1.6,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Chalo chalo! Baais!",
+          "say": "चलो चलो! बाईस!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Mera! Kat gaya!",
+          "say": "मेरा! कट गया!",
+          "gap": 0.03
+        },
+        {
+          "who": "Tanya",
+          "text": "Phir ping?!",
+          "say": "फिर पिंग?!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "punch",
+      "chip": "HOUSIE PAUSE: 2",
+      "chipY": 200,
+      "chat": [
+        [
+          "Tina",
+          "Photo: fridge andar se chamka diya!",
+          0,
+          "4:15 PM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Haaw! Andar se?!",
+          1,
+          "4:16 PM",
+          0
+        ],
+        [
+          "Tina",
+          "Photo: AC ka filter bhi dho diya",
+          0,
+          "4:21 PM",
+          0.2
+        ]
+      ],
+      "sfx": [],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "AC ka filter bhi dho diya, darling.",
+          "say": "एसी का फ़िल्टर भी धो दिया, डार्लिंग।",
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "HOUSIE PAUSE: 2",
+      "chipY": 1560,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Filter? Woh nikalta bhi hai?!",
+          "say": "फ़िल्टर? वो निकलता भी है?!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15,
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 800,
+          "y": 900,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.2,
+          "name": "boing",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "HOUSIE PAUSE: 2",
+      "chipY": 1560,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "turn": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.4,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 7",
+          "x": 570,
+          "y": 1150,
+          "s": 2.3,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 900,
+          "y": 900,
+          "at": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.45
+        },
+        {
+          "at": 1.2,
+          "name": "ping",
+          "vol": 0.5
+        },
+        {
+          "at": 1.35,
+          "name": "ping",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Bas! Agla number... saat!",
+          "say": "बस! अगला नंबर... सात!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Ab toh video bheja!",
+          "say": "हाऽव! अब तो वीडियो भेजा!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "chip": "HOUSIE PAUSE: 3",
+      "chipY": 1560,
+      "focus": [
+        560,
+        700
+      ],
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 560,
+          "y": 1200,
+          "s": 1.65,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ceiling fan",
+          "x": 560,
+          "y": 640,
+          "s": 5
+        },
+        {
+          "name": "Ladder",
+          "x": 560,
+          "y": 1830,
+          "s": 6.2
+        },
+        {
+          "name": "Duster",
+          "x": 720,
+          "y": 820,
+          "s": 2.2,
+          "rot": 20
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 330,
+          "y": 600,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 800,
+          "y": 560,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.45
+        },
+        {
+          "at": 0.5,
+          "name": "swish",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Pankhe ke upar bhi, darling!",
+          "say": "पंखे के ऊपर भी, डार्लिंग!",
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "DIWALI HOUSIE",
+      "chip": "HOUSIE PAUSE: 3",
+      "chipY": 1560,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": -0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 430,
+          "y": 900,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "haww",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Upar bhi?!",
+          "say": "ऊपर भी?!",
+          "gap": 0.03
+        },
+        {
+          "who": "Shruti",
+          "text": "Upar kaun dekhta hai?!",
+          "say": "ऊपर कौन देखता है?!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "HOUSIE PAUSE: 3",
+      "chipY": 1560,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ceiling fan",
+          "x": 540,
+          "y": 560,
+          "s": 4.5
+        },
+        {
+          "name": "Cobweb",
+          "x": 960,
+          "y": 520,
+          "s": 2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 820,
+          "y": 900,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "heartbeat",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Upar...?",
+          "say": "ऊपर...?",
+          "beat": "twist",
+          "silenceBefore": true
+        }
+      ],
+      "hold": 0.4
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "punch",
+      "chip": "TANYA KA TICKET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.3
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1480,
+          "s": 2.4
+        },
+        {
+          "name": "Cobweb",
+          "x": 560,
+          "y": 1400,
+          "s": 1.3,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 430,
+          "y": 1000,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 0.35,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Mere ticket pe... jaala?!",
+          "say": "मेरे टिकट पे... जाला?!",
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "music": false,
+      "camera": "still",
+      "chip": "TANYA KA TICKET",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0.3
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 1.95,
+          "pose": "talkL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 560,
+          "y": 1480,
+          "s": 2.4
+        },
+        {
+          "name": "Cobweb",
+          "x": 560,
+          "y": 1400,
+          "s": 1.3
+        }
+      ],
+      "stickers": [],
+      "sfx": [],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Saat number kat gaya, Tanya.",
+          "say": "सात नंबर कट गया, तान्या।",
+          "punch": true,
+          "gap": 0.05,
+          "beat": "twist"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "flash": true,
+      "chip": "HOUSIE PAUSE: TANYA",
+      "chipY": 1560,
+      "focus": [
+        560,
+        700
+      ],
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 560,
+          "y": 1200,
+          "s": 1.65,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ceiling fan",
+          "x": 560,
+          "y": 640,
+          "s": 5
+        },
+        {
+          "name": "Ladder",
+          "x": 560,
+          "y": 1830,
+          "s": 6.2
+        },
+        {
+          "name": "Duster",
+          "x": 720,
+          "y": 820,
+          "s": 2.2,
+          "rot": 20
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "swish",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Sab phone upar! Photo kheecho!",
+          "say": "सब फ़ोन ऊपर! फ़ोटो खींचो!",
+          "beat": "button"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "chip": "HOUSIE PAUSE: TANYA",
+      "chipY": 1560,
+      "focus": [
+        700,
+        820
+      ],
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 560,
+          "y": 1200,
+          "s": 1.65,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ceiling fan",
+          "x": 560,
+          "y": 640,
+          "s": 5
+        },
+        {
+          "name": "Ladder",
+          "x": 560,
+          "y": 1830,
+          "s": 6.2
+        },
+        {
+          "name": "Duster",
+          "x": 720,
+          "y": 820,
+          "s": 2.2,
+          "rot": 20
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 330,
+          "y": 600,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 820,
+          "y": 560,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.4
+        },
+        {
+          "at": 2.2,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Group pe daalun?",
+          "say": "ग्रुप पे डालूँ?",
+          "gap": 0.03
+        },
+        {
+          "who": "Tanya",
+          "text": "Haan! Tina ko tag karna!",
+          "say": "हाँ! टीना को टैग करना!",
+          "punch": true,
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.5
+    }
+  ]
+}
