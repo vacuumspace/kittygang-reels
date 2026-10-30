@@ -4238,6 +4238,182 @@
         "no shot over 5 s (5.4 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-30-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-10-30-b",
+      "created": "2026-10-30",
+      "title": "Champion ki blind chal",
+      "format": "Story-time: Aditi tells last Diwali's taash kitty, flashback, back to today",
+      "hook": "",
+      "cast": [
+        "Ishita",
+        "Myra",
+        "Aditi",
+        "Shruti"
+      ],
+      "caption": "Har kitty mein ek aunty hai jo har Diwali bina patte dekhe chaal chalti hai. Tag your Ishita!",
+      "status": "queued",
+      "idea": "At the Diwali taash kitty Ishita goes blind again; Aditi tells what happened last Diwali when the champion bet blind, raised, threw in her Housie trophy and showed 2, 5, 9.",
+      "beats": "hook: today, Ishita 'Blind chal!' / setup: Aditi 'last Diwali bhi' / esc: Rs 20 down, double to 40, trophy in the pot / twist: 2, 5, 9 / button: today, 'Blind chal!' again, Aditi 'Har Diwali yahi hota hai'",
+      "experiment": {
+        "type": "story-time",
+        "hook": "taash game in progress: Ishita shoves her chip pile in with 'Blind chal!' and Myra's 'Haaw!' over it, AAJ chip on screen",
+        "variable": "a narrator flashback (Aditi tells last Diwali) that loops back to the same bet today, inside a Diwali card-party scene",
+        "hypothesis": "the open question 'phir kya hua?' at 3 s holds viewers to the reveal: watched over 30% (best so far 27%) with skip under 55% and at least 3 shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Blind chal!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw! Bina patte dekhe?!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Pichhli Diwali bhi yahi bola tha.",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Phir kya hua?",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Blind chal! Main champion hoon!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aap bees rupaye neeche ho.",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Toh? Double!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chaalees?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Aur yeh Housie trophy bhi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaw! Trophy?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Theek hai. Show karo!",
+          "beat": "turn"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Dekh lo, champion ke patte.",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Do... paanch... nau.",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kuch bhi nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Yeh haar nahi... Diwali gift hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Toh is baar?",
+          "beat": "button"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Blind chal! Aur trophy bhi!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Har Diwali yahi hota hai.",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.68,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Diwali taash at the kitty is a real scene every group has, and every group has the aunty who always goes blind. Story-time is carried by two chips (AAJ / PICHHLI DIWALI) so a muted viewer always knows when we are. Game: Shruti reads the loss, Ishita raises: Rs 20, double to 40, then the absurd one, her own Housie trophy in the pot. Claim before reveal: 'Dekh lo, champion ke patte' then 2, 5, 9 (see-it reveal on the chip). Endings tried: (1) Ishita learns and folds, 'Pack!', flat; (2) Myra goes blind and gets stuck as next host, needs a new rule explained; (3) kept: back to today, Ishita says 'Blind chal! Aur trophy bhi!' and Aditi closes 'Har Diwali yahi hota hai', mirrors the opening and loops. Rewrote once: dropped a goddess line from the bank idea (religion rule) for 'Yeh haar nahi... Diwali gift hai!'. Every shot holds at most 2 short lines so none runs near 4 s (the last three reels failed QA on a 5.4 s shot)."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-30-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-30-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-30-b-board.jpg",
+      "queue_id": "9c67a326-eb16-4f58-a746-bf93b39a5f6b",
+      "scheduled_ist": "2026-11-04 12:45",
+      "yt_id": "dXXH8dWUorU",
+      "yt_url": "https://youtube.com/shorts/dXXH8dWUorU",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
