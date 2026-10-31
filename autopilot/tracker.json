@@ -4582,7 +4582,7 @@
       "format": "Carousel: game card, tying the dupatta, the 7-item thaal, the Housie nickname twist, winning pair slide",
       "source": "Trend: Festival window: Tulsi Vivah + Dev Uthani 20-21 Nov (https://hindutone.com/festivals/dev-uthani-ekadashi-tulsi-vivah-2026-singapore-date/) + Shaadi season kitty",
       "score": 7,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-28",
@@ -4690,7 +4690,7 @@
       "format": "Carousel: rules, props (toilet roll), the walk-and-repeat twist, group mummy photo last slide",
       "source": "Trend: Halloween kitty theme (107 likes, 21 comments, https://www.instagram.com/reel/De6bjjove0p/)",
       "score": 7,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-26",
@@ -4941,7 +4941,7 @@
       "format": "Housie twist",
       "source": "Trend: \"played housie like this? notify neighbours\" (81 comments)",
       "score": 8,
-      "used": "",
+      "used": "dropped",
       "type": "reel"
     },
     {
@@ -4950,7 +4950,7 @@
       "format": "Theme showcase comedy",
       "source": "Trend: The Nod, desi Bridgerton aunties; like our Bollywood reel",
       "score": 8,
-      "used": "",
+      "used": "dropped",
       "type": "reel"
     },
     {
@@ -5105,6 +5105,60 @@
       "source": "starter backlog",
       "score": 7,
       "used": "dropped"
+    },
+    {
+      "added": "2026-10-31",
+      "type": "reel",
+      "idea": "Hook: Housie in progress, Myra's phone rings on video call, her brother: \"Didi, tilak?\" Context: it is Bhai Dooj and Myra props the phone on the sofa and does roli tilak on the screen while Shruti keeps calling numbers and Tanya cuts Myra's ticket for her. Ending: the brother shouts \"Didi, 45! Cut karo!\" because he was watching her ticket, and Myra wins Early Five.",
+      "format": "Festival moment inside Housie",
+      "source": "Trend: Festival window: Bhai Dooj 11 Nov (hindutone.com) + LEARNINGS: start on a game in progress",
+      "score": 10,
+      "used": ""
+    },
+    {
+      "added": "2026-10-31",
+      "type": "reel",
+      "idea": "Hook: Shruti holds a printed 2014 kitty group photo next to her phone camera: \"Aaj same photo, same pose!\" Context: memory lane theme, Tanya, Ruhi and Myra squeeze onto the same sofa in the same positions, Tanya's old saree no longer drapes so she wraps it over her suit. Ending: the old and new photos side by side, everyone changed except the host's sofa cover.",
+      "format": "Then vs now reveal",
+      "source": "Trend: Memory lane kitty (momjunction.com) + Expectation vs reality split (socialketchup.in)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-31",
+      "type": "reel",
+      "idea": "Hook: Tanya unrolls paper sashes: \"Aaj Kitty Awards! Pehla award: Sabse Late!\" Context: every award (Phone pe busy, Hisaab Queen, Main kuch sweet laaungi) gets the whole room pointing at one lady, and Myra walks in mid-ceremony to collect Sabse Late. Ending: \"Sabse zyada gossip\" goes to Shruti, who is whispering in a corner and does not hear her name.",
+      "format": "Award show",
+      "source": "Trend: Runway and award sashes (momjunction.com)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-31",
+      "type": "game",
+      "idea": "Diwali chitr Housie: tickets carry 15 small Diwali drawings instead of numbers (diya, ladoo, phuljhadi, rangoli, kandeel, Lakshmi coin, kaju katli) from a printed sheet of 30. The host pulls picture chits and calls them out. Twist: every fifth chit is acted out by the host without speaking, and anyone who cuts the wrong picture loses her last cut.",
+      "format": "Housie with a twist",
+      "source": "Trend: Symbol Housie (republicworld.com) + our Housie winner (KG-2026-10-22-c 1161 views)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-10-31",
+      "type": "game",
+      "idea": "Bhai Dooj tilak: in pairs, one lady plays the bhai and the other is blindfolded with a roli plate and a few rice grains. In 1 minute she must put a tilak and stick 3 grains on the bhai's forehead. Twist: the bhai holds a whole ladoo in her mouth and must not laugh; if any crumb falls the pair is out. Closest-to-centre tilak wins.",
+      "format": "One-minute pair game",
+      "source": "Trend: Festival window: Bhai Dooj 11 Nov (hindutone.com) + one-minute game demos",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-10-31",
+      "type": "game",
+      "idea": "Bachpan photo pehchano: a week before, every lady sends the host one childhood photo. On the day the host shows them on a phone or printouts one by one and everyone writes who it is. Twist: the lady in the photo must also write a guess, and if she fools the room by guessing someone else she gets double points.",
+      "format": "Guess game",
+      "source": "Trend: Festival window: Children's Day 14 Nov (hindutone.com) + Memory lane kitty (momjunction.com)",
+      "score": 9,
+      "used": ""
     }
   ],
   "carousels": [
@@ -5492,6 +5546,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-10-31",
+      "pattern": "Symbol Housie",
+      "source": "\"Fun Diwali party game ideas to enjoy with family and friends\" (play housie with Diya, Ladoo, Lakshmi instead of numbers)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.republicworld.com/web-stories/lifestyle/fun-diwali-party-game-ideas-to-enjoy-with-family-and-friends",
+      "learn": "Housie stays our best game; swapping numbers for festival pictures makes a fresh, visual ticket that reads in one frame."
+    },
+    {
+      "date": "2026-10-31",
+      "pattern": "Memory lane kitty",
+      "source": "\"Kitty party themes\" (recreate the past: invite collage of earlier kitty photos, loop old party videos)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.momjunction.com/articles/kitty-party-themes_00658024",
+      "learn": "Old group photo vs today is a real theme with a built-in then-vs-now reveal; copy the side-by-side structure."
+    },
+    {
+      "date": "2026-10-31",
+      "pattern": "Runway and award sashes",
+      "source": "\"Kitty party themes\" (red carpet / fashion show with crowns and sashes for winners)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.momjunction.com/articles/kitty-party-themes_00658024",
+      "learn": "Sashes and titles give every lady a label the audience can tag a friend with; award the habits, not the outfits."
+    },
+    {
+      "date": "2026-10-31",
+      "pattern": "Expectation vs reality split",
+      "source": "Social Ketchup weekly reel trend roundups (expectation vs reality videos set to one trending tune)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.socialketchup.in/instagram-reel-trends-of-the-week",
+      "learn": "A two-part plan-vs-what-happened structure on one audio is an evergreen reel shape; use it on a real kitty moment."
+    },
+    {
+      "date": "2026-10-31",
+      "pattern": "Festival window: Bhai Dooj 11 Nov + Guru Nanak Jayanti 24 Nov",
+      "source": "\"November 2026 Festivals State-Wise in India\" (Diwali 8 Nov, Bhaiya Dooj Wed 11 Nov, Children's Day Sat 14 Nov, Chhath Sun 15 Nov, Guru Nanak Jayanti Tue 24 Nov)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/november-2026-festivals-state-wise-india/",
+      "learn": "Diwali 8 days (+2), Bhai Dooj 11, Children's Day 14 and Chhath 15 days out all earn +2 now; Guru Nanak Jayanti enters the window on 3 Nov."
+    },
     {
       "date": "2026-10-30",
       "pattern": "Festival window: Diwali 9 days + Bhai Dooj",
