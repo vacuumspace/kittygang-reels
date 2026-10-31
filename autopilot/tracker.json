@@ -4892,6 +4892,37 @@
         "no shot over 5 s (5.5 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-31-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-01",
+      "created": "2026-11-01",
+      "title": "Safai ka plan vs Housie",
+      "format": "Theme Housie",
+      "theme": "gharkisafai",
+      "story": "ai",
+      "variant": "meme-format",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya plans to clean the whole house at 10 AM, sits down for just one 12 PM Ghar Ki Safai game, and by the end has cleaned Khidki, Jhaadu and a Full House on her ticket while Myra does the real sweeping.",
+      "beats": "hook: 10 AM safai plan / setup: 11:58, bas ek game / esc 1: Khidki line, Shruti: ticket wali? / esc 2: Jhaadu line, Myra is the one holding the jhaadu / turn: Full House, poora ghar saaf / button: Myra asks when the real house, Tanya: 3 baje wale game ke baad",
+      "experiment": {
+        "format": "meme-format",
+        "hook": "Tanya mid-swing with a jhaadu in her living room, cobweb and bucket around her, swish sound at 0 s, chip '10:00 AM', she says 'Aaj poora ghar chamkega!'",
+        "variable": "a well-known Indian reel pattern (the big safai plan that gets derailed, told with clock jumps) where the theme's own prize groups (Khidki, Jhaadu, Balti, Pocha) are the joke: she cleans them on the ticket, not in the house",
+        "hypothesis": "a chore every viewer is doing this Diwali week plus a familiar meme shape stops the swipe and earns tags: skip under 58%, watched % above 22, at least 3 shares"
+      },
+      "duration": 42.8,
+      "lufs": null,
+      "caption": "Ghar Ki Safai Housie khelo, ghar apne aap saaf! Aapke ghar mein safai kaun karta hai? Tag karo!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #gharkisafai #diwalisafai #fullhouse",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-01.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-01-cover.jpg",
+      "job_id": "d50a02b5-2419-4c85-ba71-36614b840f7f",
+      "permalink": "https://www.instagram.com/reel/DfK2NXtkjGS/",
+      "media_id": "18201085786388010",
+      "yt_id": "SkFDEMJ6w6g",
+      "yt_url": "https://youtube.com/shorts/SkFDEMJ6w6g",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
