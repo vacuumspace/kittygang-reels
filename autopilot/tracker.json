@@ -4473,6 +4473,195 @@
       "yt_id": "PNMR70aAwLA",
       "yt_url": "https://youtube.com/shorts/PNMR70aAwLA",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-10-31-a",
+      "created": "2026-10-31",
+      "title": "Hamper ka asli safar",
+      "format": "POV: the viewer is the host at the Diwali kitty, the gang talks to camera, hamper tag close-ups",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Shruti",
+        "Aditi"
+      ],
+      "caption": "Diwali hamper ka asli safar: aapse, aap tak. Tag the friend jo har saal hamper ghuma deti hai!",
+      "status": "queued",
+      "idea": "You are the host; Ruhi gifts you a Diwali hamper whose tag has your own name on it, every hamper on the table turns out regifted, and the oldest tag shows the chain started with you.",
+      "beats": "hook: Ruhi 'Sirf aapke liye!' / setup: tag has your name / esc: Ruhi's hamper, Shruti's hamper from Ruhi, Aditi's with 4 names crossed out / twist: first name on the oldest tag is yours / button: Ruhi hands it back 'Sirf aapke liye!', Aditi 'Phir se.'",
+      "experiment": {
+        "type": "pov",
+        "hook": "Ruhi leans into the lens with a gift box, 'Happy Diwali! Sirf aapke liye!', chip 'AAP HOST HO' so the viewer is in the scene from frame one",
+        "variable": "direct address: the gang talks to the camera as if the viewer is the host, and the twist lands on the viewer ('aapka naam')",
+        "hypothesis": "being put inside the joke cuts the 3 s skip below 55% (recent reels 63-73%) and the regifting topic gets at least 4 shares from 'tag the friend who regifts'"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Happy Diwali! Sirf aapke liye!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kholo na! Ekdum naya hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Tag pe toh... aapka naam hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre, naam same hoga!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Saal bhi same? 2025?",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Diwali toh har saal aati hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruko. Mera wala dekho.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Yeh toh maine tumhe diya tha!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Packing achhi thi. Waste kyun karein?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Shruti!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Mera wala chautha saal ghoom raha hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chautha saal?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Pehle kiska tha?!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Sabse pehla naam...",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "...aapka.",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Toh shuru aapne kiya tha!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaw, host ji!",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Happy Diwali! Sirf aapke liye!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Phir se.",
+          "beat": "button"
+        }
+      ],
+      "duration": 38.56,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Diwali hamper regifting is something every kitty group laughs about right now. POV: the viewer is the host, so the twist is personal ('sabse pehla naam... aapka'). Every tag is shown on a chip so a muted viewer reads the game: your name (2025), Ruhi's name on Shruti's hamper, 4 names crossed out on Aditi's, then the oldest name is yours (2022). Claim before reveal: Ruhi proudly 'Ekdum naya!' then the tag. Endings tried: (1) bank idea, all hampers go in the middle as the Housie prize, nice but a new beat after the twist and no callback; (2) the host writes a new tag for Ruhi, needs the viewer to act, not possible in POV; (3) kept: Ruhi pushes the same hamper back at the camera with the opening line, Aditi deadpans 'Phir se.', loops into the start. Rewrite 1 cut 'Tina' (show-off reels flat) and swapped the hook from a doorbell entrance to the hamper in the lens, since entrances lost 6-7 in 10 in 3 s. Every shot holds at most 2 short lines so none runs near 4 s (the group-chat reels failed QA on a 5.4 s shot). On-screen words avoid 'POV' (audience rule); the chip says 'AAP HOST HO'."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-31-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-31-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-31-a-board.jpg",
+      "queue_id": "d70c90f3-bfde-4f76-9263-761e56308c4a",
+      "scheduled_ist": "2026-11-05 19:38",
+      "yt_id": "-mZGwVZ1LQo",
+      "yt_url": "https://youtube.com/shorts/-mZGwVZ1LQo",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
