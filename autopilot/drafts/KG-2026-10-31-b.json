@@ -1,0 +1,347 @@
+{
+  "id": "KG-2026-10-31-b",
+  "title": "Bachpan kitty ki monitor",
+  "format": "Types-of: Bachpan (school) theme kitty, each member is a class type with a chip, Housie running at the table",
+  "idea": "At the Children's Day Bachpan theme kitty, Shruti plays class monitor and writes the name of everyone who talks during Housie on the board, until she shouts Full House herself.",
+  "logline": "At the school-theme kitty, monitor Shruti puts everyone who talks during Housie on the board, then shouts Full House without raising her hand and loses her own prize.",
+  "game": "whoever talks during Housie gets her name on the monitor's board",
+  "mute": [
+    "school theme kitty, Shruti with a duster is the monitor, Housie cage running",
+    "she points at the board: talk and your name goes up",
+    "Ruhi whispers gossip during a number",
+    "Ruhi's name goes on the board",
+    "Myra jumps up shouting a claim",
+    "Myra goes on the board, she did not know the rule",
+    "even Tanya the host laughs and goes on the board",
+    "Tanya argues, Shruti wins: board has three names",
+    "last number, Shruti jumps up shouting Full House",
+    "everyone points: you did not raise your hand",
+    "Shruti raises her hand too late, prize cancelled, her name on the board",
+    "Ruhi now holds the duster and is the monitor, Shruti silenced"
+  ],
+  "beats": "hook: monitor Shruti 'Silence!' / setup: talk = name on board / esc: Ruhi gossip, Myra claims, Tanya the host laughs / twist: Shruti shouts Full House without raising her hand, cancelled / button: Ruhi with the duster 'Silence! Housie chal rahi hai!'",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Shruti slams a duster with the cage tumbling and shouts 'Silence! Housie chal rahi hai!', chip 'TYPE 1: MONITOR', so a game in progress and the reel's pattern land in the first 2 s",
+    "variable": "a types-of line-up with a type chip per member, inside one running Housie scene instead of separate cut-away portraits",
+    "hypothesis": "school-days nostalgia plus the 'every class has one' label gets tagged like the Diwali safai winner: skip under 58% and at least 4 shares and 4 saves (types-of reels are made for 'tag your monitor')"
+  },
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Second draft. First draft had a fifth character (Tanya's son walking in) we cannot draw and a twist told, not shown; now the twist is a see-it moment (Shruti jumps and shouts, everyone points, her hand goes up late). Shruti the budget queen as a power-tripping monitor is in character. Board chip grows each beat so muted viewers track the game. Button mirrors the hook with Ruhi holding the duster. Every kitty has a Shruti: strong tag trigger."
+  },
+  "cover": {
+    "shot": 11,
+    "at": 0.8,
+    "title": ["Bachpan theme kitty", "Monitor ka naam board pe!"]
+  },
+  "caption": "Har kitty mein ek monitor hoti hai jo sabka naam likhti hai... apna kabhi nahi. Tag your monitor!",
+  "hashtags": ["#kittyparty", "#kittygang", "#childrensday", "#bachpan", "#housie", "#tambola", "#ladieskitty"],
+  "ambience": { "name": "crowd", "vol": 0.1 },
+  "pace": 24,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "front": true,
+      "camera": "punch",
+      "chip": "TYPE 1: MONITOR",
+      "chipY": 600,
+      "chars": [
+        { "name": "Shruti", "x": 480, "y": 1760, "s": 2.2, "pose": "talkR", "mouth": "o", "eyes": "open", "turn": 0 },
+        { "name": "Ruhi", "x": 860, "y": 1330, "s": 1.25, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Duster", "x": 640, "y": 1180, "s": 2.2, "rot": -25 },
+        { "name": "Housie cage", "x": 180, "y": 1720, "s": 2.2 },
+        { "name": "Housie ticket", "x": 860, "y": 1700, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.45 },
+        { "at": 0.15, "name": "thud", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Shruti", "text": "Silence! Housie chal rahi hai!", "say": "साइलेंस! हाउज़ी चल रही है!", "beat": "hook" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "chip": "BOARD: KHAALI",
+      "chipY": 600,
+      "chars": [
+        { "name": "Shruti", "x": 330, "y": 1760, "s": 2.1, "pose": "talkR", "mouth": "smirk", "eyes": "half", "turn": 0.5 },
+        { "name": "Myra", "x": 800, "y": 1760, "s": 1.9, "pose": "hold", "mouth": "o", "eyes": "open", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Scoreboard", "x": 560, "y": 1250, "s": 2.6 },
+        { "name": "Duster", "x": 470, "y": 1180, "s": 2, "rot": -20 },
+        { "name": "Housie ticket", "x": 820, "y": 1300, "s": 1.3 }
+      ],
+      "lines": [
+        { "who": "Shruti", "text": "Jo bolegi, uska naam board pe!", "say": "जो बोलेगी, उसका नाम बोर्ड पे!", "beat": "setup" },
+        { "who": "Myra", "text": "Board?!", "say": "बोर्ड?!", "gap": 0.04 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "chip": "TYPE 2: BAATOONI",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 220, "y": 1760, "s": 1.9, "pose": "hold", "mouth": "laugh", "turn": 0.4 },
+        { "name": "Ruhi", "x": 600, "y": 1330, "s": 1.25, "pose": "talkR", "mouth": "smirk", "eyes": "side", "turn": 0.6 },
+        { "name": "Myra", "x": 860, "y": 1330, "s": 1.25, "pose": "relaxed", "mouth": "o", "eyes": "open", "turn": -0.6 }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 330, "y": 1830, "s": 1.8 },
+        { "name": "Ball 20", "x": 300, "y": 1080, "s": 1.8, "at": 0.2 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.35 },
+        { "at": 0.2, "name": "ballpop", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Number bees!", "say": "नंबर बीस!", "beat": "escalation" },
+        { "who": "Ruhi", "text": "Psst... Sharma ji ki bahu na...", "say": "श्श... शर्मा जी की बहू ना...", "gap": 0.05 },
+        { "who": "Myra", "text": "Kya?!", "say": "क्या?!", "gap": 0.03 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "camera": "punch",
+      "chip": "BOARD: RUHI",
+      "chipY": 600,
+      "chars": [
+        { "name": "Shruti", "x": 330, "y": 1760, "s": 2.1, "pose": "talkR", "mouth": "o", "eyes": "open", "turn": 0.5 },
+        { "name": "Ruhi", "x": 800, "y": 1760, "s": 1.9, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Scoreboard", "x": 560, "y": 1250, "s": 2.6 },
+        { "name": "Duster", "x": 470, "y": 1180, "s": 2, "rot": -20 }
+      ],
+      "stickers": [ { "kind": "exclaim", "x": 820, "y": 820, "at": 0.4 } ],
+      "lines": [
+        { "who": "Shruti", "text": "Ruhi! Naam board pe!", "say": "रुही! नाम बोर्ड पे!", "punch": true, "beat": "escalation" },
+        { "who": "Ruhi", "text": "Main toh news de rahi thi!", "say": "मैं तो न्यूज़ दे रही थी!", "gap": 0.05 },
+        { "who": "Shruti", "text": "News bhi talking hai!", "say": "न्यूज़ भी टॉकिंग है!", "punch": true, "gap": 0.04 }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "chip": "TYPE 3: NAYI ADMISSION",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 260, "y": 1760, "s": 1.9, "pose": "hold", "mouth": "laugh", "turn": 0.5 },
+        { "name": "Myra", "x": 760, "y": 1740, "s": 2, "pose": "wave", "mouth": "laugh", "eyes": "laugh", "turn": -0.4, "hop": true }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 360, "y": 1830, "s": 1.8 },
+        { "name": "Ball 45", "x": 520, "y": 1080, "s": 1.8, "at": 0.15 },
+        { "name": "Housie ticket", "x": 900, "y": 1180, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.35 },
+        { "at": 0.15, "name": "ballpop", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Paintalees!", "say": "पैंतालीस!", "beat": "escalation" },
+        { "who": "Myra", "text": "Mera! Jaldi Five! Jaldi Five!", "say": "मेरा! जल्दी फ़ाइव! जल्दी फ़ाइव!", "gap": 0.03 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "chip": "BOARD: RUHI, MYRA",
+      "chipY": 600,
+      "chars": [
+        { "name": "Shruti", "x": 330, "y": 1760, "s": 2.1, "pose": "talkR", "mouth": "flat", "eyes": "half", "turn": 0.5 },
+        { "name": "Myra", "x": 800, "y": 1760, "s": 1.9, "pose": "relaxed", "mouth": "o", "eyes": "open", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Scoreboard", "x": 560, "y": 1250, "s": 2.6 },
+        { "name": "Duster", "x": 470, "y": 1180, "s": 2, "rot": -20 }
+      ],
+      "stickers": [ { "kind": "question", "x": 860, "y": 820, "at": 1.2 } ],
+      "lines": [
+        { "who": "Shruti", "text": "Haath utha ke bolo! Naam likh diya!", "say": "हाथ उठा के बोलो! नाम लिख दिया!", "beat": "escalation" },
+        { "who": "Myra", "text": "Yeh rule kab bana?!", "say": "ये रूल कब बना?!", "punch": true, "gap": 0.05 }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "chip": "TYPE 4: CLASS TEACHER",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 300, "y": 1760, "s": 2, "pose": "laughs", "mouth": "laugh", "eyes": "laugh", "turn": 0.4 },
+        { "name": "Shruti", "x": 780, "y": 1760, "s": 2, "pose": "talkL", "mouth": "smirk", "eyes": "half", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 130, "y": 1830, "s": 1.6 },
+        { "name": "Duster", "x": 680, "y": 1180, "s": 2, "rot": 20 }
+      ],
+      "sfx": [ { "at": 0.1, "name": "laughv", "vol": 0.35 } ],
+      "lines": [
+        { "who": "Tanya", "text": "Haha! Nayi hai bechari!", "say": "हाहा! नई है बेचारी!", "beat": "escalation" },
+        { "who": "Shruti", "text": "Ma'am, aapka bhi naam!", "say": "मैम, आपका भी नाम!", "punch": true, "gap": 0.04 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "camera": "punch",
+      "chip": "BOARD: RUHI, MYRA, TANYA",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 300, "y": 1760, "s": 2, "pose": "hips", "mouth": "o", "eyes": "open", "turn": 0.5 },
+        { "name": "Shruti", "x": 780, "y": 1760, "s": 2, "pose": "talkL", "mouth": "smirk", "eyes": "half", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Scoreboard", "x": 560, "y": 1250, "s": 2.6 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Ghar mera hai!", "say": "घर मेरा है!", "beat": "escalation" },
+        { "who": "Shruti", "text": "Class meri hai!", "say": "क्लास मेरी है!", "punch": true, "gap": 0.04 }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "music": false,
+      "camera": "still",
+      "chip": "LAST NUMBER",
+      "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 260, "y": 1760, "s": 1.9, "pose": "hold", "mouth": "flat", "eyes": "half", "turn": 0.5 },
+        { "name": "Shruti", "x": 760, "y": 1740, "s": 2.1, "pose": "wave", "mouth": "laugh", "eyes": "laugh", "turn": -0.3, "hop": true }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 360, "y": 1830, "s": 1.8 },
+        { "name": "Ball 90", "x": 520, "y": 1080, "s": 1.8, "at": 0.5 },
+        { "name": "Housie ticket", "x": 900, "y": 1180, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.35 },
+        { "at": 0.5, "name": "ballpop", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Aakhri number... nabbe.", "say": "आख़िरी नंबर... नब्बे।", "silenceBefore": true, "beat": "turn" },
+        { "who": "Shruti", "text": "FULL HOUSE! Mera Full House!", "say": "फ़ुल हाउस! मेरा फ़ुल हाउस!", "gap": 0.03, "beat": "turn" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "camera": "punch",
+      "chars": [
+        { "name": "Ruhi", "x": 230, "y": 1760, "s": 1.8, "pose": "talkR", "mouth": "smirk", "eyes": "side", "turn": 0.5 },
+        { "name": "Myra", "x": 540, "y": 1760, "s": 1.8, "pose": "talkR", "mouth": "o", "eyes": "open", "turn": 0.5 },
+        { "name": "Tanya", "x": 860, "y": 1760, "s": 1.8, "pose": "hips", "mouth": "smirk", "eyes": "half", "turn": -0.4 }
+      ],
+      "stickers": [ { "kind": "exclaim", "x": 540, "y": 760, "at": 0.3 } ],
+      "sfx": [ { "at": 0.05, "name": "haww", "vol": 0.5 } ],
+      "lines": [
+        { "who": "ALL", "text": "Haath?!", "say": "हाथ?!", "punch": true, "beat": "turn" }
+      ],
+      "hold": 0.35
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "chars": [
+        { "name": "Shruti", "x": 330, "y": 1760, "s": 2.1, "pose": "wave", "mouth": "o", "eyes": "open", "turn": 0.5 },
+        { "name": "Tanya", "x": 790, "y": 1760, "s": 2, "pose": "talkL", "mouth": "smirk", "eyes": "half", "turn": -0.5 }
+      ],
+      "props": [ { "name": "Housie ticket", "x": 200, "y": 1150, "s": 1.4 } ],
+      "stickers": [ { "kind": "sweat", "x": 430, "y": 1000, "at": 0.3 } ],
+      "lines": [
+        { "who": "Shruti", "text": "Ma'am... Full House?", "say": "मैम... फ़ुल हाउस?", "beat": "turn" },
+        { "who": "Tanya", "text": "Late ho gaya. Cancel!", "say": "लेट हो गया। कैंसल!", "punch": true, "gap": 0.05 }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "camera": "push",
+      "chip": "BOARD: SHRUTI",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 330, "y": 1760, "s": 2.1, "pose": "talkR", "mouth": "laugh", "eyes": "laugh", "turn": 0.5 },
+        { "name": "Shruti", "x": 800, "y": 1760, "s": 1.9, "pose": "relaxed", "mouth": "o", "eyes": "open", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Scoreboard", "x": 560, "y": 1250, "s": 2.6 },
+        { "name": "Duster", "x": 470, "y": 1180, "s": 2, "rot": -20 }
+      ],
+      "sfx": [ { "at": 0.6, "name": "rimshot", "vol": 0.4 } ],
+      "lines": [
+        { "who": "Ruhi", "text": "Monitor ka naam bhi board pe!", "say": "मॉनिटर का नाम भी बोर्ड पे!", "punch": true, "beat": "turn" }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BACHPAN KITTY",
+      "front": true,
+      "camera": "punch",
+      "chip": "NAYI MONITOR",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 480, "y": 1760, "s": 2.2, "pose": "talkR", "mouth": "smirk", "eyes": "half", "turn": 0.3 },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "pose": "wave", "mouth": "o", "eyes": "half", "turn": -0.5 }
+      ],
+      "props": [
+        { "name": "Duster", "x": 640, "y": 1180, "s": 2.2, "rot": -25 },
+        { "name": "Housie cage", "x": 180, "y": 1720, "s": 2.2 },
+        { "name": "Housie ticket", "x": 860, "y": 1700, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.45 },
+        { "at": 0.15, "name": "thud", "vol": 0.5 }
+      ],
+      "lines": [
+        { "who": "Ruhi", "text": "Silence! Housie chal rahi hai!", "say": "साइलेंस! हाउज़ी चल रही है!", "beat": "button" },
+        { "who": "Shruti", "text": "Main bolun?", "say": "मैं बोलूँ?", "gap": 0.05, "beat": "button" },
+        { "who": "Ruhi", "text": "Nahi!", "say": "नहीं!", "punch": true, "gap": 0.03, "beat": "button" }
+      ],
+      "hold": 0.7
+    }
+  ]
+}
