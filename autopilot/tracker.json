@@ -5543,6 +5543,34 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/taash-housie-diwali-card-party-kitty-game",
       "queue_id": "7715ddec-e3d5-4a57-a70d-f78f6c686ab6",
       "scheduled_ist": "2026-10-31 10:58"
+    },
+    {
+      "id": "KGI-011",
+      "n": 11,
+      "created": "2026-10-31",
+      "game": "Diya Batti Race",
+      "tagline": "Batti khadi, Lakshmi ji aayi!",
+      "players": "8 to 20 (everyone plays at once)",
+      "time": "10 minutes",
+      "slug": "diya-batti-race-diwali-kitty-party-game",
+      "caption": "Diwali se pehle kitty mein yeh khelo! 1 minute, 5 diye, rui ki khadi batti, aur beech beech mein Lakshmi ji aa jaati hain. Aap 1 minute mein kitni battiyan bana logi?",
+      "status": "queued",
+      "slides": 9,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/s9.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/diya-batti-race-diwali-kitty-party-game",
+      "queue_id": "d4076112-c74f-4ffa-b91a-ba15c7f37c28",
+      "scheduled_ist": "2026-11-01 17:15"
     }
   ],
   "research": [
