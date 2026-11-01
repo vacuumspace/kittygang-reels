@@ -5150,6 +5150,205 @@
         "no shot over 5 s (5.1 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-01-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-11-01-b",
+      "created": "2026-11-01",
+      "title": "Bachpan kitty ki monitor",
+      "format": "Types-of: Bachpan (school) theme kitty, each member is a class type with a chip, Housie running at the table",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Ruhi",
+        "Myra",
+        "Tanya"
+      ],
+      "caption": "Har kitty mein ek monitor hoti hai jo sabka naam likhti hai... apna kabhi nahi. Tag your monitor!",
+      "status": "needs-fix",
+      "idea": "At the Children's Day Bachpan theme kitty, Shruti plays class monitor and writes the name of everyone who talks during Housie on the board, until she shouts Full House herself.",
+      "beats": "hook: monitor Shruti 'Silence!' / setup: talk = name on board / esc: Ruhi gossip, Myra claims, Tanya the host laughs / twist: Shruti shouts Full House without raising her hand, cancelled, her name on the board / button: Ruhi with the duster 'Silence! Housie chal rahi hai!'",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Shruti slams a duster with the cage tumbling and shouts 'Silence! Housie chal rahi hai!', chip 'TYPE 1: MONITOR', so a game in progress and the reel's pattern land in the first 2 s",
+        "variable": "a types-of line-up with a type chip per member, inside one running Housie scene instead of separate cut-away portraits",
+        "hypothesis": "school-days nostalgia plus the 'every class has one' label gets tagged like the Diwali safai winner: skip under 58% and at least 4 shares and 4 saves (types-of reels are made for 'tag your monitor')"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Silence! Housie chal rahi hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Jo bolegi, naam board pe!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Board?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Number bees!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Psst... Sharma ji ki bahu...",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruhi! Naam board pe!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "News thi, news!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "News bhi talking hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Paintalees!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera! Jaldi Five!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haath utha ke! Naam likh diya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Yeh rule kab bana?!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haha! Nayi hai bechari!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ma'am, aapka bhi naam!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aakhri number... nabbe.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "FULL HOUSE! Mera!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Haath?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haath late utha. Cancel!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Monitor bhi board pe!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Silence! Housie chal rahi hai!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Main bolun?",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Nahi!",
+          "beat": "button"
+        }
+      ],
+      "duration": 38.15,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Fix of KG-2026-11-01-a (QA: one 5.1 s shot). The 3-line 'Ruhi! Naam board pe! / News thi, news! / News bhi talking hai!' shot ran 5.1-5.5 s in both renders, so it is now two shots (the claim and excuse, then Shruti's comeback in a closer push). Trimmed Ruhi's cancel line to 'Monitor bhi board pe!' so that shot stays near 4 s. 12 shots, every one estimated under 4.4 s, reel about 39 s. Same game, twist, mirrored button and experiment."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.28 w/s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-01-b-board.jpg"
     }
   ],
   "ideas": [
