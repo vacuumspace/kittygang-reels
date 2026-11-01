@@ -5349,6 +5349,31 @@
         "voice pace >= 2.3 words/s (2.28 w/s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-01-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-02",
+      "created": "2026-11-02",
+      "title": "Rangai Putai Housie night",
+      "format": "Theme Housie",
+      "theme": "rangaiputai",
+      "story": "pov",
+      "variant": "pov-sab-aa-gaye",
+      "hook": "POV: sab aa gaye, game shuru",
+      "cast": [],
+      "status": "posted",
+      "idea": "Theme of the day reel: Rangai Putai, games 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM",
+      "ai_error": "Command failed: npx remotion render AutoReel out/TH-2026-11-02.mp4 --props=autopilot/timed/TH-2026-11-02.json --log=error",
+      "duration": 26.5,
+      "lufs": null,
+      "caption": "Aaj ki Housie theme: Rangai Putai\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM. Ticket lo, number suno, Full House maaro!\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittypartygames #ladieskitty #housienight",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-02.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-02-cover.jpg",
+      "job_id": "3c670a42-a9b2-4a65-8927-5bec157eff60",
+      "permalink": "https://www.instagram.com/reel/DfNbG_ZiTfu/",
+      "media_id": "18358938628170056",
+      "yt_id": "LEWwS0NABmw",
+      "yt_url": "https://youtube.com/shorts/LEWwS0NABmw",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
