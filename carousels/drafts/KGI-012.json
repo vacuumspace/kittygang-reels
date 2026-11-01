@@ -1,0 +1,701 @@
+{
+  "id": "KGI-012",
+  "n": 12,
+  "slug": "ghat-ka-diya-paper-boat-kitty-party-game",
+  "game": "Ghat Ka Diya",
+  "tagline": "Phoonk maaro, naav paar karo!",
+  "cover_art": [
+    {
+      "k": "svg",
+      "markup": "<path d='M240 230 L840 230 Q830 350 540 350 Q250 350 240 230 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></path><path d='M252 250 L828 250 Q820 336 540 336 Q260 336 252 250 Z' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='3'></path><path d='M300 270 q20 -10 40 0 M700 280 q20 -10 40 0' stroke='#5B8DEF' stroke-width='4' fill='none'></path>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='rotate(0 470 250)'><path d='M365.5 203.8 L574.5 203.8 L533.8 254.4 L406.2 254.4 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><path d='M365.5 203.8 L393 173 L415 203.8 M574.5 203.8 L547 173 L525 203.8' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><rect x='448' y='181.8' width='44' height='22' rx='4.4' fill='#FFFFFF' stroke='#4A1238' stroke-width='3.3'></rect><path d='M470 151 Q481 168.6 470 179.6 Q459 168.6 470 151 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='2.8'></path></g>"
+    },
+    {
+      "k": "person",
+      "x": 130,
+      "y": 180,
+      "s": 1.25,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1='168' y1='152' x2='330' y2='215' stroke='#4A1238' stroke-width='14' stroke-linecap='round'></line><line x1='168' y1='152' x2='330' y2='215' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></line>"
+    },
+    {
+      "k": "arrow",
+      "x1": 580,
+      "y1": 150,
+      "x2": 720,
+      "y2": 150,
+      "color": "pink",
+      "w": 10
+    },
+    {
+      "k": "person",
+      "x": 960,
+      "y": 180,
+      "s": 1.25,
+      "color": "green"
+    },
+    {
+      "k": "box",
+      "x": 960,
+      "y": 40,
+      "w": 150,
+      "h": 80,
+      "color": "#DDEBFF",
+      "text": "HAWA"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d='M840 140 q15 -12 30 0 q15 12 30 0 M850 160 q15 -12 30 0 q15 12 30 0' stroke='#5B8DEF' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+    },
+    {
+      "k": "text",
+      "x": 40,
+      "y": 340,
+      "text": "    ",
+      "size": 40
+    },
+    {
+      "k": "text",
+      "x": 1060,
+      "y": 10,
+      "text": "    ",
+      "size": 40
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 6 cheezein",
+    "items": [
+      {
+        "label": "Parat mein paani",
+        "sub": "har team ki ek",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<path d='M50 80 L250 80 Q240 170 150 170 Q60 170 50 80 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></path><path d='M62 100 L238 100 Q230 156 150 156 Q70 156 62 100 Z' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='3'></path><path d='M110 120 q20 -10 40 0 M110 130 q20 -10 40 0' stroke='#5B8DEF' stroke-width='4' fill='none'></path>"
+          },
+          {
+            "k": "text",
+            "x": 30,
+            "y": 40,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 270,
+            "y": 190,
+            "text": "    ",
+            "size": 40
+          }
+        ]
+      },
+      {
+        "label": "Kaagaz ki naav",
+        "sub": "har team 2 naav",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='rotate(0 150 130)'><path d='M45.5 83.8 L254.5 83.8 L213.8 134.4 L86.2 134.4 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><path d='M45.5 83.8 L73 53 L95 83.8 M254.5 83.8 L227 53 L205 83.8' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path></g>"
+          },
+          {
+            "k": "text",
+            "x": 30,
+            "y": 30,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 270,
+            "y": 180,
+            "text": "    ",
+            "size": 40
+          }
+        ]
+      },
+      {
+        "label": "LED diya",
+        "sub": "battery wala, aag nahi",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<rect x='98' y='88' width='104' height='52' rx='10.4' fill='#FFFFFF' stroke='#4A1238' stroke-width='7.8'></rect><path d='M150 15.2 Q176 56.8 150 82.8 Q124 56.8 150 15.2 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='6.5'></path>"
+          },
+          {
+            "k": "text",
+            "x": 60,
+            "y": 0,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 240,
+            "y": 170,
+            "text": "    ",
+            "size": 40
+          }
+        ]
+      },
+      {
+        "label": "Straw",
+        "sub": "har lady ka apna",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<line x1='70' y1='160' x2='230' y2='60' stroke='#4A1238' stroke-width='19.6' stroke-linecap='round'></line><line x1='70' y1='160' x2='230' y2='60' stroke='#E85D8A' stroke-width='11.2' stroke-linecap='round'></line>"
+          },
+          {
+            "k": "text",
+            "x": 40,
+            "y": 30,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 260,
+            "y": 190,
+            "text": "    ",
+            "size": 40
+          }
+        ]
+      },
+      {
+        "label": "Hawa card",
+        "sub": "har team ko ek",
+        "draw": [
+          {
+            "k": "box",
+            "x": 150,
+            "y": 110,
+            "w": 200,
+            "h": 120,
+            "color": "#DDEBFF",
+            "text": "HAWA"
+          }
+        ]
+      },
+      {
+        "label": "Purani chaadar",
+        "sub": "parat ke neeche",
+        "draw": [
+          {
+            "k": "paper",
+            "x": 150,
+            "y": 120,
+            "w": 300,
+            "fold": 1
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Har team ka ek ghat",
+      "body": "Parat mein 2 inch paani. Ek taraf START, doosri taraf PAAR.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<ellipse cx='480' cy='330' rx='400' ry='170' fill='#D8D8E4' stroke='#4A1238' stroke-width='6'></ellipse><ellipse cx='480' cy='330' rx='360' ry='140' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='4'></ellipse><line x1='200' y1='220' x2='200' y2='440' stroke='#2FA37A' stroke-width='8' stroke-dasharray='18 12'></line><line x1='760' y1='220' x2='760' y2='440' stroke='#E85D8A' stroke-width='8' stroke-dasharray='18 12'></line><path d='M140 330 L170 300 L250 300 L280 330 L250 360 L170 360 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4'></path><circle cx='210' cy='330' r='14' fill='#FFC93C' stroke='#4A1238' stroke-width='3'></circle>"
+        },
+        {
+          "k": "text",
+          "x": 200,
+          "y": 145,
+          "text": "START",
+          "size": 36,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 145,
+          "text": "PAAR",
+          "size": 36,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 590,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 590,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 420,
+          "y": 590,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 540,
+          "y": 590,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 360,
+          "y": 720,
+          "text": "Team A, line mein",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "box",
+          "x": 780,
+          "y": 610,
+          "w": 260,
+          "h": 90,
+          "color": "white",
+          "text": "Neeche chaadar"
+        }
+      ]
+    },
+    {
+      "title": "Naav mein LED diya",
+      "body": "Kaagaz ki naav banao, beech mein battery wala diya rakho.",
+      "draw": [
+        {
+          "k": "paper",
+          "x": 150,
+          "y": 360,
+          "w": 280,
+          "fold": 0.5
+        },
+        {
+          "k": "arrow",
+          "x1": 290,
+          "y1": 360,
+          "x2": 400,
+          "y2": 360,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 620 420)'><path d='M430 336 L810 336 L736 428 L504 428 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='8' stroke-linejoin='round'></path><path d='M430 336 L480 280 L520 336 M810 336 L760 280 L720 336' fill='#F4F1E8' stroke='#4A1238' stroke-width='8' stroke-linejoin='round'></path><rect x='580' y='296' width='80' height='40' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='6'></rect><path d='M620 240 Q640 272 620 292 Q600 272 620 240 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 870,
+          "y": 250,
+          "text": "LED diya",
+          "size": 38,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 850,
+          "y1": 270,
+          "x2": 670,
+          "y2": 320,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 470,
+          "text": "Kaagaz",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "box",
+          "x": 480,
+          "y": 600,
+          "w": 380,
+          "h": 90,
+          "color": "yelSoft",
+          "text": "Asli diya bilkul nahi"
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 180,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 980,
+          "y": 660,
+          "text": "    ",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "title": "Straw se phoonk maaro",
+      "body": "Ek ek lady START se PAAR tak phoonke. Haath bilkul nahi.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M240 380 L900 380 Q890 510 570 510 Q250 510 240 380 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></path><path d='M252 400 L888 400 Q880 496 570 496 Q260 496 252 400 Z' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='3'></path><path d='M300 420 q20 -10 40 0 M760 430 q20 -10 40 0' stroke='#5B8DEF' stroke-width='4' fill='none'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 380 400)'><path d='M275.5 353.8 L484.5 353.8 L443.8 404.4 L316.2 404.4 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><path d='M275.5 353.8 L303 323 L325 353.8 M484.5 353.8 L457 323 L435 353.8' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><rect x='358' y='331.8' width='44' height='22' rx='4.4' fill='#FFFFFF' stroke='#4A1238' stroke-width='3.3'></rect><path d='M380 301 Q391 318.6 380 329.6 Q369 318.6 380 301 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='2.8'></path></g>"
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 330,
+          "s": 1.4,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1='172' y1='300' x2='285' y2='370' stroke='#4A1238' stroke-width='15.4' stroke-linecap='round'></line><line x1='172' y1='300' x2='285' y2='370' stroke='#E85D8A' stroke-width='8.8' stroke-linecap='round'></line>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M250 300 q12 -9.600000000000001 24 0 q12 9.600000000000001 24 0 M258 316 q12 -9.600000000000001 24 0 q12 9.600000000000001 24 0' stroke='#5B8DEF' stroke-width='4' fill='none' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "arrow",
+          "x1": 480,
+          "y1": 300,
+          "x2": 800,
+          "y2": 300,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 270,
+          "text": "Phoonk!",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 570,
+          "y": 600,
+          "text": "Paar hui? Agli lady ki baari",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 40,
+          "y": 180,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 920,
+          "y": 640,
+          "text": "    ",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "title": "Hawa card: ulti phoonk",
+      "body": "Har team ek baar doosri team ki naav par 5 second ulta phoonk sakti.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M220 400 L740 400 Q730 530 480 530 Q230 530 220 400 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></path><path d='M232 420 L728 420 Q720 516 480 516 Q240 516 232 420 Z' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='3'></path><path d='M280 440 q20 -10 40 0 M600 450 q20 -10 40 0' stroke='#5B8DEF' stroke-width='4' fill='none'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 480 420)'><path d='M375.5 373.8 L584.5 373.8 L543.8 424.4 L416.2 424.4 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><path d='M375.5 373.8 L403 343 L425 373.8 M584.5 373.8 L557 343 L535 373.8' fill='#F4F1E8' stroke='#4A1238' stroke-width='4.4' stroke-linejoin='round'></path><rect x='458' y='351.8' width='44' height='22' rx='4.4' fill='#FFFFFF' stroke='#4A1238' stroke-width='3.3'></rect><path d='M480 321 Q491 338.6 480 349.6 Q469 338.6 480 321 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='2.8'></path></g>"
+        },
+        {
+          "k": "person",
+          "x": 110,
+          "y": 350,
+          "s": 1.3,
+          "color": "pink",
+          "label": "Team A"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1='150' y1='322' x2='360' y2='395' stroke='#4A1238' stroke-width='14' stroke-linecap='round'></line><line x1='150' y1='322' x2='360' y2='395' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></line>"
+        },
+        {
+          "k": "arrow",
+          "x1": 330,
+          "y1": 300,
+          "x2": 430,
+          "y2": 300,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "person",
+          "x": 850,
+          "y": 350,
+          "s": 1.3,
+          "color": "green",
+          "label": "Team B"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M640 330 q15 -12 30 0 q15 12 30 0 M650 350 q15 -12 30 0 q15 12 30 0' stroke='#5B8DEF' stroke-width='5' fill='none' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "arrow",
+          "x1": 630,
+          "y1": 300,
+          "x2": 530,
+          "y2": 300,
+          "color": "blue",
+          "w": 10
+        },
+        {
+          "k": "box",
+          "x": 850,
+          "y": 170,
+          "w": 150,
+          "h": 80,
+          "color": "#DDEBFF",
+          "text": "HAWA"
+        },
+        {
+          "k": "timer",
+          "x": 480,
+          "y": 150,
+          "s": 0.5,
+          "text": "0:05"
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 60,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 620,
+          "text": "    ",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "title": "Diya gira? Wapas START",
+      "body": "Diya paani mein ya naav doobi, toh woh lady phir se START.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M40 380 L420 380 Q410 490 230 490 Q50 490 40 380 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></path><path d='M52 400 L408 400 Q400 476 230 476 Q60 476 52 400 Z' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='3'></path><path d='M100 420 q20 -10 40 0 M280 430 q20 -10 40 0' stroke='#5B8DEF' stroke-width='4' fill='none'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(0 230 400)'><path d='M135 358 L325 358 L288 404 L172 404 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path><path d='M135 358 L160 330 L180 358 M325 358 L300 330 L280 358' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path><rect x='210' y='338' width='40' height='20' rx='4' fill='#FFFFFF' stroke='#4A1238' stroke-width='3'></rect><path d='M230 310 Q240 326 230 336 Q220 326 230 310 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='2.5'></path></g>"
+        },
+        {
+          "k": "tick",
+          "x": 230,
+          "y": 560,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 230,
+          "y": 250,
+          "text": "Diya khada",
+          "size": 36,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M540 380 L920 380 Q910 490 730 490 Q550 490 540 380 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></path><path d='M552 400 L908 400 Q900 476 730 476 Q560 476 552 400 Z' fill='#BFE3F5' stroke='#5B8DEF' stroke-width='3'></path><path d='M600 420 q20 -10 40 0 M780 430 q20 -10 40 0' stroke='#5B8DEF' stroke-width='4' fill='none'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='rotate(24 730 410)'><path d='M635 368 L825 368 L788 414 L672 414 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path><path d='M635 368 L660 340 L680 368 M825 368 L800 340 L780 368' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='800' y='430' width='40' height='20' rx='4' fill='#FFFFFF' stroke='#4A1238' opacity='0.8' stroke-width='3'></rect><path d='M820 402 Q830 418 820 428 Q810 418 820 402 Z' fill='#FFC93C' stroke='#4A1238' opacity='0.8' stroke-width='2.5'></path>"
+        },
+        {
+          "k": "cross",
+          "x": 730,
+          "y": 560,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 730,
+          "y": 250,
+          "text": "Diya gira",
+          "size": 36,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 660,
+          "text": "Gira = naav wapas START",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 200,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 680,
+          "text": "    ",
+          "size": 40
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Pehle saari ladies paar, team jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Naav ko haath lagaya?",
+          "Naav wapas START."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Diya paani mein gira?",
+          "Woh lady phir se."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Hawa card sirf ek baar,",
+          "sirf 5 second."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Saari ladies sabse pehle paar,",
+          "woh team Ghat ki Rani!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Straw nahi, haath ka pankha",
+        "ya mudha kaagaz hilao."
+      ],
+      [
+        "Phoonkte waqt gaana:",
+        "\"Kaagaz ki kashti\" gungunao."
+      ],
+      [
+        "Final: do naav ek saath,",
+        "ek straw, ek lady."
+      ]
+    ],
+    "tip": "Glossy magazine ka page lo, naav der tak nahi galegi."
+  },
+  "comment_hint": "kaunsi team?",
+  "caption": "Chhath aur Dev Diwali se pehle kitty mein yeh khelo! Parat ka ghat, kaagaz ki naav, LED diya aur sirf ek straw. Aapki naav paar hogi ya diya doobega?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#chhath",
+    "#devdiwali",
+    "#ghatkadiya"
+  ],
+  "web": {
+    "title": "Ghat Ka Diya: Paper Boat Kitty Party Game Rules and Twists",
+    "description": "Ghat Ka Diya is a team relay kitty party game: blow a paper boat with an LED diya across a parat of water with a straw. Rules, twists, tips and FAQs.",
+    "intro": "Ghat Ka Diya is a team relay kitty party game where each lady blows a paper boat carrying an LED diya across a parat (wide steel tray) of water using only a straw, like floating a diya at the ghat. The first team whose every lady gets the boat across without the diya falling in wins. The twist is the Hawa card: each team can once make a lady from another team blow back against their boat for 5 seconds. It needs only a parat, paper, an LED tealight and straws, and suits 8 to 20 ladies in 10 to 15 minutes, especially around Chhath and Dev Diwali.",
+    "players": "8 to 20 (teams of 4 or 5)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One parat, big steel tray or plastic tub per team, filled with about 2 inches of water",
+      "Two folded paper boats per team, ideally made from glossy magazine pages",
+      "One battery operated LED tealight per team (never a real diya)",
+      "One straw per lady, so nobody shares",
+      "One paper card marked HAWA per team",
+      "An old bedsheet or towels under each parat to catch splashes"
+    ],
+    "steps": [
+      "Split the ladies into teams of 4 or 5. Place one parat of water on an old bedsheet for each team and mark a START side and a PAAR (finish) side.",
+      "Each team folds a paper boat and places a lit LED tealight in the middle of it.",
+      "The first lady puts the boat at START and blows it across to PAAR through her straw, without touching the boat or the water with her hands.",
+      "When the boat reaches PAAR, the next lady takes it back to START and blows it across, and so on down the team.",
+      "Any team can play its Hawa card once: a lady from that team stands at the PAAR side of another team's parat and blows the boat backwards through her straw for 5 seconds.",
+      "If the diya falls into the water or the boat sinks, that lady puts the boat back at START and tries again. Spare boats are allowed if one gets soggy."
+    ],
+    "rules": [
+      "Hands may not touch the boat or the water. If they do, the boat goes back to START.",
+      "If the LED diya falls into the water, the current lady restarts from START.",
+      "Each team has one Hawa card, usable only once, for exactly 5 seconds against one other team.",
+      "The first team whose every lady has blown the boat across to PAAR wins and is crowned Ghat ki Rani."
+    ],
+    "variations": [
+      "Pankha mode: instead of a straw, fan the boat across with a folded paper or a small hand fan.",
+      "Song mode: everyone hums \"Kaagaz ki kashti\" while blowing, and stopping the tune means a 3 second pause.",
+      "Final round: one lady from each team steers two boats at once with one straw."
+    ],
+    "tips": [
+      "Use only LED tealights. Never put a real lit diya or candle on a paper boat indoors.",
+      "Fold boats from glossy magazine pages or rub a wax crayon on the bottom so they stay afloat longer.",
+      "Give every lady her own straw for hygiene, and keep spare boats ready.",
+      "Use shallow water and a sheet underneath so the floor stays dry and nobody slips."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Ghat Ka Diya?",
+        "a": "At least 2 teams of 4. With 8 to 20 ladies, make 2 to 4 teams of 4 or 5, each with its own parat, and the game takes 10 to 15 minutes."
+      },
+      {
+        "q": "What do you need to play Ghat Ka Diya?",
+        "a": "A parat or tub of shallow water and two paper boats per team, one LED tealight per team, a straw for every lady, a Hawa card per team and an old sheet for the floor."
+      },
+      {
+        "q": "Is Ghat Ka Diya a good Chhath or Dev Diwali kitty game?",
+        "a": "Yes. It recreates floating a diya on water at the ghat in a safe, indoor way, so it fits Chhath, Kartik Purnima and Dev Diwali kitties."
+      },
+      {
+        "q": "How does the Hawa card work?",
+        "a": "Each team gets one card. When played, a lady from that team blows against another team's boat from the finish side for 5 seconds, pushing it back."
+      },
+      {
+        "q": "Is Ghat Ka Diya safe to play indoors?",
+        "a": "Yes, if you use only battery LED tealights, keep the water about 2 inches deep and put a sheet or towels under each parat so the floor does not get slippery."
+      }
+    ]
+  }
+}
