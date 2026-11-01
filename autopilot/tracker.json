@@ -5130,7 +5130,7 @@
       "format": "Living-room sitcom, Halloween decor (pumpkins, cobwebs, diyas), Housie at the table",
       "source": "Trend: Halloween kitty theme (107 likes, 21 comments, https://www.instagram.com/reel/De6bjjove0p/), Halloween 31 Oct",
       "score": 8,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-10-27",
@@ -5319,7 +5319,7 @@
       "format": "Kitty Game Ideas carousel (8-20 ladies, 20 min: Housie tickets, pens, number list with sums)",
       "source": "Trend: New Tambola format (89 likes, 20 comments, https://www.instagram.com/reel/DeybVBCAgR_/) + Looks easy, isn't",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-24",
@@ -5373,7 +5373,7 @@
       "format": "Kitty Game Ideas carousel",
       "source": "Trend: Festival window: Diwali week + 1-minute rangoli (Diwali party game lists)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-23",
@@ -5633,6 +5633,60 @@
       "idea": "Bachpan photo pehchano: a week before, every lady sends the host one childhood photo. On the day the host shows them on a phone or printouts one by one and everyone writes who it is. Twist: the lady in the photo must also write a guess, and if she fools the room by guessing someone else she gets double points.",
       "format": "Guess game",
       "source": "Trend: Festival window: Children's Day 14 Nov (hindutone.com) + Memory lane kitty (momjunction.com)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-01",
+      "type": "reel",
+      "idea": "Hook: Housie in progress, Shruti calls \"Number 8, Diwali ki date!\" and Ruhi drops her pen: \"Diwali kitty mein saree ya lehenga?\" Context: Tanya and Myra take sides and the three argue in quick turns (saree: 'classic', lehenga: 'photo mein achha', saree: 'khana kaise khaogi'), while Shruti keeps calling numbers nobody cuts. Ending: Shruti claims Full House alone and points at her own nightsuit: \"Main toh yahi pehen ke aaungi.\"",
+      "format": "Debate inside Housie",
+      "source": "Trend: Multi-character debate (fluxnote.io) + Festival window: Diwali 8 Nov + LEARNINGS: open on a game in progress",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-01",
+      "type": "reel",
+      "idea": "Hook: Housie in progress, Myra has a duster still tucked in her waist and taps her watch: \"Sirf ek ghanta, phir Diwali ki safai.\" Context: every time she gets up to leave, Tanya or Ruhi hands her a fresh ticket, \"Bas ek aur game\", and the wall clock jumps an hour each time. Ending: her phone pings, a photo from her husband of the shining living room: \"Safai ho gayi. Aaram se khelo.\" and Myra sits back down and cuts a number.",
+      "format": "Me-time payoff",
+      "source": "Trend: Her own time message (our reel, 57 shares) + Overachiever Diwali safai + Diwali 7 days away",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-01",
+      "type": "reel",
+      "idea": "Hook: Housie in progress, Ruhi cuts a number and announces: \"Agli kitty skip, Chhath pe Patna ja rahi hoon.\" Context: Shruti opens the hisaab register to move her turn, and Tanya and Myra instantly place thekua orders with her (\"Mere liye do dabbe!\"), the order list getting longer than the hisaab. Ending: next kitty, Ruhi on video call from the ghat at sunrise while the doorbell rings at the host's house: a courier with one big box of thekua, every name written on top.",
+      "format": "Festival call from home",
+      "source": "Trend: Festival window: Chhath 15 Nov (hindutone.com) + Video call Tambola",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-01",
+      "type": "game",
+      "idea": "Ek minute ki dulhan: pairs, one lady sits still as the bride and her partner has 1 minute to dress her from a shared tray of household things (dupatta for ghoonghat, bindi packet, bangles, a marigold or paper garland, kajal, a clutch). Twist: the tray also holds decoys (clothes peg, steel katori, TV remote, tea strainer) and at 30 seconds the host shouts \"Rishta badlo!\" and every dresser moves one bride to the left and finishes her look. Room votes the best bride with raised spoons. 8 to 20 ladies, 15 minutes.",
+      "format": "One-minute makeover race",
+      "source": "Trend: One-minute makeover game (Roop ki rani reel, 646 likes, 18 comments)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-01",
+      "type": "game",
+      "idea": "Kitty ki adaalat: the host reads a kitty 'crime' from a chit (same saree third time, 'main kuch sweet laaungi' every month, phone on during Housie). Two random ladies argue for and against for 30 seconds each, and the room gives the verdict by raising spoons. Twist: halfway through the host bangs a belan and shouts \"Palti!\" and both must swap sides mid-sentence; whoever stumbles pays a forfeit of one song. 8 to 20 ladies, 15 minutes, only chits and a belan.",
+      "format": "Debate game",
+      "source": "Trend: Multi-character debate (fluxnote.io)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-01",
+      "type": "game",
+      "idea": "Ghat ka diya: a parat or big tub of water on the floor is the ghat, and each team gets a paper boat carrying an LED tealight and a straw. Relay: one by one each lady must blow the boat from one end to the other through the straw, then hand the straw on. Twist: the opposite team gets one 'hawa' card to blow back against the boat for 5 seconds, and if the diya tips into the water the team restarts. LED only, no flames. 8 to 20 ladies, 10 to 15 minutes.",
+      "format": "Team relay",
+      "source": "Trend: Festival window: Chhath 15 Nov + Dev Diwali 24 Nov (hindutone.com)",
       "score": 9,
       "used": ""
     }
@@ -6062,6 +6116,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-01",
+      "pattern": "One-minute makeover game",
+      "source": "\"Roop ki rani - Kitty fun game - for any time one minute game\"",
+      "likes": 646,
+      "comments": 18,
+      "link": "https://www.instagram.com/reel/DewcyejAHed/",
+      "learn": "Top kitty game post of the month: a 1-minute dress-up race with a judged reveal; copy the timer plus before/after look, not the moves."
+    },
+    {
+      "date": "2026-11-01",
+      "pattern": "Multi-character debate",
+      "source": "\"Instagram Reels trends 2026\" (multi-character debate format listed among the fastest-growing reel formats)",
+      "likes": null,
+      "comments": null,
+      "link": "https://fluxnote.io/guides/instagram-reels-trends-2026",
+      "learn": "Two or three ladies arguing one everyday question in quick turns makes viewers pick a side in the comments; keep it to one question anyone gets in 2 seconds."
+    },
+    {
+      "date": "2026-11-01",
+      "pattern": "Her own time message",
+      "source": "Our reel \"Being educated, independent or busy with family responsibilities doesn't mean a woman should miss out on having fun!\" (384 views, 57 shares, 0 saves)",
+      "likes": 9,
+      "comments": 8,
+      "link": "https://www.instagram.com/reel/DfG6TVrJdAA/",
+      "learn": "The 'she deserves her own time' feeling gets shared far above our views; put it inside a real kitty scene with a warm ending instead of a talking message."
+    },
+    {
+      "date": "2026-11-01",
+      "pattern": "Festival window: Diwali 8 Nov + Chhath 15 Nov + Dev Diwali 24 Nov",
+      "source": "\"November 2026 Festivals State-Wise in India: Diwali, Chhath, Karthika Masam, Dev Diwali and More\"",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/november-2026-festivals-state-wise-india/",
+      "learn": "Diwali is 7 days away and Chhath 14, both inside the +2 window; Guru Nanak Jayanti and Dev Diwali share 24 Nov, so plan diya and ghat ideas for the week after."
+    },
     {
       "date": "2026-10-31",
       "pattern": "Symbol Housie",
