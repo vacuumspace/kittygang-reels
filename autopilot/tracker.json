@@ -6113,6 +6113,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/diya-batti-race-diwali-kitty-party-game",
       "queue_id": "d4076112-c74f-4ffa-b91a-ba15c7f37c28",
       "scheduled_ist": "2026-11-01 17:15"
+    },
+    {
+      "id": "KGI-012",
+      "n": 12,
+      "created": "2026-11-01",
+      "game": "Ghat Ka Diya",
+      "tagline": "Phoonk maaro, naav paar karo!",
+      "players": "8 to 20 (teams of 4 or 5)",
+      "time": "10 to 15 minutes",
+      "slug": "ghat-ka-diya-paper-boat-kitty-party-game",
+      "caption": "Chhath aur Dev Diwali se pehle kitty mein yeh khelo! Parat ka ghat, kaagaz ki naav, LED diya aur sirf ek straw. Aapki naav paar hogi ya diya doobega?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/ghat-ka-diya-paper-boat-kitty-party-game",
+      "queue_id": "f7efb983-1651-450e-8007-c43d0fa88261",
+      "scheduled_ist": "2026-11-02 16:50"
     }
   ],
   "research": [
