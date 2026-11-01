@@ -6496,7 +6496,7 @@
       "time": "10 minutes",
       "slug": "diya-batti-race-diwali-kitty-party-game",
       "caption": "Diwali se pehle kitty mein yeh khelo! 1 minute, 5 diye, rui ki khadi batti, aur beech beech mein Lakshmi ji aa jaati hain. Aap 1 minute mein kitni battiyan bana logi?",
-      "status": "queued",
+      "status": "published",
       "slides": 9,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-011/board.jpg",
       "image_urls": [
@@ -6512,7 +6512,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/diya-batti-race-diwali-kitty-party-game",
       "queue_id": "d4076112-c74f-4ffa-b91a-ba15c7f37c28",
-      "scheduled_ist": "2026-11-01 17:15"
+      "scheduled_ist": "2026-11-01 17:15",
+      "permalink": "https://www.instagram.com/p/DfMqFNEii8f/",
+      "media_id": "17949899046067294"
     },
     {
       "id": "KGI-012",
