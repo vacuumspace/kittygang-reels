@@ -6659,6 +6659,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/ghat-ka-diya-paper-boat-kitty-party-game",
       "queue_id": "f7efb983-1651-450e-8007-c43d0fa88261",
       "scheduled_ist": "2026-11-02 16:50"
+    },
+    {
+      "id": "KGI-013",
+      "n": 13,
+      "created": "2026-11-02",
+      "game": "Shaadi Ka Suitcase",
+      "tagline": "60 second mein poori packing!",
+      "players": "8 to 20 (in pairs)",
+      "time": "10 to 15 minutes",
+      "slug": "shaadi-ka-suitcase-packing-race-kitty-party-game",
+      "caption": "Shaadi season aa gaya, packing ka race bhi! 60 second, 12 cheezein aur beech mein pati ka kurta. Aapki jodi kitni cheezein ghusa paayegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-013/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/shaadi-ka-suitcase-packing-race-kitty-party-game",
+      "queue_id": "49b8cc29-7b58-4733-954f-f8f5f15e2138",
+      "scheduled_ist": "2026-11-03 11:44"
     }
   ],
   "research": [
