@@ -1,0 +1,31 @@
+{
+  "title": "Picture abhi baaki hai",
+  "format": "Kitty Gang filmi trailer for the theme's game night, cut short with the payoff by 12 s",
+  "experiment": { "format": "filmi-trailer", "hook": "Ishita in the Gabbar costume and Tina in the Chandni saree face off on the Filmi Duniya home art, villain riff and sting at 0 s, mascot ball spinning above, chip 'AAJ RAAT: FILMI HOUSIE', Ishita says 'Is Housie ki hero main hoon!'", "variable": "length: a reel of about 15 s before the ending (half our usual 28 to 32 s), with the reveal by 12 s, told as a filmi trailer", "hypothesis": "every theme reel loses people in the middle (watched 8 to 17%); a reel half as long with the payoff early lifts watched % above 25 and keeps skip under 62%, with at least 1 share" },
+  "idea": "Filmi trailer: Ishita (Gabbar) and Tina (Chandni) both sit on 14 of 15 at the Filmi Duniya game, the last ball pops 27, and Myra in the Basanti outfit takes Full House; Aditi closes the picture.",
+  "beats": "hook: villain vs heroine, Ishita: hero main / Tina: picture abhi baaki hai / setup: dono 14/15 / reveal: 27 / turn: Myra Full House / button: Ishita: picture baaki hai? Aditi: nahi, The End",
+  "caption": "{theme} Housie ki picture mein hero kaun banega? Aapka filmi naam comment karo!",
+  "hashtags": ["#kittyparty", "#housie", "#tambola", "#kittygang", "#filmiduniya", "#bollywood"],
+  "ambience": { "name": "crowd", "vol": 0.06 },
+  "pace": 24,
+  "shots": [
+    { "kit": "thome", "chip": "AAJ RAAT: FILMI HOUSIE", "chipY": 1560, "camera": "punch",
+      "ball": { "n": 27, "x": 540, "y": 700, "size": 360, "revealAt": 99 },
+      "chars": [{ "name": "Ishita", "look": "gabbar", "x": 340, "y": 1780, "s": 2.1, "pose": "hips", "eyes": "open", "mouth": "smirk", "turn": 0.6 }, { "name": "Tina", "look": "chandni", "x": 740, "y": 1780, "s": 2.1, "pose": "hips", "eyes": "side", "mouth": "smirk", "turn": -0.6 }],
+      "lines": [{ "who": "Ishita", "text": "Is Housie ki hero main hoon!", "say": "इस हाउज़ी की हीरो मैं हूँ!", "beat": "hook" },
+                { "who": "Tina", "text": "Picture abhi baaki hai, darling.", "say": "पिक्चर अभी बाकी है, डार्लिंग।", "punch": true, "gap": 0.05, "beat": "hook" }],
+      "sfx": [{ "at": 0.0, "name": "villain", "vol": 0.6 }, { "at": 0.0, "name": "sting", "vol": 0.5 }] },
+    { "kit": "tgame", "view": "ticket", "call": 45, "marked": 13, "dab": true, "chip": "ISHITA 14/15  TINA 14/15", "chipY": 380, "dur": 1.3,
+      "sfx": [{ "at": 0.0, "name": "tabla", "vol": 0.5 }] },
+    { "kit": "tball", "n": 27, "revealAt": 1.6, "lead": 1.8, "music": false, "chip": "AAKHRI NUMBER", "chipY": 380,
+      "sfx": [{ "at": 0.0, "name": "heartbeat", "vol": 0.7 }, { "at": 0.8, "name": "heartbeat", "vol": 0.8 }, { "at": 1.6, "name": "ballpop", "vol": 0.7 }] },
+    { "kit": "thome", "burst": true, "confetti": true, "chip": "FULL HOUSE: MYRA", "chipY": 1560,
+      "chars": [{ "name": "Myra", "look": "basanti", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "phone", "eyes": "laugh", "mouth": "laugh", "hop": true }],
+      "lines": [{ "who": "Myra", "text": "Sattais! Full house mera!", "say": "सत्ताईस! फ़ुल हाउस मेरा!", "punch": true, "beat": "turn" }],
+      "sfx": [{ "at": 0.1, "name": "waah", "vol": 0.5 }] },
+    { "kit": "thome",
+      "chars": [{ "name": "Ishita", "look": "gabbar", "x": 320, "y": 1780, "s": 2.0, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "o", "turn": 0.5 }, { "name": "Aditi", "x": 780, "y": 1780, "s": 2.0, "pose": "cup", "eyes": "half", "mouth": "flat", "turn": -0.5 }],
+      "lines": [{ "who": "Ishita", "text": "Picture abhi baaki hai na?", "say": "पिक्चर अभी बाकी है ना?", "beat": "button" },
+                { "who": "Aditi", "text": "Nahi. The End.", "say": "नहीं। द एंड।", "punch": true, "silenceBefore": true, "beat": "button" }] }
+  ]
+}
