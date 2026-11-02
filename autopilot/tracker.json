@@ -5725,7 +5725,7 @@
       "format": "Kitty Game Ideas carousel (8-20 ladies, 10 min: a thaal, 15 Diwali items, a dupatta, paper and pens)",
       "source": "Festival window: Diwali 8 Nov and Bhai Dooj 11 Nov (14-17 days away)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-24",
@@ -5752,7 +5752,7 @@
       "format": "Phone screen to front door",
       "source": "Trend: Festival window: Diwali week (Diwali 8 Nov) + group chat scenes",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-24",
@@ -5779,7 +5779,7 @@
       "format": "Kitty Game Ideas carousel (8-20 ladies, 10 min: mithai or card diamonds, plates, cups, timer)",
       "source": "Trend: Looks easy, isn't (298 likes, 25 comments) + Festival window: Diwali week",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-23",
@@ -5806,7 +5806,7 @@
       "format": "Group chat screen + door entrances",
       "source": "Trend: Festival window: Diwali week + potluck",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-23",
@@ -5886,7 +5886,7 @@
       "format": "One-minute game",
       "source": "Trend: one-minute game demos (Roop ki rani 646 likes) + ties to our carousel",
       "score": 8,
-      "used": "",
+      "used": "dropped",
       "type": "reel"
     },
     {
@@ -6140,6 +6140,60 @@
       "source": "Trend: Festival window: Chhath 15 Nov + Dev Diwali 24 Nov (hindutone.com)",
       "score": 9,
       "used": "KGI-012"
+    },
+    {
+      "added": "2026-11-02",
+      "type": "reel",
+      "idea": "Hook: Housie in progress, Tanya walks round with a basket: \"Aaj no phone kitty, sab phone yahan!\" and Ruhi and Myra drop theirs in with a sulk. Context: the calls carry on in peace until a loud ringtone plays from inside Tanya's own pallu, \"Beta ka call hai, important hai.\" Ending: Ruhi silently holds the basket out to Tanya, and Tanya drops her phone in on top of everyone else's.",
+      "format": "Living-room sitcom, opens on the game (admin rule then hypocrisy)",
+      "source": "Trend: Admin breaks her own rule (our dress code admin reel, 4938 views, skip 25.6%)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-02",
+      "type": "reel",
+      "idea": "Hook: Housie in progress, Shruti opens the kitty calendar on her phone: \"Agli kitty 22 November?\" Context: Ruhi and Myra scroll their WhatsApp and hold up shaadi card after shaadi card for every date she suggests (Tulsi Vivah ke baad sab ki shaadiyan). Ending: the only free slot is a Tuesday at 11 am, and all three cut a number and shout \"Done!\" while the calendar fills with pink shaadi dots.",
+      "format": "Living-room sitcom with phone calendar and shaadi card screens",
+      "source": "Trend: Festival window: Dev Uthani 20 Nov + Tulsi Vivah 21 Nov opens shaadi season (hindutone.com)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-02",
+      "type": "reel",
+      "idea": "Hook: the first kitty after Diwali, Housie running, Myra pushes the samosa plate away: \"Diwali ke baad diet!\" and Tanya and Ruhi nod, \"Haan, main bhi.\" Context: on every called number one of them quietly takes \"bas ek\" kaju katli from the leftover Diwali box. Ending: the host lifts the lid to serve and the box is empty; all three point at each other with crumbs on their sarees.",
+      "format": "Living-room sitcom, opens on the game",
+      "source": "Trend: Festival window: Diwali 8 Nov (post-Diwali kitty) + Expectation vs reality split",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-02",
+      "type": "game",
+      "idea": "Shaadi ka suitcase: pairs get one small bag or suitcase and a shared centre table with 12 household things (folded saree, bangle box, hair dryer, chappal pair, charger, dupatta, makeup pouch, shawl, steel tiffin, slippers, perfume, mithai box). In 60 seconds one lady hands and the other packs, then they must zip it shut. Twist: at 30 seconds the host reads a husband's text \"Mera kurta bhi rakh lena\" and every pair must fit one more item or lose. 8 to 20 ladies, 10 to 15 minutes.",
+      "format": "Pairs race, top-down",
+      "source": "Trend: Pack in 60 seconds (partystuff.in) + shaadi season",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-02",
+      "type": "game",
+      "idea": "Shagun ka lifafa: each lady gets 3 envelopes, a stack of play notes (10, 20, 50, 100, 500) and a few Re 1 coins. The host calls a relation and an amount (\"Bua ki beti, 1100\", \"Padosi ka beta, 501\") and the first lady to hold up a sealed envelope with the exact amount wins the round. Twist: every shagun must end in 1, so if you forget the Re 1 coin your envelope is 'kanjoos' and you lose a point. 8 to 20 ladies, 10 to 15 minutes.",
+      "format": "Speed round, everyone plays at once",
+      "source": "Trend: Festival window: Dev Uthani 20 Nov + Tulsi Vivah 21 Nov opens shaadi season (hindutone.com)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-02",
+      "type": "game",
+      "idea": "Mehendi mein naam dhoondo: before the kitty the host draws a big mehendi-style pattern on chart paper and hides every lady's name in the swirls, like a bride hides the dulha's name. On the day the sheet goes on the table and everyone has 2 minutes to find and circle her own name. Twist: the last lady to find hers becomes the dulha and must do a 10-second baraat entry to a dhol beat from a phone. 8 to 20 ladies, 10 to 15 minutes.",
+      "format": "Search race on one big sheet",
+      "source": "Trend: Shaadi season kitty + Festival window: Tulsi Vivah 21 Nov",
+      "score": 8,
+      "used": ""
     }
   ],
   "carousels": [
@@ -6608,6 +6662,33 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-02",
+      "pattern": "Admin breaks her own rule",
+      "source": "Our reel \"Dress code wali admin, apna hi message bhool gayi. Tag your Tanya!\" (4938 views, skip 25.6%, lowest skip of any gang reel)",
+      "likes": 18,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/De9WTOXpcWB/",
+      "learn": "The group admin who sets a rule and is the first to break it is instantly recognisable and holds viewers past 3 s; reuse the rule-then-hypocrisy shape with other real kitty rules (no phones, on time, budget gifts)."
+    },
+    {
+      "date": "2026-11-02",
+      "pattern": "Pack in 60 seconds",
+      "source": "\"Vacation Theme Party for Ladies Kitty Party in India\" (Pack My Bag in 60 Seconds, timed team round)",
+      "likes": null,
+      "comments": null,
+      "link": "https://partystuff.in/themes/vacation",
+      "learn": "A timed packing race with a full table of things is easy to set up and very visual top-down; wrap it in the shaadi-season suitcase every lady is packing this month."
+    },
+    {
+      "date": "2026-11-02",
+      "pattern": "Festival window: Dev Uthani 20 Nov + Tulsi Vivah 21 Nov opens shaadi season",
+      "source": "\"Tulsi Vivah 2026: Date, Vidhi, Story and the Start of the Wedding Season\" (Dev Uthani Ekadashi Fri 20 Nov, Tulsi Vivah Sat 21 Nov; busiest muhurats late Nov to mid Dec)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/tulsi-vivah-2026-date-vidhi/",
+      "learn": "Diwali is 6 days out and Tulsi Vivah 19, both +2 now; wedding-season kitty scenes (shagun lifafe, packing, clashing shaadi dates) become the next timely lane after Diwali."
+    },
     {
       "date": "2026-11-01",
       "pattern": "One-minute makeover game",
