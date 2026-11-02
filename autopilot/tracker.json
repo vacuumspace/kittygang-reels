@@ -5967,6 +5967,37 @@
         "no shot over 5 s (5.7 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-03",
+      "created": "2026-11-03",
+      "title": "Picture abhi baaki hai",
+      "format": "Theme Housie",
+      "theme": "filmiduniya",
+      "story": "ai",
+      "variant": "filmi-trailer",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Filmi trailer: Ishita (Gabbar) and Tina (Chandni) both sit on 14 of 15 at the Filmi Duniya game, the last ball pops 27, and Myra in the Basanti outfit takes Full House; Aditi closes the picture.",
+      "beats": "hook: villain vs heroine, Ishita: hero main / Tina: picture abhi baaki hai / setup: dono 14/15 / reveal: 27 / turn: Myra Full House / button: Ishita: picture baaki hai? Aditi: nahi, The End",
+      "experiment": {
+        "format": "filmi-trailer",
+        "hook": "Ishita in the Gabbar costume and Tina in the Chandni saree face off on the Filmi Duniya home art, villain riff and sting at 0 s, mascot ball spinning above, chip 'AAJ RAAT: FILMI HOUSIE', Ishita says 'Is Housie ki hero main hoon!'",
+        "variable": "length: a reel of about 15 s before the ending (half our usual 28 to 32 s), with the reveal by 12 s, told as a filmi trailer",
+        "hypothesis": "every theme reel loses people in the middle (watched 8 to 17%); a reel half as long with the payoff early lifts watched % above 25 and keeps skip under 62%, with at least 1 share"
+      },
+      "duration": 26.1,
+      "lufs": null,
+      "caption": "Filmi Duniya Housie ki picture mein hero kaun banega? Aapka filmi naam comment karo!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #filmiduniya #bollywood",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-03.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-03-cover.jpg",
+      "job_id": "26347105-ca21-467a-a0ab-9686c520cad0",
+      "permalink": "https://www.instagram.com/reel/DfP_2QDj-MR/",
+      "media_id": "18109198133634362",
+      "yt_id": "V_5qeXgMsFg",
+      "yt_url": "https://youtube.com/shorts/V_5qeXgMsFg",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
