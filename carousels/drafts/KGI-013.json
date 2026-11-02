@@ -1,0 +1,791 @@
+{
+  "id": "KGI-013",
+  "n": 13,
+  "slug": "shaadi-ka-suitcase-packing-race-kitty-party-game",
+  "game": "Shaadi Ka Suitcase",
+  "tagline": "60 second mein poori packing!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 20,
+      "y": 0,
+      "text": "    ",
+      "size": 40
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": "    ",
+      "size": 40
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(330 190) scale(0.95)'><rect x='-150' y='-170' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='-150' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-150' y='5' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='25' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-118' y='35' width='120' height='50' rx='8' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M-118 52 L2 52 M-118 68 L2 68' stroke='#4A1238' stroke-width='3'></path><ellipse cx='60' cy='60' rx='42' ry='22' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='-60' cy='118' rx='38' ry='18' fill='#5B8DEF' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='10' cy='118' rx='22' ry='14' fill='none' stroke='#FFC93C' stroke-width='8'></ellipse><rect x='55' y='95' width='65' height='45' rx='8' fill='#D8D8E4' stroke='#4A1238' stroke-width='4'></rect></g>"
+    },
+    {
+      "k": "person",
+      "x": 110,
+      "y": 200,
+      "s": 1.3,
+      "color": "green"
+    },
+    {
+      "k": "hand",
+      "x": 190,
+      "y": 230,
+      "rot": 80,
+      "s": 0.8
+    },
+    {
+      "k": "arrow",
+      "x1": 500,
+      "y1": 190,
+      "x2": 620,
+      "y2": 190,
+      "color": "yel",
+      "w": 12
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(760 340) scale(0.95)'><rect x='-35' y='-205' width='70' height='30' rx='12' fill='none' stroke='#4A1238' stroke-width='9'></rect><rect x='-90' y='-180' width='180' height='160' rx='22' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><line x1='-90' y1='-100' x2='90' y2='-100' stroke='#4A1238' stroke-width='5' stroke-dasharray='10 6'></line><rect x='72' y='-108' width='22' height='16' rx='4' fill='#FFC93C' stroke='#4A1238' stroke-width='3'></rect><circle cx='-60' cy='-10' r='12' fill='#4A1238'></circle><circle cx='60' cy='-10' r='12' fill='#4A1238'></circle></g>"
+    },
+    {
+      "k": "text",
+      "x": 760,
+      "y": 110,
+      "text": "ZIP!",
+      "size": 60,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(980 190) scale(0.75)'><rect x='-110' y='-170' width='220' height='340' rx='30' fill='#4A1238'></rect><rect x='-96' y='-150' width='192' height='300' rx='18' fill='#FFF4F7'></rect><rect x='-84' y='-110' width='168' height='110' rx='18' fill='#DCF8C6' stroke='#4A1238' stroke-width='3'></rect></g>"
+    },
+    {
+      "k": "text",
+      "x": 980,
+      "y": 101.5,
+      "text": "Pati",
+      "size": 23,
+      "color": "mute"
+    },
+    {
+      "k": "text",
+      "x": 980,
+      "y": 137.5,
+      "text": "Mera kurta",
+      "size": 17
+    },
+    {
+      "k": "text",
+      "x": 980,
+      "y": 161.5,
+      "text": "bhi rakh lena!",
+      "size": 17
+    },
+    {
+      "k": "text",
+      "x": 882.5,
+      "y": 47.5,
+      "text": "  ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1077.5,
+      "y": 325,
+      "text": "  ",
+      "size": 20
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 6 cheezein",
+    "items": [
+      {
+        "label": "Chhota bag",
+        "sub": "har jodi ka ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 40,
+            "y": 0,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 260,
+            "y": 220,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 210) scale(0.95)'><rect x='-35' y='-205' width='70' height='30' rx='12' fill='none' stroke='#4A1238' stroke-width='9'></rect><rect x='-90' y='-180' width='180' height='160' rx='22' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><line x1='-90' y1='-100' x2='90' y2='-100' stroke='#4A1238' stroke-width='5' stroke-dasharray='10 6'></line><rect x='72' y='-108' width='22' height='16' rx='4' fill='#FFC93C' stroke='#4A1238' stroke-width='3'></rect><circle cx='-60' cy='-10' r='12' fill='#4A1238'></circle><circle cx='60' cy='-10' r='12' fill='#4A1238'></circle></g>"
+          }
+        ]
+      },
+      {
+        "label": "12 cheezein",
+        "sub": "saree, chappal, tiffin...",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(80 60) scale(0.9)'><rect x='-60' y='-30' width='120' height='60' rx='8' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect><path d='M-60 -10 L60 -10 M-60 10 L60 10' stroke='#FFC93C' stroke-width='5'></path></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(220 70) scale(0.9)'><ellipse cx='-22' cy='0' rx='18' ry='42' fill='#C98A5C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='22' cy='0' rx='18' ry='42' fill='#C98A5C' stroke='#4A1238' stroke-width='5'></ellipse><path d='M-36 -14 L-8 -14 M8 -14 L36 -14' stroke='#4A1238' stroke-width='6'></path></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(80 165) scale(0.9)'><rect x='-34' y='-44' width='68' height='28' rx='6' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></rect><rect x='-34' y='-16' width='68' height='28' rx='6' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></rect><rect x='-34' y='12' width='68' height='28' rx='6' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></rect><path d='M-20 -44 Q0 -70 20 -44' stroke='#4A1238' stroke-width='5' fill='none'></path></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(220 170) scale(0.9)'><path d='M-50 -25 Q0 -40 50 -25 L44 30 Q0 40 -44 30 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='5'></path><path d='M-48 -18 Q0 -32 48 -18' stroke='#FFC93C' stroke-width='5' fill='none'></path></g>"
+          }
+        ]
+      },
+      {
+        "label": "Ek table",
+        "sub": "kamre ke beech mein",
+        "draw": [
+          {
+            "k": "table",
+            "x": 150,
+            "y": 80,
+            "w": 260,
+            "h": 180
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "60 second",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "1:00"
+          }
+        ]
+      },
+      {
+        "label": "Pati ka message",
+        "sub": "host ke phone par",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 110) scale(0.6)'><rect x='-110' y='-170' width='220' height='340' rx='30' fill='#4A1238'></rect><rect x='-96' y='-150' width='192' height='300' rx='18' fill='#FFF4F7'></rect><rect x='-84' y='-110' width='168' height='110' rx='18' fill='#DCF8C6' stroke='#4A1238' stroke-width='3'></rect></g>"
+          },
+          {
+            "k": "text",
+            "x": 150,
+            "y": 39.2,
+            "text": "Pati",
+            "size": 18,
+            "color": "mute"
+          },
+          {
+            "k": "text",
+            "x": 150,
+            "y": 68,
+            "text": "Mera kurta",
+            "size": 14
+          },
+          {
+            "k": "text",
+            "x": 150,
+            "y": 87.2,
+            "text": "bhi rakh lena!",
+            "size": 14
+          },
+          {
+            "k": "text",
+            "x": 72,
+            "y": -4,
+            "text": "  ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 228,
+            "y": 218,
+            "text": "  ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Extra kurta",
+        "sub": "har jodi ko ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 40,
+            "y": 0,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "text",
+            "x": 260,
+            "y": 220,
+            "text": "    ",
+            "size": 40
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 110) scale(1.4)'><path d='M-30 -60 L-12 -60 Q0 -48 12 -60 L30 -60 L66 -30 L50 -10 L36 -22 L36 60 L-36 60 L-36 -22 L-50 -10 L-66 -30 Z' fill='#FFFFFF' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M0 -54 L0 -10' stroke='#4A1238' stroke-width='4'></path><circle cx='0' cy='-38' r='3' fill='#4A1238'></circle><circle cx='0' cy='-24' r='3' fill='#4A1238'></circle></g>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Table par 12 cheezein",
+      "body": "Beech mein table par sab rakho. Har jodi ko ek khaali bag.",
+      "draw": [
+        {
+          "k": "table",
+          "x": 480,
+          "y": 330,
+          "w": 560,
+          "h": 360,
+          "top": true
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 240) scale(1)'><rect x='-60' y='-30' width='120' height='60' rx='8' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect><path d='M-60 -10 L60 -10 M-60 10 L60 10' stroke='#FFC93C' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(480 240) scale(1)'><ellipse cx='-22' cy='0' rx='18' ry='42' fill='#C98A5C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='22' cy='0' rx='18' ry='42' fill='#C98A5C' stroke='#4A1238' stroke-width='5'></ellipse><path d='M-36 -14 L-8 -14 M8 -14 L36 -14' stroke='#4A1238' stroke-width='6'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(630 250) scale(1)'><rect x='-34' y='-44' width='68' height='28' rx='6' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></rect><rect x='-34' y='-16' width='68' height='28' rx='6' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></rect><rect x='-34' y='12' width='68' height='28' rx='6' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'></rect><path d='M-20 -44 Q0 -70 20 -44' stroke='#4A1238' stroke-width='5' fill='none'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 400) scale(1)'><path d='M-50 -25 Q0 -40 50 -25 L44 30 Q0 40 -44 30 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='5'></path><path d='M-48 -18 Q0 -32 48 -18' stroke='#FFC93C' stroke-width='5' fill='none'></path></g>"
+        },
+        {
+          "k": "band",
+          "x": 480,
+          "y": 400,
+          "rx": 40,
+          "w": 10
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(630 400) scale(0.8)'><path d='M-30 -60 L-12 -60 Q0 -48 12 -60 L30 -60 L66 -30 L50 -10 L36 -22 L36 60 L-36 60 L-36 -22 L-50 -10 L-66 -30 Z' fill='#FFE27A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M0 -54 L0 -10' stroke='#4A1238' stroke-width='4'></path><circle cx='0' cy='-38' r='3' fill='#4A1238'></circle><circle cx='0' cy='-24' r='3' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 120,
+          "text": "12 cheezein, sab ke liye",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "person",
+          "x": 90,
+          "y": 250,
+          "s": 1,
+          "color": "pink",
+          "label": "Jodi A"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(90 560) scale(0.6)'><rect x='-35' y='-205' width='70' height='30' rx='12' fill='none' stroke='#4A1238' stroke-width='9'></rect><rect x='-90' y='-180' width='180' height='160' rx='22' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><line x1='-90' y1='-100' x2='90' y2='-100' stroke='#4A1238' stroke-width='5' stroke-dasharray='10 6'></line><rect x='72' y='-108' width='22' height='16' rx='4' fill='#FFC93C' stroke='#4A1238' stroke-width='3'></rect><circle cx='-60' cy='-10' r='12' fill='#4A1238'></circle><circle cx='60' cy='-10' r='12' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "person",
+          "x": 870,
+          "y": 250,
+          "s": 1,
+          "color": "green",
+          "label": "Jodi B"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(870 560) scale(0.6)'><rect x='-35' y='-205' width='70' height='30' rx='12' fill='none' stroke='#4A1238' stroke-width='9'></rect><rect x='-90' y='-180' width='180' height='160' rx='22' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></rect><line x1='-90' y1='-100' x2='90' y2='-100' stroke='#4A1238' stroke-width='5' stroke-dasharray='10 6'></line><rect x='72' y='-108' width='22' height='16' rx='4' fill='#FFC93C' stroke='#4A1238' stroke-width='3'></rect><circle cx='-60' cy='-10' r='12' fill='#4A1238'></circle><circle cx='60' cy='-10' r='12' fill='#4A1238'></circle></g>"
+        }
+      ]
+    },
+    {
+      "title": "Ek laaye, ek pack kare",
+      "body": "Jodi mein ek lady cheez laaye, doosri bag mein jamaaye.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 40,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 680,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "table",
+          "x": 130,
+          "y": 440,
+          "w": 240,
+          "h": 280,
+          "top": true
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(130 380) scale(0.75)'><rect x='-60' y='-30' width='120' height='60' rx='8' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect><path d='M-60 -10 L60 -10 M-60 10 L60 10' stroke='#FFC93C' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(130 500) scale(0.75)'><ellipse cx='-22' cy='0' rx='18' ry='42' fill='#C98A5C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='22' cy='0' rx='18' ry='42' fill='#C98A5C' stroke='#4A1238' stroke-width='5'></ellipse><path d='M-36 -14 L-8 -14 M8 -14 L36 -14' stroke='#4A1238' stroke-width='6'></path></g>"
+        },
+        {
+          "k": "person",
+          "x": 430,
+          "y": 400,
+          "s": 1.3,
+          "color": "pink",
+          "label": "Laane wali"
+        },
+        {
+          "k": "hand",
+          "x": 510,
+          "y": 400,
+          "rot": -90,
+          "s": 0.9
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(530 345) scale(0.6)'><rect x='-60' y='-30' width='120' height='60' rx='8' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect><path d='M-60 -10 L60 -10 M-60 10 L60 10' stroke='#FFC93C' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 270,
+          "y1": 300,
+          "x2": 370,
+          "y2": 300,
+          "color": "mute",
+          "w": 8
+        },
+        {
+          "k": "arrow",
+          "x1": 580,
+          "y1": 400,
+          "x2": 650,
+          "y2": 400,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(800 430) scale(0.75)'><rect x='-150' y='-170' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='-150' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-150' y='5' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='25' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-118' y='35' width='120' height='50' rx='8' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M-118 52 L2 52 M-118 68 L2 68' stroke='#4A1238' stroke-width='3'></path><ellipse cx='60' cy='60' rx='42' ry='22' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='-60' cy='118' rx='38' ry='18' fill='#5B8DEF' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='10' cy='118' rx='22' ry='14' fill='none' stroke='#FFC93C' stroke-width='8'></ellipse><rect x='55' y='95' width='65' height='45' rx='8' fill='#D8D8E4' stroke='#4A1238' stroke-width='4'></rect></g>"
+        },
+        {
+          "k": "person",
+          "x": 800,
+          "y": 150,
+          "s": 1,
+          "color": "green",
+          "label": "Pack karne wali"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 640,
+          "text": "Ek baar mein ek cheez",
+          "size": 36,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "60 second, phir zip band",
+      "body": "Timer khatam hone se pehle bag ki zip poori band karo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 40,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 680,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "timer",
+          "x": 480,
+          "y": 300,
+          "s": 0.9,
+          "text": "0:00"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(170 500) scale(1.1)'><rect x='-35' y='-205' width='70' height='30' rx='12' fill='none' stroke='#4A1238' stroke-width='9'></rect><rect x='-90' y='-180' width='180' height='160' rx='22' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><line x1='-90' y1='-100' x2='90' y2='-100' stroke='#4A1238' stroke-width='5' stroke-dasharray='10 6'></line><rect x='72' y='-108' width='22' height='16' rx='4' fill='#FFC93C' stroke='#4A1238' stroke-width='3'></rect><circle cx='-60' cy='-10' r='12' fill='#4A1238'></circle><circle cx='60' cy='-10' r='12' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "tick",
+          "x": 170,
+          "y": 600,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 170,
+          "y": 190,
+          "text": "Zip band",
+          "size": 36,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(790 400) scale(0.85)'><rect x='-150' y='-10' width='300' height='150' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><path d='M-150 -10 L-130 -120 L150 -60 L150 -10 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><rect x='-100' y='-60' width='110' height='50' rx='8' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><ellipse cx='60' cy='-40' rx='40' ry='20' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></ellipse></g>"
+        },
+        {
+          "k": "cross",
+          "x": 790,
+          "y": 600,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 790,
+          "y": 190,
+          "text": "Khula bag",
+          "size": 36,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "30 second par pati ka message",
+      "body": "Host padhe: \"Mera kurta bhi rakh lena!\" Ek cheez aur ghusao.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 40,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 680,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 330,
+          "s": 1.3,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 330) scale(1)'><rect x='-110' y='-170' width='220' height='340' rx='30' fill='#4A1238'></rect><rect x='-96' y='-150' width='192' height='300' rx='18' fill='#FFF4F7'></rect><rect x='-84' y='-110' width='168' height='110' rx='18' fill='#DCF8C6' stroke='#4A1238' stroke-width='3'></rect></g>"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 212,
+          "text": "Pati",
+          "size": 30,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 260,
+          "text": "Mera kurta",
+          "size": 23
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 292,
+          "text": "bhi rakh lena!",
+          "size": 23
+        },
+        {
+          "k": "text",
+          "x": 200,
+          "y": 140,
+          "text": "  ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 460,
+          "y": 510,
+          "text": "  ",
+          "size": 20
+        },
+        {
+          "k": "timer",
+          "x": 130,
+          "y": 620,
+          "s": 0.5,
+          "text": "0:30"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(560 200) scale(1)'><path d='M-30 -60 L-12 -60 Q0 -48 12 -60 L30 -60 L66 -30 L50 -10 L36 -22 L36 60 L-36 60 L-36 -22 L-50 -10 L-66 -30 Z' fill='#FFE27A' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path><path d='M0 -54 L0 -10' stroke='#4A1238' stroke-width='4'></path><circle cx='0' cy='-38' r='3' fill='#4A1238'></circle><circle cx='0' cy='-24' r='3' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 610,
+          "y1": 280,
+          "x2": 700,
+          "y2": 360,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(780 500) scale(0.75)'><rect x='-150' y='-170' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='-150' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-150' y='5' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='25' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-118' y='35' width='120' height='50' rx='8' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M-118 52 L2 52 M-118 68 L2 68' stroke='#4A1238' stroke-width='3'></path><ellipse cx='60' cy='60' rx='42' ry='22' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='-60' cy='118' rx='38' ry='18' fill='#5B8DEF' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='10' cy='118' rx='22' ry='14' fill='none' stroke='#FFC93C' stroke-width='8'></ellipse><rect x='55' y='95' width='65' height='45' rx='8' fill='#D8D8E4' stroke='#4A1238' stroke-width='4'></rect></g>"
+        },
+        {
+          "k": "text",
+          "x": 780,
+          "y": 150,
+          "text": "Abhi bhi jagah?",
+          "size": 36,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Bag kholo, cheezein gino",
+      "body": "Host har band bag khole aur gine. Sabse zyada cheezein, jodi jeeti.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 40,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 680,
+          "text": "    ",
+          "size": 40
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(240 380) scale(0.95)'><rect x='-150' y='-170' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='-150' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-150' y='5' width='300' height='165' rx='20' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-130' y='25' width='260' height='125' rx='12' fill='#FFF4F7' stroke='#4A1238' stroke-width='3'></rect><rect x='-118' y='35' width='120' height='50' rx='8' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M-118 52 L2 52 M-118 68 L2 68' stroke='#4A1238' stroke-width='3'></path><ellipse cx='60' cy='60' rx='42' ry='22' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='-60' cy='118' rx='38' ry='18' fill='#5B8DEF' stroke='#4A1238' stroke-width='4'></ellipse><ellipse cx='10' cy='118' rx='22' ry='14' fill='none' stroke='#FFC93C' stroke-width='8'></ellipse><rect x='55' y='95' width='65' height='45' rx='8' fill='#D8D8E4' stroke='#4A1238' stroke-width='4'></rect></g>"
+        },
+        {
+          "k": "person",
+          "x": 240,
+          "y": 90,
+          "s": 1,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "box",
+          "x": 720,
+          "y": 220,
+          "w": 360,
+          "h": 90,
+          "color": "yelSoft",
+          "text": "Jodi A: 11 cheezein"
+        },
+        {
+          "k": "box",
+          "x": 720,
+          "y": 350,
+          "w": 360,
+          "h": 90,
+          "color": "white",
+          "text": "Jodi B: 9 cheezein"
+        },
+        {
+          "k": "box",
+          "x": 720,
+          "y": 480,
+          "w": 360,
+          "h": 90,
+          "color": "white",
+          "text": "Jodi C: zip khuli = 0"
+        },
+        {
+          "k": "tick",
+          "x": 940,
+          "y": 220,
+          "s": 0.6
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 620,
+          "text": "Kurta andar hona zaroori",
+          "size": 34,
+          "color": "mute"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse bhara band bag jeeta",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Zip poori band nahi?",
+          "Score zero."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Ek chakkar mein ek cheez,",
+          "mutthi bhar nahi."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Pati ka kurta nahi ghusa?",
+          "Jodi seedha bahar."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Band bag, sabse zyada cheezein:",
+          "woh jodi Packing Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Pack karne wali ki aankh band,",
+        "laane wali bas bataaye kahan."
+      ],
+      [
+        "45 second par saas ka message:",
+        "\"Mera shawl bhi le chalo!\""
+      ],
+      [
+        "Final round: school bag,",
+        "wahi 12 cheezein."
+      ]
+    ],
+    "tip": "Kuch bhi kaanch ka mat rakho, sab kapda ya plastic."
+  },
+  "comment_hint": "kitni cheezein?",
+  "caption": "Shaadi season aa gaya, packing ka race bhi! 60 second, 12 cheezein aur beech mein pati ka kurta. Aapki jodi kitni cheezein ghusa paayegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#shaadiseason",
+    "#packingchallenge",
+    "#shaadikasuitcase"
+  ],
+  "web": {
+    "title": "Shaadi Ka Suitcase: Packing Race Kitty Party Game Rules",
+    "description": "Shaadi Ka Suitcase is a 60 second packing race kitty party game for pairs, with a husband's message twist. Full rules, materials, variations, tips and FAQs.",
+    "intro": "Shaadi Ka Suitcase is a pairs kitty party game where each pair has 60 seconds to pack as many household things as possible from a shared table into one small bag and zip it shut, like rushing to pack for a family wedding. The pair with the most items inside a fully closed bag wins. The twist comes at 30 seconds, when the host reads out a husband's message, \"Mera kurta bhi rakh lena!\", and every pair must squeeze in one extra kurta or lose. It needs only bags, everyday clothes and things from the house, and suits 8 to 20 ladies in 10 to 15 minutes, perfect for shaadi season kitties.",
+    "players": "8 to 20 (in pairs)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One small bag, cabin suitcase or school bag per pair, all roughly the same size",
+      "12 unbreakable household things per round on a centre table: folded saree, shawl, dupatta, pair of chappals, bangle box, makeup pouch, phone charger, steel tiffin, hair brush, small towel, empty mithai box, slippers",
+      "One extra kurta, shirt or towel per pair for the husband's message twist",
+      "A phone with a 60 second timer",
+      "A centre table or a sheet on the floor that every pair can reach"
+    ],
+    "steps": [
+      "Put the 12 items on a table in the middle of the room and give every pair one empty bag of the same size. If there are many pairs, play in heats of 2 to 3 pairs with 12 items per pair.",
+      "In each pair, one lady is the fetcher and the other is the packer. The fetcher brings one item at a time from the table and the packer arranges it in the bag.",
+      "Start the 60 second timer. Everyone races to fetch and pack as much as possible.",
+      "At 30 seconds the host reads out the husband's message: \"Mera kurta bhi rakh lena!\" Each pair is handed one kurta, which must also go into the bag.",
+      "When the timer ends, every bag must be fully zipped shut. Hands off.",
+      "The host opens each closed bag and counts the items. The pair with the most items, including the kurta, wins."
+    ],
+    "rules": [
+      "A bag that is not fully zipped when the timer ends scores zero.",
+      "The fetcher may carry only one item per trip from the table.",
+      "If the husband's kurta is not inside the bag, the pair is out.",
+      "Pack only unbreakable items; nothing glass, sharp or hot.",
+      "The pair with the most items in a closed bag is crowned Packing Queen."
+    ],
+    "variations": [
+      "Blind packer: the packer is blindfolded and the fetcher can only guide her with words.",
+      "Saas ka message: at 45 seconds the host adds a second message, \"Mera shawl bhi le chalo!\", for one more item.",
+      "Final round: the top two pairs repeat the race with a small school bag instead of a suitcase."
+    ],
+    "tips": [
+      "Use bags of the same size for every pair so the race is fair.",
+      "Rolling clothes instead of folding them fits more, so watch who discovers this trick.",
+      "Keep glass bottles, perfumes and anything breakable off the table.",
+      "Play in heats if the room is small so ladies are not bumping into each other at the table."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Shaadi Ka Suitcase?",
+        "a": "Any even number from 4 upwards. For 8 to 20 ladies, make pairs and play in heats of 2 to 4 pairs, each heat taking about 2 minutes."
+      },
+      {
+        "q": "What do you need to play Shaadi Ka Suitcase?",
+        "a": "One small bag per pair, about 12 unbreakable household things like a saree, chappals, a tiffin and a shawl, one extra kurta per pair, a phone timer and a table."
+      },
+      {
+        "q": "Is Shaadi Ka Suitcase a good game for shaadi season kitty parties?",
+        "a": "Yes. Every lady knows the last minute rush of packing for a wedding, so the game feels instantly familiar and the husband's message twist always gets a laugh."
+      },
+      {
+        "q": "What is the twist in Shaadi Ka Suitcase?",
+        "a": "At 30 seconds the host reads a husband's message, \"Mera kurta bhi rakh lena!\", and every pair must fit one extra kurta into the bag or be knocked out."
+      },
+      {
+        "q": "How do you decide the winner of Shaadi Ka Suitcase?",
+        "a": "Only fully zipped bags count. The host opens each one and counts the items inside, and the pair with the most items, including the kurta, wins."
+      }
+    ]
+  }
+}
