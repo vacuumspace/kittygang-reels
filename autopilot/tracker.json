@@ -5400,6 +5400,386 @@
       "yt_id": "LEWwS0NABmw",
       "yt_url": "https://youtube.com/shorts/LEWwS0NABmw",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-02-a",
+      "created": "2026-11-02",
+      "title": "Bachpan kitty ki monitor",
+      "format": "Types-of: Bachpan (school) theme kitty, each member is a class type with a chip, Housie running at the table",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Ruhi",
+        "Myra",
+        "Tanya"
+      ],
+      "caption": "Har kitty mein ek monitor hoti hai jo sabka naam likhti hai... apna kabhi nahi. Tag your monitor!",
+      "status": "queued",
+      "idea": "At the Children's Day Bachpan theme kitty, Shruti plays class monitor and writes the name of everyone who talks during Housie on the board, until she shouts Full House herself.",
+      "beats": "hook: monitor Shruti 'Silence!' / setup: talk = name on board / esc: Ruhi gossip, Myra claims, Tanya the host laughs / twist: Shruti shouts Full House without raising her hand, cancelled, her name on the board / button: Ruhi with the duster 'Silence! Housie chal rahi hai!'",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Shruti slams a duster with the cage tumbling and shouts 'Silence! Housie chal rahi hai!', chip 'TYPE 1: MONITOR', so a game in progress and the reel's pattern land in the first 2 s",
+        "variable": "a types-of line-up with a type chip per member, inside one running Housie scene instead of separate cut-away portraits",
+        "hypothesis": "school-days nostalgia plus the 'every class has one' label gets tagged like the Diwali safai winner: skip under 58% and at least 4 shares and 4 saves (types-of reels are made for 'tag your monitor')"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Silence! Housie chal rahi hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Jo bolegi, naam board pe!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Board?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Number bees!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Psst... Sharma ji ki bahu...",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruhi! Naam board pe!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "News thi, news!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "News bhi talking hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Paintalees!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera! Jaldi Five!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haath utha ke! Naam likh diya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Yeh rule kab bana?!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haha! Nayi hai bechari!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ma'am, aapka bhi naam!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aakhri number... nabbe.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "FULL HOUSE! Mera!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Haath?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haath late utha. Cancel!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Monitor bhi board pe!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Silence! Housie chal rahi hai!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Main bolun?",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Nahi!",
+          "beat": "button"
+        }
+      ],
+      "duration": 37.13,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Fix of KG-2026-11-01-b (QA: voice pace 2.28 w/s, needs 2.3). Script, shots and timing kept; voice pace raised from 24 to 28 so every line reads about 3% faster (expected about 2.35 w/s), which also shortens every shot further under the 5 s limit. Earlier fix notes: the 3-line board shot was split in two, Ruhi's cancel line trimmed. Same game, twist, mirrored button and experiment."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-a-board.jpg",
+      "queue_id": "f112bb2d-87d4-4d86-be3c-8d949ae1a3b3",
+      "scheduled_ist": "2026-11-06 13:37",
+      "yt_id": "VkrticgLtrQ",
+      "yt_url": "https://youtube.com/shorts/VkrticgLtrQ",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-02-c",
+      "created": "2026-11-02",
+      "title": "Phone nahi toh entry nahi!",
+      "format": "Door arrivals, no-phone rule enforced at the front door",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Avika",
+        "Zoya"
+      ],
+      "caption": "No phone kitty ka rule... sabse pehle host ne toda. Tag your Tanya!",
+      "status": "queued",
+      "idea": "No phone kitty: Tanya makes every guest drop her phone in the kitty pot at the door, until a ringtone goes off inside her own pallu.",
+      "beats": "hook: phone nahi toh entry nahi / esc: Ruhi's message, Avika 'paanch minute' at the door, Zoya's three phones / twist: ringtone in Tanya's pallu / button: guests shout her own line back, her phone goes in the pot",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya blocks her doorway holding out the kitty pot and shouts 'Ruko! Phone nahi, toh entry nahi!' at Ruhi who is typing in the doorway",
+        "variable": "the exact structure of the 4.9k-view winner (host judges each guest at the door, running count chip, host breaks her own rule, guests repeat her opening line at her) with a new rule and a new cast, to test whether the door-arrival shape or the pink/yellow colour gag made it work",
+        "hypothesis": "if the shape is the winner, this holds like KG-2026-10-27-c: skip under 35% and watched above 50%; a phone rule every member has lived should also beat its 0 shares with at least 3 shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Phone nahi, toh entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre, bas ek message!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Phone kitty pot mein. Aaj sirf baatein!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Haan, bas paanch minute mein pahunchi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Tum toh darwaze pe khadi ho!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Oho! Aadat ho gayi hai yaar.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aadat bhi pot mein daalo!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Hi guys! Kitty se live hoon!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Zoya! Phone idhar do!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Done aunty! Le lo, mera phone!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shabaash! Aur peeche wala?",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Yeh reels ka, yeh backup ka!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaye! Teen teen phone?!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Yeh kiska phone baj raha hai?",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Zoya",
+          "line": "Aunty... aapke pallu mein!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Beta ka call hai! Important hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Mera bhi bahut important tha!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ruko! Phone nahi, toh entry nahi!",
+          "beat": "button"
+        }
+      ],
+      "duration": 37.54,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Built on the door-arrivals winner (KG-2026-10-27-c, skip 25.6%, watched 72%): same doorbell rhythm, one guest per ring, a count chip that climbs, host undone by her own rule and the opening line thrown back at her. The game plays three times: Ruhi ordinary (one message), Avika sillier (telling someone she is 5 minutes away while standing at the door, her catchphrase), Zoya absurd (claims 'Done!' happily, then two more phones). Twist is see-and-hear: three dings and a phone popping at Tanya's pallu, no reasoning needed. Ruhi stays silent until the chorus so only Tanya, Avika and Zoya talk. Rewrite 1: the first ending had Tanya hiding the call and walking off; weaker than the mirrored entry line. Endings tried: guests lock Tanya out (unkind for her own house), Tanya's son calls to ask where the remote is (needs a voice we do not have), chorus line back at her (kept). Pace 28 because the last QA failure was pace."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-c.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-c-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-02-c-board.jpg",
+      "queue_id": "ded614f3-1a30-4504-8a43-2b14d9a25832",
+      "scheduled_ist": "2026-11-07 20:13",
+      "yt_id": "cTzwb85Gn-s",
+      "yt_url": "https://youtube.com/shorts/cTzwb85Gn-s",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
