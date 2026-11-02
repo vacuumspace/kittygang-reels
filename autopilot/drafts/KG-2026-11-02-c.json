@@ -1,0 +1,854 @@
+{
+  "id": "KG-2026-11-02-c",
+  "title": "Phone nahi toh entry nahi!",
+  "format": "Door arrivals, no-phone rule enforced at the front door",
+  "idea": "No phone kitty: Tanya makes every guest drop her phone in the kitty pot at the door, until a ringtone goes off inside her own pallu.",
+  "logline": "Tanya makes every guest drop her phone in the kitty pot at the door, until a phone starts ringing inside her own pallu.",
+  "game": "every guest at the door gets caught with her phone, each one worse than the last",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Tanya blocks her doorway holding out the kitty pot and shouts 'Ruko! Phone nahi, toh entry nahi!' at Ruhi who is typing in the doorway",
+    "variable": "the exact structure of the 4.9k-view winner (host judges each guest at the door, running count chip, host breaks her own rule, guests repeat her opening line at her) with a new rule and a new cast, to test whether the door-arrival shape or the pink/yellow colour gag made it work",
+    "hypothesis": "if the shape is the winner, this holds like KG-2026-10-27-c: skip under 35% and watched above 50%; a phone rule every member has lived should also beat its 0 shares with at least 3 shares"
+  },
+  "mute": [
+    "Tanya at her door holding out the kitty pot, chip NO PHONE KITTY, Ruhi typing in the doorway",
+    "Ruhi's phone drops into the pot, chip PHONES: 1, Ruhi sulks",
+    "Avika rushes in with a phone at her ear, already at the door",
+    "her phone goes in too, chip PHONES: 2",
+    "Zoya hops in filming herself with a ring light",
+    "Zoya happily hands one phone over, PHONES: 3",
+    "she pulls out two more phones, PHONES: 5, Tanya shocked",
+    "silence, a phone pops up ringing at Tanya's pallu, chip PHONES: 5 + ?",
+    "Tanya holds her own phone, guests smirk, chip TANYA KA PHONE",
+    "Ruhi holds the pot out to Tanya, her phone drops in, chip PHONES: 6. TANYA KA BHI!, same line as the opening flipped"
+  ],
+  "beats": "hook: phone nahi toh entry nahi / esc: Ruhi's message, Avika 'paanch minute' at the door, Zoya's three phones / twist: ringtone in Tanya's pallu / button: guests shout her own line back, her phone goes in the pot",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Built on the door-arrivals winner (KG-2026-10-27-c, skip 25.6%, watched 72%): same doorbell rhythm, one guest per ring, a count chip that climbs, host undone by her own rule and the opening line thrown back at her. The game plays three times: Ruhi ordinary (one message), Avika sillier (telling someone she is 5 minutes away while standing at the door, her catchphrase), Zoya absurd (claims 'Done!' happily, then two more phones). Twist is see-and-hear: three dings and a phone popping at Tanya's pallu, no reasoning needed. Ruhi stays silent until the chorus so only Tanya, Avika and Zoya talk. Rewrite 1: the first ending had Tanya hiding the call and walking off; weaker than the mirrored entry line. Endings tried: guests lock Tanya out (unkind for her own house), Tanya's son calls to ask where the remote is (needs a voice we do not have), chorus line back at her (kept). Pace 28 because the last QA failure was pace."
+  },
+  "cover": {
+    "shot": 7,
+    "at": 1.4,
+    "title": [
+      "No phone kitty!",
+      "Phone kiska baja?"
+    ],
+    "titleY": 330
+  },
+  "caption": "No phone kitty ka rule... sabse pehle host ne toda. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#nophone",
+    "#kittypartyfun",
+    "#ladieskitty",
+    "#kittypartytheme",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "NO PHONE KITTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "eyes": "side",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Phone nahi, toh entry nahi!",
+          "say": "रुको! फ़ोन नहीं, तो एंट्री नहीं!",
+          "beat": "hook"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Arre, bas ek message!",
+          "say": "अरे, बस एक मैसेज!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PHONES: 1",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "eyes": "half",
+          "mouth": "flat"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Phone + notification",
+          "x": 470,
+          "y": 1380,
+          "s": 0.8,
+          "at": 0.3,
+          "rot": -15
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.35,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Phone kitty pot mein. Aaj sirf baatein!",
+          "say": "फ़ोन किटी पॉट में। आज सिर्फ़ बातें!",
+          "punch": true,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "NO PHONE KITTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 980,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Haan, bas paanch minute mein pahunchi!",
+          "say": "हाँ, बस पाँच मिनट में पहुँची!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Tum toh darwaze pe khadi ho!",
+          "say": "तुम तो दरवाज़े पे खड़ी हो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PHONES: 2",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Phone + notification",
+          "x": 470,
+          "y": 1380,
+          "s": 0.8,
+          "at": 0.5,
+          "rot": 10
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Oho! Aadat ho gayi hai yaar.",
+          "say": "ओहो! आदत हो गई है यार।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Aadat bhi pot mein daalo!",
+          "say": "आदत भी पॉट में डालो!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "NO PHONE KITTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Zoya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Ring light",
+          "x": 960,
+          "y": 1420,
+          "s": 1.1,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 680,
+          "y": 820,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 960,
+          "y": 780,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "shutter",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Zoya",
+          "text": "Hi guys! Kitty se live hoon!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Zoya! Phone idhar do!",
+          "say": "ज़ोया! फ़ोन इधर दो!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PHONES: 3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Zoya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Phone + notification",
+          "x": 470,
+          "y": 1380,
+          "s": 0.8,
+          "at": 0.2,
+          "rot": -8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "thud",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Zoya",
+          "text": "Done aunty! Le lo, mera phone!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Shabaash! Aur peeche wala?",
+          "say": "शाबाश! और पीछे वाला?",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PHONES: 5",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Zoya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Phone + notification",
+          "x": 650,
+          "y": 1250,
+          "s": 0.8,
+          "at": 0.3,
+          "rot": -12
+        },
+        {
+          "name": "Phone + notification",
+          "x": 930,
+          "y": 1250,
+          "s": 0.8,
+          "at": 0.7,
+          "rot": 12
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1080,
+          "at": 1.0
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "pop",
+          "vol": 0.5
+        },
+        {
+          "at": 0.7,
+          "name": "pop",
+          "vol": 0.5
+        },
+        {
+          "at": 1.6,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Zoya",
+          "text": "Yeh reels ka, yeh backup ka!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaye! Teen teen phone?!",
+          "say": "हाय! तीन तीन फ़ोन?!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PHONES: 5 + ?",
+      "chipY": 600,
+      "camera": "still",
+      "music": false,
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": -0.5
+        },
+        {
+          "name": "Zoya",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.6
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        },
+        {
+          "name": "Phone + notification",
+          "x": 340,
+          "y": 1330,
+          "s": 0.8,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "ding",
+          "vol": 0.55
+        },
+        {
+          "at": 0.7,
+          "name": "ding",
+          "vol": 0.55
+        },
+        {
+          "at": 1.1,
+          "name": "ding",
+          "vol": 0.55
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Yeh kiska phone baj raha hai?",
+          "say": "ये किसका फ़ोन बज रहा है?",
+          "silenceBefore": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Zoya",
+          "text": "Aunty... aapke pallu mein!",
+          "punch": true,
+          "gap": 0.04,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA KA PHONE",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.5
+        },
+        {
+          "name": "Zoya",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "pose": "hips",
+          "mouth": "smirk",
+          "turn": -0.6
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1060,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Beta ka call hai! Important hai!",
+          "say": "बेटे का कॉल है! इम्पॉर्टेंट है!",
+          "beat": "turn"
+        },
+        {
+          "who": "Avika",
+          "text": "Mera bhi bahut important tha!",
+          "say": "मेरा भी बहुत इम्पॉर्टेंट था!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PHONES: 6. TANYA KA BHI!",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": -0.5
+        },
+        {
+          "name": "Zoya",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.6
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 560,
+          "y": 1420,
+          "s": 1.4
+        },
+        {
+          "name": "Phone + notification",
+          "x": 560,
+          "y": 1300,
+          "s": 0.8,
+          "at": 1.3,
+          "rot": 20
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 1.7,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ruko! Phone nahi, toh entry nahi!",
+          "say": "रुको! फ़ोन नहीं, तो एंट्री नहीं!",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.8
+    }
+  ]
+}

@@ -1,5 +1,14 @@
 # Learnings (newest first). Only real learnings from team feedback or post data.
 
+## 2026-11-02 · Monday review (stats as of 2026-11-01)
+- WINNER BY TYPE: door-arrivals "Pink nahi toh entry nahi!" (KG-2026-10-27-c): 4938 views, reach 2745, skip 25.6%, watched 72% (19.8 s), 2 saves, 0 shares. Best hook and middle we have ever had, 4x the Diwali Housie views.
+- Why it held: a doorbell every 4 s, one new guest per ring, a host blocking her own door with one loud rule in the first line, a score chip that changes every shot, a see-it twist (her own group message) and the guests throwing her opening line back at her.
+- Other types: group-chat 287 views, skip 69.9%; quiz 225, skip 69.2%; sitcoms 244-1297, skip 55-84%. Theme reels (TH) 217-317 views, skip 64-80%. None beat 55% skip except door-arrivals.
+- Rule: door-arrivals is the winner; use it at most every 2nd reel and keep testing the rest. Next test (KG-2026-11-02-c, no phone kitty): same door shape with a new rule and cast, to see if the shape or the colour gag did it.
+- Weak spot: shares are still near 0 on every reel; the winner got saves but no shares. Try a caption that names a type of friend and a rule every group has.
+- Pipeline: 8 of the last 14 drafts failed QA, mostly on a shot over 5 s, length or pace under 2.3 w/s. Keep 2 lines a shot (one if it is 7 words), use pace 26-28, and split any 3-line shot.
+- Expectation-reality, photo-attempts, story-time and pov reels are queued; compare them next Monday.
+
 ## 2026-10-26 · Monday review (stats as of 2026-10-25)
 - Types so far: every reel with data is a sitcom; group-chat (KG-2026-10-26-a) and door-arrivals (KG-2026-10-26-b) are queued, compare them next Monday.
 - Winner by far: Diwali safai wali Housie (KG-2026-10-22-c): 1161 views, 5 shares, 5 saves, skip 55.5%, watched 26%. A Housie game with a festival twist the audience lives right now.
