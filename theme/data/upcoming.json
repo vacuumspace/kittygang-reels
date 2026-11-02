@@ -1,99 +1,6 @@
 {
- "updated": "2026-11-02T11:30:05.666Z",
+ "updated": "2026-11-02T19:39:31.446Z",
  "days": [
-  {
-   "date": "2026-11-02",
-   "day": "Mon, 2 Nov",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "rangaiputai",
-    "name": "Rangai Putai",
-    "pack": "themes/rangaiputai/v2",
-    "sounds": "sounds/rangaiputai/v2",
-    "colors": {
-     "accent": "#F06A4A",
-     "accentDeep": "#B8432A",
-     "gameInk": "#FFF8F4"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Deewar",
-      "points": 50,
-      "numbers": 5
-     },
-     {
-      "name": "Roller",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Brush",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Rang Ka Dabba",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_3",
-      "gh_4",
-      "gh_0",
-      "gh_1",
-      "gh_2"
-     ],
-     "housie": [
-      "gs_2",
-      "gs_3",
-      "gs_0",
-      "gs_1"
-     ],
-     "mascotBall": [
-      "sc_4",
-      "sc_0",
-      "sc_1",
-      "sc_2",
-      "sc_3"
-     ],
-     "particles": [
-      "gh_5",
-      "gh_6",
-      "gh_7",
-      "gh_8",
-      "gh_9",
-      "gh_10",
-      "gh_11",
-      "gh_12",
-      "fx_1",
-      "fx_2",
-      "fx_3",
-      "fx_4",
-      "fx_5",
-      "fx_6",
-      "fx_7",
-      "fx_8",
-      "fx_9"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-11-03",
    "day": "Tue, 3 Nov",
@@ -212,6 +119,19 @@
   {
    "date": "2026-11-04",
    "day": "Wed, 4 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "11 PM"
+   ],
+   "theme": null
+  },
+  {
+   "date": "2026-11-05",
+   "day": "Thu, 5 Nov",
    "times": [
     "12:30 AM",
     "12 PM",
