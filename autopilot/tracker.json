@@ -6024,6 +6024,169 @@
       "yt_id": "V_5qeXgMsFg",
       "yt_url": "https://youtube.com/shorts/V_5qeXgMsFg",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-03-a",
+      "created": "2026-11-03",
+      "title": "Bhai Dooj wali Housie",
+      "format": "Countdown: one Housie game on Bhai Dooj, a chip counting down the numbers Myra needs for Early Five",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Myra",
+        "Tanya"
+      ],
+      "caption": "Bhai Dooj pe tilak bhi, Housie bhi... aur ticket bhaiya sambhalega. Tag the sister jo kitty se bhi tilak karti hai!",
+      "status": "needs-fix",
+      "idea": "Housie on Bhai Dooj: Myra does tilak for her brother on video call and ignores the game, the gang keeps cutting her numbers, and her brother on screen spots 45 and makes her win Early Five.",
+      "beats": "hook: Ruko! Bhaiya ka tilak baaki hai / setup: tilak on the phone / esc: Tanya cuts 22, Shruti cuts 90 herself / twist: 45 called, the brother on the call spots it and Myra claims / button: Tanya and Shruti stop Housie for their own bhaiyas",
+      "experiment": {
+        "type": "countdown",
+        "hook": "Housie cage spinning, Shruti calls 'Number saat!' and Myra jumps up with a roli thali shouting 'Ruko! Bhaiya ka tilak baaki hai!', chip 'MYRA KO EARLY FIVE: 3 BAAKI'",
+        "variable": "a countdown chip (3, 2, 1 numbers left) that drops on every called number, carrying one story inside a running Housie game, timed for Bhai Dooj (11 Nov)",
+        "hypothesis": "a visible 3-2-1 countdown keeps people to the end: watched above 40% and skip under 50% (Housie-in-progress hooks were our best non-door openings at 55%), and a festival every sister lives should earn 3+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Number saat! Lucky seven!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ruko! Bhaiya ka tilak baaki hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Bhai Dooj hai! Phone pe hi tilak!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Screen pe roli?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bais! Do batakh!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ek minute! Aarti chal rahi hai!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Laao, tera ticket main kaat doon!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Thanks didi! Aap best ho!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Nabbe! Main hi kaat doon?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haan! Bhaiya ko laddoo khila rahi!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paintalis! Chaar aur paanch!",
+          "beat": "turn"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Bhaiya, shagun mein kya laaye?",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Ruko! Early Five! Claim hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bhai ne jitaya?! Cheating!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Nahi didi, yeh shagun hai!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Mere bhaiya ka tilak bhi!",
+          "beat": "button"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mera bhai bhi online!",
+          "beat": "button"
+        }
+      ],
+      "duration": 40.32,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Fix of KG-2026-11-02-b (needs-fix: length 47.3 s, one shot 5.7 s). Cut from 102 to 85 words and 20 to 17 lines: merged the two 90 beats into one (Shruti cuts it herself while Myra feeds laddoo to the screen), dropped the cricket pause before 45, and cut the 5.7 s phone shot to one claim line with faster chat bubbles. Story, game and countdown chip unchanged: 3, 2, 1 numbers left, the brother on the video call spots 45, the shagun callback, and the gang stopping Housie for their own bhaiyas with Myra's opening Ruko line. Expected about 38 s, every shot under 4.5 s, two lines a shot, pace 28. Lead is Myra (last reel led with Tanya). Kind humour, real Bhai Dooj scene (11 Nov), no male voice: the brother only types."
+      },
+      "qa": [
+        "no shot over 5 s (5.2 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-03-a-board.jpg"
     }
   ],
   "ideas": [
