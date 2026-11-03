@@ -1,0 +1,1280 @@
+{
+  "id": "KG-2026-11-03-b",
+  "title": "Bhai Dooj wali Housie",
+  "format": "Countdown: one Housie game on Bhai Dooj, a chip counting down the numbers Myra needs for Early Five",
+  "idea": "Housie on Bhai Dooj: Myra does tilak for her brother on video call and ignores the game, the gang keeps cutting her numbers, and her brother on screen spots 45 and makes her win Early Five.",
+  "logline": "Myra stops Housie to do Bhai Dooj tilak for her brother on video call, everyone else cuts her numbers, and her brother on the screen spots the last one and wins her Early Five.",
+  "game": "every called number Myra misses for the tilak gets cut by someone else, ordinary (Tanya), ordinary (Shruti the caller), absurd (the brother on the video call)",
+  "experiment": {
+    "type": "countdown",
+    "hook": "Housie cage spinning, Shruti calls 'Number saat!' and Myra jumps up with a roli thali shouting 'Ruko! Bhaiya ka tilak baaki hai!', chip 'MYRA KO EARLY FIVE: 3 BAAKI'",
+    "variable": "a countdown chip (3, 2, 1 numbers left) that drops on every called number, carrying one story inside a running Housie game, timed for Bhai Dooj (11 Nov)",
+    "hypothesis": "a visible 3-2-1 countdown keeps people to the end: watched above 40% and skip under 50% (Housie-in-progress hooks were our best non-door openings at 55%), and a festival every sister lives should earn 3+ shares"
+  },
+  "mute": [
+    "Housie at Tanya's, ball 7 pops, chip says Myra needs 3 numbers for Early Five, Myra jumps up with a thali and her phone",
+    "phone propped on the sofa, Myra with a tilak thali and diya, Tanya shocked: tilak on a screen",
+    "ball 22 pops, Myra has her back to the game doing aarti to the phone",
+    "Tanya cuts Myra's ticket for her, chip drops to 2 BAAKI",
+    "ball 90, Shruti grabs the dabber and cuts it herself, Myra laughing with the mithai box at the phone, chip 1 BAAKI",
+    "ball 45 pops, Myra still chatting to the phone, asking about her shagun",
+    "the brother's video call chat: Didi! 45! Ticket pe hai! EARLY FIVE! CLAIM! and Myra shouts claim",
+    "Myra hops with the prize envelope, chip EARLY FIVE: MYRA!, Shruti and Tanya open-mouthed",
+    "Tanya and Shruti both grab their phones to call their own brothers, chip SABKE BHAIYA ONLINE, same Ruko line as the opening flipped"
+  ],
+  "beats": "hook: Ruko! Bhaiya ka tilak baaki hai / setup: tilak on the phone / esc: Tanya cuts 22, Shruti cuts 90 herself / twist: 45 called, the brother on the call spots it and Myra claims / button: Tanya and Shruti stop Housie for their own bhaiyas",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Fix of KG-2026-11-03-a (needs-fix: one shot 5.2 s). Every two-line shot is now two one-line shots (17 shots, about 2.3 s each), so no shot comes near the 5 s limit; the quick 0.04 s gap is kept across each cut so replies still overlap like a real conversation. Lines, words, pace 28 and length (about 40 s) unchanged; cage and ballpop stay on the calling shot, reactions and late stickers move to the reply shot. Story, game and countdown chip unchanged: 3, 2, 1 numbers left, the brother on the video call spots 45, the shagun callback, and the gang stopping Housie for their own bhaiyas with the opening Ruko line flipped. Lead is Myra. Kind humour, real Bhai Dooj scene (11 Nov)."
+  },
+  "cover": {
+    "shot": 12,
+    "at": 0.5,
+    "title": [
+      "Bhai Dooj Housie!",
+      "Bhaiya ne jitaya?"
+    ],
+    "titleY": 330
+  },
+  "caption": "Bhai Dooj pe tilak bhi, Housie bhi... aur ticket bhaiya sambhalega. Tag the sister jo kitty se bhi tilak karti hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#bhaidooj",
+    "#housie",
+    "#ladieskitty",
+    "#bhaiyadooj",
+    "#kittypartyfun"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 3 BAAKI",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 7",
+          "x": 420,
+          "y": 1300,
+          "s": 1,
+          "at": 0.3
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 880,
+          "y": 900,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        },
+        {
+          "at": 0.3,
+          "name": "ballpop",
+          "vol": 0.5
+        },
+        {
+          "at": 0.9,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Number saat! Lucky seven!",
+          "say": "नंबर सात! लकी सेवन!",
+          "beat": "hook",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 3 BAAKI",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 7",
+          "x": 420,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ruko! Bhaiya ka tilak baaki hai!",
+          "say": "रुको! भैया का तिलक बाकी है!",
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 3 BAAKI",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 860,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "cup",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        },
+        {
+          "name": "Diya",
+          "x": 960,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 720,
+          "y": 1100,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Bhai Dooj hai! Phone pe hi tilak!",
+          "say": "भाई दूज है! फ़ोन पे ही तिलक!",
+          "beat": "setup",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 3 BAAKI",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 860,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "cup",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        },
+        {
+          "name": "Diya",
+          "x": 960,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haaw! Screen pe roli?!",
+          "say": "हाव! स्क्रीन पे रोली?!",
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 3 BAAKI",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 22",
+          "x": 420,
+          "y": 1300,
+          "s": 1,
+          "at": 0.2
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Diya",
+          "x": 960,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Bais! Do batakh!",
+          "say": "बाईस! दो बत्तख़!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 3 BAAKI",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 22",
+          "x": 420,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Diya",
+          "x": 960,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "chimes",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ek minute! Aarti chal rahi hai!",
+          "say": "एक मिनट! आरती चल रही है!"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 2 BAAKI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 860,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "cup",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1180,
+          "s": 1,
+          "at": 0.2
+        },
+        {
+          "name": "Dabber marker",
+          "x": 640,
+          "y": 1180,
+          "s": 0.9,
+          "at": 0.4
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "swish",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Laao, tera ticket main kaat doon!",
+          "say": "लाओ, तेरा टिकट मैं काट दूँ!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 2 BAAKI",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 860,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "cup",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1180,
+          "s": 1
+        },
+        {
+          "name": "Dabber marker",
+          "x": 640,
+          "y": 1180,
+          "s": 0.9
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Thanks didi! Aap best ho!",
+          "say": "थैंक्स दीदी! आप बेस्ट हो!"
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 1 BAAKI",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 90",
+          "x": 420,
+          "y": 1300,
+          "s": 1,
+          "at": 0.2
+        },
+        {
+          "name": "Mithai box",
+          "x": 880,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Dabber marker",
+          "x": 330,
+          "y": 1250,
+          "s": 0.9,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Nabbe! Main hi kaat doon?!",
+          "say": "नब्बे! मैं ही काट दूँ?!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 1 BAAKI",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 90",
+          "x": 420,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Mithai box",
+          "x": 880,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Dabber marker",
+          "x": 330,
+          "y": 1250,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 330,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Haan! Bhaiya ko laddoo khila rahi!",
+          "say": "हाँ! भैया को लड्डू खिला रही!",
+          "punch": true
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 1 BAAKI",
+      "camera": "still",
+      "music": false,
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 45",
+          "x": 420,
+          "y": 1300,
+          "s": 1.1,
+          "at": 0.2
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Diya",
+          "x": 960,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.55
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Paintalis! Chaar aur paanch!",
+          "say": "पैंतालीस! चार और पाँच!",
+          "beat": "turn",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "MYRA KO EARLY FIVE: 1 BAAKI",
+      "camera": "still",
+      "music": false,
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 45",
+          "x": 420,
+          "y": 1300,
+          "s": 1.1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 700,
+          "y": 1260,
+          "s": 0.9
+        },
+        {
+          "name": "Diya",
+          "x": 960,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 640,
+          "y": 950,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "tick",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Bhaiya, shagun mein kya laaye?",
+          "say": "भैया, शगुन में क्या लाए?"
+        }
+      ],
+      "hold": 0.12
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Bhaiya (video call)",
+      "camera": "still",
+      "chip": "MYRA KO EARLY FIVE: 1 BAAKI",
+      "chipY": 200,
+      "chat": [
+        [
+          "Bhaiya",
+          "Didi! 45!",
+          0,
+          "4:12 PM",
+          0.1
+        ],
+        [
+          "Bhaiya",
+          "Ticket pe hai! Dekho!",
+          0,
+          "4:12 PM",
+          0.4
+        ],
+        [
+          "Bhaiya",
+          "EARLY FIVE! CLAIM!",
+          0,
+          "4:12 PM",
+          0.7
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ruko! Early Five! Claim hai!",
+          "say": "रुको! अर्ली फ़ाइव! क्लेम है!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "EARLY FIVE: MYRA!",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.4,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 800,
+          "y": 1250,
+          "s": 1,
+          "at": 0.3
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 880,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 950,
+          "y": 860,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Bhai ne jitaya?! Cheating!",
+          "say": "भाई ने जिताया?! चीटिंग!",
+          "beat": "turn",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "EARLY FIVE: MYRA!",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.4,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 800,
+          "y": 1250,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "ohho",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Nahi didi, yeh shagun hai!",
+          "say": "नहीं दीदी, ये शगुन है!",
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "SABKE BHAIYA ONLINE",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 540,
+          "y": 1250,
+          "s": 0.9,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 0.6,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Mere bhaiya ka tilak bhi!",
+          "say": "रुको! मेरे भैया का तिलक भी!",
+          "punch": true,
+          "beat": "button",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "BHAI DOOJ HOUSIE",
+      "chipY": 600,
+      "chip": "SABKE BHAIYA ONLINE",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 540,
+          "y": 1250,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.7,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Mera bhai bhi online!",
+          "say": "मेरा भाई भी ऑनलाइन!",
+          "beat": "button"
+        }
+      ],
+      "hold": 0.5
+    }
+  ],
+  "fixes": "KG-2026-11-03-a"
+}
