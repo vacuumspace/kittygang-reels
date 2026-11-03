@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:09:24.488Z",
+ "updated": "2026-11-03T17:12:04.273Z",
  "days": [
   {
    "date": "2026-11-03",
@@ -125,9 +125,84 @@
     "3 PM",
     "4 PM",
     "7 PM",
+    "9 PM",
     "11 PM"
    ],
-   "theme": null
+   "theme": {
+    "id": "taashpoker",
+    "name": "Taash Poker Party",
+    "pack": "themes/taashpoker/v1",
+    "sounds": "sounds/taashpoker/v1",
+    "colors": {
+     "accent": "#C8102E",
+     "accentDeep": "#8A0A1E",
+     "gameInk": "#F3FFF8"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Hukum",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Paan",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Eent",
+      "points": 50,
+      "numbers": 3
+     },
+     {
+      "name": "Chidi",
+      "points": 50,
+      "numbers": 5
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_5",
+      "gh_6",
+      "gh_0",
+      "gh_1",
+      "gh_2",
+      "gh_3",
+      "gh_4"
+     ],
+     "housie": [
+      "gs_4",
+      "gs_5",
+      "gs_0",
+      "gs_1",
+      "gs_2",
+      "gs_3"
+     ],
+     "mascotBall": [
+      "sc_2",
+      "sc_0",
+      "sc_1"
+     ],
+     "particles": [
+      "gh_7",
+      "gh_8",
+      "gh_9",
+      "gh_10",
+      "fx_1",
+      "fx_2",
+      "fx_3",
+      "fx_4",
+      "fx_5"
+     ]
+    }
+   }
   },
   {
    "date": "2026-11-05",
@@ -138,6 +213,7 @@
     "3 PM",
     "4 PM",
     "7 PM",
+    "9 PM",
     "11 PM"
    ],
    "theme": null
