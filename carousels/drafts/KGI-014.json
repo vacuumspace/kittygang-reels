@@ -1,0 +1,804 @@
+{
+  "id": "KGI-014",
+  "n": 14,
+  "slug": "shagun-ka-lifafa-shaadi-season-kitty-party-game",
+  "game": "Shagun Ka Lifafa",
+  "tagline": "Ek ka sikka bhoole? Kanjoos!",
+  "cover_art": [
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(110 250) rotate(-12) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(150 220) rotate(6) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(200 270) rotate(-4) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#7FC8D6' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>50</text></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(420 230) rotate(-6) scale(1.25)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='12' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='12' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'>Shagun</text></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(560 300) scale(1.1)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+    },
+    {
+      "k": "person",
+      "x": 830,
+      "y": 230,
+      "s": 1.6,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(900 300) rotate(10) scale(0.5)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6'></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x='690' y='0' width='300' height='80' rx='36' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></rect>"
+    },
+    {
+      "k": "text",
+      "x": 840,
+      "y": 52.6,
+      "text": "Bua ki beti, 1100!",
+      "size": 36,
+      "color": "ink",
+      "w": 700
+    },
+    {
+      "k": "text",
+      "x": 40,
+      "y": 20,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 350,
+      "text": " ",
+      "size": 20
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 4 cheezein",
+    "body": "Asli paise nahi, sirf kaagaz ke note.",
+    "items": [
+      {
+        "label": "Kaagaz ke note",
+        "sub": "10, 20, 50, 100, 500",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(120 90) rotate(-10) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(160 115) rotate(4) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(200 145) rotate(-3) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#7FC8D6' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>50</text></g>"
+          },
+          {
+            "k": "text",
+            "x": 20,
+            "y": 20,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Lifafa",
+        "sub": "har lady ko 1",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 115) rotate(-4) scale(1)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='12' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='12' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'>Shagun</text></g>"
+          },
+          {
+            "k": "text",
+            "x": 20,
+            "y": 20,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 280,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Ek ka sikka",
+        "sub": "3 har lady ko",
+        "draw": [
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(95 115) scale(1.2)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 105) scale(1.2)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(205 115) scale(1.2)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+          },
+          {
+            "k": "text",
+            "x": 20,
+            "y": 30,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 280,
+            "y": 200,
+            "text": " ",
+            "size": 20
+          }
+        ]
+      },
+      {
+        "label": "Rishton ki chits",
+        "sub": "host ke bowl mein",
+        "draw": [
+          {
+            "k": "bowl",
+            "x": 150,
+            "y": 140,
+            "s": 1,
+            "color": "pink"
+          },
+          {
+            "k": "chit",
+            "x": 120,
+            "y": 70,
+            "s": 0.8,
+            "text": "Bua",
+            "rot": -10
+          },
+          {
+            "k": "chit",
+            "x": 190,
+            "y": 60,
+            "s": 0.8,
+            "text": "Padosi",
+            "rot": 8
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Har lady ko note aur lifafa",
+      "body": "11 kaagaz ke note, 3 sikke aur ek lifafa. Bas!",
+      "draw": [
+        {
+          "k": "person",
+          "x": 480,
+          "y": 170,
+          "s": 1.8,
+          "color": "yel"
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 500,
+          "w": 920,
+          "h": 300,
+          "top": true
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(110 420) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(110 450) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(290 420) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(290 450) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(290 480) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(470 420) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#7FC8D6' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>50</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(470 450) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#7FC8D6' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>50</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(650 420) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#F2A65A' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>20</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(650 450) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#F2A65A' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>20</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(830 420) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#C9A27A' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>10</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(830 450) rotate(0) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#C9A27A' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>10</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(300 590) rotate(0) scale(0.8)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='12' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='12' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'>Shagun</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(560 590) scale(1)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(640 590) scale(1)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(720 590) scale(1)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 700,
+          "text": "Notes alag alag dher mein rakho",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 20,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Host rishta aur amount bolegi",
+      "body": "Bowl se chit nikaalo: \"Bua ki beti, 1100!\" Sirf round amount.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M40 600 L940 600' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "person",
+          "x": 240,
+          "y": 420,
+          "s": 2.2,
+          "color": "blue"
+        },
+        {
+          "k": "bowl",
+          "x": 480,
+          "y": 560,
+          "s": 1.1,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 490,
+          "y1": 510,
+          "x2": 490,
+          "y2": 450,
+          "color": "pink"
+        },
+        {
+          "k": "chit",
+          "x": 500,
+          "y": 390,
+          "s": 1,
+          "text": "Bua, 1100",
+          "rot": -8
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='560' y='90' width='380' height='120' rx='36' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect>"
+        },
+        {
+          "k": "text",
+          "x": 750,
+          "y": 164,
+          "text": "Bua ki beti, 1100!",
+          "size": 40,
+          "color": "white",
+          "w": 700
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M590 200 L320 290 L640 210 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='4'></path>"
+        },
+        {
+          "k": "text",
+          "x": 750,
+          "y": 420,
+          "text": "Padosi ka beta, 500",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 750,
+          "y": 480,
+          "text": "Mausi ki bahu, 750",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 750,
+          "y": 540,
+          "text": "Driver ki beti, 200",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 640,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Note gino, sikka mat bhoolo",
+      "body": "Shagun hamesha 1 pe khatam: 1100 bola, toh 1101 daalo.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(140 140) rotate(-6) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(140 280) rotate(4) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(140 420) rotate(-3) scale(1)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 160,
+          "text": "+",
+          "size": 60,
+          "color": "ink",
+          "w": 700
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 300,
+          "text": "+",
+          "size": 60,
+          "color": "ink",
+          "w": 700
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 440,
+          "text": "+",
+          "size": 60,
+          "color": "ink",
+          "w": 700
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(140 560) scale(1.3)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 260,
+          "y1": 350,
+          "x2": 500,
+          "y2": 350,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(700 350) rotate(0) scale(1.5)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 -130 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='-10' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='-10' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'>1101</text></g>"
+        },
+        {
+          "k": "hand",
+          "x": 600,
+          "y": 250,
+          "rot": 20,
+          "s": 1.2
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='560' y='560' width='380' height='110' rx='36' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></rect>"
+        },
+        {
+          "k": "text",
+          "x": 750,
+          "y": 634.6,
+          "text": "= 1101",
+          "size": 56,
+          "color": "ink",
+          "w": 700
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Band karo, upar uthao!",
+      "body": "Flap andar mod ke lifafa hawa mein. Pehli 3 ladies line mein.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<path d='M40 640 L940 640' stroke='#E6C3D3' stroke-width='8' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 440,
+          "s": 2,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 440,
+          "s": 2,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 440,
+          "s": 2,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(250 110) rotate(-8) scale(0.8)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='12' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='12' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'></text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(530 150) rotate(6) scale(0.8)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='12' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='12' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'></text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(810 190) rotate(-4) scale(0.8)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 10 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='12' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='12' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'></text></g>"
+        },
+        {
+          "k": "hand",
+          "x": 250,
+          "y": 190,
+          "rot": 0,
+          "s": 1
+        },
+        {
+          "k": "hand",
+          "x": 530,
+          "y": 230,
+          "rot": 0,
+          "s": 1
+        },
+        {
+          "k": "hand",
+          "x": 810,
+          "y": 270,
+          "rot": 0,
+          "s": 1
+        },
+        {
+          "k": "text",
+          "x": 250,
+          "y": 20,
+          "text": "Pehli!",
+          "size": 44,
+          "color": "pink",
+          "w": 700
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": -40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    },
+    {
+      "title": "Host kholke ginegi",
+      "body": "Sahi amount = 1 point. Sikka gayab = KANJOOS, minus 1.",
+      "draw": [
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(240 190) rotate(0) scale(1.1)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 -130 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='-10' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='-10' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'>1101</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(170 90) rotate(-10) scale(0.6)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(250 80) rotate(6) scale(0.6)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(320 100) rotate(-4) scale(0.6)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(380 200) scale(0.9)'><circle cx='0' cy='0' r='34' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></circle><circle cx='0' cy='0' r='24' fill='none' stroke='#4A1238' stroke-width='2.5' opacity='0.6'></circle><text x='0' y='13' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='36' fill='#4A1238'>1</text></g>"
+        },
+        {
+          "k": "tick",
+          "x": 240,
+          "y": 360,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 240,
+          "y": 470,
+          "text": "+1 point",
+          "size": 44,
+          "color": "green",
+          "w": 700
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(720 190) rotate(0) scale(1.1)'><rect x='-110' y='-60' width='220' height='120' rx='10' fill='#FFF3D6' stroke='#4A1238' stroke-width='6'></rect><path d='M-110 -60 L0 -130 L110 -60' fill='#FFE2A8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><circle cx='0' cy='-10' r='20' fill='#D7263D' stroke='#4A1238' stroke-width='4'></circle><circle cx='0' cy='-10' r='8' fill='#FFC93C'></circle><text x='0' y='48' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='26' fill='#E85D8A'>1100</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(650 90) rotate(-10) scale(0.6)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(730 80) rotate(6) scale(0.6)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#9CCB86' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>500</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(800 100) rotate(-4) scale(0.6)'><rect x='-80' y='-40' width='160' height='80' rx='8' fill='#B9A3E3' stroke='#4A1238' stroke-width='5'></rect><circle cx='-44' cy='0' r='22' fill='none' stroke='#4A1238' stroke-width='3' opacity='0.5'></circle><text x='22' y='14' text-anchor='middle' font-family='Fredoka' font-weight='700' font-size='40' fill='#4A1238'>100</text></g>"
+        },
+        {
+          "k": "cross",
+          "x": 720,
+          "y": 360,
+          "s": 0.9
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x='540' y='430' width='360' height='110' rx='36' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect>"
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 504.6,
+          "text": "KANJOOS!",
+          "size": 56,
+          "color": "white",
+          "w": 700
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 600,
+          "text": "minus 1 point",
+          "size": 38,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 690,
+          "text": "Note waapas, agla rishta!",
+          "size": 36,
+          "color": "ink",
+          "w": 700
+        },
+        {
+          "k": "text",
+          "x": 20,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada points, woh jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Ek ka sikka bhooli?",
+          "Kanjoos! Minus 1 point."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Amount galat nikla?",
+          "Point agli lady ko."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Lifafa khula uthaya?",
+          "Woh count nahi hoga."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse zyada points",
+          "banegi Shagun Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Saasu maa round: saas ke",
+        "liye amount double karo!"
+      ],
+      [
+        "Mute round: host amount",
+        "sirf ungliyon se dikhaaye."
+      ],
+      [
+        "Double shaadi: do rishte",
+        "ek saath, do lifafe bharo."
+      ]
+    ],
+    "tip": "Har round ke baad note turant waapas lo."
+  },
+  "comment_hint": "kitna shagun?",
+  "caption": "Shaadi season aa gaya! Host rishta bolegi, aapko jhat se sahi shagun lifafe mein daalna hai, aur 1 ka sikka bhoole toh kanjoos. Aapke group mein sabse kanjoos kaun nikalegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#shaadiseason",
+    "#shagunkalifafa"
+  ],
+  "web": {
+    "title": "Shagun Ka Lifafa: Shaadi Season Kitty Party Game Rules",
+    "description": "Shagun Ka Lifafa is a shaadi season kitty party game: fill an envelope with the exact shagun the host calls, and never forget the Re 1 coin. Rules, steps, FAQs.",
+    "intro": "Shagun Ka Lifafa is a wedding season kitty party game where the host calls out a relative and a gift amount, like \"Bua ki beti, 1100\", and every lady races to fill an envelope (lifafa) with the exact shagun using paper play notes. The first lady to hold up a closed envelope with the right amount wins the point, and the lady with the most points after 8 to 10 rounds wins. The crazy twist is the Indian shagun rule: every shagun must end in 1, so the host says 1100 but the envelope must hold 1101, and anyone who forgets the Re 1 coin is called \"kanjoos\" and loses a point. It needs no real money, works for 8 to 20 ladies and takes 10 to 15 minutes.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "Paper play notes for every lady: 2 of 500, 3 of 100, 2 of 50, 2 of 20 and 2 of 10 (cut paper and write the amount, or use notes from a board game)",
+      "One envelope (lifafa) per lady; any old shagun envelope or a folded paper works",
+      "Three Re 1 coins per lady (or buttons marked 1)",
+      "A bowl of 10 chits, each with a relation and a round amount, for example \"Bua ki beti, 1100\" or \"Padosi ka beta, 500\"",
+      "A small prize for the Shagun Queen"
+    ],
+    "steps": [
+      "Give every lady her set of play notes, three Re 1 coins and one envelope. She keeps the notes in separate piles by value.",
+      "The host pulls a chit from the bowl and reads the relation and the round amount out loud, for example \"Bua ki beti, 1100!\".",
+      "Every lady quickly counts notes for that amount and adds one Re 1 coin, because a shagun always ends in 1. For 1100 the envelope must hold 1101.",
+      "She tucks the flap in and holds the closed envelope up in the air. The host notes the first three ladies in order.",
+      "The host opens the first envelope and counts. If it holds the exact amount plus the Re 1 coin, that lady gets 1 point. If the coin is missing, the host shouts \"Kanjoos!\" and she loses 1 point, and the host checks the next envelope.",
+      "Everyone takes her notes and coin back and the host reads the next chit. After 8 to 10 rounds, the lady with the most points wins."
+    ],
+    "rules": [
+      "An envelope without the Re 1 coin is \"kanjoos\" and costs 1 point.",
+      "A wrong amount gets no point, and the host checks the next raised envelope.",
+      "The envelope must be closed when it is raised; an open envelope does not count.",
+      "Only play notes are used, never real money.",
+      "The lady with the most points after all rounds is the Shagun Queen."
+    ],
+    "variations": [
+      "Saasu maa round: when the chit says saas or sasural, the amount is doubled, so 500 becomes 1001.",
+      "Mute round: the host shows the amount only with her fingers, no words.",
+      "Double shaadi: the host reads two chits at once and each lady fills two envelopes."
+    ],
+    "tips": [
+      "Write the chit amounts so they can be made from the notes each lady has (keep them at 1300 or less, and saas chits at 600 or less so the doubled amount still fits).",
+      "Ask everyone to keep notes in piles by value before the first round; it makes counting faster and funnier.",
+      "Collect notes back after every round so nobody runs short.",
+      "Read the chits in a dramatic wedding-planner voice for extra laughs."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Shagun Ka Lifafa?",
+        "a": "It works for 8 to 20 ladies. Everyone plays every round at the same time, so the group size does not slow the game down."
+      },
+      {
+        "q": "What do you need to play Shagun Ka Lifafa?",
+        "a": "Paper play notes, one envelope and three Re 1 coins per lady, and a bowl of chits with relations and amounts. No real money is used."
+      },
+      {
+        "q": "Why must the shagun end in 1?",
+        "a": "In many Indian families a gift of money always ends in 1, like 101, 501 or 1101, as a blessing that the giving continues. In the game, forgetting that Re 1 coin makes you \"kanjoos\"."
+      },
+      {
+        "q": "Is Shagun Ka Lifafa a good game for a wedding season kitty party?",
+        "a": "Yes. It fits the shaadi season perfectly, everyone has filled a shagun envelope in real life, and the kanjoos twist gets the whole room laughing."
+      },
+      {
+        "q": "How long does Shagun Ka Lifafa take?",
+        "a": "About 10 to 15 minutes for 8 to 10 rounds. Each round takes about a minute including the counting."
+      }
+    ]
+  }
+}
