@@ -7378,6 +7378,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/shaadi-ka-suitcase-packing-race-kitty-party-game",
       "queue_id": "49b8cc29-7b58-4733-954f-f8f5f15e2138",
       "scheduled_ist": "2026-11-03 11:44"
+    },
+    {
+      "id": "KGI-014",
+      "n": 14,
+      "created": "2026-11-03",
+      "game": "Shagun Ka Lifafa",
+      "tagline": "Ek ka sikka bhoole? Kanjoos!",
+      "players": "8 to 20",
+      "time": "10 to 15 minutes",
+      "slug": "shagun-ka-lifafa-shaadi-season-kitty-party-game",
+      "caption": "Shaadi season aa gaya! Host rishta bolegi, aapko jhat se sahi shagun lifafe mein daalna hai, aur 1 ka sikka bhoole toh kanjoos. Aapke group mein sabse kanjoos kaun nikalegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/shagun-ka-lifafa-shaadi-season-kitty-party-game",
+      "queue_id": "31597fb4-ab60-44ca-9999-16910aa72247",
+      "scheduled_ist": "2026-11-04 11:58"
     }
   ],
   "research": [
