@@ -1,0 +1,1033 @@
+{
+  "id": "KG-2026-11-04-b",
+  "title": "Ghar se call, number kata!",
+  "format": "Musical: a Housie game where every call from home gets the same sung chorus 'Ring ring! Number kata!' from the whole kitty",
+  "idea": "Shruti makes a rule that every call from home costs a Housie number; the calls get sillier (charger, namak, fridge), and then her own silent phone lights up with her husband asking how many cooker whistles.",
+  "logline": "Shruti rules that every call from home costs a Housie number, her friends keep losing numbers to silly calls, and then her own husband calls asking how many cooker whistles.",
+  "game": "every call from home gets the chorus 'Ring ring! Number kata!' and one number cut, ordinary (charger), ordinary (namak), absurd (where is the fridge), then the rule maker herself",
+  "experiment": {
+    "type": "musical",
+    "hook": "Housie cage spinning, Shruti announces 'Naya rule! Ghar se call, number kata!' while Ruhi's phone is already lighting up in her hand, chip 'GHAR SE CALLS: 0'",
+    "variable": "a sung chorus refrain 'Ring ring! Number kata!' from ALL on a beat after every call (4 times), so the reel plays like a song with a counting chip",
+    "hypothesis": "a repeating chorus the viewer can predict and chant keeps people to the end: watched above 35% and skip under 50%, and a 'ghar se call during kitty' moment every woman lives should earn 3+ shares"
+  },
+  "mute": [
+    "Housie at Tanyas, Shruti with the cage announces a rule: call from home = number cut, chip GHAR SE CALLS: 0, Ruhi's phone already ringing",
+    "Ruhi answers her phone, her child wants the charger, chip goes to 1",
+    "the whole kitty sings the chorus and claps, a dabber cuts a number on Ruhi's ticket",
+    "ball 22 pops out, Tanya's phone rings, she tells home where the salt is, chip goes to 2",
+    "chorus again, Tanya's ticket gets cut",
+    "Tanya shocked, Shruti happy with her calculator: equal rules",
+    "ball 90, Ruhi's phone again: someone at home cannot find the fridge, question mark, chip goes to 3",
+    "Tanya amazed, chorus again",
+    "Shruti smug, hands on hips: her phone is on silent",
+    "Shruti's phone screen: Pati ji asks how many cooker whistles, chip SHRUTI KA CALL",
+    "Shruti caught, whispering into the phone, pressure cooker pops in",
+    "the whole kitty shouts the answer: Teen!",
+    "Ruhi and Tanya hold the dabber and throw Shruti's opening rule back at her",
+    "chorus one last time on Shruti's own ticket, Shruti open-mouthed, freeze"
+  ],
+  "beats": "hook: Naya rule! Ghar se call, number kata / esc: charger, namak, fridge kahan hai, each with the chorus / twist: Shruti's silent phone, Pati ji asks seeti kitni, whole kitty answers Teen / button: her own rule thrown back, chorus on her ticket",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 49,
+    "notes": "Fixed version of KG-2026-11-04-a (QA: 51.4 s long, voice pace 2.22 w/s). Same musical test and story; cut the Arre reaction and the empty-ticket shot, folded the two ball calls into the phone shots as quick overlapping lines, removed the ellipses that made the voice drag, made the fridge joke land on screen (Kitchen mein, ji!), trimmed holds, pace 28. About 39 s, 13 shots, each under 4 s. Real kitty scene (calls from home in the middle of Housie, named in team feedback). Lead is Shruti (last reel's lead was Myra), with her strict hisaab flavour ('Barabar hisaab!'). One rule pinned as a counting chip so a muted viewer always knows the stake. Game played 3 times (charger, namak, fridge) then flipped on the rule maker, the same shape that made the door-arrivals winner work (host breaks her own rule, opening line thrown back), here tested as a musical. Twist is a see-it phone screen. Claim before reveal: Shruti brags 'silent pe hai' right before her screen lights up. The 'Teen!' chorus answer is the laugh: every woman knows the seeti count. Endings tried: Shruti switches every phone off (flat); husbands all on one group call (too many people, confusing); the rule thrown back with the chorus (kept, loops into the opening). Kind humour, no money troubles."
+  },
+  "cover": {
+    "shot": 11,
+    "at": 0.4,
+    "title": [
+      "Ghar se call =",
+      "number kata!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Kitty mein ek hi rule: ghar se call aaya toh number kata. Aur sabse pehle rule todne wali? Jisne rule banaya. Tag the friend jiska phone kitty mein sabse pehle bajta hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#housie",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#kittypartygames",
+    "#gharkiraunak"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 0",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile"
+        },
+        {
+          "name": "Ruhi",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 250,
+          "y": 1480,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1560,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 900,
+          "y": 950,
+          "at": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        },
+        {
+          "at": 1.4,
+          "name": "ding",
+          "vol": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Naya rule! Ghar se call, number kata!",
+          "say": "नया रूल! घर से कॉल, नंबर कटा!",
+          "beat": "hook",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 1",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Ruhi",
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 900,
+          "y": 1250,
+          "s": 0.8,
+          "at": 0
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Haan beta? Charger? Drawer mein hai!",
+          "say": "हाँ बेटा? चार्जर? ड्रॉअर में है!",
+          "beat": "setup",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 1",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.4,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Dabber marker",
+          "x": 420,
+          "y": 1600,
+          "s": 1,
+          "rot": -20,
+          "at": 0.3
+        },
+        {
+          "name": "Housie ticket",
+          "x": 620,
+          "y": 1580,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.6,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ring ring! Number kata!",
+          "say": "रिंग रिंग! नंबर कटा!",
+          "punch": true,
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 2",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.3,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 900,
+          "y": 1250,
+          "s": 0.8
+        },
+        {
+          "name": "Ball 22",
+          "x": 420,
+          "y": 1300,
+          "s": 1,
+          "at": 0
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Baais! Do batakh!",
+          "say": "बाईस! दो बत्तख!",
+          "beat": "escalation",
+          "gap": 0.03
+        },
+        {
+          "who": "Tanya",
+          "text": "Namak? Wahin jahan roz hota hai!",
+          "say": "नमक? वहीं जहाँ रोज़ होता है!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.05,
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.5
+        },
+        {
+          "at": 0.9,
+          "name": "ding",
+          "vol": 0.6
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 2",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.4,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Dabber marker",
+          "x": 420,
+          "y": 1600,
+          "s": 1,
+          "rot": -20,
+          "at": 0.3
+        },
+        {
+          "name": "Housie ticket",
+          "x": 620,
+          "y": 1580,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.6,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ring ring! Number kata!",
+          "say": "रिंग रिंग! नंबर कटा!",
+          "punch": true,
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 2",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haaw! Mera bhi?!",
+          "say": "हाव! मेरा भी?!",
+          "gap": 0.03
+        },
+        {
+          "who": "Shruti",
+          "text": "Bilkul! Barabar hisaab!",
+          "say": "बिल्कुल! बराबर हिसाब!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 3",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 800,
+          "y": 1760,
+          "s": 2.2,
+          "turn": -0.4,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 90",
+          "x": 420,
+          "y": 1300,
+          "s": 1,
+          "at": 0
+        },
+        {
+          "name": "Phone + notification",
+          "x": 900,
+          "y": 1200,
+          "s": 0.8,
+          "at": 0.8
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 880,
+          "y": 860,
+          "at": 1.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Nabbe! Top of the house!",
+          "say": "नब्बे! टॉप ऑफ़ द हाउस!",
+          "beat": "escalation",
+          "gap": 0.03
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ji? Fridge kahan hai? Kitchen mein, ji!",
+          "say": "जी? फ्रिज कहाँ है? किचन में, जी!",
+          "punch": true,
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1,
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.5
+        },
+        {
+          "at": 0.8,
+          "name": "ding",
+          "vol": 0.6
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 3",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.5,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Dabber marker",
+          "x": 420,
+          "y": 1600,
+          "s": 1,
+          "rot": -20,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 1.4,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Fridge bhi kho gaya?!",
+          "say": "फ्रिज भी खो गया?!",
+          "gap": 0.03
+        },
+        {
+          "who": "ALL",
+          "text": "Ring ring! Number kata!",
+          "say": "रिंग रिंग! नंबर कटा!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 3",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 780,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 920,
+          "y": 1480,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Mera phone toh silent pe hai!",
+          "say": "मेरा फ़ोन तो साइलेंट पे है!",
+          "beat": "setup",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Pati ji (calling)",
+      "camera": "still",
+      "music": false,
+      "chipY": 200,
+      "chip": "GHAR SE CALLS: 4 · SHRUTI",
+      "chat": [
+        [
+          "Pati ji",
+          "Cooker ki seeti kitni?",
+          0,
+          "5:40 PM",
+          0
+        ],
+        [
+          "Pati ji",
+          "Call utha lo please!",
+          0,
+          "5:40 PM",
+          0.35
+        ],
+        [
+          "Pati ji",
+          "Bhaap nikal rahi hai!!",
+          0,
+          "5:41 PM",
+          0.7
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.6
+        },
+        {
+          "at": 0.7,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Shruti ji, aapka phone!",
+          "say": "श्रुति जी, आपका फ़ोन!",
+          "beat": "turn",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 4 · SHRUTI",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 560,
+          "y": 1760,
+          "s": 2.25,
+          "turn": 0,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 860,
+          "y": 1300,
+          "s": 0.8,
+          "at": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 780,
+          "y": 880,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Haan ji? Seeti kitni? Woh, ek minute!",
+          "say": "हाँ जी? सीटी कितनी? वो, एक मिनट!",
+          "beat": "turn",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 4 · SHRUTI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "talkL",
+          "mouth": "laugh",
+          "eyes": "open",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 540,
+          "y": 1600,
+          "s": 0.8
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 540,
+          "y": 900,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Teen!",
+          "say": "तीन!",
+          "punch": true,
+          "beat": "turn",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.35
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 4 · SHRUTI",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Dabber marker",
+          "x": 380,
+          "y": 1600,
+          "s": 1,
+          "rot": -20
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Naya rule, Shruti ji!",
+          "say": "नया रूल, श्रुति जी!",
+          "gap": 0.03,
+          "beat": "button"
+        },
+        {
+          "who": "Tanya",
+          "text": "Ghar se call, number kata!",
+          "say": "घर से कॉल, नंबर कटा!",
+          "punch": true,
+          "beat": "button",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "front": true,
+      "chipY": 600,
+      "chip": "GHAR SE CALLS: 4 · SHRUTI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Dabber marker",
+          "x": 600,
+          "y": 1580,
+          "s": 1,
+          "rot": -20,
+          "at": 0.3
+        },
+        {
+          "name": "Housie ticket",
+          "x": 480,
+          "y": 1600,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.6,
+          "name": "clap",
+          "vol": 0.5
+        },
+        {
+          "at": 1.2,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ring ring! Number kata!",
+          "say": "रिंग रिंग! नंबर कटा!",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.6
+    }
+  ]
+}
