@@ -6604,6 +6604,184 @@
         "voice pace >= 2.3 words/s (2.22 w/s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-04-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-11-04-b",
+      "created": "2026-11-04",
+      "title": "Ghar se call, number kata!",
+      "format": "Musical: a Housie game where every call from home gets the same sung chorus 'Ring ring! Number kata!' from the whole kitty",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Tanya",
+        "Ruhi"
+      ],
+      "caption": "Kitty mein ek hi rule: ghar se call aaya toh number kata. Aur sabse pehle rule todne wali? Jisne rule banaya. Tag the friend jiska phone kitty mein sabse pehle bajta hai!",
+      "status": "needs-fix",
+      "idea": "Shruti makes a rule that every call from home costs a Housie number; the calls get sillier (charger, namak, fridge), and then her own silent phone lights up with her husband asking how many cooker whistles.",
+      "beats": "hook: Naya rule! Ghar se call, number kata / esc: charger, namak, fridge kahan hai, each with the chorus / twist: Shruti's silent phone, Pati ji asks seeti kitni, whole kitty answers Teen / button: her own rule thrown back, chorus on her ticket",
+      "experiment": {
+        "type": "musical",
+        "hook": "Housie cage spinning, Shruti announces 'Naya rule! Ghar se call, number kata!' while Ruhi's phone is already lighting up in her hand, chip 'GHAR SE CALLS: 0'",
+        "variable": "a sung chorus refrain 'Ring ring! Number kata!' from ALL on a beat after every call (4 times), so the reel plays like a song with a counting chip",
+        "hypothesis": "a repeating chorus the viewer can predict and chant keeps people to the end: watched above 35% and skip under 50%, and a 'ghar se call during kitty' moment every woman lives should earn 3+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Naya rule! Ghar se call, number kata!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haan beta? Charger? Drawer mein hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ring ring! Number kata!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Baais! Do batakh!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Namak? Wahin jahan roz hota hai!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ring ring! Number kata!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Mera bhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bilkul! Barabar hisaab!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Nabbe! Top of the house!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ji? Fridge kahan hai? Kitchen mein, ji!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Fridge bhi kho gaya?!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ring ring! Number kata!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mera phone toh silent pe hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 10,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Shruti ji, aapka phone!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haan ji? Seeti kitni? Woh, ek minute!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Teen!",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Naya rule, Shruti ji!",
+          "beat": "button"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ghar se call, number kata!",
+          "beat": "button"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ring ring! Number kata!",
+          "beat": "button"
+        }
+      ],
+      "duration": 43.54,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 49,
+        "notes": "Fixed version of KG-2026-11-04-a (QA: 51.4 s long, voice pace 2.22 w/s). Same musical test and story; cut the Arre reaction and the empty-ticket shot, folded the two ball calls into the phone shots as quick overlapping lines, removed the ellipses that made the voice drag, made the fridge joke land on screen (Kitchen mein, ji!), trimmed holds, pace 28. About 39 s, 13 shots, each under 4 s. Real kitty scene (calls from home in the middle of Housie, named in team feedback). Lead is Shruti (last reel's lead was Myra), with her strict hisaab flavour ('Barabar hisaab!'). One rule pinned as a counting chip so a muted viewer always knows the stake. Game played 3 times (charger, namak, fridge) then flipped on the rule maker, the same shape that made the door-arrivals winner work (host breaks her own rule, opening line thrown back), here tested as a musical. Twist is a see-it phone screen. Claim before reveal: Shruti brags 'silent pe hai' right before her screen lights up. The 'Teen!' chorus answer is the laugh: every woman knows the seeti count. Endings tried: Shruti switches every phone off (flat); husbands all on one group call (too many people, confusing); the rule thrown back with the chorus (kept, loops into the opening). Kind humour, no money troubles."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.21 w/s)",
+        "no shot over 5 s (6.2 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-04-b-board.jpg"
     }
   ],
   "ideas": [
