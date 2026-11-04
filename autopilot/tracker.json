@@ -4340,7 +4340,7 @@
         "Shruti"
       ],
       "caption": "Har kitty mein ek aunty hai jo har Diwali bina patte dekhe chaal chalti hai. Tag your Ishita!",
-      "status": "queued",
+      "status": "published",
       "idea": "At the Diwali taash kitty Ishita goes blind again; Aditi tells what happened last Diwali when the champion bet blind, raised, threw in her Housie trophy and showed 2, 5, 9.",
       "beats": "hook: today, Ishita 'Blind chal!' / setup: Aditi 'last Diwali bhi' / esc: Rs 20 down, double to 40, trophy in the pot / twist: 2, 5, 9 / button: today, 'Blind chal!' again, Aditi 'Har Diwali yahi hota hai'",
       "experiment": {
@@ -4501,7 +4501,9 @@
       "scheduled_ist": "2026-11-04 12:45",
       "yt_id": "dXXH8dWUorU",
       "yt_url": "https://youtube.com/shorts/dXXH8dWUorU",
-      "yt_privacy": "private"
+      "yt_privacy": "private",
+      "permalink": "https://www.instagram.com/reel/DfT5c6vCBp1/",
+      "media_id": "17909588424333912"
     },
     {
       "id": "TH-2026-10-31",
@@ -8213,7 +8215,7 @@
       "time": "10 to 15 minutes",
       "slug": "shagun-ka-lifafa-shaadi-season-kitty-party-game",
       "caption": "Shaadi season aa gaya! Host rishta bolegi, aapko jhat se sahi shagun lifafe mein daalna hai, aur 1 ka sikka bhoole toh kanjoos. Aapke group mein sabse kanjoos kaun nikalegi?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/board.jpg",
       "image_urls": [
@@ -8230,7 +8232,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/shagun-ka-lifafa-shaadi-season-kitty-party-game",
       "queue_id": "31597fb4-ab60-44ca-9999-16910aa72247",
-      "scheduled_ist": "2026-11-04 11:58"
+      "scheduled_ist": "2026-11-04 11:58",
+      "permalink": "https://www.instagram.com/p/DfT0Y64ErvT/",
+      "media_id": "18653201278040449"
     },
     {
       "id": "KGI-015",
