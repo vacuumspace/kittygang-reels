@@ -4574,7 +4574,7 @@
         "Aditi"
       ],
       "caption": "Diwali hamper ka asli safar: aapse, aap tak. Tag the friend jo har saal hamper ghuma deti hai!",
-      "status": "queued",
+      "status": "published",
       "idea": "You are the host; Ruhi gifts you a Diwali hamper whose tag has your own name on it, every hamper on the table turns out regifted, and the oldest tag shows the chain started with you.",
       "beats": "hook: Ruhi 'Sirf aapke liye!' / setup: tag has your name / esc: Ruhi's hamper, Shruti's hamper from Ruhi, Aditi's with 4 names crossed out / twist: first name on the oldest tag is yours / button: Ruhi hands it back 'Sirf aapke liye!', Aditi 'Phir se.'",
       "experiment": {
@@ -4749,7 +4749,9 @@
       "scheduled_ist": "2026-11-05 19:38",
       "yt_id": "-mZGwVZ1LQo",
       "yt_url": "https://youtube.com/shorts/-mZGwVZ1LQo",
-      "yt_privacy": "private"
+      "yt_privacy": "private",
+      "permalink": "https://www.instagram.com/reel/DfXNvX2GhLH/",
+      "media_id": "17978347179137295"
     },
     {
       "id": "KG-2026-10-31-b",
@@ -8712,7 +8714,7 @@
       "time": "15 minutes",
       "slug": "mandap-banao-tulsi-vivah-kitty-party-game",
       "caption": "Tulsi Vivah aa raha hai, mandap aap banao! 3 minute, 4 belan aur beech mein baraat late. Aapki team ka mandap khada rahega?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-015/board.jpg",
       "image_urls": [
@@ -8729,7 +8731,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/mandap-banao-tulsi-vivah-kitty-party-game",
       "queue_id": "e5942288-ac1c-4a15-a4a0-cd0ea3f79219",
-      "scheduled_ist": "2026-11-05 17:16"
+      "scheduled_ist": "2026-11-05 17:16",
+      "permalink": "https://www.instagram.com/p/DfW9ycMHKNs/",
+      "media_id": "18078605063721454"
     },
     {
       "id": "KGI-016",
