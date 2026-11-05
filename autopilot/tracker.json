@@ -8365,6 +8365,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/mandap-banao-tulsi-vivah-kitty-party-game",
       "queue_id": "e5942288-ac1c-4a15-a4a0-cd0ea3f79219",
       "scheduled_ist": "2026-11-05 17:16"
+    },
+    {
+      "id": "KGI-016",
+      "n": 16,
+      "created": "2026-11-05",
+      "game": "Bachpan Photo Pehchano",
+      "tagline": "Yeh choti si kaun hai?",
+      "players": "8 to 20",
+      "time": "15 to 20 minutes",
+      "slug": "bachpan-photo-pehchano-childhood-photo-kitty-party-game",
+      "caption": "Choti si chotiyon wali bachchi aaj kitty ki queen hai! Children's Day pe yeh khelo. Aapki bachpan photo kaun pehchaanega?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/bachpan-photo-pehchano-childhood-photo-kitty-party-game",
+      "queue_id": "b5544c91-a7e0-41cf-aa01-374608dd074a",
+      "scheduled_ist": "2026-11-06 11:45"
     }
   ],
   "research": [
