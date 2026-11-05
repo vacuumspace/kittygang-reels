@@ -7003,6 +7003,189 @@
       "yt_id": "W6xNngt64-I",
       "yt_url": "https://youtube.com/shorts/W6xNngt64-I",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-05-b",
+      "created": "2026-11-05",
+      "title": "Saree mein aayi toh entry nahi!",
+      "format": "Door arrivals, pajama kitty rule judged at the front door",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Ruhi",
+        "Myra",
+        "Tanya"
+      ],
+      "caption": "Har group mein ek aisi host hoti hai jo rule banati hai aur sabse pehle todti hai. Tag your Ruhi!",
+      "status": "queued",
+      "idea": "Pajama kitty: Ruhi scores every guest at her door for breaking the no-saree rule, then whips off her shawl for the group photo and she is in a silk saree.",
+      "beats": "hook: saree mein aayi toh entry nahi / esc: Shruti makeup 5, Myra saree over pajama 2, Tanya heels 0 / twist: Ruhi's shawl off, silk saree / button: guests block Ruhi at the door with her own line",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Ruhi in a nightsuit and shawl blocks her own door with the kitty pot and shouts 'Ruko! Saree mein aayi toh entry nahi!' at Shruti in pajamas holding a lipstick",
+        "variable": "same door shape as the winner but a new host (Ruhi, not Tanya), a new rule (pajama kitty) and a twist the viewer sees on the host's own body (shawl off, silk saree), plus a caption that names a friend type to chase shares",
+        "hypothesis": "if the door shape itself is the winner, skip stays under 40% and watched above 50% with a new host and rule; naming 'the friend who makes rules and breaks them first' in the caption gets 3+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ruko! Saree mein aayi toh entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pajama hi toh pehna hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Aur yeh dulhan wala makeup?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Photo mein toh chehra aayega na.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Paanch number. Andar!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Main bhi pajama mein aayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Yeh toh saree hai!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Neeche dekho na, pajama hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Do number. Bas.",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Full nightsuit! Dus mein dus?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Nightsuit pe heels?!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Arre, height bhi toh chahiye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Zero! Pajama kitty, mere rules!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chalo, group photo! Timer lagao!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ek second, shawl utaar doon.",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw! Andar silk ki saree?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Photo mein toh saree hi aayegi na!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Saree mein aayi? Entry nahi!",
+          "beat": "button"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre, mera hi ghar hai!",
+          "beat": "button"
+        }
+      ],
+      "duration": 38.62,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Same proven door rhythm (doorbell every 4 s, score chip every shot) with a new host and a rule every group has tried. Every guest claims first (Pajama hi toh pehna hai, Main bhi pajama mein, Dus mein dus?) and then hears the catch. The twist is a see-it outfit change in the camera frame, and Ruhi's excuse repeats Shruti's photo excuse, so the host is caught by her own logic. Button throws the opening line back and puts Ruhi in the doorway, with 'mera hi ghar hai' as the last laugh. Rewrote once: first ending had the guests just pointing at Ruhi in the living room; moving it back to the door makes the loop to the first shot. Second alternative ending (Ruhi's saree tag peeking from the shawl) was weaker because it had to be worked out."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-05-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-05-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-05-b-board.jpg",
+      "queue_id": "55101178-9e26-4165-ab71-3462dbf3ab5f",
+      "scheduled_ist": "2026-11-10 20:28",
+      "yt_id": "zwBf4FfJ4os",
+      "yt_url": "https://youtube.com/shorts/zwBf4FfJ4os",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
