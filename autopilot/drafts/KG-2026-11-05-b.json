@@ -1,0 +1,881 @@
+{
+  "id": "KG-2026-11-05-b",
+  "title": "Saree mein aayi toh entry nahi!",
+  "format": "Door arrivals, pajama kitty rule judged at the front door",
+  "idea": "Pajama kitty: Ruhi scores every guest at her door for breaking the no-saree rule, then whips off her shawl for the group photo and she is in a silk saree.",
+  "logline": "Ruhi bans sarees at her pajama kitty and scores every guest low at the door, until the group photo, when she drops her shawl and is wearing a silk saree herself.",
+  "game": "every guest half-follows the pajama rule and gets a lower score than the last",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Ruhi in a nightsuit and shawl blocks her own door with the kitty pot and shouts 'Ruko! Saree mein aayi toh entry nahi!' at Shruti in pajamas holding a lipstick",
+    "variable": "same door shape as the winner but a new host (Ruhi, not Tanya), a new rule (pajama kitty) and a twist the viewer sees on the host's own body (shawl off, silk saree), plus a caption that names a friend type to chase shares",
+    "hypothesis": "if the door shape itself is the winner, skip stays under 40% and watched above 50% with a new host and rule; naming 'the friend who makes rules and breaks them first' in the caption gets 3+ shares"
+  },
+  "mute": [
+    "Ruhi in a lavender nightsuit and shawl blocks her door with the kitty pot, chip PAJAMA KITTY, Shruti in blue pajamas holds a lipstick",
+    "Shruti points at her pajamas, Ruhi points at her makeup, sparkle on Shruti's face",
+    "chip SHRUTI 5, Shruti flat stare, Ruhi smirks",
+    "doorbell, Myra hops in wearing a saree, Ruhi shocked",
+    "Myra says there are pajamas underneath, chip MYRA 2",
+    "doorbell, Tanya twirls in a peach nightsuit, heels pop in, Ruhi points at the heels",
+    "Tanya argues height, chip TANYA 0, Ruhi says her rules",
+    "living room, the gang lines up for a group photo, Ruhi in her shawl says one second",
+    "camera screen flash: Ruhi in a maroon silk saree with sparkles, Myra and Tanya gasp, chip RUHI: SILK KI SAREE",
+    "Ruhi now stuck in the doorway, guests block her with her own line, chip RUHI 0, same image as the opening flipped"
+  ],
+  "beats": "hook: saree mein aayi toh entry nahi / esc: Shruti makeup 5, Myra saree over pajama 2, Tanya heels 0 / twist: Ruhi's shawl off, silk saree / button: guests block Ruhi at the door with her own line",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Same proven door rhythm (doorbell every 4 s, score chip every shot) with a new host and a rule every group has tried. Every guest claims first (Pajama hi toh pehna hai, Main bhi pajama mein, Dus mein dus?) and then hears the catch. The twist is a see-it outfit change in the camera frame, and Ruhi's excuse repeats Shruti's photo excuse, so the host is caught by her own logic. Button throws the opening line back and puts Ruhi in the doorway, with 'mera hi ghar hai' as the last laugh. Rewrote once: first ending had the guests just pointing at Ruhi in the living room; moving it back to the door makes the loop to the first shot. Second alternative ending (Ruhi's saree tag peeking from the shawl) was weaker because it had to be worked out."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1,
+    "title": [
+      "Pajama kitty",
+      "host ne pehni saree!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har group mein ek aisi host hoti hai jo rule banati hai aur sabse pehle todti hai. Tag your Ruhi!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#pajamaparty",
+    "#kittypartytheme",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#housie"
+  ],
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA KITTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#A8D5E2",
+          "mainSh": "#86B8C7",
+          "pose": "wave",
+          "mouth": "smile"
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        },
+        {
+          "name": "Lipstick",
+          "x": 930,
+          "y": 1180,
+          "s": 1.1,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Ruko! Saree mein aayi toh entry nahi!",
+          "say": "रुको! साड़ी में आई तो एंट्री नहीं!",
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA KITTY",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#A8D5E2",
+          "mainSh": "#86B8C7",
+          "pose": "hips",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        },
+        {
+          "name": "Lipstick",
+          "x": 930,
+          "y": 1180,
+          "s": 1.1
+        },
+        {
+          "name": "Hand mirror",
+          "x": 640,
+          "y": 1200,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 860,
+          "y": 800,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Pajama hi toh pehna hai!",
+          "say": "पजामा ही तो पहना है!",
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Aur yeh dulhan wala makeup?!",
+          "say": "और ये दुल्हन वाला मेकअप?!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA SCORE: SHRUTI 5",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#A8D5E2",
+          "mainSh": "#86B8C7",
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        },
+        {
+          "name": "Hand mirror",
+          "x": 640,
+          "y": 1200,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Photo mein toh chehra aayega na.",
+          "say": "फ़ोटो में तो चेहरा आएगा ना।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Paanch number. Andar!",
+          "say": "पाँच नंबर। अंदर!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA KITTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#E07A5F",
+          "mainSh": "#C4634A",
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true,
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 420,
+          "y": 1000,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Main bhi pajama mein aayi!",
+          "say": "मैं भी पजामा में आई!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Yeh toh saree hai!",
+          "say": "हाओ! ये तो साड़ी है!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA SCORE: MYRA 2",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#E07A5F",
+          "mainSh": "#C4634A",
+          "pose": "hips",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "hips",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 900,
+          "y": 900,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Neeche dekho na, pajama hai!",
+          "say": "नीचे देखो ना, पजामा है!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Do number. Bas.",
+          "say": "दो नंबर। बस।",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA KITTY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#FFD9A8",
+          "mainSh": "#E8BC86",
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "twirl": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "talkR",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        },
+        {
+          "name": "Heels",
+          "x": 860,
+          "y": 1500,
+          "s": 1.2,
+          "at": 0.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 820,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 960,
+          "y": 780,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "sparkle",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Full nightsuit! Dus mein dus?",
+          "say": "फ़ुल नाइटसूट! दस में दस?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Nightsuit pe heels?!",
+          "say": "नाइटसूट पे हील्स?!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "PAJAMA SCORE: TANYA 0",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "main": "#FFD9A8",
+          "mainSh": "#E8BC86",
+          "pose": "talkL",
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4",
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1430,
+          "s": 1.2
+        },
+        {
+          "name": "Heels",
+          "x": 860,
+          "y": 1500,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "thud",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Arre, height bhi toh chahiye!",
+          "say": "अरे, हाइट भी तो चाहिए!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Zero! Pajama kitty, mere rules!",
+          "say": "ज़ीरो! पजामा किटी, मेरे रूल्स!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "GROUP PHOTO",
+      "chipY": 600,
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 250,
+          "y": 1720,
+          "s": 1.9,
+          "pose": "relaxed",
+          "turn": 0.5,
+          "mouth": "smile",
+          "main": "#A8D5E2",
+          "mainSh": "#86B8C7"
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.3,
+          "mouth": "smile",
+          "main": "#B9A6DD",
+          "mainSh": "#9C88C4"
+        },
+        {
+          "name": "Tanya",
+          "x": 830,
+          "y": 1720,
+          "s": 1.9,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "laugh",
+          "main": "#FFD9A8",
+          "mainSh": "#E8BC86"
+        }
+      ],
+      "props": [
+        {
+          "name": "Cushions",
+          "x": 880,
+          "y": 1350,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "tick",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Chalo, group photo! Timer lagao!",
+          "say": "चलो, ग्रुप फ़ोटो! टाइमर लगाओ!",
+          "beat": "turn"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ek second, shawl utaar doon.",
+          "say": "एक सेकंड, शॉल उतार दूँ।",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "flash": true,
+      "focus": [
+        540,
+        980
+      ],
+      "camera": "still",
+      "music": false,
+      "chip": "RUHI: SILK KI SAREE",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 250,
+          "y": 1700,
+          "s": 1.85,
+          "pose": "relaxed",
+          "turn": 0.6,
+          "mouth": "o",
+          "eyes": "open",
+          "main": "#E07A5F",
+          "mainSh": "#C4634A"
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1720,
+          "s": 2,
+          "pose": "twirl",
+          "turn": 0,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "main": "#9E1B3A",
+          "mainSh": "#7E1430"
+        },
+        {
+          "name": "Tanya",
+          "x": 830,
+          "y": 1700,
+          "s": 1.85,
+          "pose": "relaxed",
+          "turn": -0.6,
+          "mouth": "o",
+          "eyes": "open",
+          "main": "#FFD9A8",
+          "mainSh": "#E8BC86"
+        }
+      ],
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 540,
+          "y": 1820,
+          "s": 1.1,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 400,
+          "y": 760,
+          "at": 0.1
+        },
+        {
+          "kind": "spark",
+          "x": 690,
+          "y": 720,
+          "at": 0.25
+        },
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "swish",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 0.9,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Haaw! Andar silk ki saree?!",
+          "say": "हाओ! अंदर सिल्क की साड़ी?!",
+          "punch": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Photo mein toh saree hi aayegi na!",
+          "say": "फ़ोटो में तो साड़ी ही आएगी ना!",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "camera": "punch",
+      "chip": "PAJAMA SCORE: RUHI 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open",
+          "main": "#9E1B3A",
+          "mainSh": "#7E1430"
+        },
+        {
+          "name": "Shruti",
+          "x": 230,
+          "y": 1800,
+          "s": 1.9,
+          "pose": "hips",
+          "turn": 0.6,
+          "mouth": "smirk",
+          "eyes": "half",
+          "main": "#A8D5E2",
+          "mainSh": "#86B8C7"
+        },
+        {
+          "name": "Tanya",
+          "x": 500,
+          "y": 1820,
+          "s": 1.95,
+          "pose": "talkR",
+          "turn": 0.6,
+          "mouth": "smirk",
+          "main": "#FFD9A8",
+          "mainSh": "#E8BC86"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1560,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 980,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Saree mein aayi? Entry nahi!",
+          "say": "साड़ी में आई? एंट्री नहीं!",
+          "punch": true,
+          "beat": "button"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Arre, mera hi ghar hai!",
+          "say": "अरे, मेरा ही घर है!",
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.8
+    }
+  ],
+  "pace": 27,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.08
+  }
+}
