@@ -7338,7 +7338,7 @@
       "format": "Carousel: game card, paper notes and envelopes, sample envelope chits, the hint twist, winner slide",
       "source": "Trend: Bumper prize Tambola (840 likes, https://www.instagram.com/reel/De8Lbq1Ddg7/) + Festival window: Diwali 8 Nov (10 days away)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-10-29",
@@ -7932,7 +7932,7 @@
       "format": "Debate inside Housie",
       "source": "Trend: Multi-character debate (fluxnote.io) + Festival window: Diwali 8 Nov + LEARNINGS: open on a game in progress",
       "score": 9,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-01",
@@ -7941,7 +7941,7 @@
       "format": "Me-time payoff",
       "source": "Trend: Her own time message (our reel, 57 shares) + Overachiever Diwali safai + Diwali 7 days away",
       "score": 9,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-01",
@@ -8193,6 +8193,60 @@
       "format": "Carousel: game card, rajai on sofa, hands feeling through, answer sheet, the reveal",
       "source": "Trend: Cozy pajama winter kitty + Coins frozen in ice (first cold weeks of November)",
       "score": 7,
+      "used": "dropped"
+    },
+    {
+      "added": "2026-11-06",
+      "type": "reel",
+      "idea": "Hook: Housie running, Tanya sets a huge kadhai on the table: \"Pehli thand, pehla gajar ka halwa!\" Context: on every called number Ruhi and Myra argue whose saas makes it better (\"Khoya daalo!\", \"Condensed milk se hi banta hai!\") while sneaking extra spoons, chip 'HALWA KATORIS: 14' dropping each beat. Ending: Shruti claims Full House and, offered the cash envelope or the last katori, grabs the katori; Ruhi and Myra stare at the empty kadhai.",
+      "format": "Housie-in-progress sitcom, living room, kadhai and katori chip, 3 characters per shot, Hinglish, under 30 s; caption 'Tag the friend jo halwa ke liye kitty bhi chhod de'",
+      "source": "Trend: First winter spread: gajar halwa and sarson saag (republicworld.com) + LEARNINGS: open on a game in progress, visible stake chip",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-06",
+      "type": "reel",
+      "idea": "Hook: Housie running, Ruhi leans in and whispers: \"Suno, kal society mein jo hua na...\" Context: every time she gets to the juicy part something cuts her off (a number she must cut, the chai tray, Shruti's phone ringing), and Tanya and Myra lean closer each time, chip 'GOSSIP: 90% loading'. Ending: she finally opens her mouth and the doorbell rings; the lady she was talking about walks in, and all three loudly cut numbers. Text: 'Part 2?'",
+      "format": "Micro-drama style Housie sitcom with a cliffhanger, 3 characters, under 30 s; caption 'Part 2 chahiye? Comment GOSSIP'",
+      "source": "Trend: Micro-drama cliffhanger (Meta-Ormax report, 89% feed discovery) + Multi-character debate + real gossip-after-she-leaves scene",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-06",
+      "type": "reel",
+      "idea": "Hook: the first cold kitty at Myra's, Housie running, everyone in shawls, and the one room heater sits next to Tanya's chair. Context: on every called number someone shifts her chair an inch closer (Ruhi with a 'chai garam karni hai' excuse, Shruti with 'ticket dikh nahi raha'), and the heater chip 'HEATER SEAT: Tanya' keeps changing. Ending: Myra, the host, switches the heater off: \"Bijli ka bill main bharti hoon,\" and all three pull their shawls over their heads and keep playing.",
+      "format": "Housie-in-progress sitcom, living room with room heater and shawls, musical-chairs drift, 3 characters per shot, under 30 s",
+      "source": "Trend: Cozy pajama winter kitty + first cold weeks of November + LEARNINGS: open on the game, stake chip changes every shot",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-06",
+      "type": "game",
+      "idea": "Thand ka parcel: wrap a small prize in 10 layers, and inside each layer put one winter thing (sock, muffler, monkey cap, gloves, shawl, ear muffs). Pass it to music; when the music stops the holder opens one layer and must wear what she finds for the rest of the game, even a sock on her hand. Crazy twist: when the host shouts \"Heater on!\" everyone must take off one worn item and put it on the lady to her right. 8 to 20 ladies, 15 minutes.",
+      "format": "Carousel: game card, the layered parcel, ladies in mismatched winter wear, Heater on twist, winner slide",
+      "source": "Trend: Cozy pajama winter kitty + Ugly sweater winter party + first cold weeks of November",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-06",
+      "type": "game",
+      "idea": "Gossip ki kadi: sit in a circle; the host starts a story with one line (\"Kal society mein ek lady ne...\"), and each lady must repeat the whole story so far and add one new line in 15 seconds; forget a line or freeze and you are out. Crazy twist: before the game the host gives one secret chit \"Story palat do\", and that lady must flip the story with a plot twist; at the end everyone guesses who the twister was. 8 to 20 ladies, 10 to 15 minutes, only chits.",
+      "format": "Carousel: game card, sample story chain, the secret chit, guess-the-twister slide, winner",
+      "source": "Trend: Micro-drama cliffhanger (Meta-Ormax report) + Multi-character debate (fluxnote.io)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-06",
+      "type": "game",
+      "idea": "Thekua stamp: each lady gets a lemon-sized ball of atta dough, a steel plate and one household tool (fork, comb, bottle cap, toothpick) and has 1 minute to press the prettiest Chhath thekua pattern. Crazy twist: at 30 seconds the host shouts \"Tool badlo!\" and everyone passes her tool to the right and finishes with the new one. The room votes the best design with raised spoons. 8 to 20 ladies in rounds of 5, 10 to 15 minutes.",
+      "format": "Carousel: game card, dough and tools, the tool swap twist, best patterns, winner slide",
+      "source": "Trend: Festival window: Chhath 15 Nov (9 days, +2) + One-minute game",
+      "score": 8,
       "used": ""
     }
   ],
@@ -8826,6 +8880,33 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-06",
+      "pattern": "Festival window: Children's Day 14 Nov + Chhath 15 Nov + Tulsi Vivah 21 Nov + Gurpurab, Dev Deepawali and Karthigai Deepam 24 Nov",
+      "source": "\"November 2026 Festivals State-Wise in India: Diwali, Chhath, Karthika Masam, Dev Diwali and More\" + \"Hindu Festivals in November 2026\" (Gita Jayanti 19-20 Dec)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/november-2026-festivals-state-wise-india/",
+      "learn": "Diwali (2 days) and Bhai Dooj (5) are too close for new ideas; Children's Day (8), Chhath (9), Dev Uthani (14), Tulsi Vivah (15) and Gurpurab (18) get +2; Gita Jayanti is still too far."
+    },
+    {
+      "date": "2026-11-06",
+      "pattern": "Micro-drama cliffhanger",
+      "source": "\"Social Feeds Are Powering India's Micro-Drama Boom: Meta-Ormax Report\" (89% find micro-dramas in their feed; family drama and comedy top genres)",
+      "likes": null,
+      "comments": null,
+      "link": "https://about.fb.com/news/2026/03/social-feeds-are-powering-indias-micro-drama-boom-meta-ormax-report/",
+      "learn": "Short family-drama episodes that stop on a cliffhanger bring people back; end a real kitty gossip scene one line before the reveal and promise Part 2 in the caption."
+    },
+    {
+      "date": "2026-11-06",
+      "pattern": "First winter spread: gajar halwa and sarson saag",
+      "source": "\"New Year Party Menu: Sarso Ka Saag To Gajar Ka Halwa, 7 Winter Delicacies To Serve At Your Bash\"",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.republicworld.com/lifestyle/art-culture/new-year-party-2025-menu-sarso-ka-saag-to-gajar-ka-halwa-7-winter-delicacies-to-serve-at-your-bash",
+      "learn": "The first gajar halwa of the season is a ritual every home argues about (khoya or condensed milk, whose saas makes it best); use the kadhai and katoris as the visual stake."
+    },
     {
       "date": "2026-11-05",
       "pattern": "Festival window: Children's Day 14 Nov + Chhath 15 Nov + Dev Uthani 20 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi muhurats 21-26 Nov",
