@@ -1,0 +1,751 @@
+{
+  "id": "KG-2026-11-06-b",
+  "title": "Diwali ke baad diet hai!",
+  "format": "POV: the viewer is the host holding the leftover Diwali kaju katli box, the gang talks to camera, a countdown chip drops every shot",
+  "idea": "First kitty after Diwali: you, the host, pass round the leftover kaju katli; every guest swears she is on a diet and takes more than the last; the box hits zero and late Avika walks in with two more boxes.",
+  "logline": "You, the host, offer leftover Diwali kaju katli; every guest says 'diet hai' and takes more than the last; as the box hits zero, late Avika walks in with two more boxes.",
+  "game": "every 'diet hai' ends with grabbing more kaju katli than the last lady",
+  "mute": [
+    "Megha pushes a mithai box away from the camera, chip says you are the host and 12 kaju katli are left",
+    "Megha takes one anyway, chip 11, Shruti on the side rolls her eyes",
+    "Shruti at the camera with her calculator, says she never eats mithai",
+    "Shruti takes two, chip 9, Megha gasps",
+    "Megha back at the camera with her green juice, holding up a piece: kaju is protein",
+    "Megha packs four more, chip 3, Shruti asks which gym",
+    "box empty, chip 0, both look relieved: diet starts now",
+    "doorbell, Avika in the doorway, late and breathless, holding something behind her",
+    "Avika holds up two mithai boxes, chip says 24 more, Megha and Shruti gasp",
+    "Megha and Shruti push both boxes away with the opening line, Hatao, diet hai",
+    "close on Megha alone with the boxes: bas ek, the same line as shot 2, loops to the start"
+  ],
+  "beats": "hook: Megha 'Hatao! Diwali ke baad diet hai!' / setup: chip 12 left, she takes one 'cheat day' / esc: Megha 1, Shruti 2 'paise vasool', Megha 4 more 'kaju protein hai' / turn: box at 0, diet starts, doorbell: Avika with two more boxes / button: both repeat the opening line, Megha 'bas ek'",
+  "experiment": {
+    "type": "pov",
+    "hook": "Megha shoves the leftover kaju katli box back at the lens, 'Hatao! Diwali ke baad diet hai!', chip 'AAP HOST HO · KAJU KATLI: 12' so the viewer is the host from frame one",
+    "variable": "a countdown chip that drops on every shot inside a POV (the door-arrivals rhythm: a new grab every 3-4 s, a number that changes each shot)",
+    "hypothesis": "the POV hook (last POV skip 50%) plus a changing number every shot gets skip under 45% and watched over 40%, and the diet friend caption gets at least 3 shares"
+  },
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 49,
+    "notes": "Fix of KG-2026-11-06-a (QA: one shot ran 5.3 s, total 42 s). The likely culprit was the button shot, which packed the chorus, a cricket pause and a 0.4 s hold; it is now two shots (chorus push-away, then a Megha close-up with the silent beat and bas ek). Trimmed holds and shortened the lines in shots 3, 4, 7, 8 and 9, and moved the doorbell earlier, so no shot passes about 4 s and the reel lands near 38 s with pace still over 2.3 w/s. Same game, same chip countdown, same see-it twist and mirrored button. Every house is sitting on leftover Diwali mithai and every group has a friend who says diet and eats the most, so it is one simple situation a stranger gets in 2 s. Megha (diet freak, catchphrase 'Bas ek, cheat day hai') leads; last reel was Ruhi. Game played three times: Megha 1 (ordinary), Shruti 2 for 'paise vasool' (ordinary, in character), Megha 4 more because 'kaju protein hai' (absurd). The chip counts 12, 11, 9, 3, 0, so a muted viewer always knows the stake. Claim before reveal: both celebrate 'Khatam! Ab diet shuru', then the doorbell and a see-it reveal (Avika holding two boxes). Endings tried: (1) Avika eats the last piece, no flip; (2) the host's saas sends more mithai by phone, a text twist, not see-it; (3) kept: Avika brings two more boxes and the button repeats the opening line as a chorus, then Megha's 'bas ek' loops into shot 2. Three talkers only (Megha, Shruti, Avika). Two short lines a shot, holds 0.1, pace 26 so no shot runs near 4.5 s and pace stays over 2.3 w/s."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 0.9,
+    "title": [
+      "Diwali ke baad diet!",
+      "Kaju katli: 0... 24!"
+    ]
+  },
+  "caption": "Diwali ke baad sabki diet shuru. Bas ek ke baad. Tag the friend jo 'diet hai' bolke sabse zyada kha jaati hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#kajukatli",
+    "#diwalileftovers",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#dietkal"
+  ],
+  "pace": 26,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "AAP HOST HO · KAJU KATLI: 12",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 540,
+          "y": 1690,
+          "s": 2.8
+        },
+        {
+          "name": "Diya",
+          "x": 210,
+          "y": 1690,
+          "s": 1.5
+        },
+        {
+          "name": "Cutting chai",
+          "x": 880,
+          "y": 1690,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 820,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Hatao! Diwali ke baad diet hai!",
+          "say": "हटाओ! दिवाली के बाद डाइट है!",
+          "beat": "hook"
+        },
+        {
+          "who": "Megha",
+          "text": "Ek bhi nahi. Pakka.",
+          "say": "एक भी नहीं। पक्का।",
+          "gap": 0.05,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 11",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "laughs",
+          "mouth": "smile",
+          "eyes": "laugh",
+          "turn": 0.2
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "side",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1690,
+          "s": 2.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "ding",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Bas ek. Cheat day hai.",
+          "say": "बस एक। चीट डे है।",
+          "beat": "setup"
+        },
+        {
+          "who": "Shruti",
+          "text": "Kal bhi cheat day tha!",
+          "say": "कल भी चीट डे था!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 11",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 540,
+          "y": 1690,
+          "s": 2.8
+        },
+        {
+          "name": "Diya",
+          "x": 880,
+          "y": 1690,
+          "s": 1.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.2,
+          "name": "calc",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Main mithai khaati nahi.",
+          "say": "मैं मिठाई खाती नहीं।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Par nau sau ka kilo hai...",
+          "say": "पर नौ सौ का किलो है...",
+          "gap": 0.08
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 9",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0.3
+        },
+        {
+          "name": "Megha",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1690,
+          "s": 2.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 860,
+          "y": 1050,
+          "at": 1.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "haww",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Paise vasool. Do leti hoon.",
+          "say": "पैसे वसूल। दो लेती हूँ।",
+          "beat": "escalation",
+          "punch": true
+        },
+        {
+          "who": "Megha",
+          "text": "Haaw! Do?!",
+          "say": "हाऽव! दो?!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 9",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "smile",
+          "eyes": "open",
+          "turn": 0,
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 540,
+          "y": 1690,
+          "s": 2.8
+        },
+        {
+          "name": "Cutting chai",
+          "x": 220,
+          "y": 1690,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 800,
+          "y": 880,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Ruko! Yeh toh healthy hai!",
+          "say": "रुको! ये तो हेल्दी है!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Kaju hai na. Protein!",
+          "say": "काजू है ना। प्रोटीन!",
+          "gap": 0.05,
+          "punch": true
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 3",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "smile",
+          "eyes": "laugh",
+          "turn": 0.3
+        },
+        {
+          "name": "Shruti",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1690,
+          "s": 2.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "rip",
+          "vol": 0.3
+        },
+        {
+          "at": 2,
+          "name": "laughv",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Chaar pack karo. Gym ke baad.",
+          "say": "चार पैक करो। जिम के बाद।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Gym? Kaunsa gym?!",
+          "say": "जिम? कौन सा जिम?!",
+          "gap": 0.03,
+          "punch": true
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 0",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "clapR",
+          "mouth": "smile",
+          "eyes": "laugh",
+          "turn": 0.3
+        },
+        {
+          "name": "Megha",
+          "x": 800,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1690,
+          "s": 2.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "doorbell",
+          "vol": 0.55
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Khatam! Ab diet shuru.",
+          "say": "ख़तम! अब डाइट शुरू।",
+          "beat": "turn"
+        },
+        {
+          "who": "Megha",
+          "text": "Haan! Sirf green juice!",
+          "say": "हाँ! सिर्फ़ ग्रीन जूस!",
+          "gap": 0.04
+        }
+      ],
+      "hold": 0.2
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KAJU KATLI: 0",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.3,
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Megha",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Shoe rack",
+          "x": 120,
+          "y": 1500,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 820,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Sorry sorry! Traffic tha!",
+          "say": "सॉरी सॉरी! ट्रैफ़िक था!",
+          "beat": "turn"
+        },
+        {
+          "who": "Avika",
+          "text": "Aur yeh lo... surprise!",
+          "say": "और ये लो... सरप्राइज़!",
+          "gap": 0.05
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "music": false,
+      "chip": "KAJU KATLI: 0 + 24",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.4
+        },
+        {
+          "name": "Megha",
+          "x": 260,
+          "y": 1800,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 500,
+          "y": 1820,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 720,
+          "y": 1330,
+          "s": 1.7,
+          "at": 0.1
+        },
+        {
+          "name": "Mithai box",
+          "x": 870,
+          "y": 1330,
+          "s": 1.7,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sting",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Do dabbe! Ghar ki bachi!",
+          "say": "दो डब्बे! घर की बची!",
+          "beat": "turn",
+          "punch": true
+        },
+        {
+          "who": "ALL",
+          "text": "Haaw!",
+          "say": "हाऽव!",
+          "gap": 0.03
+        }
+      ],
+      "hold": 0.15
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 24",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 330,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "talkL",
+          "mouth": "flat",
+          "eyes": "half",
+          "turn": 0
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 470,
+          "y": 1690,
+          "s": 2
+        },
+        {
+          "name": "Mithai box",
+          "x": 640,
+          "y": 1690,
+          "s": 2
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Hatao! Diwali ke baad diet hai!",
+          "say": "हटाओ! दिवाली के बाद डाइट है!",
+          "beat": "button"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "KAJU KATLI: 24",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "laughs",
+          "mouth": "smile",
+          "eyes": "half",
+          "turn": 0
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 450,
+          "y": 1690,
+          "s": 2.4
+        },
+        {
+          "name": "Mithai box",
+          "x": 640,
+          "y": 1690,
+          "s": 2.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Achha... bas ek.",
+          "say": "अच्छा... बस एक।",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.3
+    }
+  ]
+}
