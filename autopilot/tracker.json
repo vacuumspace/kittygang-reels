@@ -7613,6 +7613,37 @@
       "yt_id": "AFykqFCHBdg",
       "yt_url": "https://youtube.com/shorts/AFykqFCHBdg",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-07",
+      "created": "2026-11-07",
+      "title": "Ek number, paanch reactions",
+      "format": "Theme Housie",
+      "theme": "mithaithali",
+      "story": "ai",
+      "variant": "reaction-chain",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Diwali eve Mithai Thali game: the ball pops 44 and each friend reacts in her own way: Megha finishes Kaju Katli on her cheat day, Ishita claims Gulab Jamun too early, Myra asks why Ras Malai has only 3 numbers, and deadpan Aditi wins Soan Papdi, again.",
+      "beats": "hook: Megha one number away from Kaju Katli / call: 44 / reaction 1: Megha cheat day / reaction 2: Ishita claims early / reaction 3: Myra confused by Ras Malai / button: Aditi gets Soan Papdi phir se",
+      "experiment": {
+        "format": "reaction-chain",
+        "hook": "Megha and Tanya on the Mithai Thali home art, heartbeat at 0 s, mascot ball spinning above them, Megha says 'Kaju Katli bas ek number door!' with chip 'AGLA NUMBER KISKA?'",
+        "variable": "rhythm: after one call (44) the reel is five single-face shots of about 2 s each, one reaction and one line per gang member, with the theme's reactions flying on every cut, instead of a story with a setup",
+        "hypothesis": "a new face every 2 s and no setup to sit through fixes the middle: watched % above 20 (best so far 17), skip under 64%, at least 1 share on Diwali eve"
+      },
+      "duration": 25.1,
+      "lufs": null,
+      "caption": "Mithai Thali Housie mein aap kaun ho: Megha, Ishita, Myra ya Aditi? Comment karo, aur us saheli ko tag karo jise har Diwali Soan Papdi milti hai!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #diwali #mithai #soanpapdi",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-07.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-07-cover.jpg",
+      "job_id": "72b4e432-376f-4b25-ba46-b9d769249d34",
+      "permalink": "https://www.instagram.com/reel/DfaSz4QD8gz/",
+      "media_id": "18101025863412996",
+      "yt_id": "jvuqtQkXU9s",
+      "yt_url": "https://youtube.com/shorts/jvuqtQkXU9s",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
