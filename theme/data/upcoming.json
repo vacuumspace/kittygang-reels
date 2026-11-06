@@ -1,97 +1,6 @@
 {
- "updated": "2026-11-06T16:52:08.879Z",
+ "updated": "2026-11-06T23:23:42.716Z",
  "days": [
-  {
-   "date": "2026-11-06",
-   "day": "Fri, 6 Nov",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "9 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "sonabiscuit",
-    "name": "Sona Biscuit",
-    "pack": "themes/sonabiscuit/v1",
-    "sounds": "sounds/sonabiscuit/v1",
-    "colors": {
-     "accent": "#B07A00",
-     "accentDeep": "#6E4C00",
-     "gameInk": "#FFF7DC"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Biscuit",
-      "points": 50,
-      "numbers": 5
-     },
-     {
-      "name": "Gini",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Coin",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Aaj Ka Bhaav",
-      "points": 50,
-      "numbers": 3
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_6",
-      "gh_7",
-      "gh_0",
-      "gh_1",
-      "gh_2",
-      "gh_3",
-      "gh_4",
-      "gh_5"
-     ],
-     "housie": [
-      "gs_6",
-      "gs_7",
-      "gs_0",
-      "gs_1",
-      "gs_2",
-      "gs_3",
-      "gs_4",
-      "gs_5"
-     ],
-     "mascotBall": [
-      "sc_5",
-      "sc_0",
-      "sc_1",
-      "sc_2",
-      "sc_3",
-      "sc_4"
-     ],
-     "particles": [
-      "gh_8",
-      "gh_9",
-      "gh_10",
-      "fx_3",
-      "fx_4",
-      "fx_5"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-11-07",
    "day": "Sat, 7 Nov",
@@ -192,6 +101,20 @@
   {
    "date": "2026-11-08",
    "day": "Sun, 8 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "9 PM",
+    "11 PM"
+   ],
+   "theme": null
+  },
+  {
+   "date": "2026-11-09",
+   "day": "Mon, 9 Nov",
    "times": [
     "12:30 AM",
     "12 PM",
