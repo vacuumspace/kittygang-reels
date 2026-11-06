@@ -7238,6 +7238,190 @@
       "yt_id": "4GwnyC04KKI",
       "yt_url": "https://youtube.com/shorts/4GwnyC04KKI",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-06-a",
+      "created": "2026-11-06",
+      "title": "Diwali ke baad diet hai!",
+      "format": "POV: the viewer is the host holding the leftover Diwali kaju katli box, the gang talks to camera, a countdown chip drops every shot",
+      "hook": "",
+      "cast": [
+        "Megha",
+        "Shruti",
+        "Avika"
+      ],
+      "caption": "Diwali ke baad sabki diet shuru. Bas ek ke baad. Tag the friend jo 'diet hai' bolke sabse zyada kha jaati hai!",
+      "status": "needs-fix",
+      "idea": "First kitty after Diwali: you, the host, pass round the leftover kaju katli; every guest swears she is on a diet and takes more than the last; the box hits zero and late Avika walks in with two more boxes.",
+      "beats": "hook: Megha 'Hatao! Diwali ke baad diet hai!' / setup: chip 12 left, she takes one 'cheat day' / esc: Megha 1, Shruti 2 'paise vasool', Megha 4 more 'kaju protein hai' / turn: box at 0, diet starts, doorbell: Avika with two more boxes / button: both repeat the opening line, Megha 'bas ek'",
+      "experiment": {
+        "type": "pov",
+        "hook": "Megha shoves the leftover kaju katli box back at the lens, 'Hatao! Diwali ke baad diet hai!', chip 'AAP HOST HO · KAJU KATLI: 12' so the viewer is the host from frame one",
+        "variable": "a countdown chip that drops on every shot inside a POV (the door-arrivals rhythm: a new grab every 3-4 s, a number that changes each shot)",
+        "hypothesis": "the POV hook (last POV skip 50%) plus a changing number every shot gets skip under 45% and watched over 40%, and the diet friend caption gets at least 3 shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Hatao! Diwali ke baad diet hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Ek bhi nahi. Pakka.",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Achha... bas ek. Cheat day hai.",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kal bhi cheat day tha!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Main toh mithai khaati hi nahi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Par 900 rupaye kilo hai...",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paise vasool. Do le leti hoon.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haaw! Do?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Ruko! Yeh toh healthy hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Kaju hai na. Protein!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Chaar pack karo. Gym ke baad.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Gym? Kaunsa gym?!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Khatam! Chalo, ab diet shuru.",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haan! Ab sirf green juice!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Sorry sorry! Traffic tha yaar!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Aur yeh lo... surprise!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Do dabbe! Mere ghar ki bachi!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Hatao! Diwali ke baad diet hai!",
+          "beat": "button"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Achha... bas ek.",
+          "beat": ""
+        }
+      ],
+      "duration": 42.14,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 49,
+        "notes": "Every house is sitting on leftover Diwali mithai and every group has a friend who says diet and eats the most, so it is one simple situation a stranger gets in 2 s. Megha (diet freak, catchphrase 'Bas ek, cheat day hai') leads; last reel was Ruhi. Game played three times: Megha 1 (ordinary), Shruti 2 for 'paise vasool' (ordinary, in character), Megha 4 more because 'kaju protein hai' (absurd). The chip counts 12, 11, 9, 3, 0, so a muted viewer always knows the stake. Claim before reveal: both celebrate 'Khatam! Ab diet shuru', then the doorbell and a see-it reveal (Avika holding two boxes). Endings tried: (1) Avika eats the last piece, no flip; (2) the host's saas sends more mithai by phone, a text twist, not see-it; (3) kept: Avika brings two more boxes and the button repeats the opening line as a chorus, then Megha's 'bas ek' loops into shot 2. Three talkers only (Megha, Shruti, Avika). Two short lines a shot, holds 0.1, pace 26 so no shot runs near 4.5 s and pace stays over 2.3 w/s."
+      },
+      "qa": [
+        "no shot over 5 s (5.3 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-06-a-board.jpg"
     }
   ],
   "ideas": [
