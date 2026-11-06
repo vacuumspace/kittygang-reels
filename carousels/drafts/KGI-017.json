@@ -1,0 +1,741 @@
+{
+  "id": "KGI-017",
+  "n": 17,
+  "slug": "thand-ka-parcel-winter-pass-the-parcel-kitty-party-game",
+  "game": "Thand Ka Parcel",
+  "tagline": "Jo nikle, woh pehno!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 60,
+      "y": 20,
+      "text": " ",
+      "size": 20,
+      "color": "mute"
+    },
+    {
+      "k": "text",
+      "x": 1020,
+      "y": 350,
+      "text": " ",
+      "size": 20,
+      "color": "mute"
+    },
+    {
+      "k": "person",
+      "x": 230,
+      "y": 200,
+      "s": 1.3,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(230 200) rotate(0) scale(1.3)'><path d='M-36 -36 Q-38 -88 0 -88 Q38 -88 36 -36 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='5'></path><rect x='-38' y='-46' width='76' height='16' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect><circle cx='0' cy='-94' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(230 200) rotate(0) scale(1.3)'><rect x='-34' y='-4' width='68' height='20' rx='9' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M10 12 L14 56 L32 56 L28 10 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(330 250) rotate(-20) scale(0.9)'><path d='M-30 -40 Q-30 -70 0 -70 Q30 -70 30 -40 L30 40 L-30 40 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='5'></path><rect x='-34' y='30' width='68' height='18' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(540 330) rotate(0) scale(1.25)'><rect x='-90' y='-150' width='180' height='150' rx='14' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-14' y='-150' width='28' height='150' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><rect x='-90' y='-90' width='180' height='26' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M0 -150 Q-50 -200 -44 -158 Q-40 -140 0 -150 Q40 -140 44 -158 Q50 -200 0 -150 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></path></g>"
+    },
+    {
+      "k": "person",
+      "x": 850,
+      "y": 200,
+      "s": 1.3,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(850 200) rotate(0) scale(1.3)'><rect x='-34' y='-4' width='68' height='20' rx='9' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></rect><path d='M10 12 L14 56 L32 56 L28 10 Z' fill='#2FA37A' stroke='#4A1238' stroke-width='4'></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(745 250) rotate(20) scale(0.75)'><path d='M-32 60 L-32 -20 Q-32 -64 0 -64 Q32 -64 32 -20 L32 60 Z' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></path><path d='M-32 4 Q-58 -4 -54 -30 Q-50 -46 -32 -34' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></path><rect x='-36' y='50' width='72' height='20' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(110 80) rotate(0) scale(1)'><path d='M0 -30 L0 30 M-26 -15 L26 15 M-26 15 L26 -15' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round'></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(980 70) rotate(0) scale(1.1)'><path d='M0 -30 L0 30 M-26 -15 L26 15 M-26 15 L26 -15' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round'></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(660 60) rotate(0) scale(0.8)'><path d='M0 -30 L0 30 M-26 -15 L26 15 M-26 15 L26 -15' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round'></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(420 90) rotate(0) scale(0.7)'><path d='M0 -30 L0 30 M-26 -15 L26 15 M-26 15 L26 -15' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round'></path></g>"
+    },
+    {
+      "k": "note",
+      "x": 960,
+      "y": 250,
+      "s": 0.9,
+      "color": "#FFFFFF"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Almaari ka sardi wala saamaan",
+    "items": [
+      {
+        "label": "Chhota prize",
+        "sub": "chocolate ya toffee",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 190) rotate(0) scale(0.8)'><rect x='-90' y='-150' width='180' height='150' rx='14' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-14' y='-150' width='28' height='150' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><rect x='-90' y='-90' width='180' height='26' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M0 -150 Q-50 -200 -44 -158 Q-40 -140 0 -150 Q40 -140 44 -158 Q50 -200 0 -150 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></path></g>"
+          }
+        ]
+      },
+      {
+        "label": "Akhbaar aur tape",
+        "sub": "10 layer ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "paper",
+            "x": 110,
+            "y": 150,
+            "w": 200
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(220 170) rotate(0) scale(0.6)'><path d='M-80 0 L-95 -70 L-60 -120 L0 -135 L60 -118 L92 -72 L80 0 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><path d='M-70 -40 L60 -46 M-62 -80 L50 -90 M-40 -112 L40 -116' stroke='#C9C2B0' stroke-width='5'></path><rect x='-12' y='-135' width='24' height='135' fill='#FFC93C' opacity='0.6'></rect></g>"
+          }
+        ]
+      },
+      {
+        "label": "Sardi ka saamaan",
+        "sub": "socks, topi, muffler",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(70 110) rotate(0) scale(0.8)'><path d='M-24 -80 L24 -80 L24 10 Q24 40 54 40 L64 40 Q84 40 84 62 Q84 82 62 82 L10 82 Q-24 82 -24 46 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><rect x='-28' y='-92' width='56' height='22' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(160 110) rotate(0) scale(0.7)'><path d='M-60 30 L-60 -10 Q-60 -70 0 -70 Q60 -70 60 -10 L60 30 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></path><rect x='-64' y='20' width='128' height='22' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><circle cx='0' cy='-76' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></circle></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(245 110) rotate(0) scale(0.7)'><path d='M-32 60 L-32 -20 Q-32 -64 0 -64 Q32 -64 32 -20 L32 60 Z' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></path><path d='M-32 4 Q-58 -4 -54 -30 Q-50 -46 -32 -34' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></path><rect x='-36' y='50' width='72' height='20' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+          }
+        ]
+      },
+      {
+        "label": "Gaane",
+        "sub": "phone + speaker",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "speaker",
+            "x": 120,
+            "y": 110,
+            "s": 0.8
+          },
+          {
+            "k": "note",
+            "x": 220,
+            "y": 110,
+            "s": 0.8,
+            "color": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Parcel mein sardi pack karo",
+      "body": "Prize ke upar 10 layer, har layer mein ek sardi item.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(480 560) rotate(0) scale(1.6)'><rect x='-90' y='-150' width='180' height='150' rx='14' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-14' y='-150' width='28' height='150' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><rect x='-90' y='-90' width='180' height='26' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M0 -150 Q-50 -200 -44 -158 Q-40 -140 0 -150 Q40 -140 44 -158 Q50 -200 0 -150 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(140 250) rotate(-10) scale(0.9)'><path d='M-24 -80 L24 -80 L24 10 Q24 40 54 40 L64 40 Q84 40 84 62 Q84 82 62 82 L10 82 Q-24 82 -24 46 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><rect x='-28' y='-92' width='56' height='22' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 180) rotate(0) scale(0.9)'><path d='M-60 30 L-60 -10 Q-60 -70 0 -70 Q60 -70 60 -10 L60 30 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></path><rect x='-64' y='20' width='128' height='22' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><circle cx='0' cy='-76' r='16' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></circle></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(640 190) rotate(0) scale(0.9)'><path d='M-110 -20 Q0 -50 110 -20 L110 10 Q0 -20 -110 10 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='6'></path><path d='M60 -10 L64 70 L96 70 L92 -14 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='6'></path><path d='M66 70 L66 88 M76 70 L76 88 M86 70 L86 88' stroke='#4A1238' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(830 260) rotate(15) scale(0.9)'><path d='M-32 60 L-32 -20 Q-32 -64 0 -64 Q32 -64 32 -20 L32 60 Z' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></path><path d='M-32 4 Q-58 -4 -54 -30 Q-50 -46 -32 -34' fill='#2FA37A' stroke='#4A1238' stroke-width='6'></path><rect x='-36' y='50' width='72' height='20' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 190,
+          "y1": 360,
+          "x2": 330,
+          "y2": 420
+        },
+        {
+          "k": "arrow",
+          "x1": 360,
+          "y1": 250,
+          "x2": 420,
+          "y2": 330
+        },
+        {
+          "k": "arrow",
+          "x1": 610,
+          "y1": 260,
+          "x2": 560,
+          "y2": 330
+        },
+        {
+          "k": "arrow",
+          "x1": 800,
+          "y1": 350,
+          "x2": 650,
+          "y2": 420
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 660,
+          "text": "Socks, topi, muffler, gloves, shawl...",
+          "size": 36,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Gol baitho, gaana chalao",
+      "body": "Gaane ke saath parcel haath se haath aage badhao.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 140,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 700,
+          "y": 230,
+          "s": 0.9,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 450,
+          "s": 0.9,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 560,
+          "y": 600,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 340,
+          "y": 600,
+          "s": 0.9,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 450,
+          "s": 0.9,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 230,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(480 420) rotate(0) scale(0.7)'><rect x='-90' y='-150' width='180' height='150' rx='14' fill='#E85D8A' stroke='#4A1238' stroke-width='6'></rect><rect x='-14' y='-150' width='28' height='150' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><rect x='-90' y='-90' width='180' height='26' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M0 -150 Q-50 -200 -44 -158 Q-40 -140 0 -150 Q40 -140 44 -158 Q50 -200 0 -150 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='5'></path></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 560,
+          "y1": 300,
+          "x2": 640,
+          "y2": 340,
+          "color": "yel",
+          "w": 10
+        },
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 500,
+          "x2": 330,
+          "y2": 470,
+          "color": "yel",
+          "w": 10
+        },
+        {
+          "k": "speaker",
+          "x": 900,
+          "y": 150,
+          "s": 0.7
+        },
+        {
+          "k": "note",
+          "x": 840,
+          "y": 90,
+          "s": 0.7,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Gaana ruka? Ek layer kholo",
+      "body": "Jiske haath parcel, sirf 10 second mein ek layer phaado.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 330,
+          "y": 420,
+          "s": 1.6,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 640) rotate(0) scale(1)'><path d='M-80 0 L-95 -70 L-60 -120 L0 -135 L60 -118 L92 -72 L80 0 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><path d='M-70 -40 L60 -46 M-62 -80 L50 -90 M-40 -112 L40 -116' stroke='#C9C2B0' stroke-width='5'></path><rect x='-12' y='-135' width='24' height='135' fill='#FFC93C' opacity='0.6'></rect></g>"
+        },
+        {
+          "k": "hand",
+          "x": 230,
+          "y": 580,
+          "rot": -20,
+          "s": 1
+        },
+        {
+          "k": "hand",
+          "x": 430,
+          "y": 580,
+          "rot": 20,
+          "s": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(560 330) rotate(25) scale(1.1)'><path d='M-24 -80 L24 -80 L24 10 Q24 40 54 40 L64 40 Q84 40 84 62 Q84 82 62 82 L10 82 Q-24 82 -24 46 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='6' stroke-linejoin='round'></path><rect x='-28' y='-92' width='56' height='22' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 430,
+          "y1": 470,
+          "x2": 510,
+          "y2": 390
+        },
+        {
+          "k": "timer",
+          "x": 800,
+          "y": 400,
+          "s": 1.1,
+          "text": "0:10"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 680,
+          "text": "Andar se nikla ek moza!",
+          "size": 38,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Jo nikla, abhi pehno",
+      "body": "Moza haath mein, topi sar pe. Game khatam tak utaarna mana.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 420,
+          "s": 1.7,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(150 520) rotate(-15) scale(1.1)'><path d='M-30 -40 Q-30 -70 0 -70 Q30 -70 30 -40 L30 40 L-30 40 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='5'></path><rect x='-34' y='30' width='68' height='18' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(260 420) rotate(0) scale(1.7)'><path d='M-36 -36 Q-38 -88 0 -88 Q38 -88 36 -36 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></path><rect x='-38' y='-46' width='76' height='16' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect><circle cx='0' cy='-94' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle></g>"
+        },
+        {
+          "k": "person",
+          "x": 700,
+          "y": 420,
+          "s": 1.7,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(700 420) rotate(0) scale(1.7)'><rect x='-34' y='-4' width='68' height='20' rx='9' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M10 12 L14 56 L32 56 L28 10 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(700 420) rotate(0) scale(1.7)'><path d='M-36 -36 Q-38 -88 0 -88 Q38 -88 36 -36 Z' fill='#2FA37A' stroke='#4A1238' stroke-width='5'></path><rect x='-38' y='-46' width='76' height='16' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect><circle cx='0' cy='-94' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle></g>"
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 640,
+          "text": "Moza haath pe? Chalega!",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 700,
+          "y": 640,
+          "text": "Topi + muffler",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "tick",
+          "x": 880,
+          "y": 200,
+          "s": 0.9
+        }
+      ]
+    },
+    {
+      "title": "Heater on! Ek cheez aage",
+      "body": "Host chillaaye, sab ek pehni cheez right wali ko pehnayein.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 20,
+          "y": 40,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 430,
+          "s": 1.4,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(200 430) rotate(0) scale(1.4)'><path d='M-36 -36 Q-38 -88 0 -88 Q38 -88 36 -36 Z' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></path><rect x='-38' y='-46' width='76' height='16' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect><circle cx='0' cy='-94' r='12' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></circle></g>"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 430,
+          "s": 1.4,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(480 430) rotate(0) scale(1.4)'><rect x='-34' y='-4' width='68' height='20' rx='9' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></rect><path d='M10 12 L14 56 L32 56 L28 10 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='4'></path></g>"
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 430,
+          "s": 1.4,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(860 500) rotate(15) scale(0.9)'><path d='M-30 -40 Q-30 -70 0 -70 Q30 -70 30 -40 L30 40 L-30 40 Z' fill='#5B8DEF' stroke='#4A1238' stroke-width='5'></path><rect x='-34' y='30' width='68' height='18' rx='6' fill='#FFFFFF' stroke='#4A1238' stroke-width='4'></rect></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 250,
+          "y1": 240,
+          "x2": 420,
+          "y2": 240,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 530,
+          "y1": 240,
+          "x2": 700,
+          "y2": 240,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 140,
+          "text": "\"Heater on!\"",
+          "size": 60,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 650,
+          "text": "Sab ek saath, 10 second mein",
+          "size": 36,
+          "color": "mute"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Aakhri layer kholi, prize tumhara",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Pehni cheez khud utaari?",
+          "Ek round baahar baitho."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "10 second mein layer nahi?",
+          "Parcel aage, chance gaya."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Heater on pe der ki?",
+          "Ek extra item pehno."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Aakhri layer kholi?",
+          "Prize aur Sardi Queen!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Har item ke saath ek",
+        "sardi wala gaana gao."
+      ],
+      [
+        "Ek layer mein pati ka",
+        "purana muffler daalo!"
+      ],
+      [
+        "End mein sab ek photo,",
+        "\"Shimla trip\" pose!"
+      ]
+    ],
+    "tip": "Saaf dhule items hi daalo, tape halki lagao."
+  },
+  "comment_hint": "kya nikla?",
+  "caption": "Parcel khula aur moza nikla? Ab haath mein pehno! Sardi ki pehli kitty mein yeh khelo. Aapke parcel mein kya daaloge?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#passtheparcel",
+    "#winterkitty"
+  ],
+  "web": {
+    "title": "Thand Ka Parcel: Winter Pass the Parcel Kitty Party Game",
+    "description": "Thand Ka Parcel is a winter pass the parcel game for kitty parties where every layer hides a sock or cap you must wear. Rules, setup, twists and tips.",
+    "intro": "Thand Ka Parcel is a winter version of pass the parcel where every newspaper layer hides one woollen item, like a sock, monkey cap, muffler or gloves. When the music stops, the lady holding the parcel tears one layer and must wear whatever she finds until the game ends, and whoever opens the last layer wins the prize inside. The crazy twist: when the host shouts \"Heater on!\", every lady must take off one thing she is wearing and put it on the lady to her right. It needs only old newspapers, tape, a small prize and the winter clothes already in your cupboard, so it is perfect for the first cold kitty of the season.",
+    "players": "8 to 20",
+    "time": "15 minutes",
+    "materials": [
+      "A small prize such as a chocolate bar or a toffee pack",
+      "Old newspapers and tape to make about 10 layers",
+      "About 10 clean winter items: socks, monkey caps, mufflers, gloves, a shawl, ear muffs",
+      "Music on a phone or speaker, and one person to play and stop it"
+    ],
+    "steps": [
+      "Wrap the prize in one layer of newspaper, then keep adding layers until there are about 10. Tuck one winter item inside every layer as you wrap.",
+      "Everyone sits in a circle. Play music and pass the parcel from hand to hand.",
+      "Stop the music suddenly. The lady holding the parcel has 10 seconds to tear open one layer.",
+      "Whatever falls out, she must wear right away and keep on until the game ends, even if it is a sock on her hand.",
+      "At any moment the host can shout \"Heater on!\" and every lady must take off one worn item and put it on the lady to her right within 10 seconds."
+    ],
+    "rules": [
+      "If you take off a worn item on your own, you sit out one round.",
+      "If you cannot open a layer in 10 seconds, the parcel moves on and you lose your turn.",
+      "If you are slow on \"Heater on!\", you must wear one extra item.",
+      "The lady who opens the last layer wins the prize and is crowned Sardi Queen."
+    ],
+    "variations": [
+      "Every lady who gets an item must sing one line of a winter or Bollywood barish song.",
+      "Hide the husband's old muffler in one layer for big laughs.",
+      "End with a group photo in all the mismatched winter wear, posing like a Shimla trip."
+    ],
+    "tips": [
+      "Use only clean, washed items and skip anything with sharp pins or buckles.",
+      "Tape each layer lightly so it tears open in 10 seconds.",
+      "Keep the parcel moving fast and stop the music at unexpected moments."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Thand Ka Parcel?",
+        "a": "It works for 8 to 20 ladies sitting in one circle. With more than 15, make 12 to 15 layers so more people get an item."
+      },
+      {
+        "q": "What do you need to play Thand Ka Parcel?",
+        "a": "Old newspapers, tape, a small prize and about 10 clean winter items like socks, caps, mufflers and gloves, plus music."
+      },
+      {
+        "q": "How is it different from normal pass the parcel?",
+        "a": "Every layer hides something you must wear, and the \"Heater on!\" call makes everyone pass worn items to the right, so the whole room ends up in funny mismatched winter wear."
+      },
+      {
+        "q": "Is Thand Ka Parcel good for a winter or pajama theme kitty?",
+        "a": "Yes. It fits a winter, cozy pajama or Christmas theme kitty and makes a great first game because it warms up the room quickly."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "About 15 minutes for a 10 layer parcel. Add or remove layers to make it longer or shorter."
+      }
+    ]
+  }
+}
