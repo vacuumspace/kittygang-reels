@@ -5487,7 +5487,7 @@
         "Tanya"
       ],
       "caption": "Har kitty mein ek monitor hoti hai jo sabka naam likhti hai... apna kabhi nahi. Tag your monitor!",
-      "status": "queued",
+      "status": "published",
       "idea": "At the Children's Day Bachpan theme kitty, Shruti plays class monitor and writes the name of everyone who talks during Housie on the board, until she shouts Full House herself.",
       "beats": "hook: monitor Shruti 'Silence!' / setup: talk = name on board / esc: Ruhi gossip, Myra claims, Tanya the host laughs / twist: Shruti shouts Full House without raising her hand, cancelled, her name on the board / button: Ruhi with the duster 'Silence! Housie chal rahi hai!'",
       "experiment": {
@@ -5676,7 +5676,9 @@
       "scheduled_ist": "2026-11-06 13:37",
       "yt_id": "VkrticgLtrQ",
       "yt_url": "https://youtube.com/shorts/VkrticgLtrQ",
-      "yt_privacy": "private"
+      "yt_privacy": "private",
+      "permalink": "https://www.instagram.com/reel/DfZJba4EYmH/",
+      "media_id": "18147013198595749"
     },
     {
       "id": "KG-2026-11-02-c",
@@ -9232,7 +9234,7 @@
       "time": "15 to 20 minutes",
       "slug": "bachpan-photo-pehchano-childhood-photo-kitty-party-game",
       "caption": "Choti si chotiyon wali bachchi aaj kitty ki queen hai! Children's Day pe yeh khelo. Aapki bachpan photo kaun pehchaanega?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-016/board.jpg",
       "image_urls": [
@@ -9249,7 +9251,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/bachpan-photo-pehchano-childhood-photo-kitty-party-game",
       "queue_id": "b5544c91-a7e0-41cf-aa01-374608dd074a",
-      "scheduled_ist": "2026-11-06 11:45"
+      "scheduled_ist": "2026-11-06 11:45",
+      "permalink": "https://www.instagram.com/p/DfY8QPRmx_T/",
+      "media_id": "17949609528075395"
     },
     {
       "id": "KGI-017",
