@@ -1,0 +1,866 @@
+{
+  "id": "KGI-018",
+  "n": 18,
+  "slug": "shaadi-bangle-toss-ring-toss-kitty-party-game",
+  "game": "Shaadi Bangle Toss",
+  "tagline": "Mehendi lagi hai, sambhal ke!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 170,
+      "y": 190,
+      "s": 1.25,
+      "color": "pink"
+    },
+    {
+      "k": "hand",
+      "x": 260,
+      "y": 190,
+      "rot": -40,
+      "s": 1
+    },
+    {
+      "k": "band",
+      "x": 305,
+      "y": 150,
+      "rx": 27,
+      "ry": 9.9,
+      "w": 8.1,
+      "color": "yel"
+    },
+    {
+      "k": "arrow",
+      "x1": 345,
+      "y1": 140,
+      "x2": 560,
+      "y2": 120,
+      "color": "yel",
+      "w": 9
+    },
+    {
+      "k": "band",
+      "x": 640,
+      "y": 70,
+      "rx": 30,
+      "ry": 11,
+      "w": 9,
+      "color": "yel"
+    },
+    {
+      "k": "bottle",
+      "x": 620,
+      "y": 230,
+      "s": 0.9,
+      "color": "green"
+    },
+    {
+      "k": "band",
+      "x": 620,
+      "y": 143.6,
+      "rx": 31.049999999999997,
+      "ry": 11.385,
+      "w": 9.315,
+      "color": "pink"
+    },
+    {
+      "k": "bottle",
+      "x": 760,
+      "y": 210,
+      "s": 0.9,
+      "color": "blue"
+    },
+    {
+      "k": "bottle",
+      "x": 900,
+      "y": 230,
+      "s": 0.9,
+      "color": "pink"
+    },
+    {
+      "k": "band",
+      "x": 900,
+      "y": 143.6,
+      "rx": 31.049999999999997,
+      "ry": 11.385,
+      "w": 9.315,
+      "color": "yel"
+    },
+    {
+      "k": "text",
+      "x": 620,
+      "y": 350,
+      "text": "Haldi 10",
+      "size": 28,
+      "color": "#FFFFFF"
+    },
+    {
+      "k": "text",
+      "x": 760,
+      "y": 330,
+      "text": "Sangeet 30",
+      "size": 28,
+      "color": "#FFFFFF"
+    },
+    {
+      "k": "text",
+      "x": 900,
+      "y": 350,
+      "text": "Phere 50",
+      "size": 28,
+      "color": "#FFFFFF"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Chudiyan aur khaali bottles",
+    "items": [
+      {
+        "label": "6 khaali bottles",
+        "sub": "thoda paani bharo",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "bottle",
+            "x": 60,
+            "y": 110,
+            "s": 0.8,
+            "color": "green"
+          },
+          {
+            "k": "bottle",
+            "x": 150,
+            "y": 110,
+            "s": 0.8,
+            "color": "blue"
+          },
+          {
+            "k": "bottle",
+            "x": 240,
+            "y": 110,
+            "s": 0.8,
+            "color": "pink"
+          }
+        ]
+      },
+      {
+        "label": "Plastic chudiyan",
+        "sub": "5 har lady ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "band",
+            "x": 80,
+            "y": 90,
+            "rx": 42,
+            "ry": 15.399999999999999,
+            "w": 12.6,
+            "color": "yel"
+          },
+          {
+            "k": "band",
+            "x": 200,
+            "y": 90,
+            "rx": 42,
+            "ry": 15.399999999999999,
+            "w": 12.6,
+            "color": "pink"
+          },
+          {
+            "k": "band",
+            "x": 140,
+            "y": 150,
+            "rx": 42,
+            "ry": 15.399999999999999,
+            "w": 12.6,
+            "color": "green"
+          },
+          {
+            "k": "band",
+            "x": 140,
+            "y": 40,
+            "rx": 42,
+            "ry": 15.399999999999999,
+            "w": 12.6,
+            "color": "blue"
+          }
+        ]
+      },
+      {
+        "label": "Naam ki parchi",
+        "sub": "tape se chipkao",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "chit",
+            "x": 90,
+            "y": 90,
+            "s": 0.9,
+            "text": "Haldi 10",
+            "rot": -8
+          },
+          {
+            "k": "chit",
+            "x": 210,
+            "y": 140,
+            "s": 0.9,
+            "text": "Phere 50",
+            "rot": 6
+          }
+        ]
+      },
+      {
+        "label": "Ek dupatta",
+        "sub": "throw line ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g><rect x='20' y='101' width='260' height='28' rx='10' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect><path d='M40 115 L260 115' stroke='#FFC93C' stroke-width='5' stroke-dasharray='18 14'></path></g>"
+          }
+        ]
+      },
+      {
+        "label": "Kaagaz aur pen",
+        "sub": "score ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "box",
+            "x": 150,
+            "y": 115,
+            "w": 220,
+            "h": 150,
+            "color": "#FFFFFF",
+            "text": "Score"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Bottles lagao, naam chipkao",
+      "body": "Peeche wali bottle pe zyada points. Phere sabse door.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "bottle",
+          "x": 160,
+          "y": 520,
+          "s": 0.9,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 160,
+          "y": 651.6,
+          "text": "Haldi 10",
+          "size": 30,
+          "color": "ink"
+        },
+        {
+          "k": "bottle",
+          "x": 380,
+          "y": 520,
+          "s": 0.9,
+          "color": "yel"
+        },
+        {
+          "k": "text",
+          "x": 380,
+          "y": 651.6,
+          "text": "Mehendi 20",
+          "size": 30,
+          "color": "ink"
+        },
+        {
+          "k": "bottle",
+          "x": 600,
+          "y": 520,
+          "s": 0.9,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 600,
+          "y": 651.6,
+          "text": "Sangeet 30",
+          "size": 30,
+          "color": "ink"
+        },
+        {
+          "k": "bottle",
+          "x": 820,
+          "y": 520,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 820,
+          "y": 651.6,
+          "text": "Baraat 40",
+          "size": 30,
+          "color": "ink"
+        },
+        {
+          "k": "bottle",
+          "x": 370,
+          "y": 240,
+          "s": 0.9,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 370,
+          "y": 371.6,
+          "text": "Phere 50",
+          "size": 30,
+          "color": "ink"
+        },
+        {
+          "k": "bottle",
+          "x": 610,
+          "y": 240,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 610,
+          "y": 371.6,
+          "text": "Vidaai 100",
+          "size": 30,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Dupatta line, 6 feet door",
+      "body": "Dupatta zameen pe bichhao. Uske peeche khade hokar throw.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 140,
+          "y": 440,
+          "s": 1.5,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='245' y='300' width='30' height='300' rx='10' fill='#E85D8A' stroke='#4A1238' stroke-width='5'></rect><path d='M260 320 L260 580' stroke='#FFC93C' stroke-width='5' stroke-dasharray='18 14'></path></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 300,
+          "y1": 620,
+          "x2": 680,
+          "y2": 620,
+          "color": "ink",
+          "w": 6
+        },
+        {
+          "k": "text",
+          "x": 490,
+          "y": 680,
+          "text": "6 feet",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "bottle",
+          "x": 720,
+          "y": 470,
+          "s": 0.8,
+          "color": "green"
+        },
+        {
+          "k": "bottle",
+          "x": 840,
+          "y": 470,
+          "s": 0.8,
+          "color": "yel"
+        },
+        {
+          "k": "bottle",
+          "x": 780,
+          "y": 330,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 140,
+          "y": 230,
+          "text": "Line ke peeche",
+          "size": 32,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "5 chudiyan, 5 throw",
+      "body": "Ek ek chudi phenko. Bottle ki gardan mein fasi, toh points.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 450,
+          "s": 1.6,
+          "color": "yel"
+        },
+        {
+          "k": "hand",
+          "x": 250,
+          "y": 370,
+          "rot": -40,
+          "s": 1.1
+        },
+        {
+          "k": "band",
+          "x": 300,
+          "y": 320,
+          "rx": 33,
+          "ry": 12.100000000000001,
+          "w": 9.9,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M330 300 Q520 80 690 300' fill='none' stroke='#FFC93C' stroke-width='9' stroke-dasharray='22 16' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "arrow",
+          "x1": 670,
+          "y1": 270,
+          "x2": 712,
+          "y2": 340,
+          "color": "yel",
+          "w": 9
+        },
+        {
+          "k": "bottle",
+          "x": 720,
+          "y": 520,
+          "s": 1.1,
+          "color": "green"
+        },
+        {
+          "k": "band",
+          "x": 720,
+          "y": 414.4,
+          "rx": 37.949999999999996,
+          "ry": 13.915,
+          "w": 11.385,
+          "color": "pink"
+        },
+        {
+          "k": "tick",
+          "x": 860,
+          "y": 380,
+          "s": 1.1
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 690,
+          "text": "Gardan mein fasi = points",
+          "size": 34,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "\"Mehendi lagi hai!\" Ungliyon se",
+      "body": "Host chillaaye, agla throw sirf do ungli ki tip se.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 90,
+          "text": "\"Mehendi lagi hai!\"",
+          "size": 64,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(300 520) rotate(0) scale(1.25)'>\n<rect x='-62' y='-40' width='124' height='130' rx='40' fill='#F2C3A0' stroke='#C98E6B' stroke-width='5'></rect>\n<rect x='-60' y='-150' width='28' height='120' rx='14' fill='#F2C3A0' stroke='#C98E6B' stroke-width='5'></rect>\n<rect x='-26' y='-178' width='28' height='148' rx='14' fill='#F2C3A0' stroke='#C98E6B' stroke-width='5'></rect>\n<rect x='8' y='-170' width='28' height='140' rx='14' fill='#F2C3A0' stroke='#C98E6B' stroke-width='5'></rect>\n<rect x='40' y='-130' width='26' height='100' rx='13' fill='#F2C3A0' stroke='#C98E6B' stroke-width='5'></rect>\n<rect x='-108' y='-10' width='60' height='30' rx='15' transform='rotate(-35 -78 5)' fill='#F2C3A0' stroke='#C98E6B' stroke-width='5'></rect>\n<circle cx='0' cy='25' r='26' fill='none' stroke='#8B3A1A' stroke-width='5'></circle><circle cx='0' cy='25' r='9' fill='#8B3A1A'></circle>\n<path d='M-36 25 L-30 25 M30 25 L36 25 M0 -11 L0 -5 M0 55 L0 61' stroke='#8B3A1A' stroke-width='6' stroke-linecap='round'></path>\n<circle cx='-46' cy='-120' r='5' fill='#8B3A1A'></circle><circle cx='-12' cy='-150' r='5' fill='#8B3A1A'></circle><circle cx='22' cy='-142' r='5' fill='#8B3A1A'></circle><circle cx='53' cy='-104' r='5' fill='#8B3A1A'></circle>\n<ellipse cx='5' cy='-232' rx='44' ry='58' fill='none' stroke='#FFC93C' stroke-width='12'></ellipse>\n<rect x='-62' y='86' width='124' height='34' rx='8' fill='#E85D8A'></rect></g>"
+        },
+        {
+          "k": "text",
+          "x": 690,
+          "y": 300,
+          "text": "Hatheli khuli,",
+          "size": 40,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 690,
+          "y": 360,
+          "text": "mehendi geeli!",
+          "size": 40,
+          "color": "ink"
+        },
+        {
+          "k": "cross",
+          "x": 640,
+          "y": 520,
+          "s": 0.8
+        },
+        {
+          "k": "text",
+          "x": 810,
+          "y": 535,
+          "text": "Mutthi band",
+          "size": 36,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "3 round, score jodo",
+      "body": "Har round ke baad points likho. Sabse zyada wali jeeti.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "box",
+          "x": 330,
+          "y": 380,
+          "w": 520,
+          "h": 520,
+          "color": "#FFFFFF"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 190,
+          "text": "Score",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 120,
+          "y": 290,
+          "text": "Neha  20 + 50 + 30",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 120,
+          "y": 370,
+          "text": "Pinky  10 + 100 + 0",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 120,
+          "y": 450,
+          "text": "Sunita  40 + 40 + 0",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 120,
+          "y": 560,
+          "text": "Pinky jeeti: 110!",
+          "size": 42,
+          "color": "green",
+          "a": "start"
+        },
+        {
+          "k": "person",
+          "x": 790,
+          "y": 420,
+          "s": 1.5,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M745 330 L740 280 L765 305 L790 270 L815 305 L840 280 L835 330 Z' fill='#FFC93C' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path>"
+        },
+        {
+          "k": "text",
+          "x": 790,
+          "y": 640,
+          "text": "Shaadi Queen",
+          "size": 40,
+          "color": "pink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada points, woh jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Pair dupatta line ke paar?",
+          "Woh throw cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Mehendi call pe mutthi band?",
+          "Us throw ke zero points."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Chudi bottle se takraayi,",
+          "gardan mein nahi? Zero."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "3 round mein top score?",
+          "Shaadi Queen tum!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Dulhan round: dupatta ka",
+        "ghoonghat odh ke throw."
+      ],
+      [
+        "\"Baraat late hai!\" pe",
+        "bottles ek kadam peeche."
+      ],
+      [
+        "Jodi round: saas bahu",
+        "ek ek chudi baari baari."
+      ]
+    ],
+    "tip": "Kaanch ki chudi nahi, sirf plastic ya metal."
+  },
+  "comment_hint": "kitne points?",
+  "caption": "Chudi phenko, bottle pakdo, aur mehendi call pe sirf ungliyon se! Shaadi season ki kitty mein yeh khelo. Aapka score kitna aayega?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#ringtoss",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Shaadi Bangle Toss: Kitty Party Ring Toss Game Rules and Twists",
+    "description": "Shaadi Bangle Toss is a ring toss kitty party game with bangles and bottles named after wedding functions. Rules, setup, the mehendi twist, tips and FAQ.",
+    "intro": "Shaadi Bangle Toss is a ring toss game for kitty parties where every lady throws 5 plastic bangles (chudiyan) at empty bottles labelled with wedding functions like Haldi, Mehendi, Sangeet, Baraat, Phere and Vidaai. A bangle that lands around a bottle neck scores that bottle's points, and the lady with the highest total after 3 rounds wins and becomes Shaadi Queen. The crazy twist: when the host shouts \"Mehendi lagi hai!\", the next throw must be made with an open palm, holding the bangle only between two fingertips, as if her mehendi is still wet. It needs only bangles, a few empty bottles and a dupatta, so it is a perfect game for a shaadi season kitty.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "6 empty plastic water bottles with a little water in each so they stand firm",
+      "5 plastic or metal bangles per player (or one shared set of 5 used turn by turn)",
+      "6 paper labels and tape: Haldi 10, Mehendi 20, Sangeet 30, Baraat 40, Phere 50, Vidaai 100",
+      "One dupatta laid on the floor as the throw line",
+      "Paper and a pen to keep score"
+    ],
+    "steps": [
+      "Stick one label on each bottle. Put the four low-point bottles in a front row and Phere 50 and Vidaai 100 in a back row, so the big points are farthest away.",
+      "Lay a dupatta on the floor about 6 feet in front of the bottles. Every throw is made from behind this line.",
+      "Each lady gets 5 bangles and throws them one by one. A bangle that settles around a bottle neck scores that bottle's points.",
+      "At any time the host can shout \"Mehendi lagi hai!\". The next throw must be made with an open palm, holding the bangle only between two fingertips.",
+      "Write down every lady's points after each round. Play 3 rounds and add up the totals."
+    ],
+    "rules": [
+      "If your foot crosses the dupatta line, that throw does not count.",
+      "On a \"Mehendi lagi hai!\" throw, closing your fist or gripping the bangle in your palm scores zero.",
+      "A bangle that only hits or leans on a bottle scores zero; it must sit around the neck.",
+      "The highest total after 3 rounds wins and is crowned Shaadi Queen."
+    ],
+    "variations": [
+      "Dulhan round: throw with a dupatta ghoonghat over your head.",
+      "When the host shouts \"Baraat late hai!\", every bottle moves one step farther back.",
+      "Jodi round: saas and bahu pairs share 5 bangles and throw turn by turn, adding their points."
+    ],
+    "tips": [
+      "Use only plastic or metal bangles, never glass, so nothing breaks or cuts.",
+      "Put a little water in each bottle so it does not fall over at every hit.",
+      "Wider bangles are easier; keep a few big ones for first-time players.",
+      "Call \"Mehendi lagi hai!\" on the last throw of a round for the most drama."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Shaadi Bangle Toss?",
+        "a": "It works for 8 to 20 ladies. Everyone throws one by one, so with a big group use two sets of bottles and two throw lines."
+      },
+      {
+        "q": "What do you need to play the bangle ring toss game?",
+        "a": "6 empty bottles, 5 plastic or metal bangles, paper labels with tape, a dupatta for the throw line, and paper and pen for the score."
+      },
+      {
+        "q": "Can we use glass bangles for this game?",
+        "a": "No. Glass bangles can break and cut. Use plastic or metal bangles only."
+      },
+      {
+        "q": "Is Shaadi Bangle Toss good for a wedding theme kitty party?",
+        "a": "Yes. The bottles are named after wedding functions and the mehendi twist fits a shaadi season, bridal or Karwa Chauth theme kitty perfectly."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "About 10 to 15 minutes for 3 rounds with 12 ladies. Play 2 rounds if the group is large."
+      }
+    ]
+  }
+}
