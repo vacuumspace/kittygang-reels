@@ -9562,7 +9562,7 @@
       "time": "15 minutes",
       "slug": "thand-ka-parcel-winter-pass-the-parcel-kitty-party-game",
       "caption": "Parcel khula aur moza nikla? Ab haath mein pehno! Sardi ki pehli kitty mein yeh khelo. Aapke parcel mein kya daaloge?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-017/board.jpg",
       "image_urls": [
@@ -9579,7 +9579,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/thand-ka-parcel-winter-pass-the-parcel-kitty-party-game",
       "queue_id": "9b5364c4-0ce6-450a-ba01-6976908f8f3d",
-      "scheduled_ist": "2026-11-07 11:30"
+      "scheduled_ist": "2026-11-07 11:30",
+      "permalink": "https://www.instagram.com/p/DfbfZoYjNWi/",
+      "media_id": "18083116253364412"
     },
     {
       "id": "KGI-018",
