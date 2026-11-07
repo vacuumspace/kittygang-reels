@@ -9404,6 +9404,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/thand-ka-parcel-winter-pass-the-parcel-kitty-party-game",
       "queue_id": "9b5364c4-0ce6-450a-ba01-6976908f8f3d",
       "scheduled_ist": "2026-11-07 11:30"
+    },
+    {
+      "id": "KGI-018",
+      "n": 18,
+      "created": "2026-11-07",
+      "game": "Shaadi Bangle Toss",
+      "tagline": "Mehendi lagi hai, sambhal ke!",
+      "players": "8 to 20",
+      "time": "10 to 15 minutes",
+      "slug": "shaadi-bangle-toss-ring-toss-kitty-party-game",
+      "caption": "Chudi phenko, bottle pakdo, aur mehendi call pe sirf ungliyon se! Shaadi season ki kitty mein yeh khelo. Aapka score kitna aayega?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-018/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/shaadi-bangle-toss-ring-toss-kitty-party-game",
+      "queue_id": "56883cb5-1fa8-4a1c-957c-2b66d2299ab5",
+      "scheduled_ist": "2026-11-08 11:27"
     }
   ],
   "research": [
