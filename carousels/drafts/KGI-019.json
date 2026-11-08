@@ -1,0 +1,1722 @@
+{
+  "id": "KGI-019",
+  "n": 19,
+  "slug": "shaadi-akshar-letter-word-kitty-party-game",
+  "game": "Shaadi Akshar",
+  "tagline": "Akshar ek, jawab paanch!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 170,
+      "y": 190,
+      "s": 1.25,
+      "color": "pink"
+    },
+    {
+      "k": "hand",
+      "x": 260,
+      "y": 190,
+      "rot": -40,
+      "s": 1
+    },
+    {
+      "k": "band",
+      "x": 305,
+      "y": 150,
+      "rx": 27,
+      "ry": 9.9,
+      "w": 8.1,
+      "color": "yel"
+    },
+    {
+      "k": "arrow",
+      "x1": 345,
+      "y1": 140,
+      "x2": 600,
+      "y2": 175,
+      "color": "yel",
+      "w": 9
+    },
+    {
+      "k": "svg",
+      "markup": "<g><rect x='640' y='30' width='360' height='300' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><rect x='640' y='150' width='60' height='60' fill='#FFC93C'></rect><path d='M700 30 L700 330' stroke='#4A1238' stroke-width='3'></path><path d='M760 30 L760 330' stroke='#4A1238' stroke-width='3'></path><path d='M820 30 L820 330' stroke='#4A1238' stroke-width='3'></path><path d='M880 30 L880 330' stroke='#4A1238' stroke-width='3'></path><path d='M940 30 L940 330' stroke='#4A1238' stroke-width='3'></path><path d='M640 90 L1000 90' stroke='#4A1238' stroke-width='3'></path><path d='M640 150 L1000 150' stroke='#4A1238' stroke-width='3'></path><path d='M640 210 L1000 210' stroke='#4A1238' stroke-width='3'></path><path d='M640 270 L1000 270' stroke='#4A1238' stroke-width='3'></path></g>"
+    },
+    {
+      "k": "text",
+      "x": 670,
+      "y": 70.2,
+      "text": "A",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 730,
+      "y": 70.2,
+      "text": "B",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 790,
+      "y": 70.2,
+      "text": "C",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 850,
+      "y": 70.2,
+      "text": "D",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 910,
+      "y": 70.2,
+      "text": "E",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 970,
+      "y": 70.2,
+      "text": "F",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 670,
+      "y": 130.2,
+      "text": "G",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 730,
+      "y": 130.2,
+      "text": "H",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 790,
+      "y": 130.2,
+      "text": "I",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 850,
+      "y": 130.2,
+      "text": "J",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 910,
+      "y": 130.2,
+      "text": "K",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 970,
+      "y": 130.2,
+      "text": "L",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 670,
+      "y": 190.2,
+      "text": "M",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 730,
+      "y": 190.2,
+      "text": "N",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 790,
+      "y": 190.2,
+      "text": "O",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 850,
+      "y": 190.2,
+      "text": "P",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 910,
+      "y": 190.2,
+      "text": "Q",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 970,
+      "y": 190.2,
+      "text": "R",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 670,
+      "y": 250.2,
+      "text": "S",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 730,
+      "y": 250.2,
+      "text": "T",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 790,
+      "y": 250.2,
+      "text": "U",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 850,
+      "y": 250.2,
+      "text": "V",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 910,
+      "y": 250.2,
+      "text": "W",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 970,
+      "y": 250.2,
+      "text": "X",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 670,
+      "y": 310.2,
+      "text": "Y",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 730,
+      "y": 310.2,
+      "text": "Z",
+      "size": 29,
+      "color": "ink"
+    },
+    {
+      "k": "text",
+      "x": 790,
+      "y": 310.2,
+      "text": "*",
+      "size": 29,
+      "color": "mute"
+    },
+    {
+      "k": "text",
+      "x": 850,
+      "y": 310.2,
+      "text": "*",
+      "size": 29,
+      "color": "mute"
+    },
+    {
+      "k": "text",
+      "x": 910,
+      "y": 310.2,
+      "text": "*",
+      "size": 29,
+      "color": "mute"
+    },
+    {
+      "k": "text",
+      "x": 970,
+      "y": 310.2,
+      "text": "*",
+      "size": 29,
+      "color": "mute"
+    },
+    {
+      "k": "band",
+      "x": 670,
+      "y": 170,
+      "rx": 27,
+      "ry": 24,
+      "w": 6,
+      "color": "pink"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas kaagaz, pen aur ek chudi",
+    "items": [
+      {
+        "label": "A se Z chart",
+        "sub": "chart paper pe banao",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g><rect x='30' y='15' width='240' height='200' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M70 15 L70 215' stroke='#4A1238' stroke-width='3'></path><path d='M110 15 L110 215' stroke='#4A1238' stroke-width='3'></path><path d='M150 15 L150 215' stroke='#4A1238' stroke-width='3'></path><path d='M190 15 L190 215' stroke='#4A1238' stroke-width='3'></path><path d='M230 15 L230 215' stroke='#4A1238' stroke-width='3'></path><path d='M30 55 L270 55' stroke='#4A1238' stroke-width='3'></path><path d='M30 95 L270 95' stroke='#4A1238' stroke-width='3'></path><path d='M30 135 L270 135' stroke='#4A1238' stroke-width='3'></path><path d='M30 175 L270 175' stroke='#4A1238' stroke-width='3'></path></g>"
+          },
+          {
+            "k": "text",
+            "x": 50,
+            "y": 41.8,
+            "text": "A",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 90,
+            "y": 41.8,
+            "text": "B",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 130,
+            "y": 41.8,
+            "text": "C",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 170,
+            "y": 41.8,
+            "text": "D",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 210,
+            "y": 41.8,
+            "text": "E",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 250,
+            "y": 41.8,
+            "text": "F",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 50,
+            "y": 81.8,
+            "text": "G",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 90,
+            "y": 81.8,
+            "text": "H",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 130,
+            "y": 81.8,
+            "text": "I",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 170,
+            "y": 81.8,
+            "text": "J",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 210,
+            "y": 81.8,
+            "text": "K",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 250,
+            "y": 81.8,
+            "text": "L",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 50,
+            "y": 121.8,
+            "text": "M",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 90,
+            "y": 121.8,
+            "text": "N",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 130,
+            "y": 121.8,
+            "text": "O",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 170,
+            "y": 121.8,
+            "text": "P",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 210,
+            "y": 121.8,
+            "text": "Q",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 250,
+            "y": 121.8,
+            "text": "R",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 50,
+            "y": 161.8,
+            "text": "S",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 90,
+            "y": 161.8,
+            "text": "T",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 130,
+            "y": 161.8,
+            "text": "U",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 170,
+            "y": 161.8,
+            "text": "V",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 210,
+            "y": 161.8,
+            "text": "W",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 250,
+            "y": 161.8,
+            "text": "X",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 50,
+            "y": 201.8,
+            "text": "Y",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 90,
+            "y": 201.8,
+            "text": "Z",
+            "size": 19,
+            "color": "ink"
+          },
+          {
+            "k": "text",
+            "x": 130,
+            "y": 201.8,
+            "text": "*",
+            "size": 19,
+            "color": "mute"
+          },
+          {
+            "k": "text",
+            "x": 170,
+            "y": 201.8,
+            "text": "*",
+            "size": 19,
+            "color": "mute"
+          },
+          {
+            "k": "text",
+            "x": 210,
+            "y": 201.8,
+            "text": "*",
+            "size": 19,
+            "color": "mute"
+          },
+          {
+            "k": "text",
+            "x": 250,
+            "y": 201.8,
+            "text": "*",
+            "size": 19,
+            "color": "mute"
+          }
+        ]
+      },
+      {
+        "label": "Ek chudi",
+        "sub": "plastic ya metal",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "band",
+            "x": 150,
+            "y": 115,
+            "rx": 60,
+            "ry": 22,
+            "w": 16,
+            "color": "pink"
+          }
+        ]
+      },
+      {
+        "label": "Kaagaz aur pen",
+        "sub": "har lady ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g><rect x='60' y='20' width='150' height='190' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+          },
+          {
+            "k": "text",
+            "x": 135,
+            "y": 80,
+            "text": "M",
+            "size": 44,
+            "color": "pink"
+          },
+          {
+            "k": "text",
+            "x": 135,
+            "y": 140,
+            "text": ".....",
+            "size": 30,
+            "color": "mute"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(240 190) rotate(25) scale(1)'><rect x='-9' y='-110' width='18' height='95' rx='4' fill='#3B7DD8' stroke='#4A1238' stroke-width='4'></rect><path d='M-9 -15 L0 8 L9 -15 Z' fill='#F4F1E8' stroke='#4A1238' stroke-width='4' stroke-linejoin='round'></path></g>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "60 second",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 115,
+            "s": 0.7,
+            "text": "1:00"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "A se Z chart bichhao",
+      "body": "Chart paper pe 26 khaane, har khaane mein ek akshar.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='180' y='80' width='600' height='500' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><path d='M280 80 L280 580' stroke='#4A1238' stroke-width='3'></path><path d='M380 80 L380 580' stroke='#4A1238' stroke-width='3'></path><path d='M480 80 L480 580' stroke='#4A1238' stroke-width='3'></path><path d='M580 80 L580 580' stroke='#4A1238' stroke-width='3'></path><path d='M680 80 L680 580' stroke='#4A1238' stroke-width='3'></path><path d='M180 180 L780 180' stroke='#4A1238' stroke-width='3'></path><path d='M180 280 L780 280' stroke='#4A1238' stroke-width='3'></path><path d='M180 380 L780 380' stroke='#4A1238' stroke-width='3'></path><path d='M180 480 L780 480' stroke='#4A1238' stroke-width='3'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 230,
+          "y": 147,
+          "text": "A",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 147,
+          "text": "B",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 147,
+          "text": "C",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 147,
+          "text": "D",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 630,
+          "y": 147,
+          "text": "E",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 730,
+          "y": 147,
+          "text": "F",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 230,
+          "y": 247,
+          "text": "G",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 247,
+          "text": "H",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 247,
+          "text": "I",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 247,
+          "text": "J",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 630,
+          "y": 247,
+          "text": "K",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 730,
+          "y": 247,
+          "text": "L",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 230,
+          "y": 347,
+          "text": "M",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 347,
+          "text": "N",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 347,
+          "text": "O",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 347,
+          "text": "P",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 630,
+          "y": 347,
+          "text": "Q",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 730,
+          "y": 347,
+          "text": "R",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 230,
+          "y": 447,
+          "text": "S",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 447,
+          "text": "T",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 447,
+          "text": "U",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 447,
+          "text": "V",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 630,
+          "y": 447,
+          "text": "W",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 730,
+          "y": 447,
+          "text": "X",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 230,
+          "y": 547,
+          "text": "Y",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 547,
+          "text": "Z",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 547,
+          "text": "*",
+          "size": 48,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 547,
+          "text": "*",
+          "size": 48,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 630,
+          "y": 547,
+          "text": "*",
+          "size": 48,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 730,
+          "y": 547,
+          "text": "*",
+          "size": 48,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 650,
+          "text": "Zameen ya table pe rakho",
+          "size": 38,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Chudi phenko, akshar chuno",
+      "body": "Host chudi chart pe phenke. Jahan giri, woh akshar.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 140,
+          "y": 430,
+          "s": 1.5,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "hand",
+          "x": 240,
+          "y": 350,
+          "rot": -40,
+          "s": 1.1
+        },
+        {
+          "k": "band",
+          "x": 290,
+          "y": 300,
+          "rx": 30,
+          "ry": 11,
+          "w": 9,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d='M320 280 Q420 120 500 330' fill='none' stroke='#FFC93C' stroke-width='9' stroke-dasharray='22 16' stroke-linecap='round'></path>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='470' y='200' width='450' height='375' rx='8' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect><rect x='470' y='350' width='75' height='75' fill='#FFC93C'></rect><path d='M545 200 L545 575' stroke='#4A1238' stroke-width='3'></path><path d='M620 200 L620 575' stroke='#4A1238' stroke-width='3'></path><path d='M695 200 L695 575' stroke='#4A1238' stroke-width='3'></path><path d='M770 200 L770 575' stroke='#4A1238' stroke-width='3'></path><path d='M845 200 L845 575' stroke='#4A1238' stroke-width='3'></path><path d='M470 275 L920 275' stroke='#4A1238' stroke-width='3'></path><path d='M470 350 L920 350' stroke='#4A1238' stroke-width='3'></path><path d='M470 425 L920 425' stroke='#4A1238' stroke-width='3'></path><path d='M470 500 L920 500' stroke='#4A1238' stroke-width='3'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 507.5,
+          "y": 250.25,
+          "text": "A",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 582.5,
+          "y": 250.25,
+          "text": "B",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 657.5,
+          "y": 250.25,
+          "text": "C",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 732.5,
+          "y": 250.25,
+          "text": "D",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 807.5,
+          "y": 250.25,
+          "text": "E",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 882.5,
+          "y": 250.25,
+          "text": "F",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 507.5,
+          "y": 325.25,
+          "text": "G",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 582.5,
+          "y": 325.25,
+          "text": "H",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 657.5,
+          "y": 325.25,
+          "text": "I",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 732.5,
+          "y": 325.25,
+          "text": "J",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 807.5,
+          "y": 325.25,
+          "text": "K",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 882.5,
+          "y": 325.25,
+          "text": "L",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 507.5,
+          "y": 400.25,
+          "text": "M",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 582.5,
+          "y": 400.25,
+          "text": "N",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 657.5,
+          "y": 400.25,
+          "text": "O",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 732.5,
+          "y": 400.25,
+          "text": "P",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 807.5,
+          "y": 400.25,
+          "text": "Q",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 882.5,
+          "y": 400.25,
+          "text": "R",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 507.5,
+          "y": 475.25,
+          "text": "S",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 582.5,
+          "y": 475.25,
+          "text": "T",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 657.5,
+          "y": 475.25,
+          "text": "U",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 732.5,
+          "y": 475.25,
+          "text": "V",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 807.5,
+          "y": 475.25,
+          "text": "W",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 882.5,
+          "y": 475.25,
+          "text": "X",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 507.5,
+          "y": 550.25,
+          "text": "Y",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 582.5,
+          "y": 550.25,
+          "text": "Z",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 657.5,
+          "y": 550.25,
+          "text": "*",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 732.5,
+          "y": 550.25,
+          "text": "*",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 807.5,
+          "y": 550.25,
+          "text": "*",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 882.5,
+          "y": 550.25,
+          "text": "*",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "band",
+          "x": 507,
+          "y": 375,
+          "rx": 34,
+          "ry": 30,
+          "w": 7,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 695,
+          "y": 150,
+          "text": "Akshar: M",
+          "size": 52,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "60 second, paanch jawab",
+      "body": "Rasam, gaana, khaana, gehna, rishtedaar. Sab M se!",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='60' y='30' width='640' height='630' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "text",
+          "x": 380,
+          "y": 110,
+          "text": "M",
+          "size": 64,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 90,
+          "y": 205,
+          "text": "Rasam",
+          "size": 36,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 320,
+          "y": 205,
+          "text": "Mehendi",
+          "size": 40,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 90,
+          "y": 305,
+          "text": "Gaana",
+          "size": 36,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 320,
+          "y": 305,
+          "text": "Mehndi laga ke...",
+          "size": 40,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 90,
+          "y": 405,
+          "text": "Khaana",
+          "size": 36,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 320,
+          "y": 405,
+          "text": "Malai kofta",
+          "size": 40,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 90,
+          "y": 505,
+          "text": "Gehna",
+          "size": 36,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 320,
+          "y": 505,
+          "text": "Mangalsutra",
+          "size": 40,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 90,
+          "y": 605,
+          "text": "Rishtedaar",
+          "size": 36,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 320,
+          "y": 605,
+          "text": "Mausi",
+          "size": 40,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "timer",
+          "x": 830,
+          "y": 340,
+          "s": 0.9,
+          "text": "1:00"
+        }
+      ]
+    },
+    {
+      "title": "Alag jawab 2, same 1",
+      "body": "Jawab padho. Kisi aur ka same likha? Sirf 1 point.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='40' y='120' width='420' height='380' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='500' y='120' width='420' height='380' rx='10' fill='#FFFFFF' stroke='#4A1238' stroke-width='5'></rect></g>"
+        },
+        {
+          "k": "text",
+          "x": 250,
+          "y": 90,
+          "text": "Neha",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 710,
+          "y": 90,
+          "text": "Pinky",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 70,
+          "y": 240,
+          "text": "Mangalsutra",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 240,
+          "text": "1",
+          "size": 44,
+          "color": "mute",
+          "a": "end"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 240,
+          "text": "Mangalsutra",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 890,
+          "y": 240,
+          "text": "1",
+          "size": 44,
+          "color": "mute",
+          "a": "end"
+        },
+        {
+          "k": "text",
+          "x": 70,
+          "y": 400,
+          "text": "Mausi",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 400,
+          "text": "2",
+          "size": 44,
+          "color": "green",
+          "a": "end"
+        },
+        {
+          "k": "text",
+          "x": 530,
+          "y": 400,
+          "text": "Mama",
+          "size": 38,
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 890,
+          "y": 400,
+          "text": "2",
+          "size": 44,
+          "color": "green",
+          "a": "end"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 580,
+          "text": "Same = 1   Alag = 2",
+          "size": 46,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 650,
+          "text": "Khaali = 0",
+          "size": 40,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Gaana gaao, point bachao",
+      "body": "Apne gaane ki ek line sabko gaake sunao. Chup? Point gaya.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 450,
+          "s": 1.7,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='300' y='70' width='560' height='130' rx='26' fill='#DFF5E1' stroke='#4A1238' stroke-width='5'></rect><path d='M340 200 L300 260 L400 200' fill='#DFF5E1' stroke='#4A1238' stroke-width='5' stroke-linejoin='round'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 580,
+          "y": 152,
+          "text": "\"Mehndi laga ke rakhna...\"",
+          "size": 40,
+          "color": "ink"
+        },
+        {
+          "k": "note",
+          "x": 380,
+          "y": 330,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "note",
+          "x": 470,
+          "y": 290,
+          "s": 0.8,
+          "color": "blue"
+        },
+        {
+          "k": "tick",
+          "x": 640,
+          "y": 420,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 710,
+          "y": 435,
+          "text": "Gaaya = point",
+          "size": 38,
+          "color": "green",
+          "a": "start"
+        },
+        {
+          "k": "cross",
+          "x": 640,
+          "y": 560,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 710,
+          "y": 575,
+          "text": "Chup = 0",
+          "size": 38,
+          "color": "mute",
+          "a": "start"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "3 akshar, sabse zyada points",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Timer ke baad likha?",
+          "Woh jawab cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Akshar galat ya khaali?",
+          "Zero point."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Gaana gaaya nahi?",
+          "Gaane ka point gaya."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "3 round mein top score?",
+          "Shaadi Ki Rani tum!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Naya khaana: shaadi ki",
+        "sabse bekaar dish likho."
+      ],
+      [
+        "\"Baraat aa gayi!\" pe",
+        "timer sirf 30 second."
+      ],
+      [
+        "Jodi round: saas bahu",
+        "ek sheet pe milke likho."
+      ]
+    ],
+    "tip": "Q, X, Z waale khaane pehle hi kaat do."
+  },
+  "comment_hint": "M se kya likha?",
+  "caption": "Chudi giri M pe! Ab 60 second mein M se ek rasam, gaana, khaana, gehna aur rishtedaar likho. Comment mein aapke paanch jawab?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#shaadiseason",
+    "#wordgame"
+  ],
+  "web": {
+    "title": "Shaadi Akshar: Wedding Letter Game for Kitty Parties",
+    "description": "Shaadi Akshar is a wedding word game for kitty parties: pick a letter with a bangle, write 5 shaadi answers in 60 seconds. Rules, scoring, twists and FAQ.",
+    "intro": "Shaadi Akshar is a pen and paper word game for kitty parties where a bangle thrown on an A to Z chart picks a letter, and every lady has 60 seconds to write a wedding rasam, a sangeet gaana, a shaadi menu dish, a piece of jewellery and a relative starting with that letter. Unique answers score 2 points, answers someone else also wrote score 1, and the highest total after 3 letters wins. The crazy twist: to keep her gaana point, each lady must sing one line of her song to the whole room. It needs only paper, pens and one bangle, so it is an easy shaadi season kitty game for any home.",
+    "players": "8 to 20",
+    "time": "15 minutes",
+    "materials": [
+      "One sheet of chart paper with an A to Z grid (26 boxes, one letter each)",
+      "One plastic or metal bangle",
+      "A sheet of paper and a pen for every lady",
+      "A phone timer"
+    ],
+    "steps": [
+      "Draw a 6 by 5 grid on chart paper and write one letter from A to Z in each box. Lay it on the floor or a table.",
+      "The host throws a bangle onto the chart. The letter where it lands (or mostly covers) is the letter for this round.",
+      "Start a 60 second timer. Every lady writes one answer for each of the 5 categories, all starting with that letter: rasam (ritual), gaana (wedding song), khaana (shaadi menu dish), gehna (jewellery) and rishtedaar (relative).",
+      "When time is up, go around the room and read the answers. An answer nobody else wrote scores 2 points, an answer shared with anyone scores 1, a blank scores 0.",
+      "For the gaana point, the lady must sing one line of her song to the room. Play 3 letters and add up the totals."
+    ],
+    "rules": [
+      "Anything written after the timer ends does not count.",
+      "An answer that does not start with the letter, or a blank, scores zero.",
+      "If you do not sing your gaana line, you lose the gaana point.",
+      "The highest total after 3 rounds wins and is crowned Shaadi Ki Rani."
+    ],
+    "variations": [
+      "Add a sixth category: the worst dish you ever ate at a shaadi.",
+      "When the host shouts \"Baraat aa gayi!\", the timer for that round drops to 30 seconds.",
+      "Jodi round: saas and bahu pairs, or best friends, fill one sheet together."
+    ],
+    "tips": [
+      "Cross out Q, X and Z on the chart before you start; they are too hard.",
+      "Let the group agree on doubtful answers by a quick show of hands.",
+      "Keep one person as scorer so reading answers stays fast.",
+      "Throw the bangle from a little distance so the letter feels like luck."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Shaadi Akshar?",
+        "a": "It works for 8 to 20 ladies. Everyone writes at the same time, so a big group does not slow it down."
+      },
+      {
+        "q": "What do you need to play this kitty party word game?",
+        "a": "Chart paper with an A to Z grid, one bangle, paper and a pen for each lady, and a phone timer."
+      },
+      {
+        "q": "How is Shaadi Akshar scored?",
+        "a": "An answer nobody else wrote gets 2 points, an answer shared with others gets 1, and a blank or wrong letter gets 0. The gaana point counts only if you sing a line."
+      },
+      {
+        "q": "Is Shaadi Akshar good for a wedding theme or shaadi season kitty?",
+        "a": "Yes. All five categories are about weddings, so it fits a shaadi theme, bridal shower or any kitty in the wedding season."
+      },
+      {
+        "q": "Can older ladies and non-singers play?",
+        "a": "Yes. Anyone can write the answers. Non-singers can hum or say the line in a sing-song voice, and the room decides if it counts."
+      }
+    ]
+  }
+}
