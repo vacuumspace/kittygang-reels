@@ -8090,6 +8090,198 @@
         "no shot over 5 s (5.3 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-08-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-11-08-b",
+      "created": "2026-11-08",
+      "title": "Avika ki live location",
+      "format": "Map journey: live location vs the late friend, Housie table to front door",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Shruti",
+        "Avika"
+      ],
+      "caption": "Har group mein ek Avika hoti hai jo \"bas 5 minute\" bolke sabzi mandi mein hoti hai. Tag your Avika!",
+      "status": "needs-fix",
+      "idea": "Avika is bringing the gajar ka halwa and swears she is 5 minutes away, but her live location goes everywhere except the kitty.",
+      "beats": "hook: Halwa kahan hai? / Bas 5 minute, gate pe hoon / map: dot at her own house / esc: petrol pump traffic, parlour signal, sabzi mandi gajar / twist: Avika at the door with halwa in a pressure cooker / button: 8:45 pm, Bas paanch minute! again",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Housie running, Tanya shouts into the phone \"Avika! Halwa kahan hai?!\" and Avika answers \"Bas paanch minute! Gate pe hoon!\" then a hard cut to the live map with her dot sitting on her own house",
+        "variable": "the first map-journey reel: a live location dot that moves to a new labelled stop every shot (Ghar, Petrol pump, Parlour, Sabzi mandi, Kitty) cut against the gang reacting, to test whether a moving dot plus busted excuses holds the middle like the door-arrivals doorbell does",
+        "hypothesis": "a new stop every 3 to 4 s keeps skip under 40% and watched above 45%, and the \"Tag your Avika\" caption gets 3+ shares because every group has a late friend with a live location"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Avika! Halwa kahan hai?!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Bas paanch minute! Gate pe hoon!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Live location dekho. Ghar pe hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Haaw! Apne ghar ka gate!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Pehli thand, pehla halwa! Jaldi aa!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Nikal gayi! Gaadi mein hoon!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Traffic tha yaar! Bahut traffic!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Petrol pump pe traffic?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Signal pe hoon! Red light hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Signal ka naam Glow Parlour?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Halwa toh ready hai na?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Haan haan! Ekdum ready!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Bhaiya, do kilo gajar dena!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "ALL",
+          "line": "GAJAR?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Halwa abhi bana hi nahi?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Gajar abhi mandi mein hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aa gayi! Halwa kahan?",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Cooker mein! Bas teen seeti!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paune nau! Ab?",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Bas paanch minute!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "PAANCH MINUTE?!",
+          "beat": "button"
+        }
+      ],
+      "duration": 39.58,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Fix pass: split the 3-line button into two shots and trimmed long lines so every shot stays under 4.5 s. Real kitty scene: the late friend who shares a live location while the gang waits, and the gang reads her excuses against the map. One want (Tanya wants Avika and the halwa now), one game (each excuse busted by the dot), played ordinary (traffic at a petrol pump), ordinary (signal called Glow Parlour), absurd (she is buying the carrots). Claim before reveal: Avika says the halwa is ekdum ready one shot before the mandi stop. Twist is a see-it cooker in her hands in the doorway. Button repeats her opening line and the opening chip at 8:45 pm, so it loops. Avika is the late one per the bible and her catchphrase Traffic tha yaar appears once. Rewrote the ending twice: first she brought shop-bought halwa (no flip), then she handed everyone graters (needs a prop we do not have and slows the end). Kind humour: nobody is mocked, the halwa does arrive."
+      },
+      "qa": [
+        "no shot over 5 s (5.3 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-08-b-board.jpg"
     }
   ],
   "ideas": [
