@@ -8610,7 +8610,7 @@
       "format": "Festival call from home",
       "source": "Trend: Festival window: Chhath 15 Nov (hindutone.com) + Video call Tambola",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-01",
@@ -8619,7 +8619,7 @@
       "format": "One-minute makeover race",
       "source": "Trend: One-minute makeover game (Roop ki rani reel, 646 likes, 18 comments)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-01",
@@ -8628,7 +8628,7 @@
       "format": "Debate game",
       "source": "Trend: Multi-character debate (fluxnote.io)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-01",
@@ -8709,7 +8709,7 @@
       "format": "Housie-in-progress sitcom with a money chip",
       "source": "Trend: Festival window: Diwali 8 Nov (first kitty after Diwali) + Admin breaks her own rule (our best hook shape) + Housie money fight",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-03",
@@ -8961,6 +8961,60 @@
       "format": "Carousel: game card 'Children's Day kitty party game' on slide 1, wobbly left-hand letters, the pass twist, the messiest sheet, winner and Detention sash",
       "source": "Trend: Festival window Children's Day 14 Nov (7 days, +2) + Search-friendly saveable carousels",
       "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-08",
+      "type": "reel",
+      "idea": "Hook: Housie running, Tanya bangs the kitty diary: \"Naya rule! Shaadi season mein kitty skip ki toh agli baar double kitty!\" Context: on every called number one lady checks her shaadi calendar and swallows her excuse (Ruhi: sangeet practice, Myra: mausi ki mehendi, Shruti: 'main toh aaungi'), chip 'SKIP FINE: Rs 0' never moving. Ending: Tanya's own phone rings on speaker, her saas: \"Bhaanji ki shaadi 21 ko, Lucknow ki tickets ho gayi\", and all three silently hold the kitty pot out to her.",
+      "format": "Housie-in-progress sitcom, host breaks her own rule (our 7 Nov winner shape), living room, money chip every shot, 3 characters per shot; caption 'Rule banane wali hi pehle todti hai. Tag your Tanya!'",
+      "source": "Trend: Host breaks her own rule + 'Tag your Tanya' (our 7 Nov reel: 2364 views, skip 26.6%, 3 shares) + shaadi dates 21-26 Nov",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-08",
+      "type": "reel",
+      "idea": "Hook: Myra claims Full House and Shruti snaps a photo of her with the Rs 3,000 envelope: \"Society group mein daal diya!\" Context: Myra's phone pings on every called number, her husband in the family group (\"Congrats! Ticket ke paise toh maine diye the\"), then her son (\"Mummy, PS5?\"), then her saas (\"Mandir ke liye 500 rakh dena\"), chip 'PRIZE LEFT: Rs 3,000' dropping each ping. Ending: at home Myra slips the envelope into the atta dabba, and the camera pulls back to show the dabba is already stuffed with old kitty envelopes.",
+      "format": "Housie-in-progress sitcom + phone message screens, living room then kitchen, money chip every shot, 3 characters per shot; caption 'Kitty ka prize kahan chhupati ho? Tag the friend with the atta dabba bank'",
+      "source": "Trend: Ticket in the wife's name (Kullu Tambola reel, 840 likes) + Housie money fight",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-08",
+      "type": "reel",
+      "idea": "Hook: kitty over, Ruhi at the host's bed piled with twelve grey shawls: \"Meri shawl kaunsi hai?\" Context: Tanya, Shruti and Myra each grab one with total confidence (\"Meri pe kadhai hai\", \"Meri lambi hai\"), sniff it, swap it, and the chip 'GREY SHAWLS: 12 / OWNERS: 0 sure' never changes. Ending: next kitty, the doorbell rings four times and each lady walks in wearing someone else's shawl, and nobody says a word.",
+      "format": "Living-room and front-door sitcom, the chappal-mix-up feeling for winter, one shawl pile prop, 3 characters per shot, under 30 s; caption 'Sardi ki kitty ka asli game. Tag the friend jo aapki shawl le gayi'",
+      "source": "Trend: First winter kitty + Cozy pajama winter kitty (shawls on every set this week)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-08",
+      "type": "game",
+      "idea": "Shaadi akshar: the host throws a bangle on an A to Z chart to pick a letter, and each lady has 60 seconds to write one shaadi word per category starting with it (a rasam, a sangeet gaana, a menu dish, a jewellery piece, a relative). Unique answers get 2 points, shared ones 1. Crazy twist: to keep her sangeet gaana point each lady must sing one line of it to the room, and a blank or wrong tune loses it. 8 to 20 ladies, 15 minutes, only paper, pens and a bangle.",
+      "format": "Carousel: game card 'Shaadi season kitty party game' on slide 1, the A to Z chart and bangle, a sample sheet, the singing twist, winner; caption asks for their answers for one letter",
+      "source": "Trend: Same-letter word game (777 likes, 681 comments) + shaadi dates 21-26 Nov",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-08",
+      "type": "game",
+      "idea": "Salai ka phanda: everyone gets a small ball of wool and two pencils as knitting needles and has 2 minutes to cast on as many stitches as she can; the most even row wins. Crazy twist: every lady who cannot knit is paired with one who can, and the expert may only teach with her hands behind her back while the beginner knits, like mummy teaching over the phone. 8 to 20 ladies, 15 minutes, wool and pencils only.",
+      "format": "Carousel: game card 'Sardi ki kitty game' on slide 1, wool and pencils, a hands-behind-the-back teacher, wonky vs neat rows, winner",
+      "source": "Trend: First winter kitty + Household dexterity one-minute games",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-08",
+      "type": "game",
+      "idea": "Joota chupai: the host's chappal is the dulha's joota; one team of saaliyan hides it in the room while the ladkewale team waits outside, then the seekers get 3 minutes to find it while the hiders sing a shaadi song louder as they get closer and softer as they move away. Crazy twist: once found, the finder must haggle the 'neg' with the hiders for 30 seconds with play notes, and the side that gives in first loses the round. 8 to 20 ladies in two teams, 15 to 20 minutes.",
+      "format": "Carousel: game card 'Shaadi season kitty party game' on slide 1, the hiding team, the loud-soft song clue, the neg haggle with play notes, winning team",
+      "source": "Trend: Shaadi season kitty + Shaadi function colour codes, shaadi dates 21-26 Nov (13-18 days away)",
+      "score": 9,
       "used": ""
     }
   ],
@@ -9676,6 +9730,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-08",
+      "pattern": "Festival window: Chhath 15-16 Nov + Kartiki Ekadashi 20 Nov + Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov",
+      "source": "November 2026 Festivals State-Wise in India (hindutone.com) + Guru Nanak Jayanti 2026 (dekhopanchang.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/november-2026-festivals-state-wise-india/",
+      "learn": "Diwali ideas expire after today; Children's Day is now 6 days away (no +2), Chhath (7 days), Tulsi Vivah (13), Gurpurab (16) and the 21-26 Nov shaadi dates get +2; nothing new lands before 29 Nov, so winter and shaadi season carry the rest of the month."
+    },
+    {
+      "date": "2026-11-08",
+      "pattern": "Host breaks her own rule + 'Tag your Tanya'",
+      "source": "Our reel 'No phone kitty ka rule... sabse pehle host ne toda. Tag your Tanya!' (posted 7 Nov)",
+      "likes": 12,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfcbVc0FFUw/",
+      "learn": "2364 views, reach 1675, skip 26.6%, 17.3 s avg watch and 3 shares in a day: a Housie-in-progress scene where the host sets a rule and is the first to break it, with a caption that tags a character name as a friend type, is our second winner after door-arrivals."
+    },
+    {
+      "date": "2026-11-08",
+      "pattern": "Ticket in the wife's name",
+      "source": "Tambola reel 'Biwi ka naam Vijeta, tambola ticket se pati ko jita di Jimny' (Kullu Dussehra 2026)",
+      "likes": 840,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/De8Lbq1Ddg7/",
+      "learn": "A Housie win where the money was his but the ticket was hers gets reach; the 'whose prize is it' tug at home is a real kitty money scene we can play with our own gang."
+    },
+    {
+      "date": "2026-11-08",
+      "pattern": "Same-letter word game",
+      "source": "'Ek hi akshar se shuru' Karva Chauth paper games post (#ladieskitty)",
+      "likes": 777,
+      "comments": 681,
+      "link": "https://www.instagram.com/p/DdgU7quJpA5/",
+      "learn": "A one-letter word race in festive categories pulled almost one comment per like; a simple paper word game with seasonal categories is highly saveable, so name the season on slide 1 and ask for answers in the comments."
+    },
     {
       "date": "2026-11-07",
       "pattern": "Festival window: Diwali 8 Nov + Children's Day 14 Nov + Chhath 15 Nov + Tulsi Vivah 21 Nov + Gurpurab 24 Nov + shaadi dates 21, 24, 25, 26 Nov",
