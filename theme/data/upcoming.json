@@ -1,99 +1,6 @@
 {
- "updated": "2026-11-09T11:54:29.344Z",
+ "updated": "2026-11-09T19:56:29.351Z",
  "days": [
-  {
-   "date": "2026-11-09",
-   "day": "Mon, 9 Nov",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "9 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "diwalitaash",
-    "name": "Diwali Taash Party",
-    "pack": "themes/diwalitaash/v1",
-    "sounds": "sounds/diwalitaash/v1",
-    "colors": {
-     "accent": "#2B3FA8",
-     "accentDeep": "#1A2A6C",
-     "gameInk": "#F4F6FF"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Hukum",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Paan",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Eent",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Chidi",
-      "points": 50,
-      "numbers": 3
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_9",
-      "gh_10",
-      "gh_0",
-      "gh_1",
-      "gh_2",
-      "gh_3",
-      "gh_4",
-      "gh_5",
-      "gh_6",
-      "gh_7",
-      "gh_8"
-     ],
-     "housie": [
-      "gs_8",
-      "gs_9",
-      "gs_0",
-      "gs_1",
-      "gs_2",
-      "gs_3",
-      "gs_4",
-      "gs_5",
-      "gs_6",
-      "gs_7"
-     ],
-     "mascotBall": [
-      "sc_6",
-      "sc_0",
-      "sc_1",
-      "sc_2",
-      "sc_3",
-      "sc_4",
-      "sc_5"
-     ],
-     "particles": [
-      "gh_11",
-      "fx_4"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-11-10",
    "day": "Tue, 10 Nov",
@@ -275,6 +182,20 @@
      ]
     }
    }
+  },
+  {
+   "date": "2026-11-12",
+   "day": "Thu, 12 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "9 PM",
+    "11 PM"
+   ],
+   "theme": null
   }
  ]
 }
