@@ -8531,6 +8531,154 @@
       "yt_id": "sBYJ3bAErUU",
       "yt_url": "https://youtube.com/shorts/sBYJ3bAErUU",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-09-b",
+      "created": "2026-11-09",
+      "title": "Udhaar wapas, phir entry!",
+      "format": "Door arrivals, shaadi season udhaar rule enforced at the front door",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Myra",
+        "Shruti"
+      ],
+      "caption": "Sabka udhaar yaad hai, bas apna nahi. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Shaadi season kitty: Tanya makes every guest return what she borrowed last season before entering, until the new girl spots her own jhumke on Tanya's ears.",
+      "beats": "hook: pehle udhaar wapas phir entry / esc: Ruhi full kundan set, Myra lehenga with haldi daag, Shruti one jhumka 'doosra mil jayega' / twist: Tanya is wearing Myra's jhumke / button: guests shout her own line back",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya blocks her doorway with the register and shouts 'Ruko! Pehle udhaar wapas, phir entry!' at Ruhi in the doorway",
+        "variable": "third door reel, now with a shaadi season rule tied to a real dated season (weddings from 21 Nov), a returns chip that goes up in halves (1/3, 2/3 + daag, 2.5/3) and the 25-30 s length LEARNINGS recommends, to see if the shape keeps winning and if a shorter cut lifts watched %",
+        "hypothesis": "skip under 30% and watched above 60% at about 26 s; a borrow-and-forget rule every group lives should get at least 3 shares like the no-phone reel"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Pehle udhaar wapas, phir entry!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Kundan set? Poora? Shabaash, andar!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Aunty, lehenga! Dry clean karke!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Arre waah!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Yeh haldi ka daag?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haldi function tha na!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Tumhara jhumka, lo.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ek? Doosra kahan hai?",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Doosra mil jayega. Dhoondh rahi hoon.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaye! Saal bhar se?!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Aunty... yeh jhumke toh mere hain!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Woh... sangeet mein liye the!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pichhle saal ke sangeet mein?",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ruko! Pehle udhaar wapas, phir entry!",
+          "beat": "button"
+        }
+      ],
+      "duration": 31.67,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Door-arrivals is the confirmed winner shape (6031 and 2716 views) and was not in the last 4 types (meme-format, map-journey x3). Same rhythm: a doorbell per guest, one rule in the first line, a chip that moves every guest, a see-it twist and the opening line thrown back. Game plays three times: Ruhi ordinary (complete set, silent), Myra sillier (dry cleaned but haldi daag), Shruti absurd (one jhumka, 'doosra mil jayega', pure budget queen). Talking cast is 3 (Tanya, Myra, Shruti); Ruhi only nods and joins the chorus. Twist is seen and heard at once: Myra stares at Tanya's ears. Endings tried: Tanya locked out of her own party (unkind), Tanya pulls a whole drawer of borrowed jewellery (needs a prop we lack), chorus with her line (kept). Every two-line shot is 8 words or fewer with hold 0.1, total about 26 s, pace 28. Shaadi season starts 21 Nov, so the rule is timely."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-09-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-09-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-09-b-board.jpg",
+      "queue_id": "9f2ece66-79fc-4a1a-84b9-5200a29997bd",
+      "scheduled_ist": "2026-11-14 21:18",
+      "yt_id": "cp_XhUAgj2g",
+      "yt_url": "https://youtube.com/shorts/cp_XhUAgj2g",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
