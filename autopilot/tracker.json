@@ -8681,6 +8681,37 @@
       "yt_id": "cp_XhUAgj2g",
       "yt_url": "https://youtube.com/shorts/cp_XhUAgj2g",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-10",
+      "created": "2026-11-10",
+      "title": "Kisi ko mat batana",
+      "format": "Theme Housie",
+      "theme": "patakharaat",
+      "story": "ai",
+      "variant": "story-time",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Ruhi whispers the story of last night's Patakha Raat game: champion Ishita was one number from Rocket and claimed early, but new girl Myra quietly got Rocket first. Ruhi swears it is a secret; Zoya has already put it on her story.",
+      "beats": "hook: Ruhi's secret, Ishita haari? / setup: Ishita one number from Rocket / escalation: Ishita claims early / escalation: the call goes to Myra / turn: Myra wins Rocket, Ishita shocked / button: Zoya already posted it, Aditi deadpan",
+      "experiment": {
+        "format": "story-time",
+        "hook": "Ruhi leans in close on the Patakha Raat home art, whispering to camera 'Kisi ko mat batana, par...', heartbeat at 0 s, chip 'ISHITA HAARI?!' pinned from the first frame",
+        "variable": "a gossip whisper as the hook: a secret told straight to the viewer (one narrator, cutaways to the game) instead of a sound or a joke setup",
+        "hypothesis": "a secret about the gang's champion pinned from 0 s is an open loop women 30 to 55 stay for: skip under 60%, watched % above 20 (best so far 19), at least 1 share"
+      },
+      "duration": 31.5,
+      "lufs": null,
+      "caption": "Har group mein ek Ruhi hoti hai jo 'kisi ko mat batana' bolke sabko bata deti hai. Tag karo apni Ruhi ko! Aaj ki Patakha Raat Housie mein Rocket kiska?\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #patakharaat #diwali #gossip",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-10.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-10-cover.jpg",
+      "job_id": "e8083a43-a9f4-43e9-8678-84384b321708",
+      "permalink": "https://www.instagram.com/reel/DfiBSFnCT-H/",
+      "media_id": "18038580671897780",
+      "yt_id": "7Mr_ei-qOpk",
+      "yt_url": "https://youtube.com/shorts/7Mr_ei-qOpk",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
