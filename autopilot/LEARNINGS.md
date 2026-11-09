@@ -1,5 +1,15 @@
 # Learnings (newest first). Only real learnings from team feedback or post data.
 
+## 2026-11-09 · Monday review (stats as of 2026-11-08)
+- DOOR-ARRIVALS CONFIRMED: the second door reel "Phone nahi toh entry nahi!" (KG-2026-11-02-c, no colour gag) got 2716 views, skip 27.6%, watched 46%, 3 shares. The first, "Pink nahi toh entry nahi!", grew to 6031 views, skip 26.5%, watched 71%. So the SHAPE wins (host blocks her own door with one rule, a guest per ring, a chip that moves, the host breaks her own rule), not the pink colour.
+- Both door winners: Tanya as the rule-making host, a "Tag your Tanya!" caption about the host breaking her own rule. The no-phone one is the first gang reel with 3 shares: name the friend type AND a rule every group has.
+- Length: the 27.6 s door reel kept 71%, the 37.5 s one 46%. Aim for 25-30 s.
+- Everything else is still 270-380 views with skip 52-77%: types-of 52.6% (best of the rest), pov 53.5%, expectation-reality 64.9%, story-time 70.8%, quiz 73.4%, photo-attempts 76.7%. Countdown (Bhai Dooj Housie) only reached 49 people, no verdict.
+- Theme reels (TH) keep falling: 80-353 views, skip 57-80%, 0 shares. "Ek number, paanch reactions" (skip 57%, 1 save) is the only one near the gang reels.
+- Do more: door-arrivals every 2nd reel with a new rule (shaadi season, winter, Children's Day); types-of and pov as the next tests; Tanya as host-who-breaks-her-rule.
+- Do less: photo-attempts, story-time, quiz openings, 35 s+ reels.
+- Pipeline: 5 of the last 9 drafts failed QA on a shot over 5 s, a length over 45 s or pace under 2.3 w/s, and KG-2026-11-08-b failed the same 5.3 s shot twice because the fix split the wrong shot. Rule now: every two-line shot has 8 words or fewer with hold 0.1; split anything longer.
+
 ## 2026-11-02 · Monday review (stats as of 2026-11-01)
 - WINNER BY TYPE: door-arrivals "Pink nahi toh entry nahi!" (KG-2026-10-27-c): 4938 views, reach 2745, skip 25.6%, watched 72% (19.8 s), 2 saves, 0 shares. Best hook and middle we have ever had, 4x the Diwali Housie views.
 - Why it held: a doorbell every 4 s, one new guest per ring, a host blocking her own door with one loud rule in the first line, a score chip that changes every shot, a see-it twist (her own group message) and the guests throwing her opening line back at her.
