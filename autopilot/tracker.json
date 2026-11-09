@@ -10258,6 +10258,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/shaadi-akshar-letter-word-kitty-party-game",
       "queue_id": "c59baa19-861e-4afe-9715-29e86113f04b",
       "scheduled_ist": "2026-11-09 11:01"
+    },
+    {
+      "id": "KGI-020",
+      "n": 20,
+      "created": "2026-11-09",
+      "game": "Joota Chupai",
+      "tagline": "Gaana bataayega joota kahan!",
+      "players": "8 to 20",
+      "time": "15 to 20 minutes",
+      "slug": "joota-chupai-shaadi-season-kitty-party-game",
+      "caption": "Saaliyan chappal chupayengi, gaana clue dega, aur milne ke baad neg ka mol-bhav! Shaadi season ki kitty ke liye perfect. Aap kitna neg maangti?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-020/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/joota-chupai-shaadi-season-kitty-party-game",
+      "queue_id": "19048949-4192-4db0-831e-e9b7651a30ab",
+      "scheduled_ist": "2026-11-10 17:03"
     }
   ],
   "research": [
