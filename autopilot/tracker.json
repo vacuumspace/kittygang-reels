@@ -9001,7 +9001,7 @@
       "format": "Housie with a twist",
       "source": "Trend: Symbol Housie (republicworld.com) + our Housie winner (KG-2026-10-22-c 1161 views)",
       "score": 9,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-10-31",
@@ -9127,7 +9127,7 @@
       "format": "Search race on one big sheet",
       "source": "Trend: Shaadi season kitty + Festival window: Tulsi Vivah 21 Nov",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-03",
@@ -9190,7 +9190,7 @@
       "format": "Housie-in-progress sitcom, living room to kitchen, counter chip, one-pot ending shot (max 3 per shot)",
       "source": "Trend: Maggi counter beats the fancy buffet (republicworld.com, 15M+ views) + LEARNINGS: open on a game in progress",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-04",
@@ -9262,7 +9262,7 @@
       "format": "Kitty Gang sitcom, Housie table to gurudwara langar kitchen, 3 characters per shot, under 30 s",
       "source": "Trend: Gurpurab langar seva (hindupad.com) + Festival window: Gurpurab 24 Nov (19 days, +2)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-05",
@@ -9451,6 +9451,60 @@
       "format": "Carousel: game card 'Shaadi season kitty party game' on slide 1, the hiding team, the loud-soft song clue, the neg haggle with play notes, winning team",
       "source": "Trend: Shaadi season kitty + Shaadi function colour codes, shaadi dates 21-26 Nov (13-18 days away)",
       "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-09",
+      "type": "reel",
+      "idea": "Hook: Tanya reads the kitty group aloud: \"Agli kitty theme: nakli shaadi! Dulha dulhan nahi, sirf sangeet!\" Context: the gang pulls role chits from a steel katori, everyone hopes for 'dulhan', and each chit opened gets louder groans (bua, halwai, ladkewale). Ending: Shruti opens the last chit, 'dulha', and the final shot is her in a dupatta pagdi with a marigold sehra while Ruhi and Myra dance the baraat around her.",
+      "format": "Kitty Gang sitcom, chit-pulling at the host's sofa, role chip that changes every shot, baraat dance ending",
+      "source": "Trend: Nakli shaadi party (boldsky.com) + shaadi dates 21-26 Nov (12-17 days away)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-09",
+      "type": "reel",
+      "idea": "Hook: Myra claims Full House and Ruhi grabs her phone: \"Ruko! Light theek nahi thi, ek baar aur claim karo!\" Context: on every re-take Ruhi moves the table lamp, asks for slow motion and a 'reaction from Tanya', and the real Housie is stuck on number 47. Ending: Ruhi posts the reel and everyone leans in to watch: Myra is cropped out and only Ruhi's face is in frame.",
+      "format": "Kitty Gang sitcom, Housie in progress, phone screen shots of the reel being shot, take counter chip",
+      "source": "Trend: Shaadi has become content (theprint.in) + One-claim proof reel",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-09",
+      "type": "reel",
+      "idea": "Hook: Housie running, Shruti cuts a number and says: \"Main chaar din Chhath ke liye gaon ja rahi hoon, hisaab Tina ke paas.\" Context: on every number one lady leans in, not with money, but with an order: \"Mere liye do dabba thekua!\" and Tina's notebook fills with thekua orders instead of the kitty hisaab. Ending: Shruti reads the list, 37 dabbe, and the last shot is her mother on video call fainting on the bed.",
+      "format": "Kitty Gang sitcom, Housie in progress, notebook close-ups with a growing order count chip, video call ending",
+      "source": "Trend: Festival window Chhath 13-16 Nov + Housie money fight",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-09",
+      "type": "game",
+      "idea": "Sehra bandhi: pairs, one is the dulha and sits still, the other has 3 minutes to make a sehra on her head from household things (dupatta, hair clips, paper strips, marigolds, a steel strainer as the crown). Crazy twist: the maker works with one hand only, and the dulha must keep a straight face while the room tries to make her laugh; every laugh costs the pair 15 seconds. Gang votes the best sehra. 8 to 20 ladies, 15 minutes.",
+      "format": "Carousel: slide 1 'Kitty party game for shaadi season' with a half-made sehra and a laughing dulha, the household kit, one-hand rule, laugh penalty, winning pair",
+      "source": "Trend: Nakli shaadi party + shaadi dates 21-26 Nov (12-17 days away) + Game carousels stuck under 250 views",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-09",
+      "type": "game",
+      "idea": "Mungfali guess: each lady takes one fistful of peanuts in their shells from the winter bowl and writes how many dane she thinks are inside. Then everyone gets 1 minute to shell and count. Crazy twist: they shell while wearing a woollen glove on the shelling hand, and every dana dropped on the floor is minus one. The closest guess wins, ties go to the cleanest plate. 8 to 20 ladies, 10 minutes. Swap for chana if anyone has a nut allergy.",
+      "format": "Carousel: slide 1 'Sardi ki kitty party game' with gloved hands shelling, the guess chits, dropped dane, winner with her plate",
+      "source": "Trend: First winter spread + Household dexterity one-minute games",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-09",
+      "type": "game",
+      "idea": "Card yaad hai?: the host shows a made-up shaadi card on her phone for 30 seconds (names of dulha, dulhan, both fathers, venue and four function dates and dress codes), then asks 10 questions and every lady writes her answers. Crazy twist: while the card is on screen, one lady plays 'mausi on the phone' and talks nonstop next to everyone with wrong details. Highest score wins. 8 to 20 ladies, 10 to 15 minutes, one phone, pens and paper.",
+      "format": "Carousel: slide 1 'Shaadi season kitty party game' with the card on screen and the mausi chattering, the questions, wrong answers, winner",
+      "source": "Trend: Shaadi function colour codes + shaadi dates 21-26 Nov (12-17 days away)",
+      "score": 8,
       "used": ""
     }
   ],
@@ -10207,6 +10261,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-09",
+      "pattern": "Festival window: Chhath 13-16 Nov + Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21, 24, 25, 26 Nov",
+      "source": "Indian wedding muhurat dates Nov-Dec 2026 outfit planner (azafashions.com) + November 2026 Festivals State-Wise in India (hindutone.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.azafashions.com/blog/blog-indian-wedding-muhurat-dates-nov-dec-2026-outfit-planner/",
+      "learn": "Chhath (15 Nov) is 6 days away, so no +2; Tulsi Vivah (12 days), Gurpurab (15) and the 21-26 Nov shaadi dates (12-17) get +2; December muhurats start 2 Dec, just outside the window, so shaadi season stays the main hook for the rest of November."
+    },
+    {
+      "date": "2026-11-09",
+      "pattern": "Nakli shaadi party",
+      "source": "Why are Gen Z throwing lavish fake weddings with no groom, no bride, just vibes (boldsky.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.boldsky.com/insync/why-are-gen-z-throwing-lavish-fake-weddings-with-no-groom-no-bride-just-vibes-161845.html",
+      "learn": "A shaadi with only the fun parts (sangeet, dress codes, baraat dance) and no couple is a ready-made kitty theme: the gang casts itself as dulha, dulhan and relatives by chit."
+    },
+    {
+      "date": "2026-11-09",
+      "pattern": "Shaadi has become content",
+      "source": "The reel story of Gen Z weddings: how they are lavish, viral and broke (theprint.in)",
+      "likes": null,
+      "comments": null,
+      "link": "https://theprint.in/opinion/the-dating-story/the-reel-story-of-gen-z-weddings-how-they-are-lavish-viral-and-broke/2463119/",
+      "learn": "Every function is shot for a 7-15 s reel; copy the pattern of one lady who keeps stopping the real moment to re-shoot it for her reel."
+    },
+    {
+      "date": "2026-11-09",
+      "pattern": "Game carousels stuck under 250 views",
+      "source": "Our posts 1-8 Nov: game carousels 69-245 views, 0 shares (Chhath game 245, Tulsi Vivah 166, Children's Day 126, moza game 108, shaadi game 69) vs Kitty Gang 'Tag your Tanya' reels 2716 and 6031 views",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.instagram.com/p/DfPL-OBEepU/",
+      "learn": "Slide 1 of a game carousel must show the crazy twist mid-action with a search phrase title ('Kitty party game for shaadi season'), and the caption should tag a type of friend like the reels do."
+    },
     {
       "date": "2026-11-08",
       "pattern": "Festival window: Chhath 15-16 Nov + Kartiki Ekadashi 20 Nov + Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov",
