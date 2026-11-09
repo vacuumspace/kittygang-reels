@@ -1,0 +1,718 @@
+{
+  "id": "KG-2026-11-09-b",
+  "title": "Udhaar wapas, phir entry!",
+  "format": "Door arrivals, shaadi season udhaar rule enforced at the front door",
+  "idea": "Shaadi season kitty: Tanya makes every guest return what she borrowed last season before entering, until the new girl spots her own jhumke on Tanya's ears.",
+  "logline": "Tanya won't let guests in until they return what they borrowed for last season's weddings, until Myra sees Tanya is wearing Myra's jhumke.",
+  "game": "every guest returns her borrowed thing a little less complete than the last",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Tanya blocks her doorway with the register and shouts 'Ruko! Pehle udhaar wapas, phir entry!' at Ruhi in the doorway",
+    "variable": "third door reel, now with a shaadi season rule tied to a real dated season (weddings from 21 Nov), a returns chip that goes up in halves (1/3, 2/3 + daag, 2.5/3) and the 25-30 s length LEARNINGS recommends, to see if the shape keeps winning and if a shorter cut lifts watched %",
+    "hypothesis": "skip under 30% and watched above 60% at about 26 s; a borrow-and-forget rule every group lives should get at least 3 shares like the no-phone reel"
+  },
+  "mute": [
+    "Tanya at her door with a register, chip UDHAAR WAPAS: 0/3, Ruhi in the doorway",
+    "Ruhi hands over a jewellery box, chip 1/3, Tanya happy",
+    "Myra hops in with a lehenga on a hanger",
+    "Tanya shocked at the lehenga, chip 2/3 + DAAG, Myra shrugs",
+    "Shruti arrives with one jhumka in a box",
+    "Shruti deadpan, chip 2.5/3, Tanya sweating",
+    "silence, Myra stares at Tanya's ears, chip 2.5/3 + ?, Tanya smug",
+    "Tanya caught, chip TANYA KA UDHAAR: 0/1, guests smirk",
+    "guests throw Tanya's opening line back at her, a jewellery box pops in, chip TANYA KA BHI WAPAS!"
+  ],
+  "beats": "hook: pehle udhaar wapas phir entry / esc: Ruhi full kundan set, Myra lehenga with haldi daag, Shruti one jhumka 'doosra mil jayega' / twist: Tanya is wearing Myra's jhumke / button: guests shout her own line back",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Door-arrivals is the confirmed winner shape (6031 and 2716 views) and was not in the last 4 types (meme-format, map-journey x3). Same rhythm: a doorbell per guest, one rule in the first line, a chip that moves every guest, a see-it twist and the opening line thrown back. Game plays three times: Ruhi ordinary (complete set, silent), Myra sillier (dry cleaned but haldi daag), Shruti absurd (one jhumka, 'doosra mil jayega', pure budget queen). Talking cast is 3 (Tanya, Myra, Shruti); Ruhi only nods and joins the chorus. Twist is seen and heard at once: Myra stares at Tanya's ears. Endings tried: Tanya locked out of her own party (unkind), Tanya pulls a whole drawer of borrowed jewellery (needs a prop we lack), chorus with her line (kept). Every two-line shot is 8 words or fewer with hold 0.1, total about 26 s, pace 28. Shaadi season starts 21 Nov, so the rule is timely."
+  },
+  "cover": {
+    "shot": 6,
+    "at": 1.2,
+    "title": [
+      "Udhaar wapas karo!",
+      "Host ke jhumke kiske?"
+    ],
+    "titleY": 330
+  },
+  "caption": "Sabka udhaar yaad hai, bas apna nahi. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#kittypartyfun",
+    "#ladieskitty",
+    "#weddingseason",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "UDHAAR WAPAS: 0/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Pehle udhaar wapas, phir entry!",
+          "say": "रुको! पहले उधार वापस, फिर एंट्री!",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "UDHAAR WAPAS: 1/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smile"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        },
+        {
+          "name": "Jewellery box",
+          "x": 470,
+          "y": 1380,
+          "s": 0.9,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.35,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Kundan set? Poora? Shabaash, andar!",
+          "say": "कुंदन सेट? पूरा? शाबाश, अंदर!",
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "UDHAAR WAPAS: 1/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true,
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        },
+        {
+          "name": "Saree on hanger",
+          "x": 960,
+          "y": 1420,
+          "s": 1.1,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Aunty, lehenga! Dry clean karke!",
+          "say": "आंटी, लहंगा! ड्राई क्लीन करके!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Arre waah!",
+          "say": "अरे वाह!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "WAPAS: 2/3 + DAAG",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        },
+        {
+          "name": "Saree on hanger",
+          "x": 560,
+          "y": 1380,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 600,
+          "y": 1000,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Yeh haldi ka daag?!",
+          "say": "ये हल्दी का दाग?!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Haldi function tha na!",
+          "say": "हल्दी फ़ंक्शन था ना!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "WAPAS: 2/3 + DAAG",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        },
+        {
+          "name": "Jewellery box",
+          "x": 470,
+          "y": 1380,
+          "s": 0.7,
+          "at": 0.3
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Tumhara jhumka, lo.",
+          "say": "तुम्हारा झुमका, लो।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Ek? Doosra kahan hai?",
+          "say": "एक? दूसरा कहाँ है?",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "UDHAAR WAPAS: 2.5/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1080,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Doosra mil jayega. Dhoondh rahi hoon.",
+          "say": "दूसरा मिल जाएगा। ढूँढ रही हूँ।",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaye! Saal bhar se?!",
+          "say": "हाय! साल भर से?!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "UDHAAR WAPAS: 2.5/3 + ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smirk"
+        }
+      ],
+      "camera": "still",
+      "music": false,
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 960,
+          "at": 0.3
+        },
+        {
+          "kind": "spark",
+          "x": 250,
+          "y": 1010,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.2,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Aunty... yeh jhumke toh mere hain!",
+          "say": "आंटी... ये झुमके तो मेरे हैं!",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA KA UDHAAR: 0/1",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "hips",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Scoreboard",
+          "x": 470,
+          "y": 1500,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1060,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.8,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Woh... sangeet mein liye the!",
+          "say": "वो... संगीत में लिए थे!",
+          "beat": "turn"
+        },
+        {
+          "who": "Shruti",
+          "text": "Pichhle saal ke sangeet mein?",
+          "say": "पिछले साल के संगीत में?",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA KA BHI WAPAS!",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Jewellery box",
+          "x": 560,
+          "y": 1420,
+          "s": 1,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "ding",
+          "vol": 0.5
+        },
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.8,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ruko! Pehle udhaar wapas, phir entry!",
+          "say": "रुको! पहले उधार वापस, फिर एंट्री!",
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
