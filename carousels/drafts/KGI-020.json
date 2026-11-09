@@ -1,0 +1,771 @@
+{
+  "id": "KGI-020",
+  "n": 20,
+  "slug": "joota-chupai-shaadi-season-kitty-party-game",
+  "game": "Joota Chupai",
+  "tagline": "Gaana bataayega joota kahan!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 130,
+      "y": 200,
+      "s": 1.1,
+      "color": "pink"
+    },
+    {
+      "k": "person",
+      "x": 250,
+      "y": 210,
+      "s": 1.1,
+      "color": "yel"
+    },
+    {
+      "k": "note",
+      "x": 150,
+      "y": 80,
+      "s": 0.9,
+      "color": "pink"
+    },
+    {
+      "k": "note",
+      "x": 270,
+      "y": 70,
+      "s": 0.9,
+      "color": "yel"
+    },
+    {
+      "k": "text",
+      "x": 190,
+      "y": 330,
+      "text": "Saaliyan",
+      "size": 34,
+      "color": "#FFFFFF"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(540 190) rotate(-20) scale(1.3)'><ellipse cx='0' cy='0' rx='34' ry='78' fill='#C8743C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='0' cy='-6' rx='24' ry='62' fill='#F3C9A8'></ellipse><path d='M-30 10 Q0 -40 30 10' fill='none' stroke='#E85D8A' stroke-width='12' stroke-linecap='round'></path><path d='M0 -28 L0 -52' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></path></g>"
+    },
+    {
+      "k": "text",
+      "x": 540,
+      "y": 50,
+      "text": "?",
+      "size": 90,
+      "color": "yel"
+    },
+    {
+      "k": "arrow",
+      "x1": 830,
+      "y1": 190,
+      "x2": 640,
+      "y2": 190,
+      "color": "yel",
+      "w": 9
+    },
+    {
+      "k": "person",
+      "x": 920,
+      "y": 200,
+      "s": 1.1,
+      "color": "blue"
+    },
+    {
+      "k": "text",
+      "x": 920,
+      "y": 330,
+      "text": "Ladkewale",
+      "size": 34,
+      "color": "#FFFFFF"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Ek chappal aur ek gaana",
+    "items": [
+      {
+        "label": "Host ki chappal",
+        "sub": "yahi dulhe ka joota",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(115 120) rotate(-15) scale(1)'><ellipse cx='0' cy='0' rx='34' ry='78' fill='#C8743C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='0' cy='-6' rx='24' ry='62' fill='#F3C9A8'></ellipse><path d='M-30 10 Q0 -40 30 10' fill='none' stroke='#E85D8A' stroke-width='12' stroke-linecap='round'></path><path d='M0 -28 L0 -52' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></path></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(195 120) rotate(15) scale(1)'><ellipse cx='0' cy='0' rx='34' ry='78' fill='#C8743C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='0' cy='-6' rx='24' ry='62' fill='#F3C9A8'></ellipse><path d='M-30 10 Q0 -40 30 10' fill='none' stroke='#E85D8A' stroke-width='12' stroke-linecap='round'></path><path d='M0 -28 L0 -52' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></path></g>"
+          }
+        ]
+      },
+      {
+        "label": "Kaagaz ke note",
+        "sub": "har team ko 10",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "chit",
+            "x": 110,
+            "y": 95,
+            "s": 0.9,
+            "text": "500",
+            "rot": -8
+          },
+          {
+            "k": "chit",
+            "x": 195,
+            "y": 145,
+            "s": 0.9,
+            "text": "2100",
+            "rot": 6
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "3 min aur 30 sec",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 115,
+            "s": 0.7,
+            "text": "3:00"
+          }
+        ]
+      },
+      {
+        "label": "Ek shaadi gaana",
+        "sub": "saaliyan gaayengi",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "note",
+            "x": 100,
+            "y": 150,
+            "s": 1.1,
+            "color": "pink"
+          },
+          {
+            "k": "note",
+            "x": 190,
+            "y": 120,
+            "s": 1.1,
+            "color": "blue"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Do team: saaliyan vs ladkewale",
+      "body": "Aadhi ladies dulhan ki behnein, aadhi dulhe ke ghar wale.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 110,
+          "y": 360,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 250,
+          "y": 360,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 520,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 680,
+          "text": "Saaliyan",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 470,
+          "text": "VS",
+          "size": 90,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 690,
+          "y": 360,
+          "s": 1.3,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 830,
+          "y": 360,
+          "s": 1.3,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 520,
+          "s": 1.3,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 680,
+          "text": "Ladkewale",
+          "size": 48,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 170,
+          "text": "Dulhan ki taraf  |  Dulhe ki taraf",
+          "size": 36,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Ladkewale bahar, joota chupao",
+      "body": "Ladkewale kamre se bahar. Saaliyan chappal kamre mein kahin chupa dein.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "table",
+          "x": 300,
+          "y": 420,
+          "w": 420,
+          "h": 450
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(300 560) rotate(80) scale(0.9)'><ellipse cx='0' cy='0' rx='34' ry='78' fill='#C8743C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='0' cy='-6' rx='24' ry='62' fill='#F3C9A8'></ellipse><path d='M-30 10 Q0 -40 30 10' fill='none' stroke='#E85D8A' stroke-width='12' stroke-linecap='round'></path><path d='M0 -28 L0 -52' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></path></g>"
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 330,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "hand",
+          "x": 240,
+          "y": 520,
+          "rot": 60,
+          "s": 1
+        },
+        {
+          "k": "arrow",
+          "x1": 200,
+          "y1": 430,
+          "x2": 270,
+          "y2": 540,
+          "color": "pink",
+          "w": 7
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 660,
+          "text": "Table ke neeche",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "svg",
+          "markup": "<g><rect x='620' y='200' width='170' height='420' rx='8' fill='#F6E2D3' stroke='#4A1238' stroke-width='6'></rect><rect x='632' y='212' width='146' height='408' rx='6' fill='none' stroke='#C98E6B' stroke-width='4'></rect><circle cx='760' cy='410' r='9' fill='#4A1238'></circle></g>"
+        },
+        {
+          "k": "person",
+          "x": 870,
+          "y": 470,
+          "s": 1.1,
+          "color": "blue"
+        },
+        {
+          "k": "arrow",
+          "x1": 790,
+          "y1": 620,
+          "x2": 920,
+          "y2": 620,
+          "color": "blue",
+          "w": 7
+        },
+        {
+          "k": "text",
+          "x": 780,
+          "y": 150,
+          "text": "Ladkewale bahar!",
+          "size": 40,
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "title": "Gaana hi clue hai",
+      "body": "Paas aao toh zor se gaao, door jao toh dheere.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 470,
+          "y": 380,
+          "s": 1.4,
+          "color": "blue",
+          "label": "Dhoondne wali"
+        },
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 380,
+          "x2": 180,
+          "y2": 380,
+          "color": "mute",
+          "w": 6
+        },
+        {
+          "k": "note",
+          "x": 110,
+          "y": 300,
+          "s": 0.6,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 470,
+          "text": "Door: dheere",
+          "size": 36,
+          "color": "mute"
+        },
+        {
+          "k": "arrow",
+          "x1": 540,
+          "y1": 380,
+          "x2": 740,
+          "y2": 380,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "note",
+          "x": 760,
+          "y": 200,
+          "s": 1.5,
+          "color": "pink"
+        },
+        {
+          "k": "note",
+          "x": 870,
+          "y": 240,
+          "s": 1.2,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(820 440) rotate(70) scale(0.9)'><ellipse cx='0' cy='0' rx='34' ry='78' fill='#C8743C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='0' cy='-6' rx='24' ry='62' fill='#F3C9A8'></ellipse><path d='M-30 10 Q0 -40 30 10' fill='none' stroke='#E85D8A' stroke-width='12' stroke-linecap='round'></path><path d='M0 -28 L0 -52' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 810,
+          "y": 580,
+          "text": "Paas: ZOR SE!",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 110,
+          "text": "Saaliyan gaati rahengi",
+          "size": 38,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "3 minute mein dhoondo",
+      "body": "Mil gaya toh ladkewale ko 1 point, nahi toh saaliyan ko.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "timer",
+          "x": 150,
+          "y": 360,
+          "s": 1.3,
+          "text": "3:00"
+        },
+        {
+          "k": "person",
+          "x": 520,
+          "y": 430,
+          "s": 1.6,
+          "color": "blue"
+        },
+        {
+          "k": "hand",
+          "x": 640,
+          "y": 300,
+          "rot": -30,
+          "s": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(680 220) rotate(15) scale(1)'><ellipse cx='0' cy='0' rx='34' ry='78' fill='#C8743C' stroke='#4A1238' stroke-width='5'></ellipse><ellipse cx='0' cy='-6' rx='24' ry='62' fill='#F3C9A8'></ellipse><path d='M-30 10 Q0 -40 30 10' fill='none' stroke='#E85D8A' stroke-width='12' stroke-linecap='round'></path><path d='M0 -28 L0 -52' stroke='#E85D8A' stroke-width='8' stroke-linecap='round'></path></g>"
+        },
+        {
+          "k": "tick",
+          "x": 840,
+          "y": 250,
+          "s": 1.2
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 660,
+          "text": "Mil gaya! Ladkewale +1",
+          "size": 44,
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "title": "\"Neg do!\" 30 second mol-bhav",
+      "body": "Saaliyan joota lautane ka neg maangein. Jo pehle maan gayi, woh haari.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 420,
+          "s": 1.5,
+          "color": "pink"
+        },
+        {
+          "k": "chit",
+          "x": 300,
+          "y": 270,
+          "s": 1,
+          "text": "2100",
+          "rot": -8
+        },
+        {
+          "k": "person",
+          "x": 790,
+          "y": 420,
+          "s": 1.5,
+          "color": "blue"
+        },
+        {
+          "k": "chit",
+          "x": 640,
+          "y": 270,
+          "s": 1,
+          "text": "101",
+          "rot": 8
+        },
+        {
+          "k": "arrow",
+          "x1": 390,
+          "y1": 350,
+          "x2": 550,
+          "y2": 350,
+          "color": "pink",
+          "w": 7
+        },
+        {
+          "k": "arrow",
+          "x1": 550,
+          "y1": 400,
+          "x2": 390,
+          "y2": 400,
+          "color": "blue",
+          "w": 7
+        },
+        {
+          "k": "timer",
+          "x": 470,
+          "y": 540,
+          "s": 0.8,
+          "text": "0:30"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 110,
+          "text": "Pehle \"haan\" boli = haar",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Zyada points wali team jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Saaliyan ne gaana roka?",
+          "Ladkewale ko +1."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Joota band almari ya",
+          "bag mein? Allowed nahi."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Neg mein chup ho gayi",
+          "ya hans padi? Round haari."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Team badlo, 4 round khelo.",
+          "Top team: Shaadi Champion!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Gaane ki jagah sirf dhol:",
+        "thaali pe chammach bajao."
+      ],
+      [
+        "\"Mama ji aa gaye!\" pe",
+        "dhoondne wali badal do."
+      ],
+      [
+        "Do chappal chupao: ek asli,",
+        "ek nakli. Nakli = minus 1."
+      ]
+    ],
+    "tip": "Kaanch ka saamaan aur bachchon ka kamra off-limits."
+  },
+  "comment_hint": "kitna neg?",
+  "caption": "Saaliyan chappal chupayengi, gaana clue dega, aur milne ke baad neg ka mol-bhav! Shaadi season ki kitty ke liye perfect. Aap kitna neg maangti?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#jootachupai",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Joota Chupai: Shaadi Season Kitty Party Game Rules and Twists",
+    "description": "Joota Chupai is a shaadi season kitty party game: saaliyan hide a chappal, sing louder as seekers get close, then haggle the neg. Rules, steps, tips and FAQ.",
+    "intro": "Joota Chupai is a team hide-and-seek game for kitty parties based on the wedding ritual where the bride's sisters (saaliyan) steal the groom's shoes. One team hides the host's chappal in the room and sings a shaadi song louder as the other team gets closer, and the seekers score a point if they find it within 3 minutes. The crazy twist: once the chappal is found, both teams haggle the neg (the shoe money) for 30 seconds with paper notes, and the side that says yes first, goes quiet or laughs loses the round. It needs only a chappal, some paper and a phone timer, so it suits any shaadi season or wedding theme kitty.",
+    "players": "8 to 20",
+    "time": "15 to 20 minutes",
+    "materials": [
+      "One chappal or slipper from the host, which plays the dulha's joota",
+      "10 paper notes per team with amounts written on them (101, 500, 1100, 2100)",
+      "A phone timer set to 3 minutes and to 30 seconds",
+      "One shaadi song everyone knows, sung by the hiding team",
+      "Paper and a pen for the score"
+    ],
+    "steps": [
+      "Split the group into two teams: the saaliyan (bride's side) and the ladkewale (groom's side).",
+      "The ladkewale step out of the room. The saaliyan hide the chappal anywhere in the room within 1 minute, then call the seekers back in.",
+      "The saaliyan start singing a shaadi song. They sing louder as the seekers move closer to the chappal and softer as they move away. That song is the only clue.",
+      "The ladkewale get 3 minutes to find the chappal. If they find it, they score 1 point. If the timer runs out, the saaliyan score 1 point.",
+      "After every hunt the host shouts \"Neg do!\" and both teams haggle for 30 seconds, the saaliyan demanding a high neg and the ladkewale offering a low one with paper notes. The team that agrees first, goes silent or laughs loses the haggle and the other team scores 1 point."
+    ],
+    "rules": [
+      "The saaliyan must keep singing throughout the hunt; if they stop, the ladkewale get 1 point.",
+      "The chappal cannot be hidden inside a closed cupboard, bag or drawer, and never in a fragile or unsafe place.",
+      "In the neg haggle, the team that says yes first, goes quiet or bursts out laughing loses that haggle.",
+      "Swap roles after each round and play 4 rounds. The team with the most points becomes Shaadi Champion."
+    ],
+    "variations": [
+      "Dhol round: instead of singing, the saaliyan give the clue only by tapping a steel thaali with a spoon, faster and louder as the seekers get close.",
+      "When the host shouts \"Mama ji aa gaye!\", the seeker must hand over the hunt to a new lady from her team.",
+      "Hide two chappals, one real and one dummy. Bringing back the dummy costs the seekers 1 point."
+    ],
+    "tips": [
+      "Keep glass items, medicines and the children's room out of bounds before the hiding starts.",
+      "Choose a song everyone knows, like a popular sangeet number, so the volume changes are clear.",
+      "Use only paper or toy notes for the neg, never real money.",
+      "Let the quietest lady in each team be the neg negotiator for the most laughs."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Joota Chupai?",
+        "a": "It works for 8 to 20 ladies split into two teams. With a big group, let 2 or 3 ladies from the seeking team hunt at once."
+      },
+      {
+        "q": "What do you need to play the Joota Chupai kitty game?",
+        "a": "Just one chappal, a few paper notes with amounts written on them, a phone timer and one shaadi song everyone can sing."
+      },
+      {
+        "q": "What is neg in Joota Chupai?",
+        "a": "Neg is the money the bride's sisters ask for to return the groom's shoes at a wedding. In this game it is a 30 second haggle with paper notes, and the team that agrees first loses."
+      },
+      {
+        "q": "Is Joota Chupai good for a wedding theme kitty party?",
+        "a": "Yes. It is based on a favourite shaadi ritual, so it fits a shaadi season, bridal shower or wedding theme kitty perfectly."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "About 15 to 20 minutes for 4 rounds, with each team hiding twice and seeking twice."
+      }
+    ]
+  }
+}
