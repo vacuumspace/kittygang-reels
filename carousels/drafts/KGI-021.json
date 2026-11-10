@@ -1,0 +1,763 @@
+{
+  "id": "KGI-021",
+  "n": 21,
+  "slug": "baraat-freeze-shaadi-season-kitty-party-game",
+  "game": "Baraat Freeze",
+  "tagline": "Gaana ruka, pose banao!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "speaker",
+      "x": 110,
+      "y": 200,
+      "s": 1
+    },
+    {
+      "k": "note",
+      "x": 200,
+      "y": 80,
+      "s": 0.9,
+      "color": "yel"
+    },
+    {
+      "k": "person",
+      "x": 330,
+      "y": 200,
+      "s": 1,
+      "color": "blue"
+    },
+    {
+      "k": "person",
+      "x": 450,
+      "y": 190,
+      "s": 1,
+      "color": "yel"
+    },
+    {
+      "k": "arrow",
+      "x1": 540,
+      "y1": 180,
+      "x2": 640,
+      "y2": 180,
+      "color": "yel",
+      "w": 8
+    },
+    {
+      "k": "svg",
+      "markup": "<ellipse cx='860' cy='220' rx='200' ry='110' fill='none' stroke='#FFFFFF' stroke-width='6' stroke-dasharray='18 12'></ellipse>"
+    },
+    {
+      "k": "person",
+      "x": 770,
+      "y": 200,
+      "s": 1,
+      "color": "blue"
+    },
+    {
+      "k": "person",
+      "x": 860,
+      "y": 190,
+      "s": 1,
+      "color": "white"
+    },
+    {
+      "k": "person",
+      "x": 950,
+      "y": 200,
+      "s": 1,
+      "color": "green"
+    },
+    {
+      "k": "text",
+      "x": 860,
+      "y": 60,
+      "text": "Joota chupai = 3!",
+      "size": 40,
+      "color": "yel"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas ek phone aur jagah",
+    "items": [
+      {
+        "label": "Phone speaker",
+        "sub": "baraat wale gaane",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "speaker",
+            "x": 130,
+            "y": 120,
+            "s": 0.9
+          },
+          {
+            "k": "note",
+            "x": 230,
+            "y": 80,
+            "s": 0.7,
+            "color": "pink"
+          }
+        ]
+      },
+      {
+        "label": "Pose chits",
+        "sub": "naam aur ginti",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "chit",
+            "x": 100,
+            "y": 90,
+            "s": 0.9,
+            "text": "Phere 4",
+            "rot": -8
+          },
+          {
+            "k": "chit",
+            "x": 200,
+            "y": 150,
+            "s": 0.9,
+            "text": "Varmala 2",
+            "rot": 6
+          }
+        ]
+      },
+      {
+        "label": "Khaali jagah",
+        "sub": "sofa side mein karo",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<rect x='40' y='60' width='220' height='130' rx='10' fill='none' stroke='#4A1238' stroke-width='6' stroke-dasharray='16 10'></rect>"
+          },
+          {
+            "k": "arrow",
+            "x1": 120,
+            "y1": 125,
+            "x2": 60,
+            "y2": 125,
+            "color": "pink",
+            "w": 5
+          },
+          {
+            "k": "arrow",
+            "x1": 180,
+            "y1": 125,
+            "x2": 240,
+            "y2": 125,
+            "color": "pink",
+            "w": 5
+          }
+        ]
+      },
+      {
+        "label": "Host ki ginti",
+        "sub": "5 second, zor se",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 230,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 115,
+            "s": 0.7,
+            "text": "0:05"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Baraat gaana chalao, sab naacho",
+      "body": "Sab ladies dulhe ke doston jaisi baraat dance karein.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "speaker",
+          "x": 110,
+          "y": 420,
+          "s": 1.3
+        },
+        {
+          "k": "note",
+          "x": 200,
+          "y": 260,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "note",
+          "x": 260,
+          "y": 330,
+          "s": 0.8,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 400,
+          "y": 380,
+          "s": 1.2,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 560,
+          "y": 360,
+          "s": 1.2,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 720,
+          "y": 380,
+          "s": 1.2,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 860,
+          "y": 360,
+          "s": 1.2,
+          "color": "green"
+        },
+        {
+          "k": "arrow",
+          "x1": 360,
+          "y1": 230,
+          "x2": 440,
+          "y2": 200,
+          "color": "pink",
+          "w": 6
+        },
+        {
+          "k": "arrow",
+          "x1": 680,
+          "y1": 230,
+          "x2": 760,
+          "y2": 200,
+          "color": "blue",
+          "w": 6
+        },
+        {
+          "k": "text",
+          "x": 620,
+          "y": 110,
+          "text": "Naach baraati naach!",
+          "size": 44,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Gaana ruka, host pose bolegi",
+      "body": "Host music rok ke ek rasam aur uski ginti zor se bole.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "speaker",
+          "x": 150,
+          "y": 400,
+          "s": 1.3
+        },
+        {
+          "k": "cross",
+          "x": 150,
+          "y": 400,
+          "s": 1.2
+        },
+        {
+          "k": "person",
+          "x": 520,
+          "y": 400,
+          "s": 1.5,
+          "color": "pink",
+          "label": "Host"
+        },
+        {
+          "k": "chit",
+          "x": 760,
+          "y": 250,
+          "s": 1.3,
+          "text": "Phere 4",
+          "rot": 6
+        },
+        {
+          "k": "text",
+          "x": 600,
+          "y": 110,
+          "text": "\"PHERE! Chaar chaar!\"",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 600,
+          "text": "Music stop",
+          "size": 38,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "5 second mein group banao",
+      "body": "Bilkul utni ladies ka group banao, haath pakdo aur pose karo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<ellipse cx='300' cy='420' rx='230' ry='170' fill='none' stroke='#E85D8A' stroke-width='6' stroke-dasharray='18 12'></ellipse>"
+        },
+        {
+          "k": "person",
+          "x": 190,
+          "y": 380,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 360,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 410,
+          "y": 380,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 480,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 660,
+          "text": "4 = sahi!",
+          "size": 44,
+          "color": "green"
+        },
+        {
+          "k": "tick",
+          "x": 520,
+          "y": 250,
+          "s": 1
+        },
+        {
+          "k": "timer",
+          "x": 800,
+          "y": 380,
+          "s": 1.1,
+          "text": "0:05"
+        },
+        {
+          "k": "text",
+          "x": 800,
+          "y": 180,
+          "text": "5, 4, 3, 2, 1...",
+          "size": 40,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Bachi hui lady out",
+      "body": "Jo kisi group mein nahi, ya galat ginti wala group, woh out.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<ellipse cx='260' cy='420' rx='200' ry='160' fill='none' stroke='#E85D8A' stroke-width='6' stroke-dasharray='18 12'></ellipse>"
+        },
+        {
+          "k": "person",
+          "x": 170,
+          "y": 390,
+          "s": 0.9,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 370,
+          "s": 0.9,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 350,
+          "y": 390,
+          "s": 0.9,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 480,
+          "s": 0.9,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 740,
+          "y": 400,
+          "s": 1.4,
+          "color": "mute",
+          "label": "Akeli"
+        },
+        {
+          "k": "cross",
+          "x": 880,
+          "y": 240,
+          "s": 1.3
+        },
+        {
+          "k": "arrow",
+          "x1": 620,
+          "y1": 600,
+          "x2": 900,
+          "y2": 600,
+          "color": "mute",
+          "w": 6
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 670,
+          "text": "Sofa pe baitho",
+          "size": 38,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "\"Mascot aa gaya!\" mat haso",
+      "body": "Out lady slow motion mein beech se guzre. Jo hansi, woh bhi out.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 400,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 580,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 740,
+          "y": 400,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 740,
+          "y": 580,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 470,
+          "y": 420,
+          "s": 1.5,
+          "color": "mute",
+          "label": "Mascot"
+        },
+        {
+          "k": "arrow",
+          "x1": 590,
+          "y1": 600,
+          "x2": 590,
+          "y2": 280,
+          "color": "yel",
+          "w": 8
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 110,
+          "text": "Slow... motion...",
+          "size": 44,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 200,
+          "y": 250,
+          "text": "Haso mat!",
+          "size": 38,
+          "color": "pink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Aakhri bachi lady jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Ginti galat? Poora group",
+          "out, ek bhi kam ya zyada."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "5 second ke baad aayi?",
+          "Late baraati, out."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Mascot pe hans padi?",
+          "Seedha sofa pe."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Aakhri 2 bachi? Varmala",
+          "pose karo, dono champion!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "\"Dhol!\" bolo toh har group",
+        "ek lady ko dholwali banaye."
+      ],
+      [
+        "\"Asli phere!\" bolo toh",
+        "7 ladies ka group banao."
+      ],
+      [
+        "\"Dulhan aa gayi!\" pe sab",
+        "sharmaate hue freeze."
+      ]
+    ],
+    "tip": "Ladies kam hon toh chhoti ginti bolo: 2 ya 3."
+  },
+  "comment_hint": "kaun out hua?",
+  "caption": "Baraat ka gaana bajega, phir host bolegi \"Phere chaar!\" aur 5 second mein group banana hai. Mascot pe hansi toh out! Aapki kitty mein sabse pehle kaun out hoga?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#baraatfreeze",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Baraat Freeze: Shaadi Season Kitty Party Game Rules and Twists",
+    "description": "Baraat Freeze is a shaadi season kitty party dance game: dance to baraat songs, then form groups of the called wedding pose in 5 seconds. Rules, steps and FAQ.",
+    "intro": "Baraat Freeze is a musical grouping game for kitty parties where everyone dances to a baraat song and, when the music stops, forms groups of the exact size the host calls (Varmala = 2, Joota Chupai = 3, Phere = 4, Family Photo = 6) within 5 seconds. Anyone left without a group, or standing in a group of the wrong size, is out, and the last lady standing wins. The crazy twist: when the host shouts \"Mascot aa gaya!\", the last lady out walks through the dancers in slow motion and anyone who laughs is out too. It needs nothing but a phone speaker and some open floor, so it is perfect for a shaadi season or wedding theme kitty.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "A phone or Bluetooth speaker with a few baraat and sangeet songs",
+      "Open floor space, with the centre table and sofa pushed to the side",
+      "Optional: small chits listing the poses and their headcounts for the host"
+    ],
+    "steps": [
+      "The host explains the poses and their headcounts: Varmala = 2, Joota Chupai = 3, Phere = 4, Family Photo = 6.",
+      "Play a baraat song and everyone dances freely around the room like the groom's friends in a baraat.",
+      "The host stops the music and loudly calls one pose, for example \"Phere! Chaar chaar!\".",
+      "Within 5 seconds every lady must join a group of exactly that many people, hold hands and strike the pose.",
+      "Anyone left alone, and any group with too many or too few ladies, is out and sits on the sofa.",
+      "Now and then the host shouts \"Mascot aa gaya!\": the last lady who went out walks through the dancers in slow motion, and anyone who laughs is out too.",
+      "Keep playing until two ladies remain; they do a final Varmala pose and win."
+    ],
+    "rules": [
+      "A group must have exactly the called headcount; one extra or one short and the whole group is out.",
+      "Anyone who joins a group after the 5 second count is out as a late baraati.",
+      "During the mascot walk, anyone who laughs or smiles widely is out.",
+      "The last lady standing, or the final pair, wins the game."
+    ],
+    "variations": [
+      "On \"Dhol!\" every group must make one member the dholwali, miming the dhol while the rest dance around her in the frozen pose.",
+      "For big groups, call \"Asli phere!\", which means a group of 7, just like the seven real phere.",
+      "On \"Dulhan aa gayi!\" everyone freezes in a shy bride pose instead of grouping, and anyone who moves is out."
+    ],
+    "tips": [
+      "When fewer ladies remain, call smaller headcounts like 2 or 3 so the game keeps moving.",
+      "Clear glass items and side tables from the floor before you start dancing.",
+      "Keep the songs loud and peppy, like popular baraat and sangeet numbers.",
+      "Let the ladies who are out be the judges who spot wrong group sizes and laughers."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Baraat Freeze?",
+        "a": "It works best for 8 to 20 ladies. With fewer than 8, use only the 2 and 3 headcounts."
+      },
+      {
+        "q": "What do you need to play Baraat Freeze at a kitty party?",
+        "a": "Only a phone speaker with a few baraat songs and some open floor space. Pose chits for the host are optional."
+      },
+      {
+        "q": "How do you win Baraat Freeze?",
+        "a": "Stay in a correctly sized group every round and do not laugh at the mascot. The last lady or final pair left standing wins."
+      },
+      {
+        "q": "Is Baraat Freeze good for a wedding theme kitty party?",
+        "a": "Yes. Every pose is a shaadi moment and the music is baraat songs, so it fits shaadi season, sangeet or wedding theme kitties perfectly."
+      },
+      {
+        "q": "Is Baraat Freeze suitable for older ladies?",
+        "a": "Yes. The dancing can be as gentle as anyone likes, and the only real challenge is grouping quickly and keeping a straight face."
+      }
+    ]
+  }
+}
