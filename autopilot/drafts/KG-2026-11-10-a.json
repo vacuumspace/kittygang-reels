@@ -1,0 +1,842 @@
+{
+  "id": "KG-2026-11-10-a",
+  "title": "Shaadi season mein kitty kab?",
+  "format": "Types-of, Shruti tries to fix the next kitty date in shaadi season, a type chip per friend",
+  "idea": "Shaadi season: Shruti tries to fix the next kitty date, every friend is a different type of busy, and the only free date is her own nephew's wedding.",
+  "logline": "Shruti can't find a free date for the next kitty because every friend is a different kind of busy in shaadi season, and the one date left is her own nephew's wedding.",
+  "game": "every date Shruti offers gets blocked by a new type of shaadi-season friend",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Shruti slaps a calendar page down, 'Agli kitty 22 ko. Final!', chip 'KITTY DATE: 22 NOV?', and Ruhi's phone pings back at once",
+    "variable": "types-of with ONE protagonist and ONE stake chip (the kitty date) driving the line-up, so each type is a reply to her, not a separate portrait; plus the 25 s length and the 'name a friend type' caption that got our first shares",
+    "hypothesis": "a real shaadi season problem every group has this month gets skip under 45% (last types-of 53.2%) and watched over 35%, with at least 3 shares from 'tag the friend jiski har date pe shaadi hai'"
+  },
+  "mute": [
+    "Shruti with a calendar page, chip KITTY DATE: 22 NOV?, Ruhi holding a phone",
+    "Ruhi's phone pings, chip TYPE 1: HAR DATE PE SHAADI, Shruti flat",
+    "Ruhi lists 23 and 24 laughing, Shruti sweating",
+    "Myra hops in with shopping bags, chip TYPE 2: SHOPPING WALI",
+    "a lehenga pops in, Myra smug, Shruti shocked",
+    "Aditi with chai says she is free, Shruti claps and hops, chip TYPE 3",
+    "Aditi still flat: par aaungi nahi, Shruti sweating",
+    "Shruti smug with the calendar offers 28, chip KITTY DATE: 28 NOV?",
+    "music cuts, Myra holds up a phone notification, Shruti and Ruhi frozen",
+    "Ruhi points at the phone, chip TYPE 4: CARD BHEJ KE BHOOL GAYI, Shruti caught",
+    "Shruti slaps the calendar again with a mithai box, chip KITTY DATE: 28 NOV, SHAADI MEIN!, everyone laughs"
+  ],
+  "beats": "hook: agli kitty 22 ko final / esc: Ruhi 22-23-24 shaadi functions, Myra 3 din lehenga trial, Aditi free but thak gayi / twist: 28 is Shruti's own bhatije ki shaadi, she sent the card / button: agli kitty 28 ko, shaadi mein, Final!",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Types-of (last 4 types: door-arrivals, map-journey x3) and LEARNINGS asks for types-of next. Last types-of was 4 separate portraits with skip 53%; this one has one protagonist with one want (a kitty date) and a date chip, so every type is a reply that blocks her. Game played three times: Ruhi ordinary (every date a function), Myra sillier (3 days for a lehenga trial), Aditi absurd (free but will not come). Claim before reveal on Aditi ('Yay! Done!' then 'Par aaungi nahi'). Twist is seen: a phone notification and Ruhi's 'Card toh aapne hi bheja'. Shruti is the 4th type herself. Button mirrors the opening line with the date flipped into the wedding. Endings tried: Tuesday 11 am slot (soft), Aditi 'Har mahine yahi hota hai' (flat), kitty at the shaadi (kept, loops to the opening). Lead is Shruti, not Tanya (last reel). 4 characters, max 3 a shot, every two-line shot 8 words or fewer with hold 0.1, about 25 s at pace 28. Weddings start 21 Nov, so the topic is live this week."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1.2,
+    "title": [
+      "Kitty ki date kab?",
+      "Har din kisi ki shaadi!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Shaadi season mein kitty ki date fix karna = impossible. Tag the friend jiski har date pe shaadi hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#weddingseason",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#indianwedding"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "KITTY DATE: 22 NOV?",
+      "front": true,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "talkR",
+          "prop": "calc",
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Calendar page",
+          "x": 540,
+          "y": 1180,
+          "s": 1.1,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 230,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "thud",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Agli kitty 22 ko. Final!",
+          "say": "अगली किटी बाईस को। फ़ाइनल!",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 1: HAR DATE PE SHAADI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Group chat phone",
+          "x": 800,
+          "y": 1150,
+          "s": 1,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.15,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "22? Mehendi hai!",
+          "say": "बाईस? मेहंदी है!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Toh 23?",
+          "say": "तो तेईस?",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 1: HAR DATE PE SHAADI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Group chat phone",
+          "x": 800,
+          "y": 1150,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1020,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "23 sangeet, 24 reception!",
+          "say": "तेईस संगीत, चौबीस रिसेप्शन!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Arre!",
+          "say": "अरे!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 2: SHOPPING WALI",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile"
+        },
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true,
+          "from": [
+            1150,
+            1750
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Shopping bags",
+          "x": 960,
+          "y": 1780,
+          "s": 1.3,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "25? Chandni Chowk jaana hai!",
+          "say": "पच्चीस? चांदनी चौक जाना है!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Poore din?!",
+          "say": "पूरे दिन?!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 2: SHOPPING WALI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Shopping bags",
+          "x": 960,
+          "y": 1780,
+          "s": 1.3
+        },
+        {
+          "name": "Saree on hanger",
+          "x": 700,
+          "y": 1300,
+          "s": 1,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Teen din! Lehenga ka trial!",
+          "say": "तीन दिन! लहंगे का ट्रायल!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 3: FREE HAI, PHIR BHI NAHI",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "clapR",
+          "prop": "calc",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Cutting chai",
+          "x": 960,
+          "y": 1600,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 300,
+          "y": 950,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "clap",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "26 ko main free hoon.",
+          "say": "छब्बीस को मैं फ़्री हूँ।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Yay! Done!",
+          "say": "ये! डन!",
+          "gap": 0.03
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 3: FREE HAI, PHIR BHI NAHI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Cutting chai",
+          "x": 960,
+          "y": 1600,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1020,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Par aaungi nahi.",
+          "say": "पर आऊँगी नहीं।",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Kyun?!",
+          "say": "क्यों?!",
+          "gap": 0.03
+        },
+        {
+          "who": "Aditi",
+          "text": "Shaadiyon se thak gayi.",
+          "say": "शादियों से थक गई।",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "KITTY DATE: 28 NOV?",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hips",
+          "prop": "calc",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Myra",
+          "x": 720,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 940,
+          "y": 1760,
+          "s": 1.85,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Calendar page",
+          "x": 330,
+          "y": 1150,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 250,
+          "y": 950,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Toh 28. Koi shaadi nahi!",
+          "say": "तो अट्ठाईस। कोई शादी नहीं!",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.2,
+      "chip": "KITTY DATE: 28 NOV?",
+      "camera": "still",
+      "music": false,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hips",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 720,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 940,
+          "y": 1760,
+          "s": 1.85,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 640,
+          "y": 1200,
+          "s": 1.2,
+          "at": 0.2
+        },
+        {
+          "name": "Calendar page",
+          "x": 330,
+          "y": 1150,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 700,
+          "y": 950,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "28 ko aapke bhatije ki shaadi!",
+          "say": "अट्ठाईस को आपके भतीजे की शादी!",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 4: CARD BHEJ KE BHOOL GAYI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Group chat phone",
+          "x": 800,
+          "y": 1150,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1020,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Card toh aapne hi bheja!",
+          "say": "कार्ड तो आपने ही भेजा!",
+          "punch": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Shruti",
+          "text": "Haaye!",
+          "say": "हाय!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.8,
+      "chip": "KITTY DATE: 28 NOV, SHAADI MEIN!",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 310,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "talkR",
+          "prop": "calc",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Myra",
+          "x": 720,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Aditi",
+          "x": 940,
+          "y": 1760,
+          "s": 1.85,
+          "turn": -0.6,
+          "pose": "cup",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Calendar page",
+          "x": 540,
+          "y": 1180,
+          "s": 1.1,
+          "at": 0.2
+        },
+        {
+          "name": "Mithai box",
+          "x": 540,
+          "y": 1820,
+          "s": 1.2,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "thud",
+          "vol": 0.4
+        },
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Agli kitty 28 ko. Shaadi mein!",
+          "say": "अगली किटी अट्ठाईस को। शादी में!",
+          "beat": "button"
+        },
+        {
+          "who": "ALL",
+          "text": "Final!",
+          "say": "फ़ाइनल!",
+          "punch": true,
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
