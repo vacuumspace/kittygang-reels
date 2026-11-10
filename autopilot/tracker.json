@@ -9079,6 +9079,37 @@
         "voice pace >= 2.3 words/s (2.27 w/s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-10-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-11",
+      "created": "2026-11-11",
+      "title": "Thali 4/4?",
+      "format": "Theme Housie",
+      "theme": "tilakkitaiyari",
+      "story": "ai",
+      "variant": "checklist",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya needs the tilak thali ready and every friend fills one prize group: Megha gets Kumkum, Shruti is happy Chawal needs only 3 numbers, Myra asks why Kalava needs 5, and Nariyal is stuck until late Avika rushes in and the last number makes Full House. Aditi closes: har saal yahi hota hai.",
+      "beats": "hook: thali 0/4, chaar cheezein jaldi / 1/4 Megha Kumkum / 2/4 Shruti Chawal bachat / 3/4 Myra Kalava confused, call 61 / stuck: Nariyal kahan? Avika! / turn: Avika arrives, call 9, Full House 4/4 / button: Aditi deadpan",
+      "experiment": {
+        "format": "checklist",
+        "hook": "Tanya in a rush on the Tilak Ki Taiyari home art, heartbeat at 0 s, mascot ball spinning above, chip 'THALI: 0/4' pinned from the first frame, she says 'Tilak ki thali! Chaar cheezein, jaldi!'",
+        "variable": "a visible progress counter: the theme's four prize groups (Kumkum, Chawal, Kalava, Nariyal) are the four things the tilak thali needs, and a 'THALI x/4' chip ticks up on every shot, so the middle always shows how close the payoff is",
+        "hypothesis": "an open checklist the viewer can see filling (like a progress bar) holds people through the middle on a festival morning they are living: watched % above 20 (best so far 18), skip under 60%, at least 1 share"
+      },
+      "duration": 41.2,
+      "lufs": null,
+      "caption": "Tilak ki thali mein sabse late kya aata hai? Hamare group mein toh Avika aur Nariyal! Us saheli ko tag karo jo har saal late aati hai. Aaj ki Tilak Ki Taiyari Housie mein thali kiski poori?\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #bhaidooj #tilak #festive",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-11.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-11-cover.jpg",
+      "job_id": "d3921302-f444-44a2-ad76-e610d4b3b5cf",
+      "permalink": "https://www.instagram.com/reel/DfkmHxPCjes/",
+      "media_id": "18108709097199298",
+      "yt_id": "dYt-QojBpIk",
+      "yt_url": "https://youtube.com/shorts/dYt-QojBpIk",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
