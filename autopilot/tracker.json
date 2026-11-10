@@ -9567,7 +9567,7 @@
       "format": "One-minute blindfold challenge in heats",
       "source": "Trend: Post-Diwali dry fruit box glut (Financial Express) + One-minute game",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-03",
@@ -9576,7 +9576,7 @@
       "format": "Steal-or-open gift swap",
       "source": "Trend: Post-Diwali dry fruit box glut + Cozy pajama winter kitty (regift swap theme, thebash.com)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-03",
@@ -9720,7 +9720,7 @@
       "format": "Housie-in-progress sitcom, living room with room heater and shawls, musical-chairs drift, 3 characters per shot, under 30 s",
       "source": "Trend: Cozy pajama winter kitty + first cold weeks of November + LEARNINGS: open on the game, stake chip changes every shot",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-06",
@@ -9774,7 +9774,7 @@
       "format": "Housie-in-progress sitcom, living room then reception stage set, money chip every shot, 3 characters per shot; caption 'Aapki kitty mein gift kaun choose karta hai? Tag her'",
       "source": "Trend: Shaadi season kitty + shaadi dates 21-26 Nov (+2) + Housie money fight (real hisaab scene)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-07",
@@ -9908,6 +9908,60 @@
       "idea": "Card yaad hai?: the host shows a made-up shaadi card on her phone for 30 seconds (names of dulha, dulhan, both fathers, venue and four function dates and dress codes), then asks 10 questions and every lady writes her answers. Crazy twist: while the card is on screen, one lady plays 'mausi on the phone' and talks nonstop next to everyone with wrong details. Highest score wins. 8 to 20 ladies, 10 to 15 minutes, one phone, pens and paper.",
       "format": "Carousel: slide 1 'Shaadi season kitty party game' with the card on screen and the mausi chattering, the questions, wrong answers, winner",
       "source": "Trend: Shaadi function colour codes + shaadi dates 21-26 Nov (12-17 days away)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-10",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door in a chunky sweater holding the kitty pot: \"Sweater kitty! Haath ka buna nahi toh entry nahi!\" Context: one guest per ring, Ruhi's has a mall tag, Myra admits her saas knitted half and the market did the rest, Shruti's is her husband's, and the chip 'HAATH KA BUNA: 0/3' never moves while Tanya sends each one to the balcony. Ending: Shruti pulls Tanya's collar straight for the group photo and a big 'SALE Rs 499' tag flips out, and all three walk straight in past her.",
+      "format": "Door arrivals, winter rule judged at the front door, a guest per ring, chip that never moves, host breaks her own rule, 25-30 s; caption 'Rule banane wali ka sweater bhi sale wala. Tag your Tanya!'",
+      "source": "Trend: Host breaks her own rule + 'Tag your Tanya' (door reels 6031 and 2737 views, skip 26-28%) + First winter kitty + Ugly sweater winter party",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-10",
+      "type": "reel",
+      "idea": "Hook: Housie running, Ruhi back from a shaadi cuts a number: \"Kal ki shaadi mein live jalebi, live dosa, aur live Maggi counter tha!\" and the gang sings back \"Yeh normal hai!\" Context: on every called number she lists a stranger counter (paan shots, momos in a silver thaal, a chocolate fountain with gol gappe) and the chorus gets louder, chip 'COUNTERS: 12'. Ending: Myra the host lifts the cloth off today's kitty snacks, a 'live counter' of Parle-G and kettle chai with a paper sign, and the gang sings the chorus one last time, slower.",
+      "format": "Musical sitcom: Housie table, whole-gang sung chorus on every trigger (our 44% skip shape), 3 characters per shot, under 30 s; caption 'Har shaadi se lauti ek saheli ka review. Tag the friend jo buffet ki report deti hai'",
+      "source": "Trend: 'Yeh normal hai' shaadi buffet (freepressjournal.in) + Sung chorus on a repeating trigger (KG-2026-11-05-a, skip 44.3%) + shaadi dates 21-26 Nov",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-10",
+      "type": "reel",
+      "idea": "Hook: Housie running in full lehengas and heavy sets, Tanya taps her watch: \"Saat baje reception hai, kitty se seedha wahin!\" Context: on every called number something fights back (Ruhi's jhumka hooks her ticket, Myra's bun is pinned so tight she cannot look down to cut, Tanya's dupatta pin stabs the sofa), chip 'RECEPTION IN: 40 min' dropping each shot. Ending: they sweep into the banquet hall and the bride's mother stares at them: \"Aap log? Reception toh kal hai!\" and Ruhi zooms into the card photo: 22 November.",
+      "format": "Kitty Gang sitcom, Housie table then banquet hall entrance, countdown chip every shot, 3 characters per shot, 25-30 s; caption 'Tag the friend jo hamesha ek din pehle taiyaar hoti hai'",
+      "source": "Trend: Festival window shaadi dates 21-26 Nov (11-16 days, +2) + Shaadi has become content (theprint.in) + LEARNINGS: open on the game, chip changes every shot",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-10",
+      "type": "game",
+      "idea": "Baraat freeze: play any baraat song and everyone dances like the groom's friends; when the music stops the host shouts a shaadi pose and the room must form it in 5 seconds with the exact headcount (Varmala = 2, Joota chupai = 3, Phere = 4, Family photo = 6); anyone left over is out. Crazy twist: on \"Mascot aa gaya!\" the last lady out comes back as the mascot and walks through the dancers in slow motion, and anyone who laughs is out too. 8 to 20 ladies, 10 to 15 minutes, only a phone speaker.",
+      "format": "Carousel: slide 1 'Kitty party game for shaadi season' with a frozen Varmala pose and a mascot aunty, pose and headcount list, the mascot twist, last couple standing",
+      "source": "Trend: Friends' baraat entry performance (freepressjournal.in) + Mascot entry at the shaadi (thenodmag.com) + shaadi dates 21-26 Nov (11-16 days, +2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-10",
+      "type": "game",
+      "idea": "Tulsi Vivah thaal, by touch: each team's blindfolded lady must fill a steel thaal with the 7 Tulsi Vivah things (sugarcane piece, red chunri, haldi, sindoor dibbi, amla, shakarkandi, diya) from a tray of 20 things, guided only by her team's voices. Crazy twist: the tray is full of look-alike decoys by touch (aloo for shakarkandi, lemon and ber for amla, a lipstick for the sindoor dibbi), and every decoy in the thaal costs 2 points. Fastest clean thaal in 2 minutes wins. 8 to 20 ladies in teams of 4, 15 minutes.",
+      "format": "Carousel: slide 1 'Tulsi Vivah kitty party game' with a blindfolded lady holding an aloo, the 7-item list, the decoy tray, a wrong thaal, winners",
+      "source": "Trend: Festival window Tulsi Vivah 21 Nov (11 days, +2) + Household dexterity one-minute games",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-10",
+      "type": "game",
+      "idea": "Ek sweater, poori kitty: the host brings one big old cardigan with buttons; in a relay, each lady must put it on, button every button, say \"Mummy, ab thand nahi lag rahi!\", unbutton, take it off and pass it on. Crazy twist: when the host shouts \"Ulta!\" the next lady must wear it inside out and back to front, and when she shouts \"Monkey cap!\" she also pulls on a cap and keeps it for the rest of her turn. Fastest team wins. 8 to 20 ladies in two teams, 10 minutes.",
+      "format": "Carousel: slide 1 'Sardi ki kitty party game' with a lady in a back-to-front cardigan mid-button, the relay line, the Ulta twist, winning team",
+      "source": "Trend: First winter kitty + Ugly sweater winter party + Household dexterity one-minute games",
       "score": 8,
       "used": ""
     }
@@ -10706,6 +10760,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-10",
+      "pattern": "Festival window: Children's Day 14 Nov + Chhath 13-16 Nov + Tulsi Vivah 21 Nov + Gurpurab 24 Nov + shaadi dates 21-26 Nov + Kal Bhairav Ashtami 30 Nov",
+      "source": "Upcoming Hindu festivals in November 2026 (hindu-blog.com) + December 2026 Hindu festivals (hindutone.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.hindu-blog.com/2026/09/upcoming-hindu-festivals-in-november-2026.html",
+      "learn": "Children's Day (4 days) and Chhath (3-6 days) are too close for +2; Tulsi Vivah (11 days), Gurpurab (14) and the 21-26 Nov shaadi dates get +2; Vivah Panchami (14 Dec) and Gita Jayanti (20 Dec) are outside the window, so shaadi season and first winter carry the next three weeks."
+    },
+    {
+      "date": "2026-11-10",
+      "pattern": "Sung chorus on a repeating trigger",
+      "source": "Our reel 'Ghar se call, number kata!' (KG-2026-11-05-a, musical format), day 1: 215 views, skip 44.3%, avg watch 8.2 s, 0 shares",
+      "likes": 0,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfgwR9ljQ0r/",
+      "learn": "Outside the door reels, a whole-gang sung chorus every time the same thing happens gave our best day-1 skip (44%); reuse the shape with a new trigger and keep the host breaking her own rule at the end."
+    },
+    {
+      "date": "2026-11-10",
+      "pattern": "Mascot entry at the shaadi",
+      "source": "Gorilla, Hello Kitty, Labubu: the mascot trend at Indian weddings (thenodmag.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://thenodmag.com/content/gorilla-hello-kitty-labubu-mascot-indian-wedding-trend",
+      "learn": "A silly costumed character crashing a serious function is now a known shaadi moment; use it as a twist in shaadi games (one lady becomes the mascot), not as a reel plot."
+    },
+    {
+      "date": "2026-11-10",
+      "pattern": "'Yeh normal hai' shaadi buffet",
+      "source": "'Yeh Normal Hai': woman shares video of odd starters served at a wedding (freepressjournal.in)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.freepressjournal.in/viral/ye-normal-hai-woman-shares-video-of-cigarettes-gutka-being-served-as-starters-at-wedding-very-few-netizens-amused",
+      "learn": "Guests reviewing every strange counter at a shaadi is a ready gossip scene; the kitty version is the lady back from a shaadi listing the counters while the gang reacts in one repeated line."
+    },
+    {
+      "date": "2026-11-10",
+      "pattern": "Friends' baraat entry performance",
+      "source": "Groom's friends enter wedding venue with a performance on 'Guladi Sadi', video goes viral (freepressjournal.in)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.freepressjournal.in/viral/grooms-friend-enter-wedding-venue-with-performance-on-guladi-sadi-video-goes-viral",
+      "learn": "A group that rehearses one big entry for a shaadi is the viral beat; for games, a baraat dance that freezes into a shaadi pose on the host's call."
+    },
     {
       "date": "2026-11-09",
       "pattern": "Festival window: Chhath 13-16 Nov + Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21, 24, 25, 26 Nov",
