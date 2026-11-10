@@ -10757,6 +10757,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/joota-chupai-shaadi-season-kitty-party-game",
       "queue_id": "19048949-4192-4db0-831e-e9b7651a30ab",
       "scheduled_ist": "2026-11-10 17:03"
+    },
+    {
+      "id": "KGI-021",
+      "n": 21,
+      "created": "2026-11-10",
+      "game": "Baraat Freeze",
+      "tagline": "Gaana ruka, pose banao!",
+      "players": "8 to 20",
+      "time": "10 to 15 minutes",
+      "slug": "baraat-freeze-shaadi-season-kitty-party-game",
+      "caption": "Baraat ka gaana bajega, phir host bolegi \"Phere chaar!\" aur 5 second mein group banana hai. Mascot pe hansi toh out! Aapki kitty mein sabse pehle kaun out hoga?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/baraat-freeze-shaadi-season-kitty-party-game",
+      "queue_id": "24b867ca-9f0f-4d25-a8ac-4e0bc95b8e44",
+      "scheduled_ist": "2026-11-11 16:20"
     }
   ],
   "research": [
