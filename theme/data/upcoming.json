@@ -1,98 +1,6 @@
 {
- "updated": "2026-11-10T17:10:53.882Z",
+ "updated": "2026-11-10T23:38:06.069Z",
  "days": [
-  {
-   "date": "2026-11-10",
-   "day": "Tue, 10 Nov",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "9 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "patakharaat",
-    "name": "Patakha Raat",
-    "pack": "themes/patakharaat/v1",
-    "sounds": "sounds/patakharaat/v1",
-    "colors": {
-     "accent": "#E8641E",
-     "accentDeep": "#A8400A",
-     "gameInk": "#F2FEFF"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Chakri",
-      "points": 50,
-      "numbers": 5
-     },
-     {
-      "name": "Rocket",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Anaar",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Phuljhadi",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_11",
-      "gh_12",
-      "gh_0",
-      "gh_1",
-      "gh_2",
-      "gh_3",
-      "gh_4",
-      "gh_5",
-      "gh_6",
-      "gh_7",
-      "gh_8",
-      "gh_9",
-      "gh_10"
-     ],
-     "housie": [
-      "gs_8",
-      "gs_9",
-      "gs_0",
-      "gs_1",
-      "gs_2",
-      "gs_3",
-      "gs_4",
-      "gs_5",
-      "gs_6",
-      "gs_7"
-     ],
-     "mascotBall": [
-      "sc_3",
-      "sc_0",
-      "sc_1",
-      "sc_2"
-     ],
-     "particles": [
-      "gh_13",
-      "fx_5"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-11-11",
    "day": "Wed, 11 Nov",
@@ -186,6 +94,20 @@
   {
    "date": "2026-11-12",
    "day": "Thu, 12 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "9 PM",
+    "11 PM"
+   ],
+   "theme": null
+  },
+  {
+   "date": "2026-11-13",
+   "day": "Fri, 13 Nov",
    "times": [
     "12:30 AM",
     "12 PM",
