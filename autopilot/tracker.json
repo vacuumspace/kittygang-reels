@@ -8921,6 +8921,162 @@
       "yt_id": "1Q6qhvaw8mA",
       "yt_url": "https://youtube.com/shorts/1Q6qhvaw8mA",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-10-b",
+      "created": "2026-11-10",
+      "title": "Costume aapke ghar se!",
+      "format": "POV, you are the host; the gang builds their kids' Children's Day costumes out of your living room, a costume counter chip every shot",
+      "hook": "",
+      "cast": [
+        "Myra",
+        "Ruhi",
+        "Tanya"
+      ],
+      "caption": "Fancy dress school ka, costume host ke ghar ka. Tag the friend jiske ghar se costume banta hai!",
+      "status": "needs-fix",
+      "idea": "Children's Day fancy dress notice lands mid-kitty; the gang turns the host's dupatta, cushion cover and curtains into costumes, then the host's own son needs a tree costume, the one Myra already made from her curtains.",
+      "beats": "hook: kal fancy dress compulsory / setup: costume inke ghar se / esc: dupatta = Jhansi ki Rani, orange cushion = gaajar, parde + gamla = ped / twist: your son texts, mujhe ped banna hai / button: Myra hugs the curtain tree, 'Costume compulsory hai! Apna banao!'",
+      "experiment": {
+        "type": "pov",
+        "hook": "Myra, phone in hand, panics straight into the lens 'Haaw! Kal fancy dress compulsory!' with the Housie cage still running and chip 'AAP HOST HO · COSTUMES: 0/3', so the viewer is the host from frame one",
+        "variable": "a POV where the viewer's own house is the stake (things disappear from your living room every shot and the chip counts up) instead of food, with a timely Children's Day hook",
+        "hypothesis": "a real school-notice panic that mothers live this week gets skip under 45% (POV best 50%) and watched over 40% at about 26 s, with at least 3 shares from 'Tag the friend jiske ghar se costume banta hai'"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw! Kal fancy dress compulsory!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Costume kahan se?!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre, inke ghar se!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sab kuch hai yahan!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Yeh dupatta! Jhansi ki Rani!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Waah!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Orange cushion cover. Gaajar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Gaajar?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera beta... ped banega.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ped? Kaise?",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Inke parde! Aur gamla!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Parde bhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ho gaya! Thank you!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ped? Mera hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Inke parde, inka gamla!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Costume compulsory hai! Apna banao!",
+          "beat": "button"
+        }
+      ],
+      "duration": 30.55,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Type pov (last 4: types-of, door-arrivals, map-journey x2; LEARNINGS asks for pov next). Idea from the bank (Children's Day costume, score 9), adapted so the viewer is the host whose house gets used up; Children's Day is 14 Nov so the school notice is live this week. Game played three times: dupatta (ordinary), cushion cover as gaajar (sillier), curtains plus gamla as ped (absurd). Claim before reveal: they cheer 'Ho gaya!' before your son's text, and Myra shouts 'Mera hai!' before the catch lands. Twist is a see-it phone message. Button repeats Myra's opening line, now smug and aimed at you. Endings tried: gang offers to make one from your saree (repeats the game, weaker), Aditi 'Har saal yahi hota hai' (not in scene), Myra keeps the tree (kept, loops). Lead on screen is Myra, not Shruti (last reel). 3 characters, every two-line shot 8 words or fewer with hold 0.1, about 26 s at pace 28. Kind humour, no money troubles."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.27 w/s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-10-b-board.jpg"
     }
   ],
   "ideas": [
