@@ -7523,7 +7523,7 @@
         "Avika"
       ],
       "caption": "Diwali ke baad sabki diet shuru. Bas ek ke baad. Tag the friend jo 'diet hai' bolke sabse zyada kha jaati hai!",
-      "status": "queued",
+      "status": "published",
       "idea": "First kitty after Diwali: you, the host, pass round the leftover kaju katli; every guest swears she is on a diet and takes more than the last; the box hits zero and late Avika walks in with two more boxes.",
       "beats": "hook: Megha 'Hatao! Diwali ke baad diet hai!' / setup: chip 12 left, she takes one 'cheat day' / esc: Megha 1, Shruti 2 'paise vasool', Megha 4 more 'kaju protein hai' / turn: box at 0, diet starts, doorbell: Avika with two more boxes / button: both repeat the opening line, Megha 'bas ek'",
       "experiment": {
@@ -7698,7 +7698,9 @@
       "scheduled_ist": "2026-11-11 13:07",
       "yt_id": "AFykqFCHBdg",
       "yt_url": "https://youtube.com/shorts/AFykqFCHBdg",
-      "yt_privacy": "private"
+      "yt_privacy": "private",
+      "permalink": "https://www.instagram.com/reel/Dfl94GplQD5/",
+      "media_id": "18075884339592749"
     },
     {
       "id": "TH-2026-11-07",
@@ -11393,7 +11395,7 @@
       "time": "10 to 15 minutes",
       "slug": "baraat-freeze-shaadi-season-kitty-party-game",
       "caption": "Baraat ka gaana bajega, phir host bolegi \"Phere chaar!\" aur 5 second mein group banana hai. Mascot pe hansi toh out! Aapki kitty mein sabse pehle kaun out hoga?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-021/board.jpg",
       "image_urls": [
@@ -11410,7 +11412,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/baraat-freeze-shaadi-season-kitty-party-game",
       "queue_id": "24b867ca-9f0f-4d25-a8ac-4e0bc95b8e44",
-      "scheduled_ist": "2026-11-11 16:20"
+      "scheduled_ist": "2026-11-11 16:20",
+      "permalink": "https://www.instagram.com/p/DfmTze6AkCn/",
+      "media_id": "18360823876171366"
     },
     {
       "id": "KGI-022",
