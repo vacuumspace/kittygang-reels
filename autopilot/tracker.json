@@ -11250,6 +11250,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/baraat-freeze-shaadi-season-kitty-party-game",
       "queue_id": "24b867ca-9f0f-4d25-a8ac-4e0bc95b8e44",
       "scheduled_ist": "2026-11-11 16:20"
+    },
+    {
+      "id": "KGI-022",
+      "n": 22,
+      "created": "2026-11-11",
+      "game": "Geeli Mehendi",
+      "tagline": "Haath mein moze, kaam poora!",
+      "players": "8 to 20 (rounds of 4)",
+      "time": "10 to 15 minutes",
+      "slug": "geeli-mehendi-challenge-shaadi-kitty-party-game",
+      "caption": "Mehendi geeli hai, haathon pe moze hain, aur 1 minute mein toffee, clip aur Housie, teeno karne hain! Aapki kitty mein sabse fast dulhan kaun?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/geeli-mehendi-challenge-shaadi-kitty-party-game",
+      "queue_id": "de2a06c4-5122-4dc5-a5e8-b19604c88b8e",
+      "scheduled_ist": "2026-11-12 16:11"
     }
   ],
   "research": [
