@@ -1,0 +1,1000 @@
+{
+  "id": "KG-2026-11-11-b",
+  "title": "Chalees counter, khaaya kya?",
+  "format": "Musical: Housie table, Ruhi back from a shaadi brags about live counters and the whole kitty sings 'Yeh normal hai!' after every one, a pinned 'khaaya kya?' chip",
+  "idea": "Ruhi brags about a shaadi with 40 live counters; the gang shrugs in chorus at each one; her own late-night group message shows she stood in lines, ate nothing and made Maggi at home, so the kitty's one samosa counter wins.",
+  "logline": "Ruhi brags that last night's shaadi had 40 live counters, the gang keeps singing 'yeh normal hai', and then her own message from last night shows she ate nothing and made Maggi at home.",
+  "game": "every counter Ruhi brags about gets the sung chorus 'Yeh normal hai!', ordinary (live jalebi), ordinary (momos in a silver thaal), absurd (gol gappe in a chocolate fountain, the chorus cracks), then flipped on what she actually ate",
+  "experiment": {
+    "type": "musical",
+    "hook": "Housie cage spinning, Ruhi bounces with her phone 'Kal shaadi mein chalees counter the!' with chip 'COUNTERS: 40 · RUHI NE KHAAYA: ?' pinned, so the question (what did she eat?) is on screen from frame one",
+    "variable": "second musical test: a sung group chorus 'Yeh normal hai!' after every brag, this time on a shaadi-season topic and a pinned question chip, kept to about 28 s (the first musical was 40 s)",
+    "hypothesis": "the musical opening held best of the non-door types (skip 44.7%); a timely shaadi buffet brag plus a shorter cut gets skip under 42% and watched over 35%, and the 'came home hungry from a 40 counter shaadi' truth earns 3+ shares"
+  },
+  "mute": [
+    "Housie at Tanya's, Ruhi excited with her phone, chip COUNTERS: 40 · RUHI NE KHAAYA: ?",
+    "Tanya and Megha clap and sing back, unimpressed",
+    "Ruhi lists live jalebi and dosa, a jalebi plate pops up, Megha drools",
+    "chorus again, clapping",
+    "Ruhi brags about momos in a silver thaal, a thali pops up, Tanya stunned",
+    "Tanya repeats it, chorus again",
+    "Ruhi smug: gol gappe in a chocolate fountain, exclamation",
+    "Megha confused, the chorus cracks into a question, record scratch",
+    "Megha asks what she ate, Ruhi beams: everything",
+    "the group chat: Ruhi's own messages from 11:40 PM, two hours in line, food finished, making Maggi at home, chip KHAAYA: MAGGI",
+    "Ruhi caught and sweating, Tanya laughing",
+    "Megha slides the kitty samosa plate to her, chip RUHI: BHOOKHI",
+    "Ruhi happily eating samosas: one counter, full stomach, chip RUHI: KHUSH",
+    "the whole kitty sings the chorus one last time, laughing, freeze"
+  ],
+  "beats": "hook: Kal shaadi mein chalees counter the / esc: live jalebi, momos in a silver thaal, gol gappe in a chocolate fountain, each with the chorus Yeh normal hai / turn: Sab kuch! then her own 11:40 PM message: ghar aake Maggi / button: kitty ka ek counter, live samosa, pet full, chorus once more",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 4,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 49,
+    "notes": "Type musical (not in the last 4: map-journey, door-arrivals, types-of, pov, pov). Adapted from the bank idea 'Yeh normal hai' shaadi buffet review; the Parle-G ending was weak, so the twist is now a see-it chat screen (her own message last night: two hours in line, food over, Maggi at home), the same 'own message' reveal that powered the door winner. Lead Ruhi (last lead Myra), Megha the food lover as the asker, Tanya as host. Claim before reveal: 'Sab kuch!' right before the screen. The chorus cracks on the absurd beat (Yeh normal hai?!) which is the third-beat laugh. Real kitty scene: Housie running, a friend back from a big shaadi. Button mirrors the opening: 40 counters, ate nothing / one kitty counter, pet full. Endings tried: Ruhi invites them to the next shaadi (flat), the host's Parle-G counter (no twist), kept the Maggi message. Pipeline: every shot 8 words or fewer, holds 0.05-0.1, pace 34, about 79 words, 14 shots, about 28 s. Kind humour, no money or body jokes."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 0.9,
+    "title": [
+      "Chalees counter,",
+      "khaaya kya?"
+    ],
+    "titleY": 330
+  },
+  "caption": "Shaadi mein chalees counter, ghar aake Maggi. Har shaadi season ki sabse sachchi kahaani. Tag the friend jo buffet ki line mein hi reh jaati hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#housie",
+    "#ladieskitty",
+    "#shaadiseason",
+    "#kittypartyfun",
+    "#weddingbuffet"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 34,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile"
+        },
+        {
+          "name": "Megha",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 920,
+          "y": 1480,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1560,
+          "s": 0.9
+        },
+        {
+          "name": "Samosa plate",
+          "x": 540,
+          "y": 1650,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 330,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        },
+        {
+          "at": 0.3,
+          "name": "ding",
+          "vol": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kal shaadi mein chalees counter the!",
+          "say": "कल शादी में चालीस काउंटर थे!",
+          "gap": 0.04,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 620,
+          "y": 1580,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.5,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Yeh normal hai!",
+          "say": "ये नॉर्मल है!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "chars": [
+        {
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "name": "Ruhi",
+          "pose": "talkR",
+          "mouth": "laugh",
+          "eyes": "open"
+        },
+        {
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "name": "Megha",
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        }
+      ],
+      "hold": 0.05,
+      "props": [
+        {
+          "name": "Fafda jalebi",
+          "x": 540,
+          "y": 1300,
+          "s": 0.9,
+          "at": 0
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Live jalebi! Live dosa!",
+          "say": "लाइव जलेबी! लाइव डोसा!",
+          "gap": 0.03,
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Haaye, jalebi!",
+          "say": "हाये, जलेबी!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 620,
+          "y": 1580,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.5,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Yeh normal hai!",
+          "say": "ये नॉर्मल है!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "chars": [
+        {
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "name": "Ruhi",
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "name": "Tanya",
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "hold": 0.05,
+      "props": [
+        {
+          "name": "Thali",
+          "x": 540,
+          "y": 1300,
+          "s": 0.9,
+          "at": 0
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 540,
+          "y": 1150,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Paan shots! Chaandi ki thaal mein momos!",
+          "say": "पान शॉट्स! चाँदी की थाल में मोमोज़!",
+          "gap": 0.03,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 620,
+          "y": 1580,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.5,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Thaal mein momos?!",
+          "say": "थाल में मोमोज़?!",
+          "gap": 0.03
+        },
+        {
+          "who": "ALL",
+          "text": "Yeh normal hai!",
+          "say": "ये नॉर्मल है!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "chars": [
+        {
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "name": "Ruhi",
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "hop": true
+        },
+        {
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "name": "Megha",
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "hold": 0.05,
+      "camera": "push",
+      "props": [
+        {
+          "name": "Pani puri",
+          "x": 540,
+          "y": 1300,
+          "s": 0.9,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 880,
+          "y": 880,
+          "at": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Chocolate fountain mein gol gappe!",
+          "say": "चॉकलेट फाउंटेन में गोल गप्पे!",
+          "gap": 0.04,
+          "beat": "escalation",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Megha",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 620,
+          "y": 1580,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "scratch",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.1,
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 820,
+          "y": 880,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Gol gappe chocolate mein?!",
+          "say": "गोल गप्पे चॉकलेट में?!",
+          "gap": 0.03
+        },
+        {
+          "who": "ALL",
+          "text": "Yeh normal hai?!",
+          "say": "ये नॉर्मल है?!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: ?",
+      "chars": [
+        {
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "name": "Ruhi",
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "name": "Megha",
+          "pose": "talkL",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "hold": 0.05,
+      "props": [
+        {
+          "name": "Samosa plate",
+          "x": 540,
+          "y": 1600,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Toh tumne kya khaaya?",
+          "say": "तो तुमने क्या खाया?",
+          "gap": 0.03,
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Sab kuch!",
+          "say": "सब कुछ!",
+          "gap": 0.05
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "music": false,
+      "chipY": 200,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: MAGGI",
+      "chat": [
+        [
+          "Ruhi",
+          "Line mein do ghante khadi rahi",
+          0,
+          "11:40 PM",
+          0
+        ],
+        [
+          "Ruhi",
+          "Khaana khatam ho gaya",
+          0,
+          "11:41 PM",
+          0.35
+        ],
+        [
+          "Ruhi",
+          "Ghar aake Maggi bana rahi hoon",
+          0,
+          "11:58 PM",
+          0.7
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.6
+        },
+        {
+          "at": 0.7,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Yeh kal raat ka message hai!",
+          "say": "ये कल रात का मैसेज है!",
+          "gap": 0.04,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.3
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "COUNTERS: 40 · RUHI NE KHAAYA: MAGGI",
+      "chars": [
+        {
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "name": "Ruhi",
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "name": "Tanya",
+          "pose": "talkL",
+          "mouth": "laugh",
+          "eyes": "open",
+          "hop": true
+        }
+      ],
+      "hold": 0.05,
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 380,
+          "y": 880,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Line bahut lambi thi!",
+          "say": "लाइन बहुत लंबी थी!",
+          "gap": 0.03,
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Aur ghar pe Maggi?!",
+          "say": "और घर पे मैगी?!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "chip": "KITTY COUNTERS: 1 · RUHI: BHOOKHI",
+      "chars": [
+        {
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "name": "Megha",
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "x": 800,
+          "y": 1740,
+          "s": 2.1,
+          "turn": -0.4,
+          "name": "Ruhi",
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "hold": 0.05,
+      "front": true,
+      "props": [
+        {
+          "name": "Samosa plate",
+          "x": 520,
+          "y": 1620,
+          "s": 1.2,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "slideup",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Kitty ka ek counter. Live samosa!",
+          "say": "किटी का एक काउंटर। लाइव समोसा!",
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "KITTY COUNTERS: 1 · RUHI: KHUSH",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1760,
+          "s": 2.25,
+          "turn": 0,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Samosa plate",
+          "x": 820,
+          "y": 1620,
+          "s": 1.1
+        },
+        {
+          "name": "Cutting chai",
+          "x": 260,
+          "y": 1620,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 780,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kitty mein ek counter, pet full!",
+          "say": "किटी में एक काउंटर, पेट फुल!",
+          "gap": 0.04,
+          "beat": "button",
+          "punch": true
+        }
+      ],
+      "hold": 0.05
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "HOUSIE NIGHT",
+      "chipY": 600,
+      "front": true,
+      "chip": "KITTY COUNTERS: 1 · RUHI: KHUSH",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Megha",
+          "x": 820,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Samosa plate",
+          "x": 540,
+          "y": 1600,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.5
+        },
+        {
+          "at": 0.5,
+          "name": "clap",
+          "vol": 0.5
+        },
+        {
+          "at": 1.1,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.5,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Yeh normal hai!",
+          "say": "ये नॉर्मल है!",
+          "gap": 0.12,
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
