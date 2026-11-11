@@ -10019,7 +10019,7 @@
       "format": "Carousel: game card, frozen katori close-up, the Thand pass twist, rules, winner slide",
       "source": "Trend: Coins frozen in ice (venuelook.com) + first cold weeks of November",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-04",
@@ -10028,7 +10028,7 @@
       "format": "Carousel: game card, sample question slips, scoring example, the chashma twist, winner slide",
       "source": "Trend: Tag your Ghar ki Raunak (our reel, 11 shares) + Multi-character debate (fluxnote.io)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-04",
@@ -10217,7 +10217,7 @@
       "format": "Housie-in-progress sitcom + phone message screens, living room then kitchen, money chip every shot, 3 characters per shot; caption 'Kitty ka prize kahan chhupati ho? Tag the friend with the atta dabba bank'",
       "source": "Trend: Ticket in the wife's name (Kullu Tambola reel, 840 likes) + Housie money fight",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-08",
@@ -10360,6 +10360,60 @@
       "idea": "Ek sweater, poori kitty: the host brings one big old cardigan with buttons; in a relay, each lady must put it on, button every button, say \"Mummy, ab thand nahi lag rahi!\", unbutton, take it off and pass it on. Crazy twist: when the host shouts \"Ulta!\" the next lady must wear it inside out and back to front, and when she shouts \"Monkey cap!\" she also pulls on a cap and keeps it for the rest of her turn. Fastest team wins. 8 to 20 ladies in two teams, 10 minutes.",
       "format": "Carousel: slide 1 'Sardi ki kitty party game' with a lady in a back-to-front cardigan mid-button, the relay line, the Ulta twist, winning team",
       "source": "Trend: First winter kitty + Ugly sweater winter party + Household dexterity one-minute games",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-11",
+      "type": "reel",
+      "idea": "Hook: Housie running, Ruhi leans into the lens and whispers: \"Shruti ka phone band hai... aur kitty ka paisa usi ke paas hai.\" chip 'POT: Rs 28,000 · SHRUTI: OFFLINE'. Context: on every called number Tanya and Myra add one wilder theory (Goa ticket, new gold set, 'cousin ka business'), each with a phone screen as proof that turns out to be something else. Ending: Shruti bursts in with the envelope and an FD receipt: \"Bank mein daal diya, saat percent!\" and all three shout together: \"Humse poocha?!\"",
+      "format": "Whisper-hook Housie sitcom, theory chip changes every shot",
+      "source": "Trend: Whisper secret hook (TH-2026-11-10, skip 55.8%) + Who holds the kitty money (4800 likes)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-11",
+      "type": "reel",
+      "idea": "Hook: day-after-sangeet kitty, Housie running, Tanya, Ruhi and Myra sit with both palms of wet mehendi held up: \"Ticket kaun katega?\" Context: Shruti, the only one without mehendi, cuts all three tickets as they shout numbers at her, chip 'TICKETS: 4 · HAATH: 2'. Ending: Shruti claims Full House, then stares: she cut all the numbers on Myra's ticket, and Myra wins without lifting a finger, mehendi palms up in a victory pose.",
+      "format": "Housie-in-progress sitcom, shaadi season",
+      "source": "Trend: Festival window shaadi dates 21-26 Nov (10-15 days, +2) + Shaadi function colour codes",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-11",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door in a red saree holding the kitty pot: \"Fire and ice kitty! Laal ya safed, beech ka nahi chalega!\" Context: one guest per ring, chip 'TEAM AAG: 1 · TEAM BARF: 0', Ruhi in white wins ice, Myra flips her shawl to switch to the winning side, Shruti arrives in pink and argues it is 'halki aag'. Ending: Tanya's own ice block centrepiece has melted into a puddle at her feet and the gang points: \"Team barf toh tumhari hi doob gayi!\"",
+      "format": "Door-arrivals (rule + one guest per ring + host breaks her own rule)",
+      "source": "Trend: Fire and ice theme kitty (partystuff.in) + Host breaks her own rule (door reels 6031 and 2716 views)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-11",
+      "type": "game",
+      "idea": "Geeli mehendi challenge: each lady wears a pair of socks on her hands as 'wet mehendi' and in 1 minute must unwrap a toffee, open a safety pin and pin her dupatta, and cut 3 numbers on a Housie ticket with a pen. Crazy twist: when the host shouts \"Mehendi kharab!\" everyone must freeze palms up for 5 seconds, and anyone who touches anything starts again. 8 to 20 ladies in rounds of 4, 10 to 15 minutes.",
+      "format": "Carousel: slide 1 'Shaadi season kitty game' with a lady in socks on her hands fighting a toffee wrapper, the 3 tasks, the freeze twist, the winner",
+      "source": "Trend: Festival window shaadi dates 21-26 Nov (10-15 days, +2) + Household dexterity one-minute games",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-11",
+      "type": "game",
+      "idea": "Kitty ka hisaab: the host reads a fast running kitty hisaab aloud once (\"Ruhi ne 2000 diye, Myra ke 500 pending, cake 650, Shruti ne 1000 diye...\") and every lady writes the final balance on paper with no calculator. Crazy twist: halfway through, the host stops and asks 'Kiske kitne pending hain?' and pending ladies must answer before she continues; the closest final number wins the bonus chit. 8 to 20 ladies, 3 rounds, 10 minutes.",
+      "format": "Carousel: slide 1 'Kitty hisaab game, calculator mana hai' with a lady scribbling sums, the read-aloud list, the twist, the answer slide",
+      "source": "Trend: Who holds the kitty money (4800 likes) + Housie money fight",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-11",
+      "type": "game",
+      "idea": "Aag aur barf: chairs in a circle, one less than the players, half covered with a red dupatta and half with a white one. Play music; when it stops the host shouts \"Aag!\" or \"Barf!\" and ladies may only sit on that colour, and anyone left standing is out. Crazy twist: on \"Toofan!\" everyone must swap shawl or dupatta with the lady on her right before she sits. 8 to 20 ladies, 10 to 15 minutes.",
+      "format": "Carousel: slide 1 'Winter kitty game: Aag aur barf' with a lady mid-dive onto a red chair, the setup, the colour call, the Toofan twist",
+      "source": "Trend: Fire and ice theme kitty (partystuff.in) + First winter kitty",
       "score": 8,
       "used": ""
     }
@@ -11199,6 +11253,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-11",
+      "pattern": "Festival window: Chhath 13-16 Nov + Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov",
+      "source": "November 2026 festivals state-wise in India (hindutone.com) + Tulsi Vivah 2026 (dekhopanchang.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/november-2026-festivals-state-wise-india/",
+      "learn": "Chhath (2-5 days) is too close for +2; Tulsi Vivah (10 days), Gurpurab (13) and the 21-26 Nov shaadi dates get +2; nothing new lands before 2 Dec, so shaadi season and first winter carry the window."
+    },
+    {
+      "date": "2026-11-11",
+      "pattern": "Whisper secret hook",
+      "source": "Our theme reel 'Kisi ko mat batana' (TH-2026-11-10): 108 views, skip 55.8% vs 83% on the two before it",
+      "likes": 1,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfiBSFnCT-H/",
+      "learn": "A secret whispered straight to the viewer in the first frame cut skip by 27 points; open on a lean-in whisper with the stake already on screen."
+    },
+    {
+      "date": "2026-11-11",
+      "pattern": "Who holds the kitty money",
+      "source": "A 49-year-old woman ... arrested for allegedly cheating her social circle of over Rs 5 crore (kitty party news post)",
+      "likes": 4800,
+      "comments": 31,
+      "link": "https://www.instagram.com/p/DL_X0U7urX9/",
+      "learn": "Kitty money trust is a nerve every group has; play it as light suspicion of our own hisaab-keeper that resolves warmly, never a real case or a real person."
+    },
+    {
+      "date": "2026-11-11",
+      "pattern": "Fire and ice theme kitty",
+      "source": "Decorations for Fire Ice Kitty Party (partystuff.in)",
+      "likes": null,
+      "comments": null,
+      "link": "https://partystuff.in/posts/decorations-for-fire-ice-kitty-party",
+      "learn": "A two-colour winter theme (red vs white) splits the gang into teams on sight, so every shot shows a side without a word."
+    },
+    {
+      "date": "2026-11-11",
+      "pattern": "One continuous follow shot",
+      "source": "Delhi Metro new reel trend (theprint.in Viral Spiral)",
+      "likes": null,
+      "comments": null,
+      "link": "https://theprint.in/opinion/viral-spiral/delhi-metro-new-reel-trend-nikhil-kochar-influencers-losing-phones/3034405/",
+      "learn": "Low-budget jugaad tracking shots are this season's craze; a camera that follows one character through the house past each friend can replace hard cuts in the middle."
+    },
     {
       "date": "2026-11-10",
       "pattern": "Festival window: Children's Day 14 Nov + Chhath 13-16 Nov + Tulsi Vivah 21 Nov + Gurpurab 24 Nov + shaadi dates 21-26 Nov + Kal Bhairav Ashtami 30 Nov",
