@@ -1,0 +1,646 @@
+{
+  "id": "KG-2026-11-11-a",
+  "title": "Costume aapke ghar se!",
+  "format": "POV, you are the host; the gang builds their kids' Children's Day costumes out of your living room, a costume counter chip every shot",
+  "idea": "Children's Day fancy dress notice lands mid-kitty; the gang turns the host's dupatta, cushion cover and curtains into costumes, then the host's own son needs a tree costume, the one Myra already made from her curtains.",
+  "logline": "You are hosting kitty when the school says fancy dress tomorrow, your friends make three costumes from your house, and then your own son asks to be a tree, which Myra has already made out of your curtains.",
+  "game": "every friend grabs one more thing from your house for her kid's costume",
+  "experiment": {
+    "type": "pov",
+    "hook": "Myra, phone in hand, panics straight into the lens 'Haaw! Kal fancy dress compulsory!' with the Housie cage still running and chip 'AAP HOST HO · COSTUMES: 0/3', so the viewer is the host from frame one",
+    "variable": "a POV where the viewer's own house is the stake (things disappear from your living room every shot and the chip counts up) instead of food, with a timely Children's Day hook",
+    "hypothesis": "a real school-notice panic that mothers live this week gets skip under 45% (POV best 50%) and watched over 40% at about 26 s, with at least 3 shares from 'Tag the friend jiske ghar se costume banta hai'"
+  },
+  "mute": [
+    "Myra panics at the camera with a phone, Housie cage behind, chip AAP HOST HO · COSTUMES: 0/3",
+    "Ruhi and Tanya point at the camera and around the room: the costumes will come from your house",
+    "Ruhi holds up a dupatta from the hanger, chip COSTUMES: 1/3",
+    "Tanya holds an orange cushion, Myra stunned, chip AAP HOST HO · COSTUMES: 2/3",
+    "Myra looks at the curtains and plant, they vanish, chip COSTUMES: 3/3, Ruhi shocked",
+    "all three cheer and wave thank you at the camera, room now bare",
+    "your phone: a message from Beta, kal mera fancy dress, mujhe PED banna hai",
+    "Myra hugs a tree made of curtains and a plant, Ruhi and Tanya shocked, chip AAPKA: 0/1",
+    "Myra smug at the camera, same opening line flipped at you, chip COSTUMES: 3/3 · AAPKA: 0/1"
+  ],
+  "beats": "hook: kal fancy dress compulsory / setup: costume inke ghar se / esc: dupatta = Jhansi ki Rani, orange cushion = gaajar, parde + gamla = ped / twist: your son texts, mujhe ped banna hai / button: Myra hugs the curtain tree, 'Costume compulsory hai! Apna banao!'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Fix of KG-2026-11-10-b (QA: voice pace 2.27 w/s, needs 2.3). Same script and experiment; pace 28 to 32, the slow one-word reactions now carry more words (Waah! Kya baat!, Gaajar?! Sach mein?!, Ped? Woh kaise banega?), the pause in Mera beta... ped banega removed, phone shot 2.2 to 1.9 s. Every two-line shot still 8 words or fewer. Type pov (last 4: types-of, door-arrivals, map-journey x2; LEARNINGS asks for pov next). Idea from the bank (Children's Day costume, score 9), adapted so the viewer is the host whose house gets used up; Children's Day is 14 Nov so the school notice is live this week. Game played three times: dupatta (ordinary), cushion cover as gaajar (sillier), curtains plus gamla as ped (absurd). Claim before reveal: they cheer 'Ho gaya!' before your son's text, and Myra shouts 'Mera hai!' before the catch lands. Twist is a see-it phone message. Button repeats Myra's opening line, now smug and aimed at you. Endings tried: gang offers to make one from your saree (repeats the game, weaker), Aditi 'Har saal yahi hota hai' (not in scene), Myra keeps the tree (kept, loops). Lead on screen is Myra, not Shruti (last reel). 3 characters, every two-line shot 8 words or fewer with hold 0.1, about 26 s at pace 28. Kind humour, no money troubles."
+  },
+  "cover": {
+    "shot": 7,
+    "at": 0.8,
+    "title": [
+      "Kal fancy dress hai!",
+      "Costume aapke ghar se"
+    ],
+    "titleY": 330
+  },
+  "caption": "Fancy dress school ka, costume host ke ghar ka. Tag the friend jiske ghar se costume banta hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#childrensday",
+    "#fancydress",
+    "#ladieskitty",
+    "#momlife",
+    "#kittypartyfun"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 32,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "chip": "AAP HOST HO · COSTUMES: 0/3",
+      "front": true,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0,
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 860,
+          "y": 1700,
+          "s": 2.2
+        },
+        {
+          "name": "Phone + notification",
+          "x": 300,
+          "y": 1100,
+          "s": 1.4,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 780,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.35
+        },
+        {
+          "at": 0.2,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Haaw! Kal fancy dress compulsory!",
+          "say": "हाव! कल फ़ैंसी ड्रेस कंपल्सरी!",
+          "beat": "hook"
+        },
+        {
+          "who": "Myra",
+          "text": "Costume kahan se?!",
+          "say": "कॉस्ट्यूम कहाँ से?!",
+          "gap": 0.05
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "AAP HOST HO · COSTUMES: 0/3",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "side",
+          "turn": 0.2
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.2
+        }
+      ],
+      "props": [
+        {
+          "name": "Window with curtains",
+          "x": 540,
+          "y": 1080,
+          "s": 1.6
+        },
+        {
+          "name": "Cushions",
+          "x": 560,
+          "y": 1700,
+          "s": 1.6
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 330,
+          "y": 820,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Arre, inke ghar se!",
+          "say": "अरे, इनके घर से!",
+          "beat": "setup"
+        },
+        {
+          "who": "Tanya",
+          "text": "Sab kuch hai yahan!",
+          "say": "सब कुछ है यहाँ!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "chip": "AAP HOST HO · COSTUMES: 1/3",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "open",
+          "turn": 0,
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Saree on hanger",
+          "x": 820,
+          "y": 1250,
+          "s": 1.8,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "swish",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Yeh dupatta! Jhansi ki Rani!",
+          "say": "यह दुपट्टा! झाँसी की रानी!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Waah! Kya baat!",
+          "say": "वाह! क्या बात!",
+          "gap": 0.03
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "AAP HOST HO · COSTUMES: 2/3",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.4
+        },
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Cushions",
+          "x": 330,
+          "y": 1250,
+          "s": 1.7,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 800,
+          "y": 880,
+          "at": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Orange cushion cover. Gaajar!",
+          "say": "ऑरेंज कुशन कवर। गाजर!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Gaajar?! Sach mein?!",
+          "say": "गाजर?! सच में?!",
+          "gap": 0.03,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "chip": "AAP HOST HO · COSTUMES: 2/3",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "side",
+          "turn": 0.6
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "open",
+          "turn": -0.4
+        }
+      ],
+      "props": [
+        {
+          "name": "Window with curtains",
+          "x": 700,
+          "y": 1080,
+          "s": 1.7
+        },
+        {
+          "name": "Indoor plant",
+          "x": 940,
+          "y": 1720,
+          "s": 1.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Mera beta ped banega!",
+          "say": "मेरा बेटा पेड़ बनेगा!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ped? Woh kaise banega?",
+          "say": "पेड़? वो कैसे बनेगा?",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "chip": "AAP HOST HO · COSTUMES: 3/3",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 330,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.4,
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1760,
+          "s": 2,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 330,
+          "y": 1300,
+          "s": 1.5,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 820,
+          "y": 880,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "rip",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Inke parde! Aur gamla!",
+          "say": "इनके पर्दे! और गमला!",
+          "beat": "escalation",
+          "punch": true
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Parde bhi?!",
+          "say": "हाव! पर्दे भी?!",
+          "gap": 0.03
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "still",
+      "chip": "AAP HOST HO · COSTUMES: 3/3",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 230,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0.2
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1720,
+          "s": 1.9,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": 0,
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 860,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "turn": -0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "clap",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ho gaya! Thank you!",
+          "say": "हो गया! थैंक यू!",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "set": "living",
+      "title": "Beta",
+      "camera": "still",
+      "music": false,
+      "chip": "AAP HOST HO · AAPKA COSTUME: ?",
+      "chipY": 200,
+      "dur": 1.9,
+      "chat": [
+        [
+          "Beta",
+          "Mummy! Kal mera bhi fancy dress hai!",
+          0,
+          "6:40 PM",
+          0.1
+        ],
+        [
+          "Beta",
+          "Mujhe PED banna hai!",
+          0,
+          "6:40 PM",
+          0.8
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "chip": "AAP HOST HO · AAPKA: 0/1",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 230,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0.5
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1720,
+          "s": 1.95,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open",
+          "turn": 0
+        },
+        {
+          "name": "Tanya",
+          "x": 860,
+          "y": 1760,
+          "s": 1.8,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 540,
+          "y": 1330,
+          "s": 1.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ped? Mera hai!",
+          "say": "पेड़? मेरा है!",
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Inke parde, inka gamla!",
+          "say": "इनके पर्दे, इनका गमला!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.6,
+      "camera": "push",
+      "chip": "AAP HOST HO · COSTUMES: 3/3 · AAPKA: 0/1",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1760,
+          "s": 2.3,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "half",
+          "turn": 0
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 540,
+          "y": 1330,
+          "s": 1.8
+        },
+        {
+          "name": "Housie cage",
+          "x": 870,
+          "y": 1700,
+          "s": 2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Costume compulsory hai! Apna banao!",
+          "say": "कॉस्ट्यूम कंपल्सरी है! अपना बनाओ!",
+          "beat": "button",
+          "punch": true
+        }
+      ]
+    }
+  ]
+}
