@@ -1,0 +1,877 @@
+{
+  "id": "KGI-023",
+  "n": 23,
+  "slug": "tulsi-vivah-thaal-blindfold-kitty-party-game",
+  "game": "Tulsi Vivah Thaal",
+  "tagline": "Aankh band, thaal sajao!",
+  "cover_art": [
+    {
+      "k": "person",
+      "x": 230,
+      "y": 190,
+      "s": 1.5,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x='176' y='121' width='108' height='30' rx='12' fill='#4A1238'/>"
+    },
+    {
+      "k": "hand",
+      "x": 380,
+      "y": 170,
+      "rot": -90,
+      "s": 1
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(440 150) rotate(0) scale(0.9)'><ellipse cx='0' cy='0' rx='48' ry='32' fill='#C9A06A' stroke='#4A1238' stroke-width='5'/><circle cx='-14' cy='-8' r='4' fill='#4A1238' opacity='0.5'/><circle cx='16' cy='6' r='4' fill='#4A1238' opacity='0.5'/></g>"
+    },
+    {
+      "k": "text",
+      "x": 470,
+      "y": 60,
+      "text": "Aloo ya shakarkandi?",
+      "size": 46,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(800 250) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='190' ry='70' fill='#D8D8E4' stroke='#4A1238' stroke-width='6'/><ellipse cx='0' cy='-4' rx='150' ry='50' fill='#ECECF4' stroke='#B8B8C8' stroke-width='4'/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(720 225) rotate(80) scale(0.6)'><rect x='-16' y='-75' width='32' height='150' rx='10' fill='#9BBF5A' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='-25' x2='16' y2='-25' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='25' x2='16' y2='25' stroke='#4A1238' stroke-width='5'/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(800 220) rotate(0) scale(0.9)'><circle cx='0' cy='0' r='26' fill='#A8C66C' stroke='#4A1238' stroke-width='5'/><path d='M0 -24 Q-10 0 0 24 M0 -24 Q10 0 0 24' stroke='#6E8E3A' stroke-width='3' fill='none'/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(870 230) rotate(0) scale(0.8)'><rect x='-30' y='-14' width='60' height='36' rx='10' fill='#D7263D' stroke='#4A1238' stroke-width='5'/><rect x='-34' y='-26' width='68' height='18' rx='8' fill='#F5C842' stroke='#4A1238' stroke-width='5'/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(780 270) rotate(0) scale(0.6)'><path d='M-56 -6 Q-50 34 0 34 Q50 34 56 -6 Q30 4 0 4 Q-30 4 -56 -6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='5'/><path d='M56 -6 L74 -14 L60 6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='4'/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform='translate(880 280) rotate(0) scale(0.6)'><path d='M-70 0 Q-40 -30 10 -26 Q60 -20 72 0 Q60 20 10 26 Q-40 30 -70 0 Z' fill='#B5546B' stroke='#4A1238' stroke-width='5'/></g>"
+    },
+    {
+      "k": "tick",
+      "x": 1010,
+      "y": 170,
+      "s": 0.9
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Ghar ka saamaan, bas itna",
+    "items": [
+      {
+        "label": "Steel thaal",
+        "sub": "har team ke liye 1",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 115) rotate(0) scale(0.7)'><ellipse cx='0' cy='0' rx='190' ry='70' fill='#D8D8E4' stroke='#4A1238' stroke-width='6'/><ellipse cx='0' cy='-4' rx='150' ry='50' fill='#ECECF4' stroke='#B8B8C8' stroke-width='4'/></g>"
+          }
+        ]
+      },
+      {
+        "label": "7 pooja cheezein",
+        "sub": "Tulsi Vivah wali",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(30 110) rotate(0) scale(0.6)'><rect x='-16' y='-75' width='32' height='150' rx='10' fill='#9BBF5A' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='-25' x2='16' y2='-25' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='25' x2='16' y2='25' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(105 70) rotate(0) scale(0.6)'><rect x='-60' y='-36' width='120' height='72' rx='8' fill='#D7263D' stroke='#4A1238' stroke-width='5'/><rect x='-60' y='22' width='120' height='12' fill='#F5C842'/><circle cx='-25' cy='-8' r='5' fill='#F5C842'/><circle cx='5' cy='-14' r='5' fill='#F5C842'/><circle cx='30' cy='0' r='5' fill='#F5C842'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(210 70) rotate(0) scale(0.6)'><path d='M-50 6 Q-52 -16 -28 -14 Q-20 -34 0 -22 Q18 -40 30 -16 Q54 -14 50 8 Q46 26 20 20 Q0 32 -20 20 Q-46 28 -50 6 Z' fill='#E3A21A' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(270 140) rotate(0) scale(0.6)'><rect x='-30' y='-14' width='60' height='36' rx='10' fill='#D7263D' stroke='#4A1238' stroke-width='5'/><rect x='-34' y='-26' width='68' height='18' rx='8' fill='#F5C842' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(90 160) rotate(0) scale(0.8)'><circle cx='0' cy='0' r='26' fill='#A8C66C' stroke='#4A1238' stroke-width='5'/><path d='M0 -24 Q-10 0 0 24 M0 -24 Q10 0 0 24' stroke='#6E8E3A' stroke-width='3' fill='none'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(170 160) rotate(0) scale(0.5)'><path d='M-70 0 Q-40 -30 10 -26 Q60 -20 72 0 Q60 20 10 26 Q-40 30 -70 0 Z' fill='#B5546B' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(240 205) rotate(0) scale(0.5)'><path d='M-56 -6 Q-50 34 0 34 Q50 34 56 -6 Q30 4 0 4 Q-30 4 -56 -6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='5'/><path d='M56 -6 L74 -14 L60 6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='4'/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Nakli cheezein",
+        "sub": "aloo, nimbu, adrak...",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(60 70) rotate(0) scale(0.8)'><ellipse cx='0' cy='0' rx='48' ry='32' fill='#C9A06A' stroke='#4A1238' stroke-width='5'/><circle cx='-14' cy='-8' r='4' fill='#4A1238' opacity='0.5'/><circle cx='16' cy='6' r='4' fill='#4A1238' opacity='0.5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(150 70) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='30' ry='24' fill='#F7E04A' stroke='#4A1238' stroke-width='5'/><circle cx='31' cy='0' r='5' fill='#F7E04A' stroke='#4A1238' stroke-width='4'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(225 70) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='18' ry='22' fill='#E0803A' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(70 160) rotate(0) scale(0.7)'><path d='M-50 6 Q-52 -16 -28 -14 Q-20 -34 0 -22 Q18 -40 30 -16 Q54 -14 50 8 Q46 26 20 20 Q0 32 -20 20 Q-46 28 -50 6 Z' fill='#D8B47A' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(160 160) rotate(20) scale(0.8)'><rect x='-14' y='-10' width='28' height='56' rx='5' fill='#F5C842' stroke='#4A1238' stroke-width='5'/><path d='M-10 -10 L-10 -40 L10 -52 L10 -10 Z' fill='#D7263D' stroke='#4A1238' stroke-width='5'/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform='translate(245 165) rotate(0) scale(0.6)'><path d='M-50 -10 L50 -10 Q44 34 0 34 Q-44 34 -50 -10 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'/><rect x='-54' y='-18' width='108' height='12' rx='6' fill='#B8B8C8' stroke='#4A1238' stroke-width='4'/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Dupatta",
+        "sub": "aankh ki patti ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "blindfold",
+            "x": 150,
+            "y": 110,
+            "s": 1.1
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "2 minute",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 115,
+            "s": 0.8,
+            "text": "2:00"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Tray sajao, thaal khaali",
+      "body": "7 asli cheezein aur nakli cheezein ek tray mein mila do.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "table",
+          "x": 330,
+          "y": 400,
+          "w": 520,
+          "h": 300,
+          "top": true
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(130 400) rotate(90) scale(0.8)'><rect x='-16' y='-75' width='32' height='150' rx='10' fill='#9BBF5A' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='-25' x2='16' y2='-25' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='25' x2='16' y2='25' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(220 310) rotate(0) scale(1)'><circle cx='0' cy='0' r='26' fill='#A8C66C' stroke='#4A1238' stroke-width='5'/><path d='M0 -24 Q-10 0 0 24 M0 -24 Q10 0 0 24' stroke='#6E8E3A' stroke-width='3' fill='none'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(290 310) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='30' ry='24' fill='#F7E04A' stroke='#4A1238' stroke-width='5'/><circle cx='31' cy='0' r='5' fill='#F7E04A' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(390 315) rotate(0) scale(0.9)'><ellipse cx='0' cy='0' rx='48' ry='32' fill='#C9A06A' stroke='#4A1238' stroke-width='5'/><circle cx='-14' cy='-8' r='4' fill='#4A1238' opacity='0.5'/><circle cx='16' cy='6' r='4' fill='#4A1238' opacity='0.5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(510 320) rotate(30) scale(0.9)'><rect x='-14' y='-10' width='28' height='56' rx='5' fill='#F5C842' stroke='#4A1238' stroke-width='5'/><path d='M-10 -10 L-10 -40 L10 -52 L10 -10 Z' fill='#D7263D' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(260 410) rotate(0) scale(0.9)'><path d='M-50 6 Q-52 -16 -28 -14 Q-20 -34 0 -22 Q18 -40 30 -16 Q54 -14 50 8 Q46 26 20 20 Q0 32 -20 20 Q-46 28 -50 6 Z' fill='#E3A21A' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(380 410) rotate(20) scale(0.9)'><path d='M-50 6 Q-52 -16 -28 -14 Q-20 -34 0 -22 Q18 -40 30 -16 Q54 -14 50 8 Q46 26 20 20 Q0 32 -20 20 Q-46 28 -50 6 Z' fill='#D8B47A' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(500 410) rotate(0) scale(0.9)'><rect x='-30' y='-14' width='60' height='36' rx='10' fill='#D7263D' stroke='#4A1238' stroke-width='5'/><rect x='-34' y='-26' width='68' height='18' rx='8' fill='#F5C842' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(180 495) rotate(-10) scale(0.8)'><path d='M-70 0 Q-40 -30 10 -26 Q60 -20 72 0 Q60 20 10 26 Q-40 30 -70 0 Z' fill='#B5546B' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(300 495) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='18' ry='22' fill='#E0803A' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(400 500) rotate(0) scale(0.8)'><path d='M-56 -6 Q-50 34 0 34 Q50 34 56 -6 Q30 4 0 4 Q-30 4 -56 -6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='5'/><path d='M56 -6 L74 -14 L60 6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(520 500) rotate(0) scale(0.8)'><path d='M-50 -10 L50 -10 Q44 34 0 34 Q-44 34 -50 -10 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'/><rect x='-54' y='-18' width='108' height='12' rx='6' fill='#B8B8C8' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(780 430) rotate(0) scale(0.75)'><ellipse cx='0' cy='0' rx='190' ry='70' fill='#D8D8E4' stroke='#4A1238' stroke-width='6'/><ellipse cx='0' cy='-4' rx='150' ry='50' fill='#ECECF4' stroke='#B8B8C8' stroke-width='4'/></g>"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 170,
+          "text": "Asli + nakli, sab mix",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 780,
+          "y": 330,
+          "text": "Khaali thaal",
+          "size": 38,
+          "color": "ink"
+        },
+        {
+          "k": "arrow",
+          "x1": 610,
+          "y1": 430,
+          "x2": 680,
+          "y2": 430,
+          "color": "green",
+          "w": 9
+        }
+      ]
+    },
+    {
+      "title": "Ek lady ki aankh band",
+      "body": "4 ki team. Ek ki dupatte se patti, baaki 3 guide.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "blindfold",
+          "x": 470,
+          "y": 380,
+          "s": 2.2
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 640,
+          "text": "Thaal wali",
+          "size": 36,
+          "color": "ink"
+        },
+        {
+          "k": "person",
+          "x": 160,
+          "y": 440,
+          "s": 1.3,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 780,
+          "y": 440,
+          "s": 1.3,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 900,
+          "y": 460,
+          "s": 1.1,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 110,
+          "text": "Team of 4",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 160,
+          "y": 300,
+          "text": "Guide",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 840,
+          "y": 300,
+          "text": "Guides",
+          "size": 34,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Team sirf raasta bataye",
+      "body": "Sirf left, right, aage, peeche. Cheez ka naam bola toh cancel.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "table",
+          "x": 600,
+          "y": 500,
+          "w": 520,
+          "h": 300,
+          "top": true
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(400 500) rotate(90) scale(0.8)'><rect x='-16' y='-75' width='32' height='150' rx='10' fill='#9BBF5A' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='-25' x2='16' y2='-25' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='25' x2='16' y2='25' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(490 410) rotate(0) scale(1)'><circle cx='0' cy='0' r='26' fill='#A8C66C' stroke='#4A1238' stroke-width='5'/><path d='M0 -24 Q-10 0 0 24 M0 -24 Q10 0 0 24' stroke='#6E8E3A' stroke-width='3' fill='none'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(560 410) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='30' ry='24' fill='#F7E04A' stroke='#4A1238' stroke-width='5'/><circle cx='31' cy='0' r='5' fill='#F7E04A' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(660 415) rotate(0) scale(0.9)'><ellipse cx='0' cy='0' rx='48' ry='32' fill='#C9A06A' stroke='#4A1238' stroke-width='5'/><circle cx='-14' cy='-8' r='4' fill='#4A1238' opacity='0.5'/><circle cx='16' cy='6' r='4' fill='#4A1238' opacity='0.5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(780 420) rotate(30) scale(0.9)'><rect x='-14' y='-10' width='28' height='56' rx='5' fill='#F5C842' stroke='#4A1238' stroke-width='5'/><path d='M-10 -10 L-10 -40 L10 -52 L10 -10 Z' fill='#D7263D' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(530 510) rotate(0) scale(0.9)'><path d='M-50 6 Q-52 -16 -28 -14 Q-20 -34 0 -22 Q18 -40 30 -16 Q54 -14 50 8 Q46 26 20 20 Q0 32 -20 20 Q-46 28 -50 6 Z' fill='#E3A21A' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(650 510) rotate(20) scale(0.9)'><path d='M-50 6 Q-52 -16 -28 -14 Q-20 -34 0 -22 Q18 -40 30 -16 Q54 -14 50 8 Q46 26 20 20 Q0 32 -20 20 Q-46 28 -50 6 Z' fill='#D8B47A' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(770 510) rotate(0) scale(0.9)'><rect x='-30' y='-14' width='60' height='36' rx='10' fill='#D7263D' stroke='#4A1238' stroke-width='5'/><rect x='-34' y='-26' width='68' height='18' rx='8' fill='#F5C842' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(450 595) rotate(-10) scale(0.8)'><path d='M-70 0 Q-40 -30 10 -26 Q60 -20 72 0 Q60 20 10 26 Q-40 30 -70 0 Z' fill='#B5546B' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(570 595) rotate(0) scale(1)'><ellipse cx='0' cy='0' rx='18' ry='22' fill='#E0803A' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(670 600) rotate(0) scale(0.8)'><path d='M-56 -6 Q-50 34 0 34 Q50 34 56 -6 Q30 4 0 4 Q-30 4 -56 -6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='5'/><path d='M56 -6 L74 -14 L60 6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(790 600) rotate(0) scale(0.8)'><path d='M-50 -10 L50 -10 Q44 34 0 34 Q-44 34 -50 -10 Z' fill='#D8D8E4' stroke='#4A1238' stroke-width='5'/><rect x='-54' y='-18' width='108' height='12' rx='6' fill='#B8B8C8' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "blindfold",
+          "x": 150,
+          "y": 450,
+          "s": 1.6
+        },
+        {
+          "k": "hand",
+          "x": 280,
+          "y": 440,
+          "rot": -90,
+          "s": 1.1
+        },
+        {
+          "k": "arrow",
+          "x1": 300,
+          "y1": 400,
+          "x2": 400,
+          "y2": 360,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "person",
+          "x": 860,
+          "y": 190,
+          "s": 1,
+          "color": "green",
+          "label": "Guide"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 130,
+          "text": "\"Thoda left, aage!\"",
+          "size": 44,
+          "color": "green"
+        },
+        {
+          "k": "tick",
+          "x": 720,
+          "y": 115,
+          "s": 0.6
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 220,
+          "text": "\"Amla uthao!\"",
+          "size": 40,
+          "color": "mute"
+        },
+        {
+          "k": "cross",
+          "x": 640,
+          "y": 205,
+          "s": 0.6
+        }
+      ]
+    },
+    {
+      "title": "Twist: chhoo ke pehchano",
+      "body": "Amla ya nimbu? Shakarkandi ya aloo? Galat cheez thaal mein, toh nuksaan.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(200 260) rotate(0) scale(2.2)'><circle cx='0' cy='0' r='26' fill='#A8C66C' stroke='#4A1238' stroke-width='5'/><path d='M0 -24 Q-10 0 0 24 M0 -24 Q10 0 0 24' stroke='#6E8E3A' stroke-width='3' fill='none'/></g>"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 280,
+          "text": "ya",
+          "size": 44,
+          "color": "mute"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(460 260) rotate(0) scale(2)'><ellipse cx='0' cy='0' rx='30' ry='24' fill='#F7E04A' stroke='#4A1238' stroke-width='5'/><circle cx='31' cy='0' r='5' fill='#F7E04A' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "text",
+          "x": 600,
+          "y": 290,
+          "text": "?",
+          "size": 80,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(220 480) rotate(0) scale(1.4)'><path d='M-70 0 Q-40 -30 10 -26 Q60 -20 72 0 Q60 20 10 26 Q-40 30 -70 0 Z' fill='#B5546B' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "text",
+          "x": 380,
+          "y": 500,
+          "text": "ya",
+          "size": 44,
+          "color": "mute"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(500 480) rotate(0) scale(1.4)'><ellipse cx='0' cy='0' rx='48' ry='32' fill='#C9A06A' stroke='#4A1238' stroke-width='5'/><circle cx='-14' cy='-8' r='4' fill='#4A1238' opacity='0.5'/><circle cx='16' cy='6' r='4' fill='#4A1238' opacity='0.5'/></g>"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 510,
+          "text": "?",
+          "size": 80,
+          "color": "pink"
+        },
+        {
+          "k": "tick",
+          "x": 200,
+          "y": 600,
+          "s": 0.6
+        },
+        {
+          "k": "cross",
+          "x": 460,
+          "y": 600,
+          "s": 0.5
+        },
+        {
+          "k": "blindfold",
+          "x": 820,
+          "y": 380,
+          "s": 1.6
+        },
+        {
+          "k": "hand",
+          "x": 720,
+          "y": 460,
+          "rot": -90,
+          "s": 1
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 110,
+          "text": "Sirf ungliyon se!",
+          "size": 46,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "2 minute, phir thaal check",
+      "body": "Har asli cheez +1, har nakli cheez -2. Sabse zyada points jeete.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(400 420) rotate(0) scale(1.3)'><ellipse cx='0' cy='0' rx='190' ry='70' fill='#D8D8E4' stroke='#4A1238' stroke-width='6'/><ellipse cx='0' cy='-4' rx='150' ry='50' fill='#ECECF4' stroke='#B8B8C8' stroke-width='4'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(260 400) rotate(80) scale(0.8)'><rect x='-16' y='-75' width='32' height='150' rx='10' fill='#9BBF5A' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='-25' x2='16' y2='-25' stroke='#4A1238' stroke-width='5'/><line x1='-16' y1='25' x2='16' y2='25' stroke='#4A1238' stroke-width='5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(380 380) rotate(0) scale(0.7)'><rect x='-60' y='-36' width='120' height='72' rx='8' fill='#D7263D' stroke='#4A1238' stroke-width='5'/><rect x='-60' y='22' width='120' height='12' fill='#F5C842'/><circle cx='-25' cy='-8' r='5' fill='#F5C842'/><circle cx='5' cy='-14' r='5' fill='#F5C842'/><circle cx='30' cy='0' r='5' fill='#F5C842'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(480 390) rotate(0) scale(1)'><circle cx='0' cy='0' r='26' fill='#A8C66C' stroke='#4A1238' stroke-width='5'/><path d='M0 -24 Q-10 0 0 24 M0 -24 Q10 0 0 24' stroke='#6E8E3A' stroke-width='3' fill='none'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(560 440) rotate(0) scale(0.8)'><ellipse cx='0' cy='0' rx='48' ry='32' fill='#C9A06A' stroke='#4A1238' stroke-width='5'/><circle cx='-14' cy='-8' r='4' fill='#4A1238' opacity='0.5'/><circle cx='16' cy='6' r='4' fill='#4A1238' opacity='0.5'/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform='translate(330 460) rotate(0) scale(0.7)'><path d='M-56 -6 Q-50 34 0 34 Q50 34 56 -6 Q30 4 0 4 Q-30 4 -56 -6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='5'/><path d='M56 -6 L74 -14 L60 6 Z' fill='#C2622D' stroke='#4A1238' stroke-width='4'/></g>"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 270,
+          "text": "+1",
+          "size": 50,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 270,
+          "text": "+1",
+          "size": 50,
+          "color": "green"
+        },
+        {
+          "k": "cross",
+          "x": 640,
+          "y": 380,
+          "s": 0.6
+        },
+        {
+          "k": "text",
+          "x": 680,
+          "y": 300,
+          "text": "-2",
+          "size": 56,
+          "color": "#D7263D"
+        },
+        {
+          "k": "timer",
+          "x": 830,
+          "y": 400,
+          "s": 1,
+          "text": "0:00"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 640,
+          "text": "Aloo shakarkandi nahi hai!",
+          "size": 38,
+          "color": "ink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada points, jeet",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Team ne cheez ka naam",
+          "liya? Woh cheez cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Thaal mein nakli cheez?",
+          "Har ek pe minus 2."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Patti sarki ya jhaanka?",
+          "Team ka round khatam."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Saaton asli, sabse jaldi?",
+          "Tulsi Vivah ki raani!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Ek guide nanad banegi:",
+        "chupke se ulta raasta degi."
+      ],
+      [
+        "Picker ke ek haath mein",
+        "moza, sirf ek haath se chhoo."
+      ],
+      [
+        "Final mein thaal sajao:",
+        "chunri neeche, diya beech mein."
+      ]
+    ],
+    "tip": "Haldi gaanth lo, powder nahi, daag nahi."
+  },
+  "comment_hint": "kitne points?",
+  "caption": "Aankh pe patti, tray mein amla bhi aur nimbu bhi, aur team sirf left right bol sakti hai! Aapki kitty mein aloo ko shakarkandi kaun samjhegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#tulsivivah",
+    "#tulsivivahgame"
+  ],
+  "web": {
+    "title": "Tulsi Vivah Thaal: Blindfold Kitty Party Game Rules",
+    "description": "Tulsi Vivah Thaal is a blindfold kitty party game: fill a puja thaal with 7 Tulsi Vivah items by touch, avoiding look-alike decoys. Rules, steps, FAQ.",
+    "intro": "Tulsi Vivah Thaal is a team kitty party game where one blindfolded lady must fill a steel thaal with the 7 Tulsi Vivah things (a sugarcane piece, red chunri, haldi gaanth, sindoor dibbi, amla, shakarkandi and a diya) from a tray, guided only by her team's directions. After 2 minutes every real item scores 1 point and every wrong item scores minus 2, and the highest score wins. The crazy twist is that the tray is full of look-alike decoys by touch, like aloo for shakarkandi, nimbu and ber for amla, adrak for haldi and a lipstick for the sindoor dibbi, and the team may only say left, right, aage or peeche, never the name of the item. It uses only things from the kitchen and puja shelf, so it is a perfect game for a Tulsi Vivah or Dev Uthani Ekadashi kitty.",
+    "players": "8 to 20 (teams of 4)",
+    "time": "15 minutes",
+    "materials": [
+      "One steel thaal per team",
+      "The 7 Tulsi Vivah items: a small sugarcane piece, a red chunri, a whole haldi gaanth, a closed sindoor dibbi, an amla, a shakarkandi and an unlit diya",
+      "Look-alike decoys: aloo, nimbu, ber, adrak, a lipstick and a small steel katori",
+      "One tray or big plate to hold all the items, mixed up",
+      "A dupatta or scarf for the blindfold",
+      "A phone timer set to 2 minutes"
+    ],
+    "steps": [
+      "The host mixes the 7 real Tulsi Vivah items and all the decoys on one tray and keeps an empty steel thaal next to it.",
+      "Make teams of 4. One lady from the team is blindfolded with a dupatta and stands at the tray; the other three are her guides.",
+      "Start a 2 minute timer. The guides may only say directions like left, right, aage, peeche, upar and neeche; they may not name any item or say yes or no.",
+      "The blindfolded lady feels each item with her fingers, decides if it is real or a decoy, and puts the ones she believes are real into the thaal.",
+      "When time is up the host checks the thaal: every real item is plus 1 and every decoy is minus 2. Put the items back, mix the tray and the next team plays."
+    ],
+    "rules": [
+      "Guides can only give directions. If a guide names an item, that item does not count even if it is right.",
+      "Every decoy in the thaal costs 2 points, so guessing wildly does not pay.",
+      "If the blindfold slips or the picker peeks, the team's round ends at once.",
+      "Highest score wins; if two teams tie, the faster full thaal wins."
+    ],
+    "variations": [
+      "Nanad mode: one guide secretly gives wrong directions on purpose, and the picker must work out whom to trust.",
+      "The picker wears a sock on one hand and may only feel items with the other hand.",
+      "In the final the thaal must also be arranged: chunri spread first, diya in the centre, the rest around it."
+    ],
+    "tips": [
+      "Use a whole haldi gaanth, not powder, so nothing spills or stains.",
+      "Keep the diya unlit and the sindoor dibbi and lipstick closed.",
+      "Choose decoys that really feel alike: a small round aloo next to a short shakarkandi is the funniest pair.",
+      "All the vegetables and fruits go back to the kitchen afterwards, so nothing is wasted."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Tulsi Vivah Thaal?",
+        "a": "It works for 8 to 20 ladies in teams of 4. Each team gets one 2 minute round, so even 5 teams finish in about 15 minutes."
+      },
+      {
+        "q": "What do you need to play the Tulsi Vivah Thaal game?",
+        "a": "A steel thaal, the 7 Tulsi Vivah items, some look-alike decoys like aloo, nimbu, ber, adrak and a lipstick, a dupatta for the blindfold and a phone timer."
+      },
+      {
+        "q": "How do you score Tulsi Vivah Thaal?",
+        "a": "Every real Tulsi Vivah item in the thaal is plus 1 and every decoy is minus 2. The team with the most points after 2 minutes wins."
+      },
+      {
+        "q": "Is Tulsi Vivah Thaal good for a Dev Uthani Ekadashi or Tulsi Vivah kitty party?",
+        "a": "Yes. It uses the same things that go in the Tulsi Vivah puja, so it fits a festive kitty in November and teaches the younger members the items too."
+      },
+      {
+        "q": "Is this blindfold game safe?",
+        "a": "Yes. Keep the diya unlit, use whole haldi instead of powder, keep containers closed and clear the floor around the tray before you blindfold anyone."
+      }
+    ]
+  }
+}
