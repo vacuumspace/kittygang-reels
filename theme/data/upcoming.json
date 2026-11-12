@@ -1,84 +1,6 @@
 {
- "updated": "2026-11-12T17:40:21.121Z",
+ "updated": "2026-11-12T23:45:17.691Z",
  "days": [
-  {
-   "date": "2026-11-12",
-   "day": "Thu, 12 Nov",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "9 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "schoolyaadein",
-    "name": "School Ki Yaadein",
-    "pack": "themes/schoolyaadein/v1",
-    "sounds": "sounds/schoolyaadein/v1",
-    "colors": {
-     "accent": "#2E7D4F",
-     "accentDeep": "#1C4A35",
-     "gameInk": "#F4FFF6"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Blackboard",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Ghanti",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Tiffin",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Copy Kitab",
-      "points": 50,
-      "numbers": 5
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_2",
-      "gh_3",
-      "gh_0",
-      "gh_1"
-     ],
-     "housie": [
-      "gs_3",
-      "gs_4",
-      "gs_0",
-      "gs_1",
-      "gs_2"
-     ],
-     "mascotBall": [
-      "sc_4",
-      "sc_0",
-      "sc_1",
-      "sc_2",
-      "sc_3"
-     ],
-     "particles": [
-      "fx_4"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-11-13",
    "day": "Fri, 13 Nov",
@@ -238,6 +160,20 @@
      ]
     }
    }
+  },
+  {
+   "date": "2026-11-15",
+   "day": "Sun, 15 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "9 PM",
+    "11 PM"
+   ],
+   "theme": null
   }
  ]
 }
