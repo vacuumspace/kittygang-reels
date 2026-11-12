@@ -1,0 +1,769 @@
+{
+  "id": "KG-2026-11-12-a",
+  "title": "Ghar ka garam laao!",
+  "format": "Door arrivals, winter kitty rule enforced at the front door",
+  "idea": "First winter kitty: Tanya lets in only guests who bring something hot and home made, until her own phone shows the halwai delivering her snacks.",
+  "logline": "Tanya lets guests in only if they bring something hot and home made, until a message on her own phone shows the halwai is sending her samosas.",
+  "game": "every guest stretches the meaning of \"ghar ka garam\" a little further",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Tanya blocks her doorway in front of Aditi holding chai and shouts 'Ruko! Ghar ka garam nahi, toh entry nahi!'",
+    "variable": "fourth door reel with a food rule instead of an outfit or object rule, and a twist shown on a real phone screen (the halwai's message) instead of something worn, at the 25-28 s length LEARNINGS recommends",
+    "hypothesis": "skip under 30% and watched above 60%; a 'bought it but say it is home made' rule every kitty group knows should get at least 3 shares from the Tag your Tanya caption"
+  },
+  "mute": [
+    "Tanya blocks her door, chip GHAR KA GARAM: 0/3, Aditi in the doorway with a chai cup",
+    "a chai kettle pops in, chip 1/3, Tanya happy, Aditi goes in",
+    "Myra hops in with a plate of pakode, Tanya pleased",
+    "chip changes to 1/3 + SWIGGY, Tanya shocked",
+    "Shruti arrives holding a bottle, Tanya smiling",
+    "chip 1/3 + PAANI, Tanya sweating at a bottle of hot water",
+    "silence, a phone notification pops by Tanya, Myra and Shruti stare, chip GHAR KA GARAM: ?",
+    "phone screen: Sharma Halwai, 40 samose, gajar halwa, sabko ghar ka hi bolna hai",
+    "Tanya caught, samosa plate pops in, Myra and Shruti smirk, chip TANYA KA GARAM: HALWAI",
+    "guests shout Tanya's opening rule back at her, chip TANYA KA GARAM: 0/1"
+  ],
+  "beats": "hook: ghar ka garam nahi toh entry nahi / esc: Aditi adrak chai (passes), Myra Swiggy pakode 'ghar pe hi deliver hue', Shruti garam paani 'gas mehengi hai' / twist: Tanya's phone, Sharma Halwai: 40 samose, 'sabko ghar ka hi bolna hai na?' / button: Tanya steals Myra's excuse, guests throw her rule back",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 53,
+    "notes": "Door-arrivals is the confirmed winner and was not in the last 4 types (musical, pov, pov, types-of); last door reel was 3 reels ago, so it fits every 2nd reel. Lead is Tanya (last reel led by Ruhi). Talking cast is 3 (Tanya, Myra, Shruti); Aditi only sips and walks in. Game plays three times: Aditi ordinary (real adrak chai, passes), Myra sillier (Swiggy, 'ghar pe hi deliver hue'), Shruti absurd (hot water, budget queen). Twist is a see-it phone screen: the halwai's message 'sabko ghar ka hi bolna hai na?'. Button mirrors the hook with the guests shouting Tanya's rule back, after Tanya steals Myra's own excuse. Endings tried: Tanya locked out (unkind), the halwai at the door (no male cast), the rule thrown back (kept). Every two-line shot is 8 words or fewer with hold 0.1, about 27 s, pace 28. Adapted the winter door idea (sweater) to food because sweaters cannot be drawn yet."
+  },
+  "cover": {
+    "shot": 7,
+    "at": 1.2,
+    "title": [
+      "Ghar ka garam laao!",
+      "Host ka halwai se?"
+    ],
+    "titleY": 330
+  },
+  "caption": "Sabse bada rule usi ka, jiske samose halwai se aaye. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#winterkitty",
+    "#kittypartyfun",
+    "#ladieskitty",
+    "#gharkakhana",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: 0/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "flat"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        },
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Ghar ka garam nahi, toh entry nahi!",
+          "say": "रुको! घर का गरम नहीं, तो एंट्री नहीं!",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: 1/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Chai kettle",
+          "x": 560,
+          "y": 1400,
+          "s": 0.9,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "slurp",
+          "vol": 0.4
+        },
+        {
+          "at": 1.4,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Adrak wali chai, ghar ki? Andar!",
+          "say": "अदरक वाली चाय, घर की? अंदर!",
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: 1/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true,
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Pakora plate",
+          "x": 560,
+          "y": 1400,
+          "s": 1,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Aunty, garam garam pakode!",
+          "say": "आंटी, गरम गरम पकौड़े!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Waah! Ghar ke?",
+          "say": "वाह! घर के?",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: 1/3 + SWIGGY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Pakora plate",
+          "x": 560,
+          "y": 1400,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 600,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.5,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Haan! Ghar pe hi deliver hue!",
+          "say": "हाँ! घर पे ही डिलीवर हुए!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaw! Swiggy?!",
+          "say": "हाव! स्विगी?!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: 1/3 + SWIGGY",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "flat",
+          "eyes": "half",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ghar ka garam, lo.",
+          "say": "घर का गरम, लो।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Shabaash! Kya hai?",
+          "say": "शाबाश! क्या है?",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: 1/3 + PAANI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1080,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Garam paani. Gas mehengi hai.",
+          "say": "गरम पानी। गैस महंगी है।",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Paani?!",
+          "say": "पानी?!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA GARAM: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "camera": "still",
+      "music": false,
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 470,
+          "y": 1450,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 960,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "ping",
+          "vol": 0.6
+        },
+        {
+          "at": 0.3,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Aunty... yeh Sharma Halwai kaun?",
+          "say": "आंटी... ये शर्मा हलवाई कौन?",
+          "silenceBefore": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Kuch nahi!",
+          "say": "कुछ नहीं!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "set": "entrance",
+      "title": "Sharma Halwai",
+      "camera": "still",
+      "chip": "TANYA KA GARAM: HALWAI",
+      "chipY": 200,
+      "chat": [
+        [
+          "Sharma Halwai",
+          "Madam, 40 samose ready!",
+          0,
+          "5:02 PM",
+          0.1
+        ],
+        [
+          "Sharma Halwai",
+          "Gajar halwa 1 kg bhi",
+          0,
+          "5:02 PM",
+          0.5
+        ],
+        [
+          "Sharma Halwai",
+          "Sabko ghar ka hi bolna hai na?",
+          0,
+          "5:02 PM",
+          0.9
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ghar ka hi bolna hai?!",
+          "say": "घर का ही बोलना है?!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA KA GARAM: HALWAI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "hips",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Samosa plate",
+          "x": 470,
+          "y": 1450,
+          "s": 1,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1060,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.8,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Woh... ghar pe hi deliver hoga!",
+          "say": "वो... घर पे ही डिलीवर होगा!",
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Haaw! Mera dialogue!",
+          "say": "हाव! मेरा डायलॉग!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA KA GARAM: 0/1",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 700,
+          "y": 1460,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 930,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "clapL",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.8,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ruko! Ghar ka garam nahi, toh entry nahi!",
+          "say": "रुको! घर का गरम नहीं, तो एंट्री नहीं!",
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
