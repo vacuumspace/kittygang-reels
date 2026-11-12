@@ -9693,6 +9693,188 @@
       "yt_id": "TW01xmM798s",
       "yt_url": "https://youtube.com/shorts/TW01xmM798s",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-12-b",
+      "created": "2026-11-12",
+      "title": "Phone band, Housie chalu!",
+      "format": "Countdown, home calls numbered 4 to 1 during a Housie game, host breaks her own rule",
+      "hook": "",
+      "cast": [
+        "Myra",
+        "Tanya",
+        "Aditi"
+      ],
+      "caption": "Phone band karne wali ka hi phone pehle bajta hai. Tag the friend jiska phone kitty mein bhi chup nahi hota!",
+      "status": "queued",
+      "idea": "Every time Myra's Housie number comes up, home calls with a silly question; Tanya bans phones, until call number 1 is her own husband asking for his moza.",
+      "beats": "hook: Myra on the phone, moza almari mein / setup: Tanya bans phones / esc: #4 beta moza, #3 pati charger (misses 7), #2 beta again 'moza mil gaya' (misses 11) / twist: Tanya brags 'silent pe', #1 her husband: mera moza kahan hai, she says Myra's line / button: Myra cuts both numbers and says 'Phone band! Housie chal rahi hai!' to Tanya",
+      "experiment": {
+        "type": "countdown",
+        "hook": "Housie cage tumbling, Myra holds her ticket with the phone at her ear: 'Haan beta, moza almari mein hai!', chip CALL #4: BETA · KATE: 0",
+        "variable": "a countdown chip (CALL #4 to #1) running inside one story with one want, instead of a numbered list of separate jokes; the last countdown number is the host's own call",
+        "hypothesis": "calls from home during kitty is the most universal mom moment, so skip under 45% (last countdown reached only 49 people) and watched above 45% at about 27 s, with 3+ shares from 'tag the friend jiska phone kabhi chup nahi hota'"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haan beta, moza almari mein hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Phone band! Housie chal rahi hai!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Sorry, sorry!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Number saat! Lucky seven!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera! Mera hai!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ji, charger TV ke peeche!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saat gaya! Gyaarah!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Gyaarah! Mera!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Kaato, jaldi!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Moza mil gaya? Shaabash, beta.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Breaking news.",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dekho, mera phone silent pe!",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Hmm.",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Aunty... aapka phone baj raha hai.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Uncle ka moza?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haan ji, moza almari mein hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Saat! Gyaarah! Dono kaate!",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Pehli baar.",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Phone band! Housie chal rahi hai!",
+          "beat": "button"
+        }
+      ],
+      "duration": 36.2,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Type countdown: last 4 types were pov, pov, musical, door-arrivals, and the only countdown so far reached 49 people with no verdict. One want (Myra cuts one number) and one stake chip that also carries the countdown. Game played three times: beta moza (ordinary), pati charger (ordinary), beta calls back just to say the moza was found (absurd). Claim before reveal twice ('Mera! Mera hai!' then the ring). Twist is a see-it phone screen and borrows the door-winner shape (host breaks her own rule). Double callback: Tanya says Myra's opening line, Myra says Tanya's rule. Endings tried: Aditi answers every call (flat), Myra's saas wants to join the kitty (needs a new character), Tanya's husband and the moza (kept, loops to the opening). Lead Myra (last reel Tanya). 3 talking characters, max 2 a shot, every two-line shot 8 words or fewer with hold 0.1, about 27 s at pace 28."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-12-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-12-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-12-b-board.jpg",
+      "queue_id": "9804cb6b-e2b0-46ee-b1cf-564ac445ce91",
+      "scheduled_ist": "2026-11-19 21:03",
+      "yt_id": "eR08zLXNxWM",
+      "yt_url": "https://youtube.com/shorts/eR08zLXNxWM",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
