@@ -1,0 +1,900 @@
+{
+  "id": "KG-2026-11-12-b",
+  "title": "Phone band, Housie chalu!",
+  "format": "Countdown, home calls numbered 4 to 1 during a Housie game, host breaks her own rule",
+  "idea": "Every time Myra's Housie number comes up, home calls with a silly question; Tanya bans phones, until call number 1 is her own husband asking for his moza.",
+  "logline": "Myra cannot cut a single Housie number because home keeps calling, and the last call is Tanya's own husband asking where his socks are.",
+  "game": "every time Myra's number comes up, home calls with a sillier question",
+  "experiment": {
+    "type": "countdown",
+    "hook": "Housie cage tumbling, Myra holds her ticket with the phone at her ear: 'Haan beta, moza almari mein hai!', chip CALL #4: BETA · KATE: 0",
+    "variable": "a countdown chip (CALL #4 to #1) running inside one story with one want, instead of a numbered list of separate jokes; the last countdown number is the host's own call",
+    "hypothesis": "calls from home during kitty is the most universal mom moment, so skip under 45% (last countdown reached only 49 people) and watched above 45% at about 27 s, with 3+ shares from 'tag the friend jiska phone kabhi chup nahi hota'"
+  },
+  "mute": [
+    "Housie running, Myra with a ticket and phone at her ear, chip CALL #4: BETA · KATE: 0",
+    "Tanya shouts phone band, Myra says sorry",
+    "ball 7 pops, Myra hops: it is hers",
+    "her phone pings again, chip CALL #3: PATI, Tanya calls the next number",
+    "ball 45 pops, Myra claps for 11, a ping lands",
+    "Myra flat on the phone: moza mil gaya, chip CALL #2: BETA PHIR SE, Aditi smirks",
+    "Tanya smug with her phone: silent pe, chip CALL #1: ?",
+    "music cuts, a notification pops by Tanya's phone, Myra points",
+    "phone screen: Pati Dev, 'Mera moza kahan hai??', chip CALL #1: TANYA KE PATI",
+    "Tanya on the phone repeating Myra's opening line, sweating",
+    "Myra hops and cuts both numbers, chip KATE: 2",
+    "Myra throws Tanya's rule back at her while Tanya is still on the phone"
+  ],
+  "beats": "hook: Myra on the phone, moza almari mein / setup: Tanya bans phones / esc: #4 beta moza, #3 pati charger (misses 7), #2 beta again 'moza mil gaya' (misses 11) / twist: Tanya brags 'silent pe', #1 her husband: mera moza kahan hai, she says Myra's line / button: Myra cuts both numbers and says 'Phone band! Housie chal rahi hai!' to Tanya",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Type countdown: last 4 types were pov, pov, musical, door-arrivals, and the only countdown so far reached 49 people with no verdict. One want (Myra cuts one number) and one stake chip that also carries the countdown. Game played three times: beta moza (ordinary), pati charger (ordinary), beta calls back just to say the moza was found (absurd). Claim before reveal twice ('Mera! Mera hai!' then the ring). Twist is a see-it phone screen and borrows the door-winner shape (host breaks her own rule). Double callback: Tanya says Myra's opening line, Myra says Tanya's rule. Endings tried: Aditi answers every call (flat), Myra's saas wants to join the kitty (needs a new character), Tanya's husband and the moza (kept, loops to the opening). Lead Myra (last reel Tanya). 3 talking characters, max 2 a shot, every two-line shot 8 words or fewer with hold 0.1, about 27 s at pace 28."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1,
+    "title": [
+      "Phone band karo!",
+      "Host ka phone baja!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Phone band karne wali ka hi phone pehle bajta hai. Tag the friend jiska phone kitty mein bhi chup nahi hota!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#housie",
+    "#momlife",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#tambola"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #4: BETA · KATE: 0",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 380,
+          "y": 1380,
+          "s": 0.8
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1000,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.05,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Haan beta, moza almari mein hai!",
+          "say": "हाँ बेटा, मोज़ा अलमारी में है!",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #4: BETA · KATE: 0",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 880,
+          "y": 1000,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Phone band! Housie chal rahi hai!",
+          "say": "फ़ोन बंद! हाउज़ी चल रही है!",
+          "beat": "setup"
+        },
+        {
+          "who": "Myra",
+          "text": "Sorry, sorry!",
+          "say": "सॉरी, सॉरी!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "KATE: 0 · NEXT CALL: ?",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 7",
+          "x": 790,
+          "y": 1250,
+          "s": 1,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Number saat! Lucky seven!",
+          "say": "नंबर सात! लकी सेवन!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Mera! Mera hai!",
+          "say": "मेरा! मेरा है!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #3: PATI · KATE: 0",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 420,
+          "y": 1300,
+          "s": 0.8,
+          "at": 0
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ding",
+          "vol": 0.55
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ji, charger TV ke peeche!",
+          "say": "जी, चार्जर टीवी के पीछे!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Saat gaya! Gyaarah!",
+          "say": "सात गया! ग्यारह!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #3: PATI · KATE: 0",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Ball 45",
+          "x": 790,
+          "y": 1250,
+          "s": 1,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.3,
+          "name": "ding",
+          "vol": 0.55
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Gyaarah! Mera!",
+          "say": "ग्यारह! मेरा!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Kaato, jaldi!",
+          "say": "काटो, जल्दी!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #2: BETA PHIR SE · KATE: 0",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.3,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Aditi",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Cutting chai",
+          "x": 900,
+          "y": 1450,
+          "s": 0.7
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1000,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.9,
+          "name": "laughv",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Moza mil gaya? Shaabash, beta.",
+          "say": "मोज़ा मिल गया? शाबाश, बेटा।",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Aditi",
+          "text": "Breaking news.",
+          "say": "ब्रेकिंग न्यूज़।",
+          "gap": 0.05
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #1: ? · KATE: 0",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Aditi",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 260,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Dekho, mera phone silent pe!",
+          "say": "देखो, मेरा फ़ोन साइलेंट पे!",
+          "beat": "turn"
+        },
+        {
+          "who": "Aditi",
+          "text": "Hmm.",
+          "say": "हम्म।",
+          "gap": 0.05
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.15,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #1: ?",
+      "camera": "still",
+      "music": false,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1740,
+          "s": 2.05,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 420,
+          "y": 1300,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 960,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "ping",
+          "vol": 0.6
+        },
+        {
+          "at": 0.3,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Aunty... aapka phone baj raha hai.",
+          "say": "आंटी... आपका फ़ोन बज रहा है।",
+          "silenceBefore": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Pati Dev",
+      "camera": "still",
+      "chip": "CALL #1: TANYA KE PATI",
+      "chipY": 200,
+      "chat": [
+        [
+          "Pati Dev",
+          "Tanya, phone uthao!",
+          0,
+          "5:14 PM",
+          0.1
+        ],
+        [
+          "Pati Dev",
+          "Mera moza kahan hai??",
+          0,
+          "5:14 PM",
+          0.6
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 0.7,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Uncle ka moza?!",
+          "say": "अंकल का मोज़ा?!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "CALL #1: TANYA KE PATI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1740,
+          "s": 2.05,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.7,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haan ji, moza almari mein hai!",
+          "say": "हाँ जी, मोज़ा अलमारी में है!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "KATE: 2 · TANYA: CALL PE",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Aditi",
+          "x": 800,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "eyes": "half",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Dabber marker",
+          "x": 420,
+          "y": 1400,
+          "s": 0.8,
+          "at": 0.1
+        },
+        {
+          "name": "Ball 7",
+          "x": 640,
+          "y": 1250,
+          "s": 0.9,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "ding",
+          "vol": 0.4
+        },
+        {
+          "at": 0.4,
+          "name": "sparkle",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Saat! Gyaarah! Dono kaate!",
+          "say": "सात! ग्यारह! दोनों काटे!",
+          "beat": "button"
+        },
+        {
+          "who": "Aditi",
+          "text": "Pehli baar.",
+          "say": "पहली बार।",
+          "gap": 0.05
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.8,
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "KATE: 2 · TANYA: CALL PE",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Phone band! Housie chal rahi hai!",
+          "say": "फ़ोन बंद! हाउज़ी चल रही है!",
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
