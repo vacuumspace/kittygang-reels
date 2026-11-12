@@ -10505,7 +10505,7 @@
       "format": "Carousel: game card, sample story chain, the secret chit, guess-the-twister slide, winner",
       "source": "Trend: Micro-drama cliffhanger (Meta-Ormax report) + Multi-character debate (fluxnote.io)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-06",
@@ -10514,7 +10514,7 @@
       "format": "Carousel: game card, dough and tools, the tool swap twist, best patterns, winner slide",
       "source": "Trend: Festival window: Chhath 15 Nov (9 days, +2) + One-minute game",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-07",
@@ -10595,7 +10595,7 @@
       "format": "Living-room and front-door sitcom, the chappal-mix-up feeling for winter, one shawl pile prop, 3 characters per shot, under 30 s; caption 'Sardi ki kitty ka asli game. Tag the friend jo aapki shawl le gayi'",
       "source": "Trend: First winter kitty + Cozy pajama winter kitty (shawls on every set this week)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-08",
@@ -10649,7 +10649,7 @@
       "format": "Kitty Gang sitcom, Housie in progress, notebook close-ups with a growing order count chip, video call ending",
       "source": "Trend: Festival window Chhath 13-16 Nov + Housie money fight",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-09",
@@ -10783,6 +10783,60 @@
       "idea": "Aag aur barf: chairs in a circle, one less than the players, half covered with a red dupatta and half with a white one. Play music; when it stops the host shouts \"Aag!\" or \"Barf!\" and ladies may only sit on that colour, and anyone left standing is out. Crazy twist: on \"Toofan!\" everyone must swap shawl or dupatta with the lady on her right before she sits. 8 to 20 ladies, 10 to 15 minutes.",
       "format": "Carousel: slide 1 'Winter kitty game: Aag aur barf' with a lady mid-dive onto a red chair, the setup, the colour call, the Toofan twist",
       "source": "Trend: Fire and ice theme kitty (partystuff.in) + First winter kitty",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-12",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door with both palms covered elbow-deep in mehendi: \"Shaadi season kitty! Full haath mehendi nahi toh entry nahi!\" Context: one guest per ring, Ruhi shows one tiny dot ('minimal hai, trend hai!'), Myra has mehendi on one hand only ('doosre se khana banaya'), Shruti's sticker mehendi peels off as she waves, chip 'FULL MEHENDI: 0/3' never moving while Tanya points each one to the balcony. Ending: Shruti grabs Tanya's palm to admire it and her thumb comes away blue: it is ballpoint pen, and all three walk straight in past her.",
+      "format": "Door arrivals, shaadi season rule at the front door, one guest per ring, chip that never moves, host breaks her own rule, 25-30 s; caption 'Rule banane wali ki mehendi bhi pen wali. Tag your Tanya!'",
+      "source": "Trend: Minimal mehendi vs full haath (shaadiwish.com) + Door-arrivals holds with a new host (skip 27.2%) + Festival window shaadi dates 21-26 Nov (9-14 days, +2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-12",
+      "type": "reel",
+      "idea": "Hook: Housie running, Myra rushes in 40 minutes late, phone at her ear: \"Haan, daal mein namak daal diya hai...\" Context: on every called number her phone rings again (son: 'mera moza?', husband: 'charger kahan hai?', saas: 'dawai ka time') and Tanya, Ruhi and Shruti grab the phone and answer each one for her on speaker, chip 'CALLS: 4 · MYRA KE NUMBER: 0 kate'. Ending: Tanya puts the phone on airplane mode inside the kitty pot, Myra finally cuts her first number, and Ruhi says to the lens: \"Mahine mein ek din, sirf apna.\"",
+      "format": "Housie-in-progress sitcom + calls from home, warm ending line, call counter chip every shot, 3 characters per shot, 25-30 s; caption 'Tag the friend jiska phone kitty mein bhi bajta rehta hai'",
+      "source": "Trend: Her own time line gets shares (our reel, 13 shares on 130 reach) + LEARNINGS: name a friend type and a rule every group has",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-12",
+      "type": "reel",
+      "idea": "Hook: first winter kitty on Tanya's terrace, Housie running, she pats a chair in the sun: \"Dhoop wali kitty!\" Context: on every called number the sun patch slides along the floor and Ruhi, Myra and Shruti drag their chairs, the snacks and the Housie board after it, chip 'DHOOP MEIN: 3 chairs · LADIES: 4' as one lady is always left in the shade. Ending: the sun drops behind the water tank and the last shot is all four squeezed under one rajai on one charpai, tickets poking out, still playing.",
+      "format": "Kitty Gang sitcom, terrace set with charpai, chairs and water tank, chip changes every shot, 3 characters per shot, under 30 s; caption 'Sardi ki kitty ka asli seating plan. Tag your dhoop wali friend'",
+      "source": "Trend: First winter kitty + First winter spread (shawls and rajai on every set this month) + LEARNINGS: open on the game, chip changes every shot",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-12",
+      "type": "game",
+      "idea": "Varmala ki unchai: teams of 4, one lady is the dulha and two are her 'dost' who hold her elbows; the dulhan gets a dupatta garland and 30 seconds to put it over the dulha's head while the dulha leans back and lifts her chin (feet stay planted, no hands). Crazy twist: the dulhan's team may bribe the dost with a toffee or a Housie ticket, and a bribed dost must let go of the elbow at once. Each garland that lands is a point; swap roles and play again. 8 to 20 ladies, 10 to 15 minutes, dupattas and toffees only.",
+      "format": "Carousel: slide 1 'Shaadi season kitty party game' with a dulha leaning back and a dulhan on tiptoe, the setup, the toffee bribe twist, the garland landing, winning team",
+      "source": "Trend: Festival window shaadi dates 21-26 Nov (9-14 days, +2) + Friends' baraat entry performance",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-12",
+      "type": "game",
+      "idea": "Mera ek din: each lady writes on a chit what she would do with one free day with no family duties and folds it into the kitty pot. The host reads them out one by one and everyone writes who they think wrote it; most right guesses wins. Crazy twist: the host slips in two fake chits written 'as the husband' ('main bhi ek din chhutti lunga... aur khaana kaun banayega?') and anyone who guesses a real lady for a fake chit loses a point. 8 to 20 ladies, 15 minutes, chits and pens only.",
+      "format": "Carousel: slide 1 'Kitty party game: ek din sirf apna' with a lady reading a chit and the room laughing, sample chits, the fake husband chit, the score sheet, winner",
+      "source": "Trend: Her own time line gets shares (our reel, 13 shares on 130 reach) + Guess who's who caption",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-12",
+      "type": "game",
+      "idea": "Moze ki jodi: the host empties a laundry bag of 40 mixed family socks (kids, husband, school, woollen) onto a sheet, and each lady has 1 minute to make as many matching pairs as she can, each rolled into the mummy fold ball. Crazy twist: halfway the host shouts \"School ka moza missing!\" and everyone must drop one finished pair back into the pile; unrolled or wrong pairs count zero. Most correct balls wins. 8 to 20 ladies in rounds of 4, 10 to 15 minutes.",
+      "format": "Carousel: slide 1 'Sardi ki kitty party game' with a lady buried in a sock pile, the rules, the missing-sock twist, a wrong pair caught, the winner's ball pile",
+      "source": "Trend: Household dexterity one-minute games (stylecraze.com, venuelook.com) + First winter kitty",
       "score": 8,
       "used": ""
     }
@@ -11653,6 +11707,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-12",
+      "pattern": "Festival window: Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov + Kalabhairav Jayanti 30 Nov + Utpanna Ekadashi 4 Dec",
+      "source": "Hindu Festival Calendar 2026-2027 (hindutone.com) + Gita Jayanti 2026 date (drikpanchang.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/hindu-festival-calendar-2026-2027/",
+      "learn": "Children's Day (2 days) and Chhath (1-4 days) are now too close to post fresh; Tulsi Vivah (9 days), Gurpurab (12) and the 21-26 Nov shaadi dates get +2; Vivah Panchami (13-14 Dec) is the next shaadi hook, still outside the window."
+    },
+    {
+      "date": "2026-11-12",
+      "pattern": "Door-arrivals holds with a new host",
+      "source": "Our pajama kitty door reel 'Har group mein ek aisi host hoti hai jo rule banati hai aur sabse pehle todti hai. Tag your Ruhi!'",
+      "likes": 6,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfkLcdUAk4o/",
+      "learn": "With Ruhi as host instead of Tanya the door shape still held skip at 27.2% (893 views in a day); the shape is the winner, any host works, so rotate hosts and keep one rule per door."
+    },
+    {
+      "date": "2026-11-12",
+      "pattern": "Her own time line gets shares",
+      "source": "Our reel 'A kitty party is more than just games, laughter and get-togethers... every woman deserves her own space, her own circle and a little me-time'",
+      "likes": 0,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfjbKyBtUrG/",
+      "learn": "13 shares on 130 reach, our best share rate ever; a gang reel that ends on one warm 'mahine mein ek din sirf apna' beat gives women a reason to send it to their group."
+    },
+    {
+      "date": "2026-11-12",
+      "pattern": "Minimal mehendi vs full haath",
+      "source": "Minimal mehendi designs trending this wedding season (shaadiwish.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://shaadiwish.com/blog/?p=115314",
+      "learn": "Every shaadi guest group splits into 'two dots is the trend' vs 'elbow tak'; a visible mehendi size on every palm is a stake the viewer reads in one frame."
+    },
     {
       "date": "2026-11-11",
       "pattern": "Festival window: Chhath 13-16 Nov + Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov",
