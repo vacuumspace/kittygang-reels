@@ -11740,6 +11740,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/geeli-mehendi-challenge-shaadi-kitty-party-game",
       "queue_id": "de2a06c4-5122-4dc5-a5e8-b19604c88b8e",
       "scheduled_ist": "2026-11-12 16:11"
+    },
+    {
+      "id": "KGI-023",
+      "n": 23,
+      "created": "2026-11-12",
+      "game": "Tulsi Vivah Thaal",
+      "tagline": "Aankh band, thaal sajao!",
+      "players": "8 to 20 (teams of 4)",
+      "time": "15 minutes",
+      "slug": "tulsi-vivah-thaal-blindfold-kitty-party-game",
+      "caption": "Aankh pe patti, tray mein amla bhi aur nimbu bhi, aur team sirf left right bol sakti hai! Aapki kitty mein aloo ko shakarkandi kaun samjhegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-023/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/tulsi-vivah-thaal-blindfold-kitty-party-game",
+      "queue_id": "ffc11450-6b8f-42ee-b4f0-973f0b8859b2",
+      "scheduled_ist": "2026-11-13 17:09"
     }
   ],
   "research": [
