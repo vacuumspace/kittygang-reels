@@ -12066,7 +12066,7 @@
       "time": "10 to 15 minutes",
       "slug": "geeli-mehendi-challenge-shaadi-kitty-party-game",
       "caption": "Mehendi geeli hai, haathon pe moze hain, aur 1 minute mein toffee, clip aur Housie, teeno karne hain! Aapki kitty mein sabse fast dulhan kaun?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-022/board.jpg",
       "image_urls": [
@@ -12083,7 +12083,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/geeli-mehendi-challenge-shaadi-kitty-party-game",
       "queue_id": "de2a06c4-5122-4dc5-a5e8-b19604c88b8e",
-      "scheduled_ist": "2026-11-12 16:11"
+      "scheduled_ist": "2026-11-12 16:11",
+      "permalink": "https://www.instagram.com/p/Dfo359tjEm_/",
+      "media_id": "18099796832430814"
     },
     {
       "id": "KGI-023",
