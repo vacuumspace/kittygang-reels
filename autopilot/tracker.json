@@ -10275,6 +10275,37 @@
         "voice pace >= 2.3 words/s (2.28 w/s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-13-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-14",
+      "created": "2026-11-14",
+      "title": "Aaj hum bachche!",
+      "format": "Theme Housie",
+      "theme": "baldiwas",
+      "story": "ai",
+      "variant": "role-reversal",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "On Children's Day the gang behaves like school kids at Housie: Tanya guards her Water Bottle, Ruhi needs one number for Teddy Bear, 14 is called and she wins, then Myra finds her Tiffin Box empty and Shruti is caught chewing.",
+      "beats": "hook: aaj hum bachche / esc 1: Tanya, meri Water Bottle / esc 2: Ruhi, Teddy Bear ek number baaki / call 14, Teddy Bear done / turn: Ruhi brags / button: Myra, mera tiffin kisne khaaya? Shruti chewing",
+      "experiment": {
+        "format": "role-reversal",
+        "hook": "Myra hopping like a schoolgirl on the Children's Day home art, heartbeat at 0 s, mascot ball spinning above, chip 'AAJ HUM BACHCHE!' pinned from the first frame, she says 'Bal Diwas hai! Aaj hum bachche!'",
+        "variable": "length: the shortest theme reel yet, 7 quick shots and about 15 s before the ending (others ran 20 to 30 s), so the payoff lands before people drift",
+        "hypothesis": "the middle is our weak spot (watched % 9 to 18), so a reel half as long should hold more of it: watched % above 22 (best 18), skip under 55% (best 50.3), at least 1 share from moms who remember tiffin fights"
+      },
+      "duration": 28.7,
+      "lufs": null,
+      "caption": "Bal Diwas pe har mummy phir se bachchi! Tiffin wali saheli ko tag karo. Aaj ki Children's Day Housie mein Teddy Bear kiska?\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #childrensday #baldiwas #bachpan",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-14.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-14-cover.jpg",
+      "job_id": "7cea1756-6188-4bb1-8e8e-5dec497c330a",
+      "permalink": "https://www.instagram.com/reel/DfsUZoPGWFE/",
+      "media_id": "18000103005045157",
+      "yt_id": "Ywj90BAtufQ",
+      "yt_url": "https://youtube.com/shorts/Ywj90BAtufQ",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
