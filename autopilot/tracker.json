@@ -9934,6 +9934,189 @@
       "yt_id": "meHabNlgMCI",
       "yt_url": "https://youtube.com/shorts/meHabNlgMCI",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-13-a",
+      "created": "2026-11-13",
+      "title": "Sardi ki kitty, 4 type!",
+      "format": "Types-of, first winter kitty, one type per shot with a type chip, the host turns out to be type 4",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Megha",
+        "Aditi"
+      ],
+      "caption": "Har sardi ki kitty mein yeh 4 milti hain. Aap kaunsi type ho? Tag your sleeveless wali!",
+      "status": "queued",
+      "idea": "Tanya lists the 4 types of ladies at every winter kitty, and the fourth type is her: the host with the ceiling fan on full in November.",
+      "beats": "hook: Ruhi shivers, Tanya 'sardi hai, enjoy karo' / setup: 4 types / esc: sleeveless Ruhi (blouse is new), diet-off Megha (third halwa plate), kettle-hugger Aditi (send the ticket here) / twist: Tanya says she is normal, the ceiling fan is on full above her / button: Ruhi 'Garmi hai? Enjoy karo!'",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Ruhi shivering in a sleeveless blouse at a Housie table: 'Brrr! Kitni thand hai!', Tanya: 'Sardi hai, enjoy karo!', chip SARDI KI KITTY: 4 TYPES",
+        "variable": "a types-of reel where the narrator is the last type (see-it twist: the ceiling fan), instead of a plain list of types; first winter topic",
+        "hypothesis": "types-of had our best skip outside door reels (52.6%); a twist on type 4 and a weather topic every viewer feels this week should bring skip under 45% and watched above 50% at about 28 s, with 2+ shares from 'Aap kaunsi type ho?'"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Brrr! Kitni thand hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Sardi hai, enjoy karo!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Har sardi kitty mein chaar type!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Type ek!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Shawl kyun? Blouse dikhna chahiye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Daant baj rahe hain!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Naya blouse hai!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Type do!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Sardi mein calories nahi lagti!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Teesri plate, Megha?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Halwa garam hai na!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Type teen!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Kettle meri hot water bottle.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aditi, Housie shuru!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Ticket yahin bhej do.",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur main? Main toh normal hoon!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Toh pankha kyun chal raha hai?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Kitchen se aayi hoon! Garmi hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Garmi hai? Enjoy karo!",
+          "beat": "button"
+        }
+      ],
+      "duration": 28.39,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Type types-of: the last 4 types were pov, musical, door-arrivals, countdown, and LEARNINGS asks for types-of next. Lead Tanya (last reel Myra). One protagonist (Tanya names every type) and one pinned question (TYPE n/4). Game three times: sleeveless shiver (ordinary), third halwa plate (ordinary), kettle as hot water bottle and the ticket sent to her (absurd). Claim before reveal on type 4 ('Main toh normal hoon!' then the fan). Twist is see-it: the ceiling fan on full over a sweating host. Button mirrors line 2 flipped (Sardi hai, enjoy karo / Garmi hai? Enjoy karo!). Endings tried: Ruhi wins Full House and gets everyone's shawls (no shawl prop, needs a reason to win), Aditi 'Har sardi yahi hota hai' (flat), the fan reveal with the line thrown back (kept, loops). 4 talking characters in the reel, max 3 a shot, every two-line shot 8 words or fewer with hold 0.1, about 78 words, about 28 s at pace 28."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-13-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-13-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-13-a-board.jpg",
+      "queue_id": "5d5ab032-20d1-498d-8e25-1055998e9e48",
+      "scheduled_ist": "2026-11-20 12:44",
+      "yt_id": "u1PwwtXbbTE",
+      "yt_url": "https://youtube.com/shorts/u1PwwtXbbTE",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
