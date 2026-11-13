@@ -10117,6 +10117,162 @@
       "yt_id": "u1PwwtXbbTE",
       "yt_url": "https://youtube.com/shorts/u1PwwtXbbTE",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-13-b",
+      "created": "2026-11-13",
+      "title": "Kitty ke baad reception!",
+      "format": "Expectation vs reality, shaadi season Housie in full lehenga",
+      "hook": "",
+      "cast": [
+        "Myra",
+        "Ruhi",
+        "Shruti"
+      ],
+      "caption": "Shaadi season mein ek friend hamesha ek din pehle taiyaar hoti hai. Tag your Ruhi!",
+      "status": "needs-fix",
+      "idea": "Ruhi plans to go from kitty straight to a reception in full lehenga, but her jhumka, Myra's bun and her own lehenga ruin the Housie, and then a message shows the reception is tomorrow.",
+      "beats": "hook: kitty ke baad seedha reception (expectation flash) / esc: jhumka stuck in ticket, bun too tight to look down, lehenga too heavy to stand for Full House / twist: Kapoor aunty's message, reception is KAL / button: same expectation photo, 'kal phir'",
+      "experiment": {
+        "type": "expectation-reality",
+        "hook": "camera-app flash on the gang posing in lehengas with chip EXPECTATION and Ruhi saying 'Kitty ke baad, seedha reception!', whip cut to REALITY with her jhumka stuck in her Housie ticket",
+        "variable": "an EXPECTATION/REALITY chip pair with a wall clock that jumps each shot, on a dressed living room instead of a split screen, at 25-28 s, with a non-Tanya lead (Ruhi)",
+        "hypothesis": "the glam-to-mess cut in the first 3 s gets skip under 45% (the previous expectation-reality reel was 64.9%), and the 'ready a day early' caption gets 2+ shares in wedding season"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kitty ke baad, seedha reception!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Full glam Housie!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Number bees!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaye! Jhumka ticket mein phasa!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Bun tight! Neeche dikhta hi nahi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Upar karo!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera! Mera! Full House!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Toh utho, ticket dikhao!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Uth nahi sakti! Lehenga bhaari hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Teen, do, ek, kheencho!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Chalo! Ab seedha reception!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruhi... Kapoor aunty ka message.",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Kal?! Reception kal hai?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw! Mera bun?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kal tak mat kholna.",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Kal phir! Kitty ke baad, seedha reception!",
+          "beat": "button"
+        }
+      ],
+      "duration": 34.57,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 4,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Type expectation-reality is not in the last 4 (musical, door-arrivals, countdown, types-of). Lead Ruhi, last reel led by Tanya. Talking cast 3 (Ruhi, Myra, Shruti), max 3 per shot. Game plays three times, ordinary (jhumka in ticket), ordinary (bun too tight to look down), absurd (lehenga too heavy to stand up for Full House, claim before reveal). Twist is a see-it phone chat: Reception KAL hai. Button repeats the opening photo and line, flipped into round 2. Endings tried: reception hall with the bride's mother (no set, no male cast), Shruti wins Full House in plain kurti (two twists, confusing), the opening photo repeated with 'kal phir' (kept, loops). Every two-line shot is 8 words or fewer with hold 0.1, pace 28, about 26 s. Kind humour: the lehenga is heavy, nobody's body is the joke."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.28 w/s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-13-b-board.jpg"
     }
   ],
   "ideas": [
