@@ -1,0 +1,905 @@
+{
+  "id": "KG-2026-11-13-a",
+  "title": "Sardi ki kitty, 4 type!",
+  "format": "Types-of, first winter kitty, one type per shot with a type chip, the host turns out to be type 4",
+  "idea": "Tanya lists the 4 types of ladies at every winter kitty, and the fourth type is her: the host with the ceiling fan on full in November.",
+  "logline": "Tanya laughs at the 4 types of ladies at every winter kitty, and the fourth type is her, the host sweating under a ceiling fan on full speed in November.",
+  "game": "Tanya names a winter type and the lady proudly defends her silly winter habit",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Ruhi shivering in a sleeveless blouse at a Housie table: 'Brrr! Kitni thand hai!', Tanya: 'Sardi hai, enjoy karo!', chip SARDI KI KITTY: 4 TYPES",
+    "variable": "a types-of reel where the narrator is the last type (see-it twist: the ceiling fan), instead of a plain list of types; first winter topic",
+    "hypothesis": "types-of had our best skip outside door reels (52.6%); a twist on type 4 and a weather topic every viewer feels this week should bring skip under 45% and watched above 50% at about 28 s, with 2+ shares from 'Aap kaunsi type ho?'"
+  },
+  "mute": [
+    "Housie table, Ruhi bouncing and sweating cold drops, Tanya laughing, chip SARDI KI KITTY: 4 TYPES",
+    "Tanya counts four types, chip stays",
+    "chip TYPE 1: SLEEVELESS WALI, Ruhi proud with hands on hips",
+    "Ruhi still shivering, Tanya shocked: the blouse is new",
+    "chip TYPE 2: DIET SARDI MEIN BAND, Megha with a thali, laughing",
+    "three thalis in a row, chip HALWA PLATE #3",
+    "chip TYPE 3: KETTLE SE CHIPKI, Aditi on the sofa next to the chai kettle",
+    "Tanya with a Housie ticket, Aditi does not move: send it here",
+    "music stops, Tanya smug alone, chip TYPE 4: ?",
+    "Ruhi points, asking why the fan is on",
+    "big ceiling fan above a sweating Tanya, chip TYPE 4: NOVEMBER MEIN PANKHA",
+    "Ruhi throws the opening line back, Megha laughs, chip TYPE 4: HOST"
+  ],
+  "beats": "hook: Ruhi shivers, Tanya 'sardi hai, enjoy karo' / setup: 4 types / esc: sleeveless Ruhi (blouse is new), diet-off Megha (third halwa plate), kettle-hugger Aditi (send the ticket here) / twist: Tanya says she is normal, the ceiling fan is on full above her / button: Ruhi 'Garmi hai? Enjoy karo!'",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Type types-of: the last 4 types were pov, musical, door-arrivals, countdown, and LEARNINGS asks for types-of next. Lead Tanya (last reel Myra). One protagonist (Tanya names every type) and one pinned question (TYPE n/4). Game three times: sleeveless shiver (ordinary), third halwa plate (ordinary), kettle as hot water bottle and the ticket sent to her (absurd). Claim before reveal on type 4 ('Main toh normal hoon!' then the fan). Twist is see-it: the ceiling fan on full over a sweating host. Button mirrors line 2 flipped (Sardi hai, enjoy karo / Garmi hai? Enjoy karo!). Endings tried: Ruhi wins Full House and gets everyone's shawls (no shawl prop, needs a reason to win), Aditi 'Har sardi yahi hota hai' (flat), the fan reveal with the line thrown back (kept, loops). 4 talking characters in the reel, max 3 a shot, every two-line shot 8 words or fewer with hold 0.1, about 78 words, about 28 s at pace 28."
+  },
+  "cover": {
+    "shot": 10,
+    "at": 1,
+    "title": [
+      "Sardi ki kitty:",
+      "4 type ki ladies"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har sardi ki kitty mein yeh 4 milti hain. Aap kaunsi type ho? Tag your sleeveless wali!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#sardi",
+    "#winterkitty",
+    "#ladieskitty",
+    "#housie",
+    "#kittypartyfun"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "SARDI KI KITTY: 4 TYPES",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "laugh",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 380,
+          "y": 1380,
+          "s": 0.8
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 400,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.05,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Brrr! Kitni thand hai!",
+          "say": "ब्र्र्र! कितनी ठंड है!",
+          "beat": "hook",
+          "gap": 0.04
+        },
+        {
+          "who": "Tanya",
+          "text": "Sardi hai, enjoy karo!",
+          "say": "सर्दी है, एंजॉय करो!",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "SARDI KI KITTY: 4 TYPES",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.3,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "open",
+          "prop": "phone"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Cutting chai",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Har sardi kitty mein chaar type!",
+          "say": "हर सर्दी किटी में चार टाइप!",
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 1: SLEEVELESS WALI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        },
+        {
+          "name": "Saree on hanger",
+          "x": 140,
+          "y": 1300,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 900,
+          "at": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Type ek!",
+          "say": "टाइप एक!",
+          "beat": "escalation",
+          "gap": 0.04
+        },
+        {
+          "who": "Ruhi",
+          "text": "Shawl kyun? Blouse dikhna chahiye!",
+          "say": "शॉल क्यों? ब्लाउज़ दिखना चाहिए!",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 1: SLEEVELESS WALI",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "hips",
+          "mouth": "flat",
+          "eyes": "half",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 400,
+          "y": 980,
+          "at": 0.2
+        },
+        {
+          "kind": "sweat",
+          "x": 200,
+          "y": 1050,
+          "at": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Daant baj rahe hain!",
+          "say": "दाँत बज रहे हैं!",
+          "gap": 0.04
+        },
+        {
+          "who": "Ruhi",
+          "text": "Naya blouse hai!",
+          "say": "नया ब्लाउज़ है!",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 2: DIET SARDI MEIN BAND",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        },
+        {
+          "name": "Mithai box",
+          "x": 560,
+          "y": 1640,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Type do!",
+          "say": "टाइप दो!",
+          "beat": "escalation",
+          "gap": 0.04
+        },
+        {
+          "who": "Megha",
+          "text": "Sardi mein calories nahi lagti!",
+          "say": "सर्दी में कैलोरीज़ नहीं लगतीं!",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 2: HALWA PLATE #3",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "mouth": "smile",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 700,
+          "y": 1600,
+          "s": 0.9
+        },
+        {
+          "name": "Thali",
+          "x": 560,
+          "y": 1640,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "slurp",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Teesri plate, Megha?!",
+          "say": "तीसरी प्लेट, मेघा?!",
+          "gap": 0.04
+        },
+        {
+          "who": "Megha",
+          "text": "Halwa garam hai na!",
+          "say": "हलवा गरम है ना!",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 3: KETTLE SE CHIPKI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 620,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.4,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 270,
+          "y": 1760,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Chai kettle",
+          "x": 760,
+          "y": 1340,
+          "s": 1.3
+        },
+        {
+          "name": "Cutting chai",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Type teen!",
+          "say": "टाइप तीन!",
+          "beat": "escalation",
+          "gap": 0.04
+        },
+        {
+          "who": "Aditi",
+          "text": "Kettle meri hot water bottle.",
+          "say": "केटल मेरी हॉट वॉटर बॉटल।",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 3: KETTLE SE CHIPKI",
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 620,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.4,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 270,
+          "y": 1760,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open",
+          "prop": "phone"
+        }
+      ],
+      "props": [
+        {
+          "name": "Chai kettle",
+          "x": 760,
+          "y": 1340,
+          "s": 1.3
+        },
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1640,
+          "s": 0.9
+        },
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Aditi, Housie shuru!",
+          "say": "अदिति, हाउज़ी शुरू!",
+          "gap": 0.04
+        },
+        {
+          "who": "Aditi",
+          "text": "Ticket yahin bhej do.",
+          "say": "टिकट यहीं भेज दो।",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 4: ?",
+      "music": false,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1760,
+          "s": 2.1,
+          "turn": 0,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 820,
+          "y": 700,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Aur main? Main toh normal hoon!",
+          "say": "और मैं? मैं तो नॉर्मल हूँ!",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 4: ?",
+      "music": false,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 880,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Toh pankha kyun chal raha hai?!",
+          "say": "तो पंखा क्यों चल रहा है?!",
+          "beat": "turn",
+          "silenceBefore": true,
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 4: NOVEMBER MEIN PANKHA",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1780,
+          "s": 2.1,
+          "turn": 0,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ceiling fan",
+          "x": 560,
+          "y": 640,
+          "s": 5
+        },
+        {
+          "name": "Pressure cooker",
+          "x": 880,
+          "y": 1560,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 380,
+          "y": 1000,
+          "at": 0.2
+        },
+        {
+          "kind": "sweat",
+          "x": 720,
+          "y": 960,
+          "at": 0.5
+        },
+        {
+          "kind": "sweat",
+          "x": 300,
+          "y": 1150,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "whoosh",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "boing",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Kitchen se aayi hoon! Garmi hai!",
+          "say": "किचन से आई हूँ! गर्मी है!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.6,
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "TYPE 4: HOST",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 290,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1330,
+          "s": 1.25,
+          "turn": 0.3,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ceiling fan",
+          "x": 560,
+          "y": 560,
+          "s": 4.5
+        },
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1640,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 900,
+          "y": 1000,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.2,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Garmi hai? Enjoy karo!",
+          "say": "गर्मी है? एंजॉय करो!",
+          "beat": "button",
+          "punch": true
+        }
+      ]
+    }
+  ]
+}
