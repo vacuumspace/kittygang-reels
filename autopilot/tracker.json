@@ -12238,6 +12238,34 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/tulsi-vivah-thaal-blindfold-kitty-party-game",
       "queue_id": "ffc11450-6b8f-42ee-b4f0-973f0b8859b2",
       "scheduled_ist": "2026-11-13 17:09"
+    },
+    {
+      "id": "KGI-024",
+      "n": 24,
+      "created": "2026-11-13",
+      "game": "Sangeet Ki Practice",
+      "tagline": "Dekho, yaad karo, naacho!",
+      "players": "8 to 20 (teams of 4)",
+      "time": "15 minutes",
+      "slug": "sangeet-ki-practice-shaadi-dance-kitty-party-game",
+      "caption": "Host ek baar dance dikhayegi, phir team ko sync mein yaad se karna hai. \"Mamaji aa gaye!\" pe naya step judega! Aapki kitty mein sabse achha thumka kiska hai?",
+      "status": "queued",
+      "slides": 9,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/s9.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/sangeet-ki-practice-shaadi-dance-kitty-party-game",
+      "queue_id": "a4ca8873-25ed-42af-9260-b5dc9e669533",
+      "scheduled_ist": "2026-11-14 16:11"
     }
   ],
   "research": [
