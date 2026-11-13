@@ -10871,7 +10871,7 @@
       "format": "Carousel: game card, belan held by two hands, twist moment, roti under the plate test, winning pair",
       "source": "Trend: Gurpurab langar seva (hindupad.com) + Festival window: Gurpurab 24 Nov (19 days, +2) + One-minute game",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-05",
@@ -10880,7 +10880,7 @@
       "format": "Carousel: game card, colour call list, ladies holding up items, dupatta swap twist, winner",
       "source": "Trend: Shaadi function colour codes (azafashions.com) + Festival window: shaadi muhurats 21-26 Nov (16 days, +2)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-05",
@@ -11069,7 +11069,7 @@
       "format": "Kitty Gang sitcom, Housie in progress, phone screen shots of the reel being shot, take counter chip",
       "source": "Trend: Shaadi has become content (theprint.in) + One-claim proof reel",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-09",
@@ -11267,6 +11267,60 @@
       "format": "Carousel: slide 1 'Sardi ki kitty party game' with a lady buried in a sock pile, the rules, the missing-sock twist, a wrong pair caught, the winner's ball pile",
       "source": "Trend: Household dexterity one-minute games (stylecraze.com, venuelook.com) + First winter kitty",
       "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-13",
+      "type": "reel",
+      "idea": "Hook: doorbell, Myra blocks her door holding the kitty pot: \"Is baar kitty cash mein! Cash nahi toh entry nahi!\" Context: one guest per ring, chip 'CASH: Rs 0 · UPI: 1', Ruhi waves her phone \"GPay kar doon?\", Shruti pours out her son's gullak in coins, Tina offers a cheque. Ending: the sabziwala rings and Myra turns to the gang: \"Kisi ke paas UPI hai? Mere paas chhutta nahi!\" and they all hold up their phones.",
+      "format": "Door-arrivals (25-30 s), Myra as host who breaks her own rule; caption 'Har group mein ek host hoti hai jo rule banati hai... Tag your Myra!'",
+      "source": "Trend: Door-arrivals holds with a new host (skip 27.2%) + Who holds the kitty money",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-13",
+      "type": "reel",
+      "idea": "Hook: Housie running, Shruti looks into the lens: \"Mahine mein ek din main sirf Shruti hoon.\" and flips her buzzing phone face down. Context: on every called number it buzzes again and Ruhi peeks at the name (Beta, Mummy ji, Ji, Beta again), chip 'MISSED CALLS: 1...7', Shruti keeps cutting numbers. Ending: she shouts Full House, flips the phone, types \"Kitty jeet gayi. Khaana Swiggy se.\" and Ruhi and Myra cheer.",
+      "format": "Sitcom with a to-camera first line (25 s); caption 'Tag the one whose phone goes ulta at kitty!'",
+      "source": "Trend: One confident line to camera holds the hook (skip 31.8%, 8 shares) + Her own time line gets shares + Homemaking routine as content",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-13",
+      "type": "reel",
+      "idea": "Hook: 4 pm winter kitty, Housie running, Tanya: \"Har sardi ki kitty mein yeh 4 ladies hoti hain.\" Context: on every called number one type: Myra in three shawls who never shows her saree, Ruhi in a sleeveless blouse 'saree dikhni chahiye' shivering, Tina parked by the only heater, Shruti who brought gajar halwa and wants credit for every bite. Ending: Ruhi wins Full House, stands up shaking, and all three throw their shawls over her.",
+      "format": "Types-of (25-30 s, one type per number, chip 'SHAWLS: 3 · SLEEVELESS: 1'); caption 'Aap kaunsi type ho? Tag your sleeveless wali!'",
+      "source": "Trend: First winter kitty + LEARNINGS 2026-11-09 asks for types-of as the next test",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-13",
+      "type": "game",
+      "idea": "Chhutte paise: the host puts a steel plate of mixed coins (Re 1, 2, 5, 10) in front of each pair and calls an amount (\"Rs 47!\"); the first pair to slide exactly that amount into the kitty katori, using one hand each, wins the round. Crazy twist: whenever the host shouts \"UPI down!\" every pair passes its plate to the left and starts again on a new pile. 8 to 20 ladies in pairs, 10 to 15 minutes, coins and katoris only.",
+      "format": "Carousel: slide 1 'Kitty party game: chhutte hain?' with two ladies racing over a coin plate, the rules, the UPI down twist, a wrong count caught, the winners",
+      "source": "Trend: Who holds the kitty money + Household dexterity one-minute games",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-13",
+      "type": "game",
+      "idea": "Matar chheelo: each lady gets an equal heap of winter pea pods on a newspaper and 2 minutes to shell them into her katori; the host weighs or counts by the spoon and the fullest katori wins. Crazy twist: every time the host shouts \"Saasu maa aa gayi!\" everyone must keep shelling with one hand while folding the newspaper neatly with the other, and any pea on the floor costs a spoon. 8 to 20 ladies, 10 to 15 minutes, peas cooked into the kitty snack after.",
+      "format": "Carousel: slide 1 'Sardi ki kitty party game' with a row of ladies racing over pea heaps, the rules, the saasu maa twist, the katori line-up, the winner",
+      "source": "Trend: First winter kitty + Homemaking routine as content (chores as the game)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-13",
+      "type": "game",
+      "idea": "Sangeet ki practice: the host shows an 8-step shaadi dance once (thumka, bulb lagao, patang udao, matki, ghoonghat, chutki, gol ghoomo, namaste) and teams of 4 must repeat it in sync to any shaadi song; the most in-sync team wins. Crazy twist: whenever the host shouts \"Mamaji aa gaye!\" the left-most lady must add one new step of her own and the whole team must keep it in every round after. 8 to 20 ladies, 15 minutes, a phone speaker only.",
+      "format": "Carousel: slide 1 'Shaadi season kitty party game' with a team mid-thumka, the 8 steps as icons, the Mamaji twist, the judging, the winning team",
+      "source": "Trend: Friends' baraat entry performance + shaadi dates 21-26 Nov (+2)",
+      "score": 9,
       "used": ""
     }
   ],
@@ -12187,6 +12241,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-13",
+      "pattern": "Festival window: Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov + Kalabhairav Jayanti 30 Nov + Utpanna Ekadashi 4 Dec",
+      "source": "December 2026 Hindu Festivals: Dates, Rituals and Significance (hindutone.com) + Vivaha Panchami 2026 (haindavam.org)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/december-2026-hindu-festivals-dates-rituals-significance/",
+      "learn": "Tulsi Vivah (8 days), Gurpurab (11) and the 21-26 Nov shaadi dates get +2; Children's Day is tomorrow and Chhath ends 16 Nov, so expire those ideas on the next run; Vivah Panchami (14 Dec) and Gita Jayanti (20 Dec) enter the window next week."
+    },
+    {
+      "date": "2026-11-13",
+      "pattern": "One confident line to camera holds the hook",
+      "source": "Our reel 'Be so independent, so confident and so unapologetically yourself...'",
+      "likes": 33,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfjcTjtP4f_/",
+      "learn": "A single proud first-person line in the first second kept skip at 31.8% with 8 shares and 7 saves on 1423 views; open a kitty scene with one short 'main' line from a lady, then go straight into the game."
+    },
+    {
+      "date": "2026-11-13",
+      "pattern": "Call-to-challenge without a scene stays flat",
+      "source": "Our reel 'Let's do Kitty Challenge... Dekhte hai kon jeetega'",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.instagram.com/kittyparty.app/",
+      "learn": "A plain 'challenge your group' ask got 855 views, skip 55.4% and 1 share; a challenge only works when it sits inside a real scene with a stake chip, never as the whole reel."
+    },
+    {
+      "date": "2026-11-13",
+      "pattern": "Homemaking routine as content",
+      "source": "Meet the Indian tradwives who are clocking millions of views online (scroll.in)",
+      "likes": null,
+      "comments": null,
+      "link": "https://scroll.in/article/1085587/meet-the-indian-tradwives-who-are-clocking-millions-of-views-online",
+      "learn": "Home routines pull huge views; use the chores and calls from home only as the pressure around a kitty game (the home tugging, she keeps playing), never as a lecture or a routine vlog."
+    },
     {
       "date": "2026-11-12",
       "pattern": "Festival window: Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov + Kalabhairav Jayanti 30 Nov + Utpanna Ekadashi 4 Dec",
