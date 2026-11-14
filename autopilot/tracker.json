@@ -12730,6 +12730,34 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/sangeet-ki-practice-shaadi-dance-kitty-party-game",
       "queue_id": "a4ca8873-25ed-42af-9260-b5dc9e669533",
       "scheduled_ist": "2026-11-14 16:11"
+    },
+    {
+      "id": "KGI-025",
+      "n": 25,
+      "created": "2026-11-14",
+      "game": "Chhakka Phere",
+      "tagline": "Chhakka aaya, phera lagao!",
+      "players": "8 to 20 (teams of 4 or 5)",
+      "time": "15 minutes",
+      "slug": "chhakka-phere-shaadi-dice-kitty-party-game",
+      "caption": "Dice pe chhakka aaya toh phera, ek aaya toh bidaai ka rona! Shaadi season ki kitty mein yeh zaroor khelo. Aapki kitty mein sabse filmy bidaai kaun karegi?",
+      "status": "queued",
+      "slides": 9,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s9.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/chhakka-phere-shaadi-dice-kitty-party-game",
+      "queue_id": "c71dc855-ae8b-4b33-9275-5be43e1d6c37",
+      "scheduled_ist": "2026-11-15 16:14"
     }
   ],
   "research": [
