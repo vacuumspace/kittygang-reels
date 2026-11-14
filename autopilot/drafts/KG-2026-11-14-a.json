@@ -1,0 +1,862 @@
+{
+  "id": "KG-2026-11-14-a",
+  "fix": "Fix of KG-2026-11-13-b (QA: voice pace 2.28 w/s, needs 2.3). Pace raised from 28 to 32, as the KG-2026-11-10-b fix did (it passed at 32). The ellipsis pause in Shruti's turn line is gone, and the button hold is trimmed to 0.6 s. Shruti now stands in the RECEPTION: KAL shot, so the friend who says 'Kal tak mat kholna' is on screen. Same game, chips, see-it message twist and mirrored button.",
+  "title": "Kitty ke baad reception!",
+  "format": "Expectation vs reality, shaadi season Housie in full lehenga",
+  "idea": "Ruhi plans to go from kitty straight to a reception in full lehenga, but her jhumka, Myra's bun and her own lehenga ruin the Housie, and then a message shows the reception is tomorrow.",
+  "logline": "Ruhi wears full lehenga to kitty to go straight to a reception, the glam ruins her Housie, and then a message says the reception is tomorrow.",
+  "game": "every piece of shaadi glam fights the Housie game (jhumka, bun, lehenga)",
+  "experiment": {
+    "type": "expectation-reality",
+    "hook": "camera-app flash on the gang posing in lehengas with chip EXPECTATION and Ruhi saying 'Kitty ke baad, seedha reception!', whip cut to REALITY with her jhumka stuck in her Housie ticket",
+    "variable": "an EXPECTATION/REALITY chip pair with a wall clock that jumps each shot, on a dressed living room instead of a split screen, at 25-28 s, with a non-Tanya lead (Ruhi)",
+    "hypothesis": "the glam-to-mess cut in the first 3 s gets skip under 45% (the previous expectation-reality reel was 64.9%), and the 'ready a day early' caption gets 2+ shares in wedding season"
+  },
+  "mute": [
+    "camera app flash, three friends posing in lehengas, chip EXPECTATION",
+    "living room Housie, chip REALITY, clock 5:30, Ruhi's ticket hanging off her jhumka, sweat",
+    "clock 5:50, Myra cannot look down at her ticket because of her bun, ball 45 pops up",
+    "clock 6:20, Ruhi bouncing on the sofa claiming Full House, Shruti hands on hips",
+    "Ruhi alone stuck on the sofa, sweat drops, she cannot get up",
+    "Myra and Shruti pull, Ruhi pops up happy",
+    "silence, a phone notification by Ruhi, everyone stares",
+    "phone chat from Kapoor Aunty: Reception KAL hai, 7 baje",
+    "chip RECEPTION: KAL, Myra laughing holding her bun, Ruhi deadpan, Shruti smirking hands on hips",
+    "camera flash again, same pose as the opening, chip EXPECTATION: KAL, all shout the opening line"
+  ],
+  "beats": "hook: kitty ke baad seedha reception (expectation flash) / esc: jhumka stuck in ticket, bun too tight to look down, lehenga too heavy to stand for Full House / twist: Kapoor aunty's message, reception is KAL / button: same expectation photo, 'kal phir'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 4,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Fix of KG-2026-11-13-b, same experiment (expectation-reality) so the test still runs. Type expectation-reality is not in the last 4 (musical, door-arrivals, countdown, types-of). Lead Ruhi, last reel led by Tanya. Talking cast 3 (Ruhi, Myra, Shruti), max 3 per shot. Game plays three times, ordinary (jhumka in ticket), ordinary (bun too tight to look down), absurd (lehenga too heavy to stand up for Full House, claim before reveal). Twist is a see-it phone chat: Reception KAL hai. Button repeats the opening photo and line, flipped into round 2. Endings tried: reception hall with the bride's mother (no set, no male cast), Shruti wins Full House in plain kurti (two twists, confusing), the opening photo repeated with 'kal phir' (kept, loops). Every two-line shot is 8 words or fewer with hold 0.1, pace 32, about 31 s. Kind humour: the lehenga is heavy, nobody's body is the joke."
+  },
+  "cover": {
+    "shot": 7,
+    "at": 1.2,
+    "title": [
+      "Kitty ke baad reception!",
+      "Expectation vs reality"
+    ],
+    "titleY": 330
+  },
+  "caption": "Shaadi season mein ek friend hamesha ek din pehle taiyaar hoti hai. Tag your Ruhi!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#expectationvsreality",
+    "#ladieskitty",
+    "#housie",
+    "#weddingseason"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 32,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "camera",
+      "flash": true,
+      "focus": [
+        540,
+        980
+      ],
+      "camera": "still",
+      "chip": "EXPECTATION",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "main": "#2E8B7A",
+          "mainSh": "#226B5E",
+          "x": 260,
+          "y": 1700,
+          "s": 1.85,
+          "pose": "wave",
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 560,
+          "y": 1720,
+          "s": 2.05,
+          "pose": "twirl",
+          "turn": 0,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "twirl": true
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 840,
+          "y": 1700,
+          "s": 1.85,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.6,
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1820,
+          "s": 1.1,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 420,
+          "y": 760,
+          "at": 0.1
+        },
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 720,
+          "at": 0.25
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "swish",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kitty ke baad, seedha reception!",
+          "say": "किटी के बाद, सीधा रिसेप्शन!",
+          "beat": "hook"
+        },
+        {
+          "who": "Myra",
+          "text": "Full glam Housie!",
+          "say": "फ़ुल ग्लैम हाउज़ी!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "front": true,
+      "chip": "REALITY",
+      "chipY": 600,
+      "clock": {
+        "h": 5,
+        "m": 30
+      },
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 830,
+          "y": 1720,
+          "s": 2.4
+        },
+        {
+          "name": "Housie ticket",
+          "x": 360,
+          "y": 1180,
+          "s": 0.9,
+          "rot": -20
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 450,
+          "y": 900,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Number bees!",
+          "say": "नंबर बीस!",
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaye! Jhumka ticket mein phasa!",
+          "say": "हाय! झुमका टिकट में फँसा!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chip": "REALITY",
+      "chipY": 600,
+      "clock": {
+        "h": 5,
+        "m": 50
+      },
+      "chars": [
+        {
+          "name": "Myra",
+          "main": "#2E8B7A",
+          "mainSh": "#226B5E",
+          "x": 360,
+          "y": 1760,
+          "s": 2.1,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 790,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Ball 45",
+          "x": 580,
+          "y": 1150,
+          "s": 2.2,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 250,
+          "y": 820,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Bun tight! Neeche dikhta hi nahi!",
+          "say": "बन टाइट! नीचे दिखता ही नहीं!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Upar karo!",
+          "say": "ऊपर करो!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "front": true,
+      "chip": "REALITY",
+      "chipY": 600,
+      "clock": {
+        "h": 6,
+        "m": 20
+      },
+      "chars": [
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 330,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 760,
+          "y": 1330,
+          "s": 1.25,
+          "pose": "hips",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1180,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 820,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "tabla",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Mera! Mera! Full House!",
+          "say": "मेरा! मेरा! फ़ुल हाउस!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Toh utho, ticket dikhao!",
+          "say": "तो उठो, टिकट दिखाओ!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "front": true,
+      "chip": "REALITY",
+      "chipY": 600,
+      "clock": {
+        "h": 6,
+        "m": 25
+      },
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 540,
+          "y": 1330,
+          "s": 1.35,
+          "pose": "relaxed",
+          "turn": 0,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 700,
+          "y": 860,
+          "at": 0.4
+        },
+        {
+          "kind": "sweat",
+          "x": 380,
+          "y": 880,
+          "at": 0.7
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 1.6,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Uth nahi sakti! Lehenga bhaari hai!",
+          "say": "उठ नहीं सकती! लहंगा भारी है!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chip": "REALITY",
+      "chipY": 600,
+      "clock": {
+        "h": 6,
+        "m": 30
+      },
+      "chars": [
+        {
+          "name": "Myra",
+          "main": "#2E8B7A",
+          "mainSh": "#226B5E",
+          "x": 240,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "clapR",
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 540,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "wave",
+          "turn": 0,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "from": [
+            540,
+            1900
+          ],
+          "moveAt": 0.3,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 840,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "clapL",
+          "turn": -0.6,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "boing",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Teen, do, ek, kheencho!",
+          "say": "तीन, दो, एक, खींचो!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Chalo! Ab seedha reception!",
+          "say": "चलो! अब सीधा रिसेप्शन!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "REALITY",
+      "chipY": 600,
+      "clock": {
+        "h": 6,
+        "m": 40
+      },
+      "camera": "still",
+      "music": false,
+      "chars": [
+        {
+          "name": "Myra",
+          "main": "#2E8B7A",
+          "mainSh": "#226B5E",
+          "x": 240,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "relaxed",
+          "turn": 0.6,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 540,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0,
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 840,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "relaxed",
+          "turn": -0.6,
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 540,
+          "y": 1250,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 540,
+          "y": 880,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "ping",
+          "vol": 0.6
+        },
+        {
+          "at": 0.3,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ruhi, Kapoor aunty ka message.",
+          "say": "रूही, कपूर आंटी का मैसेज।",
+          "silenceBefore": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kapoor Aunty",
+      "camera": "still",
+      "chip": "RECEPTION: ?",
+      "chipY": 200,
+      "chat": [
+        [
+          "Kapoor Aunty",
+          "Ruhi ji, card mila na?",
+          0,
+          "6:40 PM",
+          0.1
+        ],
+        [
+          "Kapoor Aunty",
+          "Reception KAL hai, 7 baje",
+          0,
+          "6:40 PM",
+          0.5
+        ],
+        [
+          "Kapoor Aunty",
+          "Zaroor aana!",
+          0,
+          "6:41 PM",
+          0.9
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kal?! Reception kal hai?!",
+          "say": "कल?! रिसेप्शन कल है?!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "RECEPTION: KAL",
+      "chipY": 600,
+      "clock": {
+        "h": 6,
+        "m": 41
+      },
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Myra",
+          "main": "#2E8B7A",
+          "mainSh": "#226B5E",
+          "x": 240,
+          "y": 1760,
+          "s": 1.9,
+          "pose": "laughs",
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 540,
+          "y": 1760,
+          "s": 2.05,
+          "pose": "relaxed",
+          "turn": 0.3,
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 840,
+          "y": 1740,
+          "s": 1.9,
+          "pose": "hips",
+          "turn": -0.6,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Hand mirror",
+          "x": 400,
+          "y": 1450,
+          "s": 1,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Haaw! Mera bun?!",
+          "say": "हाव! मेरा बन?!",
+          "beat": "turn"
+        },
+        {
+          "who": "Shruti",
+          "text": "Kal tak mat kholna.",
+          "say": "कल तक मत खोलना।",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "camera",
+      "flash": true,
+      "focus": [
+        540,
+        980
+      ],
+      "camera": "punch",
+      "chip": "EXPECTATION: KAL",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "main": "#2E8B7A",
+          "mainSh": "#226B5E",
+          "x": 260,
+          "y": 1700,
+          "s": 1.85,
+          "pose": "wave",
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Ruhi",
+          "main": "#B0246B",
+          "mainSh": "#8A1A54",
+          "x": 560,
+          "y": 1720,
+          "s": 2.05,
+          "pose": "twirl",
+          "turn": 0,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Shruti",
+          "main": "#E3A72F",
+          "mainSh": "#C48D22",
+          "x": 840,
+          "y": 1700,
+          "s": 1.85,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.6,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1820,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 420,
+          "y": 760,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.5
+        },
+        {
+          "at": 1.8,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "hold": 0.6,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Kal phir! Kitty ke baad, seedha reception!",
+          "say": "कल फिर! किटी के बाद, सीधा रिसेप्शन!",
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
