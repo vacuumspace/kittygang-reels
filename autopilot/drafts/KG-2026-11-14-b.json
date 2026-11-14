@@ -1,0 +1,882 @@
+{
+  "id": "KG-2026-11-14-b",
+  "title": "Cash nahi, entry nahi!",
+  "format": "Door arrivals, host-made payment rule enforced at the front door",
+  "idea": "Myra hosts her first kitty and lets in only guests who pay in cash, until the halwai messages that he takes UPI only.",
+  "logline": "Myra lets guests in only if they pay the kitty in cash, then the halwai messages that he takes UPI only and she has to beg them for GPay.",
+  "game": "every guest pays the kitty in everything except normal cash",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Myra blocks her doorway with the kitty pot in front of Tanya holding up her phone and shouts 'Ruko! Cash nahi toh entry nahi!'",
+    "variable": "first door reel with a new host (Myra, not Tanya) and a payment rule (cash vs UPI) every group argues about, to see if the shape works without Tanya as the rule-maker",
+    "hypothesis": "skip under 30% and watched above 60% like the Tanya door reels; a cash vs UPI fight every kitty has should beat 3 shares with a 'Tag your Myra' caption"
+  },
+  "mute": [
+    "Myra blocks her door with the kitty pot, chip KITTY CASH: Rs 0, Tanya in the doorway holding her phone",
+    "Tanya waves her phone to pay by GPay, Myra on hips refusing",
+    "Tanya shocked about notes, question mark, chip still Rs 0",
+    "Shruti walks in with a bucket, Myra claps and hops, happy",
+    "the bucket tips, coin sounds, chip Rs 2000 (SIKKE), Myra sweating",
+    "Tina arrives with an envelope, chip CHEQUE: ?, Myra shocked",
+    "Tina smirks, plane sticker (Dubai), chip CHEQUE: 1",
+    "silence, a phone notification pops by Myra, everyone stares",
+    "phone screen: Gupta Sweets, 40 samose, Rs 840, sirf UPI, cash nahi lenge",
+    "Myra caught with only cash, Tanya and Tina hold up their phones and smirk, chip HALWAI: SIRF UPI",
+    "guests hold up phones and throw Myra's rule back flipped, chip ENTRY NAHI TOH UPI NAHI"
+  ],
+  "beats": "hook: cash nahi toh entry nahi / esc: Tanya GPay ('note pichli Diwali pe dekha tha'), Shruti Rs 2000 in a bucket of sikke, Tina Dubai bank ka cheque / twist: Gupta Sweets, Rs 840, sirf UPI / button: Myra begs for GPay, guests flip her rule",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 5,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 53,
+    "notes": "Door-arrivals is the confirmed winner and is not in the last 4 types (countdown, types-of, expectation-reality x2); last door reel was KG-2026-11-12-a, 4 reels ago, so it fits the every-2nd-reel rule. Lead is Myra (last reel led by Ruhi), and this tests the door shape with a new host. Talking cast 4 over the reel, max 3 per shot. Game plays three times: Tanya ordinary (GPay, 'note pichli Diwali pe dekha tha'), Shruti sillier (claim before reveal: 'poora cash' then 'sab sikke hain'), Tina absurd (Dubai bank cheque, limited edition). Twist is a see-it phone screen from the halwai: sirf UPI. Button mirrors the hook flipped: 'Entry nahi toh UPI nahi!'. Endings tried: sabziwala at the door (no male cast), Myra pays in coins and the halwai refuses (not see-it), guests flip her rule (kept). Every two-line shot is 8 words or fewer with hold 0.1, about 75 words, about 27 s at pace 28, so pace stays above 2.3 w/s."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1.2,
+    "title": [
+      "Cash nahi, entry nahi!",
+      "Halwai: sirf UPI!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Rule bhi host ka, GPay bhi usi ko chahiye. Tag your Myra!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#kittypartyfun",
+    "#ladieskitty",
+    "#upi",
+    "#gpay",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KITTY CASH: Rs 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ruko! Cash nahi toh entry nahi!",
+          "say": "रुको! कैश नहीं तो एंट्री नहीं!",
+          "beat": "hook"
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KITTY CASH: Rs 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Arre, GPay kar deti hoon!",
+          "say": "अरे, जीपे कर देती हूँ!",
+          "beat": "setup"
+        },
+        {
+          "who": "Myra",
+          "text": "Nahi! Note dikhao!",
+          "say": "नहीं! नोट दिखाओ!",
+          "gap": 0.04
+        }
+      ],
+      "camera": "punch"
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KITTY CASH: Rs 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Note? Pichli Diwali pe dekha tha!",
+          "say": "नोट? पिछली दिवाली पे देखा था!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 620,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KITTY CASH: Rs 0",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smirk",
+          "eyes": "half",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Tanya",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Bucket",
+          "x": 640,
+          "y": 1520,
+          "s": 0.9,
+          "at": 0.2
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Do hazaar. Poora cash.",
+          "say": "दो हज़ार। पूरा कैश।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Waah! Shruti aunty!",
+          "say": "वाह! श्रुति आंटी!",
+          "gap": 0.04
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KITTY CASH: Rs 2000 (SIKKE)",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Bucket",
+          "x": 640,
+          "y": 1520,
+          "s": 0.9,
+          "rot": -25
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Sab sikke hain. Gin lo.",
+          "say": "सब सिक्के हैं। गिन लो।",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Sikke?!",
+          "say": "सिक्के?!",
+          "gap": 0.04
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1080,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "drip",
+          "vol": 0.5
+        },
+        {
+          "at": 0.5,
+          "name": "ding",
+          "vol": 0.4
+        },
+        {
+          "at": 0.7,
+          "name": "ding",
+          "vol": 0.35
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "CASH: Rs 2000 · CHEQUE: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hips",
+          "mouth": "smirk",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        },
+        {
+          "name": "Prize envelope",
+          "x": 640,
+          "y": 1380,
+          "s": 0.9,
+          "at": 0.3
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, cheque chalega?",
+          "say": "डार्लिंग, चेक चलेगा?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Cheque?! Aaj kal kaun deta?",
+          "say": "चेक?! आजकल कौन देता?",
+          "gap": 0.04
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "CASH: Rs 2000 · CHEQUE: 1",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "hips",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 640,
+          "y": 1380,
+          "s": 0.9
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Dubai bank ka. Limited edition.",
+          "say": "दुबई बैंक का। लिमिटेड एडिशन।",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "plane",
+          "x": 820,
+          "y": 700,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.5,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "KITTY CASH: Rs 2000 · ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "mouth": "o",
+          "prop": "phone",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 470,
+          "y": 1400,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Myra, phone baj raha hai.",
+          "say": "मायरा, फ़ोन बज रहा है।",
+          "silenceBefore": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Halwai ka hai!",
+          "say": "हलवाई का है!",
+          "gap": 0.04
+        }
+      ],
+      "camera": "still",
+      "music": false,
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 960,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "ping",
+          "vol": 0.6
+        },
+        {
+          "at": 0.3,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "set": "entrance",
+      "title": "Gupta Sweets",
+      "camera": "still",
+      "chip": "HALWAI: SIRF UPI",
+      "chipY": 200,
+      "chat": [
+        [
+          "Gupta Sweets",
+          "Madam, 40 samose ready",
+          0,
+          "5:04 PM",
+          0.1
+        ],
+        [
+          "Gupta Sweets",
+          "Total Rs 840",
+          0,
+          "5:04 PM",
+          0.5
+        ],
+        [
+          "Gupta Sweets",
+          "Sirf UPI. Cash nahi lenge.",
+          0,
+          "5:04 PM",
+          0.9
+        ]
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Cash nahi lenge?!",
+          "say": "कैश नहीं लेंगे?!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "HALWAI: SIRF UPI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tina",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Koi... GPay kar dega?",
+          "say": "कोई... जीपे कर देगा?",
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaw! Ab GPay?!",
+          "say": "हाव! अब जीपे?!",
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1060,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "ENTRY NAHI TOH UPI NAHI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Shruti",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "hold": 0.8,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Ruko! Entry nahi toh UPI nahi!",
+          "say": "रुको! एंट्री नहीं तो यूपीआई नहीं!",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ]
+    }
+  ]
+}
