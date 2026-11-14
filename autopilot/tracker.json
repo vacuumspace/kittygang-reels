@@ -11152,7 +11152,7 @@
       "format": "Housie-in-progress sitcom + call from home",
       "source": "Trend: Festival window: Children's Day 14 Nov (11 days, +2) + Memory lane kitty",
       "score": 9,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-11-03",
@@ -11386,7 +11386,7 @@
       "format": "Carousel: game card 'Chhath kitty party game' on slide 1, the fruit soop, the kneel twist, a dropped orange, winner",
       "source": "Trend: Festival window Chhath 15 Nov (8 days, +2) + Household dexterity one-minute games (stylecraze.com)",
       "score": 9,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-11-07",
@@ -11395,7 +11395,7 @@
       "format": "Carousel: game card 'Children's Day kitty party game' on slide 1, wobbly left-hand letters, the pass twist, the messiest sheet, winner and Detention sash",
       "source": "Trend: Festival window Children's Day 14 Nov (7 days, +2) + Search-friendly saveable carousels",
       "score": 8,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-11-08",
@@ -11720,6 +11720,60 @@
       "source": "Trend: Friends' baraat entry performance + shaadi dates 21-26 Nov (+2)",
       "score": 9,
       "used": "KGI-024"
+    },
+    {
+      "added": "2026-11-14",
+      "type": "reel",
+      "idea": "Hook: shaadi pheras, Ruhi in the guests' row with her phone hidden in her dupatta, whispering: \"Bas ek number aur!\" chip 'PHERA 1/7 · TICKET: 12 KATE'. Context: the kitty's online Housie round is live; on every phera the chip moves, Tanya beside her keeps elbowing her (\"Mamiji dekh rahi hain!\") and Myra leans in to check her ticket instead of stopping her. Ending: on the seventh phera Ruhi jumps up: \"Full House!\", the whole mandap turns, and the dulhan herself lifts her phone from her lehenga: she was in the round too.",
+      "format": "Sitcom with a counting chip (25-30 s), max 3 ladies per shot; caption 'Har shaadi mein ek saheli hoti hai jo Housie nahi chhodti. Tag her!'",
+      "source": "Trend: Phone game during the shaadi rasam (thekashmirmonitor.net) + shaadi dates 21-26 Nov (7-12 days, +2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-14",
+      "type": "reel",
+      "idea": "Hook: Housie running, Shruti opens the kitty diary: \"Is mahine ka hisaab... loading.\" chip 'HISAAB: 10%'. Context: on every called number one lady remembers something pending (Myra's 500, the cake 650, the didi's tip, Tina's UPI that 'failed') and the chip climbs 40%, 70%, 99% while Shruti scribbles faster. Ending: at 99% Tanya says softly \"Mera bhi 200 baaki hai...\", the chip snaps to 0%, and Shruti shuts the diary: \"Agle mahine.\"",
+      "format": "Meme-format progress chip (25 s), Shruti as hisaab-keeper; caption 'Har group mein ek Shruti hoti hai jiska hisaab kabhi 100% nahi hota. Tag your Shruti!'",
+      "source": "Trend: Progress chip that climbs and resets (KG-2026-11-07-a: 1891 views, skip 35.6%) + Who holds the kitty money",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-14",
+      "type": "reel",
+      "idea": "Hook: doorbell, but Tanya, Ruhi and Shruti are standing OUTSIDE Myra's locked door with the kitty pot, calling her: \"Host tum ho, aur tum hi gayab?\" Myra: \"Bas do minute, gate pe hoon!\" Hard cut to her live location. Context: on every shot the dot jumps to a new shaadi-season errand (parlour, tailor for the blouse, halwai for samosas) while the gang sits on the stairs and starts Housie on the doormat. Ending: Myra runs up with a fresh blow-dry, the blouse and a box of samosas, and Tanya blocks her own door: \"Late aayi toh entry nahi!\"",
+      "format": "Map-journey into door-arrivals flip (25-30 s), Myra as host; caption 'Tag the host jo apni hi kitty mein late aati hai!'",
+      "source": "Trend: Live location dot as the middle (KG-2026-11-09-a, skip 40%) + Door-arrivals holds with a new host + shaadi dates 21-26 Nov (+2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-14",
+      "type": "game",
+      "idea": "Katori Housie: a normal fast Housie round, but every lady plays with an empty steel katori balanced on her head; if it falls, her ticket with all its marks passes to the lady on her right. Crazy twist: whenever the host calls \"Baraat aa gayi!\" everyone must stand, do three thumkas and sit again, katori still on. 8 to 20 ladies, 15 minutes, Housie tickets and steel katoris.",
+      "format": "Carousel: slide 1 'Shaadi season kitty party game' with a lady mid-thumka and the katori wobbling, the rules, the baraat twist, the ticket hand-off, the winner",
+      "source": "Trend: Friends' baraat entry performance + Household dexterity one-minute games + shaadi dates 21-26 Nov (+2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-14",
+      "type": "game",
+      "idea": "Main kahan hoon?: each lady in turn picks a chit with a place every kitty lady runs to (sabzi mandi, parlour, tailor, school PTM, shaadi hall, bank queue, doodh dairy) and has 30 seconds to make only its sounds, no words, while the room guesses; she and the first right guesser both score. Crazy twist: when the host shouts \"Location share!\" the guesser must also act the sound back before the point counts. 8 to 20 ladies, 15 minutes, paper chits only.",
+      "format": "Carousel: slide 1 'Kitty party game: guess her live location' with a lady mooing for the doodh dairy, the chit list, the rules, the Location share twist, the winner",
+      "source": "Trend: Live location dot as the middle (our map reel, skip 40%) + Search-friendly saveable carousels",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-14",
+      "type": "game",
+      "idea": "Chhakka phere: teams of 4 to 5 sit around one chair with a ludo die on a steel plate; two ladies are the dulha-dulhan holding the ends of a dupatta, and the others roll in turn; every six lets the pair take one phera around the chair, and the first pair to finish 7 phere wins. Crazy twist: on a one, the dulhan must stop and do a 5-second bidaai cry (\"Mummy!\") before her team can roll again. 8 to 20 ladies, 15 minutes, a die, a dupatta and chairs.",
+      "format": "Carousel: slide 1 'Shaadi season kitty party game' with a pair mid-phera and a six on the plate, the setup, the bidaai twist, scoring, the winning jodi",
+      "source": "Trend: Phone game during the shaadi rasam (ludo at the pheras) + shaadi dates 21-26 Nov (7-12 days, +2)",
+      "score": 9,
+      "used": ""
     }
   ],
   "carousels": [
@@ -12679,6 +12733,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-14",
+      "pattern": "Festival window: Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov + Kalabhairav Jayanti 30 Nov + Vivah Panchami 14 Dec",
+      "source": "HinduTone Hindu Festival Calendar 2026-2027; Vivah Panchami 2026 (14 December); shaadi season reported to run till the third week of December",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/hindu-festival-calendar-2026-2027/",
+      "learn": "Children's Day is today and Chhath ends 16 Nov, so those ideas are expired; Tulsi Vivah (7 days), Gurpurab (10) and the 21-26 Nov shaadi dates keep +2; Vivah Panchami (30 days), Dhanu Sankranti (16 Dec) and Gita Jayanti (19-20 Dec) enter the window next week, and shaadi season stays live till mid December."
+    },
+    {
+      "date": "2026-11-14",
+      "pattern": "Progress chip that climbs and resets",
+      "source": "Our reel 'Har kitty mein ek Ruhi hoti hai jiski gossip kabhi poori nahi hoti' (KG-2026-11-07-a, meme-format)",
+      "likes": 6,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfpZmuxHNoI/",
+      "learn": "1891 views, skip 35.6%, 2 saves: our best non-door reel; a percent chip that climbs every shot (10, 30, 99) and snaps to 0 at the end is a stake the viewer reads in one frame, so reuse it on other kitty things that never finish (hisaab, plans, a story)."
+    },
+    {
+      "date": "2026-11-14",
+      "pattern": "Live location dot as the middle",
+      "source": "Our reel 'Har group mein ek Avika hoti hai jo bas 5 minute bolke sabzi mandi mein hoti hai' (KG-2026-11-09-a, map-journey)",
+      "likes": 2,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfrIpVKDQ5V/",
+      "learn": "549 views, skip 40% on the first map reel: a real phone map with one dot that jumps to a new pin each shot keeps the middle moving; next time put the late lady on a shaadi-season errand run so every pin is a real place."
+    },
+    {
+      "date": "2026-11-14",
+      "pattern": "Phone game during the shaadi rasam",
+      "source": "Groom caught playing ludo during wedding ceremony, pic goes viral",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.thekashmirmonitor.net/groom-caught-playing-ludo-during-wedding-ceremony-pic-goes-viral/",
+      "learn": "A guest secretly glued to a phone game in the middle of a serious ritual is a known shaadi moment; our version is a kitty lady sneaking the Housie round on her phone during the pheras, never the real couple."
+    },
+    {
+      "date": "2026-11-14",
+      "pattern": "Housie-night theme posts sink",
+      "source": "Our nightly 'Aaj ki Housie theme' posts (TH-2026-11-05 to TH-2026-11-12)",
+      "likes": 1,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DfnK0azgsFf/",
+      "learn": "Plain theme announcements got 96-183 views with skip 76-83%, while theme reels with a scene or a format (checklist, story-time, reaction-chain) held 53-60%; every reel needs a person and a conflict in the first second, never a title card."
+    },
     {
       "date": "2026-11-13",
       "pattern": "Festival window: Tulsi Vivah 21 Nov + Gurpurab and Dev Deepawali 24 Nov + shaadi dates 21-26 Nov + Kalabhairav Jayanti 30 Nov + Utpanna Ekadashi 4 Dec",
