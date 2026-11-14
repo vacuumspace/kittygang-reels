@@ -13043,7 +13043,7 @@
       "time": "15 minutes",
       "slug": "sangeet-ki-practice-shaadi-dance-kitty-party-game",
       "caption": "Host ek baar dance dikhayegi, phir team ko sync mein yaad se karna hai. \"Mamaji aa gaye!\" pe naya step judega! Aapki kitty mein sabse achha thumka kiska hai?",
-      "status": "queued",
+      "status": "published",
       "slides": 9,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-024/board.jpg",
       "image_urls": [
@@ -13059,7 +13059,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/sangeet-ki-practice-shaadi-dance-kitty-party-game",
       "queue_id": "a4ca8873-25ed-42af-9260-b5dc9e669533",
-      "scheduled_ist": "2026-11-14 16:11"
+      "scheduled_ist": "2026-11-14 16:11",
+      "permalink": "https://www.instagram.com/p/DfuBfwlAHCT/",
+      "media_id": "17894730519654045"
     },
     {
       "id": "KGI-025",
