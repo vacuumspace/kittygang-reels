@@ -1,0 +1,708 @@
+{
+  "id": "KGI-025",
+  "n": 25,
+  "slug": "chhakka-phere-shaadi-dice-kitty-party-game",
+  "game": "Chhakka Phere",
+  "tagline": "Chhakka aaya, phera lagao!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<ellipse cx=\"400\" cy=\"300\" rx=\"300\" ry=\"46\" fill=\"none\" stroke=\"#E85D8A\" stroke-width=\"8\" stroke-dasharray=\"22 16\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(400 300) scale(0.95)\"><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"210\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"44\" y=\"-100\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"-66\" y=\"-112\" width=\"132\" height=\"22\" rx=\"8\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-60\" y=\"-200\" width=\"70\" height=\"16\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 610,
+      "y": 215,
+      "s": 1,
+      "color": "pink"
+    },
+    {
+      "k": "person",
+      "x": 740,
+      "y": 215,
+      "s": 1,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M650 255 Q675 291 700 255\" stroke=\"#E85D8A\" stroke-width=\"14\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"675\" cy=\"273\" r=\"14\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/>"
+    },
+    {
+      "k": "text",
+      "x": 610,
+      "y": 105,
+      "text": "Dulhan",
+      "size": 30,
+      "color": "white"
+    },
+    {
+      "k": "text",
+      "x": 740,
+      "y": 105,
+      "text": "Dulha",
+      "size": 30,
+      "color": "white"
+    },
+    {
+      "k": "arrow",
+      "x1": 300,
+      "y1": 346,
+      "x2": 180,
+      "y2": 330,
+      "color": "white",
+      "w": 9
+    },
+    {
+      "k": "arrow",
+      "x1": 260,
+      "y1": 256,
+      "x2": 400,
+      "y2": 252,
+      "color": "white",
+      "w": 9
+    },
+    {
+      "k": "plate",
+      "x": 960,
+      "y": 300,
+      "s": 0.8
+    },
+    {
+      "k": "dice",
+      "x": 960,
+      "y": 255,
+      "s": 0.85,
+      "rot": -10,
+      "n": 6
+    },
+    {
+      "k": "text",
+      "x": 960,
+      "y": 150,
+      "text": "Chhakka!",
+      "size": 50,
+      "color": "yel"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Har team ke liye",
+    "items": [
+      {
+        "label": "Ek ludo dice",
+        "sub": "ghar ke ludo se",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "dice",
+            "x": 110,
+            "y": 110,
+            "s": 0.9,
+            "rot": -8,
+            "n": 6
+          },
+          {
+            "k": "dice",
+            "x": 210,
+            "y": 130,
+            "s": 0.7,
+            "rot": 10,
+            "n": 1
+          }
+        ]
+      },
+      {
+        "label": "Steel ki plate",
+        "sub": "dice yahin girega",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "plate",
+            "x": 150,
+            "y": 120,
+            "s": 1.1
+          }
+        ]
+      },
+      {
+        "label": "Ek dupatta",
+        "sub": "gathbandhan ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<path d=\"M40 90 Q150 170 260 90\" stroke=\"#E85D8A\" stroke-width=\"14\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"130\" r=\"14\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Ek kursi",
+        "sub": "yahi hai mandap",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 210) scale(0.9)\"><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"210\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"44\" y=\"-100\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"-66\" y=\"-112\" width=\"132\" height=\"22\" rx=\"8\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-60\" y=\"-200\" width=\"70\" height=\"16\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Team banao, beech mein kursi",
+      "body": "4-5 ki team. Do ladies dulha-dulhan, dupatta ke do sire pakdo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(220 600) scale(1.3)\"><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"210\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"44\" y=\"-100\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"-66\" y=\"-112\" width=\"132\" height=\"22\" rx=\"8\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-60\" y=\"-200\" width=\"70\" height=\"16\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 470,
+          "y": 470,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 650,
+          "y": 470,
+          "s": 1.3,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M525 515 Q560 575 595 515\" stroke=\"#E85D8A\" stroke-width=\"14\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"545\" r=\"14\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/>"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 340,
+          "text": "Dulhan",
+          "size": 38,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 650,
+          "y": 340,
+          "text": "Dulha",
+          "size": 38,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 660,
+          "text": "Dupatta = gathbandhan",
+          "size": 38,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 820,
+          "y": 170,
+          "s": 0.8,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 920,
+          "y": 170,
+          "s": 0.8,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 870,
+          "y": 70,
+          "text": "Baaki: dice wali",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 220,
+          "y": 290,
+          "text": "Mandap",
+          "size": 38,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Baari baari dice phenko",
+      "body": "Baaki ladies ek ek karke steel plate mein dice daalein.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 200,
+          "y": 330,
+          "s": 1.3,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 380,
+          "y": 330,
+          "s": 1.3,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 560,
+          "y": 330,
+          "s": 1.3,
+          "color": "mute"
+        },
+        {
+          "k": "hand",
+          "x": 275,
+          "y": 400,
+          "rot": -20,
+          "s": 1
+        },
+        {
+          "k": "dice",
+          "x": 350,
+          "y": 440,
+          "s": 0.6,
+          "rot": 20,
+          "n": 3
+        },
+        {
+          "k": "arrow",
+          "x1": 390,
+          "y1": 460,
+          "x2": 590,
+          "y2": 560,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "plate",
+          "x": 700,
+          "y": 600,
+          "s": 1.2
+        },
+        {
+          "k": "dice",
+          "x": 700,
+          "y": 560,
+          "s": 0.8,
+          "rot": -10,
+          "n": 4
+        },
+        {
+          "k": "arrow",
+          "x1": 200,
+          "y1": 150,
+          "x2": 560,
+          "y2": 150,
+          "color": "ink",
+          "w": 6
+        },
+        {
+          "k": "text",
+          "x": 380,
+          "y": 110,
+          "text": "1, 2, 3... baari se",
+          "size": 38,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Chhakka aaya? Ek phera!",
+      "body": "Dice pe 6 aaye toh jodi dupatta pakde kursi ka ek chakkar lagaye.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<ellipse cx=\"400\" cy=\"560\" rx=\"360\" ry=\"90\" fill=\"none\" stroke=\"#E85D8A\" stroke-width=\"8\" stroke-dasharray=\"22 16\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(400 560) scale(1.2)\"><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"210\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"44\" y=\"-100\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#8B5A2B\"/><rect x=\"-66\" y=\"-112\" width=\"132\" height=\"22\" rx=\"8\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-60\" y=\"-210\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-60\" y=\"-200\" width=\"70\" height=\"16\" rx=\"6\" fill=\"#B07A45\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 620,
+          "y": 470,
+          "s": 1.1,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 470,
+          "s": 1.1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M668 510 Q690 554 712 510\" stroke=\"#E85D8A\" stroke-width=\"14\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"690\" cy=\"532\" r=\"14\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/>"
+        },
+        {
+          "k": "text",
+          "x": 620,
+          "y": 355,
+          "text": "Dulhan",
+          "size": 34,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 355,
+          "text": "Dulha",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "arrow",
+          "x1": 460,
+          "y1": 652,
+          "x2": 240,
+          "y2": 640,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "arrow",
+          "x1": 200,
+          "y1": 474,
+          "x2": 380,
+          "y2": 468,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "plate",
+          "x": 130,
+          "y": 200,
+          "s": 0.8
+        },
+        {
+          "k": "dice",
+          "x": 130,
+          "y": 160,
+          "s": 0.8,
+          "n": 6
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 180,
+          "text": "Team gine: \"Ek phera!\"",
+          "size": 42,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Ek aaya? Pehle bidaai!",
+      "body": "Dice pe 1 aaye toh dulhan 5 second \"Mummy!\" bolke bidaai wala rona roye.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "plate",
+          "x": 160,
+          "y": 560,
+          "s": 1
+        },
+        {
+          "k": "dice",
+          "x": 160,
+          "y": 520,
+          "s": 0.8,
+          "rot": 8,
+          "n": 1
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 420,
+          "s": 1.6,
+          "color": "pink",
+          "label": "Dulhan"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M462 366 q-4 18 0 30 M498 366 q4 18 0 30\" stroke=\"#4DA3FF\" stroke-width=\"7\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 170,
+          "text": "\"Mummyyy!\"",
+          "size": 64,
+          "color": "pink"
+        },
+        {
+          "k": "timer",
+          "x": 800,
+          "y": 380,
+          "s": 0.9,
+          "text": "0:05"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 670,
+          "text": "Rona poora, tab agla dice",
+          "size": 38,
+          "color": "ink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Pehle 7 phere, jodi jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Dupatta haath se chhoota?",
+          "Woh phera cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Phera mein kursi ko chhua?",
+          "Phir se chakkar."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Bidaai ka rona adhoora?",
+          "Ek phera wapas."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse pehle 7 phere?",
+          "Woh jodi shaadi ki winner!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "3 aaye toh jodi ek",
+        "funny vachan bole."
+      ],
+      [
+        "Aakhri 3 phere mein",
+        "dulhan aage, dulha peeche."
+      ],
+      [
+        "Kisi ka bhi chhakka aaye,",
+        "baaki sab baraati dance karein."
+      ]
+    ],
+    "tip": "Phere dheere chalo, kursi ke paas jagah khali rakho."
+  },
+  "comment_hint": "kitne phere?",
+  "caption": "Dice pe chhakka aaya toh phera, ek aaya toh bidaai ka rona! Shaadi season ki kitty mein yeh zaroor khelo. Aapki kitty mein sabse filmy bidaai kaun karegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#chhakkaphere",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Chhakka Phere: Shaadi Dice Kitty Party Game Rules and Twists",
+    "description": "Chhakka Phere is a shaadi season kitty party dice game: roll a six and the jodi takes one phera around a chair. Rules, the bidaai twist, tips and FAQ.",
+    "intro": "Chhakka Phere is a wedding themed dice game for kitty parties where each team has a pretend dulha and dulhan tied by a dupatta, and every time a teammate rolls a six on a steel plate the pair walks one phera around a chair. The first jodi to complete all 7 phere wins for their team. The crazy twist: whenever someone rolls a one, the dulhan must stop and do a 5-second filmy bidaai cry (\"Mummy!\") before her team may roll again. It needs only a ludo die, a dupatta and a chair per team, so it is a perfect game for a shaadi season kitty.",
+    "players": "8 to 20 (teams of 4 or 5)",
+    "time": "15 minutes",
+    "materials": [
+      "One ludo die per team",
+      "One steel plate per team to roll the die on",
+      "One dupatta per team for the gathbandhan",
+      "One chair per team, placed with free space all around it",
+      "A phone timer for the 5-second bidaai cry (optional)"
+    ],
+    "steps": [
+      "Split the ladies into teams of 4 or 5. Give every team a chair in open space, a steel plate and a die.",
+      "In each team, pick one dulha and one dulhan. They hold the two ends of a dupatta like a gathbandhan and stand beside the chair.",
+      "When the host says \"Shuru!\", the other ladies in the team take turns rolling the die on the steel plate, one roll each.",
+      "Every time a six comes up, the jodi walks one full phera around the chair, still holding the dupatta, while the team counts the phera aloud.",
+      "Every time a one comes up, the dulhan must do a 5-second bidaai cry, saying \"Mummy!\" like in the films, before her team can roll again.",
+      "Keep rolling. The first jodi to complete 7 phere wins."
+    ],
+    "rules": [
+      "If either lady lets go of the dupatta during a phera, that phera does not count.",
+      "If the jodi touches the chair while walking, they must walk that phera again.",
+      "A half-hearted bidaai cry costs the team one phera.",
+      "The first jodi to finish all 7 phere is the winning jodi."
+    ],
+    "variations": [
+      "On a three, the jodi must say one funny shaadi vachan, such as \"Main kabhi tumhara phone check nahi karungi\", before the next roll.",
+      "For the last 3 phere, the dulhan walks in front and the dulha follows, just like the real ritual in many families.",
+      "Whenever any team rolls a six, all the other ladies turn into baraatis and do a quick dance before rolling again."
+    ],
+    "tips": [
+      "Keep the chairs well apart and the floor clear so the pairs can walk around safely.",
+      "Ask the jodi to walk, not run; the speed comes from the dice, not the feet.",
+      "Swap the dulha and dulhan roles after each game so more ladies get a turn.",
+      "A steel plate makes a loud clang, which adds to the shaadi mood and keeps every roll honest."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Chhakka Phere?",
+        "a": "It works best for 8 to 20 ladies in teams of 4 or 5. Each team needs a dulha, a dulhan and at least two ladies to roll the die."
+      },
+      {
+        "q": "What do you need to play Chhakka Phere at a kitty party?",
+        "a": "Each team needs one ludo die, a steel plate, a dupatta and a chair. All of it is already in most homes."
+      },
+      {
+        "q": "How do you win Chhakka Phere?",
+        "a": "Roll sixes as fast as you can. Each six earns one phera around the chair, and the first jodi to complete 7 phere wins."
+      },
+      {
+        "q": "What happens when you roll a one in Chhakka Phere?",
+        "a": "The dulhan has to do a 5-second filmy bidaai cry, saying \"Mummy!\", before her team is allowed to roll again."
+      },
+      {
+        "q": "Is Chhakka Phere a good game for a shaadi theme kitty party?",
+        "a": "Yes. The gathbandhan, the 7 phere and the bidaai cry make it a natural fit for shaadi season, sangeet or wedding theme kitties, and it is gentle enough for ladies of every age."
+      }
+    ]
+  }
+}
