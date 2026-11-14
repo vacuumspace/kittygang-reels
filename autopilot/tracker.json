@@ -10493,6 +10493,175 @@
       "yt_id": "Ek5ZwGvyGrY",
       "yt_url": "https://youtube.com/shorts/Ek5ZwGvyGrY",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-14-b",
+      "created": "2026-11-14",
+      "title": "Cash nahi, entry nahi!",
+      "format": "Door arrivals, host-made payment rule enforced at the front door",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Myra",
+        "Shruti",
+        "Tina"
+      ],
+      "caption": "Rule bhi host ka, GPay bhi usi ko chahiye. Tag your Myra!",
+      "status": "queued",
+      "idea": "Myra hosts her first kitty and lets in only guests who pay in cash, until the halwai messages that he takes UPI only.",
+      "beats": "hook: cash nahi toh entry nahi / esc: Tanya GPay ('note pichli Diwali pe dekha tha'), Shruti Rs 2000 in a bucket of sikke, Tina Dubai bank ka cheque / twist: Gupta Sweets, Rs 840, sirf UPI / button: Myra begs for GPay, guests flip her rule",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Myra blocks her doorway with the kitty pot in front of Tanya holding up her phone and shouts 'Ruko! Cash nahi toh entry nahi!'",
+        "variable": "first door reel with a new host (Myra, not Tanya) and a payment rule (cash vs UPI) every group argues about, to see if the shape works without Tanya as the rule-maker",
+        "hypothesis": "skip under 30% and watched above 60% like the Tanya door reels; a cash vs UPI fight every kitty has should beat 3 shares with a 'Tag your Myra' caption"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ruko! Cash nahi toh entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Arre, GPay kar deti hoon!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Nahi! Note dikhao!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Note? Pichli Diwali pe dekha tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Do hazaar. Poora cash.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Waah! Shruti aunty!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sab sikke hain. Gin lo.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Sikke?!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, cheque chalega?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Cheque?! Aaj kal kaun deta?",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Dubai bank ka. Limited edition.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Myra, phone baj raha hai.",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Halwai ka hai!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "phone",
+          "who": "Tina",
+          "line": "Cash nahi lenge?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Koi... GPay kar dega?",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Ab GPay?!",
+          "beat": ""
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Ruko! Entry nahi toh UPI nahi!",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.11,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Door-arrivals is the confirmed winner and is not in the last 4 types (countdown, types-of, expectation-reality x2); last door reel was KG-2026-11-12-a, 4 reels ago, so it fits the every-2nd-reel rule. Lead is Myra (last reel led by Ruhi), and this tests the door shape with a new host. Talking cast 4 over the reel, max 3 per shot. Game plays three times: Tanya ordinary (GPay, 'note pichli Diwali pe dekha tha'), Shruti sillier (claim before reveal: 'poora cash' then 'sab sikke hain'), Tina absurd (Dubai bank cheque, limited edition). Twist is a see-it phone screen from the halwai: sirf UPI. Button mirrors the hook flipped: 'Entry nahi toh UPI nahi!'. Endings tried: sabziwala at the door (no male cast), Myra pays in coins and the halwai refuses (not see-it), guests flip her rule (kept). Every two-line shot is 8 words or fewer with hold 0.1, about 75 words, about 27 s at pace 28, so pace stays above 2.3 w/s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-14-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-14-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-14-b-board.jpg",
+      "queue_id": "250fc6d0-dcb1-4c8a-837f-e1167653e9dc",
+      "scheduled_ist": "2026-11-22 20:30",
+      "yt_id": "md7ja0JPcUc",
+      "yt_url": "https://youtube.com/shorts/md7ja0JPcUc",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
