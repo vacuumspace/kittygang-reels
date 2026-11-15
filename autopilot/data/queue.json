@@ -1,5 +1,22 @@
 [
  {
+  "id": "15914fb6-a9e2-4152-8da9-b03956d2ab20",
+  "local_id": "KG-2026-11-15-b",
+  "title": "Shagun 501, dinner teen baar!",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-15-b.mp4",
+  "caption": "Har group mein ek Aditi hoti hai: lifafa chhota, dinner teen baar. Tag your Aditi!\n\n#kittyparty #kittygang #shaadiseason #ladieskitty #housie #kittypartyfun #shaadi",
+  "scheduled_for": 1795443240000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1794741339817,
+  "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-15-b-cover.jpg",
+  "kind": "reel",
+  "image_urls": null
+ },
+ {
   "id": "250fc6d0-dcb1-4c8a-837f-e1167653e9dc",
   "local_id": "KG-2026-11-14-b",
   "title": "Cash nahi, entry nahi!",
@@ -119,6 +136,23 @@
   "image_urls": null
  },
  {
+  "id": "4ea9bbd6-3a4a-41ea-aa8c-3fda72eb7785",
+  "local_id": "KGI-026",
+  "title": "Kitty Game Ideas #26: Katori Housie",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s1.jpg",
+  "caption": "Housie wahi, bas sir pe katori! Giri toh ticket padosan ki. Aapki kitty mein sabse pehle kiski katori giregi?\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #katorihousie #housie #tambola",
+  "scheduled_for": 1794809040000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1794706592468,
+  "cover_url": null,
+  "kind": "carousel",
+  "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s9.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/s10.jpg\"]"
+ },
+ {
   "id": "6fde03e5-d152-414f-a65f-4ca1687acd89",
   "local_id": "KG-2026-11-10-a",
   "title": "Shaadi season mein kitty kab?",
@@ -142,10 +176,10 @@
   "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/s1.jpg",
   "caption": "Dice pe chhakka aaya toh phera, ek aaya toh bidaai ka rona! Shaadi season ki kitty mein yeh zaroor khelo. Aapki kitty mein sabse filmy bidaai kaun karegi?\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #chhakkaphere #shaadiseason",
   "scheduled_for": 1794739440000,
-  "status": "queued",
-  "job_id": null,
-  "media_id": null,
-  "permalink": null,
+  "status": "published",
+  "job_id": "54589e74-647b-49c1-bc5f-7d6e395d497b",
+  "media_id": "18130248772867899",
+  "permalink": "https://www.instagram.com/p/DfwmTRIlHF0/",
   "error": null,
   "created_at": 1794620185576,
   "cover_url": null,
@@ -983,23 +1017,6 @@
   "created_at": 1792671486410,
   "cover_url": null,
   "kind": "reel",
-  "image_urls": null
- },
- {
-  "id": "kgi001manual",
-  "local_id": "KGI-001",
-  "title": "Kitty Game Ideas #1: Rubber Band Cup Tower",
-  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-001/s1.jpg",
-  "caption": "",
-  "scheduled_for": 1792663326788,
-  "status": "published",
-  "job_id": null,
-  "media_id": null,
-  "permalink": "https://www.instagram.com/p/DeyqKnGDs4I/",
-  "error": null,
-  "created_at": 1792663326788,
-  "cover_url": null,
-  "kind": "carousel",
   "image_urls": null
  }
 ]

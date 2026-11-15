@@ -13548,7 +13548,7 @@
       "time": "15 minutes",
       "slug": "chhakka-phere-shaadi-dice-kitty-party-game",
       "caption": "Dice pe chhakka aaya toh phera, ek aaya toh bidaai ka rona! Shaadi season ki kitty mein yeh zaroor khelo. Aapki kitty mein sabse filmy bidaai kaun karegi?",
-      "status": "queued",
+      "status": "published",
       "slides": 9,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-025/board.jpg",
       "image_urls": [
@@ -13564,7 +13564,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/chhakka-phere-shaadi-dice-kitty-party-game",
       "queue_id": "c71dc855-ae8b-4b33-9275-5be43e1d6c37",
-      "scheduled_ist": "2026-11-15 16:14"
+      "scheduled_ist": "2026-11-15 16:14",
+      "permalink": "https://www.instagram.com/p/DfwmTRIlHF0/",
+      "media_id": "18130248772867899"
     },
     {
       "id": "KGI-026",
