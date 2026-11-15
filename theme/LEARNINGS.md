@@ -16,3 +16,9 @@ The researcher routine adds a dated line here when the stats show something, and
   - Middle is the big problem: watched % 8 to 17 for all (sitcom 17% best, guess-the-call 8% worst). People who stay still leave before the payoff.
   - Signals: an open question pinned from 0 s (chip + sound) beats a joke setup; quizzes aimed at the viewer lose; a festival moment people are living right now earns the share.
   - Next: test rivalry/side-taking (challenge, 2 Nov), then shorter reels (under 18 s) to lift watched %.
+- 2026-11-15 (weeks 2 to 14 Nov, stats as of 13 to 14 Nov; 14 Nov is still early): still no share on any experiment since 29 Oct; KG sitcom benchmark (54.9% skip, 27% watched, 5 shares) not beaten on watched % or shares.
+  - Best hooks (lowest skip): checklist TH-11-11 54.4% (best experiment yet, 240 views: festival morning plus a "THALI 0/4" counter chip from 0 s), reaction-chain TH-11-07 60.3%, story-time TH-11-10 61.6% (gossip whisper), role-reversal TH-11-14 63.8%.
+  - Worst hooks: office-roleplay TH-11-13 77.1% (a world outside home and festival loses), filmi-trailer TH-11-03 74.3%. Built-in "Housie night" reels on nights with no experiment (5, 6, 8, 9, 12 Nov): 76.7 to 81.7% skip, 9 to 13% watched.
+  - Middle: reaction-chain best at 18% watched (new face every 2 s, plus the week's only save); role-reversal 16% at about 15 s; checklist 13% despite the best hook, so a counter fixes the hook, not the middle.
+  - Signals: heartbeat plus a pinned chip at 0 s on the theme's home art is now the standard hook (54 to 64%); the festival moment people are living that day is the best world; fast single-face cuts help the middle more than shorter length alone.
+  - Next: sound-on (16 Nov, almost no words, calls and reaction sounds carry the middle), then the challenge/rivalry format (11-02 draft never got stats) and a reaction-chain re-run with a festival counter.
