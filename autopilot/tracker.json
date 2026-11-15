@@ -11075,6 +11075,37 @@
       "yt_id": "ySWP8CBRFBs",
       "yt_url": "https://youtube.com/shorts/ySWP8CBRFBs",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-16",
+      "created": "2026-11-16",
+      "title": "Thekua kiska?",
+      "format": "Theme Housie",
+      "theme": "chhathprasad",
+      "story": "ai",
+      "variant": "sound-on",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Ishita, Megha and Myra each need one number for the Thekua prize group; two calls miss (Megha's haaye, Ishita's ohho), the third gives it to Myra, who shares her Thekua as prasad, and Megha takes 'bas ek'.",
+      "beats": "hook: three faces, spinning ball, heartbeat, Ishita claims Thekua / miss 1: call 23, Megha haaye / miss 2: call 51, Ishita ohho / turn: call 7, Myra gets Thekua / twist: Myra shares the prasad / button: Megha 'bas ek, prasad hai na'",
+      "experiment": {
+        "format": "sound-on",
+        "hook": "Ishita, Megha and Myra on the Chhath Ka Prasad home art staring up at the spinning mascot ball, heartbeat and cage at 0 s, chip 'SOUND ON: THEKUA KISKA?' pinned from the first frame, Ishita says 'Thekua mera hai. Obviously.'",
+        "variable": "words: only 3 short spoken lines in the whole reel; the middle is carried by the theme's own number calls, music and Hindi crowd reaction sounds (haaye, ohho, waah) on silent faces, with chips keeping it mute-proof",
+        "hypothesis": "less to read and a sound beat every 1.5 s holds the middle better than dialogue: watched % above 20 (best so far 18), skip under 58% (best experiment 54.4), at least 1 share on Chhath morning when families are sharing prasad"
+      },
+      "duration": 38.2,
+      "lufs": null,
+      "caption": "Chhath ke prasad mein sabki nazar Thekua pe! Sound on karke dekho. Aapke ghar Thekua sabse pehle kaun uthata hai? Aaj ki Chhath Ka Prasad Housie mein Thekua kiska?\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #chhath #chhathpuja #thekua #prasad",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-16.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-16-cover.jpg",
+      "job_id": "4fc39d4d-f690-4860-9cfb-a70ca4ff2411",
+      "permalink": "https://www.instagram.com/reel/DfxeBg0kewH/",
+      "media_id": "17981532762137643",
+      "yt_id": "N2P4HDMYJho",
+      "yt_url": "https://youtube.com/shorts/N2P4HDMYJho",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
