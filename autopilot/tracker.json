@@ -10714,6 +10714,183 @@
       "yt_id": "aubvcHx7Peg",
       "yt_url": "https://youtube.com/shorts/aubvcHx7Peg",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-15-a",
+      "created": "2026-11-15",
+      "title": "Shagun 501, dinner teen baar!",
+      "format": "Meme-format progress meter: the shagun vasool hisaab, Housie table the day after a shaadi",
+      "hook": "",
+      "cast": [
+        "Aditi",
+        "Shruti",
+        "Megha"
+      ],
+      "caption": "Har group mein ek Aditi hoti hai: lifafa chhota, dinner teen baar. Tag your Aditi!",
+      "status": "needs-fix",
+      "idea": "The day after a shaadi the gang measures who got their shagun's worth; Shruti and Megha keep topping each other until deadpan Aditi wins with 501 and three dinners.",
+      "beats": "hook: Ruko! Pehle kal ki shaadi / setup: 1100 ka lifafa, 1100 ka khaana / esc: chaat 20%, diet Megha 90%, steel dabba from home 99% / twist: Aditi 501 diya, teen baar dinner, 300% / button: Shruti hands over her dabba, Aditi: Hmm. Do laana.",
+      "experiment": {
+        "type": "meme-format",
+        "hook": "Housie in progress, Aditi flatly calls 'Tera.' and Shruti slams her calculator down mid-call: 'Ruko! Pehle kal ki shaadi!' under a VASOOL: 0% chip",
+        "variable": "the progress-meter meme pattern from our best-hook reel (KG-2026-11-07-a, skip 36.3%) on a new shaadi-season topic, with a closed see-it ending (three thalis pop, chip jumps to 300%) instead of a Part 2 cliffhanger, and Aditi as the deadpan winner",
+        "hypothesis": "skip under 40% and watched above 35% like the gossip meter; the 'shagun vs plate' hisaab every guest secretly does gets 2+ shares with a 'Tag your Aditi' caption"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Tera.",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruko! Pehle kal ki shaadi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Lifafa 1100 ka...",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Toh khaana bhi 1100!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Do plate chaat, golgappe...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bees percent?! Bas?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Diet thi! Bas jalebi, kulfi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Diet pe?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Cheat day tha na!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Dessert bhi pack karwaya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haaw! Dabba?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Steel ka! Ghar se!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Maine 501 diya tha.",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sirf 501? Main jeeti!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Aur teen baar dinner kiya.",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Teen baar?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Haldi. Sangeet. Reception.",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Agla dabba aap le jaana!",
+          "beat": "button"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Hmm. Do laana.",
+          "beat": "button"
+        }
+      ],
+      "duration": 36.79,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 5,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Real kitty scene: the Housie table the day after a shaadi the whole gang attended, and the shagun-vs-plate hisaab every guest secretly does. Chip is a meter that moves almost every shot so a muted viewer always knows the stake (who got her shagun's worth). Three talking characters (Shruti leads, Megha tops her, Aditi breaks it); lead is not Myra (last reel). Claim before reveal twice: Shruti proud then 'Bees percent?! Bas?!', and Shruti 'Toh main jeeti!' right before Aditi's three thalis drop. Each lady says what only she would: Shruti's calculator and steel dabba, Megha's diet and cheat day, Aditi's one-word Housie calls and 'Hmm.' Twist is see-it (three thalis pop, chip 300%). Button flips the opening: Shruti stopped the game to win the hisaab, she ends handing her dabba to Aditi, who deadpans 'Do laana'. Rewrites: ending 1 (Shruti 'Agli shaadi Aditi ke saath') was soft; ending 2 (Aditi calls 'Tera' again) did not land; kept the dabba handover. Every two-line shot is 8 words or fewer, hold 0.1. Kind humour: the joke is on everyone's love of shaadi food, nobody's body or money worries."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.18 w/s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-15-a-board.jpg"
     }
   ],
   "ideas": [
