@@ -1,0 +1,1360 @@
+{
+  "id": "KG-2026-11-15-b",
+  "title": "Shagun 501, dinner teen baar!",
+  "format": "Meme-format progress meter: the shagun vasool hisaab, Housie table the day after a shaadi",
+  "idea": "The day after a shaadi the gang measures who got their shagun's worth; Shruti and Megha keep topping each other until deadpan Aditi wins with 501 and three dinners.",
+  "logline": "At Housie after a shaadi, budget queen Shruti tries to prove she ate her full 1100 rupee shagun's worth, but quiet Aditi gave 501 and ate at all three functions.",
+  "game": "every plate someone lists pushes the vasool meter higher, ordinary (chaat), ordinary (diet girl's jalebi), absurd (a steel dabba from home), until Aditi breaks it",
+  "experiment": {
+    "type": "meme-format",
+    "hook": "Housie in progress, Aditi flatly calls 'Tera.' and Shruti slams her calculator down mid-call: 'Ruko! Pehle kal ki shaadi!' under a VASOOL: 0% chip",
+    "variable": "the progress-meter meme pattern from our best-hook reel (KG-2026-11-07-a, skip 36.3%) on a new shaadi-season topic, with a closed see-it ending (three thalis pop, chip jumps to 300%) instead of a Part 2 cliffhanger, and Aditi as the deadpan winner; fix of KG-2026-11-15-a (failed QA on voice pace 2.18 w/s): same script, faster voices",
+    "hypothesis": "skip under 40% and watched above 35% like the gossip meter; the 'shagun vs plate' hisaab every guest secretly does gets 2+ shares with a 'Tag your Aditi' caption"
+  },
+  "mute": [
+    "Housie table, Aditi calls a number, Shruti stops the game with her calculator, chip SHRUTI KA VASOOL: 0%",
+    "Shruti holds up a shagun envelope, gyarah sau (1100) on the caption, Megha laughs: she must eat 1100 worth",
+    "a pani puri plate pops up, calculator beeps as Shruti lists what she ate",
+    "chip says 20%, Shruti's O mouth, sweat drop: only 20%?!",
+    "Megha says she was on diet as jalebi and mithai pop up next to her, chip MEGHA KA VASOOL: 90%",
+    "Shruti points: on diet?! Megha smirks: cheat day",
+    "Shruti grins, a plate pops up, chip SHRUTI 99%, Megha gasps: she packed dessert",
+    "Shruti laughs, Megha laughs: she brought her own steel dabba from home",
+    "Aditi spins the cage, ball 45 pops, she flatly says she gave only 501, Shruti still smiling",
+    "Shruti claps: she thinks she won",
+    "music cuts, three thalis pop in front of Aditi one by one, chip ADITI KA VASOOL: 300%, Shruti's O mouth",
+    "Megha shocked, Aditi lists haldi, sangeet, reception, sweat drops",
+    "chip VASOOL QUEEN: ADITI, Shruti hands Aditi her dabba",
+    "Aditi sips chai, smirks: bring two, Shruti laughs"
+  ],
+  "beats": "hook: Ruko! Pehle kal ki shaadi / setup: 1100 ka lifafa, 1100 ka khaana / esc: chaat 20%, diet Megha 90%, steel dabba from home 99% / twist: Aditi 501 diya, teen baar dinner, 300% / button: Shruti hands over her dabba, Aditi: Hmm. Do laana.",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 5,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Fix of KG-2026-11-15-a, which failed QA on voice pace (2.18 w/s, the lead voices Shruti and Aditi are the slowest in the cast). Changes: pace 27 to 33, per-line rate -4% for Shruti and -8% for Aditi (her last Hmm. Do laana. keeps her slow default for the deadpan), and the rupee numbers written out in the captions (gyarah sau, paanch sau ek) so the word count matches what the voice actually says. Expected pace about 2.6 w/s and length about 31 s. Script unchanged otherwise. Real kitty scene: the Housie table the day after a shaadi the whole gang attended, and the shagun-vs-plate hisaab every guest secretly does. Chip is a meter that moves almost every shot so a muted viewer always knows the stake (who got her shagun's worth). Three talking characters (Shruti leads, Megha tops her, Aditi breaks it); lead is not Myra (last reel). Claim before reveal twice: Shruti proud then 'Bees percent?! Bas?!', and Shruti 'Toh main jeeti!' right before Aditi's three thalis drop. Each lady says what only she would: Shruti's calculator and steel dabba, Megha's diet and cheat day, Aditi's one-word Housie calls and 'Hmm.' Twist is see-it (three thalis pop, chip 300%). Button flips the opening: Shruti stopped the game to win the hisaab, she ends handing her dabba to Aditi, who deadpans 'Do laana'. Rewrites: ending 1 (Shruti 'Agli shaadi Aditi ke saath') was soft; ending 2 (Aditi calls 'Tera' again) did not land; kept the dabba handover. Every two-line shot is 8 words or fewer, hold 0.1. Kind humour: the joke is on everyone's love of shaadi food, nobody's body or money worries."
+  },
+  "cover": {
+    "shot": 10,
+    "at": 1.7,
+    "title": [
+      "Shagun 501 ka,",
+      "dinner teen baar!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har group mein ek Aditi hoti hai: lifafa chhota, dinner teen baar. Tag your Aditi!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#ladieskitty",
+    "#housie",
+    "#kittypartyfun",
+    "#shaadi"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 33,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 0%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.4,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Ball 7",
+          "x": 330,
+          "y": 1300,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "camera": "push",
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 560,
+          "y": 880,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.4
+        },
+        {
+          "at": 0.7,
+          "name": "thud",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Tera.",
+          "say": "तेरह।",
+          "beat": "hook",
+          "rate": "-8%"
+        },
+        {
+          "who": "Shruti",
+          "text": "Ruko! Pehle kal ki shaadi!",
+          "say": "रुको! पहले कल की शादी!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "hook",
+          "rate": "-4%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 0%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "talkR",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.6,
+          "pose": "talkL",
+          "prop": "bottle",
+          "mouth": "laugh",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 600,
+          "y": 1450,
+          "s": 1.1,
+          "at": 0.1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Lifafa gyarah sau ka...",
+          "say": "लिफ़ाफ़ा ग्यारह सौ का...",
+          "beat": "setup",
+          "rate": "-4%"
+        },
+        {
+          "who": "Megha",
+          "text": "Khaana bhi gyarah sau!",
+          "say": "खाना भी ग्यारह सौ!",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.2,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Pani puri",
+          "x": 420,
+          "y": 1560,
+          "s": 1,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "calc",
+          "vol": 0.5
+        },
+        {
+          "at": 1.2,
+          "name": "calc",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Do plate chaat, golgappe...",
+          "say": "दो प्लेट चाट, गोलगप्पे...",
+          "beat": "escalation",
+          "rate": "-4%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 20%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.6,
+          "pose": "talkL",
+          "prop": "bottle",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 880,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "scratch",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Bees percent?! Bas?!",
+          "say": "बीस परसेंट?! बस?!",
+          "punch": true,
+          "beat": "escalation",
+          "rate": "-4%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "MEGHA KA VASOOL: 90%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "mouth": "o",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "talkL",
+          "prop": "bottle",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fafda jalebi",
+          "x": 760,
+          "y": 1560,
+          "s": 1,
+          "at": 0.3
+        },
+        {
+          "name": "Mithai box",
+          "x": 900,
+          "y": 1560,
+          "s": 0.9,
+          "at": 0.9
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "pop",
+          "vol": 0.4
+        },
+        {
+          "at": 1,
+          "name": "pop",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Diet thi! Bas jalebi, kulfi!",
+          "say": "डाइट थी! बस जलेबी, कुल्फ़ी!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "MEGHA KA VASOOL: 90%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.5,
+          "pose": "talkR",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "hips",
+          "prop": "bottle",
+          "mouth": "smirk",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Diet pe?!",
+          "say": "डाइट पे?!",
+          "beat": "escalation",
+          "rate": "-4%"
+        },
+        {
+          "who": "Megha",
+          "text": "Cheat day tha na!",
+          "say": "चीट डे था ना!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 99%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.3,
+          "pose": "talkL",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "side",
+          "hop": true
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 560,
+          "y": 1460,
+          "s": 0.9,
+          "at": 0.6
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "pop",
+          "vol": 0.4
+        },
+        {
+          "at": 1.6,
+          "name": "haww",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Dessert bhi pack karwaya!",
+          "say": "डेज़र्ट भी पैक करवाया!",
+          "beat": "escalation",
+          "rate": "-4%"
+        },
+        {
+          "who": "Megha",
+          "text": "Haaw! Dabba?!",
+          "say": "हाओ! डब्बा?!",
+          "gap": 0.03,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 99%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.3,
+          "pose": "hips",
+          "prop": "calc",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "laughs",
+          "prop": "bottle",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "camera": "push",
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Steel ka! Ghar se!",
+          "say": "स्टील का! घर से!",
+          "punch": true,
+          "beat": "escalation",
+          "rate": "-4%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 99%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "bottle",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Ball 45",
+          "x": 330,
+          "y": 1300,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.3,
+          "name": "ballpop",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Maine paanch sau ek diya.",
+          "say": "मैंने पाँच सौ एक दिया।",
+          "beat": "turn",
+          "rate": "-8%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHRUTI KA VASOOL: 99%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.5,
+          "pose": "talkR",
+          "prop": "calc",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "clapL",
+          "prop": "bottle",
+          "mouth": "laugh",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 560,
+          "y": 860,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "clap",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Sirf paanch sau ek? Main jeeti!",
+          "say": "सिर्फ़ पाँच सौ एक? मैं जीती!",
+          "beat": "turn",
+          "rate": "-4%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "ADITI KA VASOOL: 300%",
+      "chipY": 600,
+      "camera": "punch",
+      "music": false,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 330,
+          "y": 1740,
+          "s": 2.15,
+          "turn": 0.4,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1750,
+          "s": 2.1,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 250,
+          "y": 1560,
+          "s": 0.85,
+          "at": 0.9
+        },
+        {
+          "name": "Thali",
+          "x": 420,
+          "y": 1580,
+          "s": 0.85,
+          "at": 1.2
+        },
+        {
+          "name": "Thali",
+          "x": 590,
+          "y": 1560,
+          "s": 0.85,
+          "at": 1.5
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 760,
+          "y": 860,
+          "at": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "thud",
+          "vol": 0.45
+        },
+        {
+          "at": 1.2,
+          "name": "thud",
+          "vol": 0.45
+        },
+        {
+          "at": 1.5,
+          "name": "thud",
+          "vol": 0.5
+        },
+        {
+          "at": 1.7,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Aur teen baar dinner kiya.",
+          "say": "और तीन बार डिनर किया।",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "turn",
+          "rate": "-8%"
+        }
+      ],
+      "hold": 0.5
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "ADITI KA VASOOL: 300%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "cup",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.6,
+          "pose": "talkL",
+          "prop": "bottle",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "camera": "push",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 880,
+          "at": 0.4
+        },
+        {
+          "kind": "sweat",
+          "x": 930,
+          "y": 880,
+          "at": 0.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ohho",
+          "vol": 0.35
+        },
+        {
+          "at": 2,
+          "name": "laughv",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Teen baar?!",
+          "say": "तीन बार?!",
+          "beat": "turn"
+        },
+        {
+          "who": "Aditi",
+          "text": "Haldi. Sangeet. Reception.",
+          "say": "हल्दी। संगीत। रिसेप्शन।",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "turn",
+          "rate": "-8%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "VASOOL QUEEN: ADITI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.5,
+          "pose": "cup",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1750,
+          "s": 2.05,
+          "turn": -0.6,
+          "pose": "talkL",
+          "prop": "calc",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 830,
+          "y": 1730,
+          "s": 1.95,
+          "turn": -0.5,
+          "pose": "clapL",
+          "prop": "bottle",
+          "mouth": "smile",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 420,
+          "y": 1500,
+          "s": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Agla dabba aap le jaana!",
+          "say": "अगला डब्बा आप ले जाना!",
+          "beat": "button",
+          "rate": "-4%"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "VASOOL QUEEN: ADITI",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Aditi",
+          "x": 540,
+          "y": 1740,
+          "s": 2.2,
+          "turn": 0.2,
+          "pose": "cup",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 880,
+          "y": 1750,
+          "s": 1.95,
+          "turn": -0.6,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Thali",
+          "x": 300,
+          "y": 1560,
+          "s": 0.85
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "slurp",
+          "vol": 0.4
+        },
+        {
+          "at": 1.4,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Hmm. Do laana.",
+          "say": "हम्म। दो लाना।",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 1
+    }
+  ]
+}
