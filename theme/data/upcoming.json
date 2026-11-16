@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:03:25.536Z",
+ "updated": "2026-11-16T11:51:06.838Z",
  "days": [
   {
    "date": "2026-11-16",
@@ -92,7 +92,7 @@
     "id": "thandaagayi",
     "name": "Thand Aa Gayi",
     "pack": "themes/thandaagayi/v1",
-    "sounds": "sounds/thandaagayi/v1",
+    "sounds": "sounds/thandaagayi/v2",
     "colors": {
      "accent": "#2F6FB8",
      "accentDeep": "#1D4A86",

@@ -14081,7 +14081,7 @@
       "time": "15 minutes",
       "slug": "katori-housie-kitty-party-game",
       "caption": "Housie wahi, bas sir pe katori! Giri toh ticket padosan ki. Aapki kitty mein sabse pehle kiski katori giregi?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-026/board.jpg",
       "image_urls": [
@@ -14098,7 +14098,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/katori-housie-kitty-party-game",
       "queue_id": "4ea9bbd6-3a4a-41ea-aa8c-3fda72eb7785",
-      "scheduled_ist": "2026-11-16 11:34"
+      "scheduled_ist": "2026-11-16 11:34",
+      "permalink": "https://www.instagram.com/p/DfyrC1SDu-x/",
+      "media_id": "18138218746641180"
     },
     {
       "id": "KGI-027",
