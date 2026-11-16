@@ -11132,6 +11132,210 @@
       "yt_id": "N2P4HDMYJho",
       "yt_url": "https://youtube.com/shorts/N2P4HDMYJho",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-16-a",
+      "created": "2026-11-16",
+      "title": "Host khud late!",
+      "format": "Map journey: the host's live location vs the gang waiting in her own living room, ending in a door flip",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Shruti",
+        "Myra"
+      ],
+      "caption": "Apni hi kitty mein late, aur location Tanya ke ghar ki. Tag the host jo sabse last aati hai!",
+      "status": "queued",
+      "idea": "Myra is hosting the kitty but is the one missing; her live location jumps from salon to tailor to Tanya's house while the gang sits on her sofa and starts Housie without her.",
+      "beats": "hook: Host hi gayab? / Lift mein, bas do minute / map: salon / esc: parking = tailor, gang starts Housie without the host, 'bell baja rahi' = Tanya's house / twist: Myra arrives and Tanya blocks her at her own door, late fine / button: Tanya throws back 'Bas do minute! Lift mein!'",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Myra's living room, gang on her sofa with the Housie cage, Tanya shouts into the phone \"Host hi gayab?!\" and Myra answers \"Lift mein! Bas do minute!\", hard cut to her dot sitting in a salon",
+        "variable": "second map-journey test with a new late person: the HOST of the kitty is the late one, the third stop is the wrong house (the usual host's) and the end is a door-arrivals flip at her own door; also tests a 25-30 s length",
+        "hypothesis": "the late host is a fresher stake than the late guest, so skip stays under 35% like 11-09-a (34%) and watched rises from 29% to 40%+ at the shorter length; 'Tag the host' caption gets 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Host hi gayab?!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Lift mein! Bas do minute!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Lift? Yeh toh salon!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Haaw! Blow-dry chal raha!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ab kahan ho?!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Parking mein! Aa gayi!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Parking mein silai machine?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Blouse abhi sil raha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chalo! Host ke bina Housie!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pehla number... saat!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Pahunch gayi! Bell baja rahi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Bell? Kaunsi bell?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Tanya, darwaza kholo!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Tanya",
+          "line": "Mere ghar pe?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Apni kitty bhooli!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Tanya ke ghar ki aadat!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ta-da! Host aa gayi!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Late aayi? Entry nahi!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera hi ghar hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Late fine! Sau rupaye!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Andar kab aaun?",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bas do minute! Lift mein!",
+          "beat": "button"
+        }
+      ],
+      "duration": 39.16,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 49,
+        "notes": "Real kitty scene: the host who is still at the salon and the tailor when guests arrive, and everyone going to the usual host's house out of habit. One want (the gang wants their host), one game (each 'almost there' busted by the dot) played ordinary (salon), ordinary (tailor for the blouse), absurd (she is ringing Tanya's bell for her own kitty). Claim before reveal: 'Pahunch gayi! Bell baja rahi!' one shot before the wrong-house map. Twist is see-it: Myra in her own doorway blocked by Tanya, the door-arrivals rule-maker the audience knows. Button throws Myra's opening excuse back with the opening chip flipped, so it loops. Rewrote the third stop: first draft had the samosas not yet fried, too close to the 9 Nov halwa reel; the wrong-house stop is new and visual. Ending options: gang leaving as she arrives (no flip of the line), Myra entering to an empty plate (flat), Tanya's 'Bas do minute' (kept). Every two-line shot is 8 words or fewer with hold 0.1. Kind humour: Myra gets in, the samosas arrive."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-16-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-16-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-16-a-board.jpg",
+      "queue_id": "f288dee9-4e71-4a98-aecb-33d42f271894",
+      "scheduled_ist": "2026-11-24 12:42",
+      "yt_id": "_rI_VizSc-8",
+      "yt_url": "https://youtube.com/shorts/_rI_VizSc-8",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
