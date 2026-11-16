@@ -1,5 +1,16 @@
 # Learnings (newest first). Only real learnings from team feedback or post data.
 
+## 2026-11-16 · Monday review (stats as of 2026-11-15)
+- NEW SHAPES WORK TOO: types-of "Shaadi season mein kitty kab?" (KG-2026-11-10-a) got 1674 views, skip 33.3%, watched 42% (32.5 s); meme-format "Gossip loading... 99%" (KG-2026-11-07-a) 1932 views, skip 37%; map-journey "Avika ki live location" (KG-2026-11-09-a) 1322 views, skip 34%, watched 29%, 1 share. All three are 3-6x the old 300-view floor.
+- Door-arrivals still the best: "Udhaar wapas, phir entry!" (KG-2026-11-09-b) 2236 views, skip 26.5%, watched 51%; "Saree mein aayi toh entry nahi!" (KG-2026-11-05-b) 2023 views, skip 33.8%, watched 42%. Five door reels, all under 34% skip.
+- What the winners share: a live stake chip that moves every shot, one repeating game, a real situation (late friend, udhaar, shaadi season) and a host or friend type named in the caption. pov (437 views, skip 52.6%) and musical (296, skip 49.6%) still lag.
+- Shares are still 0-1 on almost every reel; saves 0-2. Captions naming a friend type are not enough on their own.
+- Theme reels (TH) keep falling: 108-254 views this week, skip 56-81%, watched 10-19%, 0 shares.
+- Do more: door-arrivals every 2nd reel; types-of, meme-format (progress chip) and map-journey as the rotation; a moving chip on every shot; 25-32 s.
+- Do less: pov, musical, quiz, photo-attempts, story-time; reels over 35 s.
+- Pipeline: two more pace fails (2.18 and 2.28 w/s, KG-2026-11-13-b and 11-15-a). Keep 7-8 words per two-line shot, pace 27-28, gaps 0.03-0.05, at most one silenceBefore and one silent shot (under 1.5 s).
+- Backlog: 9 reels are queued (KG-2026-11-11-a to 11-15-b) for one post a day, so new drafts post about 10 days later; avoid dates that will be stale by then.
+
 ## 2026-11-09 · Monday review (stats as of 2026-11-08)
 - DOOR-ARRIVALS CONFIRMED: the second door reel "Phone nahi toh entry nahi!" (KG-2026-11-02-c, no colour gag) got 2716 views, skip 27.6%, watched 46%, 3 shares. The first, "Pink nahi toh entry nahi!", grew to 6031 views, skip 26.5%, watched 71%. So the SHAPE wins (host blocks her own door with one rule, a guest per ring, a chip that moves, the host breaks her own rule), not the pink colour.
 - Both door winners: Tanya as the rule-making host, a "Tag your Tanya!" caption about the host breaking her own rule. The no-phone one is the first gang reel with 3 shares: name the friend type AND a rule every group has.

@@ -1,0 +1,364 @@
+{
+  "id": "KG-2026-11-16-a",
+  "title": "Host khud late!",
+  "format": "Map journey: the host's live location vs the gang waiting in her own living room, ending in a door flip",
+  "idea": "Myra is hosting the kitty but is the one missing; her live location jumps from salon to tailor to Tanya's house while the gang sits on her sofa and starts Housie without her.",
+  "logline": "Myra is late to her own kitty, her live location shows a salon, a tailor and then Tanya's house out of habit, and when she finally walks in Tanya blocks her own host's door.",
+  "game": "every 'bas pahunch gayi' from Myra is busted by her live location dot",
+  "experiment": {
+    "type": "map-journey",
+    "hook": "Myra's living room, gang on her sofa with the Housie cage, Tanya shouts into the phone \"Host hi gayab?!\" and Myra answers \"Lift mein! Bas do minute!\", hard cut to her dot sitting in a salon",
+    "variable": "second map-journey test with a new late person: the HOST of the kitty is the late one, the third stop is the wrong house (the usual host's) and the end is a door-arrivals flip at her own door; also tests a 25-30 s length",
+    "hypothesis": "the late host is a fresher stake than the late guest, so skip stays under 35% like 11-09-a (34%) and watched rises from 29% to 40%+ at the shorter length; 'Tag the host' caption gets 2+ shares"
+  },
+  "mute": [
+    "the gang sits in Myra's living room with the Housie cage, chip HOST MYRA: \"BAS 2 MINUTE!\", clock 4:00, Tanya shouting into her phone: the host is missing",
+    "a live map, the dot sits at a salon, chip LIVE LOCATION: SALON, so 'lift mein' is a lie",
+    "back on the sofa at 4:20, Tanya on the phone again, Myra says she is in the parking",
+    "the dot moves to a tailor, chip STOP 2: MASTER JI TAILOR, a saree on a hanger: she is getting her blouse stitched",
+    "4:45, Tanya grabs the cage, chip HOUSIE: HOST KE BINA, ball 7: the gang starts without the host",
+    "Ruhi on the phone, Myra claims she has reached and is ringing the bell, a question mark: no bell rang here",
+    "music cuts, the dot stops at a house, chip STOP 3: TANYA KA GHAR: Myra went to Tanya's house",
+    "Ruhi laughs, Tanya points at herself, chip MYRA: GALAT GHAR: she went to the usual host's house out of habit",
+    "the dot finally reaches Myra's own home, chip MYRA PAHUNCH GAYI!, doorbell",
+    "Myra in her own doorway, blow-dried, with bags and samosas, Tanya blocks the door with a palm, chip HOST: 5:30 PE: the host is being stopped at her own door",
+    "Shruti holds out the calculator, chip LATE FINE: Rs 100: the host has to pay the late fine",
+    "Tanya in the door says Myra's own excuse back, chip TANYA: \"BAS 2 MINUTE!\", the same chip as the opening flipped, freeze on Myra's open mouth"
+  ],
+  "beats": "hook: Host hi gayab? / Lift mein, bas do minute / map: salon / esc: parking = tailor, gang starts Housie without the host, 'bell baja rahi' = Tanya's house / twist: Myra arrives and Tanya blocks her at her own door, late fine / button: Tanya throws back 'Bas do minute! Lift mein!'",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 49,
+    "notes": "Real kitty scene: the host who is still at the salon and the tailor when guests arrive, and everyone going to the usual host's house out of habit. One want (the gang wants their host), one game (each 'almost there' busted by the dot) played ordinary (salon), ordinary (tailor for the blouse), absurd (she is ringing Tanya's bell for her own kitty). Claim before reveal: 'Pahunch gayi! Bell baja rahi!' one shot before the wrong-house map. Twist is see-it: Myra in her own doorway blocked by Tanya, the door-arrivals rule-maker the audience knows. Button throws Myra's opening excuse back with the opening chip flipped, so it loops. Rewrote the third stop: first draft had the samosas not yet fried, too close to the 9 Nov halwa reel; the wrong-house stop is new and visual. Ending options: gang leaving as she arrives (no flip of the line), Myra entering to an empty plate (flat), Tanya's 'Bas do minute' (kept). Every two-line shot is 8 words or fewer with hold 0.1. Kind humour: Myra gets in, the samosas arrive."
+  },
+  "cover": {
+    "shot": 6,
+    "at": 1.2,
+    "title": [
+      "Host khud late!",
+      "Location: Tanya ka ghar"
+    ],
+    "titleY": 330
+  },
+  "caption": "Apni hi kitty mein late, aur location Tanya ke ghar ki. Tag the host jo sabse last aati hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#kittypartyfun",
+    "#ladieskitty",
+    "#housie",
+    "#livelocation",
+    "#latecomer"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "HOST MYRA: \"BAS 2 MINUTE!\"",
+      "chipY": 600,
+      "camera": "push",
+      "clock": { "h": 4, "m": 0 },
+      "chars": [
+        { "name": "Tanya", "x": 270, "y": 1730, "s": 2, "pose": "hold", "prop": "phone", "mouth": "o", "turn": 0.5, "hop": true },
+        { "name": "Ruhi", "x": 560, "y": 1750, "s": 1.95, "pose": "relaxed", "turn": -0.4, "eyes": "side" },
+        { "name": "Shruti", "x": 830, "y": 1730, "s": 1.9, "pose": "hold", "prop": "calc", "turn": -0.5, "eyes": "half", "mouth": "flat" }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 200, "y": 1880, "s": 1.2 },
+        { "name": "Kitty pot", "x": 560, "y": 1890, "s": 1.1 },
+        { "name": "Housie ticket", "x": 880, "y": 1500, "s": 1 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 300, "y": 860, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Host hi gayab?!", "say": "होस्ट ही गायब?!", "beat": "hook" },
+        { "who": "Myra", "text": "Lift mein! Bas do minute!", "say": "लिफ्ट में! बस दो मिनट!", "gap": 0.04, "beat": "hook" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [250, 560],
+      "to": [250, 560],
+      "chip": "LIVE LOCATION: SALON",
+      "chipY": 760,
+      "camera": "punch",
+      "props": [
+        { "name": "Hand mirror", "x": 420, "y": 700, "s": 1.3 }
+      ],
+      "stickers": [
+        { "kind": "spark", "x": 250, "y": 430, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "ping", "vol": 0.4 },
+        { "at": 0.6, "name": "sparkle", "vol": 0.3 }
+      ],
+      "lines": [
+        { "who": "Shruti", "text": "Lift? Yeh toh salon!", "say": "लिफ्ट? ये तो सैलून!", "beat": "setup" },
+        { "who": "Ruhi", "text": "Haaw! Blow-dry chal raha!", "say": "हाओ! ब्लो ड्राई चल रहा!", "gap": 0.03, "punch": true, "beat": "setup" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "HOST MYRA: \"BAS 2 MINUTE!\"",
+      "chipY": 600,
+      "clock": { "h": 4, "m": 20 },
+      "chars": [
+        { "name": "Tanya", "x": 300, "y": 1730, "s": 2.05, "pose": "talkR", "prop": "phone", "mouth": "o", "turn": 0.4 },
+        { "name": "Shruti", "x": 780, "y": 1730, "s": 1.9, "pose": "hold", "prop": "calc", "turn": -0.5, "eyes": "side" }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 200, "y": 1880, "s": 1.2 },
+        { "name": "Kitty pot", "x": 560, "y": 1890, "s": 1.1 },
+        { "name": "Phone + notification", "x": 540, "y": 1480, "s": 1, "at": 0.2 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Ab kahan ho?!", "say": "अब कहाँ हो?!", "beat": "setup" },
+        { "who": "Myra", "text": "Parking mein! Aa gayi!", "say": "पार्किंग में! आ गई!", "gap": 0.04, "beat": "setup" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [250, 560],
+      "to": [230, 1020],
+      "chip": "STOP 2: MASTER JI TAILOR",
+      "chipY": 760,
+      "props": [
+        { "name": "Saree on hanger", "x": 420, "y": 1110, "s": 1.4 }
+      ],
+      "stickers": [
+        { "kind": "question", "x": 380, "y": 940, "at": 0.4 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "zip", "vol": 0.35 }
+      ],
+      "lines": [
+        { "who": "Shruti", "text": "Parking mein silai machine?", "say": "पार्किंग में सिलाई मशीन?", "beat": "escalation" },
+        { "who": "Ruhi", "text": "Blouse abhi sil raha!", "say": "ब्लाउज़ अभी सिल रहा!", "gap": 0.04, "punch": true, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "HOUSIE: HOST KE BINA",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": { "h": 4, "m": 45 },
+      "chars": [
+        { "name": "Tanya", "x": 270, "y": 1730, "s": 2.05, "pose": "clapR", "mouth": "laugh", "turn": 0.5, "hop": true },
+        { "name": "Ruhi", "x": 560, "y": 1750, "s": 1.95, "pose": "relaxed", "turn": 0.4, "eyes": "laugh", "mouth": "smile" },
+        { "name": "Shruti", "x": 830, "y": 1730, "s": 1.9, "pose": "hold", "prop": "calc", "turn": -0.5, "mouth": "smirk" }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 200, "y": 1880, "s": 1.3 },
+        { "name": "Ball 7", "x": 380, "y": 1500, "s": 1.1, "at": 1.2 },
+        { "name": "Housie ticket", "x": 880, "y": 1500, "s": 1 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.45 },
+        { "at": 1.2, "name": "ballpop", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Tanya", "text": "Chalo! Host ke bina Housie!", "say": "चलो! होस्ट के बिना हाउज़ी!", "beat": "escalation" },
+        { "who": "Shruti", "text": "Pehla number... saat!", "say": "पहला नंबर... सात!", "gap": 0.05, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "MYRA: \"PAHUNCH GAYI!\"",
+      "chipY": 600,
+      "clock": { "h": 5, "m": 5 },
+      "chars": [
+        { "name": "Ruhi", "x": 300, "y": 1740, "s": 2.05, "pose": "hold", "prop": "phone", "turn": 0.4, "mouth": "o" },
+        { "name": "Tanya", "x": 780, "y": 1730, "s": 2, "pose": "relaxed", "turn": -0.5, "eyes": "side" }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 200, "y": 1880, "s": 1.2 },
+        { "name": "Housie ticket", "x": 880, "y": 1500, "s": 1 },
+        { "name": "Chips bowl", "x": 560, "y": 1890, "s": 1 }
+      ],
+      "stickers": [
+        { "kind": "question", "x": 540, "y": 820, "at": 1.4 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Pahunch gayi! Bell baja rahi!", "say": "पहुँच गई! बेल बजा रही!", "beat": "escalation" },
+        { "who": "Ruhi", "text": "Bell? Kaunsi bell?", "say": "बेल? कौन सी बेल?", "gap": 0.05, "silenceBefore": true, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [230, 1020],
+      "to": [650, 900],
+      "chip": "STOP 3: TANYA KA GHAR",
+      "chipY": 760,
+      "music": false,
+      "camera": "punch",
+      "stickers": [
+        { "kind": "home", "x": 650, "y": 780, "at": 0.5 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "zip", "vol": 0.35 },
+        { "at": 0.6, "name": "doorbell", "vol": 0.45 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Tanya, darwaza kholo!", "say": "तान्या, दरवाज़ा खोलो!", "beat": "escalation" },
+        { "who": "Tanya", "text": "Mere ghar pe?!", "say": "मेरे घर पे?!", "gap": 0.03, "punch": true, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "MYRA: GALAT GHAR",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": { "h": 5, "m": 10 },
+      "chars": [
+        { "name": "Tanya", "x": 290, "y": 1730, "s": 2.1, "pose": "talkR", "mouth": "o", "eyes": "open", "turn": 0.4, "hop": true },
+        { "name": "Ruhi", "x": 560, "y": 1750, "s": 1.95, "pose": "laughs", "turn": 0.3, "eyes": "laugh", "mouth": "laugh" },
+        { "name": "Shruti", "x": 830, "y": 1730, "s": 1.9, "pose": "hold", "prop": "calc", "turn": -0.5, "eyes": "half", "mouth": "flat" }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 200, "y": 1880, "s": 1.2 },
+        { "name": "Housie ticket", "x": 880, "y": 1500, "s": 1 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 380, "y": 820, "at": 0.2 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "haww", "vol": 0.35 },
+        { "at": 1.6, "name": "laughv", "vol": 0.3 }
+      ],
+      "lines": [
+        { "who": "Ruhi", "text": "Apni kitty bhooli!", "say": "अपनी किटी भूली!", "beat": "escalation" },
+        { "who": "Shruti", "text": "Tanya ke ghar ki aadat!", "say": "तान्या के घर की आदत!", "gap": 0.04, "punch": true, "beat": "escalation" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [650, 900],
+      "to": [770, 1400],
+      "chip": "MYRA PAHUNCH GAYI!",
+      "chipY": 760,
+      "dur": 1.3,
+      "stickers": [
+        { "kind": "exclaim", "x": 770, "y": 1260, "at": 0.9 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "riser", "vol": 0.3 },
+        { "at": 1.0, "name": "doorbell", "vol": 0.5 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "HOST: 5:30 PE",
+      "chipY": 600,
+      "clock": { "h": 5, "m": 30 },
+      "chars": [
+        { "name": "Myra", "x": 790, "y": 1460, "s": 2.15, "pose": "wave", "turn": -0.5, "mouth": "laugh", "eyes": "laugh", "hop": true },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "pose": "hips", "turn": 0.6, "eyes": "half", "mouth": "smirk" }
+      ],
+      "props": [
+        { "name": "Shopping bags", "x": 640, "y": 1500, "s": 1.3 },
+        { "name": "Samosa plate", "x": 930, "y": 1500, "s": 1.1 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "creak", "vol": 0.4 },
+        { "at": 0.2, "name": "sparkle", "vol": 0.3 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Ta-da! Host aa gayi!", "say": "टा-डा! होस्ट आ गई!", "beat": "turn" },
+        { "who": "Tanya", "text": "Late aayi? Entry nahi!", "say": "लेट आई? एंट्री नहीं!", "gap": 0.04, "punch": true, "beat": "turn" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "LATE FINE: Rs 100",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": { "h": 5, "m": 31 },
+      "chars": [
+        { "name": "Myra", "x": 790, "y": 1460, "s": 2.15, "pose": "relaxed", "turn": -0.5, "mouth": "o", "eyes": "open" },
+        { "name": "Tanya", "x": 250, "y": 1800, "s": 2, "pose": "hips", "turn": 0.6, "eyes": "half", "mouth": "smirk" },
+        { "name": "Shruti", "x": 520, "y": 1790, "s": 1.85, "pose": "hold", "prop": "calc", "turn": 0.5, "eyes": "half", "mouth": "flat" }
+      ],
+      "props": [
+        { "name": "Shopping bags", "x": 640, "y": 1500, "s": 1.3 },
+        { "name": "Samosa plate", "x": 930, "y": 1500, "s": 1.1 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 860, "y": 560, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 1.0, "name": "calc", "vol": 0.4 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Mera hi ghar hai!", "say": "मेरा ही घर है!", "beat": "turn" },
+        { "who": "Shruti", "text": "Late fine! Sau rupaye!", "say": "लेट फ़ाइन! सौ रुपये!", "gap": 0.04, "punch": true, "beat": "turn" }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA: \"BAS 2 MINUTE!\"",
+      "chipY": 600,
+      "camera": "still",
+      "clock": { "h": 5, "m": 32 },
+      "chars": [
+        { "name": "Myra", "x": 790, "y": 1460, "s": 2.15, "pose": "hold", "prop": "phone", "turn": -0.5, "mouth": "o", "eyes": "open" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "pose": "talkR", "turn": 0.6, "eyes": "laugh", "mouth": "laugh" }
+      ],
+      "props": [
+        { "name": "Shopping bags", "x": 640, "y": 1500, "s": 1.3 },
+        { "name": "Samosa plate", "x": 930, "y": 1500, "s": 1.1 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 860, "y": 560, "at": 1.2 }
+      ],
+      "sfx": [
+        { "at": 1.8, "name": "laughv", "vol": 0.35 }
+      ],
+      "lines": [
+        { "who": "Myra", "text": "Andar kab aaun?", "say": "अंदर कब आऊँ?", "beat": "button" },
+        { "who": "Tanya", "text": "Bas do minute! Lift mein!", "say": "बस दो मिनट! लिफ्ट में!", "gap": 0.04, "punch": true, "beat": "button" }
+      ],
+      "hold": 0.5
+    }
+  ]
+}
