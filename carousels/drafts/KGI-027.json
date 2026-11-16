@@ -1,0 +1,808 @@
+{
+  "id": "KGI-027",
+  "n": 27,
+  "slug": "sehra-bandhi-one-hand-shaadi-kitty-party-game",
+  "game": "Sehra Bandhi",
+  "tagline": "Ek haath, ek channi, hasi mana!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"199.1\" y=\"178.5\" width=\"121.8\" height=\"105\" rx=\"10.5\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"190.7\" y=\"279.3\" width=\"138.6\" height=\"18.9\" rx=\"6.3\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"199.1\" y=\"298.2\" width=\"12.6\" height=\"63\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"308.3\" y=\"298.2\" width=\"12.6\" height=\"63\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "person",
+      "x": 260,
+      "y": 210,
+      "s": 1.05,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"222.2\" y=\"153.3\" width=\"75.6\" height=\"14.7\" rx=\"6.3\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M295.7 159.6 Q318.8 220.5 308.3 262.5\" stroke=\"#E85D8A\" stroke-width=\"12.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"230.6\" y1=\"165.9\" x2=\"230.6\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"230.6\" y1=\"165.9\" x2=\"230.6\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"230.6\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"230.6\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"240.1\" y1=\"165.9\" x2=\"240.1\" y2=\"212.1\" stroke=\"#FFFFFF\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"240.1\" y1=\"165.9\" x2=\"240.1\" y2=\"212.1\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"240.1\" cy=\"215.3\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"240.1\" cy=\"215.3\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"249.5\" y1=\"165.9\" x2=\"249.5\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"249.5\" y1=\"165.9\" x2=\"249.5\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"249.5\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"249.5\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"258.9\" y1=\"165.9\" x2=\"258.9\" y2=\"212.1\" stroke=\"#FFFFFF\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"258.9\" y1=\"165.9\" x2=\"258.9\" y2=\"212.1\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"258.9\" cy=\"215.3\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"258.9\" cy=\"215.3\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"268.4\" y1=\"165.9\" x2=\"268.4\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"268.4\" y1=\"165.9\" x2=\"268.4\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"268.4\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"268.4\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"277.9\" y1=\"165.9\" x2=\"277.9\" y2=\"212.1\" stroke=\"#FFFFFF\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"277.9\" y1=\"165.9\" x2=\"277.9\" y2=\"212.1\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"277.9\" cy=\"215.3\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"277.9\" cy=\"215.3\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"287.3\" y1=\"165.9\" x2=\"287.3\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"287.3\" y1=\"165.9\" x2=\"287.3\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"287.3\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"287.3\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><path d=\"M219.1 155.4 Q260 91.5 300.9 155.4 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"239.5\" y1=\"153.8\" x2=\"249.8\" y2=\"132.5\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"260\" y1=\"153.8\" x2=\"260\" y2=\"125.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"280.5\" y1=\"153.8\" x2=\"270.2\" y2=\"132.5\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M227.2 143.9 Q260 130.8 292.8 143.9\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"215.8\" y=\"151.3\" width=\"88.5\" height=\"8.2\" rx=\"4.1\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"302.6\" y=\"150.5\" width=\"32.8\" height=\"7.4\" rx=\"3.3\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"249.5\" y1=\"191.1\" x2=\"270.5\" y2=\"191.1\" stroke=\"#2B1B2E\" stroke-width=\"4.2\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "person",
+      "x": 430,
+      "y": 200,
+      "s": 1.1,
+      "color": "pink"
+    },
+    {
+      "k": "hand",
+      "x": 340,
+      "y": 110,
+      "rot": -30,
+      "s": 0.8
+    },
+    {
+      "k": "text",
+      "x": 445,
+      "y": 58,
+      "text": "Ek haath!",
+      "size": 36,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"639.1\" y=\"178.5\" width=\"121.8\" height=\"105\" rx=\"10.5\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"630.7\" y=\"279.3\" width=\"138.6\" height=\"18.9\" rx=\"6.3\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"639.1\" y=\"298.2\" width=\"12.6\" height=\"63\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"748.3\" y=\"298.2\" width=\"12.6\" height=\"63\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "person",
+      "x": 700,
+      "y": 210,
+      "s": 1.05,
+      "color": "blue"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"662.2\" y=\"153.3\" width=\"75.6\" height=\"14.7\" rx=\"6.3\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M735.7 159.6 Q758.8 220.5 748.3 262.5\" stroke=\"#E85D8A\" stroke-width=\"12.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"670.6\" y1=\"165.9\" x2=\"670.6\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"670.6\" y1=\"165.9\" x2=\"670.6\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"670.6\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"670.6\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"680\" y1=\"165.9\" x2=\"680\" y2=\"212.1\" stroke=\"#FFFFFF\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"680\" y1=\"165.9\" x2=\"680\" y2=\"212.1\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"680\" cy=\"215.3\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"680\" cy=\"215.3\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"689.5\" y1=\"165.9\" x2=\"689.5\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"689.5\" y1=\"165.9\" x2=\"689.5\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"689.5\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"689.5\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"699\" y1=\"165.9\" x2=\"699\" y2=\"212.1\" stroke=\"#FFFFFF\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"699\" y1=\"165.9\" x2=\"699\" y2=\"212.1\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"699\" cy=\"215.3\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"699\" cy=\"215.3\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"708.4\" y1=\"165.9\" x2=\"708.4\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"708.4\" y1=\"165.9\" x2=\"708.4\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"708.4\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"708.4\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"717.9\" y1=\"165.9\" x2=\"717.9\" y2=\"212.1\" stroke=\"#FFFFFF\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"717.9\" y1=\"165.9\" x2=\"717.9\" y2=\"212.1\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"717.9\" cy=\"215.3\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"717.9\" cy=\"215.3\" r=\"2.1\" fill=\"#FFC93C\"/><line x1=\"727.3\" y1=\"165.9\" x2=\"727.3\" y2=\"205.8\" stroke=\"#FFC93C\" stroke-width=\"5.3\" stroke-linecap=\"round\"/><line x1=\"727.3\" y1=\"165.9\" x2=\"727.3\" y2=\"205.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"727.3\" cy=\"209\" r=\"4.7\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"727.3\" cy=\"209\" r=\"2.1\" fill=\"#FFC93C\"/><path d=\"M659 155.4 Q700 91.5 741 155.4 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"679.5\" y1=\"153.8\" x2=\"689.8\" y2=\"132.5\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"700\" y1=\"153.8\" x2=\"700\" y2=\"125.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"720.5\" y1=\"153.8\" x2=\"710.2\" y2=\"132.5\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M667.2 143.9 Q700 130.8 732.8 143.9\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"655.8\" y=\"151.3\" width=\"88.5\" height=\"8.2\" rx=\"4.1\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"742.6\" y=\"150.5\" width=\"32.8\" height=\"7.4\" rx=\"3.3\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "person",
+      "x": 870,
+      "y": 200,
+      "s": 1.1,
+      "color": "green"
+    },
+    {
+      "k": "hand",
+      "x": 780,
+      "y": 110,
+      "rot": -30,
+      "s": 0.8
+    },
+    {
+      "k": "text",
+      "x": 900,
+      "y": 58,
+      "text": "Hasi mana!",
+      "size": 36,
+      "color": "yel"
+    }
+  ],
+  "need": {
+    "title": "Har jodi ke liye",
+    "body": "Sab ghar ka saamaan, kuch kharidna nahi.",
+    "items": [
+      {
+        "label": "Steel channi",
+        "sub": "mukut banegi",
+        "draw": [
+          {
+            "k": "text",
+            "x": -140,
+            "y": -100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 140,
+            "y": 100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<path d=\"M-90 40 Q-10 -84.8 70 40 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"-50\" y1=\"36.8\" x2=\"-30\" y2=\"-4.8\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"-10\" y1=\"36.8\" x2=\"-10\" y2=\"-17.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"30\" y1=\"36.8\" x2=\"10\" y2=\"-4.8\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M-74 17.6 Q-10 -8 54 17.6\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"-96.4\" y=\"32\" width=\"172.8\" height=\"16\" rx=\"8\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"73.2\" y=\"30.4\" width=\"64\" height=\"14.4\" rx=\"6.4\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Dupatta",
+        "sub": "ek har jodi",
+        "draw": [
+          {
+            "k": "text",
+            "x": -140,
+            "y": -100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 140,
+            "y": 100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<path d=\"M-110 -30 Q0 -70 110 -30 L90 50 Q0 10 -90 50 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-90 50 Q0 10 90 50\" stroke=\"#FFC93C\" stroke-width=\"8\" fill=\"none\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Hair clips",
+        "sub": "6 har jodi",
+        "draw": [
+          {
+            "k": "text",
+            "x": -140,
+            "y": -100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 140,
+            "y": 100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(-60 -20) rotate(-15) scale(1)\"><rect x=\"-40\" y=\"-9\" width=\"80\" height=\"18\" rx=\"9\" fill=\"#5B8DEF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-34\" y=\"-22\" width=\"68\" height=\"13\" rx=\"6\" fill=\"#5B8DEF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g><g transform=\"translate(50 -30) rotate(10) scale(1)\"><rect x=\"-40\" y=\"-9\" width=\"80\" height=\"18\" rx=\"9\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-34\" y=\"-22\" width=\"68\" height=\"13\" rx=\"6\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g><g transform=\"translate(-10 40) rotate(5) scale(1)\"><rect x=\"-40\" y=\"-9\" width=\"80\" height=\"18\" rx=\"9\" fill=\"#FFC93C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-34\" y=\"-22\" width=\"68\" height=\"13\" rx=\"6\" fill=\"#FFC93C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Akhbaar ki patti",
+        "sub": "10 lambi patti",
+        "draw": [
+          {
+            "k": "text",
+            "x": -140,
+            "y": -100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 140,
+            "y": 100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<rect x=\"-66\" y=\"-62\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(-12 0 10)\"/><rect x=\"-39.6\" y=\"-50\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(-6 0 10)\"/><rect x=\"-13.2\" y=\"-62\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(0 0 10)\"/><rect x=\"13.2\" y=\"-50\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(6 0 10)\"/><rect x=\"39.6\" y=\"-62\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(12 0 10)\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Genda phool",
+        "sub": "ya kaagaz ke phool",
+        "draw": [
+          {
+            "k": "text",
+            "x": -140,
+            "y": -100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 140,
+            "y": 100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<circle cx=\"-60\" cy=\"10\" r=\"34\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"-60\" cy=\"10\" r=\"15.3\" fill=\"#FFC93C\"/><circle cx=\"10\" cy=\"-20\" r=\"30\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"10\" cy=\"-20\" r=\"13.5\" fill=\"#FFC93C\"/><circle cx=\"60\" cy=\"30\" r=\"32\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"30\" r=\"14.4\" fill=\"#FFC93C\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "3 minute",
+        "draw": [
+          {
+            "k": "text",
+            "x": -140,
+            "y": -100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 140,
+            "y": 100,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 0,
+            "y": 0,
+            "s": 0.7,
+            "text": "3:00"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Jodi banao, dulha chuno",
+      "body": "Ek lady kursi pe dulha banke baithe, doosri sehra banayegi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 950,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"167.2\" y=\"332\" width=\"185.6\" height=\"160\" rx=\"16\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"154.4\" y=\"485.6\" width=\"211.2\" height=\"28.8\" rx=\"9.6\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"167.2\" y=\"514.4\" width=\"19.2\" height=\"96\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"333.6\" y=\"514.4\" width=\"19.2\" height=\"96\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 380,
+          "s": 1.6,
+          "color": "yel",
+          "label": "Dulha"
+        },
+        {
+          "k": "person",
+          "x": 470,
+          "y": 370,
+          "s": 1.6,
+          "color": "pink",
+          "label": "Sehra maker"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"597.2\" y=\"332\" width=\"185.6\" height=\"160\" rx=\"16\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"584.4\" y=\"485.6\" width=\"211.2\" height=\"28.8\" rx=\"9.6\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"597.2\" y=\"514.4\" width=\"19.2\" height=\"96\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"763.6\" y=\"514.4\" width=\"19.2\" height=\"96\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 690,
+          "y": 380,
+          "s": 1.6,
+          "color": "blue",
+          "label": "Dulha"
+        },
+        {
+          "k": "person",
+          "x": 880,
+          "y": 370,
+          "s": 1.4,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 90,
+          "text": "Har jodi ek kursi",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Saamaan har jodi ko do",
+      "body": "Channi, dupatta, clips, akhbaar ki patti aur phool, sab ek plate mein.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 950,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 420,
+          "w": 860,
+          "h": 470,
+          "top": true
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M155 330 Q260 166.2 365 330 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"207.5\" y1=\"325.8\" x2=\"233.8\" y2=\"271.2\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"260\" y1=\"325.8\" x2=\"260\" y2=\"254.4\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"312.5\" y1=\"325.8\" x2=\"286.3\" y2=\"271.2\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M176 300.6 Q260 267 344 300.6\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"146.6\" y=\"319.5\" width=\"226.8\" height=\"21\" rx=\"10.5\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"369.2\" y=\"317.4\" width=\"84\" height=\"18.9\" rx=\"8.4\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M507 271 Q650 219 793 271 L767 375 Q650 323 533 375 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M533 375 Q650 323 767 375\" stroke=\"#FFC93C\" stroke-width=\"10.4\" fill=\"none\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(230 520) rotate(-12) scale(1.1)\"><rect x=\"-40\" y=\"-9\" width=\"80\" height=\"18\" rx=\"9\" fill=\"#5B8DEF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-34\" y=\"-22\" width=\"68\" height=\"13\" rx=\"6\" fill=\"#5B8DEF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g><g transform=\"translate(330 540) rotate(8) scale(1.1)\"><rect x=\"-40\" y=\"-9\" width=\"80\" height=\"18\" rx=\"9\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-34\" y=\"-22\" width=\"68\" height=\"13\" rx=\"6\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g><g transform=\"translate(420 500) rotate(-4) scale(1.1)\"><rect x=\"-40\" y=\"-9\" width=\"80\" height=\"18\" rx=\"9\" fill=\"#FFC93C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-34\" y=\"-22\" width=\"68\" height=\"13\" rx=\"6\" fill=\"#FFC93C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"534\" y=\"448\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(-12 600 520)\"/><rect x=\"560.4\" y=\"460\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(-6 600 520)\"/><rect x=\"586.8\" y=\"448\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(0 600 520)\"/><rect x=\"613.2\" y=\"460\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(6 600 520)\"/><rect x=\"639.6\" y=\"448\" width=\"16.8\" height=\"144\" rx=\"3\" fill=\"#F4F1E8\" stroke=\"#2B1B2E\" stroke-width=\"3\" transform=\"rotate(12 600 520)\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"780\" cy=\"500\" r=\"30\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"780\" cy=\"500\" r=\"13.5\" fill=\"#FFC93C\"/><circle cx=\"830\" cy=\"560\" r=\"28\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"830\" cy=\"560\" r=\"12.6\" fill=\"#FFC93C\"/><circle cx=\"760\" cy=\"580\" r=\"26\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"760\" cy=\"580\" r=\"11.7\" fill=\"#FFC93C\"/>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 150,
+          "text": "Ek plate, ek jodi",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Ek haath peeche, 3 minute",
+      "body": "Maker ka ek haath peeche bandha. Sirf ek haath se sehra banao.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 950,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"195.6\" y=\"346\" width=\"208.8\" height=\"180\" rx=\"18\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"181.2\" y=\"518.8\" width=\"237.6\" height=\"32.4\" rx=\"10.8\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"195.6\" y=\"551.2\" width=\"21.6\" height=\"108\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"382.8\" y=\"551.2\" width=\"21.6\" height=\"108\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 400,
+          "s": 1.8,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"235.2\" y=\"302.8\" width=\"129.6\" height=\"25.2\" rx=\"10.8\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M361.2 313.6 Q400.8 418 382.8 490\" stroke=\"#E85D8A\" stroke-width=\"21.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"249.6\" y1=\"324.4\" x2=\"249.6\" y2=\"392.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"249.6\" y1=\"324.4\" x2=\"249.6\" y2=\"392.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"249.6\" cy=\"398.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"249.6\" cy=\"398.2\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"265.8\" y1=\"324.4\" x2=\"265.8\" y2=\"403.6\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"265.8\" y1=\"324.4\" x2=\"265.8\" y2=\"403.6\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"265.8\" cy=\"409\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"265.8\" cy=\"409\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"282\" y1=\"324.4\" x2=\"282\" y2=\"392.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"282\" y1=\"324.4\" x2=\"282\" y2=\"392.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"282\" cy=\"398.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"398.2\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"298.2\" y1=\"324.4\" x2=\"298.2\" y2=\"403.6\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"298.2\" y1=\"324.4\" x2=\"298.2\" y2=\"403.6\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"298.2\" cy=\"409\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"298.2\" cy=\"409\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"314.4\" y1=\"324.4\" x2=\"314.4\" y2=\"392.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"314.4\" y1=\"324.4\" x2=\"314.4\" y2=\"392.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"314.4\" cy=\"398.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"314.4\" cy=\"398.2\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"330.6\" y1=\"324.4\" x2=\"330.6\" y2=\"403.6\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"330.6\" y1=\"324.4\" x2=\"330.6\" y2=\"403.6\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"330.6\" cy=\"409\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"330.6\" cy=\"409\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"346.8\" y1=\"324.4\" x2=\"346.8\" y2=\"392.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"346.8\" y1=\"324.4\" x2=\"346.8\" y2=\"392.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"346.8\" cy=\"398.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"346.8\" cy=\"398.2\" r=\"3.6\" fill=\"#FFC93C\"/><path d=\"M229.8 306.4 Q300 196.9 370.2 306.4 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"264.9\" y1=\"303.6\" x2=\"282.4\" y2=\"267.1\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"300\" y1=\"303.6\" x2=\"300\" y2=\"255.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"335.1\" y1=\"303.6\" x2=\"317.6\" y2=\"267.1\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M243.8 286.7 Q300 264.3 356.2 286.7\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"224.2\" y=\"299.4\" width=\"151.6\" height=\"14\" rx=\"7\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"373\" y=\"298\" width=\"56.2\" height=\"12.6\" rx=\"5.6\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"282\" y1=\"367.6\" x2=\"318\" y2=\"367.6\" stroke=\"#2B1B2E\" stroke-width=\"7.2\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 560,
+          "y": 390,
+          "s": 1.8,
+          "color": "pink"
+        },
+        {
+          "k": "hand",
+          "x": 420,
+          "y": 200,
+          "rot": -35,
+          "s": 1
+        },
+        {
+          "k": "arrow",
+          "x1": 640,
+          "y1": 470,
+          "x2": 700,
+          "y2": 430,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "text",
+          "x": 745,
+          "y": 420,
+          "text": "Ek haath peeche",
+          "size": 36,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "timer",
+          "x": 830,
+          "y": 240,
+          "s": 0.8,
+          "text": "3:00"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 110,
+          "text": "Channi = mukut",
+          "size": 40,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Dulha hasi? 15 second ruko",
+      "body": "Baaki gang dulha ko hasaaye. Hasi aayi toh maker 15 second freeze.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 950,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"195.6\" y=\"326\" width=\"208.8\" height=\"180\" rx=\"18\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"181.2\" y=\"498.8\" width=\"237.6\" height=\"32.4\" rx=\"10.8\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"195.6\" y=\"531.2\" width=\"21.6\" height=\"108\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"382.8\" y=\"531.2\" width=\"21.6\" height=\"108\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 380,
+          "s": 1.8,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"235.2\" y=\"282.8\" width=\"129.6\" height=\"25.2\" rx=\"10.8\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M361.2 293.6 Q400.8 398 382.8 470\" stroke=\"#E85D8A\" stroke-width=\"21.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"249.6\" y1=\"304.4\" x2=\"249.6\" y2=\"372.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"249.6\" y1=\"304.4\" x2=\"249.6\" y2=\"372.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"249.6\" cy=\"378.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"249.6\" cy=\"378.2\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"265.8\" y1=\"304.4\" x2=\"265.8\" y2=\"383.6\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"265.8\" y1=\"304.4\" x2=\"265.8\" y2=\"383.6\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"265.8\" cy=\"389\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"265.8\" cy=\"389\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"282\" y1=\"304.4\" x2=\"282\" y2=\"372.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"282\" y1=\"304.4\" x2=\"282\" y2=\"372.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"282\" cy=\"378.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"378.2\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"298.2\" y1=\"304.4\" x2=\"298.2\" y2=\"383.6\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"298.2\" y1=\"304.4\" x2=\"298.2\" y2=\"383.6\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"298.2\" cy=\"389\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"298.2\" cy=\"389\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"314.4\" y1=\"304.4\" x2=\"314.4\" y2=\"372.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"314.4\" y1=\"304.4\" x2=\"314.4\" y2=\"372.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"314.4\" cy=\"378.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"314.4\" cy=\"378.2\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"330.6\" y1=\"304.4\" x2=\"330.6\" y2=\"383.6\" stroke=\"#FFFFFF\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"330.6\" y1=\"304.4\" x2=\"330.6\" y2=\"383.6\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"330.6\" cy=\"389\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"330.6\" cy=\"389\" r=\"3.6\" fill=\"#FFC93C\"/><line x1=\"346.8\" y1=\"304.4\" x2=\"346.8\" y2=\"372.8\" stroke=\"#FFC93C\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"346.8\" y1=\"304.4\" x2=\"346.8\" y2=\"372.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"346.8\" cy=\"378.2\" r=\"8.1\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"346.8\" cy=\"378.2\" r=\"3.6\" fill=\"#FFC93C\"/><path d=\"M229.8 286.4 Q300 176.9 370.2 286.4 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"264.9\" y1=\"283.6\" x2=\"282.4\" y2=\"247.1\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"300\" y1=\"283.6\" x2=\"300\" y2=\"235.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"335.1\" y1=\"283.6\" x2=\"317.6\" y2=\"247.1\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M243.8 266.7 Q300 244.3 356.2 266.7\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"224.2\" y=\"279.4\" width=\"151.6\" height=\"14\" rx=\"7\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"373\" y=\"278\" width=\"56.2\" height=\"12.6\" rx=\"5.6\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M278.4 340.4 Q300 376.4 321.6 340.4 Z\" fill=\"#2B1B2E\"/>"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 90,
+          "text": "Ha ha ha!",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 540,
+          "y": 370,
+          "s": 1.8,
+          "color": "pink",
+          "label": "Maker"
+        },
+        {
+          "k": "cross",
+          "x": 540,
+          "y": 160,
+          "s": 0.8
+        },
+        {
+          "k": "text",
+          "x": 540,
+          "y": 95,
+          "text": "Ruko!",
+          "size": 44,
+          "color": "ink"
+        },
+        {
+          "k": "timer",
+          "x": 820,
+          "y": 250,
+          "s": 0.75,
+          "text": "0:15"
+        },
+        {
+          "k": "person",
+          "x": 780,
+          "y": 560,
+          "s": 1.1,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 900,
+          "y": 560,
+          "s": 1.1,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 840,
+          "y": 450,
+          "text": "Jokes maaro!",
+          "size": 34,
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "title": "Sehra parade, gang ka vote",
+      "body": "Time khatam. Dulhe ek line mein, sab apna vote do. Apni jodi ko nahi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 950,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"88.8\" y=\"288\" width=\"162.4\" height=\"140\" rx=\"14\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"77.6\" y=\"422.4\" width=\"184.8\" height=\"25.2\" rx=\"8.4\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"88.8\" y=\"447.6\" width=\"16.8\" height=\"84\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"234.4\" y=\"447.6\" width=\"16.8\" height=\"84\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 170,
+          "y": 330,
+          "s": 1.4,
+          "color": "yel",
+          "label": "Jodi 1"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"119.6\" y=\"254.4\" width=\"100.8\" height=\"19.6\" rx=\"8.4\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M217.6 262.8 Q248.4 344 234.4 400\" stroke=\"#E85D8A\" stroke-width=\"16.8\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"130.8\" y1=\"271.2\" x2=\"130.8\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"130.8\" y1=\"271.2\" x2=\"130.8\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"130.8\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"130.8\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"143.4\" y1=\"271.2\" x2=\"143.4\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"143.4\" y1=\"271.2\" x2=\"143.4\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"143.4\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"143.4\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"156\" y1=\"271.2\" x2=\"156\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"156\" y1=\"271.2\" x2=\"156\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"156\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"156\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"168.6\" y1=\"271.2\" x2=\"168.6\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"168.6\" y1=\"271.2\" x2=\"168.6\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"168.6\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"168.6\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"181.2\" y1=\"271.2\" x2=\"181.2\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"181.2\" y1=\"271.2\" x2=\"181.2\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"181.2\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"181.2\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"193.8\" y1=\"271.2\" x2=\"193.8\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"193.8\" y1=\"271.2\" x2=\"193.8\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"193.8\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"193.8\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"206.4\" y1=\"271.2\" x2=\"206.4\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"206.4\" y1=\"271.2\" x2=\"206.4\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"206.4\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"206.4\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><path d=\"M115.4 257.2 Q170 172 224.6 257.2 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"142.7\" y1=\"255\" x2=\"156.3\" y2=\"226.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"170\" y1=\"255\" x2=\"170\" y2=\"217.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"197.3\" y1=\"255\" x2=\"183.7\" y2=\"226.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M126.3 241.9 Q170 224.4 213.7 241.9\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"111\" y=\"251.7\" width=\"117.9\" height=\"10.9\" rx=\"5.5\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"226.8\" y=\"250.6\" width=\"43.7\" height=\"9.8\" rx=\"4.4\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"156\" y1=\"304.8\" x2=\"184\" y2=\"304.8\" stroke=\"#2B1B2E\" stroke-width=\"5.6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"398.8\" y=\"288\" width=\"162.4\" height=\"140\" rx=\"14\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"387.6\" y=\"422.4\" width=\"184.8\" height=\"25.2\" rx=\"8.4\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"398.8\" y=\"447.6\" width=\"16.8\" height=\"84\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"544.4\" y=\"447.6\" width=\"16.8\" height=\"84\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 330,
+          "s": 1.4,
+          "color": "blue",
+          "label": "Jodi 2"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"429.6\" y=\"254.4\" width=\"100.8\" height=\"19.6\" rx=\"8.4\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M527.6 262.8 Q558.4 344 544.4 400\" stroke=\"#E85D8A\" stroke-width=\"16.8\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"440.8\" y1=\"271.2\" x2=\"440.8\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"440.8\" y1=\"271.2\" x2=\"440.8\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"440.8\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"440.8\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"453.4\" y1=\"271.2\" x2=\"453.4\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"453.4\" y1=\"271.2\" x2=\"453.4\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"453.4\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"453.4\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"466\" y1=\"271.2\" x2=\"466\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"466\" y1=\"271.2\" x2=\"466\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"466\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"466\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"478.6\" y1=\"271.2\" x2=\"478.6\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"478.6\" y1=\"271.2\" x2=\"478.6\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"478.6\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"478.6\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"491.2\" y1=\"271.2\" x2=\"491.2\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"491.2\" y1=\"271.2\" x2=\"491.2\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"491.2\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"491.2\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"503.8\" y1=\"271.2\" x2=\"503.8\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"503.8\" y1=\"271.2\" x2=\"503.8\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"503.8\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"503.8\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"516.4\" y1=\"271.2\" x2=\"516.4\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"516.4\" y1=\"271.2\" x2=\"516.4\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"516.4\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"516.4\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><path d=\"M425.4 257.2 Q480 172 534.6 257.2 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"452.7\" y1=\"255\" x2=\"466.4\" y2=\"226.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"480\" y1=\"255\" x2=\"480\" y2=\"217.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"507.3\" y1=\"255\" x2=\"493.6\" y2=\"226.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M436.3 241.9 Q480 224.4 523.7 241.9\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"421\" y=\"251.7\" width=\"117.9\" height=\"10.9\" rx=\"5.5\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"536.8\" y=\"250.6\" width=\"43.7\" height=\"9.8\" rx=\"4.4\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"466\" y1=\"304.8\" x2=\"494\" y2=\"304.8\" stroke=\"#2B1B2E\" stroke-width=\"5.6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"708.8\" y=\"288\" width=\"162.4\" height=\"140\" rx=\"14\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"697.6\" y=\"422.4\" width=\"184.8\" height=\"25.2\" rx=\"8.4\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"708.8\" y=\"447.6\" width=\"16.8\" height=\"84\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"854.4\" y=\"447.6\" width=\"16.8\" height=\"84\" fill=\"#C98A5C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "person",
+          "x": 790,
+          "y": 330,
+          "s": 1.4,
+          "color": "green",
+          "label": "Jodi 3"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"739.6\" y=\"254.4\" width=\"100.8\" height=\"19.6\" rx=\"8.4\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M837.6 262.8 Q868.4 344 854.4 400\" stroke=\"#E85D8A\" stroke-width=\"16.8\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"750.8\" y1=\"271.2\" x2=\"750.8\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"750.8\" y1=\"271.2\" x2=\"750.8\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"750.8\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"750.8\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"763.4\" y1=\"271.2\" x2=\"763.4\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"763.4\" y1=\"271.2\" x2=\"763.4\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"763.4\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"763.4\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"776\" y1=\"271.2\" x2=\"776\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"776\" y1=\"271.2\" x2=\"776\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"776\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"776\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"788.6\" y1=\"271.2\" x2=\"788.6\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"788.6\" y1=\"271.2\" x2=\"788.6\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"788.6\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"788.6\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"801.2\" y1=\"271.2\" x2=\"801.2\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"801.2\" y1=\"271.2\" x2=\"801.2\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"801.2\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"801.2\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"813.8\" y1=\"271.2\" x2=\"813.8\" y2=\"332.8\" stroke=\"#FFFFFF\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"813.8\" y1=\"271.2\" x2=\"813.8\" y2=\"332.8\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"813.8\" cy=\"337\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"813.8\" cy=\"337\" r=\"2.8\" fill=\"#FFC93C\"/><line x1=\"826.4\" y1=\"271.2\" x2=\"826.4\" y2=\"324.4\" stroke=\"#FFC93C\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"826.4\" y1=\"271.2\" x2=\"826.4\" y2=\"324.4\" stroke=\"#2B1B2E\" stroke-width=\"1\" opacity=\"0.4\"/><circle cx=\"826.4\" cy=\"328.6\" r=\"6.3\" fill=\"#F28C28\" stroke=\"#2B1B2E\" stroke-width=\"2\"/><circle cx=\"826.4\" cy=\"328.6\" r=\"2.8\" fill=\"#FFC93C\"/><path d=\"M735.4 257.2 Q790 172 844.6 257.2 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><line x1=\"762.7\" y1=\"255\" x2=\"776.4\" y2=\"226.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"790\" y1=\"255\" x2=\"790\" y2=\"217.9\" stroke=\"#8E95A0\" stroke-width=\"2\"/><line x1=\"817.3\" y1=\"255\" x2=\"803.6\" y2=\"226.6\" stroke=\"#8E95A0\" stroke-width=\"2\"/><path d=\"M746.3 241.9 Q790 224.4 833.7 241.9\" stroke=\"#8E95A0\" stroke-width=\"2\" fill=\"none\"/><rect x=\"731\" y=\"251.7\" width=\"117.9\" height=\"10.9\" rx=\"5.5\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><rect x=\"846.8\" y=\"250.6\" width=\"43.7\" height=\"9.8\" rx=\"4.4\" fill=\"#9AA1AB\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"776\" y1=\"304.8\" x2=\"804\" y2=\"304.8\" stroke=\"#2B1B2E\" stroke-width=\"5.6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "tick",
+          "x": 480,
+          "y": 110,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 620,
+          "y": 120,
+          "text": "Best sehra!",
+          "size": 38,
+          "color": "green",
+          "a": "start"
+        },
+        {
+          "k": "hand",
+          "x": 390,
+          "y": 640,
+          "rot": 0,
+          "s": 0.8
+        },
+        {
+          "k": "hand",
+          "x": 480,
+          "y": 650,
+          "rot": 0,
+          "s": 0.8
+        },
+        {
+          "k": "hand",
+          "x": 570,
+          "y": 640,
+          "rot": 0,
+          "s": 0.8
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada vote, woh jeeta",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Maker ne dono haath lagaye?",
+          "Jodi 15 second ruko."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Dulha hasi ya muskurayi?",
+          "Maker 15 second freeze."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Safety pin ya kainchi?",
+          "Bilkul nahi, sirf clips."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse zyada vote mile?",
+          "Sehra aur prize tumhara!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Maker ki aankh pe patti,",
+        "dulha bolke guide kare."
+      ],
+      [
+        "\"Ghodi aa gayi!\" pe dulha",
+        "baithe baithe thumka lagaye."
+      ],
+      [
+        "Saasu maa judge bane,",
+        "uska vote do ke barabar."
+      ]
+    ],
+    "tip": "Halki steel ya plastic channi, bhaari kuch nahi."
+  },
+  "comment_hint": "kiska sehra best?",
+  "caption": "Ek haath se sehra banao, aur dulha hasi toh 15 second ruko! Shaadi season ki kitty ke liye perfect. Aapki gang mein sabse pehle kaun hasegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#sehrabandhi",
+    "#shaadiseason",
+    "#ladiessangeetgames"
+  ],
+  "web": {
+    "title": "Sehra Bandhi: Kitty Party Game Rules, How to Play and Twists",
+    "description": "Sehra Bandhi is a shaadi season kitty party game where pairs build a dulha's sehra with one hand from a strainer, dupatta and clips. Rules, twists and FAQ.",
+    "intro": "Sehra Bandhi is a shaadi season kitty party game where ladies play in pairs: one sits on a chair as the dulha, and the other has 3 minutes to build her a sehra from household things like a steel channi (strainer), a dupatta, hair clips, newspaper strips and marigolds. When time is up, the whole gang votes for the best sehra and that pair wins. The crazy twist is that the maker may use only one hand, and the rest of the room tries to make the dulha laugh; every laugh freezes the maker for 15 seconds. It costs nothing, needs no preparation beyond a plate of things per pair, and works for any group of 8 to 20 ladies.",
+    "players": "8 to 20 (in pairs)",
+    "time": "15 minutes",
+    "materials": [
+      "One chair per pair",
+      "One light steel or plastic channi (strainer) per pair, to be the crown",
+      "One dupatta per pair",
+      "About 6 hair clips or rubber bands per pair",
+      "About 10 long newspaper strips per pair, for the hanging ladi",
+      "A few marigolds or paper flowers per pair",
+      "A phone timer",
+      "A small prize for the winning pair"
+    ],
+    "steps": [
+      "Split the ladies into pairs. In each pair, one lady sits on a chair as the dulha and the other is the sehra maker.",
+      "Give every pair a plate with a steel channi, a dupatta, hair clips, newspaper strips and a few flowers.",
+      "Each maker puts one hand behind her back and keeps it there. The host starts a 3 minute timer and the makers build the sehra on the dulha's head with one hand only: the channi upside down as the crown, the dupatta as the band, and the paper strips and flowers clipped on so they hang in front of the face.",
+      "While the makers work, the rest of the room tells jokes and pulls faces to make the dulhas laugh. If a dulha laughs or smiles, the host shouts \"Hasi!\" and that maker must freeze for 15 seconds while the timer keeps running.",
+      "When the 3 minutes are up, all the dulhas sit in a line for the sehra parade and every lady votes for the best sehra. Nobody may vote for her own pair. The pair with the most votes wins, then the pairs swap roles and play again."
+    ],
+    "rules": [
+      "The maker may use only one hand. If the hand behind her back comes forward, the pair stops for 15 seconds.",
+      "If the dulha laughs or smiles, the maker freezes for 15 seconds.",
+      "The dulha may not touch or fix her own sehra.",
+      "No safety pins, scissors or anything sharp, only clips and rubber bands.",
+      "The sehra must still be on the dulha's head at the parade to get votes.",
+      "The pair with the most votes wins."
+    ],
+    "variations": [
+      "Blindfold the maker and let the dulha guide her with words only.",
+      "When the host shouts \"Ghodi aa gayi!\", every dulha must do a seated thumka without letting the sehra fall.",
+      "Make the eldest lady or the host the saasu maa judge, whose vote counts double."
+    ],
+    "tips": [
+      "Use a light steel or plastic channi and nothing heavy or with sharp edges.",
+      "Tear the newspaper strips before the kitty starts so the 3 minutes go into building, not tearing.",
+      "Seat the dulhas facing the room so everyone can try to make them laugh.",
+      "Take a photo of every sehra at the parade; they make great kitty group pictures.",
+      "Use flowers already bought for the puja or decoration, or paper flowers, so nothing is wasted."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Sehra Bandhi?",
+        "a": "Any even number from 8 to 20 works, since the game is played in pairs. With an odd number, the host can join a pair or be the judge."
+      },
+      {
+        "q": "What do you need to play Sehra Bandhi?",
+        "a": "For each pair: a chair, a light steel channi (strainer), a dupatta, a few hair clips, some newspaper strips and a few flowers. You also need a phone timer and a small prize."
+      },
+      {
+        "q": "How long does Sehra Bandhi take?",
+        "a": "About 15 minutes: 3 minutes of building per round, a quick parade and vote, and a second round with the roles swapped."
+      },
+      {
+        "q": "Is Sehra Bandhi a good game for a shaadi theme kitty party?",
+        "a": "Yes. It fits a shaadi season, nakli shaadi or sangeet theme kitty perfectly, and the sehra parade gives great photos and laughs."
+      },
+      {
+        "q": "Is Sehra Bandhi safe for older ladies?",
+        "a": "Yes. The dulha just sits on a chair and the maker stands beside her. Use only light channis, clips and rubber bands, and never safety pins or scissors."
+      }
+    ]
+  }
+}
