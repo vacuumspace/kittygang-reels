@@ -11336,6 +11336,182 @@
       "yt_id": "_rI_VizSc-8",
       "yt_url": "https://youtube.com/shorts/_rI_VizSc-8",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-16-b",
+      "created": "2026-11-16",
+      "title": "Pre-boards se pehle kitty!",
+      "format": "Types-of, Megha locks in her pre-boards kitty, one exam-season mom type per phone call, attendance chip",
+      "hook": "",
+      "cast": [
+        "Megha",
+        "Ruhi",
+        "Tanya",
+        "Shruti"
+      ],
+      "caption": "Exam season ki kitty: attendance 4 se 0. Tag the friend jiske ghar pre-boards hain!",
+      "status": "queued",
+      "idea": "Megha locks the door for one last kitty before the kids' pre-boards; every friend gets an exam-season call and leaves, then Megha finds out her own son's pre-boards start tomorrow.",
+      "beats": "hook: door locked, pre-boards se pehle kitty / esc: Ruhi practical file, Tanya tuition taxi, Shruti video call teacher saving 4000 / turn: Bunty ke boards March mein, then school message pre-boards kal se / button: Darwaza lock! Main bhi chali!",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Megha holds up her door keys over a running Housie cage, 'Darwaza lock! Pre-boards se pehle kitty!', chip ATTENDANCE: 4/4",
+        "variable": "a moving countdown chip (ATTENDANCE 4/4 to 0/4) driving a types-of line-up, plus a December exam-season topic for moms of school kids",
+        "hypothesis": "a chip that drops on every exit plus a topic every school mom lives gets skip under 35% and watched over 45% at about 26 s, with 2+ shares from 'tag the friend jiske ghar pre-boards hain'"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Darwaza lock! Pre-boards se pehle kitty!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haan beta? Practical file?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Nahi nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kal submit hai! Aaj bata raha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Arre!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chhotu ki tuition! Driver main hoon!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Abhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saat baje maths wali bhi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haaye!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mera beta toh hostel mein.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Yay! Tum ruko!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Video call pe khud padhaati hoon.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Abhi?!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chaar hazaar ki tuition bachti hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Uff!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Bunty ke boards toh March mein!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "School ka message... pre-boards kal se?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Darwaza lock! Main bhi chali!",
+          "beat": "button"
+        }
+      ],
+      "duration": 28.87,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Types-of (last 4 types: door-arrivals, meme-format x2, map-journey; LEARNINGS puts types-of in the rotation). Adapted the exam-season attendance idea; lead switched from Myra to Megha because Myra and Tanya carried the last reel. One protagonist (Megha) with one want (a full kitty) and a moving chip every shot, 4/4 to 0/4. Game three times: practical file (ordinary), tuition taxi (ordinary), Shruti the budget queen teaching on video call to save Rs 4000 (absurd, in character). Claim before reveal on Shruti ('Yay! Tum ruko!' then the video call). Twist is seen: a school message on her phone. Button mirrors the opening line flipped: she locked them in, now she locks up and leaves. Endings tried: Megha quizzes her son between Housie numbers (busy, two ideas), the three come back with kids' books (needs a 5th face), Megha leaves too (kept, loops to the opening). Every two-line shot 8 words or fewer, hold 0.1, one silenceBefore, about 26 s at pace 28. Posts around 26 Nov, right before December pre-boards."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-16-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-16-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-16-b-board.jpg",
+      "queue_id": "767c4497-e1ae-4ce4-a424-b2ea537d9a00",
+      "scheduled_ist": "2026-11-25 20:49",
+      "yt_id": "DTzykXciSjw",
+      "yt_url": "https://youtube.com/shorts/DTzykXciSjw",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
