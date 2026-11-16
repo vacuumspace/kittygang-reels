@@ -13719,6 +13719,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/katori-housie-kitty-party-game",
       "queue_id": "4ea9bbd6-3a4a-41ea-aa8c-3fda72eb7785",
       "scheduled_ist": "2026-11-16 11:34"
+    },
+    {
+      "id": "KGI-027",
+      "n": 27,
+      "created": "2026-11-16",
+      "game": "Sehra Bandhi",
+      "tagline": "Ek haath, ek channi, hasi mana!",
+      "players": "8 to 20 (in pairs)",
+      "time": "15 minutes",
+      "slug": "sehra-bandhi-one-hand-shaadi-kitty-party-game",
+      "caption": "Ek haath se sehra banao, aur dulha hasi toh 15 second ruko! Shaadi season ki kitty ke liye perfect. Aapki gang mein sabse pehle kaun hasegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-027/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/sehra-bandhi-one-hand-shaadi-kitty-party-game",
+      "queue_id": "f1264a33-eb4c-4787-b2f0-c3e832743e43",
+      "scheduled_ist": "2026-11-17 10:51"
     }
   ],
   "research": [
