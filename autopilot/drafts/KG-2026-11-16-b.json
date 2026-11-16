@@ -1,0 +1,855 @@
+{
+  "id": "KG-2026-11-16-b",
+  "title": "Pre-boards se pehle kitty!",
+  "format": "Types-of, Megha locks in her pre-boards kitty, one exam-season mom type per phone call, attendance chip",
+  "idea": "Megha locks the door for one last kitty before the kids' pre-boards; every friend gets an exam-season call and leaves, then Megha finds out her own son's pre-boards start tomorrow.",
+  "logline": "Megha locks her guests in for one last kitty before pre-boards, each mom gets called home by a different exam-season duty, and then a school message says her own son's pre-boards start tomorrow.",
+  "game": "every exam-season phone call takes one mom out and drops the attendance chip",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Megha holds up her door keys over a running Housie cage, 'Darwaza lock! Pre-boards se pehle kitty!', chip ATTENDANCE: 4/4",
+    "variable": "a moving countdown chip (ATTENDANCE 4/4 to 0/4) driving a types-of line-up, plus a December exam-season topic for moms of school kids",
+    "hypothesis": "a chip that drops on every exit plus a topic every school mom lives gets skip under 35% and watched over 45% at about 26 s, with 2+ shares from 'tag the friend jiske ghar pre-boards hain'"
+  },
+  "mute": [
+    "Megha holds up keys over a Housie cage, chip ATTENDANCE: 4/4, friends seated",
+    "Ruhi on the phone shocked, chip TYPE 1: PRACTICAL FILE WALI",
+    "Ruhi grabs her handbag and walks out, chip ATTENDANCE: 3/4, Megha sweating",
+    "Tanya with car keys and an alarm clock, chip TYPE 2: TUITION TAXI",
+    "Tanya waves and leaves, a car sticker, chip ATTENDANCE: 2/4",
+    "Shruti relaxed, Megha claps and hops, chip TYPE 3: ?",
+    "Shruti on a video call with a laptop, chip TYPE 3: TUITION FEE BACHAO",
+    "Shruti leaves with her calculator, chip ATTENDANCE: 1/4",
+    "Megha alone and smug, calendar page, chip MAIN HOON NA",
+    "music cuts, Megha stares at a phone notification, chip PRE-BOARDS: KAL SE!",
+    "Megha at the front door with keys and handbag, chip ATTENDANCE: 0/4, laughter"
+  ],
+  "beats": "hook: door locked, pre-boards se pehle kitty / esc: Ruhi practical file, Tanya tuition taxi, Shruti video call teacher saving 4000 / turn: Bunty ke boards March mein, then school message pre-boards kal se / button: Darwaza lock! Main bhi chali!",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Types-of (last 4 types: door-arrivals, meme-format x2, map-journey; LEARNINGS puts types-of in the rotation). Adapted the exam-season attendance idea; lead switched from Myra to Megha because Myra and Tanya carried the last reel. One protagonist (Megha) with one want (a full kitty) and a moving chip every shot, 4/4 to 0/4. Game three times: practical file (ordinary), tuition taxi (ordinary), Shruti the budget queen teaching on video call to save Rs 4000 (absurd, in character). Claim before reveal on Shruti ('Yay! Tum ruko!' then the video call). Twist is seen: a school message on her phone. Button mirrors the opening line flipped: she locked them in, now she locks up and leaves. Endings tried: Megha quizzes her son between Housie numbers (busy, two ideas), the three come back with kids' books (needs a 5th face), Megha leaves too (kept, loops to the opening). Every two-line shot 8 words or fewer, hold 0.1, one silenceBefore, about 26 s at pace 28. Posts around 26 Nov, right before December pre-boards."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1.2,
+    "title": [
+      "Pre-boards se pehle",
+      "Kitty: 0/4!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Exam season ki kitty: attendance 4 se 0. Tag the friend jiske ghar pre-boards hain!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#examseason",
+    "#preboards",
+    "#mommylife",
+    "#ladieskitty",
+    "#kittypartyfun"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "ATTENDANCE: 4/4",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 720,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "cup",
+          "mouth": "o"
+        },
+        {
+          "name": "Tanya",
+          "x": 950,
+          "y": 1760,
+          "s": 1.85,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        },
+        {
+          "name": "Housie ticket",
+          "x": 760,
+          "y": 1880,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 230,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.4,
+          "name": "zip",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Darwaza lock! Pre-boards se pehle kitty!",
+          "say": "दरवाज़ा लॉक! प्री-बोर्ड्स से पहले किटी!",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "TYPE 1: PRACTICAL FILE WALI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "phone2",
+          "mouth": "o",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Haan beta? Practical file?!",
+          "say": "हाँ बेटा? प्रैक्टिकल फ़ाइल?!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Nahi nahi!",
+          "say": "नहीं नहीं!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "ATTENDANCE: 3/4",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "keys",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 1150,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "half",
+          "from": [
+            790,
+            1750
+          ],
+          "moveAt": 1.2,
+          "moveDur": 0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Handbag",
+          "x": 900,
+          "y": 1780,
+          "s": 1,
+          "at": 0.2
+        },
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1020,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.2,
+          "name": "footsteps",
+          "vol": 0.4
+        },
+        {
+          "at": 1.5,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kal submit hai! Aaj bata raha!",
+          "say": "कल सबमिट है! आज बता रहा!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Arre!",
+          "say": "अरे!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "TYPE 2: TUITION TAXI",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "o"
+        },
+        {
+          "name": "Tanya",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Alarm clock",
+          "x": 880,
+          "y": 1180,
+          "s": 0.9,
+          "at": 0.2
+        },
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "tick",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Chhotu ki tuition! Driver main hoon!",
+          "say": "छोटू की ट्यूशन! ड्राइवर मैं हूँ!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Abhi?!",
+          "say": "अभी?!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "ATTENDANCE: 2/4",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "keys",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 1150,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "wave",
+          "prop": "keys",
+          "mouth": "smile",
+          "from": [
+            790,
+            1750
+          ],
+          "moveAt": 1.1,
+          "moveDur": 0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "car",
+          "x": 900,
+          "y": 1000,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "footsteps",
+          "vol": 0.4
+        },
+        {
+          "at": 1.4,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Saat baje maths wali bhi!",
+          "say": "सात बजे मैथ्स वाली भी!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Haaye!",
+          "say": "हाय!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "TYPE 3: ?",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "clapR",
+          "prop": "keys",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smile",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        },
+        {
+          "name": "Housie ticket",
+          "x": 760,
+          "y": 1880,
+          "s": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 300,
+          "y": 950,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "clap",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Mera beta toh hostel mein.",
+          "say": "मेरा बेटा तो हॉस्टल में।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Yay! Tum ruko!",
+          "say": "ये! तुम रुको!",
+          "gap": 0.03
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "TYPE 3: TUITION FEE BACHAO",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "keys",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "phone2",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Laptop",
+          "x": 820,
+          "y": 1250,
+          "s": 0.9,
+          "at": 0.2
+        },
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "ping",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Video call pe khud padhaati hoon.",
+          "say": "वीडियो कॉल पे ख़ुद पढ़ाती हूँ।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Abhi?!",
+          "say": "अभी?!",
+          "gap": 0.03
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "ATTENDANCE: 1/4",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "prop": "keys",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 1150,
+          "y": 1750,
+          "s": 2,
+          "turn": -0.5,
+          "pose": "hold",
+          "prop": "calc",
+          "mouth": "smirk",
+          "eyes": "half",
+          "from": [
+            790,
+            1750
+          ],
+          "moveAt": 1.3,
+          "moveDur": 0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1020,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "calc",
+          "vol": 0.4
+        },
+        {
+          "at": 1.5,
+          "name": "laughv",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Chaar hazaar ki tuition bachti hai!",
+          "say": "चार हज़ार की ट्यूशन बचती है!",
+          "punch": true,
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Uff!",
+          "say": "उफ़!",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.1,
+      "front": true,
+      "chip": "ATTENDANCE: 1/4 · MAIN HOON NA",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 420,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.3,
+          "pose": "hips",
+          "prop": "keys",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        },
+        {
+          "name": "Calendar page",
+          "x": 820,
+          "y": 1180,
+          "s": 0.9,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 300,
+          "y": 950,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Bunty ke boards toh March mein!",
+          "say": "बंटी के बोर्ड्स तो मार्च में!",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chipY": 600,
+      "hold": 0.2,
+      "front": true,
+      "chip": "PRE-BOARDS: KAL SE!",
+      "camera": "still",
+      "music": false,
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 420,
+          "y": 1750,
+          "s": 2.05,
+          "turn": 0.3,
+          "pose": "phone2",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 760,
+          "y": 1150,
+          "s": 1.3,
+          "at": 0.2
+        },
+        {
+          "name": "Housie cage",
+          "x": 540,
+          "y": 1850,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 780,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "School ka message... pre-boards kal se?!",
+          "say": "स्कूल का मैसेज... प्री-बोर्ड्स कल से?!",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chipY": 600,
+      "hold": 0.8,
+      "chip": "ATTENDANCE: 0/4",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "keys",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Handbag",
+          "x": 950,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Shoe rack",
+          "x": 250,
+          "y": 1800,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "zip",
+          "vol": 0.4
+        },
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Darwaza lock! Main bhi chali!",
+          "say": "दरवाज़ा लॉक! मैं भी चली!",
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
