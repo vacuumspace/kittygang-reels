@@ -1,0 +1,858 @@
+{
+  "id": "KGI-028",
+  "n": 28,
+  "slug": "kitty-awards-filmy-speech-kitty-party-game",
+  "game": "Kitty Awards",
+  "tagline": "Award mila? Ab speech do!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 170,
+      "y": 200,
+      "s": 1.1,
+      "color": "blue",
+      "label": "Host"
+    },
+    {
+      "k": "box",
+      "x": 300,
+      "y": 70,
+      "w": 250,
+      "h": 70,
+      "color": "white",
+      "text": "Selfie Queen?"
+    },
+    {
+      "k": "chit",
+      "x": 400,
+      "y": 230,
+      "s": 0.7,
+      "text": "Neha",
+      "rot": -12
+    },
+    {
+      "k": "arrow",
+      "x1": 470,
+      "y1": 220,
+      "x2": 560,
+      "y2": 210,
+      "color": "yel",
+      "w": 10
+    },
+    {
+      "k": "person",
+      "x": 680,
+      "y": 200,
+      "s": 1.3,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M628 215.6 L737.2 285.8\" stroke=\"#FFC93C\" stroke-width=\"20.8\" stroke-linecap=\"round\"/><path d=\"M628 215.6 L737.2 285.8\" stroke=\"#4A1238\" stroke-width=\"2.6\" stroke-dasharray=\"10.4 10.4\" fill=\"none\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M654 108 L654 82 L667 96 L680 76 L693 96 L706 82 L706 108 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(800 290) scale(0.9)\"><path d=\"M-38 -90 L38 -90 L30 -40 Q0 -15 -30 -40 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-36 -80 Q-62 -78 -54 -56 Q-48 -44 -32 -46\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M36 -80 Q62 -78 54 -56 Q48 -44 32 -46\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"5\"/><rect x=\"-7\" y=\"-26\" width=\"14\" height=\"14\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-30\" y=\"-12\" width=\"60\" height=\"12\" rx=\"4\" fill=\"#4A1238\"/></g>"
+    },
+    {
+      "k": "box",
+      "x": 820,
+      "y": 80,
+      "w": 230,
+      "h": 70,
+      "color": "yelSoft",
+      "text": "Thank you!"
+    },
+    {
+      "k": "person",
+      "x": 940,
+      "y": 250,
+      "s": 0.85,
+      "color": "green"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Chits, pen aur ek dupatta",
+    "items": [
+      {
+        "label": "Paper chits",
+        "sub": "har lady ko 8",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "chit",
+            "x": 120,
+            "y": 120,
+            "s": 0.9,
+            "rot": -8
+          },
+          {
+            "k": "chit",
+            "x": 180,
+            "y": 105,
+            "s": 0.9,
+            "rot": 6,
+            "text": "Neha"
+          }
+        ]
+      },
+      {
+        "label": "Pen",
+        "sub": "har lady ko ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 110) rotate(30) scale(1.2)\"><rect x=\"-8\" y=\"-70\" width=\"16\" height=\"110\" rx=\"5\" fill=\"#E85D8A\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-8 40 L0 62 L8 40 Z\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Bowl",
+        "sub": "chits daalne ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "chit",
+            "x": 150,
+            "y": 70,
+            "s": 0.6,
+            "rot": 10
+          },
+          {
+            "k": "bowl",
+            "x": 150,
+            "y": 120,
+            "s": 0.9,
+            "color": "pink"
+          }
+        ]
+      },
+      {
+        "label": "Award list",
+        "sub": "8 mazedaar naam",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<rect x=\"40\" y=\"15\" width=\"220\" height=\"190\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\"/>"
+          },
+          {
+            "k": "text",
+            "x": 64,
+            "y": 65.4,
+            "text": "1. Sabse Late",
+            "size": 24,
+            "color": "ink",
+            "a": "start"
+          },
+          {
+            "k": "text",
+            "x": 64,
+            "y": 97.80000000000001,
+            "text": "2. Selfie Queen",
+            "size": 24,
+            "color": "ink",
+            "a": "start"
+          },
+          {
+            "k": "text",
+            "x": 64,
+            "y": 130.2,
+            "text": "3. Gossip Rani",
+            "size": 24,
+            "color": "ink",
+            "a": "start"
+          },
+          {
+            "k": "text",
+            "x": 64,
+            "y": 162.60000000000002,
+            "text": "4. Phone Busy",
+            "size": 24,
+            "color": "ink",
+            "a": "start"
+          }
+        ]
+      },
+      {
+        "label": "Dupatta sash",
+        "sub": "purana dupatta",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "person",
+            "x": 150,
+            "y": 110,
+            "s": 1
+          },
+          {
+            "k": "svg",
+            "markup": "<path d=\"M110 122 L194 176\" stroke=\"#FFC93C\" stroke-width=\"16\" stroke-linecap=\"round\"/><path d=\"M110 122 L194 176\" stroke=\"#4A1238\" stroke-width=\"2\" stroke-dasharray=\"8 8\" fill=\"none\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "10 second",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "0:10"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Host award ka naam bole",
+      "body": "Host ek award bole, jaise \"Selfie Queen\". Kul 8 award, ek ek karke.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 330,
+          "s": 1.7,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M300 85 H820 Q840 85 840 105 V235 Q840 255 820 255 H450 L300 280 L420 255 H300 Q280 255 280 235 V105 Q280 85 300 85 Z\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 160,
+          "text": "Aaj ka award:",
+          "size": 40,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 220,
+          "text": "Selfie Queen!",
+          "size": 58,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 540,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 430,
+          "text": "?",
+          "size": 60,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 640,
+          "y": 540,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 430,
+          "text": "?",
+          "size": 60,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 800,
+          "y": 540,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 800,
+          "y": 430,
+          "text": "?",
+          "size": 60,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Chupke se do naam likho",
+      "body": "Upar jise award do uska naam, neeche apna. Fold karke bowl mein.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"90\" y=\"130\" width=\"420\" height=\"300\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\"/>"
+        },
+        {
+          "k": "text",
+          "x": 114,
+          "y": 204.7,
+          "text": "Award: Selfie Queen",
+          "size": 42,
+          "color": "mute",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 114,
+          "y": 261.4,
+          "text": "Naam: Neha",
+          "size": 42,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 114,
+          "y": 318.1,
+          "text": "By: Ritu",
+          "size": 42,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(520 330) rotate(35) scale(1.3)\"><rect x=\"-8\" y=\"-70\" width=\"16\" height=\"110\" rx=\"5\" fill=\"#E85D8A\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-8 40 L0 62 L8 40 Z\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 560,
+          "y1": 300,
+          "x2": 720,
+          "y2": 380,
+          "color": "pink",
+          "w": 12
+        },
+        {
+          "k": "chit",
+          "x": 790,
+          "y": 330,
+          "s": 0.6,
+          "rot": -15
+        },
+        {
+          "k": "chit",
+          "x": 850,
+          "y": 345,
+          "s": 0.6,
+          "rot": 12
+        },
+        {
+          "k": "bowl",
+          "x": 820,
+          "y": 430,
+          "s": 1.2,
+          "color": "yel"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 540,
+          "text": "Apna naam award ke liye nahi!",
+          "size": 36,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Gino, winner ko sash pehnao",
+      "body": "Host chits gine. Sabse zyada naam wali ko dupatta sash milta hai.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"60\" y=\"150\" width=\"380\" height=\"300\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\"/>"
+        },
+        {
+          "k": "text",
+          "x": 84,
+          "y": 235.5,
+          "text": "Neha   IIII",
+          "size": 50,
+          "color": "pink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 84,
+          "y": 303,
+          "text": "Pooja   II",
+          "size": 50,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "text",
+          "x": 84,
+          "y": 370.5,
+          "text": "Sunita   I",
+          "size": 50,
+          "color": "ink",
+          "a": "start"
+        },
+        {
+          "k": "arrow",
+          "x1": 470,
+          "y1": 300,
+          "x2": 600,
+          "y2": 300,
+          "color": "pink",
+          "w": 12
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 330,
+          "s": 1.7,
+          "color": "pink",
+          "label": "Neha"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M692 350.4 L834.8 442.2\" stroke=\"#FFC93C\" stroke-width=\"27.2\" stroke-linecap=\"round\"/><path d=\"M692 350.4 L834.8 442.2\" stroke=\"#4A1238\" stroke-width=\"3.4\" stroke-dasharray=\"13.6 13.6\" fill=\"none\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M726.2 205 L726.2 171.2 L743.1 189.4 L760 163.4 L776.9 189.4 L793.8 171.2 L793.8 205 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"5.2\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 120,
+          "text": "Selfie Queen!",
+          "size": 48,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "10 second filmy speech do",
+      "body": "Winner khadi ho aur 10 second ki filmy thank you speech de.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 250,
+          "y": 380,
+          "s": 1.7,
+          "color": "pink",
+          "label": "Neha"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M182 400.4 L324.8 492.2\" stroke=\"#FFC93C\" stroke-width=\"27.2\" stroke-linecap=\"round\"/><path d=\"M182 400.4 L324.8 492.2\" stroke=\"#4A1238\" stroke-width=\"3.4\" stroke-dasharray=\"13.6 13.6\" fill=\"none\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M216.2 255 L216.2 221.2 L233.1 239.4 L250 213.4 L266.9 239.4 L283.8 221.2 L283.8 255 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"5.2\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(380 470) scale(0.9)\"><path d=\"M-38 -90 L38 -90 L30 -40 Q0 -15 -30 -40 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-36 -80 Q-62 -78 -54 -56 Q-48 -44 -32 -46\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M36 -80 Q62 -78 54 -56 Q48 -44 32 -46\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"5\"/><rect x=\"-7\" y=\"-26\" width=\"14\" height=\"14\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-30\" y=\"-12\" width=\"60\" height=\"12\" rx=\"4\" fill=\"#4A1238\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M320 55 H800 Q820 55 820 75 V225 Q820 245 800 245 H460 L330 270 L430 245 H320 Q300 245 300 225 V75 Q300 55 320 55 Z\" fill=\"#FFF4F7\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 130,
+          "text": "\"Main yeh award",
+          "size": 40
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 185,
+          "text": "apne mirror ko deti hoon!\"",
+          "size": 40
+        },
+        {
+          "k": "timer",
+          "x": 780,
+          "y": 450,
+          "s": 0.95,
+          "text": "0:10"
+        }
+      ]
+    },
+    {
+      "title": "Hasi aayi? Award nominator ko",
+      "body": "Hasi ya \"main nahi hoon\" bola? Sash usko jisne naam likha tha.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 190,
+          "y": 360,
+          "s": 1.5,
+          "color": "pink",
+          "label": "Neha"
+        },
+        {
+          "k": "text",
+          "x": 190,
+          "y": 180,
+          "text": "Ha ha ha!",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "cross",
+          "x": 330,
+          "y": 220,
+          "s": 0.8
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M455 300 L585 300\" stroke=\"#FFC93C\" stroke-width=\"22\" stroke-linecap=\"round\"/><path d=\"M455 300 L585 300\" stroke=\"#4A1238\" stroke-width=\"3\" stroke-dasharray=\"10 10\"/>"
+        },
+        {
+          "k": "text",
+          "x": 520,
+          "y": 270,
+          "text": "sash",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "arrow",
+          "x1": 440,
+          "y1": 370,
+          "x2": 600,
+          "y2": 370,
+          "color": "pink",
+          "w": 12
+        },
+        {
+          "k": "chit",
+          "x": 770,
+          "y": 180,
+          "s": 0.8,
+          "text": "By: Ritu",
+          "rot": -6
+        },
+        {
+          "k": "person",
+          "x": 770,
+          "y": 360,
+          "s": 1.5,
+          "color": "green",
+          "label": "Ritu"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M710 378 L836 459\" stroke=\"#FFC93C\" stroke-width=\"24\" stroke-linecap=\"round\"/><path d=\"M710 378 L836 459\" stroke=\"#4A1238\" stroke-width=\"3\" stroke-dasharray=\"12 12\" fill=\"none\"/>"
+        },
+        {
+          "k": "tick",
+          "x": 900,
+          "y": 220,
+          "s": 0.8
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada awards = Superstar",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Khud ko vote diya?",
+          "Woh chit cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Speech mein hasi aayi?",
+          "Award nominator ka."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Tie hua? Dono speech do,",
+          "taali se faisla."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Sabse zyada sash?",
+          "Kitty ki Superstar!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Speech mein ek filmy",
+        "dialogue zaroori."
+      ],
+      [
+        "Award lene se pehle",
+        "ek ramp walk karo."
+      ],
+      [
+        "Last award room chune:",
+        "\"Kitty ki Jaan\"."
+      ]
+    ],
+    "tip": "Awards pyaare rakho, kisi ka dil na dukhe."
+  },
+  "comment_hint": "sabse late kaun?",
+  "caption": "8 award, ek dupatta sash aur 10 second ki filmy speech. Hasi aayi toh award gaya! Aapki kitty mein sabse late kaun aata hai? Tag karo!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#kittyawards",
+    "#ladiespartygames"
+  ],
+  "web": {
+    "title": "Kitty Awards: Kitty Party Game Rules, How to Play and Twists",
+    "description": "Kitty Awards is a kitty party game where ladies vote fun awards like Selfie Queen, and winners give a 10 second filmy speech. Rules, award ideas, tips and FAQ.",
+    "intro": "Kitty Awards is a kitty party voting game where the host announces fun award titles like \"Selfie Queen\" or \"Sabse Late\", and every lady secretly writes on a chit who deserves it. The lady named most wins the award and a dupatta sash, and the lady with the most sashes at the end is the Kitty Superstar. The crazy twist: every winner must give a 10 second filmy acceptance speech, and if she laughs or says \"main nahi hoon\", the award passes to the lady who nominated her. All you need is paper chits, pens, a bowl and an old dupatta.",
+    "players": "8 to 20",
+    "time": "15 minutes",
+    "materials": [
+      "8 small paper chits per lady",
+      "One pen per lady",
+      "A bowl to collect chits",
+      "A list of 8 fun award titles for the host",
+      "One old dupatta to use as the award sash (or one per award)",
+      "A phone timer for the 10 second speeches"
+    ],
+    "steps": [
+      "Before the game, the host writes a list of 8 light, friendly award titles, such as Sabse Late Queen, Selfie Queen, Gossip Ki Rani, Phone Pe Busy, Recipe Ki Dukaan, Best Dressed, Hamesha Hasne Wali and Dance Floor Ki Shaan.",
+      "The host announces the first award out loud.",
+      "Every lady secretly writes the name of the lady she thinks deserves it on a chit, writes her own name at the bottom as the nominator, folds it and drops it in the bowl. You cannot vote for yourself.",
+      "The host counts the chits. The lady named most wins, and the host puts the dupatta sash on her.",
+      "The winner stands up and gives a 10 second filmy acceptance speech while someone runs the phone timer.",
+      "If the winner laughs during her speech or says \"main nahi hoon\", the award passes to one of the ladies who nominated her, picked by the host from the chits. Repeat for all 8 awards."
+    ],
+    "rules": [
+      "A chit with the voter's own name in the award line is cancelled.",
+      "A winner who laughs or denies the award during her speech loses it to one of her nominators.",
+      "If two ladies tie, both give a speech and the room decides by clapping.",
+      "The lady who ends with the most awards is crowned Kitty Superstar."
+    ],
+    "variations": [
+      "Make every acceptance speech include one famous filmy dialogue.",
+      "Before taking her award, the winner must do a short ramp walk across the room.",
+      "For the last award, \"Kitty Ki Jaan\", the whole room votes by clapping instead of chits."
+    ],
+    "tips": [
+      "Keep every award title kind and funny; avoid anything about weight, looks, money or family problems.",
+      "Write the award list on a chart paper so everyone can see what is coming.",
+      "Run the timer loudly; the countdown is what makes the speeches funny.",
+      "Click a photo of each winner with her sash for the kitty group."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Kitty Awards?",
+        "a": "It works best with 8 to 20 ladies. With fewer than 8, cut the list to 5 awards so the votes do not tie every time."
+      },
+      {
+        "q": "What do you need to play Kitty Awards?",
+        "a": "Paper chits, pens, a bowl, a list of award titles and an old dupatta for the sash. A phone timer helps for the speeches."
+      },
+      {
+        "q": "What are some good award ideas for a kitty party?",
+        "a": "Sabse Late Queen, Selfie Queen, Gossip Ki Rani, Phone Pe Busy, Recipe Ki Dukaan, Best Dressed, Hamesha Hasne Wali and Dance Floor Ki Shaan are all fun and friendly."
+      },
+      {
+        "q": "How do you win Kitty Awards?",
+        "a": "Get named most by the other ladies, then keep a straight face through your 10 second filmy speech. The lady with the most awards at the end is the Kitty Superstar."
+      },
+      {
+        "q": "Is Kitty Awards a good game for a year end or New Year kitty party?",
+        "a": "Yes. It is a perfect last kitty of the year game because it celebrates every lady, needs no running around and gives great photos for the group."
+      }
+    ]
+  }
+}
