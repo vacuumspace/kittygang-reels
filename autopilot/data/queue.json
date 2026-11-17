@@ -119,6 +119,23 @@
   "image_urls": null
  },
  {
+  "id": "a7099641-8ef2-411a-a6da-c8cf0cb5314a",
+  "local_id": "KGI-028",
+  "title": "Kitty Game Ideas #28: Kitty Awards",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s1.jpg",
+  "caption": "8 award, ek dupatta sash aur 10 second ki filmy speech. Hasi aayi toh award gaya! Aapki kitty mein sabse late kaun aata hai? Tag karo!\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #kittyawards #ladiespartygames",
+  "scheduled_for": 1795000380000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1794879411441,
+  "cover_url": null,
+  "kind": "carousel",
+  "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s9.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s10.jpg\"]"
+ },
+ {
   "id": "8ec054b9-1eb1-416f-bd3d-f40c6a53df77",
   "local_id": "KG-2026-11-12-a",
   "title": "Ghar ka garam laao!",
@@ -1001,22 +1018,5 @@
   "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-22-c-cover.jpg",
   "kind": "reel",
   "image_urls": null
- },
- {
-  "id": "ab921b7d-e2f5-4bda-8d78-38d2851d7016",
-  "local_id": "KGI-002",
-  "title": "Kitty Game Ideas #2: Newspaper Dance",
-  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s1.jpg",
-  "caption": "Akhbaar chhota hota jaayega, masti badhti jaayegi! Agli kitty mein yeh khelo. Aapki jodi kitne round tiki?\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #newspaperdance",
-  "scheduled_for": 1792733100000,
-  "status": "published",
-  "job_id": "e561b78a-595b-46b0-b896-19f5db3788e5",
-  "media_id": "17880719187549061",
-  "permalink": "https://www.instagram.com/p/De0zYCClXiW/",
-  "error": null,
-  "created_at": 1792663407167,
-  "cover_url": null,
-  "kind": "carousel",
-  "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-002/s9.jpg\"]"
  }
 ]
