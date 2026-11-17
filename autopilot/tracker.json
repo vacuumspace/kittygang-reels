@@ -14253,6 +14253,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/sehra-bandhi-one-hand-shaadi-kitty-party-game",
       "queue_id": "f1264a33-eb4c-4787-b2f0-c3e832743e43",
       "scheduled_ist": "2026-11-17 10:51"
+    },
+    {
+      "id": "KGI-028",
+      "n": 28,
+      "created": "2026-11-17",
+      "game": "Kitty Awards",
+      "tagline": "Award mila? Ab speech do!",
+      "players": "8 to 20",
+      "time": "15 minutes",
+      "slug": "kitty-awards-filmy-speech-kitty-party-game",
+      "caption": "8 award, ek dupatta sash aur 10 second ki filmy speech. Hasi aayi toh award gaya! Aapki kitty mein sabse late kaun aata hai? Tag karo!",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-028/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/kitty-awards-filmy-speech-kitty-party-game",
+      "queue_id": "a7099641-8ef2-411a-a6da-c8cf0cb5314a",
+      "scheduled_ist": "2026-11-18 16:43"
     }
   ],
   "research": [
