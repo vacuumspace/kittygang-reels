@@ -11957,6 +11957,37 @@
       "yt_id": "YA0Ptook27k",
       "yt_url": "https://youtube.com/shorts/YA0Ptook27k",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-18",
+      "created": "2026-11-18",
+      "title": "Ek number, chaar group!",
+      "format": "Theme Housie",
+      "theme": "chaipecharcha",
+      "story": "ai",
+      "variant": "reaction-chain",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "At the Chai Pe Charcha game the whole gang is stuck on one number; 27 is called and each friend grabs a different group: Megha takes Samosa without counting calories, Shruti loves her cheap Rusk, Myra asks if Parle-G goes in the chai, Ishita claims Cutting Chai early, and Aditi, sipping, has actually won it.",
+      "beats": "hook: sab ek number pe atke, 0/4 / call: 27 / 1/4: Megha Samosa / 2/4: Shruti Rusk / 3/4: Myra Parle-G / 4/4?: Ishita claims Cutting Chai / turn and button: Aditi sips, Cutting Chai uski",
+      "experiment": {
+        "format": "reaction-chain",
+        "hook": "Ruhi and Megha leaning in over chai on the Chai Pe Charcha home art, heartbeat at 0 s, mascot ball spinning above, chip 'EK NUMBER, CHAAR GROUP? 0/4' pinned from the first frame, Ruhi says 'Sab ek hi number pe atke!'",
+        "variable": "a progress counter on the reaction chain: the 11-07 reaction chain (best middle so far, 18% watched) re-run with a 'GROUP x/4' chip that ticks up on every face (Samosa, Rusk, Parle-G, Cutting Chai), so the viewer always sees how many faces are left before the payoff",
+        "hypothesis": "fast single faces plus a visible countdown to the end fixes both halves: the counter keeps the hook (checklist 57.1%) and the face cuts keep the middle: skip under 58%, watched % above 22 (best 22), at least 1 save or share on a plain Wednesday chai day"
+      },
+      "duration": 31.5,
+      "lufs": null,
+      "caption": "Ek number, chaar group! Aap kaun ho: Samosa wali, Rusk wali, Parle-G wali ya chupchaap Cutting Chai wali? Chai wali saheli ko tag karo. Aaj ki Chai Pe Charcha Housie mein kaunsa group aapka?\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #chai #chaipecharcha #parleg",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-18.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-18-cover.jpg",
+      "job_id": "396d01f5-e1d7-406f-afa6-6c3556699a43",
+      "permalink": "https://www.instagram.com/reel/Df2nn74kttg/",
+      "media_id": "18457066450133175",
+      "yt_id": "2PXiZURQN4Y",
+      "yt_url": "https://youtube.com/shorts/2PXiZURQN4Y",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
