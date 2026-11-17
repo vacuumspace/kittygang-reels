@@ -11754,6 +11754,181 @@
       "yt_id": "6R_ZMizKLZo",
       "yt_url": "https://youtube.com/shorts/6R_ZMizKLZo",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-17-b",
+      "created": "2026-11-17",
+      "title": "Meri magenta, ekdum alag!",
+      "format": "Group chat with living-room cutaways: the sangeet dress code drops during Housie, each lady swears her magenta saree is one of a kind in the kitty group, then all three walk into the sangeet in the same saree",
+      "hook": "",
+      "cast": [
+        "Myra",
+        "Ruhi",
+        "Shruti"
+      ],
+      "caption": "Dress code magenta, aur poori kitty ki saree ek hi sale se. Tag the friend jo 'ekdum alag' bolke same le aati hai!",
+      "status": "queued",
+      "idea": "The shaadi sangeet dress code is magenta; Ruhi, Myra and Shruti each swear in the kitty group that theirs is unique, but every saree is from the same Bunty sale, and they arrive identical.",
+      "beats": "hook: magenta dress code during Housie / esc: Ruhi 'ekdum alag', Myra 'Bunty Sale se, 999' and Ruhi's own bag is from Bunty, Shruti's 'designer piece' is Bunty bhaiya / turn: 'blouse alag pehenna', all agree / twist: all three walk into the sangeet in the identical saree, blouse free with it / button: 'Match? Plan tha!' flips 'Koi match nahi!'",
+      "experiment": {
+        "type": "group-chat",
+        "hook": "Housie running, Ruhi's phone pings and she shouts the dress code: 'Sangeet ka dress code! Magenta!' with the chip SAME SAREE: 0",
+        "variable": "group-chat retested with the winners' ingredients (a real shaadi-season situation, one repeating game, a chip that moves on every shot, a see-it twist in a dressed set) instead of the old money-chat version",
+        "hypothesis": "skip under 40% (old group-chat was 70.9%) and watched above 40%; the 'same saree' fear every group has should beat 2 shares with a tag-the-friend caption"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Sangeet ka dress code! Magenta!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Magenta?!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Meri magenta, ekdum alag!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Meri bhi! Koi match nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Bunty Sale se, sirf 999!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Bunty... Lajpat Nagar?",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Meri bhi wahi se hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Meri toh designer piece hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Kaun designer?",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Bunty bhaiya! Lajpat Nagar wale!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Haaw!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Theek hai! Blouse alag pehenna!",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Done!",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Shruti",
+          "line": "Done!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Blouse bhi... Bunty ka?",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Free tha!",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Free tha!",
+          "beat": ""
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Match? Plan tha!",
+          "beat": "button"
+        }
+      ],
+      "duration": 29.3,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 5,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Last 4 reel types are meme-format, map-journey, types-of and door-arrivals; LEARNINGS says do less pov, musical, quiz, photo-attempts, story-time, so group-chat gets its first retest since October with the winning ingredients. Lead is Ruhi (last reel led by Tanya). 3 talking characters, max 3 per shot. Game played 3 times with claim before catch: Myra (ordinary, Bunty sale, and Ruhi's own bag is from there too), Shruti (absurd, her 'designer' is Bunty bhaiya), then the fix (different blouses) sets up the see-it twist: all three in the identical saree and blouse. Button flips Myra's 'Koi match nahi!' into 'Match? Plan tha!'. Endings tried: Tanya the host also in magenta (4th face, max 3 per shot), Bunty's broadcast message (a read-it twist, weaker), identical walk-in (kept). Every shot 8 words or fewer, hold 0.1, about 58 words at pace 28, about 23 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-17-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-17-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-17-b-board.jpg",
+      "queue_id": "47bc562c-e343-45d0-81d3-707e5565c9ba",
+      "scheduled_ist": "2026-11-27 20:00",
+      "yt_id": "YA0Ptook27k",
+      "yt_url": "https://youtube.com/shorts/YA0Ptook27k",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
