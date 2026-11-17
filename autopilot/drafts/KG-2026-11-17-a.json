@@ -1,0 +1,861 @@
+{
+  "id": "KG-2026-11-17-a",
+  "title": "Order kiya toh entry nahi!",
+  "format": "Door arrivals, potluck rule at the front door, one 'homemade' dish per ring, host breaks her own rule",
+  "idea": "Tanya's potluck kitty lets in only home-cooked food; every guest's dish is caught as ordered, then Tanya's own dum aloo turns out to be from a dhaba.",
+  "logline": "Tanya allows only homemade food at her potluck kitty and sends every guest with an ordered dish to the balcony, until her own phone shows her dum aloo came from a dhaba.",
+  "game": "every 'homemade' potluck dish gives itself away as ordered",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Tanya blocks her door with both palms as Ruhi stands holding a cooker: 'Ruko! Potluck kitty! Order kiya toh entry nahi!'",
+    "variable": "a food rule every potluck fights about (homemade vs ordered) with a two-step claim-then-catch per guest, to see if a food giveaway gag lifts shares over the money rules",
+    "hypothesis": "skip under 30% and watched above 50% like the other door reels; a potluck truth every group knows should pass 3 shares with a 'Tag your Tanya' caption"
+  },
+  "mute": [
+    "Tanya blocks her door, chip GHAR KA KHANA: 0/3, Ruhi in the doorway holding a cooker",
+    "Ruhi proudly shows her cooker, Tanya claps happily",
+    "a bill pops on the cooker lid, question mark, Tanya shocked, Ruhi caught",
+    "doorbell, Myra walks in with a sweet shop box, chip BALCONY: 1, Tanya hops happily",
+    "Tanya reads the shop name on the box, Myra smirks, sweat",
+    "doorbell, Shruti with a thali, Tanya on hips doubting, chip BALCONY: 2",
+    "Shruti's phone: Dahi Bhalla Corner, order delivered, dahi vada x 12, chip BALCONY: 3",
+    "Tanya twirls in triumph next to her own cooker, three guests out",
+    "silence, a notification pops on Tanya's phone, everyone stares",
+    "Tanya's phone: Sharma Dhaba, dum aloo x 2 delivered, Rs 480, kadhai mein daal dena",
+    "Ruhi and Shruti walk in holding their dishes, Tanya caught, chip GHAR KA KHANA: 0/4"
+  ],
+  "beats": "hook: order kiya toh entry nahi / esc: Ruhi chhole with Rs 340 bill, Myra halwa in Agarwal Sweets box ('dabba unka, haath mera'), Shruti dahi vada and her phone says delivered / twist: Tanya's phone, Sharma Dhaba dum aloo, kadhai mein daal dena / button: guests walk in, 'Order kiya? Toh entry pakki!'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 5,
+    "escalation": 4,
+    "laughs": 5,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 54,
+    "notes": "Door-arrivals is the confirmed winner; last 4 types are types-of, map-journey, meme-format x2, and the last door reel (KG-2026-11-14-b) was 4 reels back, so it fits every-2nd-reel. Lead is Tanya (last reel led by Megha). Cast of 4 talking, max 3 per shot. Game plays 3 times with claim before catch: Ruhi ordinary (bill on the lid, 'woh recipe hai'), Myra sillier (sweet shop box, 'dabba unka, haath mera'), Shruti absurd (her own phone says delivered while she says 'pakka'). Twist is a see-it phone screen on the host. Button flips the hook line 'Order kiya toh entry nahi' into 'Order kiya? Toh entry pakki!'. Endings tried: Shruti lifts the kadhai lid (no foil tray prop, not see-it), delivery boy at the door (no male cast), Tanya's phone message (kept). Every shot 8 words or fewer, hold 0.1, about 70 words at pace 28, about 26 s."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1.2,
+    "title": [
+      "Potluck kitty:",
+      "Host ka khana bhi order!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Potluck ka sabse 'ghar ka' khana hamesha host ka hota hai. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#potluck",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#gharkakhana",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA KHANA: 0/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "smile"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o"
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Potluck kitty!",
+          "say": "रुको! पॉटलक किटी!",
+          "beat": "hook"
+        },
+        {
+          "who": "Tanya",
+          "text": "Order kiya toh entry nahi!",
+          "say": "ऑर्डर किया तो एंट्री नहीं!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 640,
+          "y": 1520,
+          "s": 0.9
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 200,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.15,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA KHANA: 0/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Chhole! Khud banaye, kasam se!",
+          "say": "छोले! खुद बनाए, कसम से!",
+          "beat": "setup"
+        },
+        {
+          "who": "Tanya",
+          "text": "Waah! Aao aao...",
+          "say": "वाह! आओ आओ...",
+          "gap": 0.04
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 640,
+          "y": 1520,
+          "s": 0.9
+        },
+        {
+          "name": "Door mat",
+          "x": 640,
+          "y": 1640,
+          "s": 1
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA KHANA: 0/3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Dhakkan pe bill? Rs 340?!",
+          "say": "ढक्कन पे बिल? तीन सौ चालीस?!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Woh... recipe hai!",
+          "say": "वो... रेसिपी है!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 640,
+          "y": 1520,
+          "s": 0.9
+        },
+        {
+          "name": "Prize envelope",
+          "x": 640,
+          "y": 1360,
+          "s": 0.8,
+          "at": 0.2
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 620,
+          "y": 1000,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.5,
+          "name": "haww",
+          "vol": 0.45
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA: 0/3 · BALCONY: 1",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "smile",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Ruhi",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Gajar halwa! Saari raat ghisa!",
+          "say": "गाजर हलवा! सारी रात घिसा!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaye, meri Myra!",
+          "say": "हाय, मेरी मायरा!",
+          "gap": 0.04
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 640,
+          "y": 1420,
+          "s": 0.9,
+          "at": 0.2
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.1,
+          "name": "footsteps",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA: 0/3 · BALCONY: 1",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Ruhi",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "laughs",
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Dabbe pe... Agarwal Sweets?",
+          "say": "डब्बे पे... अग्रवाल स्वीट्स?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Dabba unka, haath mera!",
+          "say": "डब्बा उनका, हाथ मेरा!",
+          "gap": 0.04,
+          "punch": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 640,
+          "y": 1420,
+          "s": 0.9
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 880,
+          "y": 900,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "haaye",
+          "vol": 0.45
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA: 0/3 · BALCONY: 2",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "flat",
+          "eyes": "half",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Myra",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "smirk",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Dahi vada. Maine banaya.",
+          "say": "दही वड़ा। मैंने बनाया।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Pakka?",
+          "say": "पक्का?",
+          "gap": 0.04
+        },
+        {
+          "who": "Shruti",
+          "text": "Pakka.",
+          "say": "पक्का।",
+          "gap": 0.04
+        }
+      ],
+      "props": [
+        {
+          "name": "Thali",
+          "x": 640,
+          "y": 1440,
+          "s": 0.9,
+          "at": 0.2
+        },
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Shruti ka phone",
+      "camera": "still",
+      "chip": "GHAR KA: 0/3 · BALCONY: 3",
+      "chipY": 200,
+      "chat": [
+        [
+          "Dahi Bhalla Corner",
+          "Order delivered!",
+          0,
+          "4:02 PM",
+          0.1
+        ],
+        [
+          "Dahi Bhalla Corner",
+          "Dahi vada x 12",
+          0,
+          "4:02 PM",
+          0.5
+        ],
+        [
+          "Dahi Bhalla Corner",
+          "Rating dijiye, madam!",
+          0,
+          "4:02 PM",
+          0.9
+        ]
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Shruti, tera order aa gaya!",
+          "say": "श्रुति, तेरा ऑर्डर आ गया!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "rimshot",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA: 0/3 · BALCONY: 3",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "half",
+          "twirl": true
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Teeno balcony! Ghar ka sirf mera!",
+          "say": "तीनों बालकनी! घर का सिर्फ़ मेरा!",
+          "beat": "turn"
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 470,
+          "y": 1500,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "swish",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA: 0/3 · TANYA: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "talkL",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Ruhi",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "hold": 0.1,
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Tanya... aapka phone baja.",
+          "say": "तान्या... आपका फ़ोन बजा।",
+          "silenceBefore": true,
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Nahi toh!",
+          "say": "नहीं तो!",
+          "gap": 0.04
+        }
+      ],
+      "props": [
+        {
+          "name": "Phone + notification",
+          "x": 470,
+          "y": 1400,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "camera": "still",
+      "music": false,
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 420,
+          "y": 960,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "ping",
+          "vol": 0.6
+        },
+        {
+          "at": 0.3,
+          "name": "sting",
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Tanya ka phone",
+      "camera": "still",
+      "chip": "HOST KA KHANA: ORDER!",
+      "chipY": 200,
+      "chat": [
+        [
+          "Sharma Dhaba",
+          "Dum aloo x 2 delivered",
+          0,
+          "4:05 PM",
+          0.1
+        ],
+        [
+          "Sharma Dhaba",
+          "Total Rs 480",
+          0,
+          "4:05 PM",
+          0.5
+        ],
+        [
+          "Sharma Dhaba",
+          "Kadhai mein daal dena, madam!",
+          0,
+          "4:05 PM",
+          0.9
+        ]
+      ],
+      "hold": 0.15,
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Sharma Dhaba ka dum aloo?!",
+          "say": "शर्मा ढाबा का दम आलू?!",
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "GHAR KA KHANA: 0/4",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "from": [
+            1150,
+            1460
+          ],
+          "moveAt": 0,
+          "moveDur": 0.4
+        },
+        {
+          "name": "Shruti",
+          "x": 960,
+          "y": 1470,
+          "s": 1.9,
+          "turn": -0.6,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "hold": 0.8,
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Order kiya? Toh entry pakki!",
+          "say": "ऑर्डर किया? तो एंट्री पक्की!",
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "props": [
+        {
+          "name": "Pressure cooker",
+          "x": 640,
+          "y": 1520,
+          "s": 0.9
+        },
+        {
+          "name": "Thali",
+          "x": 880,
+          "y": 1300,
+          "s": 0.8
+        },
+        {
+          "name": "Mithai box",
+          "x": 470,
+          "y": 1500,
+          "s": 0.8
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 420,
+          "y": 1060,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.5,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ]
+    }
+  ]
+}
