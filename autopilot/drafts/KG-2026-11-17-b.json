@@ -1,0 +1,271 @@
+{
+  "id": "KG-2026-11-17-b",
+  "title": "Meri magenta, ekdum alag!",
+  "format": "Group chat with living-room cutaways: the sangeet dress code drops during Housie, each lady swears her magenta saree is one of a kind in the kitty group, then all three walk into the sangeet in the same saree",
+  "idea": "The shaadi sangeet dress code is magenta; Ruhi, Myra and Shruti each swear in the kitty group that theirs is unique, but every saree is from the same Bunty sale, and they arrive identical.",
+  "logline": "Ruhi, Myra and Shruti each promise in the kitty group that their magenta sangeet saree will be one of a kind, then all three walk into the sangeet in the exact same saree from Bunty's sale.",
+  "game": "every 'one of a kind' magenta saree turns out to be from the same Bunty sale",
+  "experiment": {
+    "type": "group-chat",
+    "hook": "Housie running, Ruhi's phone pings and she shouts the dress code: 'Sangeet ka dress code! Magenta!' with the chip SAME SAREE: 0",
+    "variable": "group-chat retested with the winners' ingredients (a real shaadi-season situation, one repeating game, a chip that moves on every shot, a see-it twist in a dressed set) instead of the old money-chat version",
+    "hypothesis": "skip under 40% (old group-chat was 70.9%) and watched above 40%; the 'same saree' fear every group has should beat 2 shares with a tag-the-friend caption"
+  },
+  "beats": "hook: magenta dress code during Housie / esc: Ruhi 'ekdum alag', Myra 'Bunty Sale se, 999' and Ruhi's own bag is from Bunty, Shruti's 'designer piece' is Bunty bhaiya / turn: 'blouse alag pehenna', all agree / twist: all three walk into the sangeet in the identical saree, blouse free with it / button: 'Match? Plan tha!' flips 'Koi match nahi!'",
+  "mute": [
+    "Housie at the living room, Ruhi's phone pings, caption: sangeet dress code magenta, chip SAME SAREE: 0",
+    "kitty group chat: Ruhi and Myra each swear their magenta saree is unique",
+    "Myra posts: Bunty Saree Sale, Lajpat Nagar, Rs 999, Ruhi asks 'Lajpat Nagar?'",
+    "Ruhi alone with a shopping bag and saree on a hanger, sweating, chip SAME SAREE: 2",
+    "Shruti in the chat: mine is a designer piece, Myra asks which designer",
+    "Shruti: Bunty bhaiya, Lajpat Nagar, chip SAME SAREE: 3, Ruhi gasps",
+    "chat: Ruhi says wear different blouses, Myra and Shruti say Done",
+    "sangeet night set, all three walk in wearing the identical magenta saree and blouse, freeze",
+    "the three pose together laughing, caption Match? Plan tha!, chip PLAN: 100%"
+  ],
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 5,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 4,
+    "shareable": 5,
+    "total": 53,
+    "notes": "Last 4 reel types are meme-format, map-journey, types-of and door-arrivals; LEARNINGS says do less pov, musical, quiz, photo-attempts, story-time, so group-chat gets its first retest since October with the winning ingredients. Lead is Ruhi (last reel led by Tanya). 3 talking characters, max 3 per shot. Game played 3 times with claim before catch: Myra (ordinary, Bunty sale, and Ruhi's own bag is from there too), Shruti (absurd, her 'designer' is Bunty bhaiya), then the fix (different blouses) sets up the see-it twist: all three in the identical saree and blouse. Button flips Myra's 'Koi match nahi!' into 'Match? Plan tha!'. Endings tried: Tanya the host also in magenta (4th face, max 3 per shot), Bunty's broadcast message (a read-it twist, weaker), identical walk-in (kept). Every shot 8 words or fewer, hold 0.1, about 58 words at pace 28, about 23 s."
+  },
+  "cover": {
+    "shot": 7,
+    "at": 1.4,
+    "title": [
+      "Sangeet: MAGENTA",
+      "Teeno ki same saree!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Dress code magenta, aur poori kitty ki saree ek hi sale se. Tag the friend jo 'ekdum alag' bolke same le aati hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#sangeet",
+    "#ladieskitty",
+    "#sareelove",
+    "#kittypartyfun"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SANGEET: MAGENTA · SAME SAREE: 0",
+      "chipY": 600,
+      "chars": [
+        { "name": "Myra", "x": 260, "y": 1330, "s": 1.25, "turn": 0.6, "pose": "relaxed", "mouth": "o", "eyes": "open" },
+        { "name": "Ruhi", "x": 540, "y": 1740, "s": 2.1, "turn": 0, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "open", "hop": true },
+        { "name": "Shruti", "x": 820, "y": 1330, "s": 1.25, "turn": -0.6, "pose": "relaxed", "mouth": "o", "eyes": "open" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Ruhi", "text": "Sangeet ka dress code! Magenta!", "say": "संगीत का ड्रेस कोड! मजेंटा!", "beat": "hook" },
+        { "who": "Myra", "text": "Magenta?!", "say": "मजेंटा?!", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Housie cage", "x": 860, "y": 1800, "s": 1.3 },
+        { "name": "Housie ticket", "x": 220, "y": 1820, "s": 1.2 },
+        { "name": "Phone + notification", "x": 700, "y": 1240, "s": 0.8, "at": 0.1 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 760, "y": 900, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "cage", "vol": 0.35 },
+        { "at": 0.05, "name": "ping", "vol": 0.6 }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "SAME SAREE: 0",
+      "chipY": 200,
+      "chat": [
+        ["Ruhi", "Sangeet dress code: MAGENTA", 1, "4:12 PM", 0.1],
+        ["Ruhi", "Meri magenta, ekdum alag!", 1, "4:12 PM", 0.5],
+        ["Myra", "Meri bhi! Koi match nahi!", 0, "4:13 PM", 1.4]
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Ruhi", "text": "Meri magenta, ekdum alag!", "say": "मेरी मजेंटा, एकदम अलग!", "beat": "setup" },
+        { "who": "Myra", "text": "Meri bhi! Koi match nahi!", "say": "मेरी भी! कोई मैच नहीं!", "gap": 0.04 }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "SAME SAREE: 1?",
+      "chipY": 200,
+      "chat": [
+        ["Myra", "Meri bhi! Koi match nahi!", 0, "4:13 PM", 0],
+        ["Myra", "Bunty Saree Sale, Lajpat Nagar, Rs 999", 0, "4:13 PM", 0.2],
+        ["Ruhi", "Bunty... Lajpat Nagar?", 1, "4:14 PM", 1.3]
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Myra", "text": "Bunty Sale se, sirf 999!", "say": "बंटी सेल से, सिर्फ़ नौ सौ निन्यानवे!", "beat": "escalation" },
+        { "who": "Ruhi", "text": "Bunty... Lajpat Nagar?", "say": "बंटी... लाजपत नगर?", "gap": 0.04, "punch": true }
+      ],
+      "sfx": [
+        { "at": 1.3, "name": "scratch", "vol": 0.4 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "SAME SAREE: 2",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 540, "y": 1740, "s": 2.1, "turn": 0.3, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "side" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Ruhi", "text": "Meri bhi wahi se hai!", "say": "मेरी भी वहीं से है!", "beat": "escalation", "punch": true }
+      ],
+      "props": [
+        { "name": "Shopping bags", "x": 840, "y": 1780, "s": 1.5, "at": 0.1 },
+        { "name": "Saree on hanger", "x": 220, "y": 1500, "s": 1.4 }
+      ],
+      "camera": "punch",
+      "stickers": [
+        { "kind": "sweat", "x": 720, "y": 900, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 0.9, "name": "haww", "vol": 0.45 }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "SAME SAREE: 2",
+      "chipY": 200,
+      "chat": [
+        ["Myra", "Bunty Saree Sale, Lajpat Nagar, Rs 999", 0, "4:13 PM", 0],
+        ["Shruti", "Meri toh designer piece hai", 0, "4:15 PM", 0.2],
+        ["Myra", "Kaun designer?", 0, "4:15 PM", 1.4]
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Shruti", "text": "Meri toh designer piece hai!", "say": "मेरी तो डिज़ाइनर पीस है!", "beat": "escalation" },
+        { "who": "Myra", "text": "Kaun designer?", "say": "कौन डिज़ाइनर?", "gap": 0.04 }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "SAME SAREE: 3",
+      "chipY": 200,
+      "chat": [
+        ["Myra", "Kaun designer?", 0, "4:15 PM", 0],
+        ["Shruti", "Bunty bhaiya! Lajpat Nagar wale", 0, "4:16 PM", 0.2],
+        ["Ruhi", "HAAW", 1, "4:16 PM", 1.5]
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Shruti", "text": "Bunty bhaiya! Lajpat Nagar wale!", "say": "बंटी भैया! लाजपत नगर वाले!", "beat": "escalation", "punch": true },
+        { "who": "Ruhi", "text": "Haaw!", "say": "हाव!", "gap": 0.04 }
+      ],
+      "sfx": [
+        { "at": 1.5, "name": "rimshot", "vol": 0.4 }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kitty Gang",
+      "camera": "still",
+      "chip": "SAME SAREE: 3 · BLOUSE: ALAG",
+      "chipY": 200,
+      "chat": [
+        ["Ruhi", "Theek hai! Blouse alag pehenna!", 1, "4:17 PM", 0.1],
+        ["Myra", "Done!", 0, "4:17 PM", 1.3],
+        ["Shruti", "Done!", 0, "4:17 PM", 1.6]
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Ruhi", "text": "Theek hai! Blouse alag pehenna!", "say": "ठीक है! ब्लाउज़ अलग पहनना!", "beat": "turn" },
+        { "who": "Myra", "text": "Done!", "say": "डन!", "gap": 0.03 },
+        { "who": "Shruti", "text": "Done!", "say": "डन!", "gap": 0.03 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SANGEET NIGHT",
+      "chip": "SAME SAREE: 3/3",
+      "chipY": 600,
+      "music": false,
+      "camera": "still",
+      "chars": [
+        { "name": "Myra", "x": 250, "y": 1740, "s": 1.95, "turn": 0.6, "pose": "hips", "mouth": "o", "eyes": "side", "main": "#C2185B", "mainSh": "#8E0F43", "from": [-150, 1740], "moveAt": 0, "moveDur": 0.5 },
+        { "name": "Ruhi", "x": 540, "y": 1760, "s": 2.0, "turn": 0, "pose": "relaxed", "mouth": "o", "eyes": "open", "main": "#C2185B", "mainSh": "#8E0F43", "from": [540, 2300], "moveAt": 0, "moveDur": 0.5 },
+        { "name": "Shruti", "x": 830, "y": 1740, "s": 1.95, "turn": -0.6, "pose": "hips", "mouth": "o", "eyes": "side", "main": "#C2185B", "mainSh": "#8E0F43", "from": [1230, 1740], "moveAt": 0, "moveDur": 0.5 }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Myra", "text": "Blouse bhi... Bunty ka?", "say": "ब्लाउज़ भी... बंटी का?", "silenceBefore": true, "beat": "turn" },
+        { "who": "Ruhi", "text": "Free tha!", "say": "फ़्री था!", "gap": 0.03 },
+        { "who": "Shruti", "text": "Free tha!", "say": "फ़्री था!", "gap": 0.03, "punch": true }
+      ],
+      "props": [
+        { "name": "Fairy lights", "x": 540, "y": 560, "s": 1.6 },
+        { "name": "Dhol", "x": 940, "y": 1820, "s": 1.1 },
+        { "name": "Marigold", "x": 130, "y": 1830, "s": 1.2 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 540, "y": 880, "at": 0.6 }
+      ],
+      "sfx": [
+        { "at": 0.6, "name": "sting", "vol": 0.5 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SANGEET NIGHT",
+      "chip": "SAME SAREE: 3/3 · PLAN: 100%",
+      "chipY": 600,
+      "camera": "punch",
+      "chars": [
+        { "name": "Myra", "x": 290, "y": 1740, "s": 1.95, "turn": 0.4, "pose": "clapR", "mouth": "laugh", "eyes": "laugh", "main": "#C2185B", "mainSh": "#8E0F43" },
+        { "name": "Ruhi", "x": 540, "y": 1760, "s": 2.0, "turn": 0, "pose": "laughs", "mouth": "laugh", "eyes": "laugh", "main": "#C2185B", "mainSh": "#8E0F43", "hop": true },
+        { "name": "Shruti", "x": 790, "y": 1740, "s": 1.95, "turn": -0.4, "pose": "clapL", "mouth": "laugh", "eyes": "laugh", "main": "#C2185B", "mainSh": "#8E0F43" }
+      ],
+      "hold": 0.8,
+      "lines": [
+        { "who": "ALL", "text": "Match? Plan tha!", "say": "मैच? प्लान था!", "punch": true, "beat": "button" }
+      ],
+      "props": [
+        { "name": "Fairy lights", "x": 540, "y": 560, "s": 1.6 },
+        { "name": "Dhol", "x": 940, "y": 1820, "s": 1.1 }
+      ],
+      "stickers": [
+        { "kind": "heart", "x": 540, "y": 860, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "shutter", "vol": 0.4 },
+        { "at": 1.0, "name": "laughv", "vol": 0.45 }
+      ]
+    }
+  ]
+}
