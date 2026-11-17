@@ -11571,6 +11571,189 @@
       "yt_id": "PJX5xVnL1ys",
       "yt_url": "https://youtube.com/shorts/PJX5xVnL1ys",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-17-a",
+      "created": "2026-11-17",
+      "title": "Order kiya toh entry nahi!",
+      "format": "Door arrivals, potluck rule at the front door, one 'homemade' dish per ring, host breaks her own rule",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Myra",
+        "Shruti"
+      ],
+      "caption": "Potluck ka sabse 'ghar ka' khana hamesha host ka hota hai. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya's potluck kitty lets in only home-cooked food; every guest's dish is caught as ordered, then Tanya's own dum aloo turns out to be from a dhaba.",
+      "beats": "hook: order kiya toh entry nahi / esc: Ruhi chhole with Rs 340 bill, Myra halwa in Agarwal Sweets box ('dabba unka, haath mera'), Shruti dahi vada and her phone says delivered / twist: Tanya's phone, Sharma Dhaba dum aloo, kadhai mein daal dena / button: guests walk in, 'Order kiya? Toh entry pakki!'",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya blocks her door with both palms as Ruhi stands holding a cooker: 'Ruko! Potluck kitty! Order kiya toh entry nahi!'",
+        "variable": "a food rule every potluck fights about (homemade vs ordered) with a two-step claim-then-catch per guest, to see if a food giveaway gag lifts shares over the money rules",
+        "hypothesis": "skip under 30% and watched above 50% like the other door reels; a potluck truth every group knows should pass 3 shares with a 'Tag your Tanya' caption"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Potluck kitty!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Order kiya toh entry nahi!",
+          "beat": ""
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Chhole! Khud banaye, kasam se!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Waah! Aao aao...",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dhakkan pe bill? Rs 340?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Woh... recipe hai!",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Gajar halwa! Saari raat ghisa!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaye, meri Myra!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dabbe pe... Agarwal Sweets?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Dabba unka, haath mera!",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Dahi vada. Maine banaya.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Pakka?",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pakka.",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Shruti, tera order aa gaya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Teeno balcony! Ghar ka sirf mera!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Tanya... aapka phone baja.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Nahi toh!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Sharma Dhaba ka dum aloo?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Order kiya? Toh entry pakki!",
+          "beat": "button"
+        }
+      ],
+      "duration": 36.06,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 4,
+        "laughs": 5,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 54,
+        "notes": "Door-arrivals is the confirmed winner; last 4 types are types-of, map-journey, meme-format x2, and the last door reel (KG-2026-11-14-b) was 4 reels back, so it fits every-2nd-reel. Lead is Tanya (last reel led by Megha). Cast of 4 talking, max 3 per shot. Game plays 3 times with claim before catch: Ruhi ordinary (bill on the lid, 'woh recipe hai'), Myra sillier (sweet shop box, 'dabba unka, haath mera'), Shruti absurd (her own phone says delivered while she says 'pakka'). Twist is a see-it phone screen on the host. Button flips the hook line 'Order kiya toh entry nahi' into 'Order kiya? Toh entry pakki!'. Endings tried: Shruti lifts the kadhai lid (no foil tray prop, not see-it), delivery boy at the door (no male cast), Tanya's phone message (kept). Every shot 8 words or fewer, hold 0.1, about 70 words at pace 28, about 26 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-17-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-17-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-17-a-board.jpg",
+      "queue_id": "7d78b6b3-4d2c-4732-9b67-d56917c3a16e",
+      "scheduled_ist": "2026-11-26 19:45",
+      "yt_id": "6R_ZMizKLZo",
+      "yt_url": "https://youtube.com/shorts/6R_ZMizKLZo",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
