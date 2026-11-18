@@ -11988,6 +11988,231 @@
       "yt_id": "2PXiZURQN4Y",
       "yt_url": "https://youtube.com/shorts/2PXiZURQN4Y",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-18-a",
+      "created": "2026-11-18",
+      "title": "Skip kiya toh double kitty!",
+      "format": "Housie-in-progress sitcom: the host's new shaadi-season rule, host breaks her own rule",
+      "hook": "",
+      "cast": [
+        "Shruti",
+        "Tanya",
+        "Ruhi",
+        "Myra"
+      ],
+      "caption": "Rule banane wali hi pehle todti hai. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya stops Housie to announce that anyone skipping the December kitty pays double; every lady swallows her shaadi excuse, then Tanya's saas books the whole family to Lucknow on kitty day.",
+      "beats": "hook: Ruko! Naya rule! / setup: December skip = double kitty / esc: Ruhi's sangeet practice, Myra's mausi ki mehendi, Shruti skips her niece's shaadi because the fine beats the ticket / twist: saas's message, Lucknow shaadi on 13 Dec, the kitty date / button: ALL 'Skip kiya toh double kitty!', Tanya 'agle saal se?', Shruti 'Do hazaar.'",
+      "experiment": {
+        "type": "sitcom",
+        "hook": "Housie in progress: the cage spins, Shruti calls 'Chaubees!' and Tanya cuts in 'Ruko! Naya rule!' under a DEC KITTY SKIP: 3 chip",
+        "variable": "the door-arrivals winning engine (host makes one loud rule, a repeating refusal, a chip that moves every beat, host breaks her own rule, guests throw her line back) moved to a living-room Housie sitcom, to test whether the engine wins without the doorbell",
+        "hypothesis": "skip under 38% and watched above 40% (sitcoms so far: skip 55-84%); 'Tag your Tanya' about the rule-maker who breaks her own rule gets 2+ shares in shaadi season"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chaubees!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Naya rule!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "December skip kiya, toh double kitty!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Double?!",
+          "beat": ""
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera toh sangeet practice hai...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Do hazaar.",
+          "beat": ""
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Practice raat ko kar lungi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Paanch!",
+          "beat": ""
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mausi ki mehendi hai na...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Do hazaar.",
+          "beat": ""
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mehendi laga ke aa jaungi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw, dono haath?",
+          "beat": ""
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bhatiji ki shaadi, Jaipur...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Do hazaar.",
+          "beat": ""
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ticket atharah sau, fine do hazaar...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Shagun UPI kar dungi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Shaadi skip?!",
+          "beat": ""
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dekha? Rule se sab aate hain!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "Terah December?",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "phone",
+          "who": "Myra",
+          "line": "Kitty bhi terah ko!",
+          "beat": ""
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Lucknow... main...",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kitty pot laao.",
+          "beat": ""
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Skip kiya toh double kitty!",
+          "beat": "button"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Rule... agle saal se?",
+          "beat": "button"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Do hazaar.",
+          "beat": "button"
+        }
+      ],
+      "duration": 33.45,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Real kitty scene: Housie running at the November kitty while every December weekend is a shaadi. Uses the door-arrivals engine that wins for us (host's one loud rule in the first seconds, a refrain, a chip that moves, the host breaks her own rule, guests throw her line back) in a sitcom so the type test is clean. Lead Tanya (last reel's lead was Myra). Four characters, three per shot. The refrain 'Do hazaar.' is the game: same flat line three times, each fold bigger, Shruti's calculator fold (ticket 1800 < fine 2000, so she skips her niece's shaadi) is the absurd third. Claim before reveal: Tanya's victory lap 'Rule se sab aate hain!' right before the ping. Twist is see-it: the saas's message on Tanya's phone with the date, and Myra joins the dots out loud. Button mirrors the opening: Tanya's rule comes back as a chorus, and her own refrain 'Do hazaar.' comes back from Shruti. Rewrites: ending 1 (Tanya cancels Lucknow) made her the winner, cut; ending 2 (saas calls on speaker) needed a voice outside the cast, swapped for the chat screen; kept the double refrain flip. Pace: every two-line shot 8 words or fewer, hold 0.1, one silenceBefore, pace 28. Kind humour: the joke is on kitty loyalty and shaadi season, nobody's money worries (the fine is a group rule, not hardship). Dates: post lands around end of November, December kitty still ahead."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-18-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-18-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-18-a-board.jpg",
+      "queue_id": "58e06c82-ec23-4de2-be81-703645d0e2e2",
+      "scheduled_ist": "2026-11-28 21:04",
+      "yt_id": "eQ7ctjfqLQE",
+      "yt_url": "https://youtube.com/shorts/eQ7ctjfqLQE",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
