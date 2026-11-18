@@ -12213,6 +12213,205 @@
       "yt_id": "eQ7ctjfqLQE",
       "yt_url": "https://youtube.com/shorts/eQ7ctjfqLQE",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-18-b",
+      "created": "2026-11-18",
+      "title": "Teen shaadi, ek shaam!",
+      "format": "Map journey: Ishita's live location across three wedding halls vs the gang cutting her Housie ticket at the kitty, ending at the kitty door",
+      "hook": "",
+      "cast": [
+        "Ishita",
+        "Tanya",
+        "Shruti",
+        "Ruhi"
+      ],
+      "caption": "Teen shaadi, teen lifafe, khana zero, aur kitty ka Housie bhi nahi chhoda. Tag the friend jo ek shaam mein teen shaadi karti hai!",
+      "status": "needs-fix",
+      "idea": "Housie champ Ishita has three shaadis on kitty night, leaves her ticket with Shruti and races hall to hall paying shagun without eating; she reaches the kitty just as her ticket wins a Full House worth exactly the shagun.",
+      "beats": "hook: Teen shaadi, ek shaam! / setup: ticket to Shruti / esc: hall 1 no food, hall 2 buffet band, hall 3 galat shaadi, ticket filling at the kitty / twist: last number, Ishita's Full House, prize Rs 3300 = shagun / button: Teen shaadi... ek samosa!, chip back to Rs 0",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Kitty in progress, Ishita in her blazer fans three lifafas and says 'Teen shaadi, ek shaam!' while Tanya, at the Housie cage, shouts 'Aur kitty ka Housie?!' under a SHAGUN: Rs 0 chip",
+        "variable": "map-journey with two tracks that cut against each other (her live dot paying shagun, her Housie ticket filling up at the kitty) and a money chip that climbs on the map and drops back to Rs 0 at the end; shaadi-season topic with Ishita as lead, a new face for map reels",
+        "hypothesis": "the three-shaadis-one-evening situation every woman knows in wedding season keeps skip under 34% (map reels so far 34%) and watched above 40% at about 29 s; a 'tag the friend who does three shaadis in one shaam' caption gets 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Teen shaadi, ek shaam!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur kitty ka Housie?!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Ticket tum kaato, Shruti!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Jao! Main sambhaal loongi!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Ishita",
+          "line": "Lifafa diya, photo li, bhaagi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Khana bhi nahi?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Paintalis!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ishita ka kata!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ishita",
+          "line": "Doosra hall! Buffet band!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Haaw! Phir bhookhi?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saat! Lucky seven!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kata! Bas ek bacha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Ishita",
+          "line": "Teesra lifafa diya! Dulhan... kaun?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Galat shaadi mein?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Teen hazaar teen sau gaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur khana zero!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Bhookhi hoon! Number bolo!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Last number... nabbe!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haaw! Tumhara Full House!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Full House? Obviously!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shagun wapas! Aur khana?",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Teen shaadi... ek samosa!",
+          "beat": "button"
+        }
+      ],
+      "duration": 43.54,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Real wedding-season scene: three cards on one date, lifafa and photo and run, and the kitty on the same night. One want (Ishita wants all three shaadis and her Housie), one game (every hall takes the lifafa, gives no food) played ordinary (no time to eat), ordinary (buffet closed), absurd (lifafa given at the wrong wedding). The Housie track keeps cutting in with a ticket counter so the payoff is set up, not explained. Claim before reveal: 'Full House? Obviously!' (her one catchphrase) then the prize chip shows Rs 3300, the exact shagun. Twist is see-it on the chip and the ticket. Button mirrors the hook line and the opening chip (Rs 0) with the opposite meaning. Endings tried: prize goes to the gang's dinner (sour), Ishita leaves for a fourth shaadi (flat), the samosa line (kept). Every two-line shot has 8 words or fewer, hold 0.1. Kind humour: she wins it all back. Rewrote the first draft, which used Myra and an 11-16 style late-host map; Ishita the Housie champ makes the remote ticket win natural."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.12 w/s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-18-b-board.jpg"
     }
   ],
   "ideas": [
