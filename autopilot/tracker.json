@@ -12440,6 +12440,37 @@
         "voice pace >= 2.3 words/s (2.12 w/s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-18-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-19",
+      "created": "2026-11-19",
+      "title": "Card kholo, jaldi!",
+      "format": "Theme Housie",
+      "theme": "shaadikacard",
+      "story": "ai",
+      "variant": "unboxing",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya gets a shaadi card and the gang opens it together: Ruhi checks the date, Megha grabs the kaju dabba, Myra hunts for her name under 'sahparivar', Shruti fixes the lifafa at 101; then Aditi reads the last line: it is the invite to tonight's Shaadi Ka Card Housie, so Tanya calls for lehengas.",
+      "beats": "hook: card aaya, kholo / call: 19 / 1/4 Card: Ruhi date / 2/4 Kaju Dabba: Megha / 3/4 Mehmaan: Myra sahparivar / 4/4 Lifafa: Shruti 101 / turn: Aditi, Housie ka card hai / button: Tanya, lehenga nikaalo",
+      "experiment": {
+        "format": "unboxing",
+        "hook": "Tanya waving a sealed envelope on the Shaadi Ka Card home art, heartbeat at 0 s, mascot ball spinning above, chip 'SHAADI KA CARD AAYA!' pinned from the first frame, she says 'Shaadi ka card aaya! Kholo jaldi!'",
+        "variable": "an unboxing structure built on a ritual every viewer did this wedding season: opening a shaadi card layer by layer (date, kaju dabba, 'sahparivar?', lifafa), one reveal per cut matched to the theme's four prize groups (Card, Kaju Dabba, Mehmaan, Lifafa), so each cut answers a small question and opens the next",
+        "hypothesis": "opening a real wedding card in peak shaadi season is the 'moment people are living now' that earned our only share (festival-moment 10-29), and a reveal every 2 s keeps the middle: skip under 58% (best experiment 57.1), watched % above 22 (best 21), at least 1 share or tag from 'jiska card aaya hai'"
+      },
+      "duration": 38.1,
+      "lufs": null,
+      "caption": "Shaadi ka card aate hi pehle kya dekhte ho: date, kaju dabba ya apna naam? Us saheli ko tag karo jiska card aaj aaya. Aaj Shaadi Ka Card Housie, lehenga ready rakho!\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #shaadi #weddingseason #shaadikacard",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-19.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-19-cover.jpg",
+      "job_id": "1c479bc6-90c1-4e82-933c-641bdf496fd6",
+      "permalink": "https://www.instagram.com/reel/Df5MeFvH6jt/",
+      "media_id": "17914130613592725",
+      "yt_id": "WiBpiaqj_2I",
+      "yt_url": "https://youtube.com/shorts/WiBpiaqj_2I",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
