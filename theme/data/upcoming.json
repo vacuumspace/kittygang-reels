@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:00:12.237Z",
+ "updated": "2026-11-18T18:16:49.952Z",
  "days": [
   {
    "date": "2026-11-18",
@@ -90,7 +90,7 @@
     "id": "shaadikacard",
     "name": "Shaadi Ka Card",
     "pack": "themes/shaadikacard/v1",
-    "sounds": "sounds/shaadikacard/v1",
+    "sounds": "sounds/shaadikacard/v2",
     "colors": {
      "accent": "#9A2A7A",
      "accentDeep": "#6A1A5A",
@@ -164,7 +164,7 @@
     "id": "tulsivivah",
     "name": "Tulsi Vivah",
     "pack": "themes/tulsivivah/v1",
-    "sounds": "sounds/tulsivivah/v1",
+    "sounds": "sounds/tulsivivah/v2",
     "colors": {
      "accent": "#C8102E",
      "accentDeep": "#7A0A1A",

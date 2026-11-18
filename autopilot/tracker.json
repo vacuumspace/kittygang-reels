@@ -9012,17 +9012,17 @@
       "permalink": "https://www.instagram.com/reel/DfxFsnSDugN/",
       "media_id": "18117426587130210",
       "stats": {
-        "views": 1852,
-        "reach": 1416,
+        "views": 1914,
+        "reach": 1461,
         "likes": 10,
         "comments": 0,
         "saves": 0,
         "shares": 0,
         "score": 0.7,
-        "skip": 35.5,
-        "watch_s": 13.3,
+        "skip": 36.2,
+        "watch_s": 13.2,
         "watched_pct": 41,
-        "as_of": "2026-11-17"
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -9388,17 +9388,17 @@
       "permalink": "https://www.instagram.com/reel/Dfzt7oCDmLC/",
       "media_id": "17884787091535241",
       "stats": {
-        "views": 773,
-        "reach": 644,
+        "views": 819,
+        "reach": 690,
         "likes": 3,
         "comments": 0,
         "saves": 0,
         "shares": 0,
-        "score": 0.5,
-        "skip": 48,
-        "watch_s": 9.9,
-        "watched_pct": 31,
-        "as_of": "2026-11-17"
+        "score": 0.4,
+        "skip": 50.2,
+        "watch_s": 9.4,
+        "watched_pct": 30,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -9585,17 +9585,17 @@
       "permalink": "https://www.instagram.com/reel/Df1WvXCjuTc/",
       "media_id": "18026313104868489",
       "stats": {
-        "views": 313,
-        "reach": 265,
+        "views": 383,
+        "reach": 337,
         "likes": 0,
         "comments": 0,
         "saves": 0,
         "shares": 0,
         "score": 0,
-        "skip": 48,
-        "watch_s": 6.2,
-        "watched_pct": 25,
-        "as_of": "2026-11-17"
+        "skip": 52.9,
+        "watch_s": 5.7,
+        "watched_pct": 23,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -9797,7 +9797,20 @@
       "yt_url": "https://youtube.com/shorts/TW01xmM798s",
       "yt_privacy": "private",
       "permalink": "https://www.instagram.com/reel/Df3-TrOAmah/",
-      "media_id": "18132951379796634"
+      "media_id": "18132951379796634",
+      "stats": {
+        "views": 232,
+        "reach": 195,
+        "likes": 0,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "score": 0,
+        "skip": 52,
+        "watch_s": 6.8,
+        "watched_pct": 20,
+        "as_of": "2026-11-18"
+      }
     },
     {
       "id": "KG-2026-11-12-b",
@@ -10762,17 +10775,17 @@
       "yt_url": "https://youtube.com/shorts/aubvcHx7Peg",
       "yt_privacy": "public",
       "stats": {
-        "views": 230,
-        "reach": 193,
+        "views": 263,
+        "reach": 222,
         "likes": 0,
         "comments": 0,
         "saves": 0,
         "shares": 0,
         "score": 0,
-        "skip": 64.3,
-        "watch_s": 4.3,
-        "watched_pct": 16,
-        "as_of": "2026-11-17"
+        "skip": 66.2,
+        "watch_s": 4,
+        "watched_pct": 15,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -11165,17 +11178,17 @@
       "yt_url": "https://youtube.com/shorts/N2P4HDMYJho",
       "yt_privacy": "public",
       "stats": {
-        "views": 206,
-        "reach": 179,
+        "views": 270,
+        "reach": 231,
         "likes": 1,
         "comments": 0,
         "saves": 0,
         "shares": 0,
-        "score": 0.6,
-        "skip": 68.1,
-        "watch_s": 4.2,
-        "watched_pct": 11,
-        "as_of": "2026-11-17"
+        "score": 0.4,
+        "skip": 70.6,
+        "watch_s": 4,
+        "watched_pct": 10,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -11589,17 +11602,17 @@
       "yt_url": "https://youtube.com/shorts/PJX5xVnL1ys",
       "yt_privacy": "public",
       "stats": {
-        "views": 217,
-        "reach": 202,
+        "views": 270,
+        "reach": 252,
         "likes": 0,
         "comments": 0,
         "saves": 0,
         "shares": 0,
         "score": 0,
-        "skip": 63.7,
-        "watch_s": 4.5,
-        "watched_pct": 11,
-        "as_of": "2026-11-17"
+        "skip": 65.6,
+        "watch_s": 4.1,
+        "watched_pct": 10,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -11989,7 +12002,20 @@
       "media_id": "18457066450133175",
       "yt_id": "2PXiZURQN4Y",
       "yt_url": "https://youtube.com/shorts/2PXiZURQN4Y",
-      "yt_privacy": "public"
+      "yt_privacy": "public",
+      "stats": {
+        "views": 273,
+        "reach": 235,
+        "likes": 0,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "score": 0,
+        "skip": 49.6,
+        "watch_s": 6,
+        "watched_pct": 19,
+        "as_of": "2026-11-18"
+      }
     },
     {
       "id": "KG-2026-11-18-a",
@@ -15071,14 +15097,14 @@
       "permalink": "https://www.instagram.com/p/DfwmTRIlHF0/",
       "media_id": "18130248772867899",
       "stats": {
-        "views": 278,
-        "reach": 138,
+        "views": 295,
+        "reach": 147,
         "likes": 4,
         "comments": 0,
         "saves": 1,
         "shares": 0,
-        "score": 5.1,
-        "as_of": "2026-11-17"
+        "score": 4.8,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -15112,14 +15138,14 @@
       "permalink": "https://www.instagram.com/p/DfyrC1SDu-x/",
       "media_id": "18138218746641180",
       "stats": {
-        "views": 334,
-        "reach": 183,
-        "likes": 2,
+        "views": 386,
+        "reach": 209,
+        "likes": 3,
         "comments": 0,
-        "saves": 2,
+        "saves": 5,
         "shares": 2,
-        "score": 7.7,
-        "as_of": "2026-11-17"
+        "score": 11.5,
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -15153,14 +15179,14 @@
       "permalink": "https://www.instagram.com/p/Df1LW8clHNj/",
       "media_id": "18084316298364394",
       "stats": {
-        "views": 176,
-        "reach": 85,
-        "likes": 0,
+        "views": 227,
+        "reach": 115,
+        "likes": 1,
         "comments": 0,
         "saves": 0,
         "shares": 1,
         "score": 3.5,
-        "as_of": "2026-11-17"
+        "as_of": "2026-11-18"
       }
     },
     {
@@ -15192,7 +15218,17 @@
       "queue_id": "a7099641-8ef2-411a-a6da-c8cf0cb5314a",
       "scheduled_ist": "2026-11-18 16:43",
       "permalink": "https://www.instagram.com/p/Df4YG9YjaEn/",
-      "media_id": "18486713995112681"
+      "media_id": "18486713995112681",
+      "stats": {
+        "views": 121,
+        "reach": 58,
+        "likes": 1,
+        "comments": 0,
+        "saves": 2,
+        "shares": 0,
+        "score": 12.1,
+        "as_of": "2026-11-18"
+      }
     },
     {
       "id": "KGI-029",
