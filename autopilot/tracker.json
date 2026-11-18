@@ -12862,7 +12862,7 @@
       "format": "Housie-in-progress sitcom + phone card screens, theme announcement ending",
       "source": "Trend: Festival window: Tulsi Vivah 21 Nov opens shaadi season (17 days, +2) + Shaadi season kitty + Admin breaks her own rule shape",
       "score": 9,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-11-04",
@@ -12907,7 +12907,7 @@
       "format": "Kitty Gang sitcom, living room puja corner with tulsi pot, sugarcane mandap, 3 characters, under 30 s",
       "source": "Trend: Festival window: Dev Uthani 20 Nov + Tulsi Vivah 21 Nov (15-16 days, +2) + Multi-character debate",
       "score": 9,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-11-05",
@@ -13312,7 +13312,7 @@
       "format": "Carousel: slide 1 'Kitty party game: ek din sirf apna' with a lady reading a chit and the room laughing, sample chits, the fake husband chit, the score sheet, winner",
       "source": "Trend: Her own time line gets shares (our reel, 13 shares on 130 reach) + Guess who's who caption",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-12",
@@ -13321,7 +13321,7 @@
       "format": "Carousel: slide 1 'Sardi ki kitty party game' with a lady buried in a sock pile, the rules, the missing-sock twist, a wrong pair caught, the winner's ball pile",
       "source": "Trend: Household dexterity one-minute games (stylecraze.com, venuelook.com) + First winter kitty",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-13",
@@ -13590,6 +13590,60 @@
       "idea": "Jawab hazir: the host reads the taunts every kitty lady hears (\"Itni der se aayi?\", \"Phir wahi saree?\", \"Diet kab se?\", \"Ghar pe khana kaun banayega?\") and the lady in the hot seat has 5 seconds to answer back with one line; the room claps and the loudest clap scores. Crazy twist: on \"Saasu maa mode!\" she must answer back just as sharply but in the sweetest, softest voice, and any raised voice is a zero. 8 to 20 ladies, 15 minutes, chits only.",
       "format": "Kitty Game Ideas carousel with example taunt slides and a comment ask 'Aapko sabse zyada kaunsa taunt milta hai?'",
       "source": "Trend: Pehle chup, ab jawab: answer-back voiceover (freepressjournal.in) + Her own time line gets shares",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-18",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door holding a steel dabba of folded chits: \"December kitty ka Secret Santa! Chit uthao, naam kisi ko mat batana, warna entry nahi!\" chip 'SECRET: 3/3'. Context: one guest per ring, each picks a chit and gives it away at once (Ruhi gasps and stares at Tanya, Myra whispers it to Shruti, Shruti's face says it all), the chip dropping 2, 1, 0 while Tanya points each one to the balcony. Ending: Tanya picks the last chit for herself, reads it and squeals \"Ruhi! Ruhi ko kya doon?\", and all three walk straight in past her.",
+      "format": "Door arrivals (25-28 s), host breaks her own rule, dressed front door with a small Christmas star on the door, max 3 per shot, a secret chip that drops every ring; caption 'Har kitty mein ek Tanya hoti hai jo Secret Santa ka secret khud kholti hai. Tag her!'",
+      "source": "Trend: Secret Santa with a twist (surfoffice.com) + Door-arrivals is our winner (skip 26-34%) + Festival window: December kitty planning",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-18",
+      "type": "reel",
+      "idea": "Hook: Housie running, Myra lays three shaadi cards on the table, all for 3 December, and says \"Teen shaadi, ek shaam, aur kitty bhi!\" chip 'SHAGUN: Rs 0'. Context: the gang follows her live location dot on Ruhi's phone between Housie numbers: hall 1 (one photo with the dulhan, lifafa, run), hall 2 (lifafa, no food), hall 3 (stuck at the gate behind a baraat), the chip climbing Rs 1100, 2200, 3300 spent. Ending: the dot stops at the kitty door and Myra runs in just as Ruhi, who has been cutting Myra's ticket for her, shouts \"Myra ka Full House!\", and Myra holds up the prize envelope: \"Shagun wapas!\"",
+      "format": "Map journey (25-30 s): live location dot vs the gang at the Housie table, ending in a door flip, money chip every shot, max 3 per shot; caption 'Ek shaam mein teen shaadi karne wali saheli ko tag karo!'",
+      "source": "Trend: All the shaadis on the same few dates (patnapress.com) + Festival window shaadi dates 1-6 Dec (13-18 days, +2) + map-journey rotation (skip 34%)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-18",
+      "type": "reel",
+      "idea": "Hook: Housie running, Shruti reads the kitty group poll aloud: \"December kitty ka theme? Red, sequin, winter white ya pajama?\" chip 'POLL: 0-0-0-0'. Context: on every called number one lady campaigns for the theme that lets her reuse something (Ruhi: 'shaadi wali sequin saree ka second use!', Myra: 'white shawl toh hai hi', Shruti: 'red wali Karwa Chauth se rakhi hai'), and the chip ties 1-1-1-0. Ending: Tanya casts the last vote, \"Pajama!\", because she is the one with nothing to wear, and all three groan with their phones still showing their outfits.",
+      "format": "Types-of with one stake chip (poll bars), 25-30 s, Housie table, max 3 per shot; caption 'Har kitty mein ek Tanya hoti hai jo theme apni almari dekh ke chunti hai. Tag her!'",
+      "source": "Trend: Festival window: December kitty theme planning + Types-of with one stake chip (skip 33.3%) + Nominate-your-friend call gets shares",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-18",
+      "type": "game",
+      "idea": "Santa pehchano: every lady brings one wrapped gift under Rs 200 with three clues about herself on the tag (favourite mithai, a saree colour she always wears, one habit) and no name; gifts are shuffled and handed out, and each lady reads her tag aloud and gets 3 guesses at her Secret Santa. Right guess, a point to her; three wrong, a point to the Santa. Crazy twist: when the host shouts \"Ho ho ho!\" everyone must pass her unopened gift two places to the right and guess for the new tag. 8 to 20 ladies, 15 to 20 minutes, gifts and tags only.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Christmas kitty game: apna Santa pehchano!' with a lady squinting at a gift tag, sample clues, how to play, the Ho ho ho twist, the winner; comment ask 'Aapki kitty mein sabse aasaan Santa kaun hai?'",
+      "source": "Trend: Secret Santa with a twist (surfoffice.com, teambuilding.com) + Festival window: December kitty planning",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-18",
+      "type": "game",
+      "idea": "Teen shaadi, ek shaam: three chairs round the room are three shaadi halls, each with a task: hall 1, slip a toffee shagun into an envelope; hall 2, hold a selfie pose with the 'dulhan' (a cushion in a dupatta) for 3 seconds; hall 3, eat one piece of namkeen 'dinner'. Teams run it as a relay, each lady visits all three halls and tags the next. Crazy twist: when the host shouts \"Baraat aa gayi!\" the runner must stop and do 5 seconds of baraat dance on the spot before moving on. 8 to 20 ladies in 2 or 3 teams, 10 to 15 minutes, 3 chairs, envelopes, toffees, one cushion, namkeen.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Shaadi season kitty game: teen shaadi, ek shaam!' with a lady sprinting between chairs in a saree, setup of the 3 halls, relay rules, the Baraat twist, the winning team",
+      "source": "Trend: All the shaadis on the same few dates (patnapress.com) + Festival window shaadi dates 1-6 Dec (+2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-18",
+      "type": "game",
+      "idea": "Christmas tree banao: teams of 4 or 5 pick one lady as the tree and get 2 minutes to dress her from a shared pile of household things (green dupattas, bangles as baubles, a steel plate star, ribbon from Diwali gift boxes, fairy lights if there are any). Crazy twist: the host then plays a song for 20 seconds and every tree must stand still while her team sings; anything that falls off counts zero, and the most decorated tree still standing wins. 8 to 20 ladies, 10 to 15 minutes, only what is already in the house.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Christmas kitty game: saheli ko tree banao!' with a lady wrapped in green dupattas and bangles, what you need, rules, the freeze twist, the winning tree; comment ask 'Aapki kitty mein tree kaun banegi?'",
+      "source": "Trend: Festival window: December kitty planning (Christmas theme) + Household dexterity one-minute games",
       "score": 8,
       "used": ""
     }
@@ -14714,6 +14768,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-18",
+      "pattern": "Festival window: shaadi dates 1-6 Dec and 11-13 Dec + Vivah Panchami 14 Dec + December kitty theme planning + Christmas 25 Dec",
+      "source": "Shubh vivah muhurat December 2026 (vedicfeed.com) + December 2026 Hindu Festivals (hindutone.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://vedicfeed.com/shubh-marriage-dates/december-2026/",
+      "learn": "New drafts post about 28 Nov onward, so the timely hooks are the early December shaadi dates (13-18 days out, +2) and the end-of-November kitty where the December theme and Secret Santa chits get decided; Christmas itself (37 days) is only a planning hook for now."
+    },
+    {
+      "date": "2026-11-18",
+      "pattern": "All the shaadis on the same few dates",
+      "source": "Only 13 auspicious wedding dates in November and December this year (patnapress.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://patnapress.com/?p=47936",
+      "learn": "With so few muhurats every family has two or three shaadis on one evening; the hall-hopping evening (photo with the dulhan, lifafa, run) is a one-glance real scene for a map-journey reel or a relay game."
+    },
+    {
+      "date": "2026-11-18",
+      "pattern": "Secret Santa with a twist",
+      "source": "Secret Santa games: dice exchange, guess your Santa from clues (surfoffice.com, teambuilding.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://surfoffice.com/blog/secret-santa-games",
+      "learn": "December kitties run a gift exchange and draw the chits a month ahead; copy the twist shapes (dice swaps, guess the giver from clues) onto a kitty gift exchange and onto the chit draw at the door."
+    },
+    {
+      "date": "2026-11-18",
+      "pattern": "Housie variant carousel leads our games",
+      "source": "Our carousel 'Housie wahi, bas sir pe katori! Giri toh ticket padosan ki.' (KGI-026)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.instagram.com/p/DfyrC1SDu-x/",
+      "learn": "334 views, 2 shares, 2 saves in two days, about twice the Sehra Bandhi carousel (176 views, 1 share); a known game (Housie) with one physical twist is easier to save than a brand-new game, so keep one Housie variant in every few game ideas."
+    },
     {
       "date": "2026-11-17",
       "pattern": "Festival window: shaadi dates 21-26 Nov + Kalbhairav Jayanti 1 Dec + Vivah Panchami 14 Dec + Gita Jayanti 19-20 Dec + Dattatreya Jayanti 23 Dec",
