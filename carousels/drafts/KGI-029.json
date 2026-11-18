@@ -1,0 +1,701 @@
+{
+  "id": "KGI-029",
+  "n": 29,
+  "slug": "shaadi-word-housie-acting-kitty-party-game",
+  "game": "Shaadi Word Housie",
+  "tagline": "Host bolegi nahi, act karegi!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 10,
+      "y": 10,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 200,
+      "y": 220,
+      "s": 1.2,
+      "color": "green",
+      "label": "Host"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"152\" y=\"131.2\" width=\"96\" height=\"16.8\" rx=\"7.199999999999999\" fill=\"#FFC93C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"160.4\" y1=\"148\" x2=\"160.4\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/><line x1=\"173.6\" y1=\"148\" x2=\"173.6\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/><line x1=\"186.8\" y1=\"148\" x2=\"186.8\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/><line x1=\"200\" y1=\"148\" x2=\"200\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/><line x1=\"213.2\" y1=\"148\" x2=\"213.2\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/><line x1=\"226.4\" y1=\"148\" x2=\"226.4\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/><line x1=\"239.60000000000002\" y1=\"148\" x2=\"239.60000000000002\" y2=\"210.4\" stroke=\"#FFFFFF\" stroke-width=\"4.8\" stroke-dasharray=\"6 3.5999999999999996\"/>"
+    },
+    {
+      "k": "hand",
+      "x": 130,
+      "y": 150,
+      "rot": -20,
+      "s": 0.8
+    },
+    {
+      "k": "hand",
+      "x": 270,
+      "y": 150,
+      "rot": 20,
+      "s": 0.8
+    },
+    {
+      "k": "text",
+      "x": 200,
+      "y": 60,
+      "text": "Shhh...",
+      "size": 40,
+      "color": "yel"
+    },
+    {
+      "k": "arrow",
+      "x1": 320,
+      "y1": 200,
+      "x2": 470,
+      "y2": 200,
+      "color": "white",
+      "w": 8
+    },
+    {
+      "k": "person",
+      "x": 590,
+      "y": 220,
+      "s": 1.2,
+      "color": "yel"
+    },
+    {
+      "k": "text",
+      "x": 590,
+      "y": 70,
+      "text": "Sehra!",
+      "size": 44,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"706\" y=\"56\" width=\"288\" height=\"288\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"720\" y=\"70\" width=\"260\" height=\"260\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"806.6666666666666\" y1=\"70\" x2=\"806.6666666666666\" y2=\"330\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"720\" y1=\"156.66666666666669\" x2=\"980\" y2=\"156.66666666666669\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"893.3333333333334\" y1=\"70\" x2=\"893.3333333333334\" y2=\"330\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"720\" y1=\"243.33333333333334\" x2=\"980\" y2=\"243.33333333333334\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"763.3333333333334\" y=\"122.43333333333334\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Sehra</text><path d=\"M735.6 85.60000000000001 L791.0666666666667 141.06666666666666 M791.0666666666667 85.60000000000001 L735.6 141.06666666666666\" stroke=\"#E85D8A\" stroke-width=\"5.2\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"850\" y=\"122.43333333333334\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Dhol</text><text x=\"936.6666666666667\" y=\"122.43333333333334\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Haldi</text><text x=\"763.3333333333334\" y=\"209.10000000000002\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Doli</text><text x=\"850\" y=\"207.7638888888889\" font-size=\"22.18253968253968\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Shagun</text><path d=\"M822.2666666666667 172.2666666666667 L877.7333333333333 227.73333333333335 M877.7333333333333 172.2666666666667 L822.2666666666667 227.73333333333335\" stroke=\"#E85D8A\" stroke-width=\"5.2\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"936.6666666666667\" y=\"209.10000000000002\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Ghodi</text><text x=\"763.3333333333334\" y=\"294.4305555555556\" font-size=\"22.18253968253968\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Bidaai</text><text x=\"850\" y=\"295.7666666666667\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Phere</text><text x=\"936.6666666666667\" y=\"294.4305555555556\" font-size=\"22.18253968253968\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Selfie</text>"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas kaagaz aur pen",
+    "items": [
+      {
+        "label": "Kaagaz",
+        "sub": "ek har lady ko",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<rect x=\"71\" y=\"31\" width=\"158\" height=\"158\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"85\" y=\"45\" width=\"130\" height=\"130\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"128.33333333333334\" y1=\"45\" x2=\"128.33333333333334\" y2=\"175\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"85\" y1=\"88.33333333333334\" x2=\"215\" y2=\"88.33333333333334\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"171.66666666666669\" y1=\"45\" x2=\"171.66666666666669\" y2=\"175\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"85\" y1=\"131.66666666666669\" x2=\"215\" y2=\"131.66666666666669\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Pen",
+        "sub": "ek har lady ko",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 110) rotate(-30) scale(1)\"><rect x=\"-90\" y=\"-12\" width=\"180\" height=\"24\" rx=\"8\" fill=\"#4DA3FF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M90 -12 L122 0 L90 12 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "20 word chits",
+        "sub": "shaadi words, bowl mein",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "bowl",
+            "x": 150,
+            "y": 150,
+            "s": 0.8,
+            "color": "yel"
+          },
+          {
+            "k": "chit",
+            "x": 105,
+            "y": 80,
+            "s": 0.7,
+            "text": "Sehra",
+            "rot": -12
+          },
+          {
+            "k": "chit",
+            "x": 200,
+            "y": 75,
+            "s": 0.7,
+            "text": "Doli",
+            "rot": 10
+          }
+        ]
+      },
+      {
+        "label": "Chhote prize",
+        "sub": "line aur full grid",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "box",
+            "x": 150,
+            "y": 120,
+            "w": 180,
+            "h": 120,
+            "color": "pink",
+            "text": "Prize"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Kaagaz pe 3x3 grid banao",
+      "body": "Har lady 9 khaane banaye. Host 20 shaadi words zor se padhe.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 300,
+          "s": 1.5,
+          "color": "green",
+          "label": "Host"
+        },
+        {
+          "k": "box",
+          "x": 180,
+          "y": 570,
+          "w": 320,
+          "h": 200,
+          "color": "yelSoft"
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 525,
+          "text": "20 words",
+          "size": 38,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 580,
+          "text": "Mehendi, Sehra,",
+          "size": 28
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 630,
+          "text": "Doli, Dhol...",
+          "size": 28
+        },
+        {
+          "k": "arrow",
+          "x1": 360,
+          "y1": 330,
+          "x2": 520,
+          "y2": 330,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"546\" y=\"146\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"560\" y=\"160\" width=\"330\" height=\"330\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"670\" y1=\"160\" x2=\"670\" y2=\"490\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"560\" y1=\"270\" x2=\"890\" y2=\"270\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"780\" y1=\"160\" x2=\"780\" y2=\"490\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"560\" y1=\"380\" x2=\"890\" y2=\"380\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(870 560) rotate(-35) scale(0.9)\"><rect x=\"-90\" y=\"-12\" width=\"180\" height=\"24\" rx=\"8\" fill=\"#4DA3FF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M90 -12 L122 0 L90 12 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 725,
+          "y": 110,
+          "text": "9 khaane",
+          "size": 46,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Koi bhi 9 words bharo",
+      "body": "List mein se apni pasand ke 9 words, ek khaane mein ek.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 170,
+          "y": 340,
+          "s": 1.6,
+          "color": "pink"
+        },
+        {
+          "k": "hand",
+          "x": 330,
+          "y": 420,
+          "rot": 70,
+          "s": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(380 450) rotate(-40) scale(0.7)\"><rect x=\"-90\" y=\"-12\" width=\"180\" height=\"24\" rx=\"8\" fill=\"#4DA3FF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M90 -12 L122 0 L90 12 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"426\" y=\"126\" width=\"448\" height=\"448\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"440\" y=\"140\" width=\"420\" height=\"420\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"580\" y1=\"140\" x2=\"580\" y2=\"560\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"440\" y1=\"280\" x2=\"860\" y2=\"280\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"720\" y1=\"140\" x2=\"720\" y2=\"560\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"440\" y1=\"420\" x2=\"860\" y2=\"420\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"510\" y=\"224\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Sehra</text><text x=\"650\" y=\"224\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Dhol</text><text x=\"790\" y=\"224\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Haldi</text><text x=\"510\" y=\"364\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Doli</text><text x=\"650\" y=\"362.5416666666667\" font-size=\"35.83333333333333\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Shagun</text><text x=\"790\" y=\"364\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Ghodi</text><text x=\"510\" y=\"502.5416666666667\" font-size=\"35.83333333333333\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Bidaai</text><text x=\"650\" y=\"504\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Phere</text><text x=\"790\" y=\"502.5416666666667\" font-size=\"35.83333333333333\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Selfie</text>"
+        },
+        {
+          "k": "text",
+          "x": 650,
+          "y": 100,
+          "text": "Sabki grid alag",
+          "size": 44,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Host bolegi nahi, act karegi",
+      "body": "Host chit nikaale aur 5 second word ki acting kare. Bolna mana.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 360,
+          "s": 2,
+          "color": "green",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"180\" y=\"212\" width=\"160\" height=\"28\" rx=\"12\" fill=\"#FFC93C\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"194\" y1=\"240\" x2=\"194\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/><line x1=\"216\" y1=\"240\" x2=\"216\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/><line x1=\"238\" y1=\"240\" x2=\"238\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/><line x1=\"260\" y1=\"240\" x2=\"260\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/><line x1=\"282\" y1=\"240\" x2=\"282\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/><line x1=\"304\" y1=\"240\" x2=\"304\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/><line x1=\"326\" y1=\"240\" x2=\"326\" y2=\"344\" stroke=\"#FFFFFF\" stroke-width=\"8\" stroke-dasharray=\"10 6\"/>"
+        },
+        {
+          "k": "hand",
+          "x": 150,
+          "y": 240,
+          "rot": -20,
+          "s": 1
+        },
+        {
+          "k": "hand",
+          "x": 370,
+          "y": 240,
+          "rot": 20,
+          "s": 1
+        },
+        {
+          "k": "chit",
+          "x": 520,
+          "y": 560,
+          "s": 1.1,
+          "text": "Sehra",
+          "rot": -8
+        },
+        {
+          "k": "arrow",
+          "x1": 470,
+          "y1": 500,
+          "x2": 380,
+          "y2": 440,
+          "color": "ink",
+          "w": 7
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"560\" cy=\"200\" r=\"80\" fill=\"#FFFFFF\" stroke=\"#D7263D\" stroke-width=\"12.8\"/><text x=\"560\" y=\"217.6\" font-size=\"48\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">bol</text><line x1=\"504\" y1=\"256\" x2=\"616\" y2=\"144\" stroke=\"#D7263D\" stroke-width=\"12.8\"/>"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 340,
+          "text": "Bolna mana",
+          "size": 34,
+          "color": "pink"
+        },
+        {
+          "k": "timer",
+          "x": 800,
+          "y": 380,
+          "s": 1.3,
+          "text": "0:05"
+        }
+      ]
+    },
+    {
+      "title": "Samjha? Toh chupchap kaato",
+      "body": "Word grid mein ho toh kaato. Host chit chhupa ke rakhe, batati nahi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 330,
+          "s": 1.5,
+          "color": "yel"
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 140,
+          "text": "Sehra hai!",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 260,
+          "y1": 360,
+          "x2": 400,
+          "y2": 360,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"426\" y=\"146\" width=\"428\" height=\"428\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"440\" y=\"160\" width=\"400\" height=\"400\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"573.3333333333334\" y1=\"160\" x2=\"573.3333333333334\" y2=\"560\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"440\" y1=\"293.33333333333337\" x2=\"840\" y2=\"293.33333333333337\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"706.6666666666667\" y1=\"160\" x2=\"706.6666666666667\" y2=\"560\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"440\" y1=\"426.6666666666667\" x2=\"840\" y2=\"426.6666666666667\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"506.6666666666667\" y=\"239.9666666666667\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Sehra</text><path d=\"M464 184 L549.3333333333334 269.33333333333337 M549.3333333333334 184 L464 269.33333333333337\" stroke=\"#E85D8A\" stroke-width=\"8\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"640\" y=\"239.9666666666667\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Dhol</text><text x=\"773.3333333333334\" y=\"239.9666666666667\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Haldi</text><text x=\"506.6666666666667\" y=\"373.30000000000007\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Doli</text><text x=\"640\" y=\"371.9444444444445\" font-size=\"34.12698412698413\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Shagun</text><text x=\"773.3333333333334\" y=\"373.30000000000007\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Ghodi</text><text x=\"506.6666666666667\" y=\"505.2777777777778\" font-size=\"34.12698412698413\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Bidaai</text><text x=\"640\" y=\"506.6333333333334\" font-size=\"38\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Phere</text><text x=\"773.3333333333334\" y=\"505.2777777777778\" font-size=\"34.12698412698413\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Selfie</text>"
+        },
+        {
+          "k": "chit",
+          "x": 780,
+          "y": 640,
+          "s": 0.8,
+          "text": "?",
+          "rot": 6
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 120,
+          "text": "Galat kaata? Claim pe pakda jaayega",
+          "size": 30,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "\"Fufaji naraz!\" Sheet left ko",
+      "body": "Host chillaaye toh sab apni sheet left wali lady ko do, uspe khelo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 10,
+          "y": 10,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 90,
+          "text": "\"Fufaji naraz!\"",
+          "size": 56,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 170,
+          "y": 300,
+          "s": 1.4,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 470,
+          "y": 300,
+          "s": 1.4,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 770,
+          "y": 300,
+          "s": 1.4,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"56\" y=\"436\" width=\"228\" height=\"228\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"70\" y=\"450\" width=\"200\" height=\"200\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"136.66666666666669\" y1=\"450\" x2=\"136.66666666666669\" y2=\"650\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"70\" y1=\"516.6666666666666\" x2=\"270\" y2=\"516.6666666666666\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"203.33333333333334\" y1=\"450\" x2=\"203.33333333333334\" y2=\"650\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"70\" y1=\"583.3333333333334\" x2=\"270\" y2=\"583.3333333333334\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"103.33333333333334\" y=\"492.29166666666663\" font-size=\"25.595238095238095\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Dhol</text><text x=\"170.00000000000003\" y=\"492.29166666666663\" font-size=\"25.595238095238095\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Doli</text><text x=\"236.66666666666669\" y=\"490.5\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Haldi</text><path d=\"M215.33333333333334 462 L258 504.66666666666663 M258 462 L215.33333333333334 504.66666666666663\" stroke=\"#E85D8A\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"103.33333333333334\" y=\"557.1666666666666\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Sehra</text><text x=\"170.00000000000003\" y=\"557.1666666666666\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Ghodi</text><text x=\"236.66666666666669\" y=\"557.1666666666666\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Phere</text><text x=\"103.33333333333334\" y=\"622.6388888888889\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Selfie</text><text x=\"170.00000000000003\" y=\"621.7857142857143\" font-size=\"14.625850340136054\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Mehendi</text><text x=\"236.66666666666669\" y=\"622.6388888888889\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Shagun</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"356\" y=\"436\" width=\"228\" height=\"228\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"370\" y=\"450\" width=\"200\" height=\"200\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"436.6666666666667\" y1=\"450\" x2=\"436.6666666666667\" y2=\"650\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"370\" y1=\"516.6666666666666\" x2=\"570\" y2=\"516.6666666666666\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"503.33333333333337\" y1=\"450\" x2=\"503.33333333333337\" y2=\"650\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"370\" y1=\"583.3333333333334\" x2=\"570\" y2=\"583.3333333333334\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"403.3333333333333\" y=\"490.5\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Sehra</text><text x=\"470\" y=\"490.5\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Haldi</text><path d=\"M448.6666666666667 462 L491.3333333333333 504.66666666666663 M491.3333333333333 462 L448.6666666666667 504.66666666666663\" stroke=\"#E85D8A\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"536.6666666666667\" y=\"492.29166666666663\" font-size=\"25.595238095238095\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Doli</text><text x=\"403.3333333333333\" y=\"555.9722222222222\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Buffet</text><text x=\"470\" y=\"558.9583333333334\" font-size=\"25.595238095238095\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Dhol</text><path d=\"M448.6666666666667 528.6666666666666 L491.3333333333333 571.3333333333334 M491.3333333333333 528.6666666666666 L448.6666666666667 571.3333333333334\" stroke=\"#E85D8A\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"536.6666666666667\" y=\"557.1666666666666\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Phere</text><text x=\"403.3333333333333\" y=\"623.8333333333334\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Ghodi</text><text x=\"470\" y=\"622.6388888888889\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Bidaai</text><text x=\"536.6666666666667\" y=\"622.6388888888889\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Selfie</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"656\" y=\"436\" width=\"228\" height=\"228\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"670\" y=\"450\" width=\"200\" height=\"200\" fill=\"#FFF6E0\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"736.6666666666666\" y1=\"450\" x2=\"736.6666666666666\" y2=\"650\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"670\" y1=\"516.6666666666666\" x2=\"870\" y2=\"516.6666666666666\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"803.3333333333334\" y1=\"450\" x2=\"803.3333333333334\" y2=\"650\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><line x1=\"670\" y1=\"583.3333333333334\" x2=\"870\" y2=\"583.3333333333334\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"703.3333333333334\" y=\"490.5\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Sehra</text><path d=\"M682 462 L724.6666666666667 504.66666666666663 M724.6666666666667 462 L682 504.66666666666663\" stroke=\"#E85D8A\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\"0.85\"/><text x=\"770\" y=\"492.29166666666663\" font-size=\"25.595238095238095\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Dhol</text><text x=\"836.6666666666667\" y=\"490.5\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Haldi</text><text x=\"703.3333333333334\" y=\"558.9583333333334\" font-size=\"25.595238095238095\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Doli</text><text x=\"770\" y=\"555.9722222222222\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Shagun</text><text x=\"836.6666666666667\" y=\"557.1666666666666\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Ghodi</text><text x=\"703.3333333333334\" y=\"622.6388888888889\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Bidaai</text><text x=\"770\" y=\"623.8333333333334\" font-size=\"20.476190476190474\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Phere</text><text x=\"836.6666666666667\" y=\"622.6388888888889\" font-size=\"17.063492063492063\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"Fredoka\">Selfie</text>"
+        },
+        {
+          "k": "arrow",
+          "x1": 655,
+          "y1": 550,
+          "x2": 590,
+          "y2": 550,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "arrow",
+          "x1": 355,
+          "y1": 550,
+          "x2": 290,
+          "y2": 550,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 720,
+          "text": "Sheet left ko, ab uspe khelo",
+          "size": 34,
+          "color": "mute"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Pehle line, phir full grid",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Galat word kaata?",
+          "Bogey! Claim cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Host ne word bol diya?",
+          "Woh chit wapas bowl mein."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Padosan ki grid dekhi?",
+          "Ek kaata word mitao."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Teen ek line mein, sab sahi?",
+          "Line ka prize tumhara!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Aakhri 5 words ki acting",
+        "sirf 3 second mein."
+      ],
+      [
+        "Jisne line jeeti, woh",
+        "agla word act karegi."
+      ],
+      [
+        "\"Bidaai!\" bole toh sheet",
+        "right ko, rote rote."
+      ]
+    ],
+    "tip": "Pehle list sabko dikhao, phir chits bowl mein daalo."
+  },
+  "comment_hint": "sabse mushkil word?",
+  "caption": "Housie wahi, bas host bolegi nahi, sirf acting! Aur \"Fufaji naraz!\" pe sheet padosan ki. Aapki kitty mein sabse funny acting kaun karega?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#shaadiwordhousie",
+    "#housie",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Shaadi Word Housie: Acting Housie Game for Kitty Parties",
+    "description": "Shaadi Word Housie is a kitty party Housie game with shaadi words instead of numbers, acted out by the host. Word list, rules, Fufaji twist, tips and FAQ.",
+    "intro": "Shaadi Word Housie is a kitty party version of Housie (tambola) where every lady fills a 3x3 paper grid with shaadi words like mehendi, sehra and doli, and the host acts each word out in 5 seconds instead of calling it. You win by being the first to cut a full line of three, and then the full grid, with every cut word actually called. The crazy twist: whenever the host shouts \"Fufaji naraz!\", every lady passes her sheet to the lady on her left and carries on playing that one. All you need is paper, pens and 20 word chits, which makes it a perfect shaadi season kitty game.",
+    "players": "8 to 20",
+    "time": "15 minutes",
+    "materials": [
+      "One sheet of paper and one pen per lady",
+      "20 chits with one shaadi word each, in a bowl for the host: Mehendi, Sehra, Varmala, Shagun, Baraat, Dhol, Phere, Bidaai, Haldi, Joota Chupai, Ghodi, Doli, Sangeet, Ghoonghat, Selfie, Buffet, Nagin Dance, Photographer, Rishtedaar, Fufaji",
+      "A small prize for the first line and the full grid"
+    ],
+    "steps": [
+      "Every lady draws a 3x3 grid (9 boxes) on her paper. The host reads the list of 20 shaadi words out loud, or shows it to everyone.",
+      "Each lady writes any 9 words from the list in her grid, one word per box, so every grid is different.",
+      "The host pulls one chit from the bowl and acts the word for 5 seconds without speaking: hands over the face for sehra, drumming for dhol, a selfie pose for selfie.",
+      "Any lady who has guessed the word and has it in her grid quietly cuts it. The host keeps the chit face down on a side plate and does not say the word.",
+      "Whenever the host shouts \"Fufaji naraz!\", every lady passes her sheet to the lady on her left and keeps playing on that sheet.",
+      "The first lady to cut three words in a line (across, down or diagonal) claims a line. The host checks against the used chits. Play on until someone cuts the full grid."
+    ],
+    "rules": [
+      "A claim with even one wrongly cut word is a bogey and that claim is cancelled.",
+      "If the host says the word by mistake, that chit goes back into the bowl and is acted again later.",
+      "Peeping at the next lady's grid costs you one cut word, which you must rub out.",
+      "A line of three correct cuts wins the line prize; a full grid of nine wins the top prize."
+    ],
+    "variations": [
+      "For the last 5 words, the host gets only 3 seconds to act each one.",
+      "The lady who wins the line becomes the actor for the next word.",
+      "When the host shouts \"Bidaai!\", everyone passes her sheet to the right while pretending to cry."
+    ],
+    "tips": [
+      "Show the full word list to everyone before the game, then fold the chits into the bowl.",
+      "Keep the used chits face down on a plate so claims can be checked fairly.",
+      "Ask the funniest lady in the group to be the host; the acting is half the fun.",
+      "Add your own group words, like the name of your kitty or a running joke, to the list."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Shaadi Word Housie?",
+        "a": "It works for 8 to 20 ladies plus one host. Everyone plays at once on her own grid, so it suits big kitty groups."
+      },
+      {
+        "q": "What do you need to play Shaadi Word Housie?",
+        "a": "Paper, a pen for each lady, 20 chits with shaadi words in a bowl and a couple of small prizes. No printed tickets are needed."
+      },
+      {
+        "q": "Which shaadi words are good for word Housie?",
+        "a": "Mehendi, sehra, varmala, shagun, baraat, dhol, phere, bidaai, haldi, joota chupai, ghodi, doli, sangeet, ghoonghat, selfie, buffet, nagin dance, photographer, rishtedaar and fufaji all act out easily."
+      },
+      {
+        "q": "How is Shaadi Word Housie different from normal Housie?",
+        "a": "There are no numbers. Ladies write their own 3x3 grid of shaadi words, the host acts each word silently, and on \"Fufaji naraz!\" everyone swaps sheets to the left."
+      },
+      {
+        "q": "Is Shaadi Word Housie good for a shaadi theme kitty party?",
+        "a": "Yes. It fits any wedding season or shaadi theme kitty, it needs no special tickets, and the silent acting keeps the whole room laughing."
+      }
+    ]
+  }
+}
