@@ -12471,6 +12471,210 @@
       "yt_id": "WiBpiaqj_2I",
       "yt_url": "https://youtube.com/shorts/WiBpiaqj_2I",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-19-a",
+      "created": "2026-11-19",
+      "title": "Teen shaadi, ek shaam!",
+      "format": "Map journey: Ishita's live location across three wedding halls vs Megha and the gang cutting her Housie ticket at the kitty, ending at the kitty door",
+      "hook": "",
+      "cast": [
+        "Ishita",
+        "Tanya",
+        "Megha",
+        "Ruhi"
+      ],
+      "caption": "Teen shaadi, teen lifafe, khana zero, aur kitty ka Housie bhi nahi chhoda. Tag the friend jo ek shaam mein teen shaadi karti hai!",
+      "status": "queued",
+      "idea": "Housie champ Ishita has three shaadis on kitty night, leaves her ticket with Megha and races hall to hall paying shagun without eating; she reaches the kitty just as her ticket wins a Full House worth exactly the shagun.",
+      "beats": "hook: Teen shaadi, ek shaam! / setup: ticket to Megha / esc: hall 1 no food, hall 2 buffet band, hall 3 galat shaadi, ticket filling at the kitty / twist: last number, Ishita's Full House, prize Rs 3300 = shagun / button: Teen shaadi... ek samosa!, chip back to Rs 0",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Kitty in progress, Ishita in her blazer fans three lifafas and says 'Teen shaadi, ek shaam!' while Tanya, at the Housie cage, shouts 'Aur kitty ka Housie?!' under a SHAGUN: Rs 0 chip",
+        "variable": "map-journey with two tracks that cut against each other (her live dot paying shagun, her Housie ticket filling up at the kitty) and a money chip that climbs on the map and drops back to Rs 0 at the end; shaadi-season topic with Ishita as lead, a new face for map reels; fix of KG-2026-11-18-b (pace 2.12 w/s): Megha (fast voice) replaces Shruti on the ticket, pace 36, no ellipses, silent map shot cut, word-denser lines",
+        "hypothesis": "the three-shaadis-one-evening situation every woman knows in wedding season keeps skip under 34% (map reels so far 34%) and watched above 40% at about 29 s; a 'tag the friend who does three shaadis in one shaam' caption gets 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Aaj teen shaadi, ek shaam!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur kitty ka Housie kaun khelega?!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Mera ticket tum kaato, Megha!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Jao jao, main hoon na!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Ishita",
+          "line": "Lifafa diya, photo li, bhaagi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Arre, khana bhi nahi khaya?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chaar paanch, paintalis!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Ishita ka kata! Do bache!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ishita",
+          "line": "Doosra hall! Buffet band ho gaya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Haaw! Phir se bhookhi?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saat number, lucky seven!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Kata! Bas ek bacha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Ishita",
+          "line": "Teesra lifafa diya! Dulhan kaun hai?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Tum galat shaadi mein ho?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Teen hazaar teen sau gaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur khana ek dum zero!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Bhookhi hoon! Jaldi number bolo!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Last number, nabbe!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haaw! Tumhara Full House!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Full House? Obviously!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shagun wapas! Aur khana?",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ishita",
+          "line": "Teen shaadi, ek samosa!",
+          "beat": "button"
+        }
+      ],
+      "duration": 40.49,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Fix of KG-2026-11-18-b, which failed QA on voice pace (2.12 w/s). Same story and game; Megha (fastest-voiced kitty member, and her samosa gag pays off in the button) replaces slow-voiced Shruti on the ticket, pace 36, no ellipses, the silent 1.3 s map shot is cut and its doorbell moves into the arrival shot, and short exclamation lines got a connective word or two so the talk overlaps more. Real wedding-season scene: three cards on one date, lifafa and photo and run, and the kitty on the same night. One want (Ishita wants all three shaadis and her Housie), one game (every hall takes the lifafa, gives no food) played ordinary (no time to eat), ordinary (buffet closed), absurd (lifafa given at the wrong wedding). The Housie track keeps cutting in with a ticket counter so the payoff is set up, not explained. Claim before reveal: 'Full House? Obviously!' (her one catchphrase) then the prize chip shows Rs 3300, the exact shagun. Twist is see-it on the chip and the ticket. Button mirrors the hook line and the opening chip (Rs 0) with the opposite meaning. Endings tried: prize goes to the gang's dinner (sour), Ishita leaves for a fourth shaadi (flat), the samosa line (kept). Every two-line shot has 8 words or fewer, hold 0.1. Kind humour: she wins it all back. Rewrote the first draft, which used Myra and an 11-16 style late-host map; Ishita the Housie champ makes the remote ticket win natural."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-19-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-19-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-19-a-board.jpg",
+      "queue_id": "e5cdf109-85e2-4d7c-a69d-2e2162374f7a",
+      "scheduled_ist": "2026-11-29 13:58",
+      "yt_id": "5zIuDUKqJvU",
+      "yt_url": "https://youtube.com/shorts/5zIuDUKqJvU",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
