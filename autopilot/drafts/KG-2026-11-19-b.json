@@ -1,0 +1,323 @@
+{
+  "id": "KG-2026-11-19-b",
+  "title": "Naam bataya toh entry nahi!",
+  "format": "Door arrivals, Secret Santa rule at the front door, one chit per ring, host breaks her own rule",
+  "idea": "Tanya runs the Christmas kitty Secret Santa at her door and sends every guest who gives away her chit to the balcony, then reads her own chit out loud.",
+  "logline": "Tanya makes every guest pick a Secret Santa chit at the door and sends anyone who gives the name away to the balcony, until she squeals her own chit out loud.",
+  "game": "every guest gives away her Secret Santa name the second she reads it",
+  "experiment": {
+    "type": "door-arrivals",
+    "hook": "doorbell, Tanya blocks her door holding the kitty pot full of chits as Ruhi stands in the doorway: 'Secret Santa! Chit lo! Naam bataya, entry nahi!'",
+    "variable": "a secret-keeping rule (not money, not food, not dress) where each guest breaks it through her own character trait (gossip, new girl, budget queen), to see if a character-driven giveaway lifts shares over the object-giveaway door reels",
+    "hypothesis": "skip under 30% and watched above 50% like the other door reels; Secret Santa is a December ritual every kitty group runs, so a 'Tag your Tanya' caption should pass 3 shares"
+  },
+  "mute": [
+    "Tanya blocks her door holding a pot of chits, chip SECRET SANTA: 3/3 RAAZ, Ruhi in the doorway",
+    "Ruhi opens a chit and giggles, Tanya leans in to hear it",
+    "Ruhi points at Tanya, caption 'Mujhe tum mili!', Tanya shocked, chip BALCONY: 1",
+    "doorbell, Myra hops in excited, Ruhi waits on the side",
+    "Myra reads her chit out loud 'yeh Shruti kaun?', Tanya points away, chip BALCONY: 2",
+    "doorbell, Shruti in the doorway says 'Main hoon Shruti', Myra waves at her",
+    "Shruti picks a chit, taps her calculator and looks at Myra: 'Myra ke liye 150', Myra shocked, chip BALCONY: 3",
+    "Tanya twirls with the pot, three guests out, chip RAAZ: SIRF TANYA",
+    "silence, Tanya opens the last chit for herself and squeals 'Ruhi!', Ruhi shocked, chip TANYA: RUHI!",
+    "Ruhi and Shruti point at Tanya together: 'Naam bataya? Entry nahi!', chip BALCONY: TANYA"
+  ],
+  "beats": "hook: naam bataya, entry nahi / esc: Ruhi 'kisi ko mat batana... mujhe tum mili', Myra 'yeh Shruti kaun?', Shruti budgets Rs 150 for Myra on her calculator / turn: Tanya twirls, raaz sirf mere paas, then squeals her own chit 'Ruhi ko kya doon?' / button: guests throw the opening rule back, 'Naam bataya? Entry nahi!'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 53,
+    "notes": "Last 4 gang reels are group-chat, sitcom, map-journey x2; the last door reel (KG-2026-11-17-a) is 4 reels back, so door-arrivals fits every 2nd reel. Lead is Tanya (last reel led by Ishita). Chose the Secret Santa idea over the winter thermal one because a shawl and thermal cannot be drawn yet, so that twist would fail the mute test. Game plays 3 times, each through the guest's own trait with claim before reveal: Ruhi ordinary (her catchphrase 'kisi ko mat batana' then she tells Tanya to her face), Myra sillier (the new girl reads the name aloud because she does not know who Shruti is, and Shruti answers from the door), Shruti absurd (she never says a gift, she budgets her giftee on a calculator, 'Myra ke liye 150'). Twist is see-it: Tanya brags she alone keeps secrets, opens her chit and squeals the name. Button throws the hook line back at her. Endings tried: Tanya hides the chit and Ruhi reads it over her shoulder (weaker, Tanya not to blame), Ruhi drew Tanya so they swap gifts on the spot (sweet, no laugh), Tanya squeals and is sent out of her own door (kept). Every shot 8 words or fewer, hold 0.1, 67 words at pace 28, about 27 s."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1.2,
+    "title": [
+      "Secret Santa kitty:",
+      "Host ne hi bata diya!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har kitty mein ek Tanya hoti hai jo Secret Santa ka secret khud kholti hai. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#secretsanta",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#christmaskitty",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SECRET SANTA: 3/3 RAAZ",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "relaxed", "mouth": "smile" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "talkR", "mouth": "o" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Tanya", "text": "Secret Santa! Chit lo!", "say": "सीक्रेट सांता! चिट लो!", "beat": "hook" },
+        { "who": "Tanya", "text": "Naam bataya, entry nahi!", "say": "नाम बताया, एंट्री नहीं!", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 470, "y": 1560, "s": 1 },
+        { "name": "Gift box", "x": 960, "y": 1700, "s": 0.9 },
+        { "name": "Shoe rack", "x": 960, "y": 1830, "s": 1.4 }
+      ],
+      "stickers": [
+        { "kind": "exclaim", "x": 200, "y": 900, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "doorbell", "vol": 0.5 },
+        { "at": 0.15, "name": "creak", "vol": 0.3 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SECRET SANTA: 3/3 RAAZ",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "hold", "prop": "phone", "mouth": "smile", "eyes": "laugh" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "talkR", "mouth": "smile", "eyes": "side" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Ruhi", "text": "Ooh! Kisi ko mat batana...", "say": "ऊह! किसी को मत बताना...", "beat": "setup" },
+        { "who": "Tanya", "text": "Haan haan?", "say": "हाँ हाँ?", "gap": 0.04 }
+      ],
+      "props": [
+        { "name": "Prize envelope", "x": 640, "y": 1380, "s": 0.7, "at": 0.1 },
+        { "name": "Kitty pot", "x": 470, "y": 1560, "s": 1 }
+      ],
+      "sfx": [
+        { "at": 0.1, "name": "rip", "vol": 0.3 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "RAAZ: 2/3 · BALCONY: 1",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "talkL", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "talkR", "mouth": "o", "eyes": "open" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Ruhi", "text": "Mujhe tum mili!", "say": "मुझे तुम मिली!", "beat": "escalation" },
+        { "who": "Tanya", "text": "Haaw! Balcony!", "say": "हाव! बालकनी!", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Prize envelope", "x": 640, "y": 1380, "s": 0.7 }
+      ],
+      "camera": "punch",
+      "stickers": [
+        { "kind": "heart", "x": 820, "y": 900, "at": 0.2 },
+        { "kind": "exclaim", "x": 260, "y": 1000, "at": 0.9 }
+      ],
+      "sfx": [
+        { "at": 1.1, "name": "haww", "vol": 0.45 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "RAAZ: 2/3 · BALCONY: 1",
+      "chipY": 600,
+      "chars": [
+        { "name": "Myra", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "wave", "mouth": "smile", "eyes": "laugh", "hop": true, "from": [1150, 1460], "moveAt": 0, "moveDur": 0.4 },
+        { "name": "Ruhi", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "relaxed", "mouth": "flat", "eyes": "half" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "talkR", "mouth": "smile" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Myra", "text": "Meri pehli Secret Santa!", "say": "मेरी पहली सीक्रेट सांता!", "beat": "escalation" },
+        { "who": "Tanya", "text": "Chup chaap padhna!", "say": "चुपचाप पढ़ना!", "gap": 0.04 }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 470, "y": 1560, "s": 1 },
+        { "name": "Shoe rack", "x": 960, "y": 1830, "s": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "doorbell", "vol": 0.5 },
+        { "at": 0.1, "name": "footsteps", "vol": 0.4 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "RAAZ: 1/3 · BALCONY: 2",
+      "chipY": 600,
+      "chars": [
+        { "name": "Myra", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open" },
+        { "name": "Ruhi", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "laughs", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "talkR", "mouth": "o", "eyes": "open" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Myra", "text": "Achha... yeh Shruti kaun?", "say": "अच्छा... ये श्रुति कौन?", "beat": "escalation" },
+        { "who": "Tanya", "text": "Naam bola?! Balcony!", "say": "नाम बोला?! बालकनी!", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Prize envelope", "x": 640, "y": 1380, "s": 0.7 }
+      ],
+      "camera": "punch",
+      "stickers": [
+        { "kind": "question", "x": 820, "y": 880, "at": 0.3 }
+      ],
+      "sfx": [
+        { "at": 1.4, "name": "boing", "vol": 0.35 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "RAAZ: 1/3 · BALCONY: 2",
+      "chipY": 600,
+      "chars": [
+        { "name": "Shruti", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "relaxed", "mouth": "flat", "eyes": "half", "from": [1150, 1460], "moveAt": 0, "moveDur": 0.4 },
+        { "name": "Myra", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "wave", "mouth": "smile", "eyes": "laugh", "hop": true },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "hips", "mouth": "flat", "eyes": "half" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Shruti", "text": "Main hoon Shruti.", "say": "मैं हूँ श्रुति।", "beat": "escalation" },
+        { "who": "Myra", "text": "Hi! Aapko kya pasand hai?", "say": "हाय! आपको क्या पसंद है?", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 470, "y": 1560, "s": 1 },
+        { "name": "Shoe rack", "x": 960, "y": 1830, "s": 1.4 }
+      ],
+      "stickers": [
+        { "kind": "sweat", "x": 360, "y": 980, "at": 1.2 }
+      ],
+      "sfx": [
+        { "at": 0, "name": "doorbell", "vol": 0.5 },
+        { "at": 1.4, "name": "laughv", "vol": 0.35 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "RAAZ: 0/3 · BALCONY: 3",
+      "chipY": 600,
+      "chars": [
+        { "name": "Shruti", "x": 790, "y": 1460, "s": 2.15, "turn": 0.5, "pose": "hold", "prop": "calc", "mouth": "flat", "eyes": "side" },
+        { "name": "Myra", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "relaxed", "mouth": "o", "eyes": "open" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "hips", "mouth": "o", "eyes": "open" }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Shruti", "text": "Myra ke liye... 150 kaafi.", "say": "मायरा के लिए... डेढ़ सौ काफ़ी।", "beat": "escalation" },
+        { "who": "Myra", "text": "Haaw! Sirf 150?!", "say": "हाव! सिर्फ़ डेढ़ सौ?!", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Prize envelope", "x": 640, "y": 1380, "s": 0.7 }
+      ],
+      "camera": "punch",
+      "stickers": [
+        { "kind": "sweat", "x": 960, "y": 960, "at": 1.3 }
+      ],
+      "sfx": [
+        { "at": 0.4, "name": "calc", "vol": 0.45 },
+        { "at": 1.6, "name": "haaye", "vol": 0.45 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "RAAZ: SIRF TANYA",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "relaxed", "mouth": "flat", "eyes": "half" },
+        { "name": "Shruti", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "hold", "prop": "calc", "mouth": "flat", "eyes": "side" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "hips", "mouth": "smirk", "eyes": "half", "twirl": true }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Tanya", "text": "Teeno balcony! Raaz sirf main rakhti!", "say": "तीनों बालकनी! राज़ सिर्फ़ मैं रखती!", "beat": "turn" }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 470, "y": 1560, "s": 1 }
+      ],
+      "sfx": [
+        { "at": 0.2, "name": "swish", "vol": 0.4 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "TANYA: RUHI!",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "relaxed", "mouth": "o", "eyes": "open" },
+        { "name": "Shruti", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "relaxed", "mouth": "o", "eyes": "side" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "clapR", "mouth": "laugh", "eyes": "laugh", "hop": true }
+      ],
+      "hold": 0.1,
+      "lines": [
+        { "who": "Tanya", "text": "Ruhi! Ruhi ko kya doon?!", "say": "रूही! रूही को क्या दूँ?!", "silenceBefore": true, "beat": "turn" },
+        { "who": "Ruhi", "text": "Mujhe?!", "say": "मुझे?!", "gap": 0.04, "punch": true }
+      ],
+      "props": [
+        { "name": "Prize envelope", "x": 470, "y": 1380, "s": 0.8, "at": 0.05 }
+      ],
+      "camera": "still",
+      "music": false,
+      "stickers": [
+        { "kind": "exclaim", "x": 820, "y": 900, "at": 1.4 }
+      ],
+      "sfx": [
+        { "at": 0.05, "name": "rip", "vol": 0.35 },
+        { "at": 1.5, "name": "sting", "vol": 0.5 }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "BALCONY: TANYA",
+      "chipY": 600,
+      "chars": [
+        { "name": "Ruhi", "x": 790, "y": 1460, "s": 2.15, "turn": -0.5, "pose": "talkL", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Shruti", "x": 960, "y": 1470, "s": 1.9, "turn": -0.6, "pose": "talkL", "mouth": "smirk", "eyes": "half" },
+        { "name": "Tanya", "x": 290, "y": 1800, "s": 2, "turn": 0.6, "pose": "relaxed", "mouth": "o", "eyes": "open" }
+      ],
+      "hold": 0.8,
+      "lines": [
+        { "who": "ALL", "text": "Naam bataya? Entry nahi!", "say": "नाम बताया? एंट्री नहीं!", "punch": true, "beat": "button" },
+        { "who": "Tanya", "text": "Mera ghar hai!", "say": "मेरा घर है!", "gap": 0.04 }
+      ],
+      "props": [
+        { "name": "Kitty pot", "x": 470, "y": 1560, "s": 1 },
+        { "name": "Gift box", "x": 960, "y": 1700, "s": 0.9 }
+      ],
+      "camera": "punch",
+      "stickers": [
+        { "kind": "sweat", "x": 400, "y": 1040, "at": 0.4 }
+      ],
+      "sfx": [
+        { "at": 1.6, "name": "laughv", "vol": 0.45 }
+      ]
+    }
+  ]
+}
