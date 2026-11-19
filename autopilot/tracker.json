@@ -15343,6 +15343,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/shaadi-word-housie-acting-kitty-party-game",
       "queue_id": "1b74a74c-89ff-4d1a-9cfa-3f69d95fdfcf",
       "scheduled_ist": "2026-11-19 17:26"
+    },
+    {
+      "id": "KGI-030",
+      "n": 30,
+      "created": "2026-11-19",
+      "game": "Varmala Ki Unchai",
+      "tagline": "Dulha akdi, dost bik gayi!",
+      "players": "8 to 20 (5 per round, 2 teams)",
+      "time": "10 to 15 minutes",
+      "slug": "varmala-ki-unchai-shaadi-kitty-party-game",
+      "caption": "Shaadi season mein yeh kitty game zaroor khelo! Dulha akdegi, dost toffee pe bik jaayegi. Aapki kitty mein sabse jaldi kaun bikegi?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-030/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/varmala-ki-unchai-shaadi-kitty-party-game",
+      "queue_id": "8631aef0-dc3f-423c-97ac-e938ca9f6366",
+      "scheduled_ist": "2026-11-20 16:40"
     }
   ],
   "research": [
