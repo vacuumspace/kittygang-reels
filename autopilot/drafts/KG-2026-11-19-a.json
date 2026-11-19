@@ -1,0 +1,1011 @@
+{
+  "id": "KG-2026-11-19-a",
+  "title": "Teen shaadi, ek shaam!",
+  "format": "Map journey: Ishita's live location across three wedding halls vs Megha and the gang cutting her Housie ticket at the kitty, ending at the kitty door",
+  "idea": "Housie champ Ishita has three shaadis on kitty night, leaves her ticket with Megha and races hall to hall paying shagun without eating; she reaches the kitty just as her ticket wins a Full House worth exactly the shagun.",
+  "logline": "Ishita runs to three shaadis in one evening paying shagun and never eating, while Megha cuts her Housie ticket at the kitty, and her ticket wins the exact shagun back.",
+  "game": "every wedding hall takes Ishita's lifafa and gives her nothing to eat",
+  "experiment": {
+    "type": "map-journey",
+    "hook": "Kitty in progress, Ishita in her blazer fans three lifafas and says 'Teen shaadi, ek shaam!' while Tanya, at the Housie cage, shouts 'Aur kitty ka Housie?!' under a SHAGUN: Rs 0 chip",
+    "variable": "map-journey with two tracks that cut against each other (her live dot paying shagun, her Housie ticket filling up at the kitty) and a money chip that climbs on the map and drops back to Rs 0 at the end; shaadi-season topic with Ishita as lead, a new face for map reels; fix of KG-2026-11-18-b (pace 2.12 w/s): Megha (fast voice) replaces Shruti on the ticket, pace 36, no ellipses, silent map shot cut, word-denser lines",
+    "hypothesis": "the three-shaadis-one-evening situation every woman knows in wedding season keeps skip under 34% (map reels so far 34%) and watched above 40% at about 29 s; a 'tag the friend who does three shaadis in one shaam' caption gets 2+ shares"
+  },
+  "mute": [
+    "kitty in progress at the Housie cage, Ishita stands with three lifafas, chip SHAGUN: Rs 0, clock 7:00: she has three weddings tonight",
+    "Ishita hands her Housie ticket to Megha and leaves: Megha will cut her numbers",
+    "live map, the dot reaches a wedding hall, chip STOP 1 · SHAGUN: Rs 1100, a thali with a cross: she paid and left without eating",
+    "back at the kitty, ball 45, Megha cuts Ishita's ticket, chip TICKET: 13/15: her ticket is filling up",
+    "map, second hall, chip STOP 2 · SHAGUN: Rs 2200, empty buffet: still no food",
+    "kitty, ball 7, chip TICKET: 14/15: one number left on her ticket",
+    "music cuts, map, third hall, chip STOP 3: GALAT SHAADI!: she gave her lifafa at the wrong wedding",
+    "Megha and Tanya react, chip SHAGUN: Rs 3300 · KHANA: 0: she spent 3300 and ate nothing",
+    "doorbell, Ishita tired in the kitty doorway, chip ISHITA PAHUNCH GAYI! TICKET: 14/15, Tanya calls the last number",
+    "Megha holds up the ticket, chip FULL HOUSE PRIZE: Rs 3300: Ishita's ticket won, the prize equals the shagun",
+    "Megha hands Ishita the samosa plate, chip SHAGUN: Rs 0, the opening chip back, freeze"
+  ],
+  "beats": "hook: Teen shaadi, ek shaam! / setup: ticket to Megha / esc: hall 1 no food, hall 2 buffet band, hall 3 galat shaadi, ticket filling at the kitty / twist: last number, Ishita's Full House, prize Rs 3300 = shagun / button: Teen shaadi... ek samosa!, chip back to Rs 0",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Fix of KG-2026-11-18-b, which failed QA on voice pace (2.12 w/s). Same story and game; Megha (fastest-voiced kitty member, and her samosa gag pays off in the button) replaces slow-voiced Shruti on the ticket, pace 36, no ellipses, the silent 1.3 s map shot is cut and its doorbell moves into the arrival shot, and short exclamation lines got a connective word or two so the talk overlaps more. Real wedding-season scene: three cards on one date, lifafa and photo and run, and the kitty on the same night. One want (Ishita wants all three shaadis and her Housie), one game (every hall takes the lifafa, gives no food) played ordinary (no time to eat), ordinary (buffet closed), absurd (lifafa given at the wrong wedding). The Housie track keeps cutting in with a ticket counter so the payoff is set up, not explained. Claim before reveal: 'Full House? Obviously!' (her one catchphrase) then the prize chip shows Rs 3300, the exact shagun. Twist is see-it on the chip and the ticket. Button mirrors the hook line and the opening chip (Rs 0) with the opposite meaning. Endings tried: prize goes to the gang's dinner (sour), Ishita leaves for a fourth shaadi (flat), the samosa line (kept). Every two-line shot has 8 words or fewer, hold 0.1. Kind humour: she wins it all back. Rewrote the first draft, which used Myra and an 11-16 style late-host map; Ishita the Housie champ makes the remote ticket win natural."
+  },
+  "cover": {
+    "shot": 6,
+    "at": 1,
+    "title": [
+      "Teen shaadi, ek shaam!",
+      "Aur kitty bhi!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Teen shaadi, teen lifafe, khana zero, aur kitty ka Housie bhi nahi chhoda. Tag the friend jo ek shaam mein teen shaadi karti hai!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#housie",
+    "#ladieskitty",
+    "#weddingseason",
+    "#shagun"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 36,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHAGUN: Rs 0",
+      "chipY": 600,
+      "camera": "push",
+      "clock": {
+        "h": 7,
+        "m": 0
+      },
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 290,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "laugh",
+          "eyes": "open",
+          "turn": 0.5,
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 600,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "talkL",
+          "mouth": "o",
+          "turn": -0.5
+        },
+        {
+          "name": "Megha",
+          "x": 850,
+          "y": 1730,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "phone",
+          "eyes": "half",
+          "mouth": "flat",
+          "turn": -0.5
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 420,
+          "y": 1450,
+          "s": 1.1,
+          "rot": -12
+        },
+        {
+          "name": "Prize envelope",
+          "x": 470,
+          "y": 1440,
+          "s": 1.1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 520,
+          "y": 1450,
+          "s": 1.1,
+          "rot": 12
+        },
+        {
+          "name": "Housie cage",
+          "x": 660,
+          "y": 1890,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 900,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.3,
+          "name": "sparkle",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Aaj teen shaadi, ek shaam!",
+          "say": "आज तीन शादी, एक शाम!",
+          "beat": "hook"
+        },
+        {
+          "who": "Tanya",
+          "text": "Aur kitty ka Housie kaun khelega?!",
+          "say": "और किटी का हाउज़ी कौन खेलेगा?!",
+          "gap": 0.04,
+          "beat": "hook"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHAGUN: Rs 0",
+      "chipY": 600,
+      "clock": {
+        "h": 7,
+        "m": 1
+      },
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk"
+        },
+        {
+          "name": "Megha",
+          "x": 760,
+          "y": 1730,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.5,
+          "eyes": "open",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1450,
+          "s": 1.2,
+          "at": 0.2
+        },
+        {
+          "name": "Dabber marker",
+          "x": 860,
+          "y": 1500,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "swish",
+          "vol": 0.35
+        },
+        {
+          "at": 1.6,
+          "name": "footsteps",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Mera ticket tum kaato, Megha!",
+          "say": "मेरा टिकट तुम काटो, मेघा!",
+          "beat": "setup"
+        },
+        {
+          "who": "Megha",
+          "text": "Jao jao, main hoon na!",
+          "say": "जाओ जाओ, मैं हूँ ना!",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [
+        770,
+        1400
+      ],
+      "to": [
+        250,
+        560
+      ],
+      "chip": "STOP 1 · SHAGUN: Rs 1100",
+      "chipY": 760,
+      "camera": "punch",
+      "clock": {
+        "h": 7,
+        "m": 30
+      },
+      "props": [
+        {
+          "name": "Marigold",
+          "x": 420,
+          "y": 640,
+          "s": 1.2
+        },
+        {
+          "name": "Prize envelope",
+          "x": 160,
+          "y": 700,
+          "s": 1,
+          "at": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "palace",
+          "x": 250,
+          "y": 440,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.4
+        },
+        {
+          "at": 0.9,
+          "name": "shutter",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Lifafa diya, photo li, bhaagi!",
+          "say": "लिफ़ाफ़ा दिया, फ़ोटो ली, भागी!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Arre, khana bhi nahi khaya?!",
+          "say": "अरे, खाना भी नहीं खाया?!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "ISHITA KA TICKET: 13/15",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": {
+        "h": 7,
+        "m": 35
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "talkR",
+          "mouth": "o",
+          "turn": 0.5
+        },
+        {
+          "name": "Megha",
+          "x": 760,
+          "y": 1730,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Ball 45",
+          "x": 400,
+          "y": 1480,
+          "s": 1.1,
+          "at": 0.2
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1480,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Chaar paanch, paintalis!",
+          "say": "चार पाँच, पैंतालीस!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Ishita ka kata! Do bache!",
+          "say": "इशिता का कटा! दो बचे!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [
+        250,
+        560
+      ],
+      "to": [
+        820,
+        640
+      ],
+      "chip": "STOP 2 · SHAGUN: Rs 2200",
+      "chipY": 760,
+      "clock": {
+        "h": 8,
+        "m": 10
+      },
+      "props": [
+        {
+          "name": "Thali",
+          "x": 660,
+          "y": 760,
+          "s": 1.2
+        },
+        {
+          "name": "Prize envelope",
+          "x": 940,
+          "y": 760,
+          "s": 1,
+          "at": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "palace",
+          "x": 820,
+          "y": 520,
+          "at": 0.3
+        },
+        {
+          "kind": "sweat",
+          "x": 660,
+          "y": 640,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "zip",
+          "vol": 0.35
+        },
+        {
+          "at": 0.9,
+          "name": "slidedown",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Doosra hall! Buffet band ho gaya!",
+          "say": "दूसरा हॉल! बुफ़े बंद हो गया!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Phir se bhookhi?!",
+          "say": "हाओ! फिर से भूखी?!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "ISHITA KA TICKET: 14/15",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": {
+        "h": 8,
+        "m": 15
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "turn": 0.5,
+          "hop": true
+        },
+        {
+          "name": "Megha",
+          "x": 760,
+          "y": 1730,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.5,
+          "eyes": "open",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Ball 7",
+          "x": 400,
+          "y": 1480,
+          "s": 1.1,
+          "at": 0.2
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1480,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 820,
+          "y": 820,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        },
+        {
+          "at": 0.2,
+          "name": "ballpop",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Saat number, lucky seven!",
+          "say": "सात नंबर, लकी सेवन!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Kata! Bas ek bacha!",
+          "say": "कटा! बस एक बचा!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "map",
+      "from": [
+        820,
+        640
+      ],
+      "to": [
+        300,
+        1050
+      ],
+      "chip": "STOP 3: GALAT SHAADI!",
+      "chipY": 760,
+      "music": false,
+      "camera": "punch",
+      "clock": {
+        "h": 8,
+        "m": 50
+      },
+      "props": [
+        {
+          "name": "Dhol",
+          "x": 470,
+          "y": 1140,
+          "s": 1.2
+        },
+        {
+          "name": "Prize envelope",
+          "x": 150,
+          "y": 1140,
+          "s": 1,
+          "at": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "palace",
+          "x": 300,
+          "y": 920,
+          "at": 0.3
+        },
+        {
+          "kind": "question",
+          "x": 470,
+          "y": 960,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "zip",
+          "vol": 0.35
+        },
+        {
+          "at": 0.5,
+          "name": "tabla",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Teesra lifafa diya! Dulhan kaun hai?",
+          "say": "तीसरा लिफ़ाफ़ा दिया! दुल्हन कौन है?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Tum galat shaadi mein ho?!",
+          "say": "तुम गलत शादी में हो?!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "SHAGUN: Rs 3300 · KHANA: 0",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": {
+        "h": 8,
+        "m": 52
+      },
+      "chars": [
+        {
+          "name": "Megha",
+          "x": 290,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "eyes": "open",
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 560,
+          "y": 1750,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.3,
+          "eyes": "side",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 830,
+          "y": 1730,
+          "s": 1.9,
+          "pose": "laughs",
+          "turn": -0.5,
+          "eyes": "laugh",
+          "mouth": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 600,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ding",
+          "vol": 0.35
+        },
+        {
+          "at": 1.5,
+          "name": "laughv",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Teen hazaar teen sau gaye!",
+          "say": "तीन हज़ार तीन सौ गए!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Aur khana ek dum zero!",
+          "say": "और खाना एक दम ज़ीरो!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "ISHITA PAHUNCH GAYI! TICKET: 14/15",
+      "chipY": 600,
+      "clock": {
+        "h": 9,
+        "m": 12
+      },
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "o"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.6,
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1880,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 860,
+          "y": 560,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.3,
+          "name": "creak",
+          "vol": 0.4
+        },
+        {
+          "at": 1.4,
+          "name": "cage",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ishita",
+          "text": "Bhookhi hoon! Jaldi number bolo!",
+          "say": "भूखी हूँ! जल्दी नंबर बोलो!",
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Last number, nabbe!",
+          "say": "लास्ट नंबर, नब्बे!",
+          "gap": 0.05,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "FULL HOUSE PRIZE: Rs 3300",
+      "chipY": 600,
+      "camera": "punch",
+      "clock": {
+        "h": 9,
+        "m": 12
+      },
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hips",
+          "turn": -0.5,
+          "eyes": "laugh",
+          "mouth": "smirk",
+          "hop": true
+        },
+        {
+          "name": "Megha",
+          "x": 300,
+          "y": 1800,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.6,
+          "eyes": "open",
+          "mouth": "o"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1790,
+          "s": 1.85,
+          "pose": "clapR",
+          "turn": 0.5,
+          "mouth": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie ticket",
+          "x": 300,
+          "y": 1420,
+          "s": 1.2
+        },
+        {
+          "name": "Prize envelope",
+          "x": 640,
+          "y": 1480,
+          "s": 1.2,
+          "at": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 790,
+          "y": 560,
+          "at": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "haww",
+          "vol": 0.35
+        },
+        {
+          "at": 1.2,
+          "name": "sparkle",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Haaw! Tumhara Full House!",
+          "say": "हाओ! तुम्हारा फ़ुल हाउस!",
+          "beat": "turn"
+        },
+        {
+          "who": "Ishita",
+          "text": "Full House? Obviously!",
+          "say": "फ़ुल हाउस? ऑब्वियसली!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "hold": 0.1
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "SHAGUN: Rs 0",
+      "chipY": 600,
+      "camera": "still",
+      "clock": {
+        "h": 9,
+        "m": 13
+      },
+      "chars": [
+        {
+          "name": "Ishita",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "turn": -0.5,
+          "eyes": "laugh",
+          "mouth": "smile"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.6,
+          "eyes": "laugh",
+          "mouth": "laugh"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1790,
+          "s": 1.85,
+          "pose": "hold",
+          "turn": 0.5,
+          "eyes": "laugh",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Prize envelope",
+          "x": 640,
+          "y": 1480,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 700,
+          "y": 1560,
+          "s": 1.1,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 860,
+          "y": 560,
+          "at": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.9,
+          "name": "laughv",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Shagun wapas! Aur khana?",
+          "say": "शगुन वापस! और खाना?",
+          "beat": "button"
+        },
+        {
+          "who": "Ishita",
+          "text": "Teen shaadi, ek samosa!",
+          "say": "तीन शादी, एक समोसा!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "hold": 0.4
+    }
+  ],
+  "fix_of": "KG-2026-11-18-b"
+}
