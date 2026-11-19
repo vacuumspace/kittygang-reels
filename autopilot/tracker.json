@@ -12881,6 +12881,37 @@
         "no shot over 5 s (5.0 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-19-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-20",
+      "created": "2026-11-20",
+      "title": "Breaking: Aangan mein shaadi!",
+      "format": "Theme Housie",
+      "theme": "tulsivivah",
+      "story": "ai",
+      "variant": "news-bulletin",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "On Tulsi Vivah, Ruhi reports the aangan shaadi like breaking news: Megha guards the ganna mandap but wants a bite, Tina's chunri is limited edition, Myra has the diya but no matchbox, Ishita claims the Tulsi group early, and Aditi, holding prasad, has actually won it.",
+      "beats": "hook: breaking news, Tulsi ji ki shaadi / live 1/4: Megha at the ganna mandap / live 2/4: Tina's chunri / live 3/4: Myra's diya, no matchbox / live 4/4: the call on the game / turn: Ishita claims Tulsi early / reveal: Tulsi group is Aditi's / button: anchor asks Aditi, prasad first",
+      "experiment": {
+        "format": "news-bulletin",
+        "hook": "Ruhi as a TV anchor with her phone as the mic on the Tulsi Vivah home art, heartbeat at 0 s, mascot ball spinning above, chip 'BREAKING: AANGAN MEIN SHAADI!' pinned from the first frame, she says 'Breaking news! Aaj Tulsi ji ki shaadi!'",
+        "variable": "a familiar TV pattern as the glue: a 'BREAKING' anchor plus 'LIVE x/4' reporter chips (Ganna, Chunri, Diya, then the Tulsi claim on the game), so every cut is a handoff the viewer already knows from Hindi news, on top of the fast single-face cuts that won 11-18",
+        "hypothesis": "the breaking-news voice every 30 to 55 year old knows by heart makes the 0 s line feel urgent and the handoffs feel like progress: skip under 55% (best 49.6), watched % above 21 (best 21), at least 1 share on Tulsi Vivah day when families are doing the puja"
+      },
+      "duration": 38.4,
+      "lufs": null,
+      "caption": "Aaj ki sabse badi khabar: aangan mein shaadi! Aap kis report mein ho: Ganna, Chunri, Diya ya Tulsi? Apni Tulsi Vivah wali saheli ko tag karo. Aaj ki Tulsi Vivah Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #tulsivivah #devuthaniekadashi #breakingnews",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-20.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-20-cover.jpg",
+      "job_id": "543f6545-9e5e-4fdf-855d-29c9af84feed",
+      "permalink": "https://www.instagram.com/reel/Df7xLvyiNPM/",
+      "media_id": "18118464182028655",
+      "yt_id": "edIYSGlv9Zg",
+      "yt_url": "https://youtube.com/shorts/edIYSGlv9Zg",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
