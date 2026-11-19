@@ -1,0 +1,321 @@
+{
+ "title": "Breaking: Aangan mein shaadi!",
+ "format": "Kitty Gang news bulletin on the Tulsi Vivah game: Ruhi anchors a TV-style 'breaking news' report, live reporters at each prize group, the Housie claim is the big story",
+ "experiment": {
+  "format": "news-bulletin",
+  "hook": "Ruhi as a TV anchor with her phone as the mic on the Tulsi Vivah home art, heartbeat at 0 s, mascot ball spinning above, chip 'BREAKING: AANGAN MEIN SHAADI!' pinned from the first frame, she says 'Breaking news! Aaj Tulsi ji ki shaadi!'",
+  "variable": "a familiar TV pattern as the glue: a 'BREAKING' anchor plus 'LIVE x/4' reporter chips (Ganna, Chunri, Diya, then the Tulsi claim on the game), so every cut is a handoff the viewer already knows from Hindi news, on top of the fast single-face cuts that won 11-18",
+  "hypothesis": "the breaking-news voice every 30 to 55 year old knows by heart makes the 0 s line feel urgent and the handoffs feel like progress: skip under 55% (best 49.6), watched % above 21 (best 21), at least 1 share on Tulsi Vivah day when families are doing the puja"
+ },
+ "idea": "On Tulsi Vivah, Ruhi reports the aangan shaadi like breaking news: Megha guards the ganna mandap but wants a bite, Tina's chunri is limited edition, Myra has the diya but no matchbox, Ishita claims the Tulsi group early, and Aditi, holding prasad, has actually won it.",
+ "beats": "hook: breaking news, Tulsi ji ki shaadi / live 1/4: Megha at the ganna mandap / live 2/4: Tina's chunri / live 3/4: Myra's diya, no matchbox / live 4/4: the call on the game / turn: Ishita claims Tulsi early / reveal: Tulsi group is Aditi's / button: anchor asks Aditi, prasad first",
+ "logline": "Ruhi reports Tulsi Vivah like TV news, and the quiet one wins the Tulsi group.",
+ "game": "every live reporter gets distracted from the shaadi, and the loudest claim loses",
+ "caption": "Aaj ki sabse badi khabar: aangan mein shaadi! Aap kis report mein ho: Ganna, Chunri, Diya ya Tulsi? Apni Tulsi Vivah wali saheli ko tag karo. Aaj ki {theme} Housie mein milte hain.",
+ "hashtags": [
+  "#kittyparty",
+  "#housie",
+  "#tambola",
+  "#kittygang",
+  "#tulsivivah",
+  "#devuthaniekadashi",
+  "#breakingnews"
+ ],
+ "ambience": {
+  "name": "crowd",
+  "vol": 0.07
+ },
+ "pace": 24,
+ "shots": [
+  {
+   "kit": "thome",
+   "chip": "BREAKING: AANGAN MEIN SHAADI!",
+   "chipY": 1560,
+   "camera": "punch",
+   "ball": {
+    "n": 11,
+    "x": 540,
+    "y": 700,
+    "size": 380,
+    "revealAt": 99
+   },
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 540,
+     "y": 1780,
+     "s": 2.2,
+     "pose": "hold",
+     "prop": "phone",
+     "eyes": "open",
+     "mouth": "smile"
+    }
+   ],
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Breaking news! Aaj Tulsi ji ki shaadi!",
+     "say": "ब्रेकिंग न्यूज़! आज तुलसी जी की शादी!",
+     "beat": "hook"
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "vol": 0.7
+    },
+    {
+     "at": 0.1,
+     "name": "sting",
+     "vol": 0.5
+    },
+    {
+     "at": 0.8,
+     "name": "heartbeat",
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "LIVE 1/4: GANNA MANDAP",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    {
+     "name": "Megha",
+     "x": 540,
+     "y": 1780,
+     "s": 2.2,
+     "pose": "hold",
+     "prop": "bottle",
+     "eyes": "side",
+     "mouth": "smirk"
+    }
+   ],
+   "lines": [
+    {
+     "who": "Megha",
+     "text": "Mandap ready! Bas ek ganna chakh loon?",
+     "say": "मंडप रेडी! बस एक गन्ना चख लूं?",
+     "beat": "escalation"
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "LIVE 2/4: CHUNRI",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    {
+     "name": "Tina",
+     "x": 540,
+     "y": 1780,
+     "s": 2.2,
+     "pose": "hips",
+     "eyes": "half",
+     "mouth": "smirk"
+    }
+   ],
+   "lines": [
+    {
+     "who": "Tina",
+     "text": "Laal chunri, asli gota. Limited edition.",
+     "say": "लाल चुनरी, असली गोटा। लिमिटेड एडिशन।",
+     "punch": true,
+     "beat": "escalation"
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "sparkle",
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "LIVE 3/4: DIYA",
+   "chipY": 1560,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 540,
+     "y": 1780,
+     "s": 2.2,
+     "pose": "hold",
+     "prop": "phone",
+     "eyes": "open",
+     "mouth": "o"
+    }
+   ],
+   "stickers": [
+    {
+     "kind": "question",
+     "x": 780,
+     "y": 1000,
+     "at": 0.3,
+     "s": 1
+    }
+   ],
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Diya ready! Maachis kiske paas hai?",
+     "say": "दिया रेडी! माचिस किसके पास है?",
+     "beat": "escalation"
+    }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ball",
+   "call": 11,
+   "dab": true,
+   "dur": 1.4,
+   "music": false,
+   "chip": "LIVE 4/4: TULSI GROUP",
+   "chipY": 600,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "cage",
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "BREAKING: ISHITA KA CLAIM?",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    {
+     "name": "Ishita",
+     "x": 540,
+     "y": 1780,
+     "s": 2.3,
+     "pose": "hips",
+     "eyes": "open",
+     "mouth": "smirk"
+    }
+   ],
+   "lines": [
+    {
+     "who": "Ishita",
+     "text": "Ruko! Tulsi group mera, obviously!",
+     "say": "रुको! तुलसी ग्रुप मेरा, ऑब्वियसली!",
+     "beat": "turn"
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ticket",
+   "marked": 14,
+   "dab": true,
+   "reacts": true,
+   "dur": 1.4,
+   "chip": "TULSI GROUP: ADITI!",
+   "chipY": 600,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "scratch",
+     "vol": 0.5
+    },
+    {
+     "at": 0.8,
+     "name": "haww",
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "LIVE: ADITI JI SE BAAT",
+   "chipY": 1560,
+   "camera": "push",
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 540,
+     "y": 1780,
+     "s": 2.2,
+     "pose": "hold",
+     "prop": "phone",
+     "eyes": "open",
+     "mouth": "smile"
+    }
+   ],
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Aditi ji, desh jaanna chahta hai!",
+     "say": "अदिति जी, देश जानना चाहता है!",
+     "beat": "button"
+    }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": true,
+   "chip": "BREAKING: TULSI GROUP, ADITI",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 360,
+     "y": 1780,
+     "s": 2.0,
+     "pose": "hold",
+     "prop": "phone",
+     "eyes": "open",
+     "mouth": "smile",
+     "turn": 0.5
+    },
+    {
+     "name": "Aditi",
+     "x": 760,
+     "y": 1780,
+     "s": 2.2,
+     "pose": "cup",
+     "eyes": "half",
+     "mouth": "flat",
+     "turn": -0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "Aditi",
+     "text": "Hmm. Pehle prasad, phir interview.",
+     "say": "हम्म। पहले प्रसाद, फिर इंटरव्यू।",
+     "punch": true,
+     "silenceBefore": true,
+     "beat": "button"
+    }
+   ]
+  }
+ ]
+}
