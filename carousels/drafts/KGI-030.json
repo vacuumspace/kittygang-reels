@@ -1,0 +1,848 @@
+{
+  "id": "KGI-030",
+  "n": 30,
+  "slug": "varmala-ki-unchai-shaadi-kitty-party-game",
+  "game": "Varmala Ki Unchai",
+  "tagline": "Dulha akdi, dost bik gayi!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 90,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1000,
+      "y": 640,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"0\" y=\"90\" width=\"1000\" height=\"550\" rx=\"44\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"8\"></rect>"
+    },
+    {
+      "k": "person",
+      "x": 150,
+      "y": 468,
+      "s": 1.15,
+      "color": "blue"
+    },
+    {
+      "k": "person",
+      "x": 410,
+      "y": 468,
+      "s": 1.15,
+      "color": "green"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(280 460) scale(1.25) rotate(-16 0 70)\"><path d=\"M-46 70 Q-46 6 0 6 Q46 6 46 70 Z\" fill=\"#FFC93C\"></path><rect x=\"-30\" y=\"-64\" width=\"60\" height=\"64\" rx=\"30\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"4\"></rect><path d=\"M-32 -40 Q-30 -76 0 -74 Q30 -76 32 -40 Q20 -60 0 -58 Q-20 -60 -32 -40 Z\" fill=\"#3A1E14\"></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"205\" y1=\"505\" x2=\"232\" y2=\"505\" stroke=\"#5B8DEF\" stroke-width=\"20\" stroke-linecap=\"round\"></line><circle cx=\"232\" cy=\"505\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"355\" y1=\"505\" x2=\"330\" y2=\"505\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"></line><circle cx=\"330\" cy=\"505\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"610\" y1=\"464\" x2=\"530\" y2=\"314\" stroke=\"#E85D8A\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"530\" cy=\"314\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"690\" y1=\"464\" x2=\"640\" y2=\"284\" stroke=\"#E85D8A\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"640\" cy=\"284\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+    },
+    {
+      "k": "person",
+      "x": 650,
+      "y": 434,
+      "s": 1.3,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(650 560) scale(1.2)\"><path d=\"M-30 0 L-24 -14 L-10 -14 L-6 0 Z M6 0 L10 -14 L24 -14 L30 0 Z\" fill=\"#4A1238\"></path></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"rotate(-12 585 274)\"><ellipse cx=\"585\" cy=\"274\" rx=\"90\" ry=\"34\" fill=\"none\" stroke=\"#E85D8A\" stroke-width=\"10\"></ellipse><circle cx=\"675.0\" cy=\"274.0\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"666.1\" cy=\"288.8\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"641.1\" cy=\"300.6\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"605.0\" cy=\"307.1\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"565.0\" cy=\"307.1\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"528.9\" cy=\"300.6\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"503.9\" cy=\"288.8\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"495.0\" cy=\"274.0\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"503.9\" cy=\"259.2\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"528.9\" cy=\"247.4\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"565.0\" cy=\"240.9\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"605.0\" cy=\"240.9\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"641.1\" cy=\"247.4\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"666.1\" cy=\"259.2\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle></g>"
+    },
+    {
+      "k": "arrow",
+      "x1": 480,
+      "y1": 264,
+      "x2": 270,
+      "y2": 394,
+      "color": "pink",
+      "w": 6
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"60\" y1=\"560\" x2=\"780\" y2=\"560\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"></line>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(880 360) scale(1.1)\"><polygon points=\"-34,-14 -62,-28 -62,28 -34,14\" fill=\"#E85D8A\"></polygon><polygon points=\"34,-14 62,-28 62,28 34,14\" fill=\"#E85D8A\"></polygon><ellipse cx=\"0\" cy=\"0\" rx=\"38\" ry=\"24\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\"></ellipse></g>"
+    },
+    {
+      "k": "text",
+      "x": 880,
+      "y": 460,
+      "text": "Rishwat!",
+      "size": 44,
+      "color": "pink"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Dupatta, toffee aur hasi",
+    "items": [
+      {
+        "label": "Dupatta varmala",
+        "sub": "gol gaanth baandho",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"rotate(0 150 110)\"><ellipse cx=\"150\" cy=\"110\" rx=\"110\" ry=\"70\" fill=\"none\" stroke=\"#E85D8A\" stroke-width=\"10\"></ellipse><circle cx=\"260.0\" cy=\"110.0\" r=\"9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"245.3\" cy=\"145.0\" r=\"9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"205.0\" cy=\"170.6\" r=\"9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"150.0\" cy=\"180.0\" r=\"9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"95.0\" cy=\"170.6\" r=\"9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"54.7\" cy=\"145.0\" r=\"9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"40.0\" cy=\"110.0\" r=\"9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"54.7\" cy=\"75.0\" r=\"9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"95.0\" cy=\"49.4\" r=\"9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"150.0\" cy=\"40.0\" r=\"9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"205.0\" cy=\"49.4\" r=\"9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"245.3\" cy=\"75.0\" r=\"9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle></g>"
+          }
+        ]
+      },
+      {
+        "label": "Toffees",
+        "sub": "har round 2",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 30,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 190,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(90 110) scale(1.2)\"><polygon points=\"-34,-16 -60,-26 -60,26 -34,16\" fill=\"#E85D8A\"></polygon><polygon points=\"34,-16 60,-26 60,26 34,16\" fill=\"#E85D8A\"></polygon><ellipse cx=\"0\" cy=\"0\" rx=\"38\" ry=\"24\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\"></ellipse></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(215 110) scale(1.2)\"><polygon points=\"-34,-16 -60,-26 -60,26 -34,16\" fill=\"#E85D8A\"></polygon><polygon points=\"34,-16 60,-26 60,26 34,16\" fill=\"#E85D8A\"></polygon><ellipse cx=\"0\" cy=\"0\" rx=\"38\" ry=\"24\" fill=\"#5B8DEF\" stroke=\"#4A1238\" stroke-width=\"4\"></ellipse></g>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "30 second",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "0:30"
+          }
+        ]
+      },
+      {
+        "label": "Do team",
+        "sub": "ladkewale, ladkiwale",
+        "draw": [
+          {
+            "k": "person",
+            "x": 60,
+            "y": 100,
+            "s": 0.85,
+            "color": "yel"
+          },
+          {
+            "k": "person",
+            "x": 130,
+            "y": 100,
+            "s": 0.85,
+            "color": "blue"
+          },
+          {
+            "k": "person",
+            "x": 210,
+            "y": 100,
+            "s": 0.85,
+            "color": "pink"
+          },
+          {
+            "k": "person",
+            "x": 280,
+            "y": 100,
+            "s": 0.85,
+            "color": "green"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Do team: ladkewale, ladkiwale",
+      "body": "Har round: dulha aur 2 dost ek taraf, dulhan aur saheli doosri.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 170,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 660,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"60\" y1=\"560\" x2=\"920\" y2=\"560\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"></line>"
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 468,
+          "s": 1.15,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 452,
+          "s": 1.35,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 390,
+          "y": 468,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 640,
+          "y": 452,
+          "s": 1.35,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 800,
+          "y": 468,
+          "s": 1.15,
+          "color": "yel"
+        },
+        {
+          "k": "text",
+          "x": 130,
+          "y": 610,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 610,
+          "text": "Dulha",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 390,
+          "y": 610,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 610,
+          "text": "Dulhan",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 800,
+          "y": 610,
+          "text": "Saheli",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 250,
+          "text": "Ladkewale",
+          "size": 46,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 250,
+          "text": "Ladkiwale",
+          "size": 46,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"520\" y1=\"210\" x2=\"520\" y2=\"540\" stroke=\"#E8B4C8\" stroke-width=\"5\" stroke-dasharray=\"14 12\"></line>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(860 350) scale(0.7)\"><polygon points=\"-34,-14 -62,-28 -62,28 -34,14\" fill=\"#E85D8A\"></polygon><polygon points=\"34,-14 62,-28 62,28 34,14\" fill=\"#E85D8A\"></polygon><ellipse cx=\"0\" cy=\"0\" rx=\"38\" ry=\"24\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\"></ellipse></g>"
+        }
+      ]
+    },
+    {
+      "title": "Dulha akde, dost kohni pakdein",
+      "body": "Dulha ke haath peeche, paer zameen par. Thoda peeche jhuk sakti hai.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 100,
+          "y": 170,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 860,
+          "y": 660,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"120\" y1=\"560\" x2=\"840\" y2=\"560\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"></line>"
+        },
+        {
+          "k": "person",
+          "x": 280,
+          "y": 468,
+          "s": 1.15,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 620,
+          "y": 468,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(450 448) scale(1.4) rotate(-16 0 70)\"><path d=\"M-46 70 Q-46 6 0 6 Q46 6 46 70 Z\" fill=\"#FFC93C\"></path><rect x=\"-30\" y=\"-64\" width=\"60\" height=\"64\" rx=\"30\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"4\"></rect><path d=\"M-32 -40 Q-30 -76 0 -74 Q30 -76 32 -40 Q20 -60 0 -58 Q-20 -60 -32 -40 Z\" fill=\"#3A1E14\"></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"335\" y1=\"505\" x2=\"385\" y2=\"505\" stroke=\"#5B8DEF\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"385\" cy=\"505\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"565\" y1=\"505\" x2=\"510\" y2=\"505\" stroke=\"#2FA37A\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"510\" cy=\"505\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "text",
+          "x": 280,
+          "y": 610,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 610,
+          "text": "Dulha",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 620,
+          "y": 610,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 220,
+          "text": "Chin upar!",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 470,
+          "y1": 330,
+          "x2": 380,
+          "y2": 300,
+          "color": "pink",
+          "w": 6
+        }
+      ]
+    },
+    {
+      "title": "Dulhan daale varmala, 30 second",
+      "body": "Dulhan sirf panjon par uth sakti hai. Uchhalna aur kursi mana.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 150,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 860,
+          "y": 620,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 468,
+          "s": 1.15,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 410,
+          "y": 468,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(280 460) scale(1.25) rotate(-16 0 70)\"><path d=\"M-46 70 Q-46 6 0 6 Q46 6 46 70 Z\" fill=\"#FFC93C\"></path><rect x=\"-30\" y=\"-64\" width=\"60\" height=\"64\" rx=\"30\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"4\"></rect><path d=\"M-32 -40 Q-30 -76 0 -74 Q30 -76 32 -40 Q20 -60 0 -58 Q-20 -60 -32 -40 Z\" fill=\"#3A1E14\"></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"205\" y1=\"505\" x2=\"232\" y2=\"505\" stroke=\"#5B8DEF\" stroke-width=\"20\" stroke-linecap=\"round\"></line><circle cx=\"232\" cy=\"505\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"355\" y1=\"505\" x2=\"330\" y2=\"505\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"></line><circle cx=\"330\" cy=\"505\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"610\" y1=\"464\" x2=\"530\" y2=\"314\" stroke=\"#E85D8A\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"530\" cy=\"314\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"690\" y1=\"464\" x2=\"640\" y2=\"284\" stroke=\"#E85D8A\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"640\" cy=\"284\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "person",
+          "x": 650,
+          "y": 434,
+          "s": 1.3,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(650 560) scale(1.2)\"><path d=\"M-30 0 L-24 -14 L-10 -14 L-6 0 Z M6 0 L10 -14 L24 -14 L30 0 Z\" fill=\"#4A1238\"></path></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"rotate(-12 585 274)\"><ellipse cx=\"585\" cy=\"274\" rx=\"90\" ry=\"34\" fill=\"none\" stroke=\"#E85D8A\" stroke-width=\"10\"></ellipse><circle cx=\"675.0\" cy=\"274.0\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"666.1\" cy=\"288.8\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"641.1\" cy=\"300.6\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"605.0\" cy=\"307.1\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"565.0\" cy=\"307.1\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"528.9\" cy=\"300.6\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"503.9\" cy=\"288.8\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"495.0\" cy=\"274.0\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"503.9\" cy=\"259.2\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"528.9\" cy=\"247.4\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"565.0\" cy=\"240.9\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"605.0\" cy=\"240.9\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"641.1\" cy=\"247.4\" r=\"10.0\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"666.1\" cy=\"259.2\" r=\"10.0\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 480,
+          "y1": 264,
+          "x2": 270,
+          "y2": 394,
+          "color": "pink",
+          "w": 6
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 604,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 280,
+          "y": 604,
+          "text": "Dulha",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 410,
+          "y": 604,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 650,
+          "y": 604,
+          "text": "Dulhan",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"60\" y1=\"560\" x2=\"780\" y2=\"560\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"></line>"
+        },
+        {
+          "k": "timer",
+          "x": 820,
+          "y": 330,
+          "s": 0.6,
+          "text": "0:30"
+        }
+      ]
+    },
+    {
+      "title": "Toffee do, dost ko khareedo!",
+      "body": "Saheli dost ko toffee de. Dost ne li, toh dheere haath chhode.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 170,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 660,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"60\" y1=\"560\" x2=\"920\" y2=\"560\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"></line>"
+        },
+        {
+          "k": "person",
+          "x": 140,
+          "y": 468,
+          "s": 1.15,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"190\" y1=\"500\" x2=\"300\" y2=\"450\" stroke=\"#FFC93C\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"300\" cy=\"450\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(345 440) scale(0.75)\"><polygon points=\"-34,-14 -62,-28 -62,28 -34,14\" fill=\"#E85D8A\"></polygon><polygon points=\"34,-14 62,-28 62,28 34,14\" fill=\"#E85D8A\"></polygon><ellipse cx=\"0\" cy=\"0\" rx=\"38\" ry=\"24\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"4\"></ellipse></g>"
+        },
+        {
+          "k": "person",
+          "x": 520,
+          "y": 468,
+          "s": 1.15,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"470\" y1=\"500\" x2=\"400\" y2=\"470\" stroke=\"#5B8DEF\" stroke-width=\"22\" stroke-linecap=\"round\"></line><circle cx=\"400\" cy=\"470\" r=\"16.5\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"></circle>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(760 456) scale(1.3) rotate(-4 0 70)\"><path d=\"M-46 70 Q-46 6 0 6 Q46 6 46 70 Z\" fill=\"#FFC93C\"></path><rect x=\"-30\" y=\"-64\" width=\"60\" height=\"64\" rx=\"30\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"4\"></rect><path d=\"M-32 -40 Q-30 -76 0 -74 Q30 -76 32 -40 Q20 -60 0 -58 Q-20 -60 -32 -40 Z\" fill=\"#3A1E14\"></path></g>"
+        },
+        {
+          "k": "text",
+          "x": 140,
+          "y": 610,
+          "text": "Saheli",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 520,
+          "y": 610,
+          "text": "Dost",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 610,
+          "text": "Dulha",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 520,
+          "y": 250,
+          "text": "Bik gayi!",
+          "size": 52,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 345,
+          "y": 370,
+          "text": "Lo ji!",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 790,
+          "y": 300,
+          "text": "seedhi khadi",
+          "size": 28,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Varmala gale mein? Point!",
+      "body": "Phir role badlo. Har lady ek baar dulha zaroor bane.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 60,
+          "y": 170,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 920,
+          "y": 660,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"80\" y1=\"560\" x2=\"900\" y2=\"560\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"></line>"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 452,
+          "s": 1.35,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"rotate(0 260 470)\"><ellipse cx=\"260\" cy=\"470\" rx=\"80\" ry=\"30\" fill=\"none\" stroke=\"#E85D8A\" stroke-width=\"8.88888888888889\"></ellipse><circle cx=\"340.0\" cy=\"470.0\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"332.1\" cy=\"483.0\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"309.9\" cy=\"493.5\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"277.8\" cy=\"499.2\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"242.2\" cy=\"499.2\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"210.1\" cy=\"493.5\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"187.9\" cy=\"483.0\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"180.0\" cy=\"470.0\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"187.9\" cy=\"457.0\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"210.1\" cy=\"446.5\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"242.2\" cy=\"440.8\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"277.8\" cy=\"440.8\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"309.9\" cy=\"446.5\" r=\"8.9\" fill=\"#FFFFFF\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle><circle cx=\"332.1\" cy=\"457.0\" r=\"8.9\" fill=\"#FFC93C\" stroke=\"#E85D8A\" stroke-width=\"3\"></circle></g>"
+        },
+        {
+          "k": "person",
+          "x": 470,
+          "y": 452,
+          "s": 1.35,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 610,
+          "text": "Dulha",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 470,
+          "y": 610,
+          "text": "Dulhan",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "tick",
+          "x": 370,
+          "y": 250,
+          "s": 1.2
+        },
+        {
+          "k": "box",
+          "x": 760,
+          "y": 330,
+          "w": 250,
+          "h": 140,
+          "color": "white",
+          "text": "Ladkiwale +1"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 470,
+          "text": "phir role badlo",
+          "size": 30,
+          "color": "mute"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada varmala, team jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Dulha ke paer hile?",
+          "Varmala count ho gayi."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Dulhan uchhli ya kursi li?",
+          "Point cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Toffee li, phir bhi pakda?",
+          "Ladkiwalon ko point."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "30 second mein gale mein?",
+          "Ladkiwale ka point!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Sabse lambi lady ko",
+        "dulha banao, phir dekho!"
+      ],
+      [
+        "Mummy ji rule: toffee nahi,",
+        "sirf taarif se rishwat do."
+      ],
+      [
+        "Varmala ke baad dulhan",
+        "ek shaayari bole, tabhi point."
+      ]
+    ],
+    "tip": "Dulha bas thoda jhuke. Dost kohni mazboot pakdein."
+  },
+  "comment_hint": "kaun bikegi?",
+  "caption": "Shaadi season mein yeh kitty game zaroor khelo! Dulha akdegi, dost toffee pe bik jaayegi. Aapki kitty mein sabse jaldi kaun bikegi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#varmalagame",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Varmala Ki Unchai: Kitty Party Game Rules, How to Play and Twists",
+    "description": "Varmala Ki Unchai is a funny shaadi theme kitty party game with a dupatta garland and a toffee bribe. Learn what you need, the steps, rules and twists.",
+    "intro": "Varmala Ki Unchai is a shaadi theme kitty party game where one lady plays the dulha and leans back, chin up, to dodge the varmala, while the dulhan has 30 seconds to get a dupatta garland over her head. The dulhan's team scores a point every time the garland lands, and the team with the most varmalas at the end wins. The crazy twist: the dulhan's saheli can bribe the dulha's dost with a toffee, and a dost who takes it must let go of the dulha's elbow. It needs only a dupatta, a few toffees and a phone timer, so it is perfect for wedding season kitties.",
+    "players": "8 to 20 (5 per round, 2 teams)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One dupatta tied into a loose loop as the varmala",
+      "2 toffees per round",
+      "A phone timer set to 30 seconds",
+      "Some open floor space"
+    ],
+    "steps": [
+      "Split the room into two teams, Ladkewale and Ladkiwale. Each round, Ladkewale send a dulha and two dost, and Ladkiwale send a dulhan and one saheli.",
+      "The dulha stands with her hands behind her back and her feet planted. The two dost stand on either side and hold her elbows, so she can lean back a little and lift her chin.",
+      "Start the 30 second timer. The dulhan tries to put the dupatta garland over the dulha's head. She may rise on her toes but cannot jump or stand on anything.",
+      "At any time the saheli can offer a toffee to one dost. If the dost takes it she says \"Bik gayi!\", slowly lets go of the elbow and steps aside, and the dulha must stand straight.",
+      "If the garland goes over the head and rests on the shoulders before the timer ends, Ladkiwale get a point. Then swap roles and play again until every lady has had a turn."
+    ],
+    "rules": [
+      "If the dulha moves her feet, the varmala counts.",
+      "If the dulhan jumps or uses a chair or stool, the point is cancelled.",
+      "A dost who takes the toffee but keeps holding gives a point to Ladkiwale.",
+      "The garland must rest on the shoulders within 30 seconds to score.",
+      "The team with the most varmalas after everyone has played wins."
+    ],
+    "variations": [
+      "Pick the tallest lady in the room as the dulha for a near impossible round.",
+      "Mummy ji rule: no toffees allowed, the saheli can only bribe the dost with compliments.",
+      "The dulhan must recite a one line shaayari after the garland lands before the point counts."
+    ],
+    "tips": [
+      "The dulha should lean back only a little; this is about dodging, not falling.",
+      "Dost should hold the elbows firmly and let go slowly when bribed.",
+      "Play on a carpet or rug and keep furniture and glass tables away.",
+      "Use a soft cotton dupatta, not one with heavy zari or pins."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Varmala Ki Unchai?",
+        "a": "Five ladies play each round: a dulha, two dost, a dulhan and a saheli. With 8 to 20 ladies in two teams, everyone gets a turn in 10 to 15 minutes."
+      },
+      {
+        "q": "What do you need to play Varmala Ki Unchai?",
+        "a": "Just a dupatta tied into a loop for the varmala, two toffees per round and a phone timer. No shopping needed."
+      },
+      {
+        "q": "Is Varmala Ki Unchai a good game for a shaadi theme kitty party?",
+        "a": "Yes. It recreates the funny varmala moment from Indian weddings, so it fits shaadi season, sangeet and bridal theme kitties perfectly."
+      },
+      {
+        "q": "Is the game safe for older ladies?",
+        "a": "Yes, if the dulha only leans back slightly, the dost hold her elbows firmly, and nobody jumps or stands on furniture. Older ladies can happily play dost or saheli."
+      },
+      {
+        "q": "How do you win Varmala Ki Unchai?",
+        "a": "The dulhan's team scores a point each time the garland lands within 30 seconds. After everyone has had a turn, the team with the most points wins."
+      }
+    ]
+  }
+}
