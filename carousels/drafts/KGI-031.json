@@ -1,0 +1,905 @@
+{
+  "id": "KGI-031",
+  "n": 31,
+  "slug": "teen-shaadi-ek-shaam-relay-kitty-party-game",
+  "game": "Teen Shaadi Ek Shaam",
+  "tagline": "Shagun, selfie, dinner, tag!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"20\" y1=\"340\" x2=\"1060\" y2=\"340\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "person",
+      "x": 70,
+      "y": 260,
+      "s": 1,
+      "color": "blue"
+    },
+    {
+      "k": "person",
+      "x": 170,
+      "y": 260,
+      "s": 1,
+      "color": "blue"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(370 340) scale(0.9)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(362 236) rotate(0) scale(0.55)\"><rect x=\"-46\" y=\"-30\" width=\"92\" height=\"60\" rx=\"5\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-46 -30 L0 6 L46 -30\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"0\" cy=\"8\" r=\"7\" fill=\"#E85D8A\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(720 340) scale(0.9)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(712 250) scale(0.7)\"><rect x=\"-44\" y=\"-84\" width=\"88\" height=\"84\" rx=\"22\" fill=\"#F8C9DA\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-54 -40 Q-50 -112 0 -112 Q50 -112 54 -40 L40 -40 Q36 -92 0 -92 Q-36 -92 -40 -40 Z\" fill=\"#D7263D\" stroke=\"#4A1238\" stroke-width=\"3\"/><circle cx=\"0\" cy=\"-70\" r=\"5\" fill=\"#D7263D\"/><path d=\"M-14 -40 Q0 -28 14 -40\" stroke=\"#4A1238\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"-14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/><circle cx=\"14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(980 340) scale(0.9)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(972 250) scale(0.7)\"><path d=\"M-50 -30 L50 -30 Q46 0 0 0 Q-46 0 -50 -30 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"-26\" cy=\"-36\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-40\" r=\"8\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"14\" cy=\"-37\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"-33\" r=\"7\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"4\" cy=\"-50\" r=\"7\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 545,
+      "y": 260,
+      "s": 1,
+      "color": "green"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"575\" y1=\"290\" x2=\"605\" y2=\"190\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"605\" cy=\"190\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<line x1=\"515\" y1=\"290\" x2=\"485\" y2=\"190\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"485\" cy=\"190\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "note",
+      "x": 470,
+      "y": 150,
+      "s": 0.6,
+      "color": "white"
+    },
+    {
+      "k": "note",
+      "x": 610,
+      "y": 145,
+      "s": 0.6,
+      "color": "white"
+    },
+    {
+      "k": "text",
+      "x": 545,
+      "y": 60,
+      "text": "Baraat aa gayi!",
+      "size": 52,
+      "color": "white"
+    },
+    {
+      "k": "text",
+      "x": 370,
+      "y": 120,
+      "text": "Shagun",
+      "size": 30,
+      "color": "white"
+    },
+    {
+      "k": "text",
+      "x": 720,
+      "y": 120,
+      "text": "Photo",
+      "size": 30,
+      "color": "white"
+    },
+    {
+      "k": "text",
+      "x": 980,
+      "y": 120,
+      "text": "Dinner",
+      "size": 30,
+      "color": "white"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Har team ke teen hall",
+    "items": [
+      {
+        "label": "Teen kursi",
+        "sub": "har team ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(60 210) scale(0.75)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 210) scale(0.75)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(240 210) scale(0.75)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Lifafe, toffee",
+        "sub": "har lady ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(110 110) rotate(-8) scale(1.4)\"><rect x=\"-46\" y=\"-30\" width=\"92\" height=\"60\" rx=\"5\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-46 -30 L0 6 L46 -30\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"0\" cy=\"8\" r=\"7\" fill=\"#E85D8A\"/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(220 120) scale(1.3)\"><path d=\"M-30 -12 L-16 0 L-30 12 Z M30 -12 L16 0 L30 12 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"3\"/><ellipse cx=\"0\" cy=\"0\" rx=\"18\" ry=\"12\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Takiya dulhan",
+        "sub": "dupatta odha do",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 205) scale(1.6)\"><rect x=\"-44\" y=\"-84\" width=\"88\" height=\"84\" rx=\"22\" fill=\"#F8C9DA\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-54 -40 Q-50 -112 0 -112 Q50 -112 54 -40 L40 -40 Q36 -92 0 -92 Q-36 -92 -40 -40 Z\" fill=\"#D7263D\" stroke=\"#4A1238\" stroke-width=\"3\"/><circle cx=\"0\" cy=\"-70\" r=\"5\" fill=\"#D7263D\"/><path d=\"M-14 -40 Q0 -28 14 -40\" stroke=\"#4A1238\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"-14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/><circle cx=\"14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Namkeen katori",
+        "sub": "ek piece har lady",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 180) scale(2)\"><path d=\"M-50 -30 L50 -30 Q46 0 0 0 Q-46 0 -50 -30 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"-26\" cy=\"-36\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-40\" r=\"8\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"14\" cy=\"-37\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"-33\" r=\"7\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"4\" cy=\"-50\" r=\"7\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Baraat ka gaana",
+        "sub": "phone ya speaker",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "speaker",
+            "x": 130,
+            "y": 115,
+            "s": 0.95
+          },
+          {
+            "k": "note",
+            "x": 225,
+            "y": 100,
+            "s": 0.9,
+            "color": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Har team ki teen kursi",
+      "body": "Kursiyan line mein: Shagun, Photo, Dinner. Team start line par khadi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 20,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"20\" y1=\"600\" x2=\"940\" y2=\"600\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 70,
+          "y": 536,
+          "s": 0.8,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 536,
+          "s": 0.8,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 230,
+          "y": 536,
+          "s": 0.8,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"300\" y1=\"400\" x2=\"300\" y2=\"610\" stroke=\"#E85D8A\" stroke-width=\"8\" stroke-dasharray=\"18 12\"/>"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 385,
+          "text": "Start",
+          "size": 30,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(450 600) scale(1)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(442 475) rotate(0) scale(0.8)\"><rect x=\"-46\" y=\"-30\" width=\"92\" height=\"60\" rx=\"5\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-46 -30 L0 6 L46 -30\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"0\" cy=\"8\" r=\"7\" fill=\"#E85D8A\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(650 600) scale(1)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(642 500) scale(0.75)\"><rect x=\"-44\" y=\"-84\" width=\"88\" height=\"84\" rx=\"22\" fill=\"#F8C9DA\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-54 -40 Q-50 -112 0 -112 Q50 -112 54 -40 L40 -40 Q36 -92 0 -92 Q-36 -92 -40 -40 Z\" fill=\"#D7263D\" stroke=\"#4A1238\" stroke-width=\"3\"/><circle cx=\"0\" cy=\"-70\" r=\"5\" fill=\"#D7263D\"/><path d=\"M-14 -40 Q0 -28 14 -40\" stroke=\"#4A1238\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"-14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/><circle cx=\"14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(850 600) scale(1)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(842 500) scale(0.85)\"><path d=\"M-50 -30 L50 -30 Q46 0 0 0 Q-46 0 -50 -30 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"-26\" cy=\"-36\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-40\" r=\"8\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"14\" cy=\"-37\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"-33\" r=\"7\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"4\" cy=\"-50\" r=\"7\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 650,
+          "text": "Shagun",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 650,
+          "y": 650,
+          "text": "Photo",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 850,
+          "y": 650,
+          "text": "Dinner",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 330,
+          "text": "Hall 1",
+          "size": 30,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 650,
+          "y": 330,
+          "text": "Hall 2",
+          "size": 30,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 850,
+          "y": 330,
+          "text": "Hall 3",
+          "size": 30,
+          "color": "mute"
+        },
+        {
+          "k": "arrow",
+          "x1": 200,
+          "y1": 240,
+          "x2": 880,
+          "y2": 240,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "text",
+          "x": 540,
+          "y": 190,
+          "text": "Ek ek karke, teeno hall",
+          "size": 38,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Hall 1: lifafe mein shagun",
+      "body": "Toffee lifafe mein daalo, band karo, shagun bowl mein daalo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 80,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 900,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"80\" y1=\"620\" x2=\"900\" y2=\"620\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 516,
+          "s": 1.3,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"350\" y1=\"520\" x2=\"450\" y2=\"470\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"450\" cy=\"470\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(500 450) rotate(-6) scale(1.3)\"><rect x=\"-46\" y=\"-30\" width=\"92\" height=\"60\" rx=\"5\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-46 -30 L0 6 L46 -30\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"0\" cy=\"8\" r=\"7\" fill=\"#E85D8A\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(500 300) scale(1.5)\"><path d=\"M-30 -12 L-16 0 L-30 12 Z M30 -12 L16 0 L30 12 Z\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"3\"/><ellipse cx=\"0\" cy=\"0\" rx=\"18\" ry=\"12\" fill=\"#FFC93C\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 500,
+          "y1": 330,
+          "x2": 500,
+          "y2": 400,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(740 620) scale(1.3)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "bowl",
+          "x": 730,
+          "y": 459,
+          "s": 0.5,
+          "color": "yel"
+        },
+        {
+          "k": "arrow",
+          "x1": 570,
+          "y1": 440,
+          "x2": 680,
+          "y2": 420,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "text",
+          "x": 740,
+          "y": 670,
+          "text": "Shagun bowl",
+          "size": 34,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 500,
+          "y": 230,
+          "text": "Toffee andar, lifafa band!",
+          "size": 40,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Hall 2: dulhan ke saath selfie",
+      "body": "Takiya dulhan ke saath selfie lo. Pose 3 second pakdo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 80,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 900,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"80\" y1=\"620\" x2=\"900\" y2=\"620\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(680 620) scale(1.3)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(670 490) scale(1.2)\"><rect x=\"-44\" y=\"-84\" width=\"88\" height=\"84\" rx=\"22\" fill=\"#F8C9DA\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-54 -40 Q-50 -112 0 -112 Q50 -112 54 -40 L40 -40 Q36 -92 0 -92 Q-36 -92 -40 -40 Z\" fill=\"#D7263D\" stroke=\"#4A1238\" stroke-width=\"3\"/><circle cx=\"0\" cy=\"-70\" r=\"5\" fill=\"#D7263D\"/><path d=\"M-14 -40 Q0 -28 14 -40\" stroke=\"#4A1238\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"-14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/><circle cx=\"14\" cy=\"-56\" r=\"4\" fill=\"#4A1238\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 450,
+          "y": 516,
+          "s": 1.3,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"400\" y1=\"520\" x2=\"310\" y2=\"380\" stroke=\"#5B8DEF\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"310\" cy=\"380\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(300 350) scale(1.3)\"><rect x=\"-26\" y=\"-46\" width=\"52\" height=\"92\" rx=\"10\" fill=\"#4A1238\"/><rect x=\"-20\" y=\"-38\" width=\"40\" height=\"72\" rx=\"5\" fill=\"#FFF4F7\"/><circle cx=\"0\" cy=\"-20\" r=\"7\" fill=\"#E85D8A\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 230,
+          "text": "1, 2, 3...",
+          "size": 44,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 600,
+          "y": 230,
+          "text": "Cheese!",
+          "size": 52,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M340 300 L380 270 M350 330 L400 320\" stroke=\"#FFC93C\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        }
+      ]
+    },
+    {
+      "title": "Hall 3: dinner, phir tag",
+      "body": "Ek namkeen khao, tez chal ke wapas aao, agli lady ko tag.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 920,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"40\" y1=\"620\" x2=\"920\" y2=\"620\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(820 620) scale(1.1)\"><rect x=\"-56\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-86\" width=\"12\" height=\"86\" rx=\"4\" fill=\"#C98A5C\"/><rect x=\"44\" y=\"-220\" width=\"16\" height=\"130\" rx=\"6\" fill=\"#C98A5C\" stroke=\"#4A1238\" stroke-width=\"3\"/><rect x=\"-64\" y=\"-100\" width=\"128\" height=\"18\" rx=\"8\" fill=\"#E9B98F\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(812 500) scale(1)\"><path d=\"M-50 -30 L50 -30 Q46 0 0 0 Q-46 0 -50 -30 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"-26\" cy=\"-36\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"-6\" cy=\"-40\" r=\"8\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"14\" cy=\"-37\" r=\"8\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"-33\" r=\"7\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/><circle cx=\"4\" cy=\"-50\" r=\"7\" fill=\"#FFC93C\" stroke=\"#C98A6A\" stroke-width=\"2\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 650,
+          "y": 528,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"690\" y1=\"535\" x2=\"740\" y2=\"450\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"740\" cy=\"450\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"740\" cy=\"425\" r=\"10\" fill=\"#E9A23B\" stroke=\"#C98A6A\" stroke-width=\"2\"/>"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 300,
+          "text": "Ek bite!",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 560,
+          "y1": 360,
+          "x2": 300,
+          "y2": 360,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "text",
+          "x": 430,
+          "y": 320,
+          "text": "Wapas line par",
+          "size": 32,
+          "color": "mute"
+        },
+        {
+          "k": "person",
+          "x": 120,
+          "y": 528,
+          "s": 1.15,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 528,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"160\" y1=\"535\" x2=\"205\" y2=\"470\" stroke=\"#5B8DEF\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"205\" cy=\"470\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"260\" y1=\"535\" x2=\"218\" y2=\"470\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"218\" cy=\"470\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "text",
+          "x": 210,
+          "y": 410,
+          "text": "Tag!",
+          "size": 46,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 120,
+          "y": 640,
+          "text": "Agli",
+          "size": 30,
+          "color": "ink"
+        }
+      ]
+    },
+    {
+      "title": "Twist: Baraat aa gayi!",
+      "body": "Host chillaye toh jahan ho wahin 5 second baraat dance karo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 920,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"40\" y1=\"620\" x2=\"920\" y2=\"620\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 140,
+          "y": 528,
+          "s": 1.15,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"175\" y1=\"535\" x2=\"225\" y2=\"445\" stroke=\"#FFC93C\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"225\" cy=\"445\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "text",
+          "x": 140,
+          "y": 660,
+          "text": "Host",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 220,
+          "text": "Baraat aa gayi!",
+          "size": 54,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 500,
+          "y": 528,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"540\" y1=\"535\" x2=\"590\" y2=\"400\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"590\" cy=\"400\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"460\" y1=\"535\" x2=\"410\" y2=\"400\" stroke=\"#2FA37A\" stroke-width=\"20\" stroke-linecap=\"round\"/><circle cx=\"410\" cy=\"400\" r=\"15\" fill=\"#F2C2A0\" stroke=\"#C98A6A\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "note",
+          "x": 380,
+          "y": 380,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "note",
+          "x": 610,
+          "y": 360,
+          "s": 0.8,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 500,
+          "y": 660,
+          "text": "Wahin naacho",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "timer",
+          "x": 800,
+          "y": 440,
+          "s": 0.9,
+          "text": "0:05"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabki shaadi poori, team jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Lifafa khula reh gaya?",
+          "Wapas Hall 1 jao."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Baraat pe nahi naachi?",
+          "Wahin 10 tak gino."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Bhaagi ya dhakka diya?",
+          "Start line se dobara."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Aakhri lady pehle wapas?",
+          "Team ki shaadi poori!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Hall 2 ka pose host chune:",
+        "varmala, bidaai ya jhumka check."
+      ],
+      [
+        "Mummy ji rule: har hall mein",
+        "\"Kitni pyaari dulhan!\" bolo."
+      ],
+      [
+        "Saree rule: pallu sar par",
+        "rakh ke hi saare hall jao."
+      ]
+    ],
+    "tip": "Kursiyan deewar se door. Bhaago nahi, tez chalo."
+  },
+  "comment_hint": "kitni shaadiyan?",
+  "caption": "Shaadi season mein ek shaam, teen shaadi! Shagun do, dulhan ke saath selfie lo, dinner karo aur agli ko tag karo. Is December aapko kitni shaadiyan attend karni hain?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#shaadiseason",
+    "#relaygame"
+  ],
+  "web": {
+    "title": "Teen Shaadi Ek Shaam: Shaadi Relay Kitty Party Game Rules",
+    "description": "Teen Shaadi Ek Shaam is a funny shaadi season relay game for kitty parties: shagun, selfie, dinner and a baraat dance twist. Rules, materials, steps and tips.",
+    "intro": "Teen Shaadi Ek Shaam is a shaadi season relay game for kitty parties where each lady \"attends\" three weddings in one evening: she puts shagun in an envelope at Hall 1, takes a selfie with a cushion dulhan at Hall 2, and eats one piece of namkeen dinner at Hall 3 before tagging the next lady. The first team whose last lady gets back to the start line wins. The crazy twist: whenever the host shouts \"Baraat aa gayi!\" the runner must stop wherever she is and do 5 seconds of baraat dance. It fits December, when everyone has three shaadis on the same date, and it needs only chairs, envelopes, toffees, a cushion, a dupatta and namkeen.",
+    "players": "8 to 20 (2 teams)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "3 chairs or stools per team (6 for two teams)",
+      "One envelope and one toffee per lady",
+      "A bowl on each Hall 1 chair to collect the shagun",
+      "A cushion with a red dupatta draped over it as the dulhan, one per team",
+      "A katori of namkeen per team, one piece per lady",
+      "A phone or speaker with a baraat song for the twist"
+    ],
+    "steps": [
+      "Split the ladies into two teams. For each team, set three chairs in a line a few steps apart and label them Hall 1 Shagun, Hall 2 Photo and Hall 3 Dinner. The team lines up behind a start line.",
+      "At Hall 1 the first lady picks up an envelope, puts one toffee inside as shagun, closes the flap and drops it in the bowl on the chair.",
+      "At Hall 2 she takes a selfie on her own phone with the cushion dulhan, holding the pose for 3 seconds while a teammate counts out loud.",
+      "At Hall 3 she eats one piece of namkeen as her shaadi dinner, then walks fast back to the start line and tags the next lady, who sets off to Hall 1.",
+      "Any time during the relay, the host plays a baraat song and shouts \"Baraat aa gayi!\". Every runner must stop where she is and dance for 5 seconds before moving on."
+    ],
+    "rules": [
+      "An envelope left open does not count: the lady goes back to Hall 1 and closes it.",
+      "A runner who does not dance on \"Baraat aa gayi!\" must stand still and count to 10.",
+      "No running and no pushing. A lady who runs or pushes goes back to the start line.",
+      "The team whose last lady reaches the start line first wins the round."
+    ],
+    "variations": [
+      "Let the host pick the Hall 2 pose: varmala, bidaai hug or jhumka check.",
+      "Mummy ji rule: at every hall the lady must say \"Kitni pyaari dulhan!\" loudly before her task counts.",
+      "Saree rule: every lady walks the halls with her pallu over her head like a guest at a traditional wedding.",
+      "For 3 teams, add three more chairs or run the teams one after the other with a phone timer."
+    ],
+    "tips": [
+      "Keep the chairs away from walls, glass tables and the kitchen door.",
+      "Use toffees and namkeen that the ladies will happily eat, so nothing is wasted.",
+      "Call \"Baraat aa gayi!\" two or three times per relay, when the race is closest.",
+      "Keep the shagun envelopes and give them to the winning team as their prize."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Teen Shaadi Ek Shaam?",
+        "a": "It works best with 8 to 20 ladies split into two teams. Every lady runs the three halls once, so a full relay takes 10 to 15 minutes."
+      },
+      {
+        "q": "What do you need to play Teen Shaadi Ek Shaam?",
+        "a": "Three chairs per team, an envelope and a toffee for each lady, a bowl, a cushion with a red dupatta as the dulhan, a katori of namkeen and a phone for the baraat song."
+      },
+      {
+        "q": "Is Teen Shaadi Ek Shaam good for a shaadi theme kitty party?",
+        "a": "Yes. It turns the December rush of attending three weddings in one evening into a relay, so it suits shaadi season, sangeet and bridal theme kitties."
+      },
+      {
+        "q": "Is this relay game safe for older ladies?",
+        "a": "Yes. The rule is to walk fast, never run, and chairs are kept away from walls and glass. The baraat dance can be as gentle as a few claps and a shoulder shake."
+      },
+      {
+        "q": "How do you win Teen Shaadi Ek Shaam?",
+        "a": "The team whose last lady finishes all three halls and gets back to the start line first wins. Open envelopes and skipped dances cost time, so neat and quick wins."
+      }
+    ]
+  }
+}
