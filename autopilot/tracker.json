@@ -14317,7 +14317,7 @@
       "format": "Meme-format progress chip (25 s), Shruti as hisaab-keeper; caption 'Har group mein ek Shruti hoti hai jiska hisaab kabhi 100% nahi hota. Tag your Shruti!'",
       "source": "Trend: Progress chip that climbs and resets (KG-2026-11-07-a: 1891 views, skip 35.6%) + Who holds the kitty money",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-14",
@@ -14344,7 +14344,7 @@
       "format": "Carousel: slide 1 'Kitty party game: guess her live location' with a lady mooing for the doodh dairy, the chit list, the rules, the Location share twist, the winner",
       "source": "Trend: Live location dot as the middle (our map reel, skip 40%) + Search-friendly saveable carousels",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-14",
@@ -14371,7 +14371,7 @@
       "format": "Sitcom with a take counter (25-30 s), Tanya, Ruhi, Shruti in frame plus the daughter as a walk-on; caption 'Trend bachchon ka, perfect take mummy logon ka. Tag your kitty gang!'",
       "source": "Trend: Elders take over the Gen Z trend (freepressjournal.in) + Group lip-sync throwback",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-15",
@@ -14389,7 +14389,7 @@
       "format": "Carousel: slide 1 'Kitty party game: kiska udhaar kiske paas?' with ladies waving paper notes, the chit examples, the rules, the Naya kharcha twist, the winner",
       "source": "Trend: Door-arrivals third win: a money rule (KG-2026-11-09-b, skip 26.3%) + Who holds the kitty money",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-15",
@@ -14623,6 +14623,60 @@
       "format": "Kitty Game Ideas carousel: slide 1 'Shaadi season Housie: shaadi hai toh ticket badlo!' with ladies swapping tickets mid-round, setup, rules, the Kharmas twist, the winner; comment ask 'Aapko is December kitni shaadiyan attend karni hain?'",
       "source": "Trend: Housie variant carousel leads our games (KGI-026, 386 views, 2 shares, 5 saves) + Festival window: shaadi dates 1-6 Dec and Kharmas from 15-16 Dec (drikpanchang.com)",
       "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-20",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door holding her phone up with the kitty invite on it: \"December kitty! Invite pe rules likhe the, padhe kisne?\" chip 'RULES TODE: 0/4'. Context: one guest per ring breaks one rule from the card (Ruhi 40 minutes late, Myra brings last year's gift box, Shruti on a call with home) and the chip climbs as Tanya reads each rule aloud. Ending: the plates come round, Tanya bites a samosa and says \"Thanda hai!\", and the three guests read rule 4 back to her in one voice: \"Khaane ki buraai mana hai!\"",
+      "format": "Kitty Gang door-arrivals reel, 25-30 s: front door set, the invite on a real phone screen, one guest per ring, rule chip climbing, host breaks her own rule; caption 'Tag your Tanya who writes the rules and breaks them first!'",
+      "source": "Trend: Shaadi invite that lists rules for guests (shaadinews.com) + Door-arrivals is our winner, host breaks her own rule (skip 25-28%)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-20",
+      "type": "reel",
+      "idea": "Hook: Housie running, Ruhi in full shaadi make-up because she leaves for a reception after kitty, and her niece holds a phone on a ring light: \"Mausi, ticket ek baar aur kaato, reel ke liye!\" chip 'TAKE 1'. Context: on every number Ruhi cuts, the niece asks for a retake (pallu flip, slow-motion cut, a 'candid' laugh) while the gang waits with pens up and the chip climbs. Ending: on take 7 Shruti quietly says \"Full House\" on the same number, the niece swings the camera to her: \"Yeh wala viral hoga,\" and Ruhi is left posing to nobody.",
+      "format": "Kitty Gang sitcom reel, 25-30 s, opens on the game in progress; ring light and phone screen as props, take chip climbing, max 3 in a shot; caption 'Har kitty mein ek Ruhi hoti hai jo ticket bhi reel ke liye kaatti hai. Tag her!'",
+      "source": "Trend: Click buddy: a guest brings her own reel crew (asianetnews.com) + Shaadi season kitty",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-20",
+      "type": "reel",
+      "idea": "Hook: Housie paused, Tina walks in with a cake: \"Is mahine ka kitty birthday: Myra!\" chip 'JINGLE: 1/4'. Context: Tanya, Ruhi and Tina clap into a made-up jingle, \"Aaj Myra ka birthday hai,\" and each line roasts a kitty habit of hers (always late, 'main toh bas chai lungi', the re-gifted dabba) while Myra keeps smiling for the photo. Ending: Myra blows the candle and declares \"Birthday girl ka Full House pakka!\", the next number is called, Ruhi shouts \"Full House!\", and the cake knife moves to Ruhi.",
+      "format": "Kitty Gang sitcom reel, 25-30 s, birthday cake and candle on a dressed table, clap beat every 3 s as the repeating trigger, jingle chip; caption 'Aapki kitty ka birthday song kya hai? Comment karo!'",
+      "source": "Trend: Homemade birthday jingle with claps (bolnews.com, 50,000+ reels) + Aunty one-liner as a catchphrase",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-20",
+      "type": "game",
+      "idea": "Click buddy: the room splits into pairs, one lady is the 'dulhan' and her partner the click buddy with her own phone; the host calls a shaadi pose (varmala with a dupatta, feeding a toffee as mithai, the slow dupatta walk, the jhumka check) and the buddy has 10 seconds to shoot it, then all phones go round and the room votes the best shot each round. Crazy twist: on \"Reverse!\" the dulhan shoots and the buddy poses, and any photo that is not vertical scores zero.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Shaadi season game: apni click buddy dhoondo!' with a lady posing and her partner filming, setup (8-20 ladies, pairs, own phones, 15 min), poses list, scoring, the Reverse twist; comment ask 'Aapki kitty mein sabse acchi photo kaun kheenchti hai? Tag her!'",
+      "source": "Trend: Click buddy: a guest brings her own reel crew (asianetnews.com) + Shaadi dates 1-6 Dec",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-20",
+      "type": "game",
+      "idea": "Matar chhilo: every lady gets a heap of fresh pea pods (about 250 g) and an empty katori, and in 2 minutes shells as many as she can; the fullest katori, counted by the host's teaspoon, wins. Crazy twist: whenever the host shouts \"Saas aayi!\" everyone must stop, join hands and say \"Namaste mummyji!\", and anyone still shelling tips 5 dane into her neighbour's katori; at the end every lady's dane go into one pot for the host's matar paneer.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Winter kitty game: matar chhilo, saas aayi toh ruk jao!' with ladies racing over pea pods, setup (8-20 ladies, pea pods, katoris, 10-15 min), rules, the Saas aayi twist, the winner; comment ask 'Aapke ghar mein matar kaun chhilta hai?'",
+      "source": "Trend: First winter spread: gajar halwa and sarson saag + Household dexterity one-minute games",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-20",
+      "type": "game",
+      "idea": "Birthday jingle: the host names a lady whose birthday is near and gives each team of 4 or 5 three words about her (her saree colour, her excuse for coming late, her favourite dish); in 2 minutes each team writes a 4-line birthday song using all three words and performs it with claps between lines, and the birthday lady picks the winner. Crazy twist: every team must sing to the tune the host picks from a chit (a bhajan, a baraat song, a lori or an ad jingle), and a team that claps out of beat starts the song again.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Kitty birthday game: 2 minute mein gaana banao!' with a team clapping round a cake, setup (8-20 ladies, teams, chits, 15 min), the three-word rule, the tune chit twist, the winner; comment ask 'Is mahine aapki kitty mein kiska birthday hai? Tag her!'",
+      "source": "Trend: Homemade birthday jingle with claps (bolnews.com) + Nominate-your-friend call gets shares",
+      "score": 7,
       "used": ""
     }
   ],
@@ -15828,6 +15882,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-20",
+      "pattern": "Festival window: shaadi dates 1-6 Dec + Margashirsha Amavasya 8 Dec + Vivah Panchami 13-14 Dec + Dhanu Sankranti and Kharmas 16 Dec + Christmas 25 Dec",
+      "source": "December festivals 2026 (drikpanchang.com) + December 2026 Hindu Festivals (hindutone.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.drikpanchang.com/festivals/month/festivals-december.html?year=2026",
+      "learn": "Drafts from today post about 30 Nov onward, so the early December shaadi dates (11-16 days out, +2) and the last shaadi before Kharmas are the live hooks; Vivah Panchami and Christmas are planning hooks only, and calendars disagree on Vivah Panchami (13 or 14 Dec), so never print that date on screen."
+    },
+    {
+      "date": "2026-11-20",
+      "pattern": "Shaadi invite that lists rules for guests",
+      "source": "Indian wedding guests get a hilarious roast in viral invite: 'Khaane ki buraai...' (shaadinews.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.shaadinews.com/?p=39459",
+      "learn": "A card or message that spells out the rules every guest secretly breaks (no food complaints, no late arrival, no gift repeats) is instantly relatable; our kitty invite in the group can carry the rules, and the host breaking one of her own rules is the payoff."
+    },
+    {
+      "date": "2026-11-20",
+      "pattern": "Click buddy: a guest brings her own reel crew",
+      "source": "From Shaadi to Social Media: 'Click Buddy' at Indian weddings turn guests into Instagram stars (newsable.asianetnews.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://newsable.asianetnews.com/amp/india/indian-weddings-click-buddy-trend-where-guests-get-personal-instagram-crews-articleshow-ux7sz3k",
+      "learn": "Guests now get a personal phone-and-ring-light shooter at shaadis; in a kitty the same idea is a niece or nephew filming one lady for a reel, so retakes stall the room, and the candid moment the shooter misses is the joke."
+    },
+    {
+      "date": "2026-11-20",
+      "pattern": "Homemade birthday jingle with claps",
+      "source": "Instagram's new trend 'Aaj Meri Behen Ka Birthday Hai' (bolnews.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.bolnews.com/viral/instagrams-new-trend-aaj-meri-behen-ka-birthday-hai",
+      "learn": "An off-key made-up birthday song with claps between lines was reused in 50,000+ reels; every kitty cuts a cake for the month's birthday lady, so a gang jingle where each line roasts her kitty habit is a real scene with a built-in repeating beat (evergreen pattern, the audio itself is old)."
+    },
     {
       "date": "2026-11-19",
       "pattern": "Festival window: shaadi dates 1-6 Dec + Utpanna Ekadashi 4 Dec + Vivah Panchami 14 Dec + Kharmas from Dhanu Sankranti 15-16 Dec",
