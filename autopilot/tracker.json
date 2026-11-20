@@ -13301,6 +13301,21 @@
       "yt_id": "SoqK1xjbYKY",
       "yt_url": "https://youtube.com/shorts/SoqK1xjbYKY",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-21",
+      "created": "2026-11-21",
+      "title": "Shaadi Mein Kya Pehnu Housie night",
+      "format": "Theme Housie",
+      "theme": "kyapehnu",
+      "story": "pov",
+      "variant": "pov-ek-number",
+      "hook": "POV: bas ek number door",
+      "cast": [],
+      "status": "failed",
+      "idea": "Theme of the day reel: Shaadi Mein Kya Pehnu, games 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM",
+      "ai_error": "Command failed: node scripts/autopilot/build.js /home/runner/work/kittygang-reels/kittygang-reels/.remotion/TH-2026-11-21.json",
+      "error": "404 https://kittyparty-themes.rahul-89e.workers.dev/sounds/kyapehnu/v1/call_06.m4a"
     }
   ],
   "ideas": [
