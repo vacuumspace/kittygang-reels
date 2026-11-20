@@ -15879,6 +15879,35 @@
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/varmala-ki-unchai-shaadi-kitty-party-game",
       "queue_id": "8631aef0-dc3f-423c-97ac-e938ca9f6366",
       "scheduled_ist": "2026-11-20 16:40"
+    },
+    {
+      "id": "KGI-031",
+      "n": 31,
+      "created": "2026-11-20",
+      "game": "Teen Shaadi Ek Shaam",
+      "tagline": "Shagun, selfie, dinner, tag!",
+      "players": "8 to 20 (2 teams)",
+      "time": "10 to 15 minutes",
+      "slug": "teen-shaadi-ek-shaam-relay-kitty-party-game",
+      "caption": "Shaadi season mein ek shaam, teen shaadi! Shagun do, dulhan ke saath selfie lo, dinner karo aur agli ko tag karo. Is December aapko kitni shaadiyan attend karni hain?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-031/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/teen-shaadi-ek-shaam-relay-kitty-party-game",
+      "queue_id": "86e56700-769d-411c-b977-c0ac7e7169fb",
+      "scheduled_ist": "2026-11-21 16:23"
     }
   ],
   "research": [
