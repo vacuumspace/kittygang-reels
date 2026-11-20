@@ -13090,6 +13090,189 @@
         "no shot over 5 s (5.0 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-20-a-board.jpg"
+    },
+    {
+      "id": "KG-2026-11-20-b",
+      "created": "2026-11-20",
+      "title": "Naam bataya toh entry nahi!",
+      "format": "Door arrivals, Secret Santa rule at the front door, one chit per ring, host breaks her own rule",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Myra",
+        "Shruti"
+      ],
+      "caption": "Har kitty mein ek Tanya hoti hai jo Secret Santa ka secret khud kholti hai. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya runs the Christmas kitty Secret Santa at her door and sends every guest who gives away her chit to the balcony, then reads her own chit out loud.",
+      "beats": "hook: naam bataya, entry nahi / esc: Ruhi 'kisi ko mat batana... mujhe tum mili', Myra 'yeh Shruti kaun?', Shruti budgets Rs 150 for Myra on her calculator / turn: Tanya twirls, raaz sirf mere paas, then squeals her own chit 'Ruhi ko kya doon?' / button: guests throw the opening rule back, 'Naam bataya? Entry nahi!'",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya blocks her door holding the kitty pot full of chits as Ruhi stands in the doorway: 'Secret Santa! Chit lo! Naam bataya, entry nahi!'",
+        "variable": "a secret-keeping rule (not money, not food, not dress) where each guest breaks it through her own character trait (gossip, new girl, budget queen), to see if a character-driven giveaway lifts shares over the object-giveaway door reels",
+        "hypothesis": "skip under 30% and watched above 50% like the other door reels; Secret Santa is a December ritual every kitty group runs, so a 'Tag your Tanya' caption should pass 3 shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Secret Santa! Chit lo!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Naam bataya, entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ooh! Kisi ko mat batana...",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haan haan?",
+          "beat": "setup"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mujhe tum mili!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Balcony!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Meri pehli Secret Santa!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chup chaap padhna!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Achha... yeh Shruti kaun?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Naam bola?! Balcony!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Main hoon Shruti.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Hi! Aapko kya pasand hai?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Myra ke liye... 150 kaafi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw! Sirf 150?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Teeno balcony! Raaz sirf main rakhti!",
+          "beat": "turn"
+        },
+        {
+          "shot": 16,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruhi! Ruhi ko kya doon?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 17,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mujhe?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 18,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Naam bataya? Entry nahi!",
+          "beat": "button"
+        },
+        {
+          "shot": 19,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mera ghar hai!",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.36,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Fix of KG-2026-11-20-a, which failed QA again on a 5.0 s shot (limit 5) after the first fix split only the twist and button shots. This time every two-line shot is split, so each line gets its own shot (19 shots, one line each, hold 0.1) and no shot can hold more than one line plus a short pause. The chip now moves on the punch shot itself (BALCONY: 1, 2, 3 lands as Tanya says 'Balcony!'), which also helps the mute test. Words, voices and pace 28 unchanged, so pace and length stay as they passed (adds about 0.4 s). Type stays door-arrivals because this is a fix of a needs-fix reel, which the routine puts before any new idea. Original notes: last 4 gang reels are group-chat, sitcom, map-journey x2; the last door reel (KG-2026-11-17-a) is 4 reels back, so door-arrivals fits every 2nd reel. Lead is Tanya (last reel led by Ishita). Chose the Secret Santa idea over the winter thermal one because a shawl and thermal cannot be drawn yet, so that twist would fail the mute test. Game plays 3 times, each through the guest's own trait with claim before reveal: Ruhi ordinary (her catchphrase 'kisi ko mat batana' then she tells Tanya to her face), Myra sillier (the new girl reads the name aloud because she does not know who Shruti is, and Shruti answers from the door), Shruti absurd (she never says a gift, she budgets her giftee on a calculator, 'Myra ke liye 150'). Twist is see-it: Tanya brags she alone keeps secrets, opens her chit and squeals the name. Button throws the hook line back at her. Endings tried: Tanya hides the chit and Ruhi reads it over her shoulder (weaker, Tanya not to blame), Ruhi drew Tanya so they swap gifts on the spot (sweet, no laugh), Tanya squeals and is sent out of her own door (kept). Every shot 8 words or fewer, hold 0.1, 67 words at pace 28, about 27 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-20-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-20-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-20-b-board.jpg",
+      "queue_id": "6328d2db-a4fc-4d92-85cd-fabea0b96ed7",
+      "scheduled_ist": "2026-11-30 12:49",
+      "yt_id": "SoqK1xjbYKY",
+      "yt_url": "https://youtube.com/shorts/SoqK1xjbYKY",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
