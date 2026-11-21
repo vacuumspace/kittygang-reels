@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:06:47.663Z",
+ "updated": "2026-11-21T11:30:23.983Z",
  "days": [
   {
    "date": "2026-11-21",
@@ -17,7 +17,7 @@
     "id": "kyapehnu",
     "name": "Shaadi Mein Kya Pehnu",
     "pack": "themes/kyapehnu/v1",
-    "sounds": "sounds/kyapehnu/v1",
+    "sounds": "sounds/kyapehnu/v3",
     "colors": {
      "accent": "#D6337A",
      "accentDeep": "#8E1450",
@@ -91,7 +91,7 @@
     "id": "pushkarmela",
     "name": "Pushkar Mela",
     "pack": "themes/pushkarmela/v1",
-    "sounds": "sounds/pushkarmela/v1",
+    "sounds": "sounds/pushkarmela/v2",
     "colors": {
      "accent": "#1EA0A8",
      "accentDeep": "#0E6A72",
