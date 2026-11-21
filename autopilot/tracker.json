@@ -13316,6 +13316,189 @@
       "idea": "Theme of the day reel: Shaadi Mein Kya Pehnu, games 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM",
       "ai_error": "Command failed: node scripts/autopilot/build.js /home/runner/work/kittygang-reels/kittygang-reels/.remotion/TH-2026-11-21.json",
       "error": "404 https://kittyparty-themes.rahul-89e.workers.dev/sounds/kyapehnu/v1/call_06.m4a"
+    },
+    {
+      "id": "KG-2026-11-21-a",
+      "created": "2026-11-21",
+      "title": "Main toh bas chai lungi!",
+      "format": "Meme-format catchphrase: the same line said while the plate keeps filling, Housie table at a winter kitty",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Megha",
+        "Ruhi",
+        "Shruti"
+      ],
+      "caption": "Har kitty mein ek Megha hoti hai: 'main toh bas chai lungi' aur plate full. Tag your Megha!",
+      "status": "queued",
+      "idea": "At a winter kitty diet queen Megha refuses every dish with 'Main toh bas chai lungi' while taking it anyway; when the chai finally comes she is too full for it.",
+      "beats": "hook: Garam samose / Main toh bas chai lungi / setup: sardi wali diet / esc: samosa chai ke saath, pakode waste nahi, paneer protein (aloo bhi sabzi), ghar ka cake / gang finishes her line / twist: chai arrives, plate full / button: Chai? Nahi nahi, pet bhar gaya",
+      "experiment": {
+        "type": "meme-format",
+        "hook": "Housie cage tumbling, Tanya holds out hot samosas and Megha, green juice in hand, waves them off: 'Main toh bas chai lungi.' under a BAS CHAI · PLATE: 0 chip",
+        "variable": "a catchphrase meme (one line repeated while the picture contradicts it) with a plate counter chip, instead of the progress meter of our earlier meme reels; Megha as lead for the first time since the diet gag became her running joke",
+        "hypothesis": "skip under 38% and watched above 40% because the counter moves every 3 s; 2+ shares because every group has a 'bas chai' friend and the caption names her"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Garam samose!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Main toh bas chai lungi.",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Diet pe?",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haan, sardi wali diet!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Achha... bas ek. Chai ke saath.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chai abhi bani nahi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Toh intezaar mein!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Pakode, thande ho rahe!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haaye! Waste nahi karte!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Paneer tikka?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Protein hai! Diet mein allowed!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Protein? Samose mein?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Aloo bhi sabzi hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ghar ka cake!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Haaye, mana kaise karun?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Main toh bas...",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "...chai lungi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Lo, tumhari bas chai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Chai? Nahi nahi, pet bhar gaya!",
+          "beat": "button"
+        }
+      ],
+      "duration": 28.88,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 3,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Real kitty scene: the snack round at a winter kitty and the friend who says she only wants chai. One protagonist (Megha) in every shot, four characters in all, max three per shot. Clarity: the chip BAS CHAI · PLATE climbs 0, 1, 2, 3, 5 so a muted viewer sees the line and the plate disagree. Flow: each offer gets an instant reply with gap 0.04, Ruhi and Shruti react in between (Haaw! Diet pe? / Chai abhi bani nahi / Samose mein?!), and the gang finishing her catchphrase in chorus is the absurd third beat. Twist is see-it: chai kettle and cup pop in beside five full plates, music cut. Button mirrors the opening flipped: she opened with 'bas chai lungi' and ends refusing the chai. Endings tried: 1) she drinks the last cup too (weak, no flip), 2) chai ran out and she takes the last samosa (muddy), 3) kept: 'Chai? Nahi nahi, pet bhar gaya!' Every two-line shot is 8 words or fewer with hold 0.1, 70 words in about 28 s, pace 30, one silenceBefore. Kind humour: the joke is on the excuse, never on her body; Megha's own running gag (diet freak who eats the most samosas)."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-21-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-21-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-21-a-board.jpg",
+      "queue_id": "d246f49e-c82e-4a15-9f0f-f94610e7f560",
+      "scheduled_ist": "2026-12-01 13:04",
+      "yt_id": "F7-RiaVgj5c",
+      "yt_url": "https://youtube.com/shorts/F7-RiaVgj5c",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
