@@ -13708,6 +13708,37 @@
         "no shot over 5 s (5.3 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-21-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-22",
+      "created": "2026-11-22",
+      "title": "Pushkar vlog, ticket flop!",
+      "format": "Theme Housie",
+      "theme": "pushkarmela",
+      "story": "ai",
+      "variant": "travel-vlog",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Zoya vlogs the Pushkar Mela Housie like a travel creator: Megha on the jhoola eyes the kachori, Tina's oont is limited edition, Myra wears ghungroo but cannot dance, Aditi sips chai at the ghat and wins the Ghat group, while Zoya filmed so much she never marked her ticket.",
+      "beats": "hook: hi guys, Pushkar Mela live / stop 1/4: Megha on the jhoola / stop 2/4: Tina's oont / stop 3/4: Myra's ghungroo / stop 4/4: Aditi at the ghat / the call on the game / reveal: Ghat group is Aditi's / turn: Zoya never marked her ticket / button: Aditi, vlog bana, ticket nahi",
+      "experiment": {
+        "format": "travel-vlog",
+        "hook": "Zoya holding her phone up selfie-style on the Pushkar Mela home art, heartbeat at 0 s, mascot ball spinning above, chip 'VLOG: PUSHKAR MELA LIVE!' pinned from the first frame, she says 'Hi guys! Aaj Pushkar Mela, live!'",
+        "variable": "a second familiar media pattern as the glue: the travel vlogger's 'Hi guys' opener and 'STOP x/4' tour chips (Jhoola, Oont, Ghungroo, Ghat), to test if the news-bulletin hook win (45.2% skip, best ever) came from a known media voice and not from news itself",
+        "hypothesis": "if a pattern viewers know by heart is what stops the swipe, a vlog opener on a mela everyone has seen on Instagram holds the hook too: skip under 52% (best 45.2), watched % above 18 (stuck at 16 for four nights), at least 1 share or tag from 'jo har jagah vlog banati hai'"
+      },
+      "duration": 37.4,
+      "lufs": null,
+      "caption": "Har group mein ek Zoya hoti hai jo game se zyada vlog banati hai. Usse tag karo! Aaj ki Pushkar Mela Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #pushkarmela #pushkar #rajasthan #melavibes",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-22.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-22-cover.jpg",
+      "job_id": "1fba6d56-accb-49a5-a43b-bda0482467b3",
+      "permalink": "https://www.instagram.com/reel/DgA61NHE5eO/",
+      "media_id": "18102785945536800",
+      "yt_id": "dwxOIPCm3h4",
+      "yt_url": "https://youtube.com/shorts/dwxOIPCm3h4",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
