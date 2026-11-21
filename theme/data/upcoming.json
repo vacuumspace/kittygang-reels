@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:30:23.983Z",
+ "updated": "2026-11-21T16:52:18.356Z",
  "days": [
   {
    "date": "2026-11-21",
@@ -166,7 +166,7 @@
     "id": "haldikirasam",
     "name": "Haldi Ki Rasam",
     "pack": "themes/haldikirasam/v1",
-    "sounds": "sounds/haldikirasam/v1",
+    "sounds": "sounds/haldikirasam/v2",
     "colors": {
      "accent": "#3E8A2E",
      "accentDeep": "#1E5A1A",
