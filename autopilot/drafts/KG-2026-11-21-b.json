@@ -1,0 +1,911 @@
+{
+  "id": "KG-2026-11-21-b",
+  "title": "Kitty 2026 Wrapped!",
+  "format": "Types-of year-end recap: Shruti reads the gang its 2026 Wrapped, one stat per face, a type chip that moves every shot, Housie table at the last kitty of the year",
+  "idea": "At the last kitty of the year Shruti reads out the gang's 2026 Wrapped, roasting one friend per stat, until the group chat reveals the top stat is her own 312 UPI reminders.",
+  "logline": "Shruti reads out everyone's kitty 2026 Wrapped stats, and the last stat turns out to be her own 312 UPI reminders.",
+  "game": "every friend gets a 'Wrapped' stat and argues it the wrong way: Tanya calls 2 extra themes a bonus, Ruhi corrects 96 to 97 secrets, Myra cheers her 12/12 chores as an award, until the stat lands on Shruti",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Shruti, calculator in hand under a KITTY 2026 WRAPPED banner, announces 'Kitty 2026 Wrapped!' and Tanya gasps 'Haaw! Wrapped?', chip KITTY WRAPPED 2026",
+    "variable": "types-of as a year-end Wrapped recap (a format every phone user knows in December) where each type is a stat with a number on the chip, and the narrator becomes the last type",
+    "hypothesis": "skip under 35% (types-of best 33.3%) and watched over 45% because the chip number changes every shot; 2+ shares and saves because the caption invites tagging the group's hisaab friend in Wrapped season"
+  },
+  "mute": [
+    "Shruti with a calculator under a KITTY 2026 WRAPPED banner, Tanya gasps: a year-end recap of the kitty",
+    "Shruti says everyone's year gets counted, chip WRAPPED 0/4",
+    "chip THEME QUEEN: TANYA, Tanya claps happily, she is proud",
+    "chip 14 BAAR: 12 kitties, 14 themes, Tanya sweats: two were 'bonus'",
+    "chip GOSSIP QUEEN: RUHI, Ruhi on her phone asks how many",
+    "chip 96 BAAR, Ruhi corrects it to 97: one she never told Shruti",
+    "chip KAAM WALI: MYRA, Myra waves, thinks it is an award",
+    "chip 12/12, next year too, Myra confused: when was this rule made",
+    "chip SABSE SAMAJHDAAR ?, Shruti smirks, Ruhi stops her with her phone",
+    "group chat screen: Shruti's messages UPI kar dena, round off nahi, reminder 312, chip HISAAB QUEEN 312",
+    "Tanya and Ruhi turn on Shruti: everyone's hisaab, yours too",
+    "phone pings, chip 313: Shruti just sent one more reminder, unbothered"
+  ],
+  "beats": "hook: Kitty 2026 Wrapped / setup: saal bhar ka hisaab / esc: Tanya 14 theme in 12 kitty (bonus the), Ruhi 96 'kisi ko mat batana' (galat, 97), Myra kaam 12/12 (award? agle saal bhi) / twist: group Wrapped shows Shruti's 312 UPI reminders / button: sabka hisaab hoga? Galat, 313, ek abhi bheja",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Real kitty scene: the last kitty of the year and the hisaab friend who keeps count of everything, in Wrapped season. One protagonist (Shruti) in every shot, four characters in all, max three per shot. Clarity: the chip reads TYPE: NAME then the number every shot (1/4 to 4/4), so a muted viewer always knows who is being roasted and by how much. Flow: each stat gets an instant reply with gap 0.04; claim before reveal on every beat (Tanya 'Mera! Creative hoon!' then 14 in 12, Myra 'Award hai?' then 'agle saal bhi tum'); Ruhi's 'Galat! 97' is the absurd middle and sets up Shruti's own 'Galat. 313' as the callback. Twist is see-it: the group chat full of her UPI reminders with 312 on the chip. Button mirrors the opening: she opened by counting everyone, she ends counting her own reminder, one more, unbothered. Endings tried: 1) total kharcha Rs 48,000 and everyone stares at Tanya (needs reasoning, not see-it), 2) Shruti blushes and deletes the stat (no flip), 3) kept: 'Galat. 313. Ek abhi bheja.' Every two-line shot 8 words or fewer, hold 0.1, about 84 words in about 28 s, pace 28, one silenceBefore. Kind humour: habits only, Shruti's own catchphrase world (UPI, round off nahi)."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1.6,
+    "title": [
+      "Kitty 2026",
+      "WRAPPED!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har kitty mein ek Shruti hoti hai jo saal bhar ka hisaab rakhti hai. Aapki kitty ka 2026 Wrapped kya hoga? Tag your Shruti!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#housie",
+    "#kittypartyfun",
+    "#wrapped2026",
+    "#yearend"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "KITTY WRAPPED 2026",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o"
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Calendar page",
+          "x": 540,
+          "y": 1420,
+          "s": 1,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "calc",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 740,
+          "y": 900,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Kitty 2026 Wrapped!",
+          "say": "किटी दो हज़ार छब्बीस रैप्ड!",
+          "beat": "hook"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaw! Wrapped?",
+          "say": "हाव! रैप्ड?",
+          "gap": 0.04,
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "WRAPPED: 0/4",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": 0,
+          "mouth": "smile"
+        },
+        {
+          "name": "Myra",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "turn": -0.5,
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Saal bhar ka hisaab. Sabka!",
+          "say": "साल भर का हिसाब। सबका!",
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Arre!",
+          "say": "अरे!",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "1/4 THEME QUEEN: TANYA",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "clapR",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Sabse zyada theme badli: Tanya!",
+          "say": "सबसे ज़्यादा थीम बदली: तान्या!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Mera! Creative hoon!",
+          "say": "मेरा! क्रिएटिव हूँ!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "1/4 THEME QUEEN: 14 BAAR",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 360,
+          "y": 900,
+          "at": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "12 kitty, 14 theme.",
+          "say": "बारह किटी, चौदह थीम।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Do toh... bonus the!",
+          "say": "दो तो... बोनस थे!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "2/4 GOSSIP QUEEN: RUHI",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "phone2",
+          "turn": 0.5,
+          "mouth": "smirk",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "'Kisi ko mat batana': Ruhi!",
+          "say": "\"किसी को मत बताना\": रूही!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Kitni baar?",
+          "say": "कितनी बार?",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "2/4 GOSSIP QUEEN: 96 BAAR",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 740,
+          "y": 880,
+          "at": 1.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "96 baar.",
+          "say": "छियानवे बार।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Galat! 97. Ek tumhe nahi bataya.",
+          "say": "गलत! सत्तानवे। एक तुम्हें नहीं बताया।",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "3/4 KAAM WALI: MYRA",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 300,
+          "y": 880,
+          "at": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Sabse zyada kaam mila: Myra!",
+          "say": "सबसे ज़्यादा काम मिला: मायरा!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Mera? Award hai?",
+          "say": "मेरा? अवॉर्ड है?",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "3/4 KAAM WALI: 12/12",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 740,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 300,
+          "y": 880,
+          "at": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Haan. Agle saal bhi.",
+          "say": "हाँ। अगले साल भी।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Yeh rule kab bana?!",
+          "say": "ये रूल कब बना?!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "4/4 SABSE SAMAJHDAAR: ?",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "phone2",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.3,
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Tanya",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "scratch",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Aur sabse samajhdaar member...",
+          "say": "और सबसे समझदार मेंबर...",
+          "beat": "turn"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ruko! Group ka Wrapped!",
+          "say": "रुको! ग्रुप का रैप्ड!",
+          "gap": 0.04,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "phone",
+      "title": "Kitty Gang 2026",
+      "camera": "still",
+      "chip": "4/4 HISAAB QUEEN: 312",
+      "chipY": 200,
+      "music": false,
+      "chat": [
+        [
+          "Shruti",
+          "UPI kar dena",
+          0,
+          "9:02 AM",
+          0.1
+        ],
+        [
+          "Shruti",
+          "Round off nahi",
+          0,
+          "9:02 AM",
+          0.5
+        ],
+        [
+          "Shruti",
+          "Rs 340 baaki, Ruhi",
+          0,
+          "9:03 AM",
+          0.9
+        ],
+        [
+          "Shruti",
+          "Reminder 312: UPI kar dena",
+          0,
+          "11:58 PM",
+          1.4
+        ]
+      ],
+      "hold": 0.15,
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "312 reminder! Sab Shruti ke!",
+          "say": "तीन सौ बारह रिमाइंडर! सब श्रुति के!",
+          "beat": "turn"
+        },
+        {
+          "who": "Tanya",
+          "text": "Haaw!",
+          "say": "हाव!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "HISAAB QUEEN: SHRUTI",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Ruhi",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Toh sabka hisaab hoga, haan?",
+          "say": "तो सबका हिसाब होगा, हाँ?",
+          "beat": "button"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Tumhara bhi!",
+          "say": "तुम्हारा भी!",
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "KITTY 2026 WRAPPED",
+      "chipY": 600,
+      "hold": 0.5,
+      "chip": "HISAAB QUEEN: 313",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "phone2",
+          "prop": "calc",
+          "turn": 0,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 540,
+          "y": 1450,
+          "s": 1,
+          "at": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.1,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Galat. 313. Ek abhi bheja.",
+          "say": "गलत। तीन सौ तेरह। एक अभी भेजा।",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
