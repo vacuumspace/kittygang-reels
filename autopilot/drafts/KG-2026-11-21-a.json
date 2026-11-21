@@ -1,0 +1,1062 @@
+{
+  "id": "KG-2026-11-21-a",
+  "title": "Main toh bas chai lungi!",
+  "format": "Meme-format catchphrase: the same line said while the plate keeps filling, Housie table at a winter kitty",
+  "idea": "At a winter kitty diet queen Megha refuses every dish with 'Main toh bas chai lungi' while taking it anyway; when the chai finally comes she is too full for it.",
+  "logline": "Megha keeps saying she will only have chai while piling every snack on her plate, and when the chai finally arrives she says she is too full.",
+  "game": "every dish she refuses with 'bas chai' lands on her plate anyway with a new excuse: samosa (chai ke saath), pakode (waste nahi), paneer tikka (protein), cake (mana kaise karun), until the gang says her line for her",
+  "experiment": {
+    "type": "meme-format",
+    "hook": "Housie cage tumbling, Tanya holds out hot samosas and Megha, green juice in hand, waves them off: 'Main toh bas chai lungi.' under a BAS CHAI · PLATE: 0 chip",
+    "variable": "a catchphrase meme (one line repeated while the picture contradicts it) with a plate counter chip, instead of the progress meter of our earlier meme reels; Megha as lead for the first time since the diet gag became her running joke",
+    "hypothesis": "skip under 38% and watched above 40% because the counter moves every 3 s; 2+ shares because every group has a 'bas chai' friend and the caption names her"
+  },
+  "mute": [
+    "Tanya offers a samosa plate, Megha with green juice waves it off, chip BAS CHAI PLATE 0: she only wants chai",
+    "Ruhi asks if she is on diet, Megha proudly says winter diet",
+    "a samosa pops onto Megha's plate, chip PLATE 1: she took one, 'chai ke saath'",
+    "Shruti says chai is not made yet, Megha smirks: while I wait then",
+    "Tanya brings pakode, a second plate pops in, chip PLATE 2",
+    "paneer tikka joins, chip PLATE 3, Megha laughs: protein",
+    "Ruhi points: protein in a samosa? Megha: potato is a vegetable",
+    "Tanya holds a cake, cake and jalebi pop onto the plate, chip PLATE 5",
+    "Megha starts her line and Ruhi and Shruti finish it with her, all smirking",
+    "music stops, Tanya brings the chai kettle and a cup, Megha stares at her five full plates, chip CHAI ?",
+    "Megha waves off the chai: too full, chip CHAI 0, everyone laughs"
+  ],
+  "beats": "hook: Garam samose / Main toh bas chai lungi / setup: sardi wali diet / esc: samosa chai ke saath, pakode waste nahi, paneer protein (aloo bhi sabzi), ghar ka cake / gang finishes her line / twist: chai arrives, plate full / button: Chai? Nahi nahi, pet bhar gaya",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 3,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Real kitty scene: the snack round at a winter kitty and the friend who says she only wants chai. One protagonist (Megha) in every shot, four characters in all, max three per shot. Clarity: the chip BAS CHAI · PLATE climbs 0, 1, 2, 3, 5 so a muted viewer sees the line and the plate disagree. Flow: each offer gets an instant reply with gap 0.04, Ruhi and Shruti react in between (Haaw! Diet pe? / Chai abhi bani nahi / Samose mein?!), and the gang finishing her catchphrase in chorus is the absurd third beat. Twist is see-it: chai kettle and cup pop in beside five full plates, music cut. Button mirrors the opening flipped: she opened with 'bas chai lungi' and ends refusing the chai. Endings tried: 1) she drinks the last cup too (weak, no flip), 2) chai ran out and she takes the last samosa (muddy), 3) kept: 'Chai? Nahi nahi, pet bhar gaya!' Every two-line shot is 8 words or fewer with hold 0.1, 70 words in about 28 s, pace 30, one silenceBefore. Kind humour: the joke is on the excuse, never on her body; Megha's own running gag (diet freak who eats the most samosas)."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1.4,
+    "title": [
+      "Main toh bas",
+      "chai lungi!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har kitty mein ek Megha hoti hai: 'main toh bas chai lungi' aur plate full. Tag your Megha!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#housie",
+    "#kittypartyfun",
+    "#chailover",
+    "#sardi"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 30,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 0",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Megha",
+          "x": 740,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "bottle",
+          "turn": -0.5,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 470,
+          "y": 1430,
+          "s": 1,
+          "at": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 470,
+          "y": 1250,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Garam samose!",
+          "say": "गरम समोसे!",
+          "beat": "hook"
+        },
+        {
+          "who": "Megha",
+          "text": "Main toh bas chai lungi.",
+          "say": "मैं तो बस चाय लूँगी।",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 0",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "bottle",
+          "turn": -0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Diet pe?",
+          "say": "हाव! डाइट पे?",
+          "beat": "setup"
+        },
+        {
+          "who": "Megha",
+          "text": "Haan, sardi wali diet!",
+          "say": "हाँ, सर्दी वाली डाइट!",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 1",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Megha",
+          "x": 740,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "bottle",
+          "turn": -0.5,
+          "mouth": "smile",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 630,
+          "y": 1880,
+          "s": 0.85,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "slurp",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Achha... bas ek. Chai ke saath.",
+          "say": "अच्छा... बस एक। चाय के साथ।",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 1",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": 0.4,
+          "mouth": "smirk",
+          "eyes": "side"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "talkL",
+          "turn": 0.5,
+          "mouth": "smirk"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 430,
+          "y": 1880,
+          "s": 0.85
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Chai abhi bani nahi.",
+          "say": "चाय अभी बनी नहीं।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Toh intezaar mein!",
+          "say": "तो इंतज़ार में!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 2",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o"
+        },
+        {
+          "name": "Megha",
+          "x": 740,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "cup",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Pakora plate",
+          "x": 470,
+          "y": 1430,
+          "s": 1,
+          "at": 0.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 630,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Pakora plate",
+          "x": 740,
+          "y": 1880,
+          "s": 0.85,
+          "at": 1.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Pakode, thande ho rahe!",
+          "say": "पकौड़े, ठंडे हो रहे!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Haaye! Waste nahi karte!",
+          "say": "हाय! वेस्ट नहीं करते!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 3",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Megha",
+          "x": 740,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "bottle",
+          "turn": -0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 630,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Pakora plate",
+          "x": 740,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Paneer tikka",
+          "x": 850,
+          "y": 1880,
+          "s": 0.85,
+          "at": 0.9
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "bulb",
+          "x": 820,
+          "y": 900,
+          "at": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Paneer tikka?",
+          "say": "पनीर टिक्का?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Protein hai! Diet mein allowed!",
+          "say": "प्रोटीन है! डाइट में अलाउड!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 3",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "talkL",
+          "turn": -0.4,
+          "mouth": "smirk"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "smirk",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 430,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Pakora plate",
+          "x": 540,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Paneer tikka",
+          "x": 650,
+          "y": 1880,
+          "s": 0.85
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 250,
+          "y": 900,
+          "at": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Protein? Samose mein?!",
+          "say": "प्रोटीन? समोसे में?!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Aloo bhi sabzi hai!",
+          "say": "आलू भी सब्ज़ी है!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 5",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Megha",
+          "x": 740,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "cup",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Celebration cake",
+          "x": 470,
+          "y": 1430,
+          "s": 0.9,
+          "at": 0.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 630,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Pakora plate",
+          "x": 740,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Paneer tikka",
+          "x": 850,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Cake slice",
+          "x": 630,
+          "y": 1790,
+          "s": 0.85,
+          "at": 1
+        },
+        {
+          "name": "Fafda jalebi",
+          "x": 740,
+          "y": 1790,
+          "s": 0.85,
+          "at": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 840,
+          "y": 880,
+          "at": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ghar ka cake!",
+          "say": "घर का केक!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Megha",
+          "text": "Haaye, mana kaise karun?",
+          "say": "हाय, मना कैसे करूँ?",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "BAS CHAI · PLATE: 5",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.3,
+          "mouth": "smile"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "talkR",
+          "turn": -0.3,
+          "mouth": "smile",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 430,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Pakora plate",
+          "x": 540,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Paneer tikka",
+          "x": 650,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Cake slice",
+          "x": 430,
+          "y": 1790,
+          "s": 0.85
+        },
+        {
+          "name": "Fafda jalebi",
+          "x": 540,
+          "y": 1790,
+          "s": 0.85
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1,
+          "name": "rimshot",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Main toh bas...",
+          "say": "मैं तो बस...",
+          "beat": "escalation"
+        },
+        {
+          "who": "ALL",
+          "text": "...chai lungi!",
+          "say": "चाय लूँगी!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.3,
+      "chip": "PLATE: 5 · CHAI: ?",
+      "music": false,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Megha",
+          "x": 740,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "cup",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Chai kettle",
+          "x": 440,
+          "y": 1450,
+          "s": 1,
+          "at": 0.1
+        },
+        {
+          "name": "Cutting chai",
+          "x": 560,
+          "y": 1500,
+          "s": 0.9,
+          "at": 0.3
+        },
+        {
+          "name": "Samosa plate",
+          "x": 630,
+          "y": 1880,
+          "s": 0.85,
+          "at": 0.5
+        },
+        {
+          "name": "Pakora plate",
+          "x": 740,
+          "y": 1880,
+          "s": 0.85,
+          "at": 0.6799999999999999
+        },
+        {
+          "name": "Paneer tikka",
+          "x": 850,
+          "y": 1880,
+          "s": 0.85,
+          "at": 0.86
+        },
+        {
+          "name": "Cake slice",
+          "x": 630,
+          "y": 1790,
+          "s": 0.85,
+          "at": 1.04
+        },
+        {
+          "name": "Fafda jalebi",
+          "x": 740,
+          "y": 1790,
+          "s": 0.85,
+          "at": 1.22
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "drip",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 860,
+          "y": 900,
+          "at": 1.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Lo, tumhari bas chai!",
+          "say": "लो, तुम्हारी बस चाय!",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "hold": 0.8,
+      "chip": "PLATE: 5 · CHAI: 0",
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0,
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Megha",
+          "x": 540,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "laughs",
+          "turn": 0.4,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "laughs",
+          "turn": -0.4,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 930,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 430,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Pakora plate",
+          "x": 540,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Paneer tikka",
+          "x": 650,
+          "y": 1880,
+          "s": 0.85
+        },
+        {
+          "name": "Cake slice",
+          "x": 430,
+          "y": 1790,
+          "s": 0.85
+        },
+        {
+          "name": "Fafda jalebi",
+          "x": 540,
+          "y": 1790,
+          "s": 0.85
+        },
+        {
+          "name": "Cutting chai",
+          "x": 690,
+          "y": 1560,
+          "s": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.6,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "lines": [
+        {
+          "who": "Megha",
+          "text": "Chai? Nahi nahi, pet bhar gaya!",
+          "say": "चाय? नहीं नहीं, पेट भर गया!",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
