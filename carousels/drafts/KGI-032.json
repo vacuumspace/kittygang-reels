@@ -1,0 +1,684 @@
+{
+  "id": "KGI-032",
+  "n": 32,
+  "slug": "katori-minar-one-hand-stacking-kitty-party-game",
+  "game": "Katori Minar",
+  "tagline": "Ek haath, ek minute, Doorbell!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 220,
+      "y": 150,
+      "s": 1,
+      "color": "blue"
+    },
+    {
+      "k": "person",
+      "x": 540,
+      "y": 150,
+      "s": 1,
+      "color": "yel"
+    },
+    {
+      "k": "person",
+      "x": 860,
+      "y": 150,
+      "s": 1,
+      "color": "green"
+    },
+    {
+      "k": "table",
+      "x": 540,
+      "y": 250,
+      "w": 1040,
+      "h": 200
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(330 230) rotate(0) scale(0.75)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(330 198.5) rotate(0) scale(0.75)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(330 132.5) rotate(0) scale(0.75)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(330 83) rotate(0) scale(0.75)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(650 230) rotate(3.5999999999999996) scale(0.75)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(654.5 198.5) rotate(3.5999999999999996) scale(0.75)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(659 132.5) rotate(3.5999999999999996) scale(0.75)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(663.5 101) rotate(3.5999999999999996) scale(0.75)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(668 51.5) rotate(3.5999999999999996) scale(0.75)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(672.5 -14.5) rotate(3.5999999999999996) scale(0.75)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(970 230) rotate(0) scale(0.75)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(970 180.5) rotate(0) scale(0.75)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(970 149) rotate(0) scale(0.75)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+    },
+    {
+      "k": "hand",
+      "x": 720,
+      "y": -10,
+      "rot": 180,
+      "s": 0.75
+    },
+    {
+      "k": "text",
+      "x": 190,
+      "y": 100,
+      "text": "Doorbell!",
+      "size": 42,
+      "color": "white",
+      "rot": -6
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(70 230) rotate(0) scale(0.75)\"><path d=\"M-22 -88 L22 -88 L28 0 L-28 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/></g><g transform=\"translate(100 185) rotate(-35) scale(0.75)\"><rect x=\"-5\" y=\"0\" width=\"10\" height=\"70\" rx=\"5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><ellipse cx=\"0\" cy=\"-8\" rx=\"13\" ry=\"17\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><path d=\"M28.75 147.5 l-16 -12 M25 170 l-22 0 M115 140 l14 -14\" stroke=\"#E85D8A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/>"
+    }
+  ],
+  "need": {
+    "title": "Sab rasoi mein milega",
+    "items": [
+      {
+        "label": "10 steel bartan",
+        "sub": "har lady ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(70 190) rotate(0) scale(1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(150 190) rotate(0) scale(1)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(235 190) rotate(0) scale(1)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 95) rotate(0) scale(0.7)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Katori, glass, dabba",
+        "sub": "mix karo, kaanch nahi",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 200) rotate(0) scale(0.8)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(150 166.4) rotate(0) scale(0.8)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(150 96) rotate(0) scale(0.8)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 43.19999999999999) rotate(0) scale(0.8)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Ek table",
+        "sub": "ya saaf farsh",
+        "draw": [
+          {
+            "k": "table",
+            "x": 150,
+            "y": 100,
+            "w": 280,
+            "h": 220
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "1 minute",
+        "draw": [
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 110,
+            "s": 0.7,
+            "text": "1:00"
+          }
+        ]
+      },
+      {
+        "label": "Glass aur chammach",
+        "sub": "Doorbell ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 290,
+            "y": 210,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(140 190) rotate(0) scale(1.2)\"><path d=\"M-22 -88 L22 -88 L28 0 L-28 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/></g><g transform=\"translate(188 118) rotate(-35) scale(1.2)\"><rect x=\"-5\" y=\"0\" width=\"10\" height=\"70\" rx=\"5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><ellipse cx=\"0\" cy=\"-8\" rx=\"13\" ry=\"17\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><path d=\"M74 58 l-16 -12 M68 94 l-22 0 M212 46 l14 -14\" stroke=\"#E85D8A\" stroke-width=\"7.199999999999999\" stroke-linecap=\"round\"/>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Har lady ko 10 bartan",
+      "body": "Ek round mein 4 ya 5 ladies, sab ke saamne katori, glass, dabba.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 390,
+          "s": 1.15,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 380,
+          "y": 390,
+          "s": 1.15,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 580,
+          "y": 390,
+          "s": 1.15,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 780,
+          "y": 390,
+          "s": 1.15,
+          "color": "green"
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 500,
+          "w": 880,
+          "h": 300
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(125 480) rotate(0) scale(0.6)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(180 480) rotate(0) scale(0.6)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(235 480) rotate(0) scale(0.6)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(152 455) rotate(0) scale(0.5)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(210 440) rotate(0) scale(0.45)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(325 480) rotate(0) scale(0.6)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(380 480) rotate(0) scale(0.6)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(435 480) rotate(0) scale(0.6)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(352 455) rotate(0) scale(0.5)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(410 440) rotate(0) scale(0.45)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(525 480) rotate(0) scale(0.6)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(580 480) rotate(0) scale(0.6)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(635 480) rotate(0) scale(0.6)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(552 455) rotate(0) scale(0.5)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(610 440) rotate(0) scale(0.45)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(725 480) rotate(0) scale(0.6)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(780 480) rotate(0) scale(0.6)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(835 480) rotate(0) scale(0.6)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(752 455) rotate(0) scale(0.5)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(810 440) rotate(0) scale(0.45)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 200,
+          "text": "Ek round: 4 ya 5 ladies",
+          "size": 46,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 650,
+          "text": "10 bartan har lady",
+          "size": 40,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Ek haath se minar banao",
+      "body": "Doosra haath kamar ke peeche. 1 minute mein sabse ooncha minar!",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 110,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 330,
+          "y": 400,
+          "s": 1.6,
+          "color": "yel"
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 560,
+          "w": 860,
+          "h": 260
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(560 540) rotate(0) scale(1.1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(560 493.8) rotate(0) scale(1.1)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(560 397) rotate(0) scale(1.1)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(560 324.4) rotate(0) scale(1.1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(560 248.2) rotate(0) scale(1.1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "hand",
+          "x": 560,
+          "y": 183.2,
+          "rot": 180,
+          "s": 1.1
+        },
+        {
+          "k": "arrow",
+          "x1": 690,
+          "y1": 188.2,
+          "x2": 640,
+          "y2": 248.2,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "timer",
+          "x": 830,
+          "y": 300,
+          "s": 0.9,
+          "text": "1:00"
+        },
+        {
+          "k": "text",
+          "x": 200,
+          "y": 200,
+          "text": "Doosra haath peeche!",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 200,
+          "y1": 225,
+          "x2": 250,
+          "y2": 360,
+          "color": "pink",
+          "w": 9
+        }
+      ]
+    },
+    {
+      "title": "Gira? Neeche se shuru",
+      "body": "Minar gira toh pehli katori se dobara banao. Time nahi rukega!",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 130,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 560,
+          "w": 880,
+          "h": 260
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(150 540) rotate(0) scale(1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(270 520) rotate(-70) scale(1)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(380 530) rotate(25) scale(1)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(220 470) rotate(140) scale(1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(720 540) rotate(0) scale(1.1)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 330,
+          "text": "Dhadaam!",
+          "size": 60,
+          "color": "pink",
+          "rot": -8
+        },
+        {
+          "k": "cross",
+          "x": 260,
+          "y": 220,
+          "s": 0.9
+        },
+        {
+          "k": "arrow",
+          "x1": 430,
+          "y1": 420,
+          "x2": 640,
+          "y2": 420,
+          "color": "pink",
+          "w": 12
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 330,
+          "text": "Phir neeche se",
+          "size": 46,
+          "color": "green"
+        },
+        {
+          "k": "hand",
+          "x": 720,
+          "y": 440,
+          "rot": 180,
+          "s": 1
+        }
+      ]
+    },
+    {
+      "title": "Doorbell! Utho, ghoomo, Aayi ji!",
+      "body": "Host 2 baar glass bajayegi. Sab uthkar ghoomo, phir agla bartan.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 110,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 940,
+          "y": 690,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<line x1=\"40\" y1=\"650\" x2=\"930\" y2=\"650\" stroke=\"#E8B4C8\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(130 560) rotate(0) scale(1.2)\"><path d=\"M-22 -88 L22 -88 L28 0 L-28 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/></g><g transform=\"translate(178 488) rotate(-35) scale(1.2)\"><rect x=\"-5\" y=\"0\" width=\"10\" height=\"70\" rx=\"5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><ellipse cx=\"0\" cy=\"-8\" rx=\"13\" ry=\"17\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><path d=\"M64 428 l-16 -12 M58 464 l-22 0 M202 416 l14 -14\" stroke=\"#E85D8A\" stroke-width=\"7.199999999999999\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 330,
+          "text": "Doorbell!",
+          "size": 54,
+          "color": "pink",
+          "rot": -6
+        },
+        {
+          "k": "person",
+          "x": 450,
+          "y": 470,
+          "s": 1.35,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 720,
+          "y": 470,
+          "s": 1.35,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M380 300 A80 30 0 1 0 520 300\" stroke=\"#FFC93C\" stroke-width=\"9\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M650 300 A80 30 0 1 0 790 300\" stroke=\"#FFC93C\" stroke-width=\"9\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M520 300 l-4 -22 l18 12 Z M790 300 l-4 -22 l18 12 Z\" fill=\"#FFC93C\"/>"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 230,
+          "text": "Aayi ji!",
+          "size": 42,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 720,
+          "y": 230,
+          "text": "Aayi ji!",
+          "size": 42,
+          "color": "ink"
+        },
+        {
+          "k": "text",
+          "x": 585,
+          "y": 640,
+          "text": "Uthkar ek chakkar, phir baitho",
+          "size": 34,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Seeti baji, haath hatao",
+      "body": "Jiska minar khada aur sabse ooncha, woh round jeeti. Phir final!",
+      "draw": [
+        {
+          "k": "text",
+          "x": 40,
+          "y": 110,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 560,
+          "w": 880,
+          "h": 260
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(200 540) rotate(0) scale(0.9)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(200 502.2) rotate(0) scale(0.9)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(200 423) rotate(0) scale(0.9)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(450 540) rotate(0) scale(0.9)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(450 502.2) rotate(0) scale(0.9)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(450 423) rotate(0) scale(0.9)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(450 363.6) rotate(0) scale(0.9)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(450 325.79999999999995) rotate(0) scale(0.9)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(450 246.59999999999997) rotate(0) scale(0.9)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(700 540) rotate(0) scale(0.9)\"><rect x=\"-42\" y=\"-58\" width=\"84\" height=\"58\" rx=\"8\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"-47\" y=\"-70\" width=\"94\" height=\"14\" rx=\"6\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/><path d=\"M-28 -46 L-28 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/></g><g transform=\"translate(700 480.6) rotate(0) scale(0.9)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(700 442.8) rotate(0) scale(0.9)\"><path d=\"M-21 -88 L21 -88 L27 0 L-27 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-10 -76 L-12 -12\" stroke=\"#EEF1F5\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"-24\" y=\"-92\" width=\"48\" height=\"8\" rx=\"4\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g><g transform=\"translate(700 363.6) rotate(0) scale(0.9)\"><path d=\"M-56 0 L56 0 Q52 -40 0 -44 Q-52 -40 -56 0 Z\" fill=\"#C9CED6\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M-30 -30 Q-10 -38 10 -38\" stroke=\"#EEF1F5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"-60\" y=\"-6\" width=\"120\" height=\"9\" rx=\"4.5\" fill=\"#9AA1AB\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "tick",
+          "x": 450,
+          "y": 148.8,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 88.80000000000001,
+          "text": "Jeet gayi!",
+          "size": 44,
+          "color": "green"
+        },
+        {
+          "k": "timer",
+          "x": 860,
+          "y": 330,
+          "s": 0.8,
+          "text": "0:00"
+        },
+        {
+          "k": "text",
+          "x": 200,
+          "y": 650,
+          "text": "3",
+          "size": 40,
+          "color": "mute"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 650,
+          "text": "6",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 700,
+          "y": 650,
+          "text": "4",
+          "size": 40,
+          "color": "mute"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse ooncha minar jeetega",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Doosra haath lagaya?",
+          "Us round ka minar zero."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Doorbell pe nahi uthi?",
+          "Ek bartan wapas nikalo."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Seeti ke baad chhua?",
+          "Seedha out!"
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Seeti tak khada aur ooncha?",
+          "Aap jeet gayi!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Padosan aapke minar pe",
+        "ek baar phoonk maar sakti hai."
+      ],
+      [
+        "Final mein ulta haath:",
+        "right wali left se banayegi!"
+      ],
+      [
+        "Aakhri 20 second mein",
+        "Doorbell teen baar bajao."
+      ]
+    ],
+    "tip": "Sirf steel ke bartan lo, kaanch bilkul nahi."
+  },
+  "comment_hint": "kiska haath steady?",
+  "caption": "10 steel bartan, ek haath aur 1 minute! \"Doorbell!\" bola toh uthkar ghoomna padega. Aapki kitty mein sabse steady haath kiska hai?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#oneminutegames",
+    "#katoriminar"
+  ],
+  "web": {
+    "title": "Katori Minar: Kitty Party Game Rules, How to Play and Twists",
+    "description": "Katori Minar is a one minute kitty party game where ladies stack steel katoris, glasses and dabbas with one hand. Learn what you need, steps, rules and twists.",
+    "intro": "Katori Minar is a one minute kitty party stacking game where every lady builds the tallest tower she can from 10 steel katoris, glasses and small dabbas, using only one hand. Whoever has the tallest tower still standing when the timer ends wins the round, and round winners play a final. The crazy twist: twice in the minute the host rings a steel glass and shouts \"Doorbell!\", and every lady must stand up, turn around once, say \"Aayi ji!\" and sit back down before she can add another piece. It needs nothing but kitchen utensils and a phone timer.",
+    "players": "8 to 20 (rounds of 4 or 5)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "10 steel utensils per lady in the round: a mix of katoris, steel glasses and small dabbas with lids",
+      "A table, or a clean patch of floor",
+      "A phone timer set to 1 minute",
+      "One steel glass and a spoon for the host to ring as the doorbell"
+    ],
+    "steps": [
+      "Play in rounds of 4 or 5 ladies. Give each lady 10 steel utensils (katoris, glasses and small dabbas) in a heap in front of her on the table.",
+      "Every lady puts one hand behind her back. When the host starts the 1 minute timer, she builds a tower with her other hand, placing one utensil at a time, mouth up or mouth down as she likes.",
+      "If a tower falls, that lady must start again from the bottom with her first piece. The timer does not stop for her.",
+      "Twice during the minute the host rings the steel glass with a spoon and shouts \"Doorbell!\". Every lady must let go, stand up, turn around once, say \"Aayi ji!\" and sit down before adding her next piece.",
+      "When the timer ends, all hands come off. The tallest tower still standing wins the round, with the piece count as the tie breaker. Round winners then play one final round for the prize."
+    ],
+    "rules": [
+      "Using the second hand makes that tower count as zero for the round.",
+      "A lady who does not stand up on \"Doorbell!\" must take one utensil off her tower.",
+      "Touching the tower after the timer ends means she is out.",
+      "Only towers still standing at the end are measured.",
+      "Use steel utensils only, never glass or anything fragile."
+    ],
+    "variations": [
+      "Let each lady blow on her neighbour's tower once during the minute, without touching it.",
+      "In the final, every lady must build with her non dominant hand.",
+      "Ring the doorbell three times in the last 20 seconds for a chaotic finish."
+    ],
+    "tips": [
+      "Keep the table clear of plates and drinks so a falling tower lands safely.",
+      "Mouth down katoris make a steady base; save the glasses for the top.",
+      "Put the same mix of utensils in front of every lady so each round is fair.",
+      "Play on a rug or a mat if you use the floor, to keep the noise down."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Katori Minar?",
+        "a": "It works for 8 to 20 ladies. Play in rounds of 4 or 5 at a time so you have enough utensils, then let the round winners play a final."
+      },
+      {
+        "q": "What do you need to play Katori Minar?",
+        "a": "About 10 steel utensils per lady in a round (katoris, steel glasses, small dabbas), a table or clean floor, a phone timer and one steel glass with a spoon for the doorbell."
+      },
+      {
+        "q": "How long does the game take?",
+        "a": "Each round is just 1 minute, so the whole game with 3 or 4 rounds and a final takes 10 to 15 minutes."
+      },
+      {
+        "q": "Is Katori Minar safe to play at a kitty party?",
+        "a": "Yes, as long as you use only steel utensils and keep glassware, hot dishes and drinks off the table. A falling tower just makes a loud clang."
+      },
+      {
+        "q": "Is Katori Minar a good one minute game for ladies?",
+        "a": "Yes. It needs no prep, everyone already knows how to stack katoris, and the Doorbell twist keeps the whole room laughing even when towers fall."
+      }
+    ]
+  }
+}
