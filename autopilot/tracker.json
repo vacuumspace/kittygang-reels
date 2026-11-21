@@ -14802,7 +14802,7 @@
       "format": "Carousel: slide 1 'Winter kitty party game: rajai mein cover chadhao' with one lady fully inside the cover holding the corners, setup, rules, the Mehmaan twist, the winning jodi",
       "source": "Trend: Homemaking routine as content + First winter spread + Household dexterity one-minute games",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-15",
@@ -14838,7 +14838,7 @@
       "format": "Phone-screen POV sitcom (25 s): the video call frame is the camera as it travels the room, dressed living room, max 3 faces per shot, a call timer chip; caption 'Har kitty mein ek saas ka video call aata hai. Tag your Ruhi!'",
       "source": "Trend: The phone is the camera and travels (theprint.in, 138M views) + calls from home",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-16",
@@ -14883,7 +14883,7 @@
       "format": "meme-format with a climbing chip, one line to camera then Housie table shots, 25-30 s, max 3 characters per shot, caption 'Tag the friend jo ab chup nahi rehti!'",
       "source": "Trend: Pehle chup, ab jawab: answer-back voiceover (freepressjournal.in, about 45.6K reels) + Who holds the kitty money",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-17",
@@ -14892,7 +14892,7 @@
       "format": "types-of with one stake chip, each type a reply to Tanya, 25-30 s, max 3 characters per shot, caption 'Aapki kitty ki creator kaun? Tag karo!'",
       "source": "Trend: Nominate-your-friend call gets shares (our Top 100 creator reel: 1763 views, 9 saves, 8 shares) + Types-of with one stake chip (skip 33.3%)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-17",
@@ -15081,6 +15081,60 @@
       "format": "Kitty Game Ideas carousel: slide 1 'Kitty birthday game: 2 minute mein gaana banao!' with a team clapping round a cake, setup (8-20 ladies, teams, chits, 15 min), the three-word rule, the tune chit twist, the winner; comment ask 'Is mahine aapki kitty mein kiska birthday hai? Tag her!'",
       "source": "Trend: Homemade birthday jingle with claps (bolnews.com) + Nominate-your-friend call gets shares",
       "score": 7,
+      "used": "dropped"
+    },
+    {
+      "added": "2026-11-21",
+      "type": "reel",
+      "idea": "Hook: Housie running, Shruti holds a steel ladle like a mic and looks into the lens: \"Breaking news! Shaadi season kitty, aaj sab jaldi bhaagenge!\" chip 'LIVE 1/3 · TICKET KATE: 0'. Context: she interviews one lady per beat while the numbers go on (Ruhi: 'aaj teen shaadi hain, sirf ek ghanta', Myra: 'shagun ka lifafa purse mein ready', Tanya the host: 'koi Full House se pehle nahi jaayega!') and the ticker climbs with each cut. Ending: Tanya's phone buzzes, \"Reception 7 baje, abhi niklo!\", she grabs her clutch mid-number and Shruti turns to camera: \"Breaking: host khud bhaag gayi!\"",
+      "format": "News-bulletin gang reel (25-30 s), ladle mic and a LIVE ticker chip that moves every shot, Housie table in a dressed living room, max 3 per shot; caption 'Har shaadi season mein ek host hoti hai jo sabse pehle bhaagti hai. Tag her!'",
+      "source": "Trend: News-bulletin format lifts a theme reel (TH-2026-11-20, skip 45.2%) + Festival window: shaadi dates 1-6 Dec (10-15 days, +2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-21",
+      "type": "reel",
+      "idea": "Hook: 10 minutes before the kitty, Ruhi in a nightsuit at her mirror with a saree on the bed, chip 'GETTING READY: 10%'. Context: each cut is a call from home that stalls the bar (beta can't find his socks, the maid's 'kal nahi aaungi', saas asks for chai), she pins one pleat between each and the bar creeps 30, 60, 99. Ending: she rings the host's bell in full saree and jhumkas and the door opens on Tanya, Myra and Shruti in nightsuits and shawls: it was pajama kitty, the group message was unread, and the chip snaps back to 0%.",
+      "format": "GRWM loading-bar sitcom (25-28 s), dressed bedroom mirror then the front door, one interruption per beat, a percent chip that climbs and resets, max 3 per shot; caption 'Tag the friend jo kitty ka message kabhi poora nahi padhti!'",
+      "source": "Trend: GRWM with a loading bar (buffer.com, November 2026 sounds) + Progress chip that climbs and resets (our gossip reel, skip 35.6%)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-21",
+      "type": "reel",
+      "idea": "Hook: Housie cage tumbling, Tanya calls out: \"Aakhri 5 number, phir sab shaadi ke liye niklo!\" chip 'NUMBER BAAKI: 5 · LADIES: 4'. Context: on each called number one lady's phone buzzes from downstairs (husband honking, the cab is here, 'baraat nikal gayi') and she leaves her ticket half cut on the sofa, so both numbers on the chip drop together. Ending: on the last number Tanya, alone in the room, picks up the abandoned tickets, finds Myra's is a Full House, and quietly puts the prize envelope in her own handbag: \"Host ka Full House.\"",
+      "format": "Countdown inside one story (25-28 s), Housie table in a dressed living room emptying shot by shot, a two-number chip that changes every shot, max 3 per shot; caption 'December ki kitty: number kam, ladies aur kam. Tag your gang!'",
+      "source": "Trend: Countdown inside one story (KG-2026-11-12-b, skip 41.2%, watched 21%: so the stake changes every step and the end flips) + Festival window: shaadi dates 1-6 Dec (+2)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-21",
+      "type": "game",
+      "idea": "Kitty samachar: each lady picks a chit with one kitty 'headline' (\"Ruhi phir late\", \"Gajar halwa mein cheeni kam\", \"Host ne ticket mehenga kiya\") and has 20 seconds to read it as a news anchor with a steel ladle as her mic, straight face, ending with \"Dekhte rahiye Kitty Samachar!\"; anyone who laughs is out and the room votes the best anchor. Crazy twist: whenever the host shouts \"Ad break!\" the anchor must instantly sell a random kitchen thing the host holds up (a belan, a lemon, a pressure cooker whistle) in a 5-second jingle before going back to the news. 8 to 20 ladies, 15 minutes, chits, one ladle.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Kitty party game: ladle uthao, news padho!' with a lady holding a ladle mic and a straight face, sample headlines, rules, the Ad break twist, the winner; comment ask 'Aapki kitty ki sabse badi breaking news kya hai?'",
+      "source": "Trend: News-bulletin format lifts a theme reel (TH-2026-11-20, skip 45.2%)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-21",
+      "type": "game",
+      "idea": "1 minute mein ready: pairs, one lady is the 'model' sitting on a chair and her partner gets 60 seconds to get her ready from a shared pile (a dupatta to drape, a bindi, 4 bangles, a clip-on earring, a shawl, sunglasses) while the host calls out the 'loading' at 25, 50 and 75 percent; the room votes the most kitty-ready look. Crazy twist: at 50 percent the host shouts \"Network gaya!\" and the dresser must freeze for 10 seconds while the model carries on alone with her eyes closed, and whatever ends up on her stays on for the photo.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Kitty party game: 1 minute mein ready ho jao!' with a lady half-draped and her partner racing, what you need, the loading calls, the Network gaya twist, the winning look; comment ask 'Aapko kitty ke liye ready hone mein kitna time lagta hai?'",
+      "source": "Trend: GRWM with a loading bar (buffer.com, November 2026 sounds)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-21",
+      "type": "game",
+      "idea": "Ulti ginti Housie: normal tickets, but the host announces that only 20 numbers will be called and counts down aloud with each one (\"Bees baaki... unnees baaki...\"); if nobody claims Full House by zero, the ticket with the most cuts wins, so everyone keeps counting her cuts out loud. Crazy twist: on every number ending in 0 the host shouts \"Mehmaan aa gaye!\" and every lady must hide her ticket under her dupatta and hold her pen like a serving spoon for 5 seconds, and anyone caught peeking loses one cut. 8 to 20 ladies, 10 to 15 minutes, normal Housie tickets and pens.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Housie with a countdown: sirf 20 number!' with a lady counting cuts on her fingers, setup, the countdown rule, the Mehmaan twist, the winner; comment ask 'Aapki kitty mein Housie kitne number tak chalti hai?'",
+      "source": "Trend: Countdown inside one story (KG-2026-11-12-b, 1894 views, skip 41.2%) + Housie variant carousel leads our games (KGI-026)",
+      "score": 8,
       "used": ""
     }
   ],
@@ -16327,6 +16381,42 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-21",
+      "pattern": "Festival window: shaadi dates 1-6 Dec + Vivah Panchami 14 Dec + Champa Shashti 15 Dec + Dhanu Sankranti and Kharmas 16 Dec + Gita Jayanti and Vaikuntha Ekadashi 20 Dec + Datta Jayanti 23 Dec + Christmas 25 Dec",
+      "source": "December festivals 2026 (drikpanchang.com) + December 2026 Festivals State-Wise in India (hindutone.com)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.drikpanchang.com/festivals/month/festivals-december.html?lang=en&year=2026",
+      "learn": "Drafts from today post about 1 Dec, so the 1-6 Dec shaadi rush (10-15 days, +2) and 'last kitty before Kharmas' are the live hooks; Vivah Panchami is 23 days out (no +2 yet) and Gita Jayanti is 19 or 20 Dec depending on the calendar, so never print that date on screen."
+    },
+    {
+      "date": "2026-11-21",
+      "pattern": "News-bulletin format lifts a theme reel",
+      "source": "Our theme reel 'Breaking: Aangan mein shaadi!' (TH-2026-11-20, variant news-bulletin)",
+      "likes": 1,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/Df7xLvyiNPM/",
+      "learn": "Skip 45.2% against 60-75% for every other theme reel that week (442 views, watched 16%): a reporter with a 'LIVE 1/4' ticker interviewing one lady per beat gives a clear hook and a counter; reuse the bulletin shape in a gang reel, but the middle still needs a stake to move."
+    },
+    {
+      "date": "2026-11-21",
+      "pattern": "Countdown inside one story: strong hook, weak middle",
+      "source": "Our reel 'Phone band karne wali ka hi phone pehle bajta hai' (KG-2026-11-12-b, countdown)",
+      "likes": 5,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/Df7aoY4DZad/",
+      "learn": "1894 views and skip 41.2% (vs 49 reach for the first countdown) but watched only 21% and 0 shares: a countdown chip with one want hooks well, yet viewers leave once they can guess the end, so every step must change the stake and the last number must flip the story."
+    },
+    {
+      "date": "2026-11-21",
+      "pattern": "GRWM with a loading bar",
+      "source": "13 Trending Sounds on Instagram in November 2026 (buffer.com): getting-ready 'loading screen' format",
+      "likes": null,
+      "comments": null,
+      "link": "https://buffer.com/resources/trending-audio-instagram/",
+      "learn": "Getting ready shown as a loading bar that creeps up between interruptions is a trending shape; every kitty lady's last 10 minutes before leaving home (calls, kids, saas, the pallu pin) fits it, with the bar as the moving chip and a reset as the ending."
+    },
     {
       "date": "2026-11-20",
       "pattern": "Festival window: shaadi dates 1-6 Dec + Margashirsha Amavasya 8 Dec + Vivah Panchami 13-14 Dec + Dhanu Sankranti and Kharmas 16 Dec + Christmas 25 Dec",
