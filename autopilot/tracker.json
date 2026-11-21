@@ -13499,6 +13499,213 @@
       "yt_id": "F7-RiaVgj5c",
       "yt_url": "https://youtube.com/shorts/F7-RiaVgj5c",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-21-b",
+      "created": "2026-11-21",
+      "title": "Kitty 2026 Wrapped!",
+      "format": "Types-of year-end recap: Shruti reads the gang its 2026 Wrapped, one stat per face, a type chip that moves every shot, Housie table at the last kitty of the year",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Shruti",
+        "Ruhi",
+        "Myra"
+      ],
+      "caption": "Har kitty mein ek Shruti hoti hai jo saal bhar ka hisaab rakhti hai. Aapki kitty ka 2026 Wrapped kya hoga? Tag your Shruti!",
+      "status": "needs-fix",
+      "idea": "At the last kitty of the year Shruti reads out the gang's 2026 Wrapped, roasting one friend per stat, until the group chat reveals the top stat is her own 312 UPI reminders.",
+      "beats": "hook: Kitty 2026 Wrapped / setup: saal bhar ka hisaab / esc: Tanya 14 theme in 12 kitty (bonus the), Ruhi 96 'kisi ko mat batana' (galat, 97), Myra kaam 12/12 (award? agle saal bhi) / twist: group Wrapped shows Shruti's 312 UPI reminders / button: sabka hisaab hoga? Galat, 313, ek abhi bheja",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Shruti, calculator in hand under a KITTY 2026 WRAPPED banner, announces 'Kitty 2026 Wrapped!' and Tanya gasps 'Haaw! Wrapped?', chip KITTY WRAPPED 2026",
+        "variable": "types-of as a year-end Wrapped recap (a format every phone user knows in December) where each type is a stat with a number on the chip, and the narrator becomes the last type",
+        "hypothesis": "skip under 35% (types-of best 33.3%) and watched over 45% because the chip number changes every shot; 2+ shares and saves because the caption invites tagging the group's hisaab friend in Wrapped season"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Kitty 2026 Wrapped!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Wrapped?",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Saal bhar ka hisaab. Sabka!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sabse zyada theme badli: Tanya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mera! Creative hoon!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "12 kitty, 14 theme.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Do toh... bonus the!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "'Kisi ko mat batana': Ruhi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kitni baar?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "96 baar.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Galat! 97. Ek tumhe nahi bataya.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Sabse zyada kaam mila: Myra!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera? Award hai?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Haan. Agle saal bhi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Yeh rule kab bana?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aur sabse samajhdaar member...",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ruko! Group ka Wrapped!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "phone",
+          "who": "Ruhi",
+          "line": "312 reminder! Sab Shruti ke!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "phone",
+          "who": "Tanya",
+          "line": "Haaw!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Toh sabka hisaab hoga, haan?",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Tumhara bhi!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Galat. 313. Ek abhi bheja.",
+          "beat": "button"
+        }
+      ],
+      "duration": 44.49,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Real kitty scene: the last kitty of the year and the hisaab friend who keeps count of everything, in Wrapped season. One protagonist (Shruti) in every shot, four characters in all, max three per shot. Clarity: the chip reads TYPE: NAME then the number every shot (1/4 to 4/4), so a muted viewer always knows who is being roasted and by how much. Flow: each stat gets an instant reply with gap 0.04; claim before reveal on every beat (Tanya 'Mera! Creative hoon!' then 14 in 12, Myra 'Award hai?' then 'agle saal bhi tum'); Ruhi's 'Galat! 97' is the absurd middle and sets up Shruti's own 'Galat. 313' as the callback. Twist is see-it: the group chat full of her UPI reminders with 312 on the chip. Button mirrors the opening: she opened by counting everyone, she ends counting her own reminder, one more, unbothered. Endings tried: 1) total kharcha Rs 48,000 and everyone stares at Tanya (needs reasoning, not see-it), 2) Shruti blushes and deletes the stat (no flip), 3) kept: 'Galat. 313. Ek abhi bheja.' Every two-line shot 8 words or fewer, hold 0.1, about 84 words in about 28 s, pace 28, one silenceBefore. Kind humour: habits only, Shruti's own catchphrase world (UPI, round off nahi)."
+      },
+      "qa": [
+        "voice pace >= 2.3 words/s (2.15 w/s)",
+        "no shot over 5 s (5.3 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-21-b-board.jpg"
     }
   ],
   "ideas": [
