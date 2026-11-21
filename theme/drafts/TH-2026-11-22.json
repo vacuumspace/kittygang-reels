@@ -1,0 +1,176 @@
+{
+ "title": "Pushkar vlog, ticket flop!",
+ "format": "Kitty Gang travel vlog on the Pushkar Mela game: Zoya vlogs the mela stop by stop, each stop is a prize group, and while she films everyone else plays",
+ "experiment": {
+  "format": "travel-vlog",
+  "hook": "Zoya holding her phone up selfie-style on the Pushkar Mela home art, heartbeat at 0 s, mascot ball spinning above, chip 'VLOG: PUSHKAR MELA LIVE!' pinned from the first frame, she says 'Hi guys! Aaj Pushkar Mela, live!'",
+  "variable": "a second familiar media pattern as the glue: the travel vlogger's 'Hi guys' opener and 'STOP x/4' tour chips (Jhoola, Oont, Ghungroo, Ghat), to test if the news-bulletin hook win (45.2% skip, best ever) came from a known media voice and not from news itself",
+  "hypothesis": "if a pattern viewers know by heart is what stops the swipe, a vlog opener on a mela everyone has seen on Instagram holds the hook too: skip under 52% (best 45.2), watched % above 18 (stuck at 16 for four nights), at least 1 share or tag from 'jo har jagah vlog banati hai'"
+ },
+ "idea": "Zoya vlogs the Pushkar Mela Housie like a travel creator: Megha on the jhoola eyes the kachori, Tina's oont is limited edition, Myra wears ghungroo but cannot dance, Aditi sips chai at the ghat and wins the Ghat group, while Zoya filmed so much she never marked her ticket.",
+ "beats": "hook: hi guys, Pushkar Mela live / stop 1/4: Megha on the jhoola / stop 2/4: Tina's oont / stop 3/4: Myra's ghungroo / stop 4/4: Aditi at the ghat / the call on the game / reveal: Ghat group is Aditi's / turn: Zoya never marked her ticket / button: Aditi, vlog bana, ticket nahi",
+ "logline": "Zoya vlogs the Pushkar Mela Housie so hard she forgets to play, and the quiet one wins.",
+ "game": "every stop of the vlog shows someone distracted by the mela, and the vlogger is the most distracted of all",
+ "caption": "Har group mein ek Zoya hoti hai jo game se zyada vlog banati hai. Usse tag karo! Aaj ki {theme} Housie mein milte hain.",
+ "hashtags": [
+  "#kittyparty",
+  "#housie",
+  "#tambola",
+  "#kittygang",
+  "#pushkarmela",
+  "#pushkar",
+  "#rajasthan",
+  "#melavibes"
+ ],
+ "ambience": {
+  "name": "crowd",
+  "vol": 0.08
+ },
+ "pace": 24,
+ "shots": [
+  {
+   "kit": "thome",
+   "chip": "VLOG: PUSHKAR MELA LIVE!",
+   "chipY": 1560,
+   "camera": "punch",
+   "ball": { "n": 27, "x": 540, "y": 700, "size": 380, "revealAt": 99 },
+   "chars": [
+    { "name": "Zoya", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "smile", "hop": true }
+   ],
+   "lines": [
+    { "who": "Zoya", "text": "Hi guys! Aaj Pushkar Mela, live!", "say": "हाय गाइज़! आज पुष्कर मेला, लाइव!", "beat": "hook" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "heartbeat", "vol": 0.7 },
+    { "at": 0.1, "name": "sitar", "vol": 0.4 },
+    { "at": 0.8, "name": "heartbeat", "vol": 0.8 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "STOP 1/4: JHOOLA",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Megha", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "bottle", "eyes": "side", "mouth": "smirk", "hop": true }
+   ],
+   "lines": [
+    { "who": "Megha", "text": "Jhoola ke baad bas ek kachori.", "say": "झूले के बाद बस एक कचौरी।", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.1, "name": "whoosh", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "STOP 2/4: OONT",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Tina", "x": 540, "y": 1780, "s": 2.2, "pose": "hips", "eyes": "half", "mouth": "smirk" }
+   ],
+   "lines": [
+    { "who": "Tina", "text": "Mera oont? Limited edition, darling.", "say": "मेरा ऊंट? लिमिटेड एडिशन, डार्लिंग।", "punch": true, "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.3, "name": "sparkle", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "STOP 3/4: GHUNGROO",
+   "chipY": 1560,
+   "chars": [
+    { "name": "Myra", "x": 540, "y": 1780, "s": 2.2, "pose": "wave", "eyes": "open", "mouth": "o" }
+   ],
+   "stickers": [
+    { "kind": "question", "x": 780, "y": 1000, "at": 0.3, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Myra", "text": "Ghungroo baandh liye. Naachna bhi hai?", "say": "घुंघरू बांध लिए। नाचना भी है?", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.2, "name": "chimes", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "STOP 4/4: GHAT",
+   "chipY": 1560,
+   "camera": "push",
+   "chars": [
+    { "name": "Aditi", "x": 540, "y": 1780, "s": 2.2, "pose": "cup", "eyes": "half", "mouth": "flat" }
+   ],
+   "lines": [
+    { "who": "Aditi", "text": "Hmm. Ghat pe chai. Bas.", "say": "हम्म। घाट पे चाय। बस।", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.1, "name": "slurp", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ball",
+   "call": 27,
+   "dab": true,
+   "dur": 1.4,
+   "music": false,
+   "chip": "GHAT GROUP: 1 NUMBER BAAKI",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.0, "name": "cage", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ticket",
+   "marked": 4,
+   "dab": true,
+   "reacts": true,
+   "dur": 1.4,
+   "chip": "GHAT GROUP: ADITI!",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.1, "name": "ding", "vol": 0.5 },
+    { "at": 0.8, "name": "waah", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "ZOYA KA TICKET: 0 MARKED",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Zoya", "x": 540, "y": 1780, "s": 2.3, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "o" }
+   ],
+   "stickers": [
+    { "kind": "sweat", "x": 760, "y": 980, "at": 0.4, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Zoya", "text": "Ruko! Main toh shoot kar rahi thi!", "say": "रुको! मैं तो शूट कर रही थी!", "beat": "turn" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "scratch", "vol": 0.5 },
+    { "at": 0.6, "name": "haww", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": true,
+   "chip": "VLOG HIT, TICKET FLOP",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Zoya", "x": 360, "y": 1780, "s": 2.0, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "o", "turn": 0.5 },
+    { "name": "Aditi", "x": 760, "y": 1780, "s": 2.2, "pose": "cup", "eyes": "half", "mouth": "flat", "turn": -0.5 }
+   ],
+   "lines": [
+    { "who": "Aditi", "text": "Hmm. Vlog bana, ticket nahi.", "say": "हम्म। व्लॉग बना, टिकट नहीं।", "punch": true, "silenceBefore": true, "beat": "button" }
+   ]
+  }
+ ]
+}
