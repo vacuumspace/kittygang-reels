@@ -13929,6 +13929,184 @@
       "yt_id": "tZCyabWRuHc",
       "yt_url": "https://youtube.com/shorts/tZCyabWRuHc",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-22-b",
+      "created": "2026-11-22",
+      "title": "Late fine ka meter!",
+      "format": "Map journey: a late fine meter on the chip climbs with every stop on the late friend's live location, then flips onto the host",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Shruti",
+        "Avika"
+      ],
+      "caption": "Har group mein ek Tanya hoti hai jo late fine lagati hai aur cake khud late mangati hai. Tag your Tanya!",
+      "status": "needs-fix",
+      "idea": "Tanya fines late Avika Rs 10 a minute and watches her live location, but the kitty cake Tanya ordered is even later.",
+      "beats": "hook: Har minute late, das rupaye! / Meter chalu! / map: dot at home, lift excuse / esc: baraat Rs 300, rasmalai bribe Rs 450, Tanya counts a free cake Rs 500 / twist: Avika pays Rs 600, cake order 4:45 still at bakery, host bhi late / button: Avika throws the rule back, Tanya says Bas paanch minute, Shruti Meter chalu!",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Tanya shakes the kitty pot with her phone up, \"Har minute late, das rupaye!\", Shruti snaps \"Meter chalu!\" and a tick starts, chip AVIKA FINE: Rs 0",
+        "variable": "the second map-journey reel: a money meter chip that climbs at every map stop (Rs 50, 150, 300, 450, 500, 600) and flips onto the host at the end, borrowing the door-arrivals \"host breaks her own rule\" ending",
+        "hypothesis": "a rupee number that changes every shot holds better than the first map reel (watched 29%): skip under 33% and watched over 45% at about 27 s, and the \"Tag your Tanya\" late fine caption gets 2+ shares because every group has a late fine rule"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Har minute late, das rupaye!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Meter chalu!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Nikal gayi! Lift mein!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Dot toh ghar pe!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pandrah minute, dedh sau!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Waah! Cake ka paisa!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Baraat mein phas gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Teen sau! Naachti raho!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Rasmalai li! Fine maaf?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Tanya",
+          "line": "Rasmalai alag, fine alag!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Paanch sau! Cake free!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Avika aaj sponsor hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saath minute! Chhe sau!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Lo! Ab cake khilao!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Cake order... paune paanch?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Haaw! Host bhi late!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Har minute late, das rupaye!",
+          "beat": "button"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bas paanch minute!",
+          "beat": "button"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Meter chalu!",
+          "beat": "button"
+        }
+      ],
+      "duration": 33.69,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Real kitty scene: the late fine rule plus the late friend sharing her live location. One want (Tanya wants the fine money, then the cake from it), one game (each map stop pushes the meter), played ordinary (still at home, lift excuse), ordinary (baraat jam in shaadi season), absurd (she stops to buy rasmalai to get the fine waived, which costs her another Rs 150). Claim before reveal: Tanya celebrates the free cake twice before the delivery map shows she ordered it at 4:45. Twist is a see-it delivery map chip. Button mirrors the hook: Avika says Tanya's exact rule back and Shruti repeats Meter chalu!, so it loops into the start; Tanya using Avika's Bas paanch minute line is the kicker. Pipeline: every two-line shot is 8 words or fewer with hold 0.1, one silenceBefore, one silent shot of 1.4 s, pace 27. Endings tried: Avika pays in rasmalai (no flip); the cake boy rings and Tanya pays him (flip unclear muted); kept the meter turning on the host. Lead is Avika (last reel Shruti). Kind humour: nobody is mocked, the fine is a game."
+      },
+      "qa": [
+        "no shot over 5 s (5.3 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-22-b-board.jpg"
     }
   ],
   "ideas": [
