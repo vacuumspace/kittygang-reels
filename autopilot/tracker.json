@@ -14109,6 +14109,37 @@
         "no shot over 5 s (5.3 s)"
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-22-b-board.jpg"
+    },
+    {
+      "id": "TH-2026-11-23",
+      "created": "2026-11-23",
+      "title": "Haldi ubtan ki recipe!",
+      "format": "Theme Housie",
+      "theme": "haldikirasam",
+      "story": "ai",
+      "variant": "cooking-show",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya hosts a TV recipe show for haldi ubtan while the gang plays: Myra adds genda and is lost, Megha asks the calories of haldi, Shruti checks the kele ka patta was free, then 33 is called and Aditi, who did nothing, wins the Ubtan group.",
+      "beats": "hook: namaste, aaj ki recipe haldi ubtan / step 1/3: Myra's genda / step 2/3: Megha asks haldi calories / step 3/3: Shruti's free patta / the call on the game / reveal: Ubtan group is Aditi's / turn: Tanya, ubtan toh maine banaya / button: Aditi, tumne banaya, maine jeeta",
+      "experiment": {
+        "format": "cooking-show",
+        "hook": "Tanya waving as a TV recipe host on the Haldi Ki Rasam home art, heartbeat at 0 s, mascot ball spinning above, chip 'AAJ KI RECIPE: HALDI UBTAN' pinned from the first frame, she says 'Namaste! Aaj ki recipe: haldi ubtan!'",
+        "variable": "length: the known-media-voice hook that won (news-bulletin 45.2% skip) cut down to the role-reversal length (about 15 s, 8 shots, best middle at 21%), using a third media voice everyone knows, the TV recipe show, with 'STEP x/3' chips",
+        "hypothesis": "a hook viewers know by heart stops the swipe and a reel half as long lets them reach the payoff before they drift: skip under 52% (best 45.2), watched % above 22 (stuck at 14 to 16 on the longer one-reveal-per-cut reels), at least 1 share on a wedding-season Monday from 'jiski haldi aa rahi hai'"
+      },
+      "duration": 32,
+      "lufs": null,
+      "caption": "Ubtan sab ne banaya, jeeta kisne? Shaadi wali saheli ko tag karo! Aaj ki Haldi Ki Rasam Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #haldi #haldiceremony #ubtan #shaadiseason",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-23.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-23-cover.jpg",
+      "job_id": "26d63ee8-294c-42be-8c12-92c9a6d260cd",
+      "permalink": "https://www.instagram.com/reel/DgDfi8ojq2q/",
+      "media_id": "18127913405302399",
+      "yt_id": "vyfHUHvf32g",
+      "yt_url": "https://youtube.com/shorts/vyfHUHvf32g",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
