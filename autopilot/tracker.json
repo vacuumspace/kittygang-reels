@@ -15247,7 +15247,7 @@
       "format": "Carousel: slide 1 'Kitty party game: trend hai ya 90s?' with a lady in a saree mid-hook-step, how to play, the Beti bulao twist, scoring, the winning team",
       "source": "Trend: Elders take over the Gen Z trend (freepressjournal.in) + Retro Bollywood audio",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-16",
@@ -15292,7 +15292,7 @@
       "format": "Carousel: slide 1 'Winter kitty game: gloves pehen ke sui dhaaga!' with a lady squinting at a needle in woollen gloves, what you need, how to play, the light gayi twist, the winner",
       "source": "Trend: First winter kitty + Household dexterity one-minute games",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-16",
@@ -15382,7 +15382,7 @@
       "format": "Types-of with one stake chip (poll bars), 25-30 s, Housie table, max 3 per shot; caption 'Har kitty mein ek Tanya hoti hai jo theme apni almari dekh ke chunti hai. Tag her!'",
       "source": "Trend: Festival window: December kitty theme planning + Types-of with one stake chip (skip 33.3%) + Nominate-your-friend call gets shares",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-18",
@@ -15570,6 +15570,60 @@
       "idea": "Ulti ginti Housie: normal tickets, but the host announces that only 20 numbers will be called and counts down aloud with each one (\"Bees baaki... unnees baaki...\"); if nobody claims Full House by zero, the ticket with the most cuts wins, so everyone keeps counting her cuts out loud. Crazy twist: on every number ending in 0 the host shouts \"Mehmaan aa gaye!\" and every lady must hide her ticket under her dupatta and hold her pen like a serving spoon for 5 seconds, and anyone caught peeking loses one cut. 8 to 20 ladies, 10 to 15 minutes, normal Housie tickets and pens.",
       "format": "Kitty Game Ideas carousel: slide 1 'Housie with a countdown: sirf 20 number!' with a lady counting cuts on her fingers, setup, the countdown rule, the Mehmaan twist, the winner; comment ask 'Aapki kitty mein Housie kitne number tak chalti hai?'",
       "source": "Trend: Countdown inside one story (KG-2026-11-12-b, 1894 views, skip 41.2%) + Housie variant carousel leads our games (KGI-026)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-22",
+      "type": "reel",
+      "idea": "Hook: Housie running, Myra holds her ticket up to the lens: \"Kitty ki propaganda jo main ab nahi maanti!\" chip 'PROPAGANDA: 0/4'. Context: on every called number one classic line plays out: Ruhi on video call in a nightsuit says \"Bas 5 minute mein pahunch rahi hoon\", Tanya says \"Is baar ticket sasta rakhenge\" while the ticket price on the chip goes up, Tina swears \"Main sirf ek baar claim check karungi\" and checks four times. Ending: Myra says \"Aur main? Main kabhi gossip nahi karti\", then leans in, \"Waise suna, Shruti ne...\" and the word GOSSIP zooms on the chip, 'PROPAGANDA: 4/4'.",
+      "format": "Meme list (25-30 s, one line per number, chip 'PROPAGANDA: n/4', small text zoom on the last word); caption 'Aapki kitty ki sabse badi propaganda kya hai? Comment karo!'",
+      "source": "Trend: Propaganda I'm not falling for (Social Ketchup) + Small text zoom (Later, 30 Oct) + our winter types-of skip 30.9% but 0 comments",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-22",
+      "type": "reel",
+      "idea": "Hook: Housie running on 4 December, Shruti points at the calendar: \"Aaj Utpanna Ekadashi hai, sab vrat wali ho na?\" and Tanya, Ruhi and Myra all nod, chip 'VRAT: 3 · PLATE: 0'. Context: on every called number a plate comes round and one vrat bends: sabudana khichdi (\"yeh toh chalta hai\"), aloo chips (\"sendha namak hai\"), gajar halwa (\"gajar sabzi hai, sabzi chalti hai\"). Ending: Shruti calls the last number and all three shout \"Full House!\" with full plates, chip 'VRAT: 0 · PLATE: 3', and Tanya: \"Agli Ekadashi pakka.\"",
+      "format": "Sitcom with a moving chip (25-30 s, one dish per number); caption 'Vrat mein sabse pehle kya chalta hai aapka? Tag your sendha namak wali!'",
+      "source": "Trend: Festival window, Utpanna Ekadashi 4 Dec (Drik Panchang) + diet-break chip pattern",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-22",
+      "type": "reel",
+      "idea": "Hook: kitty draw, Shruti shakes the chit bowl: \"December ki kitty kiski? Rs 24,000!\" chip 'POT: Rs 24,000'. Context: before she opens it each lady pleads her shaadi season case: Ruhi fans out three shagun envelopes, Myra shows her lehenga EMI message, Tanya waves the caterer's advance slip, and the chip keeps the pot fixed while the 'NEEDS' count climbs. Ending: Shruti unfolds the chit, the name SHRUTI zooms to fill the screen, and she quietly tucks the envelope in her blouse: \"Meri bhi teen shaadiyaan hain.\"",
+      "format": "Sitcom draw (25-30 s, one plea per beat, small text zoom on the name); caption 'Shaadi season mein kitty kisko lagni chahiye? Comment your reason!'",
+      "source": "Trend: Kitty Party Stories series hits twice (35.5k views, 357 shares) + Small text zoom + shaadi dates 1-6 Dec",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-22",
+      "type": "game",
+      "idea": "Vrat mein chalega?: everyone stands; the host calls a food fast (sabudana, kuttu puri, aloo chips, paneer, coffee, makhana, chocolate) and ladies stay standing for 'Chalega' or sit for 'Nahi chalega'; wrong or slow is out. Crazy twist: for the disputed items (sendha namak chips, sabudana papad, chai) there is no right answer and the smaller side of the room is out.",
+      "format": "Carousel: rules slide, 12-item call list, disputed-items slide, winner gets the Ekadashi prize (a makhana packet). 8-20 ladies, 10-15 min, no props.",
+      "source": "Trend: Festival window, Utpanna Ekadashi 4 Dec + vrat food debates",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-22",
+      "type": "game",
+      "idea": "Propaganda pakdo: each lady writes three lines about her own kitty habits on a chit (\"Main kabhi late nahi aati\", \"Mujhe gossip pasand nahi\"), one of them false; she reads them and the room votes on the fake by raising a dupatta. Crazy twist: the host secretly hands one lady a toffee, which means all three of her lines must be false, and whoever guesses that wins double.",
+      "format": "Carousel: rules slide, sample chits, voting slide, toffee twist slide. Paper, pens, one toffee. 8-20 ladies, 15-20 min.",
+      "source": "Trend: Propaganda I'm not falling for (Social Ketchup)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-22",
+      "type": "game",
+      "idea": "Pahada Housie: normal tickets, but the host never says a number, only a table (\"saat chhakke\", \"nau paanche\", \"barah dooni\") and ladies must work out the answer and cut it; a wrong cut costs a Rs 10 fine. Crazy twist: anyone who claims a wrong line must say the table of 13 aloud before the game goes on.",
+      "format": "Carousel: rules slide, 10 sample calls with answers, fine and table-of-13 twist slide. Housie tickets, pens. 8-20 ladies, 15 min.",
+      "source": "Trend: December pre-boards (Festival window) + Housie variant carousel leads our games",
       "score": 8,
       "used": ""
     }
@@ -16847,6 +16901,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-22",
+      "pattern": "Festival window: shaadi dates 22-26 Nov and 1-6 Dec + Kalabhairav Jayanti 1 Dec + Utpanna Ekadashi 4 Dec + pre-boards + Vivah Panchami 14 Dec",
+      "source": "Drik Panchang: December 2026 festivals; Hindupad: Hindu festivals in December 2026",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.drikpanchang.com/festivals/month/festivals-december.html?year=2026",
+      "learn": "With a 10-day posting backlog, Utpanna Ekadashi (4 Dec, a vrat many kitty ladies keep) is the one festival that lands right; Gurpurab (24 Nov) is too close to write for now."
+    },
+    {
+      "date": "2026-11-22",
+      "pattern": "Kitty Party Stories series hits twice",
+      "source": "Our reel: \"Comment or DM me. Chalo sabko batate hai Kitty Party Stories\" (posted 20 Nov)",
+      "likes": 453,
+      "comments": 461,
+      "link": "https://www.instagram.com/reel/Df8_2a-PDtZ/",
+      "learn": "Same series name and comment CTA as our best post ever, and it hit again: 35.5k views, 357 shares, 144 saves, skip 35.9%; a named repeatable series plus a one-word comment ask beats a one-off caption."
+    },
+    {
+      "date": "2026-11-22",
+      "pattern": "Winter types-of: best hook, no comments",
+      "source": "Our reel: \"Har sardi ki kitty mein yeh 4 milti hain. Aap kaunsi type ho?\"",
+      "likes": 21,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/Df9GN4vCpzz/",
+      "learn": "2401 views and skip 30.9% (best non-door hook) but 0 comments and 2 shares; the caption question needs a one-word answer to type (a number or a keyword), not a vague 'kaunsi type ho'."
+    },
+    {
+      "date": "2026-11-22",
+      "pattern": "Propaganda I'm not falling for",
+      "source": "Social Ketchup weekly reel trends: calling out everyday propaganda",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.socialketchup.in/instagram/reel-trends-9357516",
+      "learn": "A list of lines everyone hears and nobody believes, one per beat; the kitty version is the group's classic lines ('bas 5 minute mein', 'is baar ticket sasta'), and the last line is the speaker's own."
+    },
+    {
+      "date": "2026-11-22",
+      "pattern": "Small text zoom on the punchline",
+      "source": "Later: Instagram Reels trends, October 2026 roundup (Small text zoom, 30 Oct)",
+      "likes": null,
+      "comments": null,
+      "link": "https://later.com/blog/instagram-reels-trends",
+      "learn": "One small word on screen zooms to fill the frame to land the last beat; use it on the final chip or a name on a chit instead of a new shot."
+    },
     {
       "date": "2026-11-21",
       "pattern": "Festival window: shaadi dates 1-6 Dec + Vivah Panchami 14 Dec + Champa Shashti 15 Dec + Dhanu Sankranti and Kharmas 16 Dec + Gita Jayanti and Vaikuntha Ekadashi 20 Dec + Datta Jayanti 23 Dec + Christmas 25 Dec",
