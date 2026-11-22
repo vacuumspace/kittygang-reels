@@ -1,0 +1,890 @@
+{
+  "id": "KG-2026-11-22-b",
+  "title": "Late fine ka meter!",
+  "format": "Map journey: a late fine meter on the chip climbs with every stop on the late friend's live location, then flips onto the host",
+  "idea": "Tanya fines late Avika Rs 10 a minute and watches her live location, but the kitty cake Tanya ordered is even later.",
+  "logline": "Tanya fines Avika Rs 10 for every late minute while the gang tracks her live location, and when Avika pays Rs 600, Tanya's own cake order turns out to be late, so the meter turns on Tanya.",
+  "game": "every stop on Avika's live location pushes the fine meter higher, until the meter turns on the host",
+  "experiment": {
+    "type": "map-journey",
+    "hook": "Tanya shakes the kitty pot with her phone up, \"Har minute late, das rupaye!\", Shruti snaps \"Meter chalu!\" and a tick starts, chip AVIKA FINE: Rs 0",
+    "variable": "the second map-journey reel: a money meter chip that climbs at every map stop (Rs 50, 150, 300, 450, 500, 600) and flips onto the host at the end, borrowing the door-arrivals \"host breaks her own rule\" ending",
+    "hypothesis": "a rupee number that changes every shot holds better than the first map reel (watched 29%): skip under 33% and watched over 45% at about 27 s, and the \"Tag your Tanya\" late fine caption gets 2+ shares because every group has a late fine rule"
+  },
+  "mute": [
+    "Housie at Tanya's, clock 4:00, Tanya holds up her phone by the kitty pot, chip AVIKA FINE: Rs 0: Avika is late and pays per minute",
+    "live map, dot on Avika's own building, chip LIVE: AVIKA KA GHAR · Rs 50: her lift excuse is a lie",
+    "clock 4:15, Shruti on the calculator, Tanya clapping by the kitty pot, chip Rs 150: Tanya loves the fine money",
+    "dot moves to a dhol and marigolds, chip STOP 1: BARAAT · Rs 300: stuck in a baraat",
+    "dot moves to a mithai box, chip STOP 2: MITHAI SHOP · Rs 450: she buys a bribe and it costs her more",
+    "clock 4:50, Tanya twirls with the kitty pot, chip Rs 500: Tanya thinks the cake is now free",
+    "dot reaches the kitty, chip AVIKA PAHUNCH GAYI! · Rs 600, doorbell",
+    "front door, Avika with a mithai box, Tanya laughing by the pot, chip Rs 600: Avika pays and asks for the cake",
+    "music cuts, a delivery map with a cake still at the bakery, chip TANYA KA CAKE: BAKERY MEIN · ORDER 4:45: the host ordered late",
+    "Avika now has the kitty pot and points at Tanya, Tanya sweating on her phone, chip TANYA FINE: Rs 0: the rule turns on the host",
+    "tick, chip TANYA FINE: Rs 10, Shruti repeats Meter chalu!, Avika laughs, freeze: same line as the opening, now against Tanya"
+  ],
+  "beats": "hook: Har minute late, das rupaye! / Meter chalu! / map: dot at home, lift excuse / esc: baraat Rs 300, rasmalai bribe Rs 450, Tanya counts a free cake Rs 500 / twist: Avika pays Rs 600, cake order 4:45 still at bakery, host bhi late / button: Avika throws the rule back, Tanya says Bas paanch minute, Shruti Meter chalu!",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 5,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Real kitty scene: the late fine rule plus the late friend sharing her live location. One want (Tanya wants the fine money, then the cake from it), one game (each map stop pushes the meter), played ordinary (still at home, lift excuse), ordinary (baraat jam in shaadi season), absurd (she stops to buy rasmalai to get the fine waived, which costs her another Rs 150). Claim before reveal: Tanya celebrates the free cake twice before the delivery map shows she ordered it at 4:45. Twist is a see-it delivery map chip. Button mirrors the hook: Avika says Tanya's exact rule back and Shruti repeats Meter chalu!, so it loops into the start; Tanya using Avika's Bas paanch minute line is the kicker. Pipeline: every two-line shot is 8 words or fewer with hold 0.1, one silenceBefore, one silent shot of 1.4 s, pace 27. Endings tried: Avika pays in rasmalai (no flip); the cake boy rings and Tanya pays him (flip unclear muted); kept the meter turning on the host. Lead is Avika (last reel Shruti). Kind humour: nobody is mocked, the fine is a game."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 1,
+    "title": [
+      "Late fine: Rs 10/minute",
+      "Host bhi late!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har group mein ek Tanya hoti hai jo late fine lagati hai aur cake khud late mangati hai. Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#kittypartyfun",
+    "#ladieskitty",
+    "#latecomer",
+    "#livelocation",
+    "#shaadiseason"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 27,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 880,
+          "y": 1500,
+          "s": 1.1
+        }
+      ],
+      "hold": 0.1,
+      "chip": "AVIKA FINE: Rs 0",
+      "camera": "push",
+      "clock": {
+        "h": 4,
+        "m": 0
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 280,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "mouth": "o",
+          "turn": 0.5,
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 560,
+          "y": 1750,
+          "s": 1.95,
+          "pose": "relaxed",
+          "turn": -0.4,
+          "eyes": "side",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1730,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 300,
+          "y": 860,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.35
+        },
+        {
+          "at": 0.3,
+          "name": "tick",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Har minute late, das rupaye!",
+          "say": "हर मिनट लेट, दस रुपये!",
+          "beat": "hook"
+        },
+        {
+          "who": "Shruti",
+          "text": "Meter chalu!",
+          "say": "मीटर चालू!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "chipY": 760,
+      "hold": 0.1,
+      "from": [
+        250,
+        560
+      ],
+      "to": [
+        250,
+        560
+      ],
+      "chip": "LIVE: AVIKA KA GHAR · Rs 50",
+      "camera": "punch",
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "props": [
+        {
+          "name": "Apartment building",
+          "x": 420,
+          "y": 720,
+          "s": 1.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "home",
+          "x": 250,
+          "y": 430,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Nikal gayi! Lift mein!",
+          "say": "निकल गई! लिफ्ट में!",
+          "beat": "setup"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Dot toh ghar pe!",
+          "say": "डॉट तो घर पे!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 760,
+          "y": 1500,
+          "s": 1.1
+        }
+      ],
+      "hold": 0.1,
+      "chip": "AVIKA FINE: Rs 150",
+      "clock": {
+        "h": 4,
+        "m": 15
+      },
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 300,
+          "y": 1730,
+          "s": 1.95,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": 0.4,
+          "eyes": "open",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 760,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "clapR",
+          "turn": -0.4,
+          "eyes": "laugh",
+          "mouth": "laugh",
+          "hop": true
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "calc",
+          "vol": 0.35
+        },
+        {
+          "at": 1.2,
+          "name": "ding",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Pandrah minute, dedh sau!",
+          "say": "पंद्रह मिनट, डेढ़ सौ!",
+          "beat": "setup"
+        },
+        {
+          "who": "Tanya",
+          "text": "Waah! Cake ka paisa!",
+          "say": "वाह! केक का पैसा!",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "chipY": 760,
+      "hold": 0.1,
+      "from": [
+        250,
+        560
+      ],
+      "to": [
+        230,
+        1020
+      ],
+      "chip": "STOP 1: BARAAT · Rs 300",
+      "clock": {
+        "h": 4,
+        "m": 30
+      },
+      "props": [
+        {
+          "name": "Dhol",
+          "x": 400,
+          "y": 1110,
+          "s": 1.4
+        },
+        {
+          "name": "Marigold",
+          "x": 120,
+          "y": 1110,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "car",
+          "x": 380,
+          "y": 940,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "zip",
+          "vol": 0.35
+        },
+        {
+          "at": 0.4,
+          "name": "tabla",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Baraat mein phas gayi!",
+          "say": "बारात में फँस गई!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Teen sau! Naachti raho!",
+          "say": "तीन सौ! नाचती रहो!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "chipY": 760,
+      "hold": 0.1,
+      "from": [
+        230,
+        1020
+      ],
+      "to": [
+        650,
+        900
+      ],
+      "chip": "STOP 2: MITHAI SHOP · Rs 450",
+      "clock": {
+        "h": 4,
+        "m": 45
+      },
+      "props": [
+        {
+          "name": "Mithai box",
+          "x": 820,
+          "y": 1000,
+          "s": 1.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 700,
+          "y": 820,
+          "at": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "zip",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Rasmalai li! Fine maaf?",
+          "say": "रसमलाई ली! फ़ाइन माफ़?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Rasmalai alag, fine alag!",
+          "say": "रसमलाई अलग, फ़ाइन अलग!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 540,
+          "y": 1480,
+          "s": 1.1
+        }
+      ],
+      "hold": 0.1,
+      "chip": "AVIKA FINE: Rs 500",
+      "clock": {
+        "h": 4,
+        "m": 50
+      },
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 260,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "hips",
+          "turn": 0.4,
+          "eyes": "side",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "twirl",
+          "turn": 0.3,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "twirl": true
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1730,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Paanch sau! Cake free!",
+          "say": "पाँच सौ! केक फ़्री!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Avika aaj sponsor hai!",
+          "say": "अविका आज स्पॉन्सर है!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "chipY": 760,
+      "from": [
+        650,
+        900
+      ],
+      "to": [
+        770,
+        1400
+      ],
+      "chip": "AVIKA PAHUNCH GAYI! · Rs 600",
+      "clock": {
+        "h": 5,
+        "m": 0
+      },
+      "dur": 1.4,
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 770,
+          "y": 1260,
+          "at": 0.9
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "riser",
+          "vol": 0.3
+        },
+        {
+          "at": 1.1,
+          "name": "doorbell",
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "chip": "AVIKA FINE: Rs 600",
+      "chipY": 600,
+      "clock": {
+        "h": 5,
+        "m": 0
+      },
+      "hold": 0.1,
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "keys",
+          "turn": -0.5,
+          "mouth": "smile",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "hips",
+          "turn": 0.6,
+          "mouth": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 430,
+          "y": 1830,
+          "s": 1.2
+        },
+        {
+          "name": "Mithai box",
+          "x": 690,
+          "y": 1500,
+          "s": 1.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "creak",
+          "vol": 0.4
+        },
+        {
+          "at": 1.3,
+          "name": "ding",
+          "vol": 0.35
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Saath minute! Chhe sau!",
+          "say": "साठ मिनट! छह सौ!",
+          "beat": "turn"
+        },
+        {
+          "who": "Avika",
+          "text": "Lo! Ab cake khilao!",
+          "say": "लो! अब केक खिलाओ!",
+          "gap": 0.04,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "chipY": 760,
+      "hold": 0.1,
+      "from": [
+        880,
+        520
+      ],
+      "to": [
+        880,
+        520
+      ],
+      "chip": "TANYA KA CAKE: BAKERY MEIN · ORDER 4:45",
+      "music": false,
+      "camera": "punch",
+      "clock": {
+        "h": 5,
+        "m": 0
+      },
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 880,
+          "y": 700,
+          "s": 1.3
+        },
+        {
+          "name": "Scooty",
+          "x": 620,
+          "y": 720,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 880,
+          "y": 420,
+          "at": 0.8
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.4
+        },
+        {
+          "at": 1.6,
+          "name": "sting",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Cake order... paune paanch?!",
+          "say": "केक ऑर्डर... पौने पाँच?!",
+          "beat": "turn",
+          "silenceBefore": true
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Host bhi late!",
+          "say": "हाओ! होस्ट भी लेट!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 280,
+          "y": 1480,
+          "s": 1.1
+        }
+      ],
+      "hold": 0.1,
+      "chip": "TANYA FINE: Rs 0",
+      "camera": "still",
+      "clock": {
+        "h": 5,
+        "m": 1
+      },
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 280,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 560,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.4,
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1730,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 820,
+          "at": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Avika",
+          "text": "Har minute late, das rupaye!",
+          "say": "हर मिनट लेट, दस रुपये!",
+          "beat": "button",
+          "punch": true
+        },
+        {
+          "who": "Tanya",
+          "text": "Bas paanch minute!",
+          "say": "बस पाँच मिनट!",
+          "gap": 0.04,
+          "beat": "button"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chipY": 600,
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 200,
+          "y": 1880,
+          "s": 1.2
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 280,
+          "y": 1480,
+          "s": 1.1
+        }
+      ],
+      "hold": 0.5,
+      "chip": "TANYA FINE: Rs 10",
+      "camera": "punch",
+      "clock": {
+        "h": 5,
+        "m": 2
+      },
+      "chars": [
+        {
+          "name": "Avika",
+          "x": 280,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "laughs",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Tanya",
+          "x": 560,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.4,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1730,
+          "s": 1.9,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "eyes": "open",
+          "mouth": "smirk"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "tick",
+          "vol": 0.35
+        },
+        {
+          "at": 0.9,
+          "name": "laughv",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Meter chalu!",
+          "say": "मीटर चालू!",
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
