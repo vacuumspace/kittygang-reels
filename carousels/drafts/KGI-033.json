@@ -1,0 +1,895 @@
+{
+  "id": "KGI-033",
+  "n": 33,
+  "slug": "peela-dhoondo-yellow-scavenger-hunt-kitty-party-game",
+  "game": "Peela Dhoondo",
+  "tagline": "Peela lao, nazar utaro!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 540,
+      "y": 170,
+      "s": 1.05,
+      "color": "pink"
+    },
+    {
+      "k": "table",
+      "x": 540,
+      "y": 262,
+      "w": 420,
+      "h": 180
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M390 5 L690 5 L690 75 L580 75 L560 92 L550 75 L390 75 Z\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "k": "text",
+      "x": 540,
+      "y": 54,
+      "text": "Peela lao!",
+      "size": 40,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(470 232) rotate(0) scale(0.9)\"><ellipse cx=\"0\" cy=\"0\" rx=\"34\" ry=\"26\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M32 -4 L44 0 L32 4 Z\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-16 -12 Q-4 -18 8 -16\" stroke=\"#FFF6B0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(610 232) rotate(0) scale(0.7)\"><path d=\"M-60 -20 Q0 50 60 -20 Q0 20 -60 -20 Z\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-60 -20 L-70 -30\" stroke=\"#4A1238\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 150,
+      "y": 180,
+      "s": 0.95,
+      "color": "blue"
+    },
+    {
+      "k": "person",
+      "x": 290,
+      "y": 180,
+      "s": 0.95,
+      "color": "green"
+    },
+    {
+      "k": "hand",
+      "x": 350,
+      "y": 185,
+      "rot": -70,
+      "s": 0.6
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(390 150) rotate(-40) scale(0.7)\"><rect x=\"-60\" y=\"-10\" width=\"100\" height=\"20\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M40 -10 L66 0 L40 10 Z\" fill=\"#F2D2B6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M58 -3 L66 0 L58 3 Z\" fill=\"#4A1238\"/><rect x=\"-72\" y=\"-10\" width=\"14\" height=\"20\" fill=\"#F48FB1\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+    },
+    {
+      "k": "arrow",
+      "x1": 250,
+      "y1": 90,
+      "x2": 350,
+      "y2": 90,
+      "color": "blue",
+      "w": 10
+    },
+    {
+      "k": "person",
+      "x": 790,
+      "y": 180,
+      "s": 0.95,
+      "color": "yel"
+    },
+    {
+      "k": "person",
+      "x": 930,
+      "y": 180,
+      "s": 0.95,
+      "color": "blue"
+    },
+    {
+      "k": "hand",
+      "x": 730,
+      "y": 185,
+      "rot": 70,
+      "s": 0.6
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(700 150) rotate(0) scale(0.6)\"><ellipse cx=\"0\" cy=\"0\" rx=\"40\" ry=\"40\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"16\"/><ellipse cx=\"0\" cy=\"0\" rx=\"40\" ry=\"40\" fill=\"none\" stroke=\"#F7D23A\" stroke-width=\"9\"/></g>"
+    },
+    {
+      "k": "arrow",
+      "x1": 830,
+      "y1": 90,
+      "x2": 730,
+      "y2": 90,
+      "color": "green",
+      "w": 10
+    }
+  ],
+  "need": {
+    "title": "Sab ghar mein milega",
+    "items": [
+      {
+        "label": "2 se 4 teams",
+        "sub": "4 ya 5 ladies har team",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "person",
+            "x": 70,
+            "y": 110,
+            "s": 0.8,
+            "color": "pink"
+          },
+          {
+            "k": "person",
+            "x": 150,
+            "y": 110,
+            "s": 0.8,
+            "color": "blue"
+          },
+          {
+            "k": "person",
+            "x": 230,
+            "y": 110,
+            "s": 0.8,
+            "color": "green"
+          }
+        ]
+      },
+      {
+        "label": "Ek khaali table",
+        "sub": "host ke saamne",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "table",
+            "x": 150,
+            "y": 110,
+            "w": 260,
+            "h": 200
+          }
+        ]
+      },
+      {
+        "label": "Peeli cheezein",
+        "sub": "handbag aur rasoi se",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(70 70) rotate(0) scale(1)\"><ellipse cx=\"0\" cy=\"0\" rx=\"34\" ry=\"26\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M32 -4 L44 0 L32 4 Z\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-16 -12 Q-4 -18 8 -16\" stroke=\"#FFF6B0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(200 70) rotate(0) scale(0.9)\"><path d=\"M-60 -20 Q0 50 60 -20 Q0 20 -60 -20 Z\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-60 -20 L-70 -30\" stroke=\"#4A1238\" stroke-width=\"8\" stroke-linecap=\"round\"/></g><g transform=\"translate(80 165) rotate(0) scale(0.8)\"><ellipse cx=\"0\" cy=\"0\" rx=\"40\" ry=\"40\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"16\"/><ellipse cx=\"0\" cy=\"0\" rx=\"40\" ry=\"40\" fill=\"none\" stroke=\"#F7D23A\" stroke-width=\"9\"/></g><g transform=\"translate(205 165) rotate(-10) scale(0.9)\"><rect x=\"-60\" y=\"-10\" width=\"100\" height=\"20\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M40 -10 L66 0 L40 10 Z\" fill=\"#F2D2B6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M58 -3 L66 0 L58 3 Z\" fill=\"#4A1238\"/><rect x=\"-72\" y=\"-10\" width=\"14\" height=\"20\" fill=\"#F48FB1\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Kaali cheezein",
+        "sub": "nazar ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(90 70) rotate(-10) scale(1.1)\"><rect x=\"-50\" y=\"-11\" width=\"70\" height=\"22\" rx=\"8\" fill=\"#1E1A1D\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"20\" y=\"-9\" width=\"34\" height=\"18\" rx=\"6\" fill=\"#B8B8C8\" stroke=\"#4A1238\" stroke-width=\"4\"/></g><g transform=\"translate(220 90) rotate(0) scale(0.9)\"><path d=\"M-50 30 Q-50 -40 0 -40 Q50 -40 50 30\" fill=\"none\" stroke=\"#1E1A1D\" stroke-width=\"14\" stroke-linecap=\"round\"/></g><g transform=\"translate(150 170) rotate(0) scale(1)\"><rect x=\"-40\" y=\"-30\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"4\"/><circle cx=\"-16\" cy=\"-8\" r=\"8\" fill=\"#1E1A1D\"/><circle cx=\"12\" cy=\"-8\" r=\"8\" fill=\"#1E1A1D\"/><circle cx=\"-16\" cy=\"14\" r=\"8\" fill=\"#1E1A1D\"/><circle cx=\"12\" cy=\"14\" r=\"8\" fill=\"#1E1A1D\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Host ki list",
+        "sub": "10 peeli cheezein",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "chit",
+            "x": 150,
+            "y": 110,
+            "s": 1.3,
+            "text": "Nimbu?",
+            "rot": -4
+          }
+        ]
+      },
+      {
+        "label": "Score ka kaagaz",
+        "sub": "aur ek pen",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "box",
+            "x": 150,
+            "y": 110,
+            "w": 240,
+            "h": 150,
+            "color": "white",
+            "text": "A: 3   B: 2"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Teams banao, host table pe",
+      "body": "4 ya 5 ladies ki teams, host ke saamne ek khaali table.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 200,
+          "text": "Host",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 320,
+          "s": 1.15,
+          "color": "pink"
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 420,
+          "w": 360,
+          "h": 260
+        },
+        {
+          "k": "person",
+          "x": 90,
+          "y": 560,
+          "s": 0.85,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 175,
+          "y": 560,
+          "s": 0.85,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 560,
+          "s": 0.85,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 175,
+          "y": 670,
+          "text": "Team A",
+          "size": 40,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 700,
+          "y": 560,
+          "s": 0.85,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 785,
+          "y": 560,
+          "s": 0.85,
+          "color": "green"
+        },
+        {
+          "k": "person",
+          "x": 870,
+          "y": 560,
+          "s": 0.85,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 785,
+          "y": 670,
+          "text": "Team B",
+          "size": 40,
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "title": "Host bolegi: kuch peela lao!",
+      "body": "Nimbu, haldi, kela, peeli chudi, pencil. Har baar team ki ek lady laayegi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 420,
+          "s": 1.2,
+          "color": "pink",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M270 145 L690 145 L690 255 L520 255 L500 290 L490 255 L270 255 Z\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 222,
+          "text": "Ek nimbu lao!",
+          "size": 52,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(140 420) rotate(0) scale(1.1)\"><path d=\"M-30 -40 Q0 -80 30 -40\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"8\"/><rect x=\"-60\" y=\"-42\" width=\"120\" height=\"84\" rx=\"16\" fill=\"#E2557F\" stroke=\"#4A1238\" stroke-width=\"5\"/><rect x=\"-10\" y=\"-20\" width=\"20\" height=\"14\" rx=\"4\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 140,
+          "y": 520,
+          "text": "handbag",
+          "size": 34,
+          "color": "mute"
+        },
+        {
+          "k": "box",
+          "x": 820,
+          "y": 420,
+          "w": 200,
+          "h": 130,
+          "color": "yelSoft",
+          "text": "rasoi"
+        },
+        {
+          "k": "arrow",
+          "x1": 260,
+          "y1": 420,
+          "x2": 380,
+          "y2": 420,
+          "color": "blue",
+          "w": 12
+        },
+        {
+          "k": "arrow",
+          "x1": 700,
+          "y1": 420,
+          "x2": 580,
+          "y2": 420,
+          "color": "green",
+          "w": 12
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(140 610) rotate(0) scale(1.1)\"><ellipse cx=\"0\" cy=\"0\" rx=\"34\" ry=\"26\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M32 -4 L44 0 L32 4 Z\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-16 -12 Q-4 -18 8 -16\" stroke=\"#FFF6B0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(330 620) rotate(0) scale(0.9)\"><rect x=\"-34\" y=\"-50\" width=\"68\" height=\"100\" rx=\"10\" fill=\"#F2B705\" stroke=\"#4A1238\" stroke-width=\"5\"/><rect x=\"-34\" y=\"-50\" width=\"68\" height=\"20\" rx=\"6\" fill=\"#4A1238\"/><text x=\"0\" y=\"16\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#4A1238\" font-family=\"Poppins, sans-serif\">haldi</text></g><g transform=\"translate(520 620) rotate(0) scale(0.9)\"><path d=\"M-60 -20 Q0 50 60 -20 Q0 20 -60 -20 Z\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-60 -20 L-70 -30\" stroke=\"#4A1238\" stroke-width=\"8\" stroke-linecap=\"round\"/></g><g transform=\"translate(700 615) rotate(0) scale(0.8)\"><ellipse cx=\"0\" cy=\"0\" rx=\"40\" ry=\"40\" fill=\"none\" stroke=\"#4A1238\" stroke-width=\"16\"/><ellipse cx=\"0\" cy=\"0\" rx=\"40\" ry=\"40\" fill=\"none\" stroke=\"#F7D23A\" stroke-width=\"9\"/></g><g transform=\"translate(850 615) rotate(-10) scale(0.9)\"><rect x=\"-60\" y=\"-10\" width=\"100\" height=\"20\" fill=\"#F7D23A\" stroke=\"#4A1238\" stroke-width=\"4\"/><path d=\"M40 -10 L66 0 L40 10 Z\" fill=\"#F2D2B6\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M58 -3 L66 0 L58 3 Z\" fill=\"#4A1238\"/><rect x=\"-72\" y=\"-10\" width=\"14\" height=\"20\" fill=\"#F48FB1\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        }
+      ]
+    },
+    {
+      "title": "Pehle table pe, point tumhara",
+      "body": "Jo cheez pehle table ko chhuye, us team ko ek point.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 190,
+          "text": "Host",
+          "size": 40,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 310,
+          "s": 1.1,
+          "color": "pink"
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 420,
+          "w": 440,
+          "h": 280
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 440,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "hand",
+          "x": 240,
+          "y": 400,
+          "rot": -60,
+          "s": 0.8
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(310 370) rotate(0) scale(1.1)\"><ellipse cx=\"0\" cy=\"0\" rx=\"34\" ry=\"26\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M32 -4 L44 0 L32 4 Z\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-16 -12 Q-4 -18 8 -16\" stroke=\"#FFF6B0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "tick",
+          "x": 150,
+          "y": 230,
+          "s": 1.1
+        },
+        {
+          "k": "person",
+          "x": 810,
+          "y": 440,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "hand",
+          "x": 725,
+          "y": 330,
+          "rot": 60,
+          "s": 0.8
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(690 270) rotate(0) scale(1.1)\"><ellipse cx=\"0\" cy=\"0\" rx=\"34\" ry=\"26\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M32 -4 L44 0 L32 4 Z\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-16 -12 Q-4 -18 8 -16\" stroke=\"#FFF6B0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "cross",
+          "x": 810,
+          "y": 230,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 620,
+          "text": "Pehle: +1",
+          "size": 44,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 810,
+          "y": 620,
+          "text": "Late: 0",
+          "size": 44,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Nazar lag gayi! Pehle kala",
+      "body": "Ab peele se pehle ek kaali cheez: kajal, hairband ya kaali bindi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 370,
+          "s": 1.15,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M220 95 L740 95 L740 205 L520 205 L500 240 L490 205 L220 205 Z\" fill=\"#FFFFFF\" stroke=\"#4A1238\" stroke-width=\"5\" stroke-linejoin=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 172,
+          "text": "Nazar lag gayi!",
+          "size": 54,
+          "color": "pink"
+        },
+        {
+          "k": "table",
+          "x": 480,
+          "y": 520,
+          "w": 720,
+          "h": 240
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 495) rotate(0) scale(1.3)\"><rect x=\"-50\" y=\"-11\" width=\"70\" height=\"22\" rx=\"8\" fill=\"#1E1A1D\" stroke=\"#4A1238\" stroke-width=\"4\"/><rect x=\"20\" y=\"-9\" width=\"34\" height=\"18\" rx=\"6\" fill=\"#B8B8C8\" stroke=\"#4A1238\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 670,
+          "text": "1. kala",
+          "size": 44,
+          "color": "ink"
+        },
+        {
+          "k": "arrow",
+          "x1": 380,
+          "y1": 495,
+          "x2": 560,
+          "y2": 495,
+          "color": "pink",
+          "w": 12
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(700 490) rotate(0) scale(1.3)\"><ellipse cx=\"0\" cy=\"0\" rx=\"34\" ry=\"26\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"5\"/><path d=\"M32 -4 L44 0 L32 4 Z\" fill=\"#F7E04A\" stroke=\"#4A1238\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M-16 -12 Q-4 -18 8 -16\" stroke=\"#FFF6B0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 700,
+          "y": 670,
+          "text": "2. peela",
+          "size": 44,
+          "color": "pink"
+        },
+        {
+          "k": "tick",
+          "x": 840,
+          "y": 470,
+          "s": 0.9
+        }
+      ]
+    },
+    {
+      "title": "10 round, phir ginti",
+      "body": "Host har round score likhe. Sabse zyada point wali team jeetegi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 30,
+          "y": 120,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 930,
+          "y": 680,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "box",
+          "x": 300,
+          "y": 400,
+          "w": 420,
+          "h": 380,
+          "color": "white"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 290,
+          "text": "Score",
+          "size": 50,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 390,
+          "text": "Team A: 6",
+          "size": 48,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 470,
+          "text": "Team B: 4",
+          "size": 48,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 550,
+          "text": "Team C: 3",
+          "size": 48,
+          "color": "ink"
+        },
+        {
+          "k": "person",
+          "x": 720,
+          "y": 430,
+          "s": 1.2,
+          "color": "blue"
+        },
+        {
+          "k": "person",
+          "x": 830,
+          "y": 430,
+          "s": 1.2,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 775,
+          "y": 600,
+          "text": "Jeet gaye!",
+          "size": 50,
+          "color": "blue"
+        },
+        {
+          "k": "note",
+          "x": 640,
+          "y": 260,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "note",
+          "x": 880,
+          "y": 260,
+          "s": 1,
+          "color": "yel"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Sabse zyada point jeetenge",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Bhaag ke gayi?",
+          "Point cancel, sirf tez chalo."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Nazar pe kala bhool gayi?",
+          "Peela count nahi hoga."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Ek round mein do ladies?",
+          "Sirf ek lady laayegi."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "10 round ke baad top?",
+          "Aapki team jeet gayi!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Sirf handbag round:",
+        "rasoi band, purse kholo!"
+      ],
+      [
+        "Double nazar:",
+        "do kaali cheezein laani hongi."
+      ],
+      [
+        "Aakhri round mein",
+        "peela aur laal, dono ek saath."
+      ]
+    ],
+    "tip": "Haldi ka packet band hi laana, rang na faile."
+  },
+  "comment_hint": "purse mein kya peela?",
+  "caption": "Host bolegi \"Peela lao!\" aur poori kitty handbag kholegi. \"Nazar lag gayi!\" bola toh pehle kuch kaala lao! Aapke purse mein sabse ajeeb peeli cheez kya hai?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#scavengerhunt",
+    "#peeladhoondo"
+  ],
+  "web": {
+    "title": "Peela Dhoondo: Yellow Hunt Kitty Party Game Rules and Twists",
+    "description": "Peela Dhoondo is a fast kitty party team game where ladies race to bring yellow things to the host. Learn what you need, steps, rules and the Nazar twist.",
+    "intro": "Peela Dhoondo is a quick kitty party team game where the host calls out a yellow thing, like a nimbu, a haldi packet, a kela or a yellow bangle, and one lady from each team races to find it in the handbags or the kitchen and put it on the host's table. The first team to land the item on the table scores a point, and after 10 rounds the team with the most points wins. The crazy twist: whenever the host shouts \"Nazar lag gayi!\", teams must first bring something black, like kajal, a hairband or a black bindi packet, before the yellow item counts. It needs nothing that is not already in the house or in the ladies' handbags.",
+    "players": "8 to 20 (2 to 4 teams of 4 or 5)",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "Ladies split into 2 to 4 teams of 4 or 5",
+      "One empty table or tray in front of the host",
+      "Yellow household things the host knows are around: nimbu, kela, haldi packet, yellow bangle, yellow dupatta, pencil, a yellow sticky note",
+      "Black things for the twist: kajal, a black hairband or clip, a black bindi packet, a black hair tie",
+      "A list of 10 yellow items for the host, plus paper and a pen for the score"
+    ],
+    "steps": [
+      "Split the ladies into teams of 4 or 5 and seat each team in its own corner of the room. The host stands at an empty table in the middle.",
+      "The host calls one yellow thing, for example \"Ek nimbu lao!\". Each team sends only one lady, who can search the handbags of her team or walk quickly to the kitchen.",
+      "The first item to touch the host's table wins the round and the host writes one point for that team on the score paper. Everything goes back where it came from before the next call.",
+      "Whenever the host shouts \"Nazar lag gayi!\" instead of a normal call, teams must first put a black thing on the table, like kajal, a hairband or a black bindi packet, and only then the yellow item. A yellow item without the black one does not count.",
+      "Play 10 rounds with a different lady from each team going every round. The team with the most points at the end wins the prize."
+    ],
+    "rules": [
+      "No running. Fast walking only; anyone who runs loses that point.",
+      "Only one lady per team goes in each round, and she must be a different lady from the last round.",
+      "On a \"Nazar lag gayi!\" round the black item must reach the table before the yellow one, or the point does not count.",
+      "An item already used in this game cannot be brought again.",
+      "The host's call is final if two items land together."
+    ],
+    "variations": [
+      "Handbag only round: the kitchen is closed and every item must come out of a purse.",
+      "Double nazar: on the twist call teams need two black things before the yellow one.",
+      "Final round: the host calls yellow and red together, like a nimbu and a red bindi, and both must land at the same time.",
+      "Colour switch: play the same game with green or pink if the kitty has a colour theme that day."
+    ],
+    "tips": [
+      "Walk the house before the party and make the call list only from things you have seen, so every round is possible.",
+      "Ask everyone to keep handbags with their team, not in a bedroom.",
+      "Keep haldi and other powders in closed packets so nothing spills, and keep the kitchen gas and hot vessels out of bounds.",
+      "Shout \"Nazar lag gayi!\" two or three times in 10 rounds; more than that and it stops being a surprise."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Peela Dhoondo?",
+        "a": "It works best for 8 to 20 ladies split into 2 to 4 teams of 4 or 5. With fewer than 8, play in pairs."
+      },
+      {
+        "q": "What do you need to play Peela Dhoondo?",
+        "a": "Nothing special: one empty table for the host, a list of 10 yellow things you know are in the house, and paper and a pen for the score. The items come from handbags and the kitchen."
+      },
+      {
+        "q": "What does \"Nazar lag gayi\" mean in the game?",
+        "a": "It is the twist call. When the host shouts it, teams must first bring something black, like kajal or a hairband, and only then the yellow item, just like a kaala tika keeps away nazar."
+      },
+      {
+        "q": "Is Peela Dhoondo safe to play indoors?",
+        "a": "Yes, if you make walking the rule and keep the kitchen gas, hot vessels and anything glass off the list. A lady who runs loses the point."
+      },
+      {
+        "q": "Is Peela Dhoondo a good game for a haldi or shaadi theme kitty party?",
+        "a": "Yes. Yellow is the haldi colour, so it fits a haldi or shaadi season kitty perfectly, and it also works as a quick ice breaker at any ladies party."
+      }
+    ]
+  }
+}
