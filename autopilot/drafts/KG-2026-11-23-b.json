@@ -1,0 +1,1369 @@
+{
+  "id": "KG-2026-11-23-b",
+  "title": "Aakhri 5 number, sab gayi!",
+  "format": "Countdown inside one Housie story: a two-number chip (numbers left, ladies left) drops together every shot, one shaadi-season exit per called number",
+  "idea": "Tanya runs the last five numbers of the kitty Housie, and on every number one more guest runs off to a shaadi function, until Tanya is alone and wins the whole pot.",
+  "logline": "Tanya says nobody leaves before the last five Housie numbers, but every number called sends one more guest running to a shaadi, until Tanya is alone and wins the whole pot.",
+  "game": "every guest is one number from winning when her phone buzzes and she runs to a shaadi",
+  "experiment": {
+    "type": "countdown",
+    "hook": "cage tumbling, Tanya at the Housie cage, chip 'NUMBER BAAKI: 5 · LADIES: 4': 'Aakhri paanch number! Koi nahi jaayega!'",
+    "variable": "a countdown told as one story (numbers left and ladies left drop together on one chip) instead of a numbered list, kept under 30 s, to fix the weak middle of the last countdown (watched 19% at 36 s)",
+    "hypothesis": "skip under 40% like the last countdown (45%) and watched above 30% because the chip falls every 3 s and the reel is about 27 s; the shaadi-season exit is something every kitty lives in December, so the caption question should get comments and 2+ shares"
+  },
+  "mute": [
+    "Housie cage tumbling in a dressed living room, banner SHAADI SEASON HOUSIE, chip NUMBER BAAKI: 5 · LADIES: 4, Tanya shouts nobody leaves",
+    "Tanya warns 'Beech mein gayi toh ticket cancel!', Myra on the sofa gulps",
+    "ball 7 pops, Ruhi claps: one number left on her ticket",
+    "Ruhi's phone pings, car sticker: 'Pati neeche gaadi mein!'",
+    "Ruhi waves and walks out of frame, chip drops to 4 · 3",
+    "ball 22 pops, Myra claps: one number left on her ticket too",
+    "Myra's phone pings, car sticker: 'cab aa gayi!'",
+    "Myra waves and walks out, 'haldi hai', chip drops to 3 · 2",
+    "Tanya pleads with Shruti, who holds her calculator: she paid Rs 200 for the ticket, so she stays",
+    "music cuts, Shruti's phone pings, she gasps 'Aaj meri beti ki shaadi hai!'",
+    "Tanya shocked as Shruti runs out, chip drops to 2 · 1",
+    "Tanya alone, ball 90 pops, chip 1 · 1",
+    "Tanya twirls, kitty pot and prize envelope pop in, chip FULL HOUSE: TANYA · POT: Rs 2,000",
+    "doorbell, Tanya hugs her win, hands on hips: 'Ab koi andar nahi aayega!' (flips her opening 'Koi nahi jaayega!')"
+  ],
+  "beats": "hook: aakhri paanch number, koi nahi jaayega / setup: beech mein gayi toh ticket cancel / esc: Ruhi one number away, husband honking, sangeet; Myra one number away, cab, haldi; Shruti stays for her Rs 200 ticket, then remembers it is her own daughter's wedding / turn: Tanya alone calls 90, Full House, whole Rs 2,000 pot / button: doorbell, 'Ab koi andar nahi aayega!' mirrors 'Koi nahi jaayega!'",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 52,
+    "notes": "Type countdown (last 4 gang reels: map-journey x2 KG-2026-11-22-b and 11-23-a, types-of x2 KG-2026-11-21-b and 11-22-a; door-arrivals already has two reels in the queue, so this tests the countdown again with the LEARNINGS fix: under 30 s). Idea from the bank (2026-11-21, score 8), adapted: the guests take the shaadi over the ticket even though Tanya's rule cancels it, and the abandoned-ticket ending (Tanya pockets Myra's win) was dropped as unkind; Tanya wins fair because she is the only one left. Lead Tanya (last reel was led by Avika). 4 characters in the reel, max 3 per shot. Game plays 3 times with claim before reveal: Ruhi 'Mera! Bas ek baaki' then her husband honks (ordinary), Myra the same then her cab (ordinary), Shruti absurd: the budget queen refuses to waste her Rs 200 ticket, then remembers it is her own daughter's wedding. Twist is see-it: Tanya alone, ball 90, pot in her arms. Endings tried: Tanya pockets an abandoned winning ticket (unkind, cut), the guests claim Full House on a video call from the shaadi (needs a phone screen and 3 voices, unclear muted), Tanya wins and the doorbell rings, she blocks her own door (kept: mirrors the hook). Pipeline: one line per shot, every shot 7 words or fewer, hold 0.1, gaps 0.04, the only silenceBefore line sits alone with no ellipsis and the reply on the next shot, 78 words at pace 28, about 26-28 s."
+  },
+  "cover": {
+    "shot": 15,
+    "at": 0.8,
+    "title": [
+      "5 number baaki,",
+      "sab shaadi mein bhaagi!"
+    ],
+    "titleY": 330
+  },
+  "caption": "December ki kitty: number kam, ladies aur kam. Aapki kitty mein sabse pehle kaun bhaagti hai? Tag her!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#housie",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#shaadiseason",
+    "#tambola"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 5 · LADIES: 4",
+      "clock": {
+        "h": 6,
+        "m": 40
+      },
+      "front": true,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "clapR",
+          "mouth": "smile"
+        },
+        {
+          "name": "Ruhi",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile"
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1450,
+          "s": 0.6
+        },
+        {
+          "name": "Housie ticket",
+          "x": 850,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Aakhri paanch number! Koi nahi jaayega!",
+          "say": "आख़िरी पाँच नंबर! कोई नहीं जाएगा!",
+          "beat": "hook",
+          "punch": true
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 220,
+          "y": 900,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [],
+      "chip": "NUMBER BAAKI: 5 · LADIES: 4",
+      "clock": {
+        "h": 6,
+        "m": 40
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Beech mein gayi toh ticket cancel!",
+          "say": "बीच में गई तो टिकट कैंसल!",
+          "beat": "setup",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 5 · LADIES: 4",
+      "clock": {
+        "h": 6,
+        "m": 42
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Ball 7",
+          "x": 470,
+          "y": 1440,
+          "s": 0.8,
+          "at": 0.05
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Number saat!",
+          "say": "नंबर सात!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [],
+      "chip": "NUMBER BAAKI: 5 · LADIES: 4",
+      "clock": {
+        "h": 6,
+        "m": 42
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "side"
+        },
+        {
+          "name": "Ruhi",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Mera! Bas ek number baaki!",
+          "say": "मेरा! बस एक नंबर बाकी!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 620,
+          "y": 900,
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 5 · LADIES: 4",
+      "clock": {
+        "h": 6,
+        "m": 43
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Ruhi",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "o",
+          "prop": "phone",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 600,
+          "y": 1200,
+          "s": 0.6,
+          "at": 0.05
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Arre! Pati neeche gaadi mein!",
+          "say": "अरे! पति नीचे गाड़ी में!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "car",
+          "x": 820,
+          "y": 880,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "footsteps",
+          "vol": 0.4
+        },
+        {
+          "at": 0.9,
+          "name": "haww",
+          "vol": 0.4
+        }
+      ],
+      "chip": "NUMBER BAAKI: 4 · LADIES: 3",
+      "clock": {
+        "h": 6,
+        "m": 44
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 1250,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "from": [
+            600,
+            1330
+          ],
+          "moveAt": 0.5,
+          "moveDur": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Sangeet hai, bye bye!",
+          "say": "संगीत है, बाय बाय!",
+          "beat": "escalation",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 4 · LADIES: 3",
+      "clock": {
+        "h": 6,
+        "m": 45
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hold",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "smile"
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Ball 22",
+          "x": 470,
+          "y": 1440,
+          "s": 0.8,
+          "at": 0.05
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haaw! Number baais!",
+          "say": "हाव! नंबर बाईस!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [],
+      "chip": "NUMBER BAAKI: 4 · LADIES: 3",
+      "clock": {
+        "h": 6,
+        "m": 45
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 600,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Mera bhi! Bas ek baaki!",
+          "say": "मेरा भी! बस एक बाकी!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 620,
+          "y": 900,
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 4 · LADIES: 3",
+      "clock": {
+        "h": 6,
+        "m": 46
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 600,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "o",
+          "prop": "phone",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 600,
+          "y": 1200,
+          "s": 0.6,
+          "at": 0.05
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Oh no, cab aa gayi!",
+          "say": "ओह नो, कैब आ गई!",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "car",
+          "x": 820,
+          "y": 880,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "footsteps",
+          "vol": 0.4
+        },
+        {
+          "at": 0.9,
+          "name": "haaye",
+          "vol": 0.4
+        }
+      ],
+      "chip": "NUMBER BAAKI: 3 · LADIES: 2",
+      "clock": {
+        "h": 6,
+        "m": 47
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 1250,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "smile",
+          "eyes": "laugh",
+          "from": [
+            600,
+            1330
+          ],
+          "moveAt": 0.5,
+          "moveDur": 0.6
+        },
+        {
+          "name": "Shruti",
+          "x": 850,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "relaxed",
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Sorry didi, haldi hai!",
+          "say": "सॉरी दीदी, हल्दी है!",
+          "beat": "escalation",
+          "punch": true,
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [],
+      "chip": "NUMBER BAAKI: 3 · LADIES: 2",
+      "clock": {
+        "h": 6,
+        "m": 50
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 720,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "flat",
+          "prop": "calc",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 720,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Shruti, tum toh rukogi na?",
+          "say": "श्रुति, तुम तो रुकोगी ना?",
+          "beat": "escalation",
+          "gap": 0.04
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "heart",
+          "x": 420,
+          "y": 950,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "calc",
+          "vol": 0.45
+        }
+      ],
+      "chip": "NUMBER BAAKI: 3 · LADIES: 2",
+      "clock": {
+        "h": 6,
+        "m": 50
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "smile",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Shruti",
+          "x": 720,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "flat",
+          "prop": "calc",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 720,
+          "y": 1450,
+          "s": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ticket ke 200 diye hain.",
+          "say": "टिकट के दो सौ दिए हैं।",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "still",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ping",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 3 · LADIES: 2",
+      "clock": {
+        "h": 6,
+        "m": 52
+      },
+      "music": false,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "talkR",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 720,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "hold",
+          "mouth": "o",
+          "prop": "phone",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 720,
+          "y": 1200,
+          "s": 0.6,
+          "at": 0.05
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Arre! Aaj meri beti ki shaadi hai!",
+          "say": "अरे! आज मेरी बेटी की शादी है!",
+          "beat": "turn",
+          "silenceBefore": true,
+          "punch": true,
+          "gap": 0.04
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 860,
+          "y": 900,
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "footsteps",
+          "vol": 0.4
+        },
+        {
+          "at": 0.9,
+          "name": "laughv",
+          "vol": 0.4
+        }
+      ],
+      "chip": "NUMBER BAAKI: 2 · LADIES: 1",
+      "clock": {
+        "h": 6,
+        "m": 53
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.6,
+          "pose": "hips",
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 1250,
+          "y": 1330,
+          "s": 1.25,
+          "turn": -0.5,
+          "pose": "wave",
+          "mouth": "o",
+          "eyes": "open",
+          "from": [
+            720,
+            1330
+          ],
+          "moveAt": 0.4,
+          "moveDur": 0.6
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haaw! Tumhari beti ki?!",
+          "say": "हाव! तुम्हारी बेटी की?!",
+          "beat": "turn",
+          "punch": true
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 380,
+          "y": 980,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "push",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.5
+        }
+      ],
+      "chip": "NUMBER BAAKI: 1 · LADIES: 1",
+      "clock": {
+        "h": 7,
+        "m": 0
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 420,
+          "y": 1740,
+          "s": 2,
+          "turn": 0,
+          "pose": "hold",
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 470,
+          "y": 1660,
+          "s": 1
+        },
+        {
+          "name": "Ball 90",
+          "x": 700,
+          "y": 1440,
+          "s": 0.8,
+          "at": 0.05
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1450,
+          "s": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Number nabbe!",
+          "say": "नंबर नब्बे!",
+          "beat": "turn",
+          "gap": 0.04
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.1,
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "sparkle",
+          "vol": 0.45
+        }
+      ],
+      "chip": "FULL HOUSE: TANYA · POT: Rs 2,000",
+      "clock": {
+        "h": 7,
+        "m": 0
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 420,
+          "y": 1740,
+          "s": 2,
+          "turn": 0,
+          "pose": "clapR",
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "twirl": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 740,
+          "y": 1560,
+          "s": 1.1,
+          "at": 0.1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 760,
+          "y": 1330,
+          "s": 0.8,
+          "at": 0.2
+        },
+        {
+          "name": "Housie ticket",
+          "x": 880,
+          "y": 1450,
+          "s": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Full House! Poore 2,000 mere!",
+          "say": "फ़ुल हाउस! पूरे दो हज़ार मेरे!",
+          "beat": "turn",
+          "punch": true
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 540,
+          "y": 880,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "banner": "SHAADI SEASON HOUSIE",
+      "chipY": 600,
+      "hold": 0.8,
+      "camera": "still",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 1.4,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ],
+      "chip": "FULL HOUSE: TANYA · POT: Rs 2,000",
+      "clock": {
+        "h": 7,
+        "m": 1
+      },
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 420,
+          "y": 1740,
+          "s": 2,
+          "turn": 0.8,
+          "pose": "hips",
+          "mouth": "smirk",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Kitty pot",
+          "x": 740,
+          "y": 1560,
+          "s": 1.1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 760,
+          "y": 1330,
+          "s": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ab koi andar nahi aayega!",
+          "say": "अब कोई अंदर नहीं आएगा!",
+          "beat": "button",
+          "punch": true
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 800,
+          "y": 900,
+          "at": 0.1
+        }
+      ]
+    }
+  ]
+}
