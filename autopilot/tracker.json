@@ -14167,6 +14167,37 @@
       "yt_id": "vyfHUHvf32g",
       "yt_url": "https://youtube.com/shorts/vyfHUHvf32g",
       "yt_privacy": "public"
+    },
+    {
+      "id": "TH-2026-11-24",
+      "created": "2026-11-24",
+      "title": "Avika aaj time pe?",
+      "format": "Theme Housie",
+      "theme": "gurpurab",
+      "story": "ai",
+      "variant": "clock-timeline",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "On Gurpurab, late Avika misses the Prabhat Pheri, Megha takes her share of Kada Prasad, Shruti counts her missing at Langar, Zoya films the Deepmala without her, then at 9 PM Avika is on time for once and wins the Kada Prasad group.",
+      "beats": "hook: 4:30 AM, pheri nikal gayi? / 9 AM: Megha took Avika's prasad / 1 PM: Shruti counts, Avika missing / 7 PM: Zoya films diyas, still no Avika / 9 PM: the call on the game / reveal: Kada Prasad group is Avika's / turn: Avika, aaj main time pe thi / button: Aditi, Housie ke liye hamesha",
+      "experiment": {
+        "format": "clock-timeline",
+        "hook": "Avika in a breathless panic on the Gurpurab home art, heartbeat and tick at 0 s, mascot ball spinning above, chip '4:30 AM | PRABHAT PHERI' pinned from the first frame, she says 'Pheri nikal gayi? Main aa rahi hoon!'",
+        "variable": "the progress counter is a clock, not a score: every cut jumps the time chip forward through the festival day (4:30 AM, 9 AM, 1 PM, 7 PM) and lands on a real game time (9 PM), so the viewer always knows how far the story is from the end, compared with the 'x/4' counters that stalled at 14 to 16% watched",
+        "hypothesis": "a running clock across a day the viewer is living right now (Gurpurab morning to night) feels like a story with a destination, not a list: skip under 55% (best 45.2), watched % above 20 (14 to 16 on x/4 counter reels, best 21), at least 1 share or tag from 'jo har jagah late aati hai'"
+      },
+      "duration": 30.5,
+      "lufs": null,
+      "caption": "Sab jagah late, Housie pe time pe! Har group mein ek Avika hoti hai, tag karo. Gurpurab ki lakh lakh vadhaiyan! Aaj ki Gurpurab Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #gurpurab #gurunanakjayanti #prakashparv #kadaprasad",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-24.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-24-cover.jpg",
+      "job_id": "860820ea-a1a2-4ee6-aca2-cc8d1418d135",
+      "permalink": "https://www.instagram.com/reel/DgGEX6YigLg/",
+      "media_id": "17999719998106420",
+      "yt_id": "y1qpOkS3njA",
+      "yt_url": "https://youtube.com/shorts/y1qpOkS3njA",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
