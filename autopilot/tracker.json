@@ -14108,7 +14108,8 @@
       "qa": [
         "no shot over 5 s (5.3 s)"
       ],
-      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-22-b-board.jpg"
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-22-b-board.jpg",
+      "fixed_by": "KG-2026-11-23-a"
     },
     {
       "id": "TH-2026-11-23",

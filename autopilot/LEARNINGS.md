@@ -1,5 +1,15 @@
 # Learnings (newest first). Only real learnings from team feedback or post data.
 
+## 2026-11-23 · Monday review (stats as of 2026-11-21)
+- NEW BEST SAVES: types-of "Sardi ki kitty, 4 type!" (KG-2026-11-13-a, 28.4 s): 2401 views, skip 30.9%, watched 36%, 2 shares, 5 saves, the most saves on any gang reel. A season every viewer feels that day (winter), 4 types, the host as the 4th type, "Aap kaunsi type ho?" in the caption.
+- Countdown works now: "Phone band, Housie chalu!" (KG-2026-11-12-b) 2141 views, skip 45.2%, watched 19% (36 s). Good hook (a call from home mid-Housie), weak middle at 36 s.
+- First door-arrivals flop: "Ghar ka garam laao!" (KG-2026-11-12-a) 820 views, skip 68.1%, watched 13%. Its rule (bring something hot and home made) is not a rule real groups have; the winners used rules every group knows (dress code, no phone, udhaar, late fine). The shape needs a real rule.
+- Still weak: pov 1086 views, skip 60.9%; musical 749, skip 69.2%; expectation-reality 226, skip 68.6%. Drop musical and expectation-reality.
+- Theme reels (TH) reach more (576-871 views) but still skip 66-77%; "Breaking: Aangan mein shaadi!" (skip 45.6%) is the only one near the gang reels: a news-style hook helps.
+- Do more: types-of tied to the season or the week (winter, shaadi season, year end) every 3rd reel; door-arrivals only with a rule real groups have; countdown under 30 s; a "kaunsi type ho?" or "tag your X" question naming a type.
+- Do less: musical, expectation-reality, pov; reels over 33 s.
+- Pipeline: 5 of the last 9 drafts failed QA (pace 2.12 and 2.15 w/s; shots of 5.0 and 5.3 s). The 5.3 s shots held a silenceBefore plus an ellipsis plus two lines. Rule now: a line with silenceBefore sits alone in its shot, no ellipses, and the reply goes on the next shot.
+
 ## 2026-11-16 · Monday review (stats as of 2026-11-15)
 - NEW SHAPES WORK TOO: types-of "Shaadi season mein kitty kab?" (KG-2026-11-10-a) got 1674 views, skip 33.3%, watched 42% (32.5 s); meme-format "Gossip loading... 99%" (KG-2026-11-07-a) 1932 views, skip 37%; map-journey "Avika ki live location" (KG-2026-11-09-a) 1322 views, skip 34%, watched 29%, 1 share. All three are 3-6x the old 300-view floor.
 - Door-arrivals still the best: "Udhaar wapas, phir entry!" (KG-2026-11-09-b) 2236 views, skip 26.5%, watched 51%; "Saree mein aayi toh entry nahi!" (KG-2026-11-05-b) 2023 views, skip 33.8%, watched 42%. Five door reels, all under 34% skip.
