@@ -1,0 +1,164 @@
+{
+ "title": "Avika aaj time pe?",
+ "format": "Kitty Gang clock timeline on the Gurpurab game: one Gurpurab day told in clock jumps (Prabhat Pheri, Kada Prasad, Langar, Deepmala), late Avika misses every one, then is on time for the 9 PM Housie and wins the Kada Prasad group",
+ "experiment": {
+  "format": "clock-timeline",
+  "hook": "Avika in a breathless panic on the Gurpurab home art, heartbeat and tick at 0 s, mascot ball spinning above, chip '4:30 AM | PRABHAT PHERI' pinned from the first frame, she says 'Pheri nikal gayi? Main aa rahi hoon!'",
+  "variable": "the progress counter is a clock, not a score: every cut jumps the time chip forward through the festival day (4:30 AM, 9 AM, 1 PM, 7 PM) and lands on a real game time (9 PM), so the viewer always knows how far the story is from the end, compared with the 'x/4' counters that stalled at 14 to 16% watched",
+  "hypothesis": "a running clock across a day the viewer is living right now (Gurpurab morning to night) feels like a story with a destination, not a list: skip under 55% (best 45.2), watched % above 20 (14 to 16 on x/4 counter reels, best 21), at least 1 share or tag from 'jo har jagah late aati hai'"
+ },
+ "idea": "On Gurpurab, late Avika misses the Prabhat Pheri, Megha takes her share of Kada Prasad, Shruti counts her missing at Langar, Zoya films the Deepmala without her, then at 9 PM Avika is on time for once and wins the Kada Prasad group.",
+ "beats": "hook: 4:30 AM, pheri nikal gayi? / 9 AM: Megha took Avika's prasad / 1 PM: Shruti counts, Avika missing / 7 PM: Zoya films diyas, still no Avika / 9 PM: the call on the game / reveal: Kada Prasad group is Avika's / turn: Avika, aaj main time pe thi / button: Aditi, Housie ke liye hamesha",
+ "logline": "On Gurpurab, Avika is late for everything all day, then shows up on time for the 9 PM Housie and wins.",
+ "game": "every clock jump the gang is there and Avika is not, until the one time she is early",
+ "caption": "Sab jagah late, Housie pe time pe! Har group mein ek Avika hoti hai, tag karo. Gurpurab ki lakh lakh vadhaiyan! Aaj ki {theme} Housie mein milte hain.",
+ "hashtags": [
+  "#kittyparty",
+  "#housie",
+  "#tambola",
+  "#kittygang",
+  "#gurpurab",
+  "#gurunanakjayanti",
+  "#prakashparv",
+  "#kadaprasad"
+ ],
+ "ambience": {
+  "name": "crowd",
+  "vol": 0.08
+ },
+ "pace": 24,
+ "shots": [
+  {
+   "kit": "thome",
+   "chip": "4:30 AM | PRABHAT PHERI",
+   "chipY": 1560,
+   "camera": "punch",
+   "ball": { "n": 27, "x": 540, "y": 700, "size": 380, "revealAt": 99 },
+   "chars": [
+    { "name": "Avika", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "keys", "eyes": "open", "mouth": "o", "hop": true }
+   ],
+   "stickers": [
+    { "kind": "sweat", "x": 760, "y": 1000, "at": 0.2, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Avika", "text": "Pheri nikal gayi? Main aa rahi hoon!", "say": "फेरी निकल गई? मैं आ रही हूँ!", "beat": "hook" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "heartbeat", "vol": 0.7 },
+    { "at": 0.1, "name": "tick", "vol": 0.4 },
+    { "at": 0.8, "name": "heartbeat", "vol": 0.8 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "9 AM | KADA PRASAD",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Megha", "x": 540, "y": 1780, "s": 2.2, "pose": "laughs", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Megha", "text": "Avika ka prasad bhi maine le liya!", "say": "अविका का प्रसाद भी मैंने ले लिया!", "punch": true, "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "tick", "vol": 0.3 },
+    { "at": 0.2, "name": "boing", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "1 PM | LANGAR",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Shruti", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "calc", "eyes": "half", "mouth": "flat" }
+   ],
+   "stickers": [
+    { "kind": "question", "x": 780, "y": 1000, "at": 0.3, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Shruti", "text": "Sab aa gaye. Avika kahan?", "say": "सब आ गए। अविका कहाँ?", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "tick", "vol": 0.3 },
+    { "at": 0.3, "name": "calc", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "7 PM | DEEPMALA",
+   "chipY": 1560,
+   "camera": "push",
+   "chars": [
+    { "name": "Zoya", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "smile" }
+   ],
+   "lines": [
+    { "who": "Zoya", "text": "Diye jal gaye. Avika abhi raste mein!", "say": "दिये जल गए। अविका अभी रास्ते में!", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "tick", "vol": 0.3 },
+    { "at": 0.4, "name": "sparkle", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ball",
+   "call": 27,
+   "dab": true,
+   "dur": 1.4,
+   "music": false,
+   "chip": "9 PM | KADA PRASAD: 1 NUMBER BAAKI",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.0, "name": "cage", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ticket",
+   "marked": 3,
+   "dab": true,
+   "reacts": true,
+   "dur": 1.4,
+   "chip": "KADA PRASAD GROUP: AVIKA!",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.1, "name": "ding", "vol": 0.5 },
+    { "at": 0.8, "name": "haww", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": true,
+   "chip": "9 PM | PEHLI BAAR TIME PE",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Avika", "x": 540, "y": 1780, "s": 2.3, "pose": "wave", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Avika", "text": "Dekha? Aaj main time pe thi!", "say": "देखा? आज मैं टाइम पे थी!", "beat": "turn" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "scratch", "vol": 0.5 },
+    { "at": 0.6, "name": "waah", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "KADA PRASAD GROUP: AVIKA",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Avika", "x": 360, "y": 1780, "s": 2.0, "pose": "hold", "prop": "keys", "eyes": "open", "mouth": "smile", "turn": 0.5 },
+    { "name": "Aditi", "x": 760, "y": 1780, "s": 2.2, "pose": "cup", "eyes": "half", "mouth": "flat", "turn": -0.5 }
+   ],
+   "lines": [
+    { "who": "Aditi", "text": "Hmm. Housie ke liye hamesha.", "say": "हम्म। हाउज़ी के लिए हमेशा।", "punch": true, "silenceBefore": true, "beat": "button" }
+   ]
+  }
+ ]
+}
