@@ -15689,7 +15689,7 @@
       "format": "Carousel: slide 1 'Kitty mein board exam! Kitne number aayenge?' with a lady chewing a pen over a test paper, sample questions, how to play, the Beta ka phone twist, the topper",
       "source": "Trend: Festival window (December pre-boards) + calls from home",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-17",
@@ -15743,7 +15743,7 @@
       "format": "Kitty Game Ideas carousel with example taunt slides and a comment ask 'Aapko sabse zyada kaunsa taunt milta hai?'",
       "source": "Trend: Pehle chup, ab jawab: answer-back voiceover (freepressjournal.in) + Her own time line gets shares",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-18",
@@ -15869,7 +15869,7 @@
       "format": "Kitty Gang sitcom reel, 25-30 s, opens on the game in progress; ring light and phone screen as props, take chip climbing, max 3 in a shot; caption 'Har kitty mein ek Ruhi hoti hai jo ticket bhi reel ke liye kaatti hai. Tag her!'",
       "source": "Trend: Click buddy: a guest brings her own reel crew (asianetnews.com) + Shaadi season kitty",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-20",
@@ -15878,7 +15878,7 @@
       "format": "Kitty Gang sitcom reel, 25-30 s, birthday cake and candle on a dressed table, clap beat every 3 s as the repeating trigger, jingle chip; caption 'Aapki kitty ka birthday song kya hai? Comment karo!'",
       "source": "Trend: Homemade birthday jingle with claps (bolnews.com, 50,000+ reels) + Aunty one-liner as a catchphrase",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-20",
@@ -16013,6 +16013,60 @@
       "format": "Carousel: rules slide, 10 sample calls with answers, fine and table-of-13 twist slide. Housie tickets, pens. 8-20 ladies, 15 min.",
       "source": "Trend: December pre-boards (Festival window) + Housie variant carousel leads our games",
       "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-23",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door holding a chart paper and a glue stick: \"December kitty, 2027 ka vision board! Ek sapna chipkao, phir entry!\" chip 'SAPNE: 0/3'. Context: one guest per ring sticks a kitty dream (Ruhi: \"Ek baar time pe aana\", Myra: \"Ek full house\", Shruti: \"Pehla kitty pot mera\") and the chip ticks up. Ending: the full board, and Tanya's own corner is empty, so the three guests stick \"Kitty time pe shuru karna\" on it while she gapes.",
+      "format": "door-arrivals, 25-30 s, moving chip every shot, 'Tag your Tanya!' caption",
+      "source": "Trend: Vision board party for the new year (AOL hosting trends 2026) + door-arrivals still our best (skip 26-34%)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-23",
+      "type": "reel",
+      "idea": "Hook: Housie running, Shruti holds up three fingers to the lens: \"December ki kitty miss kyun nahi karte? 3 reasons!\" chip 'REASON 1/3'. Context: each reason is one beat at the table (Myra serving host's gajar halwa, Ruhi opening a trunk-fresh winter saree, Tanya lifting the year-end kitty pot) and the chip ticks. Ending: reason 3 is Ruhi cutting a full house on her ticket, all three hold up three fingers, caption asks for reason 4 in the comments.",
+      "format": "meme-format listicle with a 3-reason chip, 25 s, comment ask in caption",
+      "source": "Trend: 3 reasons listicle gets comments and shares (our post 2214 views, 13 shares, 65 comments)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-23",
+      "type": "reel",
+      "idea": "Hook: 16 December, Tanya reads the kitty group aloud: \"Kharmas shuru, ab ek mahina koi shaadi nahi!\" chip 'AA RAHI: 1/8'. Context: the same ladies who skipped every November kitty for shaadis reply one by one (Ruhi: \"Main aa rahi hoon!\", Myra: \"Mera seat rakhna\") and the chip climbs. Ending: Tanya opens her door to the whole gang at once, chip 'AA RAHI: 8/8 · KURSI: 5', and she drags the dining chairs in.",
+      "format": "group-chat to door ending, progress chip, 25-30 s",
+      "source": "Trend: Festival window (Kharmas from 16 Dec, Drik Panchang) + All the shaadis on the same few dates",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-23",
+      "type": "game",
+      "idea": "Baraf ka sikka: the night before, the host freezes one Rs 5 coin inside each cube of a steel ice tray; every lady gets a cube on a napkin and must free the coin using only her hands and breath (no hot water, no rubbing on the floor). Crazy twist: every 60 seconds the host shouts \"Badlo!\" and everyone passes her cube to the right, so your melting work helps your neighbour. First coin out wins, and keep the gloves off.",
+      "format": "Carousel: rules slide, setup slide (ice tray, coins, napkins), 'Badlo!' twist slide, safety note. 8-20 ladies, 10 min.",
+      "source": "Trend: Frozen coin melt game (MomJunction) + first cold kitties",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-23",
+      "type": "game",
+      "idea": "Resolution todo: each lady draws a 2027 resolution chit (\"Phone nahi chhuungi\", \"Kisi ki burai nahi karungi\", \"Mithai nahi khaungi\", \"English nahi bolungi\") and must keep it for the next 15 minutes of kitty while everyone else tries to make her break it; caught breaking it costs Rs 10 into the kitty pot. Crazy twist: whoever catches you takes your resolution on top of her own. Last lady with an unbroken resolution wins the pot fines.",
+      "format": "Carousel: rules slide, 8 sample resolution chits, catch-and-take twist slide. Paper chits, a bowl. 8-20 ladies, 15 min.",
+      "source": "Trend: Vision board party for the new year + December year-end kitty",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-23",
+      "type": "game",
+      "idea": "Kitty vision board: teams of 4 get one chart paper, old newspapers and magazines, glue and 5 minutes to make a '2027 kitty vision board' (dream host house, dream saree, dream jackpot) and then present it in 30 seconds. Crazy twist: before presenting, the boards are swapped and each team must present the other team's board as its own with a straight face; anyone who laughs loses the team a point.",
+      "format": "Carousel: rules slide, materials slide, swap-and-present twist slide, scoring. 8-20 ladies, 15-20 min.",
+      "source": "Trend: Vision board party for the new year (AOL hosting trends 2026)",
+      "score": 7,
       "used": ""
     }
   ],
@@ -17319,6 +17373,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-23",
+      "pattern": "Festival window: Utpanna Ekadashi 4 Dec + Vivah Panchami 14 Dec + Champa Shashti 15 Dec + Dhanu Sankranti and Kharmas 16 Dec + Gita Jayanti 20 Dec + Christmas 25 Dec",
+      "source": "Drik Panchang: December 2026 festivals; HinduTone: December 2026 Hindu festivals",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.drikpanchang.com/festivals/month/festivals-december.html?year=2026",
+      "learn": "Drafts from today post about 3 Dec, so Vivah Panchami (21 days, +2) and the 'shaadis stop, kitty is back' mood of Kharmas from 16 Dec are the timely hooks; Utpanna Ekadashi is already in the bank."
+    },
+    {
+      "date": "2026-11-23",
+      "pattern": "3 reasons listicle gets comments and shares",
+      "source": "Our post: 'Here are 3 reasons why you should play Housie with us'",
+      "likes": null,
+      "comments": 65,
+      "link": "https://www.instagram.com/kittyparty.app/",
+      "learn": "2214 views, 13 shares, 8 saves, 65 comments: a numbered '3 reasons' list with one beat per reason and a comment ask beats our other plain posts; give a gang reel a 3-reason chip that ticks up."
+    },
+    {
+      "date": "2026-11-23",
+      "pattern": "Vision board party for the new year",
+      "source": "AOL: Here's what hosting will look like in 2026 / party and hosting trends",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.aol.com/articles/heres-hosting-look-2026-150700154.html",
+      "learn": "Manifestation and vision board get-togethers with old magazines, scissors and glue are a new-year hosting trend; a December kitty can make a '2027 kitty vision board' where every dream is a kitty habit."
+    },
+    {
+      "date": "2026-11-23",
+      "pattern": "Frozen coin melt game",
+      "source": "MomJunction: kitty party games (Slay the Ice)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.momjunction.com/articles/kitty-party-games_00669402",
+      "learn": "An evergreen shape: free a coin frozen in ice using only body heat; fits winter kitties if we add our own pass-it twist and keep it to warm hands, no hot water."
+    },
+    {
+      "date": "2026-11-23",
+      "pattern": "Lo-fi unpolished humour over polish",
+      "source": "Vaizle: Instagram reel trends 2026",
+      "likes": null,
+      "comments": null,
+      "link": "https://insights.vaizle.com/instagram-reel-trends/",
+      "learn": "Half of users say they prefer funny, unpolished reels; keep gang scenes ordinary (steel katori, phone in hand, real living room mess) rather than staged glam."
+    },
     {
       "date": "2026-11-22",
       "pattern": "Festival window: shaadi dates 22-26 Nov and 1-6 Dec + Kalabhairav Jayanti 1 Dec + Utpanna Ekadashi 4 Dec + pre-boards + Vivah Panchami 14 Dec",
