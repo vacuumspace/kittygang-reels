@@ -11279,7 +11279,7 @@
         "Myra"
       ],
       "caption": "Apni hi kitty mein late, aur location Tanya ke ghar ki. Tag the host jo sabse last aati hai!",
-      "status": "queued",
+      "status": "published",
       "idea": "Myra is hosting the kitty but is the one missing; her live location jumps from salon to tailor to Tanya's house while the gang sits on her sofa and starts Housie without her.",
       "beats": "hook: Host hi gayab? / Lift mein, bas do minute / map: salon / esc: parking = tailor, gang starts Housie without the host, 'bell baja rahi' = Tanya's house / twist: Myra arrives and Tanya blocks her at her own door, late fine / button: Tanya throws back 'Bas do minute! Lift mein!'",
       "experiment": {
@@ -11468,7 +11468,9 @@
       "scheduled_ist": "2026-11-24 12:42",
       "yt_id": "_rI_VizSc-8",
       "yt_url": "https://youtube.com/shorts/_rI_VizSc-8",
-      "yt_privacy": "private"
+      "yt_privacy": "private",
+      "permalink": "https://www.instagram.com/reel/DgHZZX4kXkS/",
+      "media_id": "17916905805562125"
     },
     {
       "id": "KG-2026-11-16-b",
@@ -18204,7 +18206,7 @@
       "time": "10 to 15 minutes",
       "slug": "peela-dhoondo-yellow-scavenger-hunt-kitty-party-game",
       "caption": "Host bolegi \"Peela lao!\" aur poori kitty handbag kholegi. \"Nazar lag gayi!\" bola toh pehle kuch kaala lao! Aapke purse mein sabse ajeeb peeli cheez kya hai?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-033/board.jpg",
       "image_urls": [
@@ -18221,7 +18223,9 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/peela-dhoondo-yellow-scavenger-hunt-kitty-party-game",
       "queue_id": "c3253628-72e8-4a4a-8d5b-da70025c457b",
-      "scheduled_ist": "2026-11-24 17:20"
+      "scheduled_ist": "2026-11-24 17:20",
+      "permalink": "https://www.instagram.com/p/DgH45fwDwt5/",
+      "media_id": "18080769020438623"
     },
     {
       "id": "KGI-034",
