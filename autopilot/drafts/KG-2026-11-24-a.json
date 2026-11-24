@@ -1,0 +1,1095 @@
+{
+ "id": "KG-2026-11-24-a",
+ "title": "Invite ke chaar rule!",
+ "format": "Door arrivals, kitty invite rules read at the front door, one guest per ring, chip climbs, host breaks her own rule",
+ "idea": "Shruti reads her kitty invite's four rules at the door and sends out every guest who breaks one, then calls Ruhi's samosa bland and breaks rule 4 herself.",
+ "logline": "Shruti sends every guest who breaks a rule from her kitty invite back outside, until she calls a samosa bland and breaks rule 4 herself.",
+ "game": "every guest walks in proud and breaks the next rule on the invite",
+ "experiment": {
+  "type": "door-arrivals",
+  "hook": "doorbell, Shruti blocks her door with the invite on her phone as Avika stands in the doorway: 'Invite pe chaar rule the! Toda toh entry nahi!'",
+  "variable": "a new host (Shruti, the budget queen, not Tanya) running the door shape with rules every group writes on the invite (time, new gift, no phone, no food complaints), to see if the shape holds without Tanya",
+  "hypothesis": "skip under 32% and watched above 45% like the other door reels; 'Tag your Shruti' with invite rules every group has should get 3+ shares"
+ },
+ "mute": [
+  "doorbell, Shruti blocks her door holding her phone, chip RULES TODE: 0/4, Avika in the doorway with keys",
+  "Shruti points: 'Toda toh entry nahi!'",
+  "Avika waves proudly 'Ekdum time pe!'",
+  "Shruti reads 'Rule ek: chaar baje sharp', wall clock shows 4:45",
+  "Shruti: 'Abhi paune paanch! Bahar!', chip 1/4, Avika sweats",
+  "Avika steps aside 'Traffic tha yaar!', doorbell",
+  "Myra hops in with a gift box 'Bilkul naya!'",
+  "Shruti checks the box 'Rule do: naya gift'",
+  "Shruti: 'Is pe mera naam hai!', chip 2/4",
+  "Myra shocked 'Aapne hi diya tha!', doorbell",
+  "Ruhi holds her phone up on a video call 'live hoon! Ghar dekho!'",
+  "Shruti: 'Rule teen: phone band! Bahar!', chip 3/4",
+  "Ruhi offers a samosa plate 'samose toh lo!'",
+  "silence, Shruti flat: 'Namak kam hai.'",
+  "Ruhi, Myra and Avika point at her together: 'Rule chaar! Khaane ki buraai!', chip 4/4 HOST BHI!",
+  "Shruti, hands on hips: 'Rule paanch: host pe rule nahi!'",
+  "the guests laugh 'Haaw!'"
+ ],
+ "beats": "hook: invite pe chaar rule, toda toh entry nahi / esc: Avika 'ekdum time pe' at 4:45, Myra's 'naya' gift has Shruti's own name on it, Ruhi live on video call / turn: Shruti tastes Ruhi's samosa, 'namak kam hai', all three read rule 4 back / button: Shruti invents rule 5, 'host pe rule nahi'",
+ "review": {
+  "clarity": 5,
+  "hook": 5,
+  "relatable": 5,
+  "conflict": 5,
+  "escalation": 5,
+  "laughs": 4,
+  "twist": 5,
+  "ending": 4,
+  "tight": 5,
+  "character": 5,
+  "shareable": 5,
+  "total": 53,
+  "notes": "Last 4 gang reels: countdown (KG-2026-11-23-b), map-journey (23-a, 22-b), types-of (22-a), so door-arrivals (our winner, last used 11-20-b) fits every 2nd reel. Lead is Shruti (last reel led by Tanya); she is the rules-and-hisaab friend, so an invite rulebook is in character. Rules are ones real groups write on invites (time, new gift, no phones, no food complaints), per the learning that door reels need a real rule. Every guest claims first, then drops: Avika proud of being on time at 4:45, Myra proud of a 'naya' gift that carries Shruti's own name tag from last year (ordinary, ordinary), Ruhi live on a video call showing the house (absurd). Twist is see-it and heard: the silent pause, 'Namak kam hai', and the three guests in one shot reading rule 4. Endings tried: guests lock Shruti out (repeats 11-20-b), Shruti charges herself a Rs 10 fine (cute, weaker), Shruti invents rule 5 on the spot (kept, every host does this). One line per shot, max 8 words, hold 0.1, silenceBefore line alone in its shot with no ellipsis, about 75 words at pace 28, about 27 s."
+ },
+ "cover": {
+  "shot": 14,
+  "at": 0.6,
+  "title": [
+   "Invite ke 4 rule:",
+   "Host ne hi toda!"
+  ],
+  "titleY": 330
+ },
+ "caption": "Har kitty mein ek Shruti hoti hai jo invite pe rules likhti hai aur pehla khud todti hai. Tag your Shruti!",
+ "hashtags": [
+  "#kittyparty",
+  "#kittygang",
+  "#ladieskitty",
+  "#kittypartyfun",
+  "#decemberkitty",
+  "#kittyrules",
+  "#housie"
+ ],
+ "ambience": {
+  "name": "crowd",
+  "vol": 0.1
+ },
+ "pace": 28,
+ "shots": [
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 0/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Avika",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "hold",
+     "mouth": "o",
+     "prop": "keys",
+     "eyes": "open"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "flat"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Invite pe chaar rule the!",
+     "say": "इनवाइट पे चार रूल थे!",
+     "beat": "hook"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Door mat",
+     "x": 790,
+     "y": 1490,
+     "s": 1
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "doorbell",
+     "vol": 0.5
+    },
+    {
+     "at": 0.15,
+     "name": "creak",
+     "vol": 0.3
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 0/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Avika",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "hold",
+     "mouth": "o",
+     "prop": "keys"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Toda toh entry nahi!",
+     "say": "तोड़ा तो एंट्री नहीं!",
+     "punch": true,
+     "beat": "hook"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "exclaim",
+     "x": 200,
+     "y": 900,
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 0/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Avika",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "wave",
+     "mouth": "laugh",
+     "eyes": "laugh",
+     "hop": true
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "flat",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Avika",
+     "text": "Aa gayi! Ekdum time pe!",
+     "say": "आ गई! एकदम टाइम पे!",
+     "beat": "setup"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "footsteps",
+     "vol": 0.3
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 0/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Avika",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "wave",
+     "mouth": "smile"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "flat",
+     "eyes": "side"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Rule ek: chaar baje sharp.",
+     "say": "रूल एक: चार बजे शार्प।",
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "push",
+   "clock": {
+    "h": 4,
+    "m": 45
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 1/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Avika",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "hold",
+     "mouth": "o",
+     "prop": "keys",
+     "eyes": "open"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Abhi paune paanch! Bahar!",
+     "say": "अभी पौने पांच! बाहर!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "vol": 0.4
+    }
+   ],
+   "camera": "punch",
+   "clock": {
+    "h": 4,
+    "m": 45
+   },
+   "stickers": [
+    {
+     "kind": "sweat",
+     "x": 860,
+     "y": 820,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 1/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Avika",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "hold",
+     "mouth": "o",
+     "prop": "keys"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "flat",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Avika",
+     "text": "Traffic tha yaar!",
+     "say": "ट्रैफिक था यार!",
+     "gap": 0.05,
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "doorbell",
+     "vol": 0.5
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 1/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "wave",
+     "mouth": "laugh",
+     "eyes": "laugh",
+     "hop": true
+    },
+    {
+     "name": "Avika",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "relaxed",
+     "mouth": "flat"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "smile"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Gift laayi! Bilkul naya!",
+     "say": "गिफ्ट लाई! बिलकुल नया!",
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Gift box",
+     "x": 640,
+     "y": 1440,
+     "s": 0.9,
+     "at": 0.1
+    }
+   ],
+   "sfx": [],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 1/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "relaxed",
+     "mouth": "smile"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "flat",
+     "eyes": "side"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Rule do: naya gift. Dekhun?",
+     "say": "रूल दो: नया गिफ्ट। देखूं?",
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Gift box",
+     "x": 560,
+     "y": 1560,
+     "s": 1.1
+    }
+   ],
+   "sfx": [],
+   "camera": "push",
+   "stickers": [
+    {
+     "kind": "question",
+     "x": 300,
+     "y": 950,
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 2/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "relaxed",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Is pe mera naam hai!",
+     "say": "इस पे मेरा नाम है!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Gift box",
+     "x": 560,
+     "y": 1560,
+     "s": 1.3
+    }
+   ],
+   "sfx": [],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "exclaim",
+     "x": 560,
+     "y": 1300,
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 2/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "hold",
+     "mouth": "o",
+     "prop": "bottle",
+     "eyes": "open",
+     "hop": true
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "flat",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Haaw! Aapne hi diya tha!",
+     "say": "हाव! आपने ही दिया था!",
+     "gap": 0.05,
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Gift box",
+     "x": 560,
+     "y": 1560,
+     "s": 1.1
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "doorbell",
+     "vol": 0.5
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 2/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "phone2",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "o",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Haan, live hoon! Ghar dekho!",
+     "say": "हाँ, लाइव हूँ! घर देखो!",
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Phone + notification",
+     "x": 900,
+     "y": 1150,
+     "s": 0.8,
+     "at": 0.1
+    }
+   ],
+   "sfx": [],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 3/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "phone2",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Rule teen: phone band! Bahar!",
+     "say": "रूल तीन: फ़ोन बंद! बाहर!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "bolt",
+     "x": 820,
+     "y": 900,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 3/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "hold",
+     "mouth": "smile",
+     "prop": "phone",
+     "eyes": "side"
+    },
+    {
+     "name": "Myra",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "relaxed",
+     "mouth": "smile"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "smile",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Achha, samose toh lo!",
+     "say": "अच्छा, समोसे तो लो!",
+     "beat": "turn"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Samosa plate",
+     "x": 620,
+     "y": 1450,
+     "s": 1.1,
+     "at": 0.1
+    }
+   ],
+   "sfx": [],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 3/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "relaxed",
+     "mouth": "smile",
+     "eyes": "open"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "flat",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.2,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Namak kam hai.",
+     "say": "नमक कम है।",
+     "silenceBefore": true,
+     "beat": "turn"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Samosa plate",
+     "x": 520,
+     "y": 1580,
+     "s": 1.1
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "thud",
+     "vol": 0.3
+    }
+   ],
+   "camera": "still",
+   "music": false
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 4/4 · HOST BHI!",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.6,
+     "pose": "talkL",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Myra",
+     "x": 600,
+     "y": 1500,
+     "s": 1.9,
+     "turn": -0.4,
+     "pose": "talkL",
+     "mouth": "o"
+    },
+    {
+     "name": "Avika",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "talkL",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.2,
+   "lines": [
+    {
+     "who": "ALL",
+     "text": "Rule chaar! Khaane ki buraai!",
+     "say": "रूल चार! खाने की बुराई!",
+     "punch": true,
+     "beat": "turn"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "haww",
+     "vol": 0.5
+    }
+   ],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "exclaim",
+     "x": 540,
+     "y": 820,
+     "at": 0.15
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 4/4 · HOST BHI!",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "relaxed",
+     "mouth": "flat",
+     "eyes": "half"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hips",
+     "mouth": "smirk",
+     "eyes": "side"
+    }
+   ],
+   "hold": 0.2,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Rule paanch: host pe rule nahi!",
+     "say": "रूल पांच: होस्ट पे रूल नहीं!",
+     "punch": true,
+     "beat": "button"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Samosa plate",
+     "x": 520,
+     "y": 1580,
+     "s": 1.1
+    }
+   ],
+   "sfx": [],
+   "camera": "punch"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "RULES TODE: 4/4 · HOST BHI!",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "laughs",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Myra",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "laughs",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Shruti",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hips",
+     "mouth": "smirk"
+    }
+   ],
+   "hold": 0.8,
+   "lines": [
+    {
+     "who": "ALL",
+     "text": "Haaw!",
+     "say": "हाव!",
+     "beat": "button"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "laughv",
+     "vol": 0.5
+    }
+   ],
+   "camera": "still"
+  }
+ ]
+}
