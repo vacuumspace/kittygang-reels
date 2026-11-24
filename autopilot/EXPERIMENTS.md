@@ -22,3 +22,4 @@ use it at most every 2nd reel and keep testing the rest. Add new types at the bo
 | map-journey | the trip to the kitty: traffic, wrong flat, 3 stops | map + door |
 
 `experiment` in the draft: `{ "type": "group-chat", "hook": "what the first 2 s do", "variable": "the one thing tested", "hypothesis": "what we expect, with a number" }`
+| news-bulletin | a gang member reports live like a news anchor (dabber or ladle mic, LIVE counter chip), interviewing each friend, "Breaking:" twist line | scene, chip, phone |

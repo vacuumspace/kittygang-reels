@@ -1,0 +1,1026 @@
+{
+ "id": "KG-2026-11-24-b",
+ "title": "Breaking: host bhaag gayi!",
+ "format": "News-bulletin gang reel: Ruhi reports live from a shaadi season Housie with a dabber mic, a LIVE chip counts who is still in the room",
+ "idea": "Host Tanya orders that nobody leaves before Full House; Ruhi interviews each guest as she slips off to a shaadi, until a sangeet message sends Tanya running and Ruhi wins the Housie alone.",
+ "logline": "In shaadi season, host Tanya bans leaving before Full House, every guest sneaks off to a wedding, then Tanya runs to her own sangeet and Ruhi wins alone.",
+ "game": "every guest swears she is staying, Ruhi's live question exposes her shaadi exit",
+ "experiment": {
+  "type": "news-bulletin",
+  "hook": "Housie cage spinning, Ruhi holds a dabber like a mic to the lens: 'Breaking news! Kitty se live!' with a LIVE chip",
+  "variable": "a news-bulletin frame (anchor, mic, live counter chip) over a real shaadi season kitty, after the theme reel 'Breaking: Aangan mein shaadi!' had the best skip of the TH reels (45.6%)",
+  "hypothesis": "skip under 35% (the news hook plus a cage sound in second 1) and 1+ shares from 'Tag the host who leaves first' in a week every viewer has a shaadi"
+ },
+ "mute": [
+  "Housie table, Ruhi talks into a dabber like a mic, chip LIVE · RUKE: 4/4, banner SHAADI SEASON HOUSIE",
+  "Tanya points: 'Full House se pehle koi nahi jaayega!'",
+  "Myra and Shruti wave: 'Bilkul nahi!' 'Haan ji, poora game!'",
+  "Ruhi points the mic at the envelope in Myra's hand",
+  "Myra: 'Bas shagun ka lifafa.'",
+  "Myra: 'Teen hain! Bye!' and leaves, chip drops",
+  "chip 3/4, Shruti says she is staying, holding car keys",
+  "Ruhi: 'Toh chaabi kyun ghuma rahi ho?', Shruti sweats",
+  "Shruti: 'Reception mein khana free hai!', a thali pops up, she leaves, chip 2/4",
+  "Tanya: 'hum do kaafi!', clock 6:50",
+  "Tanya's phone: Mausi ji 'Sangeet 7 baje, tera solo dance pehla hai!!'",
+  "pause, Tanya: 'mera ticket sambhaal! Bye!' and runs",
+  "Ruhi alone, flat: 'Breaking: host khud bhaag gayi!', chip 1/4",
+  "Ruhi alone with every ticket and the kitty pot: 'Full House mera!', chip JEETI: RUHI"
+ ],
+ "beats": "hook: Breaking news from the Housie / setup: host bans leaving / esc x3: Myra's shagun lifafa, Shruti's car keys and free reception dinner, Tanya 'hum do kaafi' / turn: Mausi's sangeet message, host runs / button: Ruhi alone, 'Kitty se live!' again, wins Full House",
+ "review": {
+  "clarity": 5,
+  "hook": 5,
+  "relatable": 5,
+  "conflict": 4,
+  "escalation": 4,
+  "laughs": 4,
+  "twist": 5,
+  "ending": 4,
+  "tight": 5,
+  "character": 5,
+  "shareable": 5,
+  "total": 51,
+  "notes": "Last 4 gang reels were door-arrivals (24-a), countdown (23-b), map-journey (23-a, 22-b) and types-of (22-a), so this tests a new type, news-bulletin, built on the TH learning that a news-style hook cut skip to 45.6%. Lead is Ruhi (gossip queen as the anchor; last reel led by Shruti). Real situation: November shaadi season, ladies leaving kitty early for weddings. Game played 3 times: Myra (shagun lifafa, ordinary), Shruti (car keys, leaves for a free reception dinner, in character as the budget queen), Tanya the host who made the rule (absurd, her own solo dance). Claim before reveal on each: 'Bilkul nahi!', 'Paisa vasool!', 'hum do kaafi!'. Twist is see-it (Mausi ji's message on screen). Button mirrors the hook ('Kitty se live!') with an empty room and Ruhi winning by default. Endings tried: Ruhi also leaves (sad), the dulhan walks in to play (too much), Ruhi wins alone (kept). One line per shot or two short lines under 8 words, silenceBefore line alone, no ellipses, about 75 words at pace 28, about 27 s."
+ },
+ "cover": {
+  "shot": 12,
+  "at": 0.6,
+  "title": [
+   "Shaadi season kitty:",
+   "Host khud bhaag gayi!"
+  ],
+  "titleY": 330
+ },
+ "caption": "Rule banane wali hi sabse pehle bhaagti hai. Tag the host jo sangeet ke liye kitty chhod de!",
+ "hashtags": [
+  "#kittyparty",
+  "#kittygang",
+  "#shaadiseason",
+  "#housie",
+  "#ladieskitty",
+  "#weddingseason",
+  "#kittypartygames"
+ ],
+ "ambience": {
+  "name": "crowd",
+  "vol": 0.1
+ },
+ "pace": 28,
+ "shots": [
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 4/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.5,
+     "pose": "hold",
+     "mouth": "o",
+     "prop": "phone",
+     "hop": true
+    },
+    {
+     "name": "Tanya",
+     "x": 560,
+     "y": 1700,
+     "s": 1.8,
+     "turn": -0.5,
+     "pose": "clapL",
+     "prop": "phone",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Myra",
+     "x": 820,
+     "y": 1700,
+     "s": 1.8,
+     "turn": -0.5,
+     "pose": "hold",
+     "mouth": "smile",
+     "prop": "bottle"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Breaking news! Kitty se live!",
+     "say": "ब्रेकिंग न्यूज़! किटी से लाइव!",
+     "beat": "hook",
+     "punch": true
+    }
+   ],
+   "camera": "punch",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Housie cage",
+     "x": 540,
+     "y": 1560,
+     "s": 1.3
+    },
+    {
+     "name": "Housie ticket",
+     "x": 820,
+     "y": 1600,
+     "s": 1.2
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "cage",
+     "vol": 0.5
+    },
+    {
+     "at": 0.1,
+     "name": "sting",
+     "vol": 0.4
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 40
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 4/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "smile"
+    },
+    {
+     "name": "Tanya",
+     "x": 780,
+     "y": 1740,
+     "s": 2.05,
+     "turn": -0.7,
+     "pose": "talkL",
+     "prop": "phone",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Full House se pehle koi nahi jaayega!",
+     "say": "फुल हाउस से पहले कोई नहीं जाएगा!",
+     "beat": "setup",
+     "punch": true,
+     "gap": 0.04
+    }
+   ],
+   "camera": "punch",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Housie cage",
+     "x": 540,
+     "y": 1560,
+     "s": 1.3
+    }
+   ],
+   "stickers": [
+    {
+     "kind": "exclaim",
+     "x": 820,
+     "y": 900,
+     "at": 0.2
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 40
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 4/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 540,
+     "y": 1740,
+     "s": 1.95,
+     "turn": -0.3,
+     "pose": "wave",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Shruti",
+     "x": 820,
+     "y": 1740,
+     "s": 2,
+     "turn": -0.6,
+     "pose": "wave",
+     "mouth": "smile"
+    },
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "smile"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Bilkul nahi!",
+     "say": "बिल्कुल नहीं!",
+     "gap": 0.03
+    },
+    {
+     "who": "Shruti",
+     "text": "Haan ji, poora game!",
+     "say": "हाँ जी, पूरा गेम!",
+     "gap": 0.03,
+     "beat": "setup"
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Housie ticket",
+     "x": 540,
+     "y": 1640,
+     "s": 1.2
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 41
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 4/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "o",
+     "eyes": "side"
+    },
+    {
+     "name": "Myra",
+     "x": 780,
+     "y": 1740,
+     "s": 1.95,
+     "turn": -0.4,
+     "pose": "hold",
+     "mouth": "flat",
+     "prop": "bottle",
+     "eyes": "side"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Myra ji, haath mein kya hai?",
+     "say": "मायरा जी, हाथ में क्या है?",
+     "beat": "escalation",
+     "gap": 0.03
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Prize envelope",
+     "x": 800,
+     "y": 1380,
+     "s": 1.3
+    }
+   ],
+   "stickers": [
+    {
+     "kind": "question",
+     "x": 760,
+     "y": 980,
+     "at": 0.2
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 42
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 4/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "o"
+    },
+    {
+     "name": "Myra",
+     "x": 780,
+     "y": 1740,
+     "s": 1.95,
+     "turn": -0.4,
+     "pose": "hold",
+     "mouth": "smile",
+     "prop": "bottle",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Kuch nahi! Bas shagun ka lifafa.",
+     "say": "कुछ नहीं! बस शगुन का लिफ़ाफ़ा।",
+     "beat": "escalation",
+     "gap": 0.03
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Prize envelope",
+     "x": 800,
+     "y": 1380,
+     "s": 1.5
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 42
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 4/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Myra",
+     "x": 780,
+     "y": 1740,
+     "s": 1.95,
+     "turn": -0.4,
+     "pose": "wave",
+     "mouth": "laugh",
+     "hop": true
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Kiski shaadi?",
+     "say": "किसकी शादी?",
+     "gap": 0.03
+    },
+    {
+     "who": "Myra",
+     "text": "Teen hain! Bye!",
+     "say": "तीन हैं! बाय!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.05
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Prize envelope",
+     "x": 800,
+     "y": 1380,
+     "s": 1.5
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "footsteps",
+     "vol": 0.4
+    },
+    {
+     "at": 1.3,
+     "name": "whoosh",
+     "vol": 0.4
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 43
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 3/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "smile"
+    },
+    {
+     "name": "Shruti",
+     "x": 780,
+     "y": 1740,
+     "s": 2,
+     "turn": -0.5,
+     "pose": "hold",
+     "prop": "keys",
+     "mouth": "smile",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Shruti ji, aap toh rukengi?",
+     "say": "श्रुति जी, आप तो रुकेंगी?",
+     "gap": 0.03
+    },
+    {
+     "who": "Shruti",
+     "text": "Haan! Paisa vasool!",
+     "say": "हाँ! पैसा वसूल!",
+     "gap": 0.04,
+     "beat": "escalation"
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 50
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 3/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "smirk",
+     "eyes": "side"
+    },
+    {
+     "name": "Shruti",
+     "x": 780,
+     "y": 1740,
+     "s": 2,
+     "turn": -0.5,
+     "pose": "hold",
+     "prop": "keys",
+     "mouth": "o",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Toh chaabi kyun ghuma rahi ho?",
+     "say": "तो चाबी क्यों घुमा रही हो?",
+     "gap": 0.03,
+     "beat": "escalation"
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    }
+   ],
+   "stickers": [
+    {
+     "kind": "sweat",
+     "x": 880,
+     "y": 920,
+     "at": 0.3
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 51
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 2/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "talkR",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Shruti",
+     "x": 780,
+     "y": 1740,
+     "s": 2,
+     "turn": -0.5,
+     "pose": "wave",
+     "prop": "keys",
+     "mouth": "laugh",
+     "eyes": "laugh",
+     "hop": true
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Reception mein khana free hai!",
+     "say": "रिसेप्शन में खाना फ़्री है!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.05
+    }
+   ],
+   "camera": "punch",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Thali",
+     "x": 840,
+     "y": 1380,
+     "s": 1.2,
+     "at": 0.6
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "footsteps",
+     "vol": 0.4
+    }
+   ],
+   "clock": {
+    "h": 5,
+    "m": 52
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 2/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.6,
+     "pose": "clapR",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Tanya",
+     "x": 780,
+     "y": 1740,
+     "s": 2.05,
+     "turn": -0.6,
+     "pose": "hips",
+     "prop": "phone",
+     "mouth": "smile"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Koi baat nahi, hum do kaafi!",
+     "say": "कोई बात नहीं, हम दो काफ़ी!",
+     "gap": 0.03
+    },
+    {
+     "who": "Ruhi",
+     "text": "Host ho toh aisi!",
+     "say": "होस्ट हो तो ऐसी!",
+     "gap": 0.05,
+     "beat": "escalation"
+    }
+   ],
+   "camera": "push",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Housie cage",
+     "x": 540,
+     "y": 1560,
+     "s": 1.3
+    }
+   ],
+   "clock": {
+    "h": 6,
+    "m": 50
+   }
+  },
+  {
+   "kit": "phone",
+   "title": "Mausi ji",
+   "camera": "still",
+   "chip": "6:55 PM",
+   "chipY": 200,
+   "music": false,
+   "chat": [
+    [
+     "Mausi ji",
+     "Tanya! Sangeet 7 baje",
+     0,
+     "6:55 PM",
+     0.1
+    ],
+    [
+     "Mausi ji",
+     "Tera solo dance pehla hai!!",
+     0,
+     "6:55 PM",
+     0.6
+    ]
+   ],
+   "hold": 0.3,
+   "dur": 1.8,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "ping",
+     "vol": 0.5
+    },
+    {
+     "at": 0.6,
+     "name": "riser",
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 2/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 300,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0.7,
+     "pose": "relaxed",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Tanya",
+     "x": 780,
+     "y": 1740,
+     "s": 2.05,
+     "turn": -0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "o",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Ruhi, mera ticket sambhaal! Bye!",
+     "say": "रूही, मेरा टिकट संभाल! बाय!",
+     "punch": true,
+     "beat": "turn",
+     "silenceBefore": true,
+     "gap": 0.05
+    }
+   ],
+   "camera": "punch",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 360,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Handbag",
+     "x": 820,
+     "y": 1390,
+     "s": 1.2
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "footsteps",
+     "vol": 0.5
+    },
+    {
+     "at": 1.8,
+     "name": "creak",
+     "vol": 0.3
+    }
+   ],
+   "clock": {
+    "h": 6,
+    "m": 56
+   },
+   "stickers": [
+    {
+     "kind": "sweat",
+     "x": 860,
+     "y": 900,
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 1/4",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 540,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0,
+     "pose": "hold",
+     "mouth": "flat",
+     "prop": "phone",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Breaking: host khud bhaag gayi!",
+     "say": "ब्रेकिंग: होस्ट ख़ुद भाग गई!",
+     "punch": true,
+     "beat": "turn"
+    }
+   ],
+   "camera": "still",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 600,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Housie cage",
+     "x": 540,
+     "y": 1560,
+     "s": 1.3
+    }
+   ],
+   "clock": {
+    "h": 6,
+    "m": 57
+   }
+  },
+  {
+   "kit": "scene",
+   "set": "living",
+   "banner": "SHAADI SEASON HOUSIE",
+   "front": true,
+   "chip": "LIVE · RUKE: 1/4 · JEETI: RUHI",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 540,
+     "y": 1740,
+     "s": 2.05,
+     "turn": 0,
+     "pose": "clapR",
+     "mouth": "laugh",
+     "eyes": "laugh",
+     "hop": true
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Kitty se live! Full House mera!",
+     "say": "किटी से लाइव! फुल हाउस मेरा!",
+     "punch": true,
+     "beat": "button"
+    }
+   ],
+   "camera": "punch",
+   "props": [
+    {
+     "name": "Dabber marker",
+     "x": 600,
+     "y": 1310,
+     "s": 1.3,
+     "rot": -20
+    },
+    {
+     "name": "Housie cage",
+     "x": 540,
+     "y": 1560,
+     "s": 1.3
+    },
+    {
+     "name": "Housie ticket",
+     "x": 380,
+     "y": 1620,
+     "s": 1.2
+    },
+    {
+     "name": "Housie ticket",
+     "x": 700,
+     "y": 1620,
+     "s": 1.2
+    },
+    {
+     "name": "Kitty pot",
+     "x": 540,
+     "y": 1380,
+     "s": 1.1,
+     "at": 0.5
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "cage",
+     "vol": 0.4
+    },
+    {
+     "at": 1.6,
+     "name": "laughv",
+     "vol": 0.5
+    }
+   ],
+   "clock": {
+    "h": 6,
+    "m": 58
+   }
+  }
+ ]
+}
