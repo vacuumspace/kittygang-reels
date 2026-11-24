@@ -1,0 +1,727 @@
+{
+  "id": "KGI-035",
+  "n": 35,
+  "slug": "jodi-pehchano-acting-pair-kitty-party-game",
+  "game": "Jodi Pehchano",
+  "tagline": "Aadhi chit, poori acting!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "person",
+      "x": 150,
+      "y": 230,
+      "s": 1.1,
+      "color": "pink"
+    },
+    {
+      "k": "hand",
+      "x": 240,
+      "y": 250,
+      "rot": -20,
+      "s": 0.9
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(250 190) scale(1)\"><path d=\"M-30 -40 L30 -40 L24 30 L-24 30 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-27 -26 L27 -26 L25 -8 L-25 -8 Z\" fill=\"#C98B5A\"/><path d=\"M30 -24 Q52 -20 48 0 Q44 14 26 12\" fill=\"none\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-10 -52 Q-18 -64 -10 -76 M8 -52 Q0 -64 8 -76\" stroke=\"#9AA1AB\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 420,
+      "y": 230,
+      "s": 1.1,
+      "color": "yel"
+    },
+    {
+      "k": "hand",
+      "x": 330,
+      "y": 250,
+      "rot": 20,
+      "s": 0.9
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(330 190) rotate(-10) scale(1)\"><rect x=\"-40\" y=\"-28\" width=\"80\" height=\"56\" rx=\"8\" fill=\"#E8B96A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><circle cx=\"-20\" cy=\"-12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"0\" cy=\"-12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"20\" cy=\"-12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"-20\" cy=\"12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"0\" cy=\"12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"20\" cy=\"12\" r=\"3\" fill=\"#B07A30\"/></g>"
+    },
+    {
+      "k": "text",
+      "x": 285,
+      "y": 80,
+      "text": "Chai?",
+      "size": 40,
+      "color": "white"
+    },
+    {
+      "k": "svg",
+      "markup": "<path transform=\"translate(285 130) scale(1.1)\" d=\"M0 18 C-30 -4 -26 -30 -8 -30 C0 -30 0 -22 0 -18 C0 -22 0 -30 8 -30 C26 -30 30 -4 0 18 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(700 170) rotate(-6)\"><path d=\"M-85 -45 L79 -45 L79 -45 L95 -30 L79 -15 L95 0 L79 15 L95 30 L79 45 L-85 45 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"12.6\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Raj</text></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(890 175) rotate(6)\"><path d=\"M85 -45 L-79 -45 L-79 -45 L-95 -30 L-79 -15 L-95 0 L-79 15 L-95 30 L-79 45 L85 45 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"11.2\" font-size=\"32\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Simran</text></g>"
+    },
+    {
+      "k": "arrow",
+      "x1": 760,
+      "y1": 270,
+      "x2": 690,
+      "y2": 220,
+      "color": "white",
+      "w": 7
+    },
+    {
+      "k": "arrow",
+      "x1": 830,
+      "y1": 270,
+      "x2": 900,
+      "y2": 225,
+      "color": "white",
+      "w": 7
+    },
+    {
+      "k": "text",
+      "x": 795,
+      "y": 320,
+      "text": "Meri jodi kahan?",
+      "size": 38,
+      "color": "yel"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 4 cheezein",
+    "items": [
+      {
+        "label": "Paper chits",
+        "sub": "har jodi ki ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(105 110) rotate(-6)\"><path d=\"M-65 -40 L59 -40 L59 -40 L75 -26.666666666666664 L59 -13.333333333333332 L75 0 L59 13.333333333333336 L75 26.66666666666667 L59 40 L-65 40 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"10.5\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Pav</text></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(200 112) rotate(6)\"><path d=\"M65 -40 L-59 -40 L-59 -40 L-75 -26.666666666666664 L-59 -13.333333333333332 L-75 0 L-59 13.333333333333336 L-75 26.66666666666667 L-59 40 L65 40 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"9.799999999999999\" font-size=\"28\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Bhaji</text></g>"
+          }
+        ]
+      },
+      {
+        "label": "Pen",
+        "sub": "jodi likhne ko",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 110) rotate(-30) scale(1)\"><rect x=\"-90\" y=\"-12\" width=\"180\" height=\"24\" rx=\"8\" fill=\"#4DA3FF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M90 -12 L122 0 L90 12 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-80\" y=\"-18\" width=\"40\" height=\"8\" rx=\"3\" fill=\"#2B1B2E\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Bowl",
+        "sub": "aadhi chits ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "bowl",
+            "x": 150,
+            "y": 150,
+            "s": 0.8,
+            "color": "yel"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(110 85) rotate(-12)\"><path d=\"M-45 -28 L39 -28 L39 -28 L55 -18.666666666666664 L39 -9.333333333333332 L55 0 L39 9.333333333333336 L55 18.666666666666664 L39 28 L-45 28 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"7.699999999999999\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Dal</text></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(195 80) rotate(10)\"><path d=\"M45 -28 L-39 -28 L-39 -28 L-55 -18.666666666666664 L-39 -9.333333333333332 L-55 0 L-39 9.333333333333336 L-55 18.666666666666664 L-39 28 L45 28 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"6.3\" font-size=\"18\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chawal</text></g>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "2 minute ka",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 115,
+            "s": 0.7,
+            "text": "2:00"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Jodi likho, beech se phaado",
+      "body": "Host chits pe mashhoor jodi likhe, phir har chit do tukde kare.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 160,
+          "y": 400,
+          "s": 1.5,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(470 250) rotate(-4)\"><path d=\"M-100 -50 L94 -50 L94 -50 L110 -33.33333333333333 L94 -16.666666666666664 L110 0 L94 16.66666666666667 L110 33.33333333333333 L94 50 L-100 50 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"14\" font-size=\"40\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chai</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(700 255) rotate(4)\"><path d=\"M100 -50 L-94 -50 L-94 -50 L-110 -33.33333333333333 L-94 -16.666666666666664 L-110 0 L-94 16.66666666666667 L-110 33.33333333333333 L-94 50 L100 50 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"12.6\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Parle-G</text></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 540,
+          "y1": 340,
+          "x2": 450,
+          "y2": 330,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "arrow",
+          "x1": 630,
+          "y1": 340,
+          "x2": 720,
+          "y2": 330,
+          "color": "pink",
+          "w": 9
+        },
+        {
+          "k": "text",
+          "x": 585,
+          "y": 150,
+          "text": "Phaado!",
+          "size": 46,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(420 560) rotate(-8)\"><path d=\"M-75 -38 L69 -38 L69 -38 L85 -25.333333333333336 L69 -12.666666666666668 L85 0 L69 12.666666666666664 L85 25.333333333333336 L69 38 L-75 38 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"10.5\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Raj</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(560 565) rotate(6)\"><path d=\"M75 -38 L-69 -38 L-69 -38 L-85 -25.333333333333336 L-69 -12.666666666666668 L-85 0 L-69 12.666666666666664 L-85 25.333333333333336 L-69 38 L75 38 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"9.1\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Simran</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(720 560) rotate(-6)\"><path d=\"M-75 -38 L69 -38 L69 -38 L85 -25.333333333333336 L69 -12.666666666666668 L85 0 L69 12.666666666666664 L85 25.333333333333336 L69 38 L-75 38 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"10.5\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Jai</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(860 565) rotate(8)\"><path d=\"M75 -38 L-69 -38 L-69 -38 L-85 -25.333333333333336 L-69 -12.666666666666668 L-85 0 L-69 12.666666666666664 L-85 25.333333333333336 L-69 38 L75 38 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"9.799999999999999\" font-size=\"28\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Veeru</text></g>"
+        }
+      ]
+    },
+    {
+      "title": "Ek tukda uthao, chhupao",
+      "body": "Bowl ghoomao. Har lady ek tukda le, padhe, kisi ko na dikhaaye.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "bowl",
+          "x": 480,
+          "y": 560,
+          "s": 1.1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(430 500) rotate(-10)\"><path d=\"M-60 -32 L54 -32 L54 -32 L70 -21.333333333333336 L54 -10.666666666666668 L70 0 L54 10.666666666666664 L70 21.333333333333336 L54 32 L-60 32 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"9.1\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Tom</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(540 495) rotate(8)\"><path d=\"M60 -32 L-54 -32 L-54 -32 L-70 -21.333333333333336 L-54 -10.666666666666668 L-70 0 L-54 10.666666666666664 L-70 21.333333333333336 L-54 32 L60 32 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"8.399999999999999\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Daya</text></g>"
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 330,
+          "s": 1.4,
+          "color": "pink"
+        },
+        {
+          "k": "hand",
+          "x": 300,
+          "y": 460,
+          "rot": -40,
+          "s": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(330 400) rotate(-12)\"><path d=\"M65 -35 L-59 -35 L-59 -35 L-75 -23.333333333333336 L-59 -11.666666666666668 L-75 0 L-59 11.666666666666664 L-75 23.333333333333336 L-59 35 L65 35 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"9.1\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Simran</text></g>"
+        },
+        {
+          "k": "person",
+          "x": 780,
+          "y": 330,
+          "s": 1.4,
+          "color": "green"
+        },
+        {
+          "k": "hand",
+          "x": 670,
+          "y": 450,
+          "rot": 40,
+          "s": 1
+        },
+        {
+          "k": "text",
+          "x": 180,
+          "y": 140,
+          "text": "Shhh!",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 600,
+          "y1": 440,
+          "x2": 680,
+          "y2": 400,
+          "color": "pink",
+          "w": 8
+        }
+      ]
+    },
+    {
+      "title": "Bolna mana, sirf acting",
+      "body": "Timer 2 minute. Bina bole, bina chit dikhaaye, acting se jodi dhoondo.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 220,
+          "y": 440,
+          "s": 1.5,
+          "color": "yel"
+        },
+        {
+          "k": "hand",
+          "x": 350,
+          "y": 470,
+          "rot": -20,
+          "s": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(360 400) scale(1.1)\"><path d=\"M-30 -40 L30 -40 L24 30 L-24 30 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-27 -26 L27 -26 L25 -8 L-25 -8 Z\" fill=\"#C98B5A\"/><path d=\"M30 -24 Q52 -20 48 0 Q44 14 26 12\" fill=\"none\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-10 -52 Q-18 -64 -10 -76 M8 -52 Q0 -64 8 -76\" stroke=\"#9AA1AB\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 640,
+          "y": 440,
+          "s": 1.5,
+          "color": "blue"
+        },
+        {
+          "k": "hand",
+          "x": 510,
+          "y": 470,
+          "rot": 20,
+          "s": 1
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(505 410) rotate(-10) scale(1.1)\"><rect x=\"-40\" y=\"-28\" width=\"80\" height=\"56\" rx=\"8\" fill=\"#E8B96A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><circle cx=\"-20\" cy=\"-12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"0\" cy=\"-12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"20\" cy=\"-12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"-20\" cy=\"12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"0\" cy=\"12\" r=\"3\" fill=\"#B07A30\"/><circle cx=\"20\" cy=\"12\" r=\"3\" fill=\"#B07A30\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"80\" y=\"120\" width=\"240\" height=\"100\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M180 218 L160 254 L210 218 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"182\" y=\"212\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"200\" y=\"182\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chai!</text><path d=\"M94 206 L306 134\" stroke=\"#D7263D\" stroke-width=\"10\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "timer",
+          "x": 860,
+          "y": 230,
+          "s": 0.8,
+          "text": "2:00"
+        },
+        {
+          "k": "svg",
+          "markup": "<path transform=\"translate(430 300) scale(1.2)\" d=\"M0 18 C-30 -4 -26 -30 -8 -30 C0 -30 0 -22 0 -18 C0 -22 0 -30 8 -30 C26 -30 30 -4 0 18 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        }
+      ]
+    },
+    {
+      "title": "Jodi mili? Host ke paas",
+      "body": "Haath pakdo, host ko dono tukde jodke dikhao. Sahi toh jeet.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 160,
+          "y": 440,
+          "s": 1.4,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 330,
+          "y": 440,
+          "s": 1.4,
+          "color": "blue"
+        },
+        {
+          "k": "hand",
+          "x": 225,
+          "y": 470,
+          "rot": 20,
+          "s": 0.9
+        },
+        {
+          "k": "hand",
+          "x": 265,
+          "y": 470,
+          "rot": -20,
+          "s": 0.9
+        },
+        {
+          "k": "arrow",
+          "x1": 430,
+          "y1": 420,
+          "x2": 560,
+          "y2": 420,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "person",
+          "x": 780,
+          "y": 440,
+          "s": 1.4,
+          "color": "green",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(640 220) rotate(0)\"><path d=\"M-85 -43 L79 -43 L79 -43 L95 -28.666666666666664 L79 -14.333333333333332 L95 0 L79 14.333333333333336 L95 28.66666666666667 L79 43 L-85 43 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"11.899999999999999\" font-size=\"34\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chai</text></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(806 220) rotate(0)\"><path d=\"M85 -43 L-79 -43 L-79 -43 L-95 -28.666666666666664 L-79 -14.333333333333332 L-95 0 L-79 14.333333333333336 L-95 28.66666666666667 L-79 43 L85 43 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"0\" y=\"10.5\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Parle-G</text></g>"
+        },
+        {
+          "k": "tick",
+          "x": 900,
+          "y": 110,
+          "s": 1
+        }
+      ]
+    },
+    {
+      "title": "\"Akeli\" chit: natak se pataao",
+      "body": "Ek chit pe Akeli! Uski jodi nahi. Kisi ko jodi bana le, toh woh jeeti.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "person",
+          "x": 220,
+          "y": 430,
+          "s": 1.5,
+          "color": "pink",
+          "label": "Akeli"
+        },
+        {
+          "k": "chit",
+          "x": 220,
+          "y": 170,
+          "s": 1,
+          "text": "Akeli!",
+          "rot": -6
+        },
+        {
+          "k": "person",
+          "x": 640,
+          "y": 430,
+          "s": 1.5,
+          "color": "yel"
+        },
+        {
+          "k": "arrow",
+          "x1": 520,
+          "y1": 420,
+          "x2": 350,
+          "y2": 420,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"270\" y=\"205\" width=\"300\" height=\"90\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M400 293 L380 329 L430 293 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"402\" y=\"287\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"420\" y=\"262\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Main Simran!</text>"
+        },
+        {
+          "k": "text",
+          "x": 820,
+          "y": 600,
+          "text": "Phans gayi!",
+          "size": 42,
+          "color": "pink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Pehli sahi jodi jeetegi",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Bola ya chit dikhaayi?",
+          "10 second freeze."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Galat jodi host ke paas?",
+          "Wapas jao, phir dhoondo."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Akeli ke saath aa gayi?",
+          "Tum out, Akeli jeeti."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Pehli sahi jodi?",
+          "Prize dono ka!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Jodi milte hi dupatta se",
+        "haath baandho, saath chalo."
+      ],
+      [
+        "Round 2 mein sirf chehre",
+        "se acting, haath peeche."
+      ],
+      [
+        "Sahi jodi ko 10 second",
+        "mein apna scene karna hai."
+      ]
+    ],
+    "tip": "Ladies even? Amar Akbar Anthony 3 tukde mein!"
+  },
+  "comment_hint": "jodi mili?",
+  "caption": "Aadhi chit, poori acting, aur ek Akeli jo sabko bewakoof banayegi! Shaadi season ki kitty ke liye perfect. Aap aur aapki best friend kaunsi jodi ho?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#jodipehchano",
+    "#icebreakergames",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Jodi Pehchano: Kitty Party Acting Pair Game Rules and Twists",
+    "description": "Jodi Pehchano is a kitty party game where ladies find their famous jodi only by acting. Rules, chit list, the Akeli twist, tips and FAQ for 8 to 20 players.",
+    "intro": "Jodi Pehchano is a silent acting game for a kitty party: the host writes famous pairs like Raj and Simran or Chai and Parle-G on chits, tears each chit in half, and every lady gets one half. Without speaking or showing her chit, each lady must act out her word and find the lady holding the other half, and the first pair to show a matching chit to the host wins. The crazy twist is the Akeli chit, which has no pair at all: the lady who gets it wins if she can fool any lady into believing she is her jodi. It needs only paper, a pen, a bowl and a phone timer, and works for 8 to 20 ladies in about 15 minutes.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "Paper chits, one per pair, torn in half",
+      "One pen for the host",
+      "A bowl to shuffle the halves",
+      "A phone timer set to 2 minutes",
+      "A small prize for the winning pair, and one for the Akeli if she wins"
+    ],
+    "steps": [
+      "Before the game, the host writes one famous pair on each chit, for example Raj | Simran, Jai | Veeru, Chai | Parle-G, Samosa | Chutney, Pav | Bhaji, Chhole | Bhature, Dal | Chawal, Tom | Jerry, Jethalal | Daya and Saas | Bahu, and tears each chit in half between the two names.",
+      "If the number of ladies is odd, the host adds one extra chit that says only \"Akeli!\". If it is even, she also tears one chit into three: Amar | Akbar | Anthony, so the numbers work out.",
+      "All the halves go into a bowl and are shuffled. The bowl goes round and every lady takes one half, reads it secretly and hides it in her hand or under her dupatta.",
+      "The host starts a 2 minute timer. From now on nobody may speak or show her chit. Every lady acts out her word, sipping invisible chai, dancing like Simran, scolding like a saas, to find the lady with the other half.",
+      "When two ladies think they are a jodi, they hold hands and walk to the host together, then show both halves. If the halves match, they are a winning pair. The first matching pair takes the top prize.",
+      "The lady with the Akeli chit has no real jodi, so she acts as if she belongs to someone. If any lady walks to the host with her, the Akeli wins and the fooled lady is out."
+    ],
+    "rules": [
+      "No speaking, mouthing words or showing your chit. If the host catches you, you freeze for 10 seconds.",
+      "A wrong pair at the host goes back and keeps searching; there is no limit on tries until the timer ends.",
+      "Any lady who goes to the host with the Akeli is out, and the Akeli wins her own prize.",
+      "The first pair to show matching halves wins. Rank the next two pairs for second and third if you like."
+    ],
+    "variations": [
+      "As soon as a pair is found, tie their wrists loosely with a dupatta and let them walk around together while the rest search.",
+      "In round 2, act only with your face; both hands stay behind your back.",
+      "The winning pair must act out a 10 second scene of their jodi before the prize is handed over."
+    ],
+    "tips": [
+      "Mix easy and tricky pairs: films, food, TV serials and cartoons all work, and food pairs make the funniest acting.",
+      "Write in big letters so every lady can read her half at a glance.",
+      "Count the ladies before you tear the chits so there are exactly enough halves, plus the Akeli for an odd number.",
+      "Avoid pairs that tease a real lady in the group; keep it to famous names and food."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Jodi Pehchano?",
+        "a": "It works best with 8 to 20 ladies. Everyone plays at the same time, and a bigger group only makes the silent acting more chaotic."
+      },
+      {
+        "q": "What do you need to play Jodi Pehchano?",
+        "a": "Paper chits, a pen, a bowl and a phone timer. The host writes famous pairs on the chits and tears each one in half before the game."
+      },
+      {
+        "q": "What famous pairs can you use for Jodi Pehchano?",
+        "a": "Good pairs are Raj and Simran, Jai and Veeru, Chai and Parle-G, Samosa and Chutney, Pav and Bhaji, Dal and Chawal, Tom and Jerry, Jethalal and Daya and Saas and Bahu."
+      },
+      {
+        "q": "What if there is an odd number of players?",
+        "a": "Add one Akeli chit with no pair. With an even number, add the Akeli and tear one chit into three, Amar, Akbar and Anthony, so everyone still has a match."
+      },
+      {
+        "q": "Is Jodi Pehchano a good icebreaker for a kitty party?",
+        "a": "Yes. It gets every lady up and moving in the first few minutes, needs no reading aloud or skill, and new members mix with everyone while they search."
+      }
+    ]
+  }
+}
