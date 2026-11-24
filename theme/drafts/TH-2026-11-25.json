@@ -1,0 +1,151 @@
+{
+ "title": "Sangeet ka dance show!",
+ "format": "Kitty Gang dance reality show on the Sangeet Night game: Tanya judges a TV style dance show, three friends perform, and the one who arrived late wins the Dance Floor group",
+ "experiment": {
+  "format": "dance-reality-show",
+  "hook": "Tanya as a TV dance show judge clapping on the Sangeet Night home art, heartbeat and tabla at 0 s, mascot ball spinning above, chip 'SANGEET KA DANCE SHOW: LIVE!' pinned from the first frame, she says 'Sangeet ka dance show, shuru!'",
+  "variable": "repeat test of the 11-23 winner (cooking-show: 47.6% skip, 26% watched, best middle ever) with a different known TV voice, the dance reality show judge, at the same short length (about 15 s, 8 shots, 'CONTESTANT x/3' chips), to see if 'known TV show plus short cut' is the recipe and not the recipe show itself",
+  "hypothesis": "if a TV format viewers know by heart plus a 15 s cut is what holds people, a judge on a sangeet night in peak wedding season repeats it: skip under 50% (best 45.2), watched % above 24 (best 26), at least 1 share or tag from 'jo sangeet mein sabse pehle naachti hai'"
+ },
+ "idea": "Tanya judges a TV style dance show at the sangeet while the gang plays: Tina does a limited edition thumka, Megha dances only to burn calories, Myra asks when the steps were taught, then 47 is called and Avika, who just arrived and danced nothing, wins the Dance Floor group.",
+ "beats": "hook: sangeet ka dance show shuru / contestant 1/3: Tina's limited edition thumka / contestant 2/3: Megha burns calories / contestant 3/3: Myra never learnt the steps / the call on the game / reveal: Dance Floor group is Avika's / turn: Tanya, tum toh abhi aayi / button: Avika, traffic mein practice ki",
+ "logline": "Tanya judges a dance show during the Sangeet Night Housie, and the friend who arrived late without dancing wins the Dance Floor group.",
+ "game": "every contestant gets a typical kitty friend's excuse, and the one who never stepped on the floor takes the prize",
+ "caption": "Naache sab, Dance Floor jeeta kisne? Sangeet wali saheli ko tag karo! Aaj ki {theme} Housie mein milte hain.",
+ "hashtags": ["#kittyparty", "#housie", "#tambola", "#kittygang", "#sangeet", "#sangeetnight", "#shaadiseason", "#weddingdance"],
+ "ambience": { "name": "crowd", "vol": 0.08 },
+ "pace": 24,
+ "shots": [
+  {
+   "kit": "thome",
+   "chip": "SANGEET KA DANCE SHOW: LIVE!",
+   "chipY": 1560,
+   "camera": "punch",
+   "ball": { "n": 47, "x": 540, "y": 700, "size": 380, "revealAt": 99 },
+   "chars": [
+    { "name": "Tanya", "x": 540, "y": 1780, "s": 2.2, "pose": "clapR", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Tanya", "text": "Sangeet ka dance show, shuru!", "say": "संगीत का डांस शो, शुरू!", "beat": "hook" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "heartbeat", "vol": 0.7 },
+    { "at": 0.1, "name": "tabla", "vol": 0.5 },
+    { "at": 0.8, "name": "clap", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "CONTESTANT 1/3: TINA",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Tina", "x": 540, "y": 1780, "s": 2.2, "pose": "hips", "eyes": "half", "mouth": "smirk", "twirl": true }
+   ],
+   "lines": [
+    { "who": "Tina", "text": "Mera thumka. Limited edition.", "say": "मेरा ठुमका। लिमिटेड एडिशन।", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.1, "name": "swish", "vol": 0.4 },
+    { "at": 0.9, "name": "sparkle", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "CONTESTANT 2/3: MEGHA",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Megha", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "bottle", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Megha", "text": "Do gaane, teen samose burn!", "say": "दो गाने, तीन समोसे बर्न!", "punch": true, "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.1, "name": "tabla", "vol": 0.4 },
+    { "at": 0.4, "name": "boing", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "CONTESTANT 3/3: MYRA",
+   "chipY": 1560,
+   "camera": "push",
+   "chars": [
+    { "name": "Myra", "x": 540, "y": 1780, "s": 2.2, "pose": "relaxed", "eyes": "open", "mouth": "o" }
+   ],
+   "stickers": [
+    { "kind": "question", "x": 780, "y": 1000, "at": 0.3, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Myra", "text": "Steps kab sikhaye the?", "say": "स्टेप्स कब सिखाए थे?", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.3, "name": "cricket", "vol": 0.3 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ball",
+   "call": 47,
+   "dab": true,
+   "dur": 1.4,
+   "music": false,
+   "chip": "DANCE FLOOR GROUP: 1 NUMBER BAAKI",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.0, "name": "cage", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ticket",
+   "marked": 5,
+   "dab": true,
+   "reacts": true,
+   "dur": 1.4,
+   "chip": "DANCE FLOOR GROUP: AVIKA!",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.1, "name": "ding", "vol": 0.5 },
+    { "at": 0.8, "name": "waah", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "NAACHE SAB | JEETI AVIKA",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Tanya", "x": 540, "y": 1780, "s": 2.3, "pose": "hips", "eyes": "open", "mouth": "o" }
+   ],
+   "stickers": [
+    { "kind": "exclaim", "x": 760, "y": 980, "at": 0.3, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Tanya", "text": "Ruko! Avika toh abhi aayi!", "say": "रुको! अविका तो अभी आई!", "beat": "turn" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "scratch", "vol": 0.5 },
+    { "at": 0.6, "name": "haww", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": true,
+   "chip": "DANCE FLOOR GROUP: AVIKA",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Tanya", "x": 360, "y": 1780, "s": 2.0, "pose": "hips", "eyes": "open", "mouth": "o", "turn": 0.5 },
+    { "name": "Avika", "x": 760, "y": 1780, "s": 2.2, "pose": "hold", "prop": "keys", "eyes": "laugh", "mouth": "smile", "turn": -0.5 }
+   ],
+   "lines": [
+    { "who": "Avika", "text": "Traffic mein practice ki thi!", "say": "ट्रैफिक में प्रैक्टिस की थी!", "punch": true, "silenceBefore": true, "beat": "button" }
+   ]
+  }
+ ]
+}
