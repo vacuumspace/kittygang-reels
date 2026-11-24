@@ -14226,6 +14226,527 @@
       "yt_id": "y1qpOkS3njA",
       "yt_url": "https://youtube.com/shorts/y1qpOkS3njA",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-23-a",
+      "created": "2026-11-24",
+      "title": "Late fine ka meter!",
+      "format": "Map journey: a late fine meter on the chip climbs with every stop on the late friend's live location, then flips onto the host",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Shruti",
+        "Avika"
+      ],
+      "caption": "Har group mein ek Tanya hoti hai jo late fine lagati hai aur cake khud late mangati hai. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya fines late Avika Rs 10 a minute and watches her live location, but the kitty cake Tanya ordered is even later. Fix of KG-2026-11-22-b (a 5.3 s shot).",
+      "beats": "hook: Har minute late, das rupaye! / Meter chalu! / map: dot at home, lift excuse / esc: baraat Rs 300, rasmalai bribe Rs 450, Tanya counts a free cake Rs 500 / twist: Avika pays Rs 600, cake order 4:45 still at bakery, host bhi late / button: Avika throws the rule back, Tanya says Bas paanch minute, Shruti Meter chalu!",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Tanya shakes the kitty pot with her phone up, \"Har minute late, das rupaye!\", Shruti snaps \"Meter chalu!\" and a tick starts, chip AVIKA FINE: Rs 0",
+        "variable": "the second map-journey reel: a money meter chip that climbs at every map stop (Rs 50, 150, 300, 450, 500, 600) and flips onto the host at the end, borrowing the door-arrivals \"host breaks her own rule\" ending",
+        "hypothesis": "a rupee number that changes every shot holds better than the first map reel (watched 29%): skip under 33% and watched over 45% at about 27 s, and the \"Tag your Tanya\" late fine caption gets 2+ shares because every group has a late fine rule"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Har minute late, das rupaye!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Meter chalu!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Nikal gayi! Lift mein!",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Dot toh ghar pe!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Pandrah minute, dedh sau!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Waah! Cake ka paisa!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Baraat mein phas gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Teen sau! Naachti raho!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Avika",
+          "line": "Rasmalai li! Fine maaf?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Rasmalai alag, fine alag!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Paanch sau! Cake free!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Avika aaj sponsor hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saath minute! Chhe sau!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Lo! Ab cake khilao!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "map",
+          "who": "Shruti",
+          "line": "Cake order? Paune paanch?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Host bhi late!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Har minute late, das rupaye!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bas paanch minute!",
+          "beat": "button"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Meter chalu!",
+          "beat": "button"
+        }
+      ],
+      "duration": 33.81,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Fix of KG-2026-11-22-b, same story and score. QA fail was one shot of 5.3 s: the cake delivery map held a silenceBefore, an ellipsis and two lines. Now that map shot carries only Shruti's line (no ellipsis) and Ruhi's \"Haaw! Host bhi late!\" moves to its own living-room reaction shot with Tanya sweating; the rasmalai map shot is split the same way so Tanya answers from the living room. 13 shots, every shot one or two short lines with hold 0.1, one silenceBefore, one silent map shot of 1.4 s, pace 27. Real kitty scene: the late fine rule plus the late friend sharing her live location. One want (Tanya wants the fine money, then the cake from it), one game (each map stop pushes the meter), played ordinary (still at home, lift excuse), ordinary (baraat jam in shaadi season), absurd (she stops to buy rasmalai to get the fine waived, which costs her another Rs 150). Claim before reveal: Tanya celebrates the free cake twice before the delivery map shows she ordered it at 4:45. Twist is a see-it delivery map chip. Button mirrors the hook: Avika says Tanya's exact rule back and Shruti repeats Meter chalu!, so it loops into the start; Tanya using Avika's Bas paanch minute line is the kicker. Pipeline: every two-line shot is 8 words or fewer with hold 0.1, one silenceBefore, one silent shot of 1.4 s, pace 27. Endings tried: Avika pays in rasmalai (no flip); the cake boy rings and Tanya pays him (flip unclear muted); kept the meter turning on the host. Lead is Avika (last reel Shruti). Kind humour: nobody is mocked, the fine is a game."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-23-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-23-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-23-a-board.jpg",
+      "queue_id": "e4d8014d-5858-4cdc-92b7-a82722d4e7cb",
+      "scheduled_ist": "2026-12-03 13:52",
+      "yt_id": "knkdd8DLLjw",
+      "yt_url": "https://youtube.com/shorts/knkdd8DLLjw",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-23-b",
+      "created": "2026-11-24",
+      "title": "Aakhri 5 number, sab gayi!",
+      "format": "Countdown inside one Housie story: a two-number chip (numbers left, ladies left) drops together every shot, one shaadi-season exit per called number",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Shruti",
+        "Myra"
+      ],
+      "caption": "December ki kitty: number kam, ladies aur kam. Aapki kitty mein sabse pehle kaun bhaagti hai? Tag her!",
+      "status": "queued",
+      "idea": "Tanya runs the last five numbers of the kitty Housie, and on every number one more guest runs off to a shaadi function, until Tanya is alone and wins the whole pot.",
+      "beats": "hook: aakhri paanch number, koi nahi jaayega / setup: beech mein gayi toh ticket cancel / esc: Ruhi one number away, husband honking, sangeet; Myra one number away, cab, haldi; Shruti stays for her Rs 200 ticket, then remembers it is her own daughter's wedding / turn: Tanya alone calls 90, Full House, whole Rs 2,000 pot / button: doorbell, 'Ab koi andar nahi aayega!' mirrors 'Koi nahi jaayega!'",
+      "experiment": {
+        "type": "countdown",
+        "hook": "cage tumbling, Tanya at the Housie cage, chip 'NUMBER BAAKI: 5 · LADIES: 4': 'Aakhri paanch number! Koi nahi jaayega!'",
+        "variable": "a countdown told as one story (numbers left and ladies left drop together on one chip) instead of a numbered list, kept under 30 s, to fix the weak middle of the last countdown (watched 19% at 36 s)",
+        "hypothesis": "skip under 40% like the last countdown (45%) and watched above 30% because the chip falls every 3 s and the reel is about 27 s; the shaadi-season exit is something every kitty lives in December, so the caption question should get comments and 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aakhri paanch number! Koi nahi jaayega!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Beech mein gayi toh ticket cancel!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Number saat!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera! Bas ek number baaki!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Arre! Pati neeche gaadi mein!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Sangeet hai, bye bye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Number baais!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mera bhi! Bas ek baaki!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Oh no, cab aa gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Sorry didi, haldi hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shruti, tum toh rukogi na?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ticket ke 200 diye hain.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Arre! Aaj meri beti ki shaadi hai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Tumhari beti ki?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Number nabbe!",
+          "beat": "turn"
+        },
+        {
+          "shot": 16,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Full House! Poore 2,000 mere!",
+          "beat": "turn"
+        },
+        {
+          "shot": 17,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ab koi andar nahi aayega!",
+          "beat": "button"
+        }
+      ],
+      "duration": 33.72,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 52,
+        "notes": "Type countdown (last 4 gang reels: map-journey x2 KG-2026-11-22-b and 11-23-a, types-of x2 KG-2026-11-21-b and 11-22-a; door-arrivals already has two reels in the queue, so this tests the countdown again with the LEARNINGS fix: under 30 s). Idea from the bank (2026-11-21, score 8), adapted: the guests take the shaadi over the ticket even though Tanya's rule cancels it, and the abandoned-ticket ending (Tanya pockets Myra's win) was dropped as unkind; Tanya wins fair because she is the only one left. Lead Tanya (last reel was led by Avika). 4 characters in the reel, max 3 per shot. Game plays 3 times with claim before reveal: Ruhi 'Mera! Bas ek baaki' then her husband honks (ordinary), Myra the same then her cab (ordinary), Shruti absurd: the budget queen refuses to waste her Rs 200 ticket, then remembers it is her own daughter's wedding. Twist is see-it: Tanya alone, ball 90, pot in her arms. Endings tried: Tanya pockets an abandoned winning ticket (unkind, cut), the guests claim Full House on a video call from the shaadi (needs a phone screen and 3 voices, unclear muted), Tanya wins and the doorbell rings, she blocks her own door (kept: mirrors the hook). Pipeline: one line per shot, every shot 7 words or fewer, hold 0.1, gaps 0.04, the only silenceBefore line sits alone with no ellipsis and the reply on the next shot, 78 words at pace 28, about 26-28 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-23-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-23-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-23-b-board.jpg",
+      "queue_id": "8171bae4-b98a-4cbf-8617-1450139e2e28",
+      "scheduled_ist": "2026-12-04 21:17",
+      "yt_id": "UI6FvlJrUqE",
+      "yt_url": "https://youtube.com/shorts/UI6FvlJrUqE",
+      "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-24-a",
+      "created": "2026-11-24",
+      "title": "Invite ke chaar rule!",
+      "format": "Door arrivals, kitty invite rules read at the front door, one guest per ring, chip climbs, host breaks her own rule",
+      "hook": "",
+      "cast": [
+        "Avika",
+        "Shruti",
+        "Myra",
+        "Ruhi"
+      ],
+      "caption": "Har kitty mein ek Shruti hoti hai jo invite pe rules likhti hai aur pehla khud todti hai. Tag your Shruti!",
+      "status": "queued",
+      "idea": "Shruti reads her kitty invite's four rules at the door and sends out every guest who breaks one, then calls Ruhi's samosa bland and breaks rule 4 herself.",
+      "beats": "hook: invite pe chaar rule, toda toh entry nahi / esc: Avika 'ekdum time pe' at 4:45, Myra's 'naya' gift has Shruti's own name on it, Ruhi live on video call / turn: Shruti tastes Ruhi's samosa, 'namak kam hai', all three read rule 4 back / button: Shruti invents rule 5, 'host pe rule nahi'",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Shruti blocks her door with the invite on her phone as Avika stands in the doorway: 'Invite pe chaar rule the! Toda toh entry nahi!'",
+        "variable": "a new host (Shruti, the budget queen, not Tanya) running the door shape with rules every group writes on the invite (time, new gift, no phone, no food complaints), to see if the shape holds without Tanya",
+        "hypothesis": "skip under 32% and watched above 45% like the other door reels; 'Tag your Shruti' with invite rules every group has should get 3+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Invite pe chaar rule the!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Toda toh entry nahi!",
+          "beat": "hook"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Aa gayi! Ekdum time pe!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Rule ek: chaar baje sharp.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Abhi paune paanch! Bahar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Avika",
+          "line": "Traffic tha yaar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Gift laayi! Bilkul naya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Rule do: naya gift. Dekhun?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Is pe mera naam hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haaw! Aapne hi diya tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haan, live hoon! Ghar dekho!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Rule teen: phone band! Bahar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Achha, samose toh lo!",
+          "beat": "turn"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Namak kam hai.",
+          "beat": "turn"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Rule chaar! Khaane ki buraai!",
+          "beat": "turn"
+        },
+        {
+          "shot": 16,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Rule paanch: host pe rule nahi!",
+          "beat": "button"
+        },
+        {
+          "shot": 17,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Haaw!",
+          "beat": "button"
+        }
+      ],
+      "duration": 35.22,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 4,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Last 4 gang reels: countdown (KG-2026-11-23-b), map-journey (23-a, 22-b), types-of (22-a), so door-arrivals (our winner, last used 11-20-b) fits every 2nd reel. Lead is Shruti (last reel led by Tanya); she is the rules-and-hisaab friend, so an invite rulebook is in character. Rules are ones real groups write on invites (time, new gift, no phones, no food complaints), per the learning that door reels need a real rule. Every guest claims first, then drops: Avika proud of being on time at 4:45, Myra proud of a 'naya' gift that carries Shruti's own name tag from last year (ordinary, ordinary), Ruhi live on a video call showing the house (absurd). Twist is see-it and heard: the silent pause, 'Namak kam hai', and the three guests in one shot reading rule 4. Endings tried: guests lock Shruti out (repeats 11-20-b), Shruti charges herself a Rs 10 fine (cute, weaker), Shruti invents rule 5 on the spot (kept, every host does this). One line per shot, max 8 words, hold 0.1, silenceBefore line alone in its shot with no ellipsis, about 75 words at pace 28, about 27 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-24-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-24-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-24-a-board.jpg",
+      "queue_id": "d1515c9d-d255-46c1-a501-d73dd70355cd",
+      "scheduled_ist": "2026-12-05 19:02",
+      "yt_id": "ZYi80935ahY",
+      "yt_url": "https://youtube.com/shorts/ZYi80935ahY",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
