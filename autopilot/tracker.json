@@ -14918,6 +14918,37 @@
       "yt_id": "07hl0uWnPug",
       "yt_url": "https://youtube.com/shorts/07hl0uWnPug",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-25",
+      "created": "2026-11-25",
+      "title": "Sangeet ka dance show!",
+      "format": "Theme Housie",
+      "theme": "sangeetnight",
+      "story": "ai",
+      "variant": "dance-reality-show",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya judges a TV style dance show at the sangeet while the gang plays: Tina does a limited edition thumka, Megha dances only to burn calories, Myra asks when the steps were taught, then 47 is called and Avika, who just arrived and danced nothing, wins the Dance Floor group.",
+      "beats": "hook: sangeet ka dance show shuru / contestant 1/3: Tina's limited edition thumka / contestant 2/3: Megha burns calories / contestant 3/3: Myra never learnt the steps / the call on the game / reveal: Dance Floor group is Avika's / turn: Tanya, tum toh abhi aayi / button: Avika, traffic mein practice ki",
+      "experiment": {
+        "format": "dance-reality-show",
+        "hook": "Tanya as a TV dance show judge clapping on the Sangeet Night home art, heartbeat and tabla at 0 s, mascot ball spinning above, chip 'SANGEET KA DANCE SHOW: LIVE!' pinned from the first frame, she says 'Sangeet ka dance show, shuru!'",
+        "variable": "repeat test of the 11-23 winner (cooking-show: 47.6% skip, 26% watched, best middle ever) with a different known TV voice, the dance reality show judge, at the same short length (about 15 s, 8 shots, 'CONTESTANT x/3' chips), to see if 'known TV show plus short cut' is the recipe and not the recipe show itself",
+        "hypothesis": "if a TV format viewers know by heart plus a 15 s cut is what holds people, a judge on a sangeet night in peak wedding season repeats it: skip under 50% (best 45.2), watched % above 24 (best 26), at least 1 share or tag from 'jo sangeet mein sabse pehle naachti hai'"
+      },
+      "duration": 26.7,
+      "lufs": null,
+      "caption": "Naache sab, Dance Floor jeeta kisne? Sangeet wali saheli ko tag karo! Aaj ki Sangeet Night Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #sangeet #sangeetnight #shaadiseason #weddingdance",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-25.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-25-cover.jpg",
+      "job_id": "db8111e1-13ae-4496-b6ba-dae5bddb862f",
+      "permalink": "https://www.instagram.com/reel/DgIpKaZJWt2/",
+      "media_id": "18045913139841781",
+      "yt_id": "vR4yDs9shqY",
+      "yt_url": "https://youtube.com/shorts/vR4yDs9shqY",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
