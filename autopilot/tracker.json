@@ -16808,7 +16808,7 @@
       "format": "Sitcom draw (25-30 s, one plea per beat, small text zoom on the name); caption 'Shaadi season mein kitty kisko lagni chahiye? Comment your reason!'",
       "source": "Trend: Kitty Party Stories series hits twice (35.5k views, 357 shares) + Small text zoom + shaadi dates 1-6 Dec",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-22",
@@ -16934,7 +16934,7 @@
       "format": "Carousel: rules slide, ingredients slide, ad twist slide, scoring. 8-20 ladies, 15-20 min, no stove or knives.",
       "source": "Trend: My latest flops carousel (SocialBee)",
       "score": 7,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-24",
@@ -16943,6 +16943,60 @@
       "format": "Carousel: rules slide, what counts as a win slide, Jhooth twist slide, scoring. 8-20 ladies, 10-15 min.",
       "source": "Trend: Achievement cake for a quiet year (Daily Dot)",
       "score": 7,
+      "used": "dropped"
+    },
+    {
+      "added": "2026-11-25",
+      "type": "reel",
+      "idea": "Hook: Housie paused, Shruti opens the hisaab register for the last kitty of 2026: \"Saal ka hisaab! Rule: jo react karegi, Rs 50 fine!\" chip 'FINE: Rs 0'. Context: each line is about one lady (Ruhi: 'late fine Rs 1,100', Myra: '4 kitty miss', Tanya: 'udhaar Rs 2,000') and each keeps a dead straight face while the chip stays at zero. Ending: Shruti reads her own line, 'hisaab mein Rs 300 kam, Shruti', gasps, and all three point at her as the chip jumps to Rs 50.",
+      "format": "Sitcom duel with a fine chip (25-28 s), max 3 per shot, one hisaab line per shot, the rule-maker breaks her own rule; caption 'Aapki kitty mein sabse pehle kaun react karti hai? Tag her!'",
+      "source": "Trend: First to react loses (Virlo, week to 23 Nov) + door-arrivals lesson: host breaks her own rule",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-25",
+      "type": "reel",
+      "idea": "Hook: Tanya holds up a plum cake in a Santa cap: \"Christmas kitty, 4 type!\" chip 'TYPE 1/4'. Context: type 1, Ruhi in a red saree and a Santa cap with full shaadi jewellery; type 2, Myra calling the bakery cake 'ghar ka bana'; type 3, Shruti asking 'Hum Christmas manate hain kya?' while taking the biggest slice. Ending: type 4 is the host, Tanya, whose 'Christmas tree' is the money plant with fairy lights and the kitty envelopes as gifts.",
+      "format": "Types-of (about 27 s), dressed living room with the money plant tree, chip TYPE x/4, host as the 4th type; caption 'Aap kaunsi type ho? Comment 1, 2, 3 ya 4!'",
+      "source": "Trend: Christmas audio and nostalgia back in the charts (SocialPilot 17-25 Nov) + our best saves reel 'Sardi ki kitty, 4 type!' (5 saves)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-25",
+      "type": "reel",
+      "idea": "Hook: last kitty of the year, Housie running, Tanya taps her glass: \"Saal khatam! Har number pe ek thank you, phir ticket katega!\" chip 'THANK YOU: 0/3'. Context: each thank you is a loving dig: Ruhi thanks Myra for always being late 'kyunki tab tak gossip ho jaati hai', Myra thanks Shruti for the hisaab 'jo kabhi match nahi hua', Shruti thanks Tanya for 12 themes 'jinmein sirf aap dress hui'. Ending: Tanya, near tears, thanks them all for coming every month, a quiet beat, then: \"...aur 2027 ka paisa advance mein!\" and everyone groans.",
+      "format": "Sitcom with a counting chip (25-28 s), one thank you per shot, max 3 per shot, small text zoom on 'advance'; caption 'Apni kitty gang ko ek thank you, ek line mein! Tag them.'",
+      "source": "Trend: Year-end gratitude montage (New Engen, November 2026)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-25",
+      "type": "game",
+      "idea": "Reaction mat do: ladies pair up face to face on chairs; one reads a chit aloud in a saas or husband voice (\"Beta, kal 20 log khane pe aa rahe hain\", \"Maine tumhara phone pe naya password rakh diya\") and the other must keep a dead straight face for 10 seconds. First to smile, blink hard or speak loses; winners pair up again until one poker face is left. Crazy twist: in the final the host reads each finalist's real kitty hisaab line ('Tumhara Rs 500 pending hai') and the first to react pays it.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Kitty party game: pehle react kiya toh haari!' with two ladies staring each other down, sample chits, rules, the Hisaab twist, the winner; 8-20 ladies, chits and a bowl, 10-15 min; comment ask 'Aapki kitty mein sabse acchi poker face kiski hai?'",
+      "source": "Trend: First to react loses (Virlo, week to 23 Nov)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-25",
+      "type": "game",
+      "idea": "Aankh band, taali bajao: everyone sits on a chair with a dupatta tied over the eyes and sings 'Agar tum khush ho, taali bajao'; the host calls a new action each verse (chutki, thumka from the chair, naak pakdo, bindi chhuo, haath upar) and then starts calling two at once. Anyone caught doing the wrong action by the two judges without blindfolds is out and becomes a judge. Crazy twist: in the last verse the host silently swaps the order of the actions and films the room, and the reveal of the video is the prize ceremony.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Blindfold kitty game: aankh band, taali bajao!' with a row of blindfolded ladies clapping out of sync, what you need, the action list, rules, the Video twist; seated so it is safe, 8-20 ladies, dupattas, 10 min; comment ask 'Aap kitne verse tak tikogi?'",
+      "source": "Trend: Blindfold action song challenge (Virlo, week to 23 Nov)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-25",
+      "type": "game",
+      "idea": "Shukriya kisne bola?: every lady writes one anonymous thank-you about a 2026 kitty moment to someone in the room (\"Thank you, us din tumne mera ticket kaat diya jab main phone pe thi\") and folds it into a bowl; the host reads each one and the room guesses both who wrote it and who it is for, 1 point per right guess. Crazy twist: for the last 3 chits the receiver must answer with an 'ulta shukriya', a thank-you that is secretly a complaint, and the room votes on the best one.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Last kitty of 2026 game: shukriya kisne bola?' with a lady reading a chit and the room pointing, sample chits, scoring, the Ulta shukriya twist, the winner; 8-20 ladies, paper and pens, 15-20 min; comment ask 'Aap apni kitty mein sabse pehle kisko thank you bologi?'",
+      "source": "Trend: Year-end gratitude montage (New Engen, November 2026)",
+      "score": 8,
       "used": ""
     }
   ],
@@ -18341,6 +18395,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-25",
+      "pattern": "First to react loses challenge",
+      "source": "Virlo: Instagram trends this week (to 23 Nov 2026), top Reels trend 'First to react loses'",
+      "likes": null,
+      "comments": null,
+      "link": "https://virlo.ai/instagram-trends",
+      "learn": "A straight-face duel where the first flinch loses is the top challenge this week; the kitty version is keeping a poker face while the year's hisaab or a saas line is read out, and the rule-maker flinching first."
+    },
+    {
+      "date": "2026-11-25",
+      "pattern": "Blindfold action song challenge",
+      "source": "Virlo: 'Blindfold If You're Happy and You Know It' challenge, week to 23 Nov 2026",
+      "likes": null,
+      "comments": null,
+      "link": "https://virlo.ai/instagram-trends",
+      "learn": "A group doing a simple action song with eyes covered, then the reveal of how out of sync they were, is the visual; the kitty version is a seated blindfold taali round with a host who keeps changing the action."
+    },
+    {
+      "date": "2026-11-25",
+      "pattern": "Christmas audio and nostalgia back in the top charts",
+      "source": "SocialPilot: Instagram Reels trending audio 17-25 Nov 2026 ('Last Christmas' at no. 2); CreatorDB: trending audio week of 18 Nov",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.socialpilot.co/blog/instagram-reels-trends",
+      "learn": "The Christmas mood starts in late November, so drafts posting about 5 Dec can lead with a Christmas kitty (20 days away, +2) in our best shape, a types-of about the season."
+    },
+    {
+      "date": "2026-11-25",
+      "pattern": "Stop the Wedding! audio: shaadi fatigue",
+      "source": "CreatorDB: Trending Instagram audio this week (18 Nov 2026), 'Stop the Wedding!' at no. 2",
+      "likes": null,
+      "comments": null,
+      "link": "https://creatordb.app/free-tools/trending-instagram-audio/",
+      "learn": "Being tired of the wedding run is a shared mood at its peak in late Nov and early Dec; the kitty version is the gang worn out by shaadis and wanting their kitty back, tied to Kharmas from 16 Dec."
+    },
+    {
+      "date": "2026-11-25",
+      "pattern": "Year-end gratitude montage",
+      "source": "New Engen: Instagram trends November 2026, gratitude montage reels on 'Coming Up Roses'",
+      "likes": null,
+      "comments": null,
+      "link": "https://newengen.com/insights/instagram-trends/",
+      "learn": "Short thank-you beats over a year of clips are the year-end mood; the kitty version is the last-kitty thank-you round where every thank you is a loving dig, one per beat."
+    },
     {
       "date": "2026-11-24",
       "pattern": "Festival window: Utpanna Ekadashi 4 Dec + Vinayaka Chaturthi 13 Dec + Vivah Panchami 14 Dec + Champa Shashti 15 Dec + Dhanurmasam and Kharmas 16 Dec + Vaikuntha Ekadashi 20 Dec + Datta Jayanti 23 Dec + Christmas 25 Dec",
