@@ -15145,6 +15145,259 @@
       "yt_id": "jJ1TgOL1u2k",
       "yt_url": "https://youtube.com/shorts/jJ1TgOL1u2k",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-25-b",
+      "created": "2026-11-25",
+      "title": "Mehendi lagi hai, Myra karo!",
+      "format": "Meme-format: the shaadi season 'mehendi lagi hai' helplessness meme played at a Housie kitty the day after a sangeet, a chore-count chip that climbs every shot, Myra as the one free pair of hands",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Myra",
+        "Ruhi",
+        "Shruti"
+      ],
+      "caption": "Har shaadi season mein ek Myra hoti hai jiske haath kabhi mehendi wale nahi hote. Tag your Myra!",
+      "status": "queued",
+      "idea": "The day after a sangeet, Tanya, Ruhi and Shruti play Housie with wet mehendi on both hands, so new girl Myra cuts all three tickets, feeds them samosa and scratches a nose with the dabber; Ruhi wins Full House on the ticket Myra cut, can't hold the prize, and Myra keeps it in her bag till the mehendi dries.",
+      "beats": "hook: Ruko! Haath mat lagana! Mehendi geeli hai / setup: Myra cuts all three tickets, khelungi agli kitty mein / esc: three shout saat at once (wrong one cut), samosa with chutney, nose scratched with the dabber / twist: Myra's Full House is Ruhi's ticket, Ruhi can't hold the prize / button: Myra throws the opening line back and keeps the prize in her bag",
+      "experiment": {
+        "type": "meme-format",
+        "hook": "Housie cage spinning, Tanya and Ruhi throw their palms up at Myra reaching for a ticket: 'Ruko! Haath mat lagana!' / 'Mehendi geeli hai!', chip GEELI MEHENDI: 3",
+        "variable": "a shaadi season meme every Indian woman knows (wet mehendi, someone else does everything) played as a kitty scene, with a chore counter chip that climbs every shot and a button that throws the opening line back",
+        "hypothesis": "a meme viewers already know reads in 2 s, so skip under 35% and watched over 40% at about 27 s; the 'Tag your Myra' caption naming the friend who does all the work gets 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ruko! Haath mat lagana!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mehendi geeli hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Toh ticket kaun kaatega?",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Tum! Teeno ke!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Teeno?! Main kab khelungi?",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Agli kitty mein.",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Saat! Mera kaato!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mera bhi saat!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Mera pehle!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ho gaya! Teeno kat gaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera galat kaata.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Ek samosa! Mehendi lagi hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ab khilana bhi?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Chutney ke saath!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Mujhe bhi! Bina mirchi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Myra! Naak mein khujli!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Naak bhi?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Dabber se chalega?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haan haan, thoda left.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Full House! Full House!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ticket kiska hai?",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ruhi ka.",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera! Mera! Full House!",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Kaata maine.",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Prize pakdo! Mehendi lagi hai.",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Zaroor.",
+          "beat": "turn"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Ruko! Haath mat lagana!",
+          "beat": "button"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mehendi geeli hai na!",
+          "beat": "button"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Haaw!",
+          "beat": "button"
+        }
+      ],
+      "duration": 41.18,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 50,
+        "notes": "Real shaadi season kitty: the morning after a sangeet everyone turns up with wet mehendi, and the meme (somebody else must do everything) is known to every viewer. Myra is the playbook's 'stuck with the job' girl, so the game is in character. Chip counts her chores every shot so a muted viewer sees the stake climb. Escalation ordinary, ordinary, absurd (nose with a dabber). Claim before reveal on the twist: 'Full House! Full House!' then 'Ticket kiska hai?' / 'Ruhi ka.' The flip is a see-it prize envelope that goes into Myra's bag. Button repeats the opening line word for word with the opposite meaning, so the reel loops. Three endings tried: Ruhi simply wins (flat, Myra just loses), Myra gets her own mehendi done next kitty (needs a time jump), Myra keeps the prize till it dries (kept: kind revenge, loops). Rewrote once: first draft had Shruti as the helper and Myra with mehendi, but the playbook gives the stuck-with-the-job role to Myra. Shots stay at 2 lines and 8 words or fewer, no silenceBefore, no ellipses."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-25-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-25-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-25-b-board.jpg",
+      "queue_id": "01a1bee1-edd7-4277-89a5-5779e86b0d98",
+      "scheduled_ist": "2026-12-08 20:11",
+      "yt_id": "aHCVLphECu4",
+      "yt_url": "https://youtube.com/shorts/aHCVLphECu4",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
