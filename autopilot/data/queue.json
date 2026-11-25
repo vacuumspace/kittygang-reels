@@ -170,6 +170,23 @@
   "image_urls": null
  },
  {
+  "id": "4e91d1d6-065a-4134-996f-7e68526a363d",
+  "local_id": "KGI-036",
+  "title": "Kitty Game Ideas #36: Vrat Mein Chalega?",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s1.jpg",
+  "caption": "Sabudana chalega, chawal nahi... par chai? Ekadashi wali kitty mein yeh game khelo, baat jhagde tak jaayegi! Aapke ghar mein vrat mein chai chalti hai ya nahi?\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #vratmeinchalega #ekadashi",
+  "scheduled_for": 1795759020000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1795570590328,
+  "cover_url": null,
+  "kind": "carousel",
+  "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s9.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s10.jpg\"]"
+ },
+ {
   "id": "7d78b6b3-4d2c-4732-9b67-d56917c3a16e",
   "local_id": "KG-2026-11-17-a",
   "title": "Order kiya toh entry nahi!",
@@ -1001,22 +1018,5 @@
   "cover_url": null,
   "kind": "carousel",
   "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s9.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-012/s10.jpg\"]"
- },
- {
-  "id": "5bccbda8-8d7d-4822-a033-89201f9ce658",
-  "local_id": "KG-2026-10-28-a",
-  "title": "Dhanteras pe kuch nahi chahiye",
-  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-a.mp4",
-  "caption": "Humne kaha kuch nahi chahiye, unhone maan liya. Tag the wife who says 'kuch nahi chahiye' every Dhanteras.\n\n#kittyparty #dhanteras #kittygang #housie #ladieskitty #diwali #husbandwife",
-  "scheduled_for": 1793605380000,
-  "status": "published",
-  "job_id": "8214209d-ec9d-4aba-b1e1-85de2c937ca8",
-  "media_id": "18128434877298118",
-  "permalink": "https://www.instagram.com/reel/DfOzTBnDcNO/",
-  "error": null,
-  "created_at": 1793164397210,
-  "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-a-cover.jpg",
-  "kind": "reel",
-  "image_urls": null
  }
 ]
