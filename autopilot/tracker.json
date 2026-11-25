@@ -14962,6 +14962,189 @@
       "yt_id": "vR4yDs9shqY",
       "yt_url": "https://youtube.com/shorts/vR4yDs9shqY",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-25-a",
+      "created": "2026-11-25",
+      "title": "Christmas kitty, 4 type!",
+      "format": "Types-of: Tanya the host counts the 4 types of Christmas kitty aunty, a TYPE x/4 chip that moves every shot, dressed living room with a cake and fairy lights",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Myra",
+        "Shruti"
+      ],
+      "caption": "Har Christmas kitty mein yeh 4 type pakka aati hain. Aap kaunsi type ho? Comment 1, 2, 3 ya 4! Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya lists the types at her Christmas kitty (Ruhi in shaadi jewellery with a Santa look, Myra's bakery cake 'made at home', Shruti's exact Rs 100 Secret Santa and biggest slice), then the gang names type 4: the host whose Christmas tree is the money plant with the kitty envelopes as gifts.",
+      "beats": "hook: Christmas kitty mein chaar type / esc: Ruhi shaadi wali Santa (topi Santa ki, haar shaadi ka), Myra ghar ka cake (dabba bhi khud banaya), Shruti sau rupaye Secret Santa (sabse bada piece free tha) / twist: type 4 is the host, money plant tree with kitty envelopes as gifts / button: the gang throws the opening back, chaar type chauthi tum, Tanya: money plant hai, paisa toh ugega",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Tanya hops by the Christmas cake under a CHRISTMAS KITTY banner: 'Christmas kitty mein chaar type!' and Ruhi in red gasps 'Haaw! Kaun kaun?', chip TYPE 0/4",
+        "variable": "a festival-tied types-of (Christmas) where the narrator-host is the last type, after the season-tied winter types-of got our most saves (5)",
+        "hypothesis": "skip under 32% and 5+ saves (a festival every viewer is planning a kitty for, 4 types to compare), 2+ shares from 'Comment 1, 2, 3 ya 4' plus 'Tag your Tanya'"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Christmas kitty mein chaar type!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw! Kaun kaun?",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Type ek: shaadi wali Santa!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Red theme thi na!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Topi Santa ki, haar shaadi ka!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Type do: ghar ka cake!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Haan! Khud banaya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dabbe pe bakery ka naam?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Dabba bhi khud banaya!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Type teen: sau rupaye Secret Santa!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Exact sau!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur cake ka sabse bada piece?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Woh free tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur type chaar...",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Ruko! Hum batayenge!",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Tree? Yeh toh money plant hai!",
+          "beat": "twist"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Aur gift? Humara kitty ka paisa!",
+          "beat": "twist"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Chaar type! Chauthi tum!",
+          "beat": "button"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Money plant hai, paisa toh ugega!",
+          "beat": "button"
+        }
+      ],
+      "duration": 32.48,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Types-of winter got our most saves; this ties the same shape to Christmas. 12 shots, about 78 words, every two-line shot 8 words or fewer with hold 0.1, pace 30, Shruti at rate +0%, one silenceBefore alone in the last shot, no ellipsis on a silenceBefore line. Flow: instant replies with gap 0.03-0.04, claim before reveal on every type (Red theme thi na! then topi Santa ki, haar shaadi ka; Khud banaya! then dabba bhi; Exact sau! then woh free tha). Shruti's beat is about her budget, not about who celebrates Christmas, to stay kind. Twist is see-it (the money plant and envelopes pop in), the narrator becomes the type; the chorus throws her opening 'chaar type' back at her. Endings tried: Tanya admits 'Haan, main type chaar' (no laugh), Myra asks 'Main kaunsi?' and gets a jhaadu (side joke, 5th character beat), kept the money plant pun."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-25-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-25-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-25-a-board.jpg",
+      "queue_id": "f80d7e0f-6992-48a7-8a0f-73b1441a84c7",
+      "scheduled_ist": "2026-12-07 20:48",
+      "yt_id": "jJ1TgOL1u2k",
+      "yt_url": "https://youtube.com/shorts/jJ1TgOL1u2k",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
