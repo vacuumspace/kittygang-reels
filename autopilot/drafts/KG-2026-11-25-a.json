@@ -1,0 +1,947 @@
+{
+  "id": "KG-2026-11-25-a",
+  "title": "Christmas kitty, 4 type!",
+  "format": "Types-of: Tanya the host counts the 4 types of Christmas kitty aunty, a TYPE x/4 chip that moves every shot, dressed living room with a cake and fairy lights",
+  "idea": "Tanya lists the types at her Christmas kitty (Ruhi in shaadi jewellery with a Santa look, Myra's bakery cake 'made at home', Shruti's exact Rs 100 Secret Santa and biggest slice), then the gang names type 4: the host whose Christmas tree is the money plant with the kitty envelopes as gifts.",
+  "logline": "Tanya counts the 4 types of aunty at her Christmas kitty, and the gang shows type 4 is Tanya herself, with a money plant for a tree.",
+  "game": "each type proudly claims her Christmas effort and the catch drops right after: shaadi jewellery with a Santa cap, a cake 'home made' down to the bakery box, a Rs 100 gift with the biggest free slice, until the host who is counting becomes type 4",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Tanya hops by the Christmas cake under a CHRISTMAS KITTY banner: 'Christmas kitty mein chaar type!' and Ruhi in red gasps 'Haaw! Kaun kaun?', chip TYPE 0/4",
+    "variable": "a festival-tied types-of (Christmas) where the narrator-host is the last type, after the season-tied winter types-of got our most saves (5)",
+    "hypothesis": "skip under 32% and 5+ saves (a festival every viewer is planning a kitty for, 4 types to compare), 2+ shares from 'Comment 1, 2, 3 ya 4' plus 'Tag your Tanya'"
+  },
+  "mute": [
+    "Christmas kitty banner, cake, fairy lights, Tanya counting, chip TYPE 0/4: we will see 4 types",
+    "chip TYPE 1/4 SHAADI WALI SANTA, Ruhi in red with bangles, proud",
+    "Ruhi twirls with a jewellery box: shaadi jewellery at a Christmas kitty",
+    "chip TYPE 2/4 GHAR KA CAKE, Myra waves, proud of her cake",
+    "bakery shopping bag pops in, Myra sweats: the cake is from a bakery",
+    "chip TYPE 3/4 SAU RUPAYE SANTA, Shruti with a calculator and a tiny gift",
+    "a huge cake slice pops in next to Shruti: cheap gift, biggest slice",
+    "chip TYPE 4/4 ?, Tanya starts, Ruhi stops her",
+    "money plant with fairy lights pops in, chip JUGAAD TREE, Tanya sweats",
+    "kitty envelopes under the plant as gifts, chip HOST",
+    "three friends point together, chip TYPE 4/4 TANYA",
+    "Tanya alone by the plant, smirking, chip TANYA: she owns it"
+  ],
+  "beats": "hook: Christmas kitty mein chaar type / esc: Ruhi shaadi wali Santa (topi Santa ki, haar shaadi ka), Myra ghar ka cake (dabba bhi khud banaya), Shruti sau rupaye Secret Santa (sabse bada piece free tha) / twist: type 4 is the host, money plant tree with kitty envelopes as gifts / button: the gang throws the opening back, chaar type chauthi tum, Tanya: money plant hai, paisa toh ugega",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Types-of winter got our most saves; this ties the same shape to Christmas. 12 shots, about 78 words, every two-line shot 8 words or fewer with hold 0.1, pace 30, Shruti at rate +0%, one silenceBefore alone in the last shot, no ellipsis on a silenceBefore line. Flow: instant replies with gap 0.03-0.04, claim before reveal on every type (Red theme thi na! then topi Santa ki, haar shaadi ka; Khud banaya! then dabba bhi; Exact sau! then woh free tha). Shruti's beat is about her budget, not about who celebrates Christmas, to stay kind. Twist is see-it (the money plant and envelopes pop in), the narrator becomes the type; the chorus throws her opening 'chaar type' back at her. Endings tried: Tanya admits 'Haan, main type chaar' (no laugh), Myra asks 'Main kaunsi?' and gets a jhaadu (side joke, 5th character beat), kept the money plant pun."
+  },
+  "cover": {
+    "shot": 8,
+    "at": 1,
+    "title": [
+      "Christmas kitty",
+      "4 type ki aunty!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har Christmas kitty mein yeh 4 type pakka aati hain. Aap kaunsi type ho? Comment 1, 2, 3 ya 4! Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#christmaskitty",
+    "#kittypartyfun",
+    "#christmas2026",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "pace": 30,
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 0/4",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "phone2",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "side",
+          "main": "#C8283C",
+          "mainSh": "#9E1E2E"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Gift box",
+          "x": 170,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "chimes",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 300,
+          "y": 880,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Christmas kitty mein chaar type!",
+          "say": "क्रिसमस किटी में चार टाइप!",
+          "beat": "hook"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw! Kaun kaun?",
+          "say": "हाव! कौन कौन?",
+          "gap": 0.04,
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 1/4: SHAADI WALI SANTA",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk"
+        },
+        {
+          "name": "Ruhi",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "hips",
+          "turn": -0.5,
+          "mouth": "smile",
+          "main": "#C8283C",
+          "mainSh": "#9E1E2E"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Bangles stack",
+          "x": 860,
+          "y": 1460,
+          "s": 0.9,
+          "at": 0.4
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Type ek: shaadi wali Santa!",
+          "say": "टाइप एक: शादी वाली सांता!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Red theme thi na!",
+          "say": "रेड थीम थी ना!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 1/4: SHAADI WALI SANTA",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "twirl",
+          "turn": 0,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "twirl": true,
+          "main": "#C8283C",
+          "mainSh": "#9E1E2E"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Jewellery box",
+          "x": 200,
+          "y": 1890,
+          "s": 1,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 640,
+          "y": 860,
+          "at": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Topi Santa ki, haar shaadi ka!",
+          "say": "टोपी सांता की, हार शादी का!",
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 2/4: GHAR KA CAKE",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile",
+          "eyes": "side"
+        },
+        {
+          "name": "Myra",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Type do: ghar ka cake!",
+          "say": "टाइप दो: घर का केक!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Haan! Khud banaya!",
+          "say": "हाँ! ख़ुद बनाया!",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 2/4: GHAR KA CAKE",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "hips",
+          "turn": 0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Shopping bags",
+          "x": 820,
+          "y": 1890,
+          "s": 1,
+          "at": 0.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 300,
+          "y": 880,
+          "at": 0.4
+        },
+        {
+          "kind": "sweat",
+          "x": 820,
+          "y": 900,
+          "at": 1.2
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Dabbe pe bakery ka naam?",
+          "say": "डब्बे पे बेकरी का नाम?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Dabba bhi khud banaya!",
+          "say": "डब्बा भी ख़ुद बनाया!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 3/4: SAU RUPAYE SANTA",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Gift box",
+          "x": 880,
+          "y": 1890,
+          "s": 0.7,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        },
+        {
+          "at": 1.6,
+          "name": "calc",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Type teen: sau rupaye Secret Santa!",
+          "say": "टाइप तीन: सौ रुपये सीक्रेट सांता!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Exact sau!",
+          "say": "एग्ज़ैक्ट सौ!",
+          "rate": "+0%",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 3/4: SAU RUPAYE SANTA",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "cup",
+          "turn": -0.5,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        },
+        {
+          "name": "Cake slice",
+          "x": 820,
+          "y": 1500,
+          "s": 1.4,
+          "at": 0.3
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 300,
+          "y": 880,
+          "at": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Aur cake ka sabse bada piece?",
+          "say": "और केक का सबसे बड़ा पीस?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Woh free tha!",
+          "say": "वो फ़्री था!",
+          "rate": "+0%",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 4/4: ?",
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk",
+          "eyes": "side",
+          "main": "#C8283C",
+          "mainSh": "#9E1E2E"
+        },
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.3,
+          "mouth": "smile"
+        },
+        {
+          "name": "Myra",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "scratch",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Aur type chaar...",
+          "say": "और टाइप चार",
+          "beat": "turn"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Ruko! Hum batayenge!",
+          "say": "रुको! हम बताएँगे!",
+          "gap": 0.03,
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 4/4: JUGAAD TREE",
+      "camera": "punch",
+      "music": false,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.6,
+          "mouth": "o"
+        },
+        {
+          "name": "Tanya",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.4,
+          "mouth": "flat",
+          "eyes": "side"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Indoor plant",
+          "x": 540,
+          "y": 1560,
+          "s": 1.6,
+          "at": 0.1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 540,
+          "y": 1250,
+          "s": 1.2,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "riser",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 820,
+          "y": 900,
+          "at": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Tree? Yeh toh money plant hai!",
+          "say": "ट्री? ये तो मनी प्लांट है!",
+          "punch": true,
+          "beat": "twist"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 4/4: HOST",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.6,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "main": "#C8283C",
+          "mainSh": "#9E1E2E"
+        },
+        {
+          "name": "Tanya",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.4,
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 540,
+          "y": 1560,
+          "s": 1.6
+        },
+        {
+          "name": "Fairy lights",
+          "x": 540,
+          "y": 1250,
+          "s": 1.2
+        },
+        {
+          "name": "Prize envelope",
+          "x": 470,
+          "y": 1890,
+          "s": 1,
+          "at": 0.4
+        },
+        {
+          "name": "Prize envelope",
+          "x": 610,
+          "y": 1890,
+          "s": 1,
+          "at": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Aur gift? Humara kitty ka paisa!",
+          "say": "और गिफ़्ट? हमारा किटी का पैसा!",
+          "punch": true,
+          "beat": "twist"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "TYPE 4/4: TANYA",
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "main": "#C8283C",
+          "mainSh": "#9E1E2E"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        }
+      ],
+      "props": [
+        {
+          "name": "Celebration cake",
+          "x": 540,
+          "y": 1890,
+          "s": 1
+        },
+        {
+          "name": "Fairy lights",
+          "x": 900,
+          "y": 1300,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.6,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Chaar type! Chauthi tum!",
+          "say": "चार टाइप! चौथी तुम!",
+          "beat": "button"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "CHRISTMAS KITTY",
+      "chipY": 600,
+      "hold": 0.4,
+      "chip": "TYPE 4/4: TANYA",
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "laughs",
+          "turn": 0,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "props": [
+        {
+          "name": "Indoor plant",
+          "x": 880,
+          "y": 1560,
+          "s": 1.4
+        },
+        {
+          "name": "Fairy lights",
+          "x": 880,
+          "y": 1250,
+          "s": 1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 880,
+          "y": 1890,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Money plant hai, paisa toh ugega!",
+          "say": "मनी प्लांट है, पैसा तो उगेगा!",
+          "silenceBefore": true,
+          "punch": true,
+          "beat": "button"
+        }
+      ]
+    }
+  ]
+}
