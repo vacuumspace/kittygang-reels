@@ -1,0 +1,741 @@
+{
+  "id": "KGI-036",
+  "n": 36,
+  "slug": "vrat-mein-chalega-ekadashi-fasting-food-kitty-party-game",
+  "game": "Vrat Mein Chalega?",
+  "tagline": "Chalega? Khade! Nahi? Baitho!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M40 350 L1040 350\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(110 350) scale(0.85)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 110,
+      "y": 120.5,
+      "s": 0.85,
+      "color": "pink"
+    },
+    {
+      "k": "arrow",
+      "x1": 200,
+      "y1": 250,
+      "x2": 200,
+      "y2": 90,
+      "color": "white",
+      "w": 9
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(320 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(320 350) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 320,
+      "y": 197,
+      "s": 0.85,
+      "color": "yel"
+    },
+    {
+      "k": "arrow",
+      "x1": 440,
+      "y1": 90,
+      "x2": 440,
+      "y2": 250,
+      "color": "white",
+      "w": 9
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(560 350) scale(0.85)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 560,
+      "y": 120.5,
+      "s": 0.85,
+      "color": "green"
+    },
+    {
+      "k": "person",
+      "x": 840,
+      "y": 230,
+      "s": 1.1,
+      "color": "blue"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"650\" y=\"15\" width=\"300\" height=\"90\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M818 103 L802 141 L848 103 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"820\" y=\"97\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"800\" y=\"74.7\" font-size=\"42\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Sabudana?</text>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(1000 280) scale(0.6)\"><path d=\"M-60 -80 L60 -80 L70 80 L-70 80 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-60 -80 L60 -80 L56 -60 L-56 -60 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><circle cx=\"-22\" cy=\"10\" r=\"16\" fill=\"#FFF8EC\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><circle cx=\"18\" cy=\"0\" r=\"16\" fill=\"#FFF8EC\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><circle cx=\"0\" cy=\"34\" r=\"16\" fill=\"#FFF8EC\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"0\" y=\"66\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">MAKHANA</text></g>"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 3 cheezein",
+    "body": "Koi khaana nahi, sirf naam bolne hain.",
+    "items": [
+      {
+        "label": "Kursi",
+        "sub": "har lady ki ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 215) scale(0.68)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Host ki list",
+        "sub": "12 khaane ke naam",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 112) scale(0.85)\"><rect x=\"-90\" y=\"-120\" width=\"180\" height=\"240\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"-70\" y=\"-80\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Sabudana</text><text x=\"-70\" y=\"-42\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Kuttu</text><text x=\"-70\" y=\"-4\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chawal</text><text x=\"-70\" y=\"34\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Makhana</text><text x=\"-70\" y=\"72\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Maggi</text></g>"
+          }
+        ]
+      },
+      {
+        "label": "Makhana packet",
+        "sub": "winner ka prize",
+        "draw": [
+          {
+            "k": "text",
+            "x": 10,
+            "y": 10,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 112) scale(1.15)\"><path d=\"M-60 -80 L60 -80 L70 80 L-70 80 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-60 -80 L60 -80 L56 -60 L-56 -60 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><circle cx=\"-22\" cy=\"10\" r=\"16\" fill=\"#FFF8EC\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><circle cx=\"18\" cy=\"0\" r=\"16\" fill=\"#FFF8EC\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><circle cx=\"0\" cy=\"34\" r=\"16\" fill=\"#FFF8EC\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><text x=\"0\" y=\"66\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">MAKHANA</text></g>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Sab apni kursi ke aage khade",
+      "body": "Host saamne. Baaki sab ladies khadi, kursi peeche.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(380 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(320 640) scale(1)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 320,
+          "y": 370,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(620 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(560 640) scale(1)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 560,
+          "y": 370,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 360,
+          "s": 1.4,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(860 340) scale(0.9)\"><rect x=\"-90\" y=\"-120\" width=\"180\" height=\"240\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"-70\" y=\"-80\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Sabudana</text><text x=\"-70\" y=\"-42\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Kuttu</text><text x=\"-70\" y=\"-4\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chawal</text><text x=\"-70\" y=\"34\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Makhana</text><text x=\"-70\" y=\"72\" font-size=\"26\" font-weight=\"700\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Maggi</text></g>"
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 90,
+          "text": "Ready?",
+          "size": 48,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Host ek khaana bolegi",
+      "body": "Jaise \"Sabudana!\" Vrat mein chalega ya nahi, 3 second mein socho.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 180,
+          "y": 400,
+          "s": 1.5,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"100\" y=\"85\" width=\"320\" height=\"90\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M208 173 L192 211 L238 173 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"210\" y=\"167\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"260\" y=\"146.8\" font-size=\"48\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Sabudana!</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(600 640) scale(1)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 600,
+          "y": 370,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(800 640) scale(1)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 800,
+          "y": 370,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "timer",
+          "x": 830,
+          "y": 150,
+          "s": 0.6,
+          "text": "3"
+        },
+        {
+          "k": "text",
+          "x": 700,
+          "y": 110,
+          "text": "?",
+          "size": 90,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Chalega? Khade. Nahi? Baitho!",
+      "body": "Chalega toh khadi raho. Nahi chalega toh turant kursi pe baitho.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1.1)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 343,
+          "s": 1.1,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 120,
+          "y1": 420,
+          "x2": 120,
+          "y2": 150,
+          "color": "green",
+          "w": 10
+        },
+        {
+          "k": "text",
+          "x": 260,
+          "y": 60,
+          "text": "Chalega",
+          "size": 52,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(680 640) scale(1.1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(680 640) scale(1.1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 680,
+          "y": 442,
+          "s": 1.1,
+          "color": "yel"
+        },
+        {
+          "k": "arrow",
+          "x1": 860,
+          "y1": 150,
+          "x2": 860,
+          "y2": 420,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "text",
+          "x": 700,
+          "y": 60,
+          "text": "Nahi chalega",
+          "size": 52,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Galat ya late? Out!",
+      "body": "Host sahi jawab bole. Galat ya 3 second ke baad hili toh bahar.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 130,
+          "y": 360,
+          "s": 1.3,
+          "color": "blue",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"50\" y=\"65\" width=\"300\" height=\"90\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M138 153 L122 191 L168 153 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"140\" y=\"147\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"200\" y=\"126.1\" font-size=\"46\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Chawal!</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(430 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(430 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 430,
+          "y": 460,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "tick",
+          "x": 430,
+          "y": 150,
+          "s": 0.9
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(650 640) scale(1)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 650,
+          "y": 370,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "cross",
+          "x": 650,
+          "y": 150,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 830,
+          "y": 380,
+          "text": "Out!",
+          "size": 60,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "\"Jhagda item\": chhota group out",
+      "body": "Chai, paneer jaise items ka sahi jawab nahi. Kam ladies wala side out!",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 70,
+          "text": "Chai?",
+          "size": 64,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(110 640) scale(0.85)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 110,
+          "y": 410.5,
+          "s": 0.85,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(250 640) scale(0.85)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 250,
+          "y": 410.5,
+          "s": 0.85,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(390 640) scale(0.85)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 390,
+          "y": 410.5,
+          "s": 0.85,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(610 640) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(610 640) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 610,
+          "y": 487,
+          "s": 0.85,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(810 640) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(810 640) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 810,
+          "y": 487,
+          "s": 0.85,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 250,
+          "y": 200,
+          "text": "3 khade",
+          "size": 42,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 710,
+          "y": 200,
+          "text": "2 baithe: out!",
+          "size": 42,
+          "color": "pink"
+        },
+        {
+          "k": "cross",
+          "x": 610,
+          "y": 290,
+          "s": 0.6
+        },
+        {
+          "k": "cross",
+          "x": 810,
+          "y": 290,
+          "s": 0.6
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Aakhri bachi lady jeetegi",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Galat jawab?",
+          "Seedha out, judge ban jao."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "3 second ke baad hili?",
+          "Late bhi out."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Jhagda item pe",
+          "chhota group out."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Aakhri lady bachi?",
+          "Makhana packet uska!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Host ulta bole: \"Chalega\" pe",
+        "baithna, \"Nahi\" pe khade!"
+      ],
+      [
+        "Out ladies judge bano, har",
+        "galti pe \"Vrat toot gaya!\" bolo."
+      ],
+      [
+        "Final mein 2 ladies: host",
+        "ek ke baad ek jaldi bole."
+      ]
+    ],
+    "tip": "Ghar ke rule alag? Host ki list hi final!"
+  },
+  "comment_hint": "chai chalegi?",
+  "caption": "Sabudana chalega, chawal nahi... par chai? Ekadashi wali kitty mein yeh game khelo, baat jhagde tak jaayegi! Aapke ghar mein vrat mein chai chalti hai ya nahi?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#vratmeinchalega",
+    "#ekadashi"
+  ],
+  "web": {
+    "title": "Vrat Mein Chalega?: Kitty Party Fasting Food Game Rules and Twists",
+    "description": "Vrat Mein Chalega? is a stand or sit kitty party game about fasting food. Rules, a 12 item call list, the disputed items twist, tips and FAQ for 8 to 20 ladies.",
+    "intro": "Vrat Mein Chalega? is a quick, no-props kitty party game where the host calls out a food and every lady decides in 3 seconds whether it is allowed in a vrat (fast): she stays standing for \"Chalega\" and sits down on her chair for \"Nahi chalega\". Anyone who gets it wrong or moves too late is out, and the last lady left in the game wins a packet of makhana. The crazy twist is the \"jhagda item\": for foods families always argue about, like chai or paneer, there is no right answer, so the smaller side of the room is out. It suits an Ekadashi week, a Navratri kitty or any day the ladies are already talking about fasting, and needs nothing but chairs.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One chair per lady, arranged in a row or a circle",
+      "A list of 12 to 15 foods for the host, with her answers marked",
+      "A phone timer or the host counting to 3",
+      "A packet of makhana (or any small prize) for the winner"
+    ],
+    "steps": [
+      "Before the game, the host writes her call list with answers. A good mix: Sabudana (chalega), Kuttu ki puri (chalega), Makhana (chalega), Aloo (chalega), Singhare ka atta (chalega), Moongfali (chalega), Samak ke chawal (chalega, a tricky one), Chawal (nahi), Gehun ki roti (nahi), Pyaaz (nahi), Saada namak (nahi) and Maggi (nahi).",
+      "She also marks 3 \"jhagda items\" that families argue about, such as Chai, Paneer and Sendha namak wale chips, and keeps them for later in the game.",
+      "Every lady stands in front of her own chair, facing the host.",
+      "The host calls one food loudly, for example \"Sabudana!\", and counts to 3.",
+      "By the count of 3, each lady must stay standing if she thinks the food is allowed in a vrat (Chalega), or sit down on her chair if it is not (Nahi chalega).",
+      "The host then announces the answer from her list. Anyone on the wrong side, and anyone who moved after the count of 3, is out and becomes a judge.",
+      "Everyone still in stands up again and the host calls the next food.",
+      "When the host calls a jhagda item, there is no right answer: she counts the standing and the sitting ladies, and the smaller group is out. If it is a tie, everyone stays in.",
+      "Keep calling until only one lady is left. She wins the makhana packet."
+    ],
+    "rules": [
+      "A wrong answer means you are out.",
+      "Moving, or changing your mind, after the count of 3 also means you are out.",
+      "On a jhagda item, the smaller group is out, whatever they believe at home.",
+      "The host's list is the final word, even if your family does it differently.",
+      "The last lady still in the game wins."
+    ],
+    "variations": [
+      "Ulta round: the host announces that \"Chalega\" now means sit and \"Nahi chalega\" means stand, and watches the room get confused.",
+      "Ladies who are out become judges and must shout \"Vrat toot gaya!\" every time someone gets caught.",
+      "In the final between two ladies, the host calls foods back to back with no pause until one of them slips."
+    ],
+    "tips": [
+      "Every family keeps a vrat a little differently, so say clearly at the start that the host's list decides, and use the jhagda items for the ones people argue about.",
+      "Mix easy and tricky foods: samak ke chawal and singhare ka atta catch many ladies out.",
+      "Keep the pace fast; the 3 second count is what makes the game funny.",
+      "No food is cooked or wasted, so the game works at any point in the kitty, even right after lunch.",
+      "Place the chairs with space between them so nobody bumps a neighbour while sitting down quickly."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Vrat Mein Chalega?",
+        "a": "It works for 8 to 20 ladies, all playing at once. With fewer ladies, play 2 or 3 short rounds."
+      },
+      {
+        "q": "What do you need to play Vrat Mein Chalega?",
+        "a": "Only one chair per lady, the host's list of foods with answers, and a small prize such as a makhana packet. No food is needed."
+      },
+      {
+        "q": "Which foods are allowed in a vrat for the game?",
+        "a": "Common \"chalega\" foods are sabudana, kuttu, singhare ka atta, samak ke chawal, aloo, makhana and moongfali. Common \"nahi chalega\" foods are rice, wheat, onion and regular salt. Families differ, so the host's list is final."
+      },
+      {
+        "q": "What is a jhagda item in this game?",
+        "a": "It is a food families argue about, like chai, paneer or sendha namak chips. There is no right answer, so the smaller group of ladies is out."
+      },
+      {
+        "q": "Is Vrat Mein Chalega a good game for an Ekadashi or Navratri kitty party?",
+        "a": "Yes. It fits any kitty near a fasting day, takes 10 to 15 minutes, needs no props and nobody has to eat anything, so even ladies who are fasting can play."
+      }
+    ]
+  }
+}
