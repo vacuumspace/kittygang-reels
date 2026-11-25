@@ -1,0 +1,1282 @@
+{
+  "id": "KG-2026-11-25-b",
+  "title": "Mehendi lagi hai, Myra karo!",
+  "format": "Meme-format: the shaadi season 'mehendi lagi hai' helplessness meme played at a Housie kitty the day after a sangeet, a chore-count chip that climbs every shot, Myra as the one free pair of hands",
+  "idea": "The day after a sangeet, Tanya, Ruhi and Shruti play Housie with wet mehendi on both hands, so new girl Myra cuts all three tickets, feeds them samosa and scratches a nose with the dabber; Ruhi wins Full House on the ticket Myra cut, can't hold the prize, and Myra keeps it in her bag till the mehendi dries.",
+  "logline": "Three friends with wet mehendi make Myra do everything at Housie, then the winner can't hold her prize, so Myra keeps it.",
+  "game": "every chore lands on Myra with 'mehendi lagi hai!': cut three tickets (ordinary), feed samosa with chutney (ordinary), scratch Ruhi's nose with the dabber (absurd), until the excuse comes back to bite them",
+  "experiment": {
+    "type": "meme-format",
+    "hook": "Housie cage spinning, Tanya and Ruhi throw their palms up at Myra reaching for a ticket: 'Ruko! Haath mat lagana!' / 'Mehendi geeli hai!', chip GEELI MEHENDI: 3",
+    "variable": "a shaadi season meme every Indian woman knows (wet mehendi, someone else does everything) played as a kitty scene, with a chore counter chip that climbs every shot and a button that throws the opening line back",
+    "hypothesis": "a meme viewers already know reads in 2 s, so skip under 35% and watched over 40% at about 27 s; the 'Tag your Myra' caption naming the friend who does all the work gets 2+ shares"
+  },
+  "mute": [
+    "Housie at a kitty, banner SANGEET KE BAAD KITTY, two ladies throw palms up at Myra, chip GEELI MEHENDI: 3: their mehendi is wet",
+    "Tanya points at Myra, chip MYRA KE KAAM: 1: Myra has to cut the tickets",
+    "three tickets fan out in Myra's hand, Shruti flat, chip 3 TICKET: Myra cuts for all three, not herself",
+    "ball 7 pops, all three shout at once, Myra sweats with the dabber",
+    "Myra proud, Ruhi flat: she cut the wrong one",
+    "a samosa plate pops up, chip KAAM: 4 SAMOSA: now she feeds them",
+    "chip CHUTNEY, Shruti wants one too, Myra sweats",
+    "Ruhi wrinkles her nose, chip KAAM: 6 NAAK, question mark over Myra",
+    "the dabber floats to Ruhi's nose, chip KAAM: 7, Ruhi happy",
+    "Myra hops with a ticket, chip FULL HOUSE?: she thinks she won",
+    "music cuts, heartbeat, chip FULL HOUSE: KISKA?: it is Ruhi's ticket",
+    "Ruhi celebrates, prize envelope pops up, chip PRIZE Rs 2,000, Myra sweats",
+    "Ruhi can't hold it, chip MYRA KE HAATH: Myra takes the envelope with a smirk",
+    "Myra throws her palms up like them, a handbag pops in, chip MYRA KE BAG MEIN: she keeps it",
+    "the three with mehendi gasp, palms up and helpless, same chip"
+  ],
+  "beats": "hook: Ruko! Haath mat lagana! Mehendi geeli hai / setup: Myra cuts all three tickets, khelungi agli kitty mein / esc: three shout saat at once (wrong one cut), samosa with chutney, nose scratched with the dabber / twist: Myra's Full House is Ruhi's ticket, Ruhi can't hold the prize / button: Myra throws the opening line back and keeps the prize in her bag",
+  "review": {
+    "clarity": 5,
+    "hook": 5,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 50,
+    "notes": "Real shaadi season kitty: the morning after a sangeet everyone turns up with wet mehendi, and the meme (somebody else must do everything) is known to every viewer. Myra is the playbook's 'stuck with the job' girl, so the game is in character. Chip counts her chores every shot so a muted viewer sees the stake climb. Escalation ordinary, ordinary, absurd (nose with a dabber). Claim before reveal on the twist: 'Full House! Full House!' then 'Ticket kiska hai?' / 'Ruhi ka.' The flip is a see-it prize envelope that goes into Myra's bag. Button repeats the opening line word for word with the opposite meaning, so the reel loops. Three endings tried: Ruhi simply wins (flat, Myra just loses), Myra gets her own mehendi done next kitty (needs a time jump), Myra keeps the prize till it dries (kept: kind revenge, loops). Rewrote once: first draft had Shruti as the helper and Myra with mehendi, but the playbook gives the stuck-with-the-job role to Myra. Shots stay at 2 lines and 8 words or fewer, no silenceBefore, no ellipses."
+  },
+  "cover": {
+    "shot": 13,
+    "at": 0.8,
+    "title": [
+      "Mehendi lagi hai,",
+      "sab kaam Myra karo!"
+    ],
+    "titleY": 330
+  },
+  "caption": "Har shaadi season mein ek Myra hoti hai jiske haath kabhi mehendi wale nahi hote. Tag your Myra!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#shaadiseason",
+    "#mehendi",
+    "#housie",
+    "#ladieskitty",
+    "#kittypartyfun"
+  ],
+  "pace": 30,
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.1
+  },
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "GEELI MEHENDI: 3 · MYRA KE KAAM: 0",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "turn": 0,
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "side"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ruko! Haath mat lagana!",
+          "say": "रुको! हाथ मत लगाना!",
+          "beat": "hook"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Mehendi geeli hai!",
+          "say": "मेहंदी गीली है!",
+          "gap": 0.03,
+          "beat": "hook"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1500,
+          "s": 1,
+          "at": 0.2
+        },
+        {
+          "name": "Dabber marker",
+          "x": 660,
+          "y": 1520,
+          "s": 0.9,
+          "at": 0.4
+        }
+      ],
+      "camera": "push",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.45
+        },
+        {
+          "at": 0.6,
+          "name": "haaye",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 540,
+          "y": 860,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 1",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 330,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Tanya",
+          "x": 760,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "smirk",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Toh ticket kaun kaatega?",
+          "say": "तो टिकट कौन काटेगा?",
+          "beat": "setup"
+        },
+        {
+          "who": "Tanya",
+          "text": "Tum! Teeno ke!",
+          "say": "तुम! तीनों के!",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "setup"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 3 TICKET",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Teeno?! Main kab khelungi?",
+          "say": "तीनों?! मैं कब खेलूँगी?",
+          "beat": "setup"
+        },
+        {
+          "who": "Shruti",
+          "text": "Agli kitty mein.",
+          "say": "अगली किटी में।",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "setup"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 300,
+          "y": 1500,
+          "s": 1,
+          "at": 0.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 360,
+          "y": 1470,
+          "s": 1,
+          "at": 0.2,
+          "rot": 8
+        },
+        {
+          "name": "Housie ticket",
+          "x": 240,
+          "y": 1470,
+          "s": 1,
+          "at": 0.3,
+          "rot": -8
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 3 TICKET",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "o",
+          "hop": true
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "turn": 0,
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "side"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "o"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Saat! Mera kaato!",
+          "say": "सात! मेरा काटो!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Mera bhi saat!",
+          "say": "मेरा भी सात!",
+          "gap": 0.03,
+          "beat": "escalation"
+        },
+        {
+          "who": "Tanya",
+          "text": "Mera pehle!",
+          "say": "मेरा पहले!",
+          "gap": 0.03,
+          "beat": "escalation"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Ball 7",
+          "x": 540,
+          "y": 1300,
+          "s": 1.2,
+          "at": 0
+        },
+        {
+          "name": "Dabber marker",
+          "x": 620,
+          "y": 1520,
+          "s": 0.9
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.45
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 900,
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 3 TICKET",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "laughs",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Ruhi",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ho gaya! Teeno kat gaye!",
+          "say": "हो गया! तीनों कट गए!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Mera galat kaata.",
+          "say": "मेरा गलत काटा।",
+          "gap": 0.04,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 300,
+          "y": 1500,
+          "s": 1,
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 4 · SAMOSA",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Ek samosa! Mehendi lagi hai.",
+          "say": "एक समोसा! मेहंदी लगी है।",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Ab khilana bhi?",
+          "say": "अब खिलाना भी?",
+          "gap": 0.04,
+          "beat": "escalation"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 540,
+          "y": 1540,
+          "s": 1,
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "slurp",
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 5 · CHUTNEY",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh"
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "turn": 0,
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Shruti",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "o"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Chutney ke saath!",
+          "say": "चटनी के साथ!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Shruti",
+          "text": "Mujhe bhi! Bina mirchi!",
+          "say": "मुझे भी! बिना मिर्ची!",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 540,
+          "y": 1540,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 640,
+          "y": 900,
+          "at": 0.6
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 6 · NAAK",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Myra! Naak mein khujli!",
+          "say": "मायरा! नाक में खुजली!",
+          "beat": "escalation"
+        },
+        {
+          "who": "Myra",
+          "text": "Naak bhi?!",
+          "say": "नाक भी?!",
+          "gap": 0.03,
+          "beat": "escalation"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "boing",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 770,
+          "y": 880,
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "MYRA KE KAAM: 7 · NAAK",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 380,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "turn": 0.5,
+          "prop": "phone",
+          "mouth": "flat",
+          "eyes": "side"
+        },
+        {
+          "name": "Ruhi",
+          "x": 720,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "smile",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Dabber se chalega?",
+          "say": "डैबर से चलेगा?",
+          "beat": "escalation"
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haan haan, thoda left.",
+          "say": "हाँ हाँ, थोड़ा लेफ़्ट।",
+          "gap": 0.03,
+          "punch": true,
+          "beat": "escalation"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Dabber marker",
+          "x": 560,
+          "y": 1260,
+          "s": 1,
+          "at": 0,
+          "rot": -40
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "laughv",
+          "vol": 0.45
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "FULL HOUSE?",
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1740,
+          "s": 2.15,
+          "pose": "laughs",
+          "turn": 0,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Full House! Full House!",
+          "say": "फ़ुल हाउस! फ़ुल हाउस!",
+          "beat": "turn"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1480,
+          "s": 1.2,
+          "at": 0.1
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "ballpop",
+          "vol": 0.45
+        },
+        {
+          "at": 0.3,
+          "name": "clap",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 540,
+          "y": 860,
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "FULL HOUSE: KISKA?",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        },
+        {
+          "name": "Myra",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "turn": -0.5,
+          "prop": "phone",
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ticket kiska hai?",
+          "say": "टिकट किसका है?",
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Ruhi ka.",
+          "say": "रूही का।",
+          "gap": 0.12,
+          "punch": true,
+          "beat": "turn"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 770,
+          "y": 1480,
+          "s": 1
+        }
+      ],
+      "music": false,
+      "camera": "still",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "heartbeat",
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "FULL HOUSE: RUHI · PRIZE Rs 2,000",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "laugh",
+          "eyes": "laugh",
+          "hop": true
+        },
+        {
+          "name": "Myra",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "mouth": "flat",
+          "eyes": "half"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Mera! Mera! Full House!",
+          "say": "मेरा! मेरा! फ़ुल हाउस!",
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Kaata maine.",
+          "say": "काटा मैंने।",
+          "gap": 0.04,
+          "beat": "turn"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 540,
+          "y": 1520,
+          "s": 1.1,
+          "at": 0.2
+        }
+      ],
+      "camera": "punch",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "waah",
+          "vol": 0.4
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 770,
+          "y": 900,
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "PRIZE Rs 2,000 · MYRA KE HAATH",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Myra",
+          "x": 770,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "turn": -0.5,
+          "prop": "phone",
+          "mouth": "smirk",
+          "eyes": "side"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Prize pakdo! Mehendi lagi hai.",
+          "say": "प्राइज़ पकड़ो! मेहंदी लगी है।",
+          "beat": "turn"
+        },
+        {
+          "who": "Myra",
+          "text": "Zaroor.",
+          "say": "ज़रूर।",
+          "gap": 0.04,
+          "beat": "turn"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Prize envelope",
+          "x": 700,
+          "y": 1500,
+          "s": 1.1,
+          "at": 0.3
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.9,
+          "name": "sting",
+          "vol": 0.35
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.1,
+      "chip": "PRIZE: MYRA KE BAG MEIN",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Myra",
+          "x": 540,
+          "y": 1740,
+          "s": 2.1,
+          "pose": "wave",
+          "turn": 0,
+          "mouth": "smirk",
+          "eyes": "half"
+        },
+        {
+          "name": "Ruhi",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Ruko! Haath mat lagana!",
+          "say": "रुको! हाथ मत लगाना!",
+          "beat": "button"
+        },
+        {
+          "who": "Myra",
+          "text": "Mehendi geeli hai na!",
+          "say": "मेहंदी गीली है ना!",
+          "gap": 0.05,
+          "punch": true,
+          "beat": "button"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        },
+        {
+          "name": "Handbag",
+          "x": 640,
+          "y": 1560,
+          "s": 0.9,
+          "at": 0.1
+        }
+      ],
+      "camera": "punch",
+      "stickers": [
+        {
+          "kind": "spark",
+          "x": 540,
+          "y": 860,
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "banner": "SANGEET KE BAAD KITTY",
+      "chipY": 600,
+      "hold": 0.4,
+      "chip": "PRIZE: MYRA KE BAG MEIN",
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 250,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0.5,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": 0,
+          "mouth": "o",
+          "eyes": "open"
+        },
+        {
+          "name": "Ruhi",
+          "x": 830,
+          "y": 1740,
+          "s": 2,
+          "pose": "wave",
+          "turn": -0.5,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "lines": [
+        {
+          "who": "ALL",
+          "text": "Haaw!",
+          "say": "हाव!",
+          "beat": "button"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 170,
+          "y": 1890,
+          "s": 1.1
+        },
+        {
+          "name": "Samosa plate",
+          "x": 560,
+          "y": 1895,
+          "s": 1
+        }
+      ],
+      "camera": "still",
+      "sfx": [
+        {
+          "at": 0,
+          "name": "haww",
+          "vol": 0.45
+        },
+        {
+          "at": 0.5,
+          "name": "laughv",
+          "vol": 0.5
+        }
+      ]
+    }
+  ]
+}
