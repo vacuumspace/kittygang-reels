@@ -54,6 +54,8 @@ function check(d, slides) {
   try { const th = (await require('../theme/today').today()).theme; if (th?.sounds) { const u = PUBLIC + '/' + th.sounds + '/music.m4a'; if ((await fetch(u, { method: 'HEAD' })).ok) musicUrl = u; } } catch (e) { console.warn('theme music:', e.message); }
   console.log('game reel music:', musicUrl || 'generated');
   const drafts = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((d) => !done.has(d.id) && !d.skip);
+  // remakes: free ALL their old unposted bookings first, so the new ones take back the same days
+  if (!DRY) for (const d of drafts) if (old[d.id] && d.reel) await T.agent('reels/queue/cancel', { local_id: d.id, reason: 'remade (rev ' + (d.reel.rev || 1) + ')' }).catch((e) => console.warn('cancel', e.message));
   if (!drafts.length) {
     if (!DRY) await T.status('carousel-render', 'ok', null);
     return console.log('no new carousel drafts');
