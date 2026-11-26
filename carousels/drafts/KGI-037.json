@@ -1,0 +1,875 @@
+{
+  "id": "KGI-037",
+  "n": 37,
+  "slug": "ghanti-pakdo-christmas-bell-grab-kitty-party-game",
+  "game": "Ghanti Pakdo",
+  "tagline": "Ghanti suna? Jhapat lo!",
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M40 350 L1040 350\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(150 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(150 350) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 150,
+      "y": 197,
+      "s": 0.85,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(400 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(400 350) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 400,
+      "y": 197,
+      "s": 0.85,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(560 350) scale(0.85)\"><rect x=\"-70\" y=\"-150\" width=\"140\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-50 -124 L-60 0 M50 -124 L60 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(760 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(760 350) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 760,
+      "y": 197,
+      "s": 0.85,
+      "color": "green"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(1000 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(1000 350) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 1000,
+      "y": 197,
+      "s": 0.85,
+      "color": "blue"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(560 170) scale(0.7)\"><rect x=\"-9\" y=\"-150\" width=\"18\" height=\"56\" rx=\"7\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-45 -12 Q-45 -100 0 -100 Q45 -100 45 -12 L56 0 L-56 0 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"0\" cy=\"8\" r=\"11\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M430 222 Q482.5 75 535 95\" stroke=\"#F7C948\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "hand",
+      "x": 548,
+      "y": 100,
+      "s": 0.8,
+      "rot": 90
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M730 222 Q690 150 650 170\" stroke=\"#2FA37A\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "hand",
+      "x": 640,
+      "y": 170,
+      "s": 0.8,
+      "rot": -90
+    },
+    {
+      "k": "text",
+      "x": 240,
+      "y": 60,
+      "text": "Ghanti!",
+      "size": 56,
+      "color": "white"
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 4 cheezein",
+    "body": "Ghanti nahi? Steel glass mein chammach bhi chalega.",
+    "items": [
+      {
+        "label": "Ghanti",
+        "sub": "har group ki ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 190) scale(1.1)\"><rect x=\"-9\" y=\"-150\" width=\"18\" height=\"56\" rx=\"7\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-45 -12 Q-45 -100 0 -100 Q45 -100 45 -12 L56 0 L-56 0 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"0\" cy=\"8\" r=\"11\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Stool ya chhoti table",
+        "sub": "group ke beech",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 215) scale(1.1)\"><rect x=\"-70\" y=\"-150\" width=\"140\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-50 -124 L-60 0 M50 -124 L60 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Kursiyan",
+        "sub": "4 har group",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 215) scale(0.68)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Host ki kahani",
+        "sub": "nakli shabd ke saath",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 112) scale(0.85)\"><rect x=\"-95\" y=\"-120\" width=\"190\" height=\"240\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"0\" y=\"-78\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#E85D8A\" font-family=\"sans-serif\">Kahani</text><path d=\"M-70 -40 L70 -40 M-70 -6 L50 -6 M-70 28 L70 28 M-70 62 L30 62\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/><text x=\"0\" y=\"104\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">GHANTI</text></g>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "4-4 ladies, beech mein ghanti",
+      "body": "Kursiyan gol, beech mein stool. Stool pe ek ghanti rakho.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(170 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(170 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 170,
+          "y": 460,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "hand",
+          "x": 200,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "hand",
+          "x": 234,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(480 640) scale(1)\"><rect x=\"-70\" y=\"-150\" width=\"140\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-50 -124 L-60 0 M50 -124 L60 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(480 471) scale(0.8)\"><rect x=\"-9\" y=\"-150\" width=\"18\" height=\"56\" rx=\"7\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-45 -12 Q-45 -100 0 -100 Q45 -100 45 -12 L56 0 L-56 0 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"0\" cy=\"8\" r=\"11\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(720 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(720 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 720,
+          "y": 460,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "hand",
+          "x": 750,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "hand",
+          "x": 784,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 120,
+          "text": "4 ladies, 1 ghanti",
+          "size": 48,
+          "color": "pink"
+        },
+        {
+          "k": "arrow",
+          "x1": 480,
+          "y1": 160,
+          "x2": 480,
+          "y2": 330,
+          "color": "pink",
+          "w": 8
+        }
+      ]
+    },
+    {
+      "title": "Dono haath ghutno pe",
+      "body": "Kursi se uthna mana. Sirf haath aage jaayega.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(250 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(250 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 250,
+          "y": 460,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "hand",
+          "x": 280,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "hand",
+          "x": 314,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(650 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(650 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 650,
+          "y": 460,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "hand",
+          "x": 680,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "hand",
+          "x": 714,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "tick",
+          "x": 250,
+          "y": 150,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 450,
+          "y": 90,
+          "text": "Haath ghutno pe",
+          "size": 48,
+          "color": "green"
+        },
+        {
+          "k": "arrow",
+          "x1": 860,
+          "y1": 300,
+          "x2": 740,
+          "y2": 500,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "text",
+          "x": 860,
+          "y": 270,
+          "text": "Yahan!",
+          "size": 40,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Host Christmas kahani sunayegi",
+      "body": "Jaise \"Santa kitty mein aaya, darwaze ki ghanti baji...\"",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(190 640) scale(1.3)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 190,
+          "y": 289,
+          "s": 1.3,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 190,
+          "y": 690,
+          "text": "Host",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(346 341) scale(0.78)\"><rect x=\"-95\" y=\"-120\" width=\"190\" height=\"240\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"0\" y=\"-78\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#E85D8A\" font-family=\"sans-serif\">Kahani</text><path d=\"M-70 -40 L70 -40 M-70 -6 L50 -6 M-70 28 L70 28 M-70 62 L30 62\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/><text x=\"0\" y=\"104\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">GHANTI</text></g>"
+        },
+        {
+          "k": "hand",
+          "x": 281,
+          "y": 380,
+          "s": 0.78,
+          "rot": -90
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"90\" y=\"60\" width=\"520\" height=\"90\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M138 148 L122 186 L168 148 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"140\" y=\"142\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"350\" y=\"121\" font-size=\"46\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">...aur ghanti baji!</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(620 640) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(620 640) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 620,
+          "y": 487,
+          "s": 0.85,
+          "color": "pink"
+        },
+        {
+          "k": "hand",
+          "x": 645.5,
+          "y": 531.2,
+          "s": 0.595,
+          "rot": 90
+        },
+        {
+          "k": "hand",
+          "x": 674.4,
+          "y": 531.2,
+          "s": 0.595,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(800 640) scale(0.85)\"><rect x=\"-70\" y=\"-150\" width=\"140\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-50 -124 L-60 0 M50 -124 L60 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(800 496.35) scale(0.68)\"><rect x=\"-9\" y=\"-150\" width=\"18\" height=\"56\" rx=\"7\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-45 -12 Q-45 -100 0 -100 Q45 -100 45 -12 L56 0 L-56 0 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"0\" cy=\"8\" r=\"11\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        }
+      ]
+    },
+    {
+      "title": "\"Ghanti\" suna? Pehle uthao!",
+      "body": "Jo pehle ghanti uthaye, use 1 point. Ghanti wapas rakho.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(160 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(160 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 160,
+          "y": 460,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(480 640) scale(1)\"><rect x=\"-70\" y=\"-150\" width=\"140\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-50 -124 L-60 0 M50 -124 L60 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(480 370) scale(0.8)\"><rect x=\"-9\" y=\"-150\" width=\"18\" height=\"56\" rx=\"7\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-45 -12 Q-45 -100 0 -100 Q45 -100 45 -12 L56 0 L-56 0 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"0\" cy=\"8\" r=\"11\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M195 480 Q322.5 250 450 270\" stroke=\"#E85D8A\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "hand",
+          "x": 465,
+          "y": 270,
+          "s": 1,
+          "rot": 90
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M400 330 L370 320 M400 360 L365 362 M560 330 L590 320 M560 360 L595 362\" stroke=\"#2B1B2E\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(760 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(760 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 760,
+          "y": 460,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "hand",
+          "x": 790,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "hand",
+          "x": 824,
+          "y": 512,
+          "s": 0.7,
+          "rot": 90
+        },
+        {
+          "k": "text",
+          "x": 330,
+          "y": 200,
+          "text": "+1",
+          "size": 90,
+          "color": "green"
+        },
+        {
+          "k": "text",
+          "x": 760,
+          "y": 190,
+          "text": "Late!",
+          "size": 44,
+          "color": "mute"
+        }
+      ]
+    },
+    {
+      "title": "Nakli shabd pe pakda? Minus 1",
+      "body": "Host bolegi \"Ganthi\", \"Shanti\", \"Santa\". Inpe haath hila toh -1.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(150 640) scale(1.2)\"><rect x=\"-30\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/><rect x=\"6\" y=\"-200\" width=\"24\" height=\"200\" rx=\"10\" fill=\"#7A4B6B\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 150,
+          "y": 316,
+          "s": 1.2,
+          "color": "blue"
+        },
+        {
+          "k": "text",
+          "x": 150,
+          "y": 690,
+          "text": "Host",
+          "size": 32,
+          "color": "ink"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"40\" y=\"60\" width=\"320\" height=\"90\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M88 148 L72 186 L118 148 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><rect x=\"90\" y=\"142\" width=\"26\" height=\"10\" fill=\"#FFFFFF\"/><text x=\"200\" y=\"121\" font-size=\"50\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">Shanti!</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(420 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(420 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 420,
+          "y": 460,
+          "s": 1,
+          "color": "green"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(700 640) scale(1)\"><rect x=\"-70\" y=\"-150\" width=\"140\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-50 -124 L-60 0 M50 -124 L60 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(700 470) scale(0.8)\"><rect x=\"-9\" y=\"-150\" width=\"18\" height=\"56\" rx=\"7\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M-45 -12 Q-45 -100 0 -100 Q45 -100 45 -12 L56 0 L-56 0 Z\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"0\" cy=\"8\" r=\"11\" fill=\"#F7C948\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M455 480 Q552.5 380 650 400\" stroke=\"#2FA37A\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "hand",
+          "x": 660,
+          "y": 400,
+          "s": 1,
+          "rot": 90
+        },
+        {
+          "k": "cross",
+          "x": 860,
+          "y": 150,
+          "s": 0.9
+        },
+        {
+          "k": "text",
+          "x": 860,
+          "y": 300,
+          "text": "-1",
+          "size": 90,
+          "color": "pink"
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "5 point pehle, woh jeeti",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Kursi se uthi ya",
+          "dhakka diya? Point gaya."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Nakli shabd pe",
+          "haath hila? Minus 1."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Ghanti se pehle haath",
+          "ghutne se hata? Minus 1."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "5 point pehle? Group jeeti,",
+          "final mein jao!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Final aankh band karke: ghanti",
+        "haath se chhoo ke dhoondo."
+      ],
+      [
+        "\"Santa\" bola toh sab",
+        "haath upar, aakhri wali -1."
+      ],
+      [
+        "Host ab dheere, phir jaldi,",
+        "phir phusphusa ke padhe."
+      ]
+    ],
+    "tip": "Kursiyan thodi door, sir na takraaye!"
+  },
+  "comment_hint": "sabse fast kaun?",
+  "caption": "Host kahani sunayegi, \"ghanti\" suna toh jhapat lo... par \"Shanti\" pe haath hila toh minus! Christmas kitty ke liye perfect. Aapki kitty mein sabse fast haath kiska hai?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#ghantipakdo",
+    "#christmaskitty"
+  ],
+  "web": {
+    "title": "Ghanti Pakdo: Christmas Kitty Party Bell Game Rules and Twists",
+    "description": "Ghanti Pakdo is a fast listening and reflex kitty party game with a bell. Rules, a sample Christmas story with trap words, scoring, twists and FAQ for 8 to 20 ladies.",
+    "intro": "Ghanti Pakdo is a seated reflex game for a kitty party: ladies sit in groups of four around a stool with a bell on it, the host reads a made-up Christmas story, and the moment she says \"ghanti\" the first lady to lift the bell scores a point. The first lady to reach 5 points wins her group and plays the final. The crazy twist is the trap words: the host slips in sound-alikes like \"ganthi\", \"Shanti\" and \"Santa ki gaadi\", and anyone who moves her hands on a fake word loses a point. It needs only a bell, a stool and chairs, so it fits any December or Christmas kitty.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "One small bell per group of 4 (a puja ghanti, a cycle bell or a steel glass with a spoon inside)",
+      "One stool or small table per group",
+      "Four chairs per group",
+      "A short story written by the host, using \"ghanti\" about 5 times and trap words about 8 times",
+      "Paper and pen to keep score",
+      "A small prize for the winner"
+    ],
+    "steps": [
+      "Split the ladies into groups of 4. Each group places 4 chairs in a small circle around a stool, with the chairs a little apart so no one bumps heads.",
+      "Put one bell in the centre of each stool.",
+      "Every lady sits with both hands flat on her knees. She may not stand up or lean off her chair during the game.",
+      "The host reads her Christmas kitty story aloud, slowly at first. Example: \"Christmas wali kitty thi. Shanti aunty ne ganthi wala dupatta pehna. Tabhi darwaze ki ghanti baji, aur Santa ki gaadi ruki...\"",
+      "Whenever the host says the word \"ghanti\", the first lady in each group to lift her group's bell gets 1 point. She puts the bell back and everyone returns her hands to her knees.",
+      "When the host says a trap word such as \"ganthi\", \"Shanti\", \"ghanta\", \"Santa\" or \"kanthi\", anyone who lifts her hands off her knees loses 1 point.",
+      "A scorer in each group keeps the points. The first lady to reach 5 points wins the group.",
+      "Group winners meet in a final around one stool, played with their eyes closed. The first to 3 points wins the prize."
+    ],
+    "rules": [
+      "Hands stay on your knees until you hear the real word \"ghanti\".",
+      "Standing up, pushing or grabbing another lady's hand cancels your point.",
+      "Moving on a trap word costs 1 point.",
+      "Lifting your hands too early, before the host finishes the word, also costs 1 point.",
+      "First to 5 points wins the group; first to 3 in the final wins the game."
+    ],
+    "variations": [
+      "Eyes-closed final: the bell is placed in the centre and finalists must find it by touch after the host says \"ghanti\".",
+      "Santa rule: whenever the host says \"Santa\", everyone must raise both hands, and the last lady to do it loses a point.",
+      "Change speed: the host reads slowly, then very fast, then in a whisper, so ladies have to listen hard."
+    ],
+    "tips": [
+      "Write the story before the kitty so the real word and the trap words are spaced out and surprise everyone.",
+      "Keep chairs an arm's length apart and the stool low, so ladies reach with their hands, not their heads.",
+      "A soft cloth bag or a steel glass works if you have no bell; the game is about who touches it first.",
+      "Ladies who are waiting can be scorers and judges, which keeps them involved.",
+      "Play one practice round so everyone hears what the trap words sound like."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Ghanti Pakdo?",
+        "a": "It works best for 8 to 20 ladies split into groups of 4. All groups play at the same time while the host reads one story."
+      },
+      {
+        "q": "What do you need to play Ghanti Pakdo?",
+        "a": "One bell, one stool and four chairs per group, a short story written by the host, and paper to keep score. A steel glass can replace the bell."
+      },
+      {
+        "q": "What are good trap words for Ghanti Pakdo?",
+        "a": "Use words that sound like ghanti: ganthi, Shanti, ghanta, kanthi, Santa ki gaadi and chhatri. Mix 8 trap words with about 5 real ones."
+      },
+      {
+        "q": "Is Ghanti Pakdo a good game for a Christmas kitty party?",
+        "a": "Yes. The host's story can be about Santa, jingle bells and a Christmas kitty, it takes 10 to 15 minutes and needs no decoration or cooking."
+      },
+      {
+        "q": "Is Ghanti Pakdo safe for older ladies?",
+        "a": "Yes. Everyone stays seated, only hands move, and chairs are kept apart, so no one has to run or bend down."
+      }
+    ]
+  }
+}
