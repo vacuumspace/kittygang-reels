@@ -88,8 +88,10 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
     if (DRY) { rec.status = 'rendered'; return console.log('dry run: rendered', r.mp4); }
     rec.video_url = T.r2put(mp4, `reels/theme/${id}.mp4`, 'video/mp4');
     rec.cover_url = T.r2put(path.join(ROOT, r.cover), `reels/theme/${id}-cover.jpg`, 'image/jpeg');
-    // Instagram now; the Worker finishes the upload in the background, we wait for the link
-    const job = await T.agent('ig/publish', { video_url: rec.video_url, cover_url: rec.cover_url, caption: rec.caption });
+    // Instagram Story now (theme of the day, gone in 24 h); the Worker finishes the upload in the background.
+    // Stories take no caption, so the theme name + game times must be on screen (cover card + times card).
+    rec.ig_type = 'story';
+    const job = await T.agent('ig/publish', { video_url: rec.video_url, story: true });
     if (job.status === 'failed') throw new Error('instagram: ' + job.error);
     rec.status = 'publishing'; rec.job_id = job.jobId;
     for (let i = 0; i < 40 && rec.status === 'publishing'; i++) {
@@ -114,7 +116,7 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
       tr.reels = tr.reels.filter((x) => x.id !== id).concat(rec);
       T.save(tr);
       console.log('tracker:', await T.publishTracker(tr));
-      await T.status('theme-reel', rec.status === 'failed' ? 'failed' : 'ok', rec.status === 'failed' ? null : `Posted ${d.theme.name} reel (${rec.story === 'ai' ? 'AI: ' : ''}${rec.variant})${rec.yt_url ? ' + YouTube Short' : ''}`, rec.error);
+      await T.status('theme-reel', rec.status === 'failed' ? 'failed' : 'ok', rec.status === 'failed' ? null : `Posted ${d.theme.name} story (${rec.story === 'ai' ? 'AI: ' : ''}${rec.variant})${rec.yt_url ? ' + YouTube Short' : ''}`, rec.error);
     }
   }
   if (rec.status === 'failed') process.exit(1);

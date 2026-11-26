@@ -1,7 +1,7 @@
 # Theme Reel Writer (runs every evening in the cloud)
 
-Every night at 12:20 AM IST `.github/workflows/theme.yml` posts a reel about that day's booked Housie theme on
-Instagram and YouTube Shorts. You write tonight's reel as a draft. **Every night is a new experiment**: a different
+Every night at 12:20 AM IST `.github/workflows/theme.yml` posts a video about that day's booked Housie theme as an
+Instagram Story (no caption, so theme name + times must be on screen) and a YouTube Short. You write tonight's reel as a draft. **Every night is a new experiment**: a different
 format, so after a couple of weeks the stats tell us what works. The old built-in storylines (POV phone, guess, race)
 got 67 to 89% skip and 0 shares; the Kitty Gang sitcom "Diwali safai wali Housie" got 5x the views and 5 shares.
 Faces, a story and a payoff beat an app screen.
