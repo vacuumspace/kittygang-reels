@@ -96,7 +96,8 @@ const KITS = {
   scene(spec, sh, t) {
     const people = (sh.chars || []).map((c, i) => char(spec, c, c.x ?? 540, c.y ?? 1760, c.s ?? 2, t, i, sh)).join('');
     if (sh.set === 'camera') { const flash = sh.flash && t - sh.start > 0.6 && t - sh.start < 0.9; return cameraUI(SETS.living({ banner: sh.banner }) + people, { flash, focus: sh.focus }); }
-    return (SETS[sh.set] || SETS.living)({ banner: sh.banner === true && spec.T ? spec.T.theme.name.toUpperCase() + ' HOUSIE' : sh.banner, night: sh.night }) + people;
+    // gameSvg: the game's own props (bell, cups, chits...) from a Game Ideas draft, placed in the room behind the people
+    return (SETS[sh.set] || SETS.living)({ banner: sh.banner === true && spec.T ? spec.T.theme.name.toUpperCase() + ' HOUSIE' : sh.banner, night: sh.night }) + (sh.decor ? partyDecor() : '') + (sh.gameSvg || '') + people;
   },
   hook(spec, sh, t) { const c = sh.char; return (c ? stage(c.name) + char(spec, c, 540, 1760, 2.6, t, 0, sh) : stage(null)); },
   solo(spec, sh, t) { const c = sh.char; return stage(c.name) + '<ellipse cx="540" cy="1695" rx="300" ry="34" fill="' + PLUM + '" opacity="0.08"></ellipse>' + char(spec, c, 540, 1700, 3.0, t, 0, sh); },
@@ -147,16 +148,34 @@ const KITS = {
   // Captions stay at the top (up to 3 lines end above y 410), the board starts below them, the characters stand under it.
   board(spec, sh, t) {
     const u = back((t - sh.start) / 0.35);
+    // the drawing builds up piece by piece (boardParts, from reel.js) as if she is drawing it while she talks
+    let drawing = sh.boardSvg || '';
+    if (sh.boardParts && sh.boardParts.parts.length) {
+      const n = sh.boardParts.parts.length, step = Math.min(0.35, Math.max(0.08, ((sh.end - sh.start) * 0.55) / n));
+      drawing = '<g transform="' + sh.boardParts.transform + '">' + sh.boardParts.parts.map((p, i) => { const k = sat((t - sh.start - 0.2 - i * step) / 0.25); return k <= 0 ? '' : '<g opacity="' + f2(k) + '" transform="translate(0 ' + f1(14 * (1 - k)) + ')">' + p + '</g>'; }).join('') + '</g>';
+    }
     const brd = '<path d="M250 1190 L190 1600 M830 1190 L890 1600" stroke="#8A5A3A" stroke-width="22" stroke-linecap="round"></path>'
       + '<rect x="60" y="420" width="960" height="770" rx="34" fill="#8A5A3A"></rect><rect x="78" y="438" width="924" height="734" rx="24" fill="#FFFFFF"></rect>'
       + '<rect x="78" y="438" width="924" height="96" rx="24" fill="' + PINK + '"></rect><rect x="78" y="500" width="924" height="34" fill="' + PINK + '"></rect>'
       + '<text x="540" y="504" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="' + ((sh.boardTitle || '').length > 26 ? 42 : 52) + '" fill="#FFFFFF">' + esc(sh.boardTitle || '') + '</text>'
-      + '<g transform="translate(540 855) scale(' + f2(0.9 + 0.1 * u) + ') translate(-540 -855)">' + (sh.boardSvg || '') + '</g>'
+      + '<g transform="translate(540 855) scale(' + f2(0.9 + 0.1 * u) + ') translate(-540 -855)">' + drawing + '</g>'
       + '<rect x="380" y="1172" width="320" height="22" rx="8" fill="#6E4630"></rect>';
     const people = (sh.chars || []).map((c, i) => char(spec, c, c.x ?? (i ? 860 : 220), c.y ?? 1850, c.s ?? 1.5, t, i, sh)).join('');
-    return SETS.living({}) + '<rect width="1080" height="1920" fill="#FFE4EC" opacity="0.35"></rect>' + brd + people;
+    return (SETS[sh.set] || SETS.living)({ night: sh.night }) + '<rect width="1080" height="1920" fill="#FFE4EC" opacity="0.15"></rect>' + (sh.decor !== false ? partyDecor() : '') + brd + (sh.gameSvg || '') + people;
   },
 };
+// kitty party dressing for game shots: fairy lights across the top wall, balloons in both corners, a gift by the sofa
+function partyDecor() {
+  return put('Fairy lights', 270, 560, 560) + put('Fairy lights', 810, 560, 560) + put('Balloons', 70, 1300, 230) + put('Balloons', 1010, 1300, 230) + put('Gift box', 960, 1400, 120);
+}
+// simple confetti burst for a winner moment (non-theme reels): shot field confetti: true or seconds into the shot
+function confettiAt(sh, t) {
+  const at = sh.start + (sh.confetti === true ? 0.2 : sh.confetti), u = t - at; if (u < 0) return '';
+  const cols = [PINK, YEL, '#9B7BFF', '#7ED6A5', '#FFFFFF'];
+  let o = '';
+  for (let i = 0; i < 60; i++) { const x = (i * 157) % 1080, y = ((i * 263) % 600) - 300 + u * (420 + (i % 5) * 90); if (y > 1960) continue; o += '<rect x="' + x + '" y="' + f1(y) + '" width="22" height="12" rx="4" fill="' + cols[i % cols.length] + '" transform="rotate(' + f1((i * 37 + u * 240) % 360) + ' ' + x + ' ' + f1(y) + ')"></rect>'; }
+  return o;
+}
 
 
 // ---------- theme kits (spec.T = the booked theme: its art, ticket, mascot ball, reactions) ----------
@@ -220,6 +239,7 @@ export function frameAt(spec, t) {
   if (sh.kit === 'scene' && sh.front && FRONTS[sh.set]) body += FRONTS[sh.set]();
   if (sh.clock) body += clock(900, 300, 80, sh.clock.h, sh.clock.m || 0);
   body += (sh.stickers || []).map((st) => sticker(st, sh.start, t)).join('');
+  if (sh.confetti != null && sh.confetti !== false && !spec.T) body += confettiAt(sh, t);
   // camera: settle-in on every cut, slow push, punch on the line marked punch
   let z = 1 + 0.035 * (1 - ease(u / 0.3));
   if (sh.camera !== 'still') z += 0.05 * ease(u / Math.max(1, len));
@@ -244,7 +264,7 @@ export function coverFrame(spec) {
   const sh = spec.shots[c.shot ?? Math.floor(spec.shots.length / 2)];
   const t = sh.start + (c.at ?? Math.min(1.2, (sh.end - sh.start) * 0.7));
   // the cover title replaces the shot's banner and label so nothing overlaps it
-  let o = frameAt({ ...spec, lines: [], shots: spec.shots.map((x) => (x === sh ? { ...x, banner: null, chip: null, boardTitle: '' } : x)) }, t);
+  let o = frameAt({ ...spec, lines: [], shots: spec.shots.map((x) => (x === sh ? { ...x, banner: null, chip: null, hook: null, boardTitle: '' } : x)) }, t);
   // title: one size for every line, each on its own tilted pill, well spaced
   const size = 66, gap = 150;
   (c.title || []).forEach((tx, i) => { const w = tx.length * size * 0.54 + 90; o += '<g transform="translate(540 ' + ((c.titleY || 360) + i * gap) + ') rotate(' + (i % 2 ? 2 : -2) + ')"><rect x="' + f1(-w / 2) + '" y="' + f1(-size * 0.95) + '" width="' + f1(w) + '" height="' + f1(size * 1.3) + '" rx="24" fill="' + (i === c.title.length - 1 ? PINK : PLUM) + '"></rect><text x="0" y="' + f1(size * 0.14) + '" text-anchor="middle" font-family="Fredoka" font-weight="600" font-size="' + size + '" fill="#FFFFFF">' + esc(tx) + '</text></g>'; });

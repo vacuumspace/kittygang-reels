@@ -56,5 +56,5 @@ function build(d) {
   slides.push(signoff(g, d.comment_hint || 'kaun jeeta?'));
   return slides;
 }
-module.exports = { build, fit };
+module.exports = { build, fit, extent };
 if (require.main === module) { const d = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')); console.log(build(d).length, 'slides'); }

@@ -9,15 +9,30 @@ out as this reel, not as a carousel.
 
 ## Every run
 0. Check in with admin Misc > Agents: `curl -s -X POST https://kittyparty-messaging.rahul-89e.workers.dev/agent/status -H 'Content-Type: application/json' -d '{"id":"carousel-writer","status":"running"}'`. If the reply has `"active":false` the Game Ideas Writer is paused in admin: stop now and change nothing. If the run cannot finish (nothing pushed), report it the same way with `{"id":"carousel-writer","status":"failed","error":"<one line why>"}`. A successful run is reported by the render workflow, so do nothing more on success.
-1. `git pull`. Read `carousels/DRAFT-FORMAT.md` (the file format and the drawing kit), `carousels/drafts/` (every game
-   already made: never repeat a game or a near-copy), `autopilot/tracker.json` -> `carousels` (stats: which games got
-   saves and shares), and the content bank: `autopilot/tracker.json` -> `ideas` with `type: "game"` (filled daily by the researcher).
-2. Pick the game. Priority: the highest-scoring unused game idea in the bank, a festival or season in the next 10 days (Karwa Chauth, Diwali,
-   Holi, Teej, monsoon, New Year, Valentine's, Women's Day), or a quick web search for "kitty party games" / "ladies
-   party games" / "one minute games" this month. Learn the idea, then make it our own; never copy a creator's post.
+1. `git pull`. Read `carousels/LEARNINGS.md` FIRST (what works and what flops, the learning loop), then
+   `carousels/DRAFT-FORMAT.md` (file format, drawing kit, the reel), `autopilot/HUMAN-EXAMPLES.md`, `carousels/drafts/`
+   (every game already made: never repeat a game or a near-copy; KGI-036 and KGI-037 are the reel examples),
+   `autopilot/tracker.json` -> `carousels` (stats per game: views, saves, shares, comments, skip %, watched %, and each
+   reel's `experiment`), `autopilot/data/trends.json` (top kitty party hashtag posts) and the content bank
+   (`autopilot/tracker.json` -> `ideas` with `type: "game"`, filled daily by the researcher).
+2. Pick the game. The user's bar: SUPER GOOD ideas, never boring. Research every run:
+   - a web search for what kitty party / ladies party / one minute games are trending right now (YouTube, Instagram,
+     Pinterest titles; "viral kitty party game 2026", "new tambola twist", festival in the next 10 days + "kitty game"),
+   - the top game posts in trends.json, and our own winners and flops in tracker.json + LEARNINGS.md.
+   Learn the pattern, then make it our own; never copy a creator's post.
+   Collect 5 candidates and score each 1-5 on: watchable payoff (is the funny moment visible on video?), laugh (does
+   someone fail in a human way?), easy (household items, 2 min to explain), fresh (not a near-copy of ours or a cliche),
+   fits the gang (a real kitty moment). Pick the best total; a candidate under 18/25 is dropped. Put the 5 candidates
+   with scores in the draft as `"candidates": [...]`.
    Good game = 1) real and playable, 2) one surprising or crazy twist (blindfold, no hands, saree rule, mother-in-law
    rule, balloon, chopsticks, mehendi, bindi, dupatta...), 3) cheap household items only, 4) safe (nothing hot, sharp,
    no food wastage, nothing embarrassing about bodies, money or religion), 5) works for 8 to 20 ladies in 10 to 20 min.
+   Every 3rd game is a Housie/tambola twist (our best performer). Follow what LEARNINGS.md says to do more and less of.
+   LEARNING LOOP: every game reel is an experiment. Set `reel.experiment` { hook, variable, hypothesis }: change ONE
+   thing vs recent reels (hook type, length, number of boards, cast, game type, prize, festival tie-in).
+   On Mondays (IST) first update `carousels/LEARNINGS.md`: compare the last 2 weeks of game reels by views, skip %,
+   watched %, saves, shares, comments and their experiment; write what to do more and less of (newest first, under 60
+   lines), and apply it to today's pick.
 3. Write `carousels/drafts/KGI-<NNN>.json` (next number) exactly as DRAFT-FORMAT.md says, INCLUDING the `reel` block
    (read "The reel" and "How the script must sound" there; pick a different explainer + friend pair than the last 2 games). Slides are Hinglish
    (Roman script, short); the `web` block is English for search engines and AI answers, with Hindi words where natural.
@@ -32,4 +47,4 @@ out as this reel, not as a carousel.
      two friends chatting, each line answers the last, no ad or teacher voice. About 35-60 s (roughly 90-150 words).
 5. In the bank mark the idea `used: "KGI-NNN"` (or add it as used if it was your own), commit
    "game carousel KGI-NNN: <game>" and `git push`. The push starts the render. Only touch files under `carousels/`
-   and the `ideas` list in `autopilot/tracker.json`.
+   (drafts, LEARNINGS.md) and the `ideas` list in `autopilot/tracker.json`.

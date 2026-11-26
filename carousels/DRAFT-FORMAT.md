@@ -67,53 +67,48 @@ Colours: "pink", "yel", "green", "ink", "mute", "white", "blue" or any "#hex".
 | text | x, y, text, size, color, a ("start"/"middle"), rot | label or callout |
 | svg | markup | raw SVG shapes (rect, path, ellipse, line, polygon) when nothing else fits |
 
-## The reel (required since 2026-11-26): Kitty Gang explains the game
-The game is posted as a REEL (Instagram, Facebook, YouTube Shorts playlist "Kitty Game Ideas"), not a carousel.
-Two Kitty Gang friends stand in Tanya's living room next to a whiteboard on an easel; the whiteboard shows the
-game's own drawings from this draft (cover art, Kya chahiye, each step, rules, twists). The slides above are still
-built, for the website page only.
+## The reel (required since 2026-11-26): the Kitty Gang PLAYS the game, then explains it
+The game is posted as a REEL (Instagram, Facebook, YouTube Shorts playlist "Kitty Game Ideas"), not a carousel. The
+slides above are still built, for the website page only. The user's bar: never boring. Good visuals, a dressed party
+room, the gang actually playing with the game's real props, and a funny moment. A reel that only explains is a fail.
 
-```
-"reel": {
-  "title": "Ghanti Pakdo",                          // YouTube title start, 2-4 words
-  "logline": "Tanya teaches Myra a new kitty game at the whiteboard ...",
-  "cover": { "shot": 5, "at": 0.8, "title": ["Kitty game:", "Ghanti Pakdo!"] },   // cover frame + 2 short lines
-  "shots": [
-    { "kit": "board", "show": "cover",
-      "chars": [ { "name": "Tanya", "x": 230, "turn": 0.5, "pose": "talkR" }, { "name": "Myra", "x": 860, "turn": -0.5 } ],
-      "lines": [
-        { "who": "Myra", "text": "Is baar kitty mein kuch naya chahiye yaar, pichli baar sab bore ho gaye the.", "say": "इस बार किटी में कुछ नया चाहिए यार, पिछली बार सब बोर हो गए थे।" },
-        { "who": "Tanya", "text": "Toh sun, Ghanti Pakdo khelte hain.", "say": "तो सुन, घंटी पकड़ो खेलते हें।", "gap": 0.3 }
-      ] },
-    { "kit": "board", "show": "need", "chars": [...], "lines": [...] },
-    { "kit": "board", "show": "step 1", "chars": [...], "lines": [...] },
-    ...
-    { "kit": "board", "show": "rules", ... },
-    { "kit": "board", "show": "levels", "hold": 0.8, ... }
-  ]
-}
-```
-- `show`: `cover` (game name + cover art), `need`, `step 1` ... `step 5`, `rules`, `levels`. Or give `draw` (a drawing list,
-  same primitives) and `title` for a custom board. `title` also overrides the board heading.
-- Usually one board per step, in order: cover, need, every step, rules, then the ending (levels or rules again).
-- `chars`: always 2 (the explainer and the friend). Defaults stand them under the board (x 220 and 860, y 1850, s 1.5);
-  only set `x`, `turn`, `pose`, `mouth`, `eyes`, `prop`, `hop`. Never use `chip`, `hook` or `banner` on board shots.
-- Any other shot kit from autopilot/DRAFT-FORMAT.md works too (e.g. a `scene` shot of the gang trying the game), but keep
-  the board shots as the spine so the viewer can learn the game.
-- Lines follow autopilot/DRAFT-FORMAT.md: `who`, `text` (Roman Hinglish caption, up to ~80 characters), `say` (same line in
-  Devanagari for the voice, ai sound written as े: है -> हे, मैं -> में, कैसे -> केसे), optional `gap`, `punch`, `beat`.
-- `pace` (optional, default 4): voice speed boost in %. Keep it calm; this is two friends talking, not a promo.
-- Length: about 35-60 seconds (the render refuses under 15 or over 90 s).
+Shape (35-50 s, 7-9 shots). Copy the structure of `drafts/KGI-037.json` (Ghanti Pakdo) and `drafts/KGI-036.json`:
+1. HOOK SCENE (0-3 s): the gang already mid-game, the funniest or most chaotic moment of the game, with the props.
+   `hook` banner (2 short lines, the payoff, e.g. "1 ghanti, / poori kitty paagal!"), one shouted line, `punch: true`.
+2. "WHAT IS THIS?" BOARD (show: cover): a friend who just walked in asks, the explainer names the game in one line.
+3. 2-3 BOARDS, fast (need, the 1-2 steps that matter, the twist). Merge steps in speech; never one board per step if
+   the reel gets long. The friend asks one naive question per board.
+4. PLAY SCENE: the gang plays one round. Someone does it wrong in a very human way (overthinks, mummy ji ka rule,
+   grabs too early) and gets caught. `chip` = live score or the called item ("PANEER: CHALEGA?"), `tick` sfx for a timer.
+5. WINNER SCENE: `confetti: true`, the winner's line in character, then the friend decides to play it at her kitty
+   (the button). Optional prize prop (`game` with the prize item).
+
+### Shot fields for game reels
+- Board shots: `{ "kit": "board", "show": "cover" | "need" | "step 2" | "rules" | "levels", "chars": [explainer, friend], "lines": [...] }`.
+  The drawing builds up piece by piece while she talks. `title` overrides the heading; `draw` + `title` = a custom board.
+  Chars default under the board (x 220 / 860, y 1850, s 1.5); set `name`, `x`, `turn`, `pose`, `mouth`, `eyes`, `hop`.
+  No `chip`, `hook` or `banner` on boards. Fairy lights + balloons are added automatically (`"decor": false` to drop).
+- Scene shots (hook, play, winner): autopilot/DRAFT-FORMAT.md scene kit (`set: "living"`, chars with x/y/s, sofa seats
+  y 1330 s 1.25, standing y 1760 s 2-2.1) plus:
+  - `"decor": true` party dressing (fairy lights, balloons, gift). Always on for game reels.
+  - `"game"`: the game's REAL props in the room, one placement or a list: `{ "need": <index of a Kya chahiye item>, "box": [x, y, w, h] }`
+    (or `"show": "step 2"` / `"draw": [...]`). Use `need` items: real objects, never the stick-figure diagrams.
+    Stacking example (bell on a stool, from KGI-037): `[{ "need": 1, "box": [315, 1300, 450, 330] }, { "need": 0, "box": [315, 1112, 450, 330] }]`.
+    Keep props between the two standing characters (x 300-780) and big (box 250-450 wide). Draw your need items
+    so each one can stand alone in a scene (one clear object per item, real colours).
+  - `"confetti": true` on the winner shot. `chip` + `chipY` 600 (or 860 on the hook shot, above heads).
+- `cover`: `{ "shot": 0, "at": 0.9, "title": ["Kitty game:", "<Game>!"] }` (the hook frame; the hook banner is hidden on the cover).
+- `experiment`: `{ "hook", "variable", "hypothesis" }` (what this reel tests; see carousels/LEARNINGS.md).
+- `pace` (optional, default 4). Lines: `who`, `text` (Roman Hinglish caption, up to ~80 characters), `say` (Devanagari,
+  ai sound as े: है -> हे, मैं -> में, कैसे -> केसे), optional `gap`, `punch` (1-3 a reel), `beat`.
+- Cast: rotate explainer + friend pairs (Tanya/Myra, Shruti/Avika, Ruhi/Zoya, Aditi/Megha...) and use the
+  characters' real personalities in the play scene (Ishita competitive, Shruti precise, Megha + samosa, Avika late).
 
 ### How the script must sound (the user's rule: human, never robotic)
-Write it like the app How-to-play reels the team loved (autopilot/HUMAN-EXAMPLES.md): two friends chatting, not a teacher reading slides.
-- The friend (Myra, Megha, Avika...) asks the naive, real questions a viewer would ask ("Ghanti? Mandir wali?",
-  "Aur hum bas sunte rahein?"). The explainer (Tanya, Ruhi, Shruti...) answers casually, in her own words.
-- Every line reacts to the line before it. No line that only reads the board; the board shows it, she talks around it.
-- Small real details: whose kitty is next, Sunday wali kitty, chai, the bell from the mandir, last time everyone was bored.
-- Natural length lines (5-15 words), with "yaar", "na", "arre", "achha", "toh sun", a "..." pause where a person would pause.
-  Mix short and long. Real Hinglish, no shuddh Hindi, no textbook English.
-- One small laugh or surprise (the twist of the game, a friend wanting to cheat), and a warm ending where the friend
-  decides to play it at her kitty. No forced punchline every line, no sound-effect jokes, no rhymes.
-- Never sell: no app, no price, no "follow karo" in the lines. The caption asks the comment question.
+Write it like the app How-to-play reels the team loved (autopilot/HUMAN-EXAMPLES.md): friends chatting, not a teacher.
+- The friend asks the naive, real questions a viewer would ask ("Ghanti? Mandir wali?"). The explainer answers
+  casually, in her own words. Every line reacts to the one before. The board shows the rule; she talks around it.
+- Small real details: Sunday wali kitty, mummy ji ka rule, chai, the bell from the mandir, late again.
+- Natural lines (5-15 words), "yaar", "na", "arre", "achha", "toh sun", a "..." pause. Real Hinglish.
+- Never sell: no app, no price, no "follow karo" in lines. The caption asks the comment question.
 - Self-test: read it aloud. If any line sounds like an ad, a teacher or a robot, rewrite it.

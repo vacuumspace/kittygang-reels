@@ -38,8 +38,10 @@ function check(d, slides) {
   const tr = T.load();
   tr.carousels = tr.carousels || [];
   const made = [];
-  const done = new Set(tr.carousels.filter((c) => c.status !== 'failed').map((c) => c.id));
   const dir = path.join(ROOT, 'carousels', 'drafts');
+  // a draft that got a reel block after it went out as a carousel (KGI-036/037 on 2026-11-26) is made again as a reel
+  const hasReel = new Set(fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((d) => d.reel).map((d) => d.id));
+  const done = new Set(tr.carousels.filter((c) => c.status !== 'failed' && !(hasReel.has(c.id) && c.format !== 'reel' && c.status !== 'published')).map((c) => c.id));
   const drafts = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((d) => !done.has(d.id) && !d.skip);
   if (!drafts.length) {
     if (!DRY) await T.status('carousel-render', 'ok', null);
@@ -95,7 +97,7 @@ function check(d, slides) {
         if (spec.total < 15 || spec.total > 90) throw new Error('QA: reel is ' + spec.total + ' s (need 15-90)');
         run('npx', ['remotion', 'render', 'AutoReel', mp4, '--props=' + props, '--log=error']);
         run('npx', ['remotion', 'still', 'AutoCover', cov, '--props=' + props, '--image-format=jpeg', '--log=error']);
-        Object.assign(rec, { format: 'reel', duration: spec.total, script: R.shots.flatMap((sh, i) => (sh.lines || []).map((l) => ({ shot: i + 1, who: l.who, line: l.text }))) });
+        Object.assign(rec, { format: 'reel', experiment: d.reel.experiment, hook: (d.reel.shots[0]?.hook || []).join(' '), duration: spec.total, script: R.shots.flatMap((sh, i) => (sh.lines || []).map((l) => ({ shot: i + 1, who: l.who, line: l.text }))) });
         rec.video_url = T.r2put(path.join(ROOT, mp4), 'reels/games/' + R.id + '.mp4', 'video/mp4');
         rec.cover_url = T.r2put(path.join(ROOT, cov), 'reels/games/' + R.id + '-cover.jpg', 'image/jpeg');
         const q = await T.agent('reels/queue', { kind: 'game', video_url: rec.video_url, cover_url: rec.cover_url, caption, title: 'Kitty Game Ideas #' + d.n + ': ' + d.game, local_id: d.id });
