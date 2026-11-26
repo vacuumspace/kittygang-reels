@@ -67,55 +67,41 @@ Colours: "pink", "yel", "green", "ink", "mute", "white", "blue" or any "#hex".
 | text | x, y, text, size, color, a ("start"/"middle"), rot | label or callout |
 | svg | markup | raw SVG shapes (rect, path, ellipse, line, polygon) when nothing else fits |
 
-## The reel (required since 2026-11-26): the Kitty Gang PLAYS the game, then explains it
-The game is posted as a REEL (Instagram, Facebook, YouTube Shorts playlist "Kitty Game Ideas"), not a carousel. The
-slides above are still built, for the website page only. The user's bar: never boring. Good visuals, a dressed party
-room, the gang actually playing with the game's real props, and a funny moment. A reel that only explains is a fail.
+## The reel (required): a SIMPLE step-by-step explainer, PLAYED OUT by the Kitty Gang (no whiteboard)
+The game is posted as a REEL (Instagram, Facebook, YouTube "Kitty Game Ideas" playlist). The slides above are only for
+the website page. The user's rules (2026-11-26): a simple, clear script; NO whiteboard; show the characters playing;
+superb animation. Copy `carousels/examples/KGI-037-play-scenes.json` (Ghanti Pakdo): its shots, layout and timing.
 
-Shape (55-70 s, 7-8 shots, about 110-130 spoken words in total). Copy `drafts/KGI-037.json` (Ghanti Pakdo) and `drafts/KGI-036.json` (rev 2).
-0. TITLE CARD (automatic, never write it): the locked "Kitty Game Ideas #N" cover with the game name opens every reel and is
-   its cover image; the explainer reads "Kitty Game Ideas number N: <game>". Give `"gameSay"`: the game name in Devanagari.
-   Theme music (the app's booked theme of the day) plays low under the whole reel automatically.
-1. HOOK SCENE (right after the card): the gang already mid-game, the funniest or most chaotic moment of the game, with the props.
-   `hook` banner (2 short lines, the payoff, e.g. "1 ghanti, / poori kitty paagal!"), one shouted line, `punch: true`.
-2. "WHAT IS THIS?" BOARD (show: cover): a friend who just walked in asks, the explainer names the game in one line.
-3. 2-3 BOARDS, fast (need, the 1-2 steps that matter, the twist). Merge steps in speech; never one board per step if
-   the reel gets long. The friend asks one naive question per board.
-4. PLAY SCENE: the gang plays one round. Someone does it wrong in a very human way (overthinks, mummy ji ka rule,
-   grabs too early) and gets caught. `chip` = live score or the called item ("PANEER: CHALEGA?"), `tick` sfx for a timer.
-5. WINNER SCENE: `confetti: true`, the winner's line in character, then the friend decides to play it at her kitty
-   (the button). Optional prize prop (`game` with the prize item).
+Automatic (never write them): the "Kitty Game Ideas #N" title card first (read out, also the cover; give `"gameSay"`, the
+game name in Devanagari), the day's app theme music low underneath, pink wipe transitions, slower calm voices with
+~0.7 s between speakers.
 
-### Shot fields for game reels
-- Board shots: `{ "kit": "board", "show": "cover" | "need" | "step 2" | "rules" | "levels", "chars": [explainer, friend], "lines": [...] }`.
-  The drawing builds up piece by piece while she talks. `title` overrides the heading; `draw` + `title` = a custom board.
-  Chars default under the board (x 220 / 860, y 1850, s 1.5); set `name`, `x`, `turn`, `pose`, `mouth`, `eyes`, `hop`.
-  No `chip`, `hook` or `banner` on boards. Fairy lights + balloons are added automatically (`"decor": false` to drop).
-- Scene shots (hook, play, winner): autopilot/DRAFT-FORMAT.md scene kit (`set: "living"`, chars with x/y/s, sofa seats
-  y 1330 s 1.25, standing y 1760 s 2-2.1) plus:
-  - `"decor": true` party dressing (fairy lights, balloons, gift). Always on for game reels.
-  - `"game"`: the game's REAL props in the room, one placement or a list: `{ "need": <index of a Kya chahiye item>, "box": [x, y, w, h] }`
-    (or `"show": "step 2"` / `"draw": [...]`). Use `need` items: real objects, never the stick-figure diagrams.
-    Stacking example (bell on a stool, from KGI-037): `[{ "need": 1, "box": [315, 1300, 450, 330] }, { "need": 0, "box": [315, 1112, 450, 330] }]`.
-    Keep props between the two standing characters (x 300-780) and big (box 250-450 wide). Draw your need items
-    so each one can stand alone in a scene (one clear object per item, real colours).
-  - `"confetti": true` on the winner shot. `chip` + `chipY` 600 (or 860 on the hook shot, above heads).
-- `cover`: automatic (the title card). `rev`: bump it (2, 3...) to remake a reel that is booked but not posted yet.
-- `experiment`: `{ "hook", "variable", "hypothesis" }` (what this reel tests; see carousels/LEARNINGS.md).
-- `pace` (optional, default 4). Lines: `who`, `text` (Roman Hinglish caption, up to ~80 characters), `say` (Devanagari,
-  ai sound as े: है -> हे, मैं -> में, कैसे -> केसे), optional `gap`, `punch` (1-3 a reel), `beat`.
-- Cast: rotate explainer + friend pairs (Tanya/Myra, Shruti/Avika, Ruhi/Zoya, Aditi/Megha...) and use the
-  characters' real personalities in the play scene (Ishita competitive, Shruti precise, Megha + samosa, Avika late).
+### The script (about 70-90 words, 50-60 s)
+One explainer (Tanya, Ruhi, Shruti...) and one friend (Myra, Avika, Zoya...). The friend asks for a new game, the
+explainer says "main step by step batati hun", then ONE line per step, in the order you play it: what you need, how
+everyone sits, the main rule, the twist, how you win. The friend asks at most one simple question, and ends with "is
+Sunday ki kitty mein yahi khelenge". Every line is a complete, plain sentence (6-16 words). No jokes inside the rules,
+no fake-outs, no slang a 50-year-old would not use. Show it, then say it once.
 
-### How the script must sound (the user's rule: human, never robotic)
-Write it like the app How-to-play reels the team loved (autopilot/HUMAN-EXAMPLES.md): friends chatting, not a teacher.
-- The friend asks the naive, real questions a viewer would ask ("Ghanti? Mandir wali?"). The explainer answers
-  casually, in her own words. Every line reacts to the one before. The board shows the rule; she talks around it.
-- Small real details: Sunday wali kitty, mummy ji ka rule, chai, the bell from the mandir, late again.
-- EVERY LINE IS A COMPLETE SENTENCE a person would say out loud (user 2026-11-26: "too fast, unfinished, robotic").
-  No fragments ("Minus ek!" alone), no lines that start with "...", no clipped rule-speak. 6-14 words a line, max 2 lines
-  per speaker turn, about 16-18 lines in the whole reel. "yaar", "na", "arre", "achha", "toh" where natural. Real Hinglish.
-- Pace is set for you: slower voices and about 0.7 s between speakers. Do not set `pace` or `gap` except `gap: 0.3` when
-  someone is cut off mid-sentence on purpose.
-- Never sell: no app, no price, no "follow karo" in lines. The caption asks the comment question.
-- Self-test: read it aloud. If any line sounds like an ad, a teacher or a robot, rewrite it.
+### The shots (8-11)
+1. Friend + explainer standing in the party room (2 lines).
+2. KYA CHAHIYE: the explainer alone; the props DROP IN one by one (`game` items with `at`), the main prop rings or pops.
+3. One shot per step with `label: { kicker: "STEP 1", text: "<6 words>" }`; the explainer's line is the voice-over while
+   the gang does it (players walk in with `from`, the host sits on the sofa reading, etc.).
+4. After the main rule and after the twist: a silent ACTION shot (`dur` 2.4-2.8, no lines): a player grabs / throws /
+   does the move (`game` item with `grab: { who, at }` + that player's `poseAt: { at, pose: "wave" }`), `ring`, a
+   floating score (`pops: [{ text: "+1", x, y, at, color: "green" }]` or "-1" red), camera `focus: { x, y, z: 1.25, at: 0.2 }`,
+   and sfx (whoosh, chimes, boing, waah, haww, clap).
+5. JEET: `label` with the win rule, winner holding the prop, `confetti: 0.3`, score `chip`.
+6. Friend + explainer: the friend says she will play it at her kitty.
+Layout that works: host on the sofa (x 540, y 1330, s 1.25, pose "hold" + prop "phone"); two players standing at
+x 230 and x 800 (y 1760, s 2), the game props between them (box about x 365-715, y 1200-1620). The raised "wave" hand is
+always her screen-right hand, so the grabbed prop flies to (x + 150, y - 520) for s 2. Keep `label` text short.
+
+### Shot fields
+- `kit: "scene"`, `set: "living"`, `decor: true`, `chars` [{ name, x, y, s, turn, pose, mouth, eyes, prop, from, moveAt,
+  moveDur, hop, poseAt }] (max 3), `lines`, `label`, `chip` + `chipY` (600-640), `game` (list of { need: <Kya chahiye index>,
+  box: [x, y, w, h], at, ring: { at }, grab: { who, at, dur } }), `pops`, `focus`, `confetti`, `sfx`, `stickers`, `dur`, `hold`.
+- Draw each `need` item so it stands alone in a scene: one clear real object, real colours, no stick figures.
+- `rev`: bump it (2, 3...) to remake a reel that is booked but not posted yet. `experiment`: { hook, variable, hypothesis }.
+- Lines: `who`, `text` (Roman Hinglish caption), `say` (Devanagari; ai sound as े: है -> हे, मैं -> में), optional `gap`, `beat`.
