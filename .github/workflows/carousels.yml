@@ -31,6 +31,7 @@ jobs:
       - name: Render new game ideas (explainer reel + web page), book posting slots
         env:
           EDGE_TTS_BIN: edge-tts
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}

@@ -8,7 +8,7 @@
 //   node scripts/carousels/reel.js carousels/drafts/KGI-038.json   -> writes autopilot/wip/KGI-038-reel.json, prints its path
 const fs = require('fs');
 const path = require('path');
-const { fit, extent } = require('../../carousels/build');
+const { fit, extent, build } = require('../../carousels/build');
 const { T, lines, D, P, draw } = require('../../carousels/kit');
 
 const ROOT = path.join(__dirname, '..', '..');
@@ -49,7 +49,7 @@ function board(d, show) {
   throw new Error('board: unknown show "' + show + '"');
 }
 
-function toReel(d) {
+function toReel(d, opts = {}) {
   const r = d.reel;
   if (!r || !Array.isArray(r.shots) || !r.shots.length) throw new Error('draft has no reel.shots');
   const shots = r.shots.map((s0) => {
@@ -68,10 +68,20 @@ function toReel(d) {
     const { show, draw: _d, title, ...rest } = s;
     return { ...rest, boardTitle: title || b.title, boardParts: { transform: b.transform, parts: b.parts } };
   });
+  // series title card first (user: "Kitty Game Ideas #N + game name at the very beginning"): the locked carousel
+  // cover slide, read out by the explainer; it is also the reel's cover image
+  const host = (r.shots.find((s) => s.kit === 'board')?.chars || [])[0]?.name || 'Tanya';
+  const intro = {
+    kit: 'slide', slideSvg: build(d)[0], hold: 0.5, sfx: [{ at: 0.05, name: 'whoosh', vol: 0.4 }, { at: 0.35, name: 'sparkle', vol: 0.35 }],
+    lines: [{ who: host, text: 'Kitty Game Ideas number ' + d.n + ': ' + d.game + '!', say: 'किटी गेम आइडियाज़ नंबर ' + d.n + '... ' + (r.gameSay || d.game) + '!', gap: 0.5 }],
+  };
   return {
     id: d.id + '-reel', title: r.title || d.game, format: 'Game idea explainer', idea: d.tagline, logline: r.logline,
-    caption: d.caption, hashtags: d.hashtags, ambience: r.ambience || { name: 'crowd', vol: 0.07 }, pace: r.pace ?? 4,
-    cover: r.cover, shots,
+    caption: d.caption, hashtags: d.hashtags, ambience: r.ambience || { name: 'crowd', vol: 0.06 },
+    // calm and clear (user 2026-11-26: "too fast to understand"): slower voices, ~0.7 s between speakers like the
+    // How to play reels, and the app's theme music low underneath (opts.musicUrl, set by render-new.js)
+    pace: r.pace ?? -6, gap: r.gap ?? 0.7, musicUrl: opts.musicUrl, musicVol: opts.musicUrl ? 0.4 : undefined,
+    cover: { shot: 0, at: 1.2, title: [] }, shots: [intro, ...shots],
   };
 }
 module.exports = { toReel, board };
@@ -80,6 +90,6 @@ if (require.main === module) {
   const d = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
   const out = path.join(ROOT, 'autopilot', 'wip', d.id + '-reel.json');
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, JSON.stringify(toReel(d), null, 1));
+  fs.writeFileSync(out, JSON.stringify(toReel(d, { musicUrl: process.argv[3] }), null, 1));
   console.log(path.relative(ROOT, out));
 }

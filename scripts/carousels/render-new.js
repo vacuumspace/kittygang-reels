@@ -13,7 +13,8 @@ const { selectComposition, renderStill } = require('@remotion/renderer');
 const T = require('../autopilot/tracker');
 const { build } = require('../../carousels/build');
 const { toReel } = require('./reel');
-const { uploadShort } = require('../youtube/upload');
+const { uploadShort, accessToken } = require('../youtube/upload');
+const deleteShort = async (id) => { const r = await fetch('https://www.googleapis.com/youtube/v3/videos?id=' + id, { method: 'DELETE', headers: { Authorization: 'Bearer ' + (await accessToken()) } }); if (!r.ok && r.status !== 404) throw new Error('youtube delete ' + r.status); };
 
 const DRY = process.argv.includes('--dry');
 const ROOT = T.ROOT;
@@ -40,8 +41,18 @@ function check(d, slides) {
   const made = [];
   const dir = path.join(ROOT, 'carousels', 'drafts');
   // a draft that got a reel block after it went out as a carousel (KGI-036/037 on 2026-11-26) is made again as a reel
-  const hasReel = new Set(fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((d) => d.reel).map((d) => d.id));
-  const done = new Set(tr.carousels.filter((c) => c.status !== 'failed' && !(hasReel.has(c.id) && c.format !== 'reel' && c.status !== 'published')).map((c) => c.id));
+  const all = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+  const hasReel = new Set(all.filter((d) => d.reel).map((d) => d.id));
+  // reel.rev: bump it to remake a reel that is booked but not posted yet (new script or look); the old booking and
+  // its YouTube copy are replaced
+  const rev = Object.fromEntries(all.filter((d) => d.reel).map((d) => [d.id, d.reel.rev || 1]));
+  const remake = (c) => hasReel.has(c.id) && c.status !== 'published' && (c.format !== 'reel' || (c.rev || 1) < rev[c.id]);
+  const done = new Set(tr.carousels.filter((c) => c.status !== 'failed' && !remake(c)).map((c) => c.id));
+  const old = Object.fromEntries(tr.carousels.map((c) => [c.id, c]));
+  // the app's booked theme music for today, played low under every game reel (falls back to the generated track)
+  let musicUrl;
+  try { const th = (await require('../theme/today').today()).theme; if (th?.sounds) { const u = PUBLIC + '/' + th.sounds + '/music.m4a'; if ((await fetch(u, { method: 'HEAD' })).ok) musicUrl = u; } } catch (e) { console.warn('theme music:', e.message); }
+  console.log('game reel music:', musicUrl || 'generated');
   const drafts = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).filter((d) => !done.has(d.id) && !d.skip);
   if (!drafts.length) {
     if (!DRY) await T.status('carousel-render', 'ok', null);
@@ -87,7 +98,7 @@ function check(d, slides) {
       const caption = [d.caption, (d.hashtags || ['#kittyparty', '#kittypartygames', '#kittypartyideas']).join(' ')].join('\n\n');
       if (d.reel) {
         // Kitty Gang explainer reel: voice it, render it, post it like a reel (Instagram + Facebook) and as a Short
-        const R = toReel(d);
+        const R = toReel(d, { musicUrl });
         const df = path.join(ROOT, 'autopilot', 'wip', R.id + '.json');
         fs.mkdirSync(path.dirname(df), { recursive: true });
         fs.writeFileSync(df, JSON.stringify(R));
@@ -97,9 +108,14 @@ function check(d, slides) {
         if (spec.total < 15 || spec.total > 90) throw new Error('QA: reel is ' + spec.total + ' s (need 15-90)');
         run('npx', ['remotion', 'render', 'AutoReel', mp4, '--props=' + props, '--log=error']);
         run('npx', ['remotion', 'still', 'AutoCover', cov, '--props=' + props, '--image-format=jpeg', '--log=error']);
-        Object.assign(rec, { format: 'reel', experiment: d.reel.experiment, hook: (d.reel.shots[0]?.hook || []).join(' '), duration: spec.total, script: R.shots.flatMap((sh, i) => (sh.lines || []).map((l) => ({ shot: i + 1, who: l.who, line: l.text }))) });
+        Object.assign(rec, { format: 'reel', rev: d.reel.rev || 1, music: musicUrl || 'generated', experiment: d.reel.experiment, hook: (d.reel.shots[0]?.hook || []).join(' '), duration: spec.total, script: R.shots.flatMap((sh, i) => (sh.lines || []).map((l) => ({ shot: i + 1, who: l.who, line: l.text }))) });
         rec.video_url = T.r2put(path.join(ROOT, mp4), 'reels/games/' + R.id + '.mp4', 'video/mp4');
         rec.cover_url = T.r2put(path.join(ROOT, cov), 'reels/games/' + R.id + '-cover.jpg', 'image/jpeg');
+        // remake: cancel the earlier unposted booking and remove its scheduled YouTube copy first
+        if (old[d.id]) {
+          await T.agent('reels/queue/cancel', { local_id: d.id, reason: 'remade (rev ' + (d.reel.rev || 1) + ')' }).catch((e) => console.warn('cancel', e.message));
+          if (old[d.id].yt_id && process.env.YT_REFRESH_TOKEN) await deleteShort(old[d.id].yt_id).catch((e) => console.warn('youtube delete', e.message));
+        }
         const q = await T.agent('reels/queue', { kind: 'game', video_url: rec.video_url, cover_url: rec.cover_url, caption, title: 'Kitty Game Ideas #' + d.n + ': ' + d.game, local_id: d.id });
         if (q.error) throw new Error('queue: ' + q.error);
         Object.assign(rec, { status: 'queued', queue_id: q.id, scheduled_ist: q.scheduled_ist });

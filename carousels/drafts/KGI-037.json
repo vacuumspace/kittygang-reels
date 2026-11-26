@@ -873,20 +873,14 @@
     ]
   },
   "reel": {
+    "rev": 2,
     "title": "Ghanti Pakdo",
-    "logline": "The gang is mid-game grabbing a bell; Tanya teaches Myra the rules; Megha grabs on the fake word and gets caught; Ishita wins.",
-    "cover": {
-      "shot": 0,
-      "at": 0.9,
-      "title": [
-        "Kitty game:",
-        "Ghanti Pakdo!"
-      ]
-    },
+    "gameSay": "घंटी पकड़ो",
+    "logline": "The gang is mid-game grabbing a bell; Tanya calmly teaches Myra the rules; Megha grabs on the fake word and loses a point; Ishita wins.",
     "experiment": {
-      "hook": "gang mid-game, Ishita grabs the bell",
-      "variable": "play scenes + 4 boards, about 40 s",
-      "hypothesis": "showing the play first keeps people past 3 s"
+      "hook": "series card, then the gang mid-game grabbing the bell",
+      "variable": "slower, full-sentence conversation with theme music",
+      "hypothesis": "clear speech keeps watched % up through the boards"
     },
     "shots": [
       {
@@ -948,10 +942,9 @@
         "lines": [
           {
             "who": "Ishita",
-            "text": "Ghanti! Meri hai, meri!",
-            "say": "घंटी! मेरी हे, मेरी!",
-            "punch": true,
-            "gap": 0.2
+            "text": "Ghanti meri hai! Maine sabse pehle pakdi!",
+            "say": "घंटी मेरी हे! मैंने सबसे पहले पकड़ी!",
+            "punch": true
           }
         ]
       },
@@ -975,14 +968,13 @@
         "lines": [
           {
             "who": "Myra",
-            "text": "Arre, yeh kya chal raha hai? Sab ghanti ke peeche kyun pade hain?",
-            "say": "अरे, ये क्या चल रहा हे? सब घंटी के पीछे क्यों पड़े हें?"
+            "text": "Arre, yeh sab ghanti ke peeche kyun bhaag rahe hain?",
+            "say": "अरे, ये सब घंटी के पीछे क्यों भाग रहे हें?"
           },
           {
             "who": "Tanya",
-            "text": "Ghanti Pakdo! Aa, sikhati hun, bahut simple hai.",
-            "say": "घंटी पकड़ो! आ, सिखाती हूँ, बहुत सिंपल हे।",
-            "gap": 0.3
+            "text": "Yeh Ghanti Pakdo game hai. Aa, aaram se samjhati hun.",
+            "say": "ये घंटी पकड़ो गेम हे। आ, आराम से समझाती हूँ।"
           }
         ]
       },
@@ -1006,18 +998,18 @@
         "lines": [
           {
             "who": "Tanya",
-            "text": "Bas ek ghanti, ek stool, aur chaar chaar ladies aamne saamne.",
-            "say": "बस एक घंटी, एक स्टूल, और चार चार लेडीज़ आमने सामने।"
+            "text": "Bas ek ghanti, ek chhota stool, aur kuch kursiyan chahiye.",
+            "say": "बस एक घंटी, एक छोटा स्टूल, और कुछ कुर्सियाँ चाहिए।"
           },
           {
             "who": "Myra",
-            "text": "Ghanti toh mandir wali chalegi na?",
-            "say": "घंटी तो मंदिर वाली चलेगी ना?"
+            "text": "Ghar ke mandir wali ghanti chalegi na?",
+            "say": "घर के मंदिर वाली घंटी चलेगी ना?"
           },
           {
             "who": "Tanya",
-            "text": "Haan, wahi!",
-            "say": "हाँ, वही!"
+            "text": "Haan, wahi chalegi.",
+            "say": "हाँ, वही चलेगी।"
           }
         ]
       },
@@ -1041,8 +1033,13 @@
         "lines": [
           {
             "who": "Tanya",
-            "text": "Host kahani sunati hai. Jaise hi ghanti shabd aaya, jhapat lo!",
-            "say": "होस्ट कहानी सुनाती हे। जेसे ही घंटी शब्द आया, झपट लो!"
+            "text": "Host ek kahani sunati hai.",
+            "say": "होस्ट एक कहानी सुनाती हे।"
+          },
+          {
+            "who": "Tanya",
+            "text": "Jaise hi ghanti shabd aaye, ghanti utha lo, aur point tumhara.",
+            "say": "जेसे ही घंटी शब्द आए, घंटी उठा लो, और पॉइंट तुम्हारा।"
           }
         ]
       },
@@ -1066,13 +1063,13 @@
         "lines": [
           {
             "who": "Myra",
-            "text": "Aur galat time pe uthaya toh?",
-            "say": "और ग़लत टाइम पे उठाया तो?"
+            "text": "Yeh toh aasaan hai, main hi jeetungi.",
+            "say": "ये तो आसान हे, में ही जीतूँगी।"
           },
           {
             "who": "Tanya",
-            "text": "Minus ek! Host jaan bujh ke ghadi, shanti bolegi.",
-            "say": "माइनस एक! होस्ट जान बूझ के घड़ी, शांति बोलेगी।"
+            "text": "Itna aasaan nahi. Host ghadi ya shanti bhi bolegi, aur galat uthaya toh minus ek.",
+            "say": "इतना आसान नहीं। होस्ट घड़ी या शांति भी बोलेगी, और ग़लत उठाया तो माइनस एक।"
           }
         ]
       },
@@ -1131,31 +1128,29 @@
             "mouth": "smirk"
           }
         ],
+        "sfx": [
+          {
+            "at": 3.4,
+            "name": "chimes",
+            "vol": 0.4
+          }
+        ],
         "lines": [
           {
             "who": "Tanya",
-            "text": "...aur Santa ne apni ghadi dekhi...",
-            "say": "...और सांता ने अपनी घड़ी देखी...",
-            "gap": 0.15
+            "text": "Aur phir Santa ne apni ghadi dekhi.",
+            "say": "और फिर सांता ने अपनी घड़ी देखी।"
           },
           {
             "who": "Megha",
-            "text": "Ghanti! Mil gayi!",
-            "say": "घंटी! मिल गई!",
-            "gap": 0.3
+            "text": "Ghanti! Yeh point mera hai!",
+            "say": "घंटी! ये पॉइंट मेरा हे!"
           },
           {
             "who": "Ishita",
-            "text": "Ghadi bola tha madam, ghadi!",
-            "say": "घड़ी बोला था मैडम, घड़ी!",
+            "text": "Megha, ghadi bola tha, ghanti nahi. Point gaya!",
+            "say": "मेघा, घड़ी बोला था, घंटी नहीं। पॉइंट गया!",
             "punch": true
-          }
-        ],
-        "sfx": [
-          {
-            "at": 2.6,
-            "name": "chimes",
-            "vol": 0.4
           }
         ]
       },
@@ -1215,11 +1210,12 @@
             "vol": 0.4
           }
         ],
+        "hold": 1,
         "lines": [
           {
             "who": "Ishita",
-            "text": "Paanch point! Obviously.",
-            "say": "पाँच पॉइंट! ऑब्वियसली।"
+            "text": "Paanch point! Maine kaha tha na, main hi jeetungi.",
+            "say": "पाँच पॉइंट! मैंने कहा था ना, में ही जीतूँगी।"
           },
           {
             "who": "Myra",
@@ -1228,8 +1224,7 @@
             "beat": "button",
             "punch": true
           }
-        ],
-        "hold": 0.9
+        ]
       }
     ]
   }

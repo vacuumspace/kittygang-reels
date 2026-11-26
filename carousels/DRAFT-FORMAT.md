@@ -72,8 +72,11 @@ The game is posted as a REEL (Instagram, Facebook, YouTube Shorts playlist "Kitt
 slides above are still built, for the website page only. The user's bar: never boring. Good visuals, a dressed party
 room, the gang actually playing with the game's real props, and a funny moment. A reel that only explains is a fail.
 
-Shape (35-50 s, 7-9 shots). Copy the structure of `drafts/KGI-037.json` (Ghanti Pakdo) and `drafts/KGI-036.json`:
-1. HOOK SCENE (0-3 s): the gang already mid-game, the funniest or most chaotic moment of the game, with the props.
+Shape (55-70 s, 7-8 shots, about 110-130 spoken words in total). Copy `drafts/KGI-037.json` (Ghanti Pakdo) and `drafts/KGI-036.json` (rev 2).
+0. TITLE CARD (automatic, never write it): the locked "Kitty Game Ideas #N" cover with the game name opens every reel and is
+   its cover image; the explainer reads "Kitty Game Ideas number N: <game>". Give `"gameSay"`: the game name in Devanagari.
+   Theme music (the app's booked theme of the day) plays low under the whole reel automatically.
+1. HOOK SCENE (right after the card): the gang already mid-game, the funniest or most chaotic moment of the game, with the props.
    `hook` banner (2 short lines, the payoff, e.g. "1 ghanti, / poori kitty paagal!"), one shouted line, `punch: true`.
 2. "WHAT IS THIS?" BOARD (show: cover): a friend who just walked in asks, the explainer names the game in one line.
 3. 2-3 BOARDS, fast (need, the 1-2 steps that matter, the twist). Merge steps in speech; never one board per step if
@@ -97,7 +100,7 @@ Shape (35-50 s, 7-9 shots). Copy the structure of `drafts/KGI-037.json` (Ghanti 
     Keep props between the two standing characters (x 300-780) and big (box 250-450 wide). Draw your need items
     so each one can stand alone in a scene (one clear object per item, real colours).
   - `"confetti": true` on the winner shot. `chip` + `chipY` 600 (or 860 on the hook shot, above heads).
-- `cover`: `{ "shot": 0, "at": 0.9, "title": ["Kitty game:", "<Game>!"] }` (the hook frame; the hook banner is hidden on the cover).
+- `cover`: automatic (the title card). `rev`: bump it (2, 3...) to remake a reel that is booked but not posted yet.
 - `experiment`: `{ "hook", "variable", "hypothesis" }` (what this reel tests; see carousels/LEARNINGS.md).
 - `pace` (optional, default 4). Lines: `who`, `text` (Roman Hinglish caption, up to ~80 characters), `say` (Devanagari,
   ai sound as े: है -> हे, मैं -> में, कैसे -> केसे), optional `gap`, `punch` (1-3 a reel), `beat`.
@@ -109,6 +112,10 @@ Write it like the app How-to-play reels the team loved (autopilot/HUMAN-EXAMPLES
 - The friend asks the naive, real questions a viewer would ask ("Ghanti? Mandir wali?"). The explainer answers
   casually, in her own words. Every line reacts to the one before. The board shows the rule; she talks around it.
 - Small real details: Sunday wali kitty, mummy ji ka rule, chai, the bell from the mandir, late again.
-- Natural lines (5-15 words), "yaar", "na", "arre", "achha", "toh sun", a "..." pause. Real Hinglish.
+- EVERY LINE IS A COMPLETE SENTENCE a person would say out loud (user 2026-11-26: "too fast, unfinished, robotic").
+  No fragments ("Minus ek!" alone), no lines that start with "...", no clipped rule-speak. 6-14 words a line, max 2 lines
+  per speaker turn, about 16-18 lines in the whole reel. "yaar", "na", "arre", "achha", "toh" where natural. Real Hinglish.
+- Pace is set for you: slower voices and about 0.7 s between speakers. Do not set `pace` or `gap` except `gap: 0.3` when
+  someone is cut off mid-sentence on purpose.
 - Never sell: no app, no price, no "follow karo" in lines. The caption asks the comment question.
 - Self-test: read it aloud. If any line sounds like an ad, a teacher or a robot, rewrite it.

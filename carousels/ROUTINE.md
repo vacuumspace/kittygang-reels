@@ -44,7 +44,7 @@ out as this reel, not as a carousel.
      people search ("How many players...", "What do you need...", "Is it good for..."), each answered in 1 to 3 lines.
    - No em dashes anywhere. No app mention in slides, reel lines or caption.
    - The reel: every step has a board shot; every Hindi line has `say` in Devanagari; read the script aloud in your head:
-     two friends chatting, each line answers the last, no ad or teacher voice. About 35-60 s (roughly 90-150 words).
+     two friends chatting, each line answers the last, no ad or teacher voice. About 55-70 s, 110-130 words, every line a complete sentence, gameSay set.
 5. In the bank mark the idea `used: "KGI-NNN"` (or add it as used if it was your own), commit
    "game carousel KGI-NNN: <game>" and `git push`. The push starts the render. Only touch files under `carousels/`
    (drafts, LEARNINGS.md) and the `ideas` list in `autopilot/tracker.json`.

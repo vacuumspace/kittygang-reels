@@ -143,6 +143,11 @@ const KITS = {
     return K.doorScene(cs.map((c, i) => char(spec, c, xs[i], c.at === 'door' ? 1450 : 1700, 1.5, t, i, sh)).join(''), !!sh.night, !!sh.sunrise);
   },
   card(spec, sh, t) { return '<rect width="1080" height="1920" fill="' + (sh.bg || BLUSH) + '"></rect>'; },
+  // series title card: a 1080 x 1350 slide (the locked "Kitty Game Ideas #N" cover) centred on the 9:16 frame
+  slide(spec, sh, t) {
+    const k = back((t - sh.start) / 0.4);
+    return '<rect width="1080" height="1920" fill="#FFF0F5"></rect><g transform="translate(540 960) scale(' + f2(0.92 + 0.08 * k) + ') translate(-540 -675)">' + (sh.slideSvg || '') + '</g>';
+  },
   // game explainer: the living room with a whiteboard on an easel showing the game's drawing (sh.boardSvg, pre-fitted
   // by scripts/carousels/reel.js into the box x 90-990, y 545-1165) and its title; the host stands beside it.
   // Captions stay at the top (up to 3 lines end above y 410), the board starts below them, the characters stand under it.
@@ -249,7 +254,7 @@ export function frameAt(spec, t) {
   let o = '<g transform="translate(540 1000) scale(' + z.toFixed(4) + ') translate(-540 -1000)' + shake + '">' + body + '</g>';
   if (sh.hook) o += hookBanner(sh.hook, sh.start, t, sh.hookY || 520);
   if (sh.chip) o += chip(sh.chip, sh.start + 0.2, t, sh.chipY || 560);
-  if (sh.kit !== 'phone') { const l = spec.lines.find((x) => t >= x.start - 0.05 && t <= x.start + x.dur + 0.2); if (l && !sh.hook) o += caption(l.text, l.start - 0.05, t, sh.kit === 'board' ? 34 : 30); }
+  if (sh.kit !== 'phone' && sh.kit !== 'slide') { const l = spec.lines.find((x) => t >= x.start - 0.05 && t <= x.start + x.dur + 0.2); if (l && !sh.hook) o += caption(l.text, l.start - 0.05, t, sh.kit === 'board' ? 34 : 30); }
   // no fade-in: frame 1 must be the real scene (it is what Instagram shows before a cover is set)
   const fadeOut = sat((t - (spec.total - 0.5)) / 0.5);
   if (fadeOut > 0) o += '<rect width="1080" height="1920" fill="#FFF4F7" opacity="' + f2(fadeOut) + '"></rect>';

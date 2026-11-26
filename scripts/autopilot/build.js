@@ -19,6 +19,8 @@ const LAUGH = 'laughv', GIGGLE = 'laughv';
 const boost = (r) => { const m = String(r || '+0%').match(/^([+-]?\d+)/); const v = (m ? Number(m[1]) : 0) + (D.pace ?? 4); return (v >= 0 ? '+' : '') + v + '%'; };
 const draftFile = process.argv[2];
 const D = JSON.parse(fs.readFileSync(draftFile, 'utf8'));
+// default pause after each line (game idea reels use about 0.7 s: the How to play reels leave ~0.8 s between speakers)
+const GAP = D.gap ?? 0.12;
 const OUT = path.join(ROOT, 'public', 'autopilot', D.id);
 const TMP = path.join(OUT, '_tmp');
 fs.mkdirSync(TMP, { recursive: true });
@@ -107,10 +109,10 @@ function envelope(file) {
         // the draft adds a reaction sound in its own sfx where a moment really earns it
         else { sfx.push({ at: lt, name: 'pop', vol: 0.2 }); punchN++; }
       }
-      lt += d + (L.gap ?? 0.12);
+      lt += d + (L.gap ?? GAP);
       console.log(L.who.padEnd(7), d.toFixed(2), L.text);
     }
-    let end = (s.lines?.length ? lt - (s.lines[s.lines.length - 1].gap ?? 0.12) + (s.hold ?? 0.3) : t + (s.dur ?? 1.5));
+    let end = (s.lines?.length ? lt - (s.lines[s.lines.length - 1].gap ?? GAP) + (s.hold ?? 0.3) : t + (s.dur ?? 1.5));
     end = Math.max(end, callEnd + 0.4);
     // theme kit sounds: the ball pops, dabs, the 3-2-1 before a reveal, Full House
     if (TS) {
@@ -140,10 +142,12 @@ function envelope(file) {
     t += 6.8;
   }
   const total = +(t + (TS ? 0 : D.tail ?? 0.6)).toFixed(2);
+  // game idea reels: the app's theme music (D.musicUrl, an R2 music.m4a), played quietly (D.musicVol) and looped
   if (TS) fs.writeFileSync(path.join(OUT, 'music.m4a'), await TH.get(`${TH.R2}/${D.theme.sounds}/music.m4a`));
+  else if (D.musicUrl) { const r = await fetch(D.musicUrl); if (!r.ok) throw new Error('music ' + r.status + ' ' + D.musicUrl); fs.writeFileSync(path.join(OUT, 'music.m4a'), Buffer.from(await r.arrayBuffer())); }
   else execFileSync('node', [path.join(ROOT, 'scripts', 'music-quirky.js'), path.join(OUT, 'music.wav'), String(Math.ceil(total + 1))], { stdio: 'ignore' });
   fs.rmSync(TMP, { recursive: true, force: true });
-  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', musicFile: TS ? 'music.m4a' : 'music.wav', calls, frames: Math.round(total * FPS), cover: D.cover, ambience: D.ambience };
+  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', musicFile: TS || D.musicUrl ? 'music.m4a' : 'music.wav', musicVol: D.musicVol, musicLoop: !!D.musicUrl, calls, frames: Math.round(total * FPS), cover: D.cover, ambience: D.ambience };
   if (TS) spec.T = { ...TS, total };
   fs.mkdirSync(path.join(ROOT, 'autopilot', 'timed'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'autopilot', 'timed', D.id + '.json'), JSON.stringify({ spec }));
