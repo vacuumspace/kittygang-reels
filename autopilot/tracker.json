@@ -15787,6 +15787,41 @@
       "yt_id": "ONlu_58uva0",
       "yt_url": "https://youtube.com/shorts/ONlu_58uva0",
       "yt_privacy": "private"
+    },
+    {
+      "id": "TH-2026-11-27",
+      "created": "2026-11-27",
+      "title": "Aapki farmaish, 90s special!",
+      "format": "Theme Housie",
+      "theme": "ninetiesyaadein",
+      "story": "ai",
+      "variant": "radio-farmaish",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Ruhi hosts a 90s radio farmaish show during the 90s Housie: Shruti asks to rewind the cassette with a pencil to save battery, Tina boasts her house had colour TV for Chitrahaar, Megha has one glass of Rasna for cheat day, then 27 is called and Aditi, who never sent a request, wins the Pager group.",
+      "beats": "hook: namaskar, yeh hai aapki farmaish / farmaish 1/3 cassette: Shruti's pencil rewind / farmaish 2/3 Chitrahaar: Tina's colour TV / farmaish 3/3 Rasna: Megha's cheat day / Ruhi: Pager group, ek number baaki / the call / reveal: Pager group is Aditi's / turn: Ruhi, tumne farmaish bhi nahi ki / button: Aditi, pager pe bhej di thi",
+      "experiment": {
+        "format": "radio-farmaish",
+        "hook": "Ruhi as a 90s radio announcer with her phone as the mic on the 90s Ki Yaadein home art, heartbeat at 0 s, mascot ball spinning above, chip 'AAPKI FARMAISH: 90s SPECIAL' pinned from the first frame, she says 'Namaskar! Yeh hai aapki farmaish!'",
+        "variable": "the known media voice comes from the theme's own era: an old radio farmaish programme (the voice of the 90s for women 30 to 55) instead of a modern TV show, so the hook is a pattern they know by heart and a nostalgia trigger at once, at the winning short length (about 16 s, 9 shots, 'FARMAISH x/3' chips)",
+        "hypothesis": "on 90s day a voice from their own childhood stops the swipe harder than a TV format and the comment prompt ('aapki 90s farmaish?') gives a reason to reply: skip under 48% (TV-voice reels 45.2 to 47.6, real-life ritual not in yet), watched % above 24 (best 26), at least 1 comment with a 90s memory and 1 share or tag from '90s wali saheli'"
+      },
+      "duration": 37.1,
+      "lufs": null,
+      "caption": "Aapki 90s wali farmaish kya hai? Comment mein likho, 90s wali saheli ko tag karo! Aaj ki 90s Ki Yaadein Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #90s #90skids #nostalgia #chitrahaar",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-27.mp4",
+      "story_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-27-story.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-27-cover.jpg",
+      "ig_type": "story",
+      "job_id": "c352a8cf-11bf-46e9-81ad-7a4685bccf8a",
+      "permalink": "https://www.instagram.com/stories/kittyparty.app/4039108117400377324",
+      "media_id": "18123541169077324",
+      "fb_status": "posted",
+      "fb_post_id": "1506500361401733",
+      "yt_id": "5gi-RtKOlo4",
+      "yt_url": "https://youtube.com/shorts/5gi-RtKOlo4",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
