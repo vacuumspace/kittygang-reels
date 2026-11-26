@@ -1,0 +1,1038 @@
+{
+ "id": "KG-2026-11-26-b",
+ "title": "Shawl utaaro, saree dikhao!",
+ "format": "Door arrivals, December saree theme at the front door, each guest wrapped in a shawl, chip climbs, host breaks her own rule",
+ "idea": "Tanya's December kitty is saree theme; every guest arrives in a shawl swearing there is a saree under it and there never is, then Tanya sneezes, wraps herself in a shawl and admits there is a thermal under her own.",
+ "logline": "Tanya sends back every guest whose shawl hides no saree, until she sneezes, grabs a shawl herself and admits she has a thermal on underneath.",
+ "game": "every guest swears 'saree hi hai', opens her shawl, and it is never a saree",
+ "experiment": {
+  "type": "door-arrivals",
+  "hook": "doorbell, Tanya in her fuchsia saree blocks the door as Ruhi stands in the doorway wrapped in a brown shawl: 'December kitty, theme saree hai! Shawl utaaro, saree dikhao, phir entry!'",
+  "variable": "a winter dress-code rule every December kitty has (saree theme vs the shawl everyone hides in), with Tanya back as the rule-making host and claim before reveal on every shawl, at about 25 s",
+  "hypothesis": "skip under 30% and watched above 45% like the saree and pink door reels; a winter problem every viewer has that week plus 'Tag your Tanya' should get 3+ shares and 3+ saves"
+ },
+ "mute": [
+  "doorbell, Tanya in a pink saree at her door, Ruhi in the doorway wrapped in a brown shawl, chip SAREE THEME BAHAR 0/3",
+  "Tanya points: 'Shawl utaaro, saree dikhao, phir entry!'",
+  "Ruhi waves, still in the shawl: 'Saree hi hai andar, pakka!'",
+  "Ruhi twirls, the shawl is gone, she is in a green kurta; Tanya 'Haaw! Yeh toh kurta hai!', chip 1/3",
+  "Ruhi steps aside: 'Dupatta toh saree jaisa hai!', doorbell",
+  "Myra hops in wrapped in the same shawl: 'Main bhi saree mein hoon!'",
+  "Myra twirls into jeans and a cat tee; 'Jeans?! Aur billi wali tee?!', chip 2/3",
+  "Myra lifts a handbag: 'Saree bag mein hai!', doorbell",
+  "Shruti in a shawl holds up her phone: 'saree ka proof laayi hoon'",
+  "a saree on a hanger pops up with the phone: 'Photo dekho! Rent pe Rs 800!'",
+  "Tanya: 'Photo se entry?! Bahar!', chip 3/3",
+  "silence, Tanya alone, music stops: 'Haachhoo!'",
+  "Tanya now wrapped in the same brown shawl: 'Bas do minute'",
+  "all three guests point at her: 'Shawl utaaro, saree dikhao!', chip HOST BHI SHAWL MEIN",
+  "Tanya caught: 'Andar thermal hai, yaar!'",
+  "the guests laugh: 'Phir entry nahi!', chip HOST BHI BAHAR"
+ ],
+ "beats": "hook: saree theme, shawl utaaro phir entry / esc: Ruhi's 'saree' is a kurta (dupatta saree jaisa), Myra's is jeans (saree bag mein), Shruti brings a photo of a rented saree / turn: Tanya sneezes in the cold doorway and wraps up in a shawl / button: the guests throw her opening line back, she admits a thermal, 'phir entry nahi!'",
+ "review": {
+  "clarity": 5,
+  "hook": 5,
+  "relatable": 5,
+  "conflict": 5,
+  "escalation": 5,
+  "laughs": 4,
+  "twist": 5,
+  "ending": 5,
+  "tight": 5,
+  "character": 4,
+  "shareable": 5,
+  "total": 53,
+  "notes": "Last 4 gang reels were news-bulletin (24-b), types-of (25-a), meme-format (25-b), countdown (26-a), so door-arrivals (our winner, last used 24-a) fits every 2nd reel. Lead Tanya (last reel Megha), the dress-code host from both door winners. Rule is a real one (saree theme dress code) hit by the real December problem (everyone arrives in a shawl). Game three times with claim before reveal: 'saree hi hai' then a kurta (ordinary), 'main bhi saree mein' then jeans (ordinary), Shruti's photo of a Rs 800 rental saree (absurd, in character). The shawl is shown as a brown wool outfit colour on every guest (no shawl layer yet, on WISHLIST), so the reveal is see-it: brown wrap becomes kurta, jeans, and finally Tanya herself in the same brown. Endings tried: pallu slips to show a thermal (cannot be drawn yet), Aditi arrives in a saree with no shawl and wins (new character late, weaker), Tanya wraps up and the guests throw her line back (kept, mirrors the hook and loops). One line per shot, max 7 words, hold 0.1, the one silenceBefore line alone in its shot with no ellipsis, about 70 words at pace 28, about 25 s."
+ },
+ "cover": {
+  "shot": 13,
+  "at": 0.6,
+  "title": [
+   "Saree theme kitty,",
+   "host shawl mein!"
+  ],
+  "titleY": 330
+ },
+ "caption": "Har kitty mein ek Tanya hoti hai jo saree theme rakhti hai aur andar thermal pehenti hai. Tag your Tanya!",
+ "hashtags": [
+  "#kittyparty",
+  "#kittygang",
+  "#ladieskitty",
+  "#kittypartyfun",
+  "#decemberkitty",
+  "#sareetheme",
+  "#winterkitty"
+ ],
+ "ambience": {
+  "name": "crowd",
+  "vol": 0.1
+ },
+ "pace": 28,
+ "shots": [
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 0/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "relaxed",
+     "mouth": "smile"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "smile"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "December kitty, theme saree hai!",
+     "say": "दिसंबर किटी, थीम साड़ी है!",
+     "beat": "hook"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Door mat",
+     "x": 790,
+     "y": 1490,
+     "s": 1
+    },
+    {
+     "name": "Kitty pot",
+     "x": 470,
+     "y": 1820,
+     "s": 1.1
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "doorbell",
+     "vol": 0.5
+    },
+    {
+     "at": 0.15,
+     "name": "creak",
+     "vol": 0.3
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 0/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "relaxed",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Shawl utaaro, saree dikhao, phir entry!",
+     "say": "शॉल उतारो, साड़ी दिखाओ, फिर एंट्री!",
+     "punch": true,
+     "beat": "hook"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "exclaim",
+     "x": 200,
+     "y": 900,
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 0/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "wave",
+     "mouth": "laugh",
+     "eyes": "laugh",
+     "hop": true
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hips",
+     "mouth": "flat",
+     "eyes": "side"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Saree hi hai andar, pakka!",
+     "say": "साड़ी ही है अंदर, पक्का!",
+     "beat": "setup",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 1/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "relaxed",
+     "mouth": "smile",
+     "twirl": true
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Haaw! Yeh toh kurta hai!",
+     "say": "हाव! ये तो कुर्ता है!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "swish",
+     "vol": 0.4
+    }
+   ],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "question",
+     "x": 820,
+     "y": 880,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 1/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "talkL",
+     "mouth": "smile",
+     "eyes": "side"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hips",
+     "mouth": "flat",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Ruhi",
+     "text": "Dupatta toh saree jaisa hai!",
+     "say": "दुपट्टा तो साड़ी जैसा है!",
+     "beat": "escalation",
+     "gap": 0.05
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "doorbell",
+     "vol": 0.5
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 1/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "wave",
+     "mouth": "laugh",
+     "eyes": "laugh",
+     "hop": true
+    },
+    {
+     "name": "Ruhi",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "relaxed",
+     "mouth": "smirk"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "smile"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Main bhi saree mein hoon!",
+     "say": "मैं भी साड़ी में हूँ!",
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "footsteps",
+     "vol": 0.3
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 2/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "relaxed",
+     "mouth": "o",
+     "eyes": "open",
+     "twirl": true
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Jeans?! Aur billi wali tee?!",
+     "say": "जींस?! और बिल्ली वाली टी?!",
+     "punch": true,
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "swish",
+     "vol": 0.4
+    }
+   ],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "sweat",
+     "x": 860,
+     "y": 820,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 2/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Myra",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "wave",
+     "mouth": "smile",
+     "hop": true
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hips",
+     "mouth": "flat",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Myra",
+     "text": "Saree bag mein hai! Pehna do?",
+     "say": "साड़ी बैग में है! पहना दो?",
+     "beat": "escalation",
+     "gap": 0.05
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Handbag",
+     "x": 640,
+     "y": 1440,
+     "s": 0.9,
+     "at": 0.1
+    }
+   ],
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "doorbell",
+     "vol": 0.5
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 2/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Shruti",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "smirk",
+     "eyes": "side"
+    },
+    {
+     "name": "Myra",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "relaxed",
+     "mouth": "o"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "smile"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Main saree ka proof laayi hoon.",
+     "say": "मैं साड़ी का प्रूफ़ लाई हूँ।",
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 2/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Shruti",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "phone2",
+     "mouth": "smile",
+     "eyes": "open"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "o",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Shruti",
+     "text": "Photo dekho! Rent pe Rs 800!",
+     "say": "फ़ोटो देखो! रेंट पे आठ सौ रुपये!",
+     "beat": "escalation",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    },
+    {
+     "name": "Saree on hanger",
+     "x": 620,
+     "y": 1300,
+     "s": 1,
+     "at": 0.1
+    },
+    {
+     "name": "Phone + notification",
+     "x": 880,
+     "y": 1150,
+     "s": 0.8,
+     "at": 0.1
+    }
+   ],
+   "sfx": [],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 3/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Shruti",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "hold",
+     "prop": "phone",
+     "mouth": "o",
+     "eyes": "open"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "pose": "talkR",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Photo se entry?! Bahar!",
+     "say": "फ़ोटो से एंट्री?! बाहर!",
+     "punch": true,
+     "beat": "escalation"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "vol": 0.4
+    }
+   ],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "bolt",
+     "x": 820,
+     "y": 900,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 3/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Tanya",
+     "x": 540,
+     "y": 1760,
+     "s": 2.1,
+     "turn": 0,
+     "pose": "hips",
+     "mouth": "o",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.2,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Haachhoo!",
+     "say": "हाच्छू!",
+     "silenceBefore": true,
+     "beat": "turn"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "swish",
+     "vol": 0.5
+    }
+   ],
+   "camera": "still",
+   "music": false,
+   "stickers": [
+    {
+     "kind": "sweat",
+     "x": 700,
+     "y": 900,
+     "at": 0.4
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "SAREE THEME · BAHAR: 3/3",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Tanya",
+     "x": 540,
+     "y": 1760,
+     "s": 2.1,
+     "turn": 0,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "relaxed",
+     "mouth": "smile",
+     "eyes": "half"
+    }
+   ],
+   "hold": 0.1,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Bas do minute, shawl le leti hoon.",
+     "say": "बस दो मिनट, शॉल ले लेती हूँ।",
+     "beat": "turn",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "zip",
+     "vol": 0.3
+    }
+   ],
+   "camera": "push"
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "HOST BHI SHAWL MEIN!",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Shruti",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.6,
+     "pose": "talkL",
+     "mouth": "o"
+    },
+    {
+     "name": "Myra",
+     "x": 600,
+     "y": 1500,
+     "s": 1.9,
+     "turn": -0.4,
+     "pose": "talkL",
+     "mouth": "o"
+    },
+    {
+     "name": "Ruhi",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "talkL",
+     "mouth": "o"
+    }
+   ],
+   "hold": 0.2,
+   "lines": [
+    {
+     "who": "ALL",
+     "text": "Shawl utaaro, saree dikhao!",
+     "say": "शॉल उतारो, साड़ी दिखाओ!",
+     "punch": true,
+     "beat": "turn"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0,
+     "name": "haww",
+     "vol": 0.5
+    }
+   ],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "exclaim",
+     "x": 540,
+     "y": 820,
+     "at": 0.15
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "HOST BHI SHAWL MEIN!",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Shruti",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "hips",
+     "mouth": "smirk",
+     "eyes": "side"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "relaxed",
+     "mouth": "o",
+     "eyes": "side"
+    }
+   ],
+   "hold": 0.2,
+   "lines": [
+    {
+     "who": "Tanya",
+     "text": "Andar thermal hai, yaar!",
+     "say": "अंदर थर्मल है, यार!",
+     "punch": true,
+     "beat": "button",
+     "gap": 0.04
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [],
+   "camera": "punch",
+   "stickers": [
+    {
+     "kind": "sweat",
+     "x": 420,
+     "y": 880,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "kit": "scene",
+   "set": "entrance",
+   "chip": "HOST BHI BAHAR!",
+   "chipY": 600,
+   "chars": [
+    {
+     "name": "Ruhi",
+     "x": 790,
+     "y": 1460,
+     "s": 2.15,
+     "turn": -0.5,
+     "pose": "laughs",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Myra",
+     "x": 980,
+     "y": 1520,
+     "s": 1.8,
+     "turn": -0.7,
+     "pose": "laughs",
+     "mouth": "laugh",
+     "eyes": "laugh"
+    },
+    {
+     "name": "Tanya",
+     "x": 290,
+     "y": 1800,
+     "s": 2,
+     "turn": 0.6,
+     "main": "#8A6E5C",
+     "mainSh": "#6B5345",
+     "pose": "relaxed",
+     "mouth": "o",
+     "eyes": "open"
+    }
+   ],
+   "hold": 0.8,
+   "lines": [
+    {
+     "who": "ALL",
+     "text": "Phir entry nahi!",
+     "say": "फिर एंट्री नहीं!",
+     "punch": true,
+     "beat": "button"
+    }
+   ],
+   "props": [
+    {
+     "name": "Shoe rack",
+     "x": 960,
+     "y": 1830,
+     "s": 1.4
+    }
+   ],
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "laughv",
+     "vol": 0.5
+    }
+   ],
+   "camera": "still"
+  }
+ ]
+}
