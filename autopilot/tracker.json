@@ -19289,7 +19289,7 @@
     {
       "id": "KGI-036",
       "n": 36,
-      "created": "2026-11-25",
+      "created": "2026-11-26",
       "game": "Vrat Mein Chalega?",
       "tagline": "Chalega? Khade! Nahi? Baitho!",
       "players": "8 to 20",
@@ -19312,8 +19312,93 @@
         "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/s10.jpg"
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/vrat-mein-chalega-ekadashi-fasting-food-kitty-party-game",
-      "queue_id": "4e91d1d6-065a-4134-996f-7e68526a363d",
-      "scheduled_ist": "2026-11-27 11:27"
+      "format": "reel",
+      "experiment": {
+        "hook": "jhagda item first: chai, with Aditi holding chai",
+        "variable": "argument hook + stand/sit play scene",
+        "hypothesis": "a food argument everyone has at home gets comments"
+      },
+      "hook": "Vrat mein chai? Aadhi kitty out!",
+      "duration": 54.08,
+      "script": [
+        {
+          "shot": 1,
+          "who": "Megha",
+          "line": "Chai toh chalegi! Main khadi hun!"
+        },
+        {
+          "shot": 1,
+          "who": "Aditi",
+          "line": "Bilkul nahi chalegi."
+        },
+        {
+          "shot": 2,
+          "who": "Avika",
+          "line": "Sorry sorry, late ho gayi! Yeh kya khade baithe ho rahe ho sab?"
+        },
+        {
+          "shot": 2,
+          "who": "Shruti",
+          "line": "Vrat Mein Chalega. Koi saamaan nahi, bas kursiyan."
+        },
+        {
+          "shot": 3,
+          "who": "Shruti",
+          "line": "Host ek khaana bolti hai, jaise sabudana. Teen second mein socho."
+        },
+        {
+          "shot": 3,
+          "who": "Avika",
+          "line": "Sabudana toh chalega na?"
+        },
+        {
+          "shot": 4,
+          "who": "Shruti",
+          "line": "Haan. Chalega toh khadi raho, nahi chalega toh turant baitho."
+        },
+        {
+          "shot": 5,
+          "who": "Avika",
+          "line": "Aur chai jaisa kuch aaya toh? Har ghar mein alag rule hai."
+        },
+        {
+          "shot": 5,
+          "who": "Shruti",
+          "line": "Wahi toh twist hai. Jo side chhoti, woh out!"
+        },
+        {
+          "shot": 6,
+          "who": "Tanya",
+          "line": "Paneer!"
+        },
+        {
+          "shot": 6,
+          "who": "Shruti",
+          "line": "Ruko, humare yahan toh... matlab mummy ji kehti hain..."
+        },
+        {
+          "shot": 6,
+          "who": "Megha",
+          "line": "Teen second khatam! Out!"
+        },
+        {
+          "shot": 7,
+          "who": "Megha",
+          "line": "Makhana mera! Aur haan, makhana vrat mein chalta hai."
+        },
+        {
+          "shot": 7,
+          "who": "Avika",
+          "line": "Agli Ekadashi wali kitty mein yahi. Main time pe aaungi!"
+        }
+      ],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-036-reel.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-036-reel-cover.jpg",
+      "queue_id": "03decbd7-22e0-47d7-8b96-aef693355fd9",
+      "scheduled_ist": "2026-11-27 16:10",
+      "yt_id": "Uzlk_4AMIMo",
+      "yt_url": "https://youtube.com/shorts/Uzlk_4AMIMo",
+      "yt_privacy": "private"
     },
     {
       "id": "KGI-037",
@@ -19341,8 +19426,93 @@
         "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s10.jpg"
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/ghanti-pakdo-christmas-bell-grab-kitty-party-game",
-      "queue_id": "451281e6-10e5-4623-95cb-1dfddb6770a0",
-      "scheduled_ist": "2026-11-28 11:13"
+      "format": "reel",
+      "experiment": {
+        "hook": "gang mid-game, Ishita grabs the bell",
+        "variable": "play scenes + 4 boards, about 40 s",
+        "hypothesis": "showing the play first keeps people past 3 s"
+      },
+      "hook": "1 ghanti, poori kitty paagal!",
+      "duration": 47.43,
+      "script": [
+        {
+          "shot": 1,
+          "who": "Ishita",
+          "line": "Ghanti! Meri hai, meri!"
+        },
+        {
+          "shot": 2,
+          "who": "Myra",
+          "line": "Arre, yeh kya chal raha hai? Sab ghanti ke peeche kyun pade hain?"
+        },
+        {
+          "shot": 2,
+          "who": "Tanya",
+          "line": "Ghanti Pakdo! Aa, sikhati hun, bahut simple hai."
+        },
+        {
+          "shot": 3,
+          "who": "Tanya",
+          "line": "Bas ek ghanti, ek stool, aur chaar chaar ladies aamne saamne."
+        },
+        {
+          "shot": 3,
+          "who": "Myra",
+          "line": "Ghanti toh mandir wali chalegi na?"
+        },
+        {
+          "shot": 3,
+          "who": "Tanya",
+          "line": "Haan, wahi!"
+        },
+        {
+          "shot": 4,
+          "who": "Tanya",
+          "line": "Host kahani sunati hai. Jaise hi ghanti shabd aaya, jhapat lo!"
+        },
+        {
+          "shot": 5,
+          "who": "Myra",
+          "line": "Aur galat time pe uthaya toh?"
+        },
+        {
+          "shot": 5,
+          "who": "Tanya",
+          "line": "Minus ek! Host jaan bujh ke ghadi, shanti bolegi."
+        },
+        {
+          "shot": 6,
+          "who": "Tanya",
+          "line": "...aur Santa ne apni ghadi dekhi..."
+        },
+        {
+          "shot": 6,
+          "who": "Megha",
+          "line": "Ghanti! Mil gayi!"
+        },
+        {
+          "shot": 6,
+          "who": "Ishita",
+          "line": "Ghadi bola tha madam, ghadi!"
+        },
+        {
+          "shot": 7,
+          "who": "Ishita",
+          "line": "Paanch point! Obviously."
+        },
+        {
+          "shot": 7,
+          "who": "Myra",
+          "line": "Sunday wali kitty mein yahi khelenge. Ghanti main laaungi!"
+        }
+      ],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-037-reel.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-037-reel-cover.jpg",
+      "queue_id": "3438756c-7ffc-49d3-ade4-37f762033fb7",
+      "scheduled_ist": "2026-11-28 16:32",
+      "yt_id": "qdRGkTBnV3w",
+      "yt_url": "https://youtube.com/shorts/qdRGkTBnV3w",
+      "yt_privacy": "private"
     }
   ],
   "research": [
