@@ -19313,98 +19313,73 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/vrat-mein-chalega-ekadashi-fasting-food-kitty-party-game",
       "format": "reel",
-      "rev": 2,
+      "rev": 3,
       "music": "https://kittyparty-themes.rahul-89e.workers.dev/sounds/bazaarbargain/v2/music.m4a",
       "experiment": {
-        "hook": "series card, then the chai argument with Aditi sipping chai",
-        "variable": "slower, full-sentence conversation with theme music",
-        "hypothesis": "a food argument every home has gets comments; clear speech keeps watched % up"
+        "hook": "series card, then a simple step-by-step explanation played out by the gang",
+        "variable": "seated pose + OUT beat",
+        "hypothesis": "a vrat food question everyone argues about gets comments"
       },
-      "hook": "Vrat mein chai? Aadhi kitty out!",
-      "duration": 68.26,
+      "hook": "",
+      "duration": 61.56,
       "script": [
         {
           "shot": 1,
-          "who": "Shruti",
+          "who": "Tanya",
           "line": "Kitty Game Ideas number 36: Vrat Mein Chalega?!"
         },
         {
           "shot": 2,
-          "who": "Megha",
-          "line": "Vrat mein chai chalti hai, main khadi hun!"
+          "who": "Avika",
+          "line": "Shruti, is baar kitty mein koi naya game batao na."
         },
         {
           "shot": 2,
-          "who": "Aditi",
-          "line": "Bilkul nahi chalti."
-        },
-        {
-          "shot": 3,
-          "who": "Avika",
-          "line": "Sorry, phir late ho gayi! Yeh sab khade baithe kyun ho rahe hain?"
+          "who": "Shruti",
+          "line": "Ek simple game hai, Vrat Mein Chalega. Main step by step batati hun."
         },
         {
           "shot": 3,
           "who": "Shruti",
-          "line": "Vrat Mein Chalega khel rahe hain. Bas kursiyan chahiye."
+          "line": "Bas kursiyan chahiye, aur jeetne wali ke liye ek makhane ka packet."
         },
         {
           "shot": 4,
           "who": "Shruti",
-          "line": "Host ek khaana bolti hai, jaise sabudana. Teen second mein socho."
-        },
-        {
-          "shot": 4,
-          "who": "Avika",
-          "line": "Sabudana toh chalta hai na?"
+          "line": "Sab ladies apni kursi ke aage khadi ho jaati hain."
         },
         {
           "shot": 5,
           "who": "Shruti",
-          "line": "Haan. Chalta hai toh khadi raho, nahi chalta toh turant baitho."
-        },
-        {
-          "shot": 6,
-          "who": "Avika",
-          "line": "Aur chai paneer pe? Har ghar ka alag rule hai."
+          "line": "Host ek khaane ka naam bolti hai, jaise sabudana."
         },
         {
           "shot": 6,
           "who": "Shruti",
-          "line": "Wahi toh mazaa hai. Jis taraf kam ladies, woh out!"
+          "line": "Agar vrat mein chalta hai toh khadi raho. Nahi chalta, toh turant baith jao."
         },
         {
-          "shot": 7,
-          "who": "Tanya",
-          "line": "Agla item, paneer!"
-        },
-        {
-          "shot": 7,
+          "shot": 8,
           "who": "Shruti",
-          "line": "Ruko, humare ghar mein toh mummy ji kehti hain..."
+          "line": "Chai jaise item pe har ghar ka rule alag hota hai. Toh jis taraf kam ladies hon, woh out."
         },
         {
-          "shot": 7,
-          "who": "Megha",
-          "line": "Teen second khatam, Shruti. Tum out!"
+          "shot": 9,
+          "who": "Shruti",
+          "line": "Jo aakhir tak bachi rahe, makhane ka packet uska."
         },
         {
-          "shot": 8,
-          "who": "Megha",
-          "line": "Main jeet gayi! Makhana mera, aur yeh vrat mein bhi chalta hai."
-        },
-        {
-          "shot": 8,
+          "shot": 10,
           "who": "Avika",
-          "line": "Agli Ekadashi kitty mein yahi khelenge. Main time pe aaungi!"
+          "line": "Bahut easy hai! Agli Ekadashi ki kitty mein yahi khelenge."
         }
       ],
-      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-036-reel.mp4",
-      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-036-reel-cover.jpg",
-      "queue_id": "75385360-b961-43f8-b546-e4756250c1bc",
-      "scheduled_ist": "2026-11-29 10:39",
-      "yt_id": "qzGBUQh3-XQ",
-      "yt_url": "https://youtube.com/shorts/qzGBUQh3-XQ",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-036-reel-r3.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-036-reel-r3-cover.jpg",
+      "queue_id": "e34a930c-29f8-4ce8-bbb6-c88c8c13d7c5",
+      "scheduled_ist": "2026-11-27 16:30",
+      "yt_id": "xiht6_q6Fwo",
+      "yt_url": "https://youtube.com/shorts/xiht6_q6Fwo",
       "yt_privacy": "private"
     },
     {
@@ -19434,15 +19409,15 @@
       ],
       "web_url": "https://www.kittyparty.club/kitty-game-ideas/ghanti-pakdo-christmas-bell-grab-kitty-party-game",
       "format": "reel",
-      "rev": 2,
+      "rev": 3,
       "music": "https://kittyparty-themes.rahul-89e.workers.dev/sounds/bazaarbargain/v2/music.m4a",
       "experiment": {
-        "hook": "series card, then the gang mid-game grabbing the bell",
-        "variable": "slower, full-sentence conversation with theme music",
-        "hypothesis": "clear speech keeps watched % up through the boards"
+        "hook": "series card, then a simple step-by-step explanation played out by the gang",
+        "variable": "no whiteboard: step labels + action beats (grab, ring, +1/-1)",
+        "hypothesis": "clear and visual beats keep watched % high"
       },
-      "hook": "1 ghanti, poori kitty paagal!",
-      "duration": 69.32,
+      "hook": "",
+      "duration": 57.4,
       "script": [
         {
           "shot": 1,
@@ -19451,86 +19426,61 @@
         },
         {
           "shot": 2,
-          "who": "Ishita",
-          "line": "Ghanti meri hai! Maine sabse pehle pakdi!"
+          "who": "Myra",
+          "line": "Tanya, is baar kitty mein koi naya game batao na."
+        },
+        {
+          "shot": 2,
+          "who": "Tanya",
+          "line": "Ek simple game hai, Ghanti Pakdo. Main step by step batati hun."
         },
         {
           "shot": 3,
-          "who": "Myra",
-          "line": "Arre, yeh sab ghanti ke peeche kyun bhaag rahe hain?"
-        },
-        {
-          "shot": 3,
           "who": "Tanya",
-          "line": "Yeh Ghanti Pakdo game hai. Aa, aaram se samjhati hun."
+          "line": "Pehle, ek ghanti aur ek chhota stool beech mein rakho."
         },
         {
           "shot": 4,
           "who": "Tanya",
-          "line": "Bas ek ghanti, ek chhota stool, aur kuch kursiyan chahiye."
-        },
-        {
-          "shot": 4,
-          "who": "Myra",
-          "line": "Ghar ke mandir wali ghanti chalegi na?"
-        },
-        {
-          "shot": 4,
-          "who": "Tanya",
-          "line": "Haan, wahi chalegi."
+          "line": "Sab ladies stool ke chaaron taraf baith jaati hain."
         },
         {
           "shot": 5,
           "who": "Tanya",
-          "line": "Host ek kahani sunati hai."
+          "line": "Host ek kahani sunati hai. Kahani mein jab bhi ghanti shabd aaye, ghanti utha lo."
         },
         {
-          "shot": 5,
-          "who": "Tanya",
-          "line": "Jaise hi ghanti shabd aaye, ghanti utha lo, aur point tumhara."
-        },
-        {
-          "shot": 6,
+          "shot": 7,
           "who": "Myra",
-          "line": "Yeh toh aasaan hai, main hi jeetungi."
-        },
-        {
-          "shot": 6,
-          "who": "Tanya",
-          "line": "Itna aasaan nahi. Host ghadi ya shanti bhi bolegi, aur galat uthaya toh minus ek."
+          "line": "Jo sabse pehle uthaye, usko point?"
         },
         {
           "shot": 7,
           "who": "Tanya",
-          "line": "Aur phir Santa ne apni ghadi dekhi."
-        },
-        {
-          "shot": 7,
-          "who": "Megha",
-          "line": "Ghanti! Yeh point mera hai!"
-        },
-        {
-          "shot": 7,
-          "who": "Ishita",
-          "line": "Megha, ghadi bola tha, ghanti nahi. Point gaya!"
+          "line": "Haan, ek point."
         },
         {
           "shot": 8,
-          "who": "Ishita",
-          "line": "Paanch point! Maine kaha tha na, main hi jeetungi."
+          "who": "Tanya",
+          "line": "Par dhyan rakhna. Host beech mein ghadi bhi bolegi. Galat time pe uthaya toh ek point kat jaayega."
         },
         {
-          "shot": 8,
+          "shot": 10,
+          "who": "Tanya",
+          "line": "Jiske paanch point pehle ho jaayein, woh jeet gayi."
+        },
+        {
+          "shot": 11,
           "who": "Myra",
-          "line": "Sunday wali kitty mein yahi khelenge. Ghanti main laaungi!"
+          "line": "Bahut easy hai! Is Sunday ki kitty mein yahi khelenge."
         }
       ],
-      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-037-reel.mp4",
-      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-037-reel-cover.jpg",
-      "queue_id": "9aaec5a0-c70c-4fb9-b2a6-0ab4ea9f4224",
-      "scheduled_ist": "2026-11-30 11:40",
-      "yt_id": "wkbYxlIm2EA",
-      "yt_url": "https://youtube.com/shorts/wkbYxlIm2EA",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-037-reel-r3.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-037-reel-r3-cover.jpg",
+      "queue_id": "e4ec368f-04ce-4b17-a7ed-eaf6cc792263",
+      "scheduled_ist": "2026-11-28 11:30",
+      "yt_id": "IFJwGIdvxPw",
+      "yt_url": "https://youtube.com/shorts/IFJwGIdvxPw",
       "yt_privacy": "private"
     }
   ],
