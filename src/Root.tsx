@@ -2,6 +2,7 @@ import { Composition } from 'remotion';
 import { AutoReel, AutoCover, type Spec } from './autopilot/AutoReel';
 import { Slide } from './carousel/Slide';
 import { ThemeReel, ThemeCover } from './theme/ThemeReel';
+import { ThemeStrip } from './theme/ThemeStrip';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -35,6 +36,7 @@ export const RemotionRoot: React.FC = () => (
     calculateMetadata={({ props }: any) => ({ durationInFrames: Math.round((props.spec?.total || 10) * 30) })}
   />
   <Composition id="ThemeCover" component={ThemeCover as any} durationInFrames={1} fps={30} width={1080} height={1920} defaultProps={{ spec: null as any }} />
+  <Composition id="ThemeStrip" component={ThemeStrip as any} durationInFrames={1} fps={30} width={1080} height={1920} defaultProps={{ name: 'Theme' }} />
   <Composition id="Slide" component={Slide as any} durationInFrames={1} fps={30} width={1080} height={1350} defaultProps={{ svg: '' }} />
   </>
 );

@@ -39,6 +39,17 @@ function renderDraft(D, d, times, seed) {
   run(['npx', 'remotion', 'still', 'AutoCover', cover, `--props=${props}`, '--image-format=jpeg', '--log=error']);
   return { mp4, cover };
 }
+// Instagram Story copy: "Aaj ki theme: <name>" strip over the whole video (stories take no caption).
+// Falls back to the plain video if anything goes wrong, so the story still posts.
+function withStrip(mp4, name) {
+  try {
+    const png = mp4.replace(/\.mp4$/, '-strip.png'), out = mp4.replace(/\.mp4$/, '-story.mp4'), props = mp4.replace(/\.mp4$/, '-strip.json');
+    fs.writeFileSync(props, JSON.stringify({ name }));
+    execFileSync('npx', ['remotion', 'still', 'ThemeStrip', png, `--props=${props}`, '--image-format=png', '--log=error'], { cwd: ROOT, stdio: 'inherit', shell: process.platform === 'win32' });
+    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', mp4, '-i', png, '-filter_complex', '[0:v][1:v]overlay=0:0', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', out], { stdio: 'inherit' });
+    return out;
+  } catch (e) { console.error('theme strip failed, posting plain video:', e.message); return mp4; }
+}
 // ffmpeg prints the loudness summary on stderr
 const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-nostats', '-i', file, '-af', 'ebur128', '-f', 'null', '-'], { stdio: ['ignore', 'pipe', 'pipe'], encoding: 'utf8' }) + ''; } catch (e) { return String(e.stderr || ''); } };
 
@@ -85,13 +96,15 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
     rec.caption = ai
       ? [fill(D.caption || '', capVars), `Public Housie aaj ${capVars.times}.`, 'Download "Kitty Party" app from Play Store or App Store.', (D.hashtags || cfg.hashtags).join(' ')].filter(Boolean).join('\n\n')
       : [fill(S.caption || cfg.caption, capVars), cfg.hashtags.join(' ')].join('\n\n');
-    if (DRY) { rec.status = 'rendered'; return console.log('dry run: rendered', r.mp4); }
+    const storyMp4 = withStrip(mp4, d.theme.name);
+    if (DRY) { rec.status = 'rendered'; return console.log('dry run: rendered', r.mp4, storyMp4); }
     rec.video_url = T.r2put(mp4, `reels/theme/${id}.mp4`, 'video/mp4');
+    rec.story_url = storyMp4 === mp4 ? rec.video_url : T.r2put(storyMp4, `reels/theme/${id}-story.mp4`, 'video/mp4');
     rec.cover_url = T.r2put(path.join(ROOT, r.cover), `reels/theme/${id}-cover.jpg`, 'image/jpeg');
     // Instagram Story now (theme of the day, gone in 24 h); the Worker finishes the upload in the background.
     // Stories take no caption, so the theme name + game times must be on screen (cover card + times card).
     rec.ig_type = 'story';
-    const job = await T.agent('ig/publish', { video_url: rec.video_url, story: true });
+    const job = await T.agent('ig/publish', { video_url: rec.story_url, story: true });
     if (job.status === 'failed') throw new Error('instagram: ' + job.error);
     rec.status = 'publishing'; rec.job_id = job.jobId;
     for (let i = 0; i < 40 && rec.status === 'publishing'; i++) {
