@@ -15625,6 +15625,168 @@
       "yt_id": "PGMcycfI6EU",
       "yt_url": "https://youtube.com/shorts/PGMcycfI6EU",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-26-b",
+      "created": "2026-11-26",
+      "title": "Shawl utaaro, saree dikhao!",
+      "format": "Door arrivals, December saree theme at the front door, each guest wrapped in a shawl, chip climbs, host breaks her own rule",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Tanya",
+        "Myra",
+        "Shruti"
+      ],
+      "caption": "Har kitty mein ek Tanya hoti hai jo saree theme rakhti hai aur andar thermal pehenti hai. Tag your Tanya!",
+      "status": "queued",
+      "idea": "Tanya's December kitty is saree theme; every guest arrives in a shawl swearing there is a saree under it and there never is, then Tanya sneezes, wraps herself in a shawl and admits there is a thermal under her own.",
+      "beats": "hook: saree theme, shawl utaaro phir entry / esc: Ruhi's 'saree' is a kurta (dupatta saree jaisa), Myra's is jeans (saree bag mein), Shruti brings a photo of a rented saree / turn: Tanya sneezes in the cold doorway and wraps up in a shawl / button: the guests throw her opening line back, she admits a thermal, 'phir entry nahi!'",
+      "experiment": {
+        "type": "door-arrivals",
+        "hook": "doorbell, Tanya in her fuchsia saree blocks the door as Ruhi stands in the doorway wrapped in a brown shawl: 'December kitty, theme saree hai! Shawl utaaro, saree dikhao, phir entry!'",
+        "variable": "a winter dress-code rule every December kitty has (saree theme vs the shawl everyone hides in), with Tanya back as the rule-making host and claim before reveal on every shawl, at about 25 s",
+        "hypothesis": "skip under 30% and watched above 45% like the saree and pink door reels; a winter problem every viewer has that week plus 'Tag your Tanya' should get 3+ shares and 3+ saves"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "December kitty, theme saree hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shawl utaaro, saree dikhao, phir entry!",
+          "beat": "hook"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Saree hi hai andar, pakka!",
+          "beat": "setup"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Yeh toh kurta hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Dupatta toh saree jaisa hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Main bhi saree mein hoon!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Jeans?! Aur billi wali tee?!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Saree bag mein hai! Pehna do?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Main saree ka proof laayi hoon.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Photo dekho! Rent pe Rs 800!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Photo se entry?! Bahar!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haachhoo!",
+          "beat": "turn"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Bas do minute, shawl le leti hoon.",
+          "beat": "turn"
+        },
+        {
+          "shot": 14,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Shawl utaaro, saree dikhao!",
+          "beat": "turn"
+        },
+        {
+          "shot": 15,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Andar thermal hai, yaar!",
+          "beat": "button"
+        },
+        {
+          "shot": 16,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Phir entry nahi!",
+          "beat": "button"
+        }
+      ],
+      "duration": 31.72,
+      "review": {
+        "clarity": 5,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 5,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 4,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Last 4 gang reels were news-bulletin (24-b), types-of (25-a), meme-format (25-b), countdown (26-a), so door-arrivals (our winner, last used 24-a) fits every 2nd reel. Lead Tanya (last reel Megha), the dress-code host from both door winners. Rule is a real one (saree theme dress code) hit by the real December problem (everyone arrives in a shawl). Game three times with claim before reveal: 'saree hi hai' then a kurta (ordinary), 'main bhi saree mein' then jeans (ordinary), Shruti's photo of a Rs 800 rental saree (absurd, in character). The shawl is shown as a brown wool outfit colour on every guest (no shawl layer yet, on WISHLIST), so the reveal is see-it: brown wrap becomes kurta, jeans, and finally Tanya herself in the same brown. Endings tried: pallu slips to show a thermal (cannot be drawn yet), Aditi arrives in a saree with no shawl and wins (new character late, weaker), Tanya wraps up and the guests throw her line back (kept, mirrors the hook and loops). One line per shot, max 7 words, hold 0.1, the one silenceBefore line alone in its shot with no ellipsis, about 70 words at pace 28, about 25 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-26-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-26-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-26-b-board.jpg",
+      "queue_id": "d0dc7964-023f-4281-9a17-499db482e5e8",
+      "scheduled_ist": "2026-12-10 19:53",
+      "yt_id": "ONlu_58uva0",
+      "yt_url": "https://youtube.com/shorts/ONlu_58uva0",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
