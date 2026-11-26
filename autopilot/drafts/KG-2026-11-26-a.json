@@ -1,0 +1,222 @@
+{
+  "id": "KG-2026-11-26-a",
+  "title": "Saal ka sabse bada flop!",
+  "format": "Countdown: the kitty group's year-end poll read out as flops 4 to 1, a FLOP # chip that moves every shot, twist on number 1",
+  "idea": "Megha proudly reads the gang's 'Kitty 2026 ke flops' poll, laughing at each friend's flop, until flop number 1 is her own diet while she holds a samosa.",
+  "logline": "Megha reads the group poll of 2026's biggest kitty flops and laughs at every friend, until number 1 says 'Megha ka diet' and she is holding a samosa.",
+  "game": "Megha reads each friend's flop with glee, the friend defends it, Megha laughs harder",
+  "experiment": {
+    "type": "countdown",
+    "hook": "Megha stands with her phone up, the gang on the sofa, chip 'GROUP POLL: SAAL KE FLOPS': 'Kitty 2026 ke sabse bade flops!'",
+    "variable": "a year-end numbered countdown (4 to 1) where the reader is the victim of number 1, with claim before reveal ('mera nahi aayega'), about 26 s",
+    "hypothesis": "skip under 40% and watched above 35% because the chip counts down every 2-3 s and every viewer waits for number 1; a year-end 'sabse bada flop' question should get comments and 2+ shares in the second week of December"
+  },
+  "mute": [
+    "dressed living room, banner SAAL KE FLOPS, Megha holds up her phone, chip GROUP POLL: SAAL KE FLOPS, Tanya and Shruti on the sofa",
+    "Megha grins: everyone's flop is coming, not hers",
+    "chip FLOP #4, Megha reads: Bollywood theme",
+    "cut to the front door: only Tanya came as Basanti, with a horse stick, and she defends it",
+    "chip FLOP #3, Megha reads: Shruti ki hisaab sheet, laptop on the table",
+    "nobody opened it, Shruti insists it had formulas",
+    "chip FLOP #2, Megha reads: no phone rule",
+    "it lasted 4 minutes, Shruti with her calculator corrects: 3",
+    "chip FLOP #1: ?, Megha bounces, sure it is not her",
+    "music cuts, a pause, Megha reads her own name: Megha ka diet, chip FLOP #1: MEGHA KA DIET",
+    "see-it reveal: a samosa plate in Megha's hand, Tanya points, Shruti counts 'teesra'",
+    "Megha gives her catchphrase 'Bas ek! Cheat day hai!'",
+    "Tanya and Shruti point at her: 'Kitty 2026 ka sabse bada flop!' (flips her opening line onto her)"
+  ],
+  "beats": "hook: Kitty 2026 ke sabse bade flops / setup: sabka number aayega, mera nahi / esc: #4 Bollywood theme, only Tanya Basanti; #3 Shruti's hisaab sheet nobody opened; #2 no phone rule lasted 4 minutes, Shruti: 3 / turn: #1 is Megha ka diet, samosa in her hand / button: 'Kitty 2026 ka sabse bada flop!' thrown back at her",
+  "review": {
+    "clarity": 5,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 5,
+    "tight": 5,
+    "character": 5,
+    "shareable": 5,
+    "total": 51,
+    "notes": "Type countdown (last 4 gang reels: door-arrivals KG-2026-11-24-a, news-bulletin 11-24-b, types-of 11-25-a, meme-format 11-25-b). Countdown last ran as KG-2026-11-23-b; LEARNINGS says countdown works under 30 s. Idea from the bank (Kitty 2026 flops, score 8), adapted: the lead is Megha, the diet freak, instead of Myra (Myra led 11-25-b), so flop 1 lands on her own catchphrase; flops are kind, everyday kitty flops (theme only the host dressed for, the hisaab sheet, no-phone rule). 3 talking characters (Megha, Tanya, Shruti), max 3 per shot. Game x3: Tanya defends her Basanti (ordinary), Shruti defends her formulas (ordinary), Shruti corrects 4 minutes to 3 (absurd precision). Claim before reveal: 'Sabka number aayega, mera nahi!' then 'Megha ka diet?!'. Twist is see-it: chip plus the samosa in her hand. Endings tried: Megha deletes the poll (needs a phone screen, weaker), Megha votes herself out of the poll (confusing muted), the gang throws her opening line back (kept, loops to the hook). Pipeline: every shot 8 words or fewer, hold 0.1, gaps 0.04, the one silenceBefore line sits alone, no ellipses, 71 words at pace 28, about 26 s."
+  },
+  "cover": {
+    "shot": 9,
+    "at": 0.6,
+    "title": ["Saal ka sabse", "bada kitty flop!"],
+    "titleY": 330
+  },
+  "caption": "Har kitty mein ek Megha hoti hai jiska diet sirf kitty tak chalta hai. Aapki kitty ka 2026 ka sabse bada flop? Ek word mein likho, aur tag your Megha!",
+  "hashtags": ["#kittyparty", "#kittygang", "#ladieskitty", "#kittypartyfun", "#yearender", "#samosa", "#housie"],
+  "ambience": { "name": "crowd", "vol": 0.1 },
+  "pace": 28,
+  "shots": [
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "front": true, "camera": "punch", "hold": 0.1,
+      "hook": ["Kitty 2026 ke", "4 sabse bade flop!"],
+      "chip": "GROUP POLL: SAAL KE FLOPS", "chipY": 600,
+      "clock": { "h": 5, "m": 0 },
+      "sfx": [{ "at": 0, "name": "ding", "vol": 0.5 }],
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "open", "hop": true },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "smile" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "cup", "mouth": "flat", "eyes": "half" }
+      ],
+      "props": [{ "name": "Samosa plate", "x": 540, "y": 1680, "s": 1.1 }, { "name": "Cutting chai", "x": 700, "y": 1680, "s": 0.9 }],
+      "lines": [{ "who": "Megha", "text": "Kitty 2026 ke sabse bade flops!", "say": "किटी दो हज़ार छब्बीस के सबसे बड़े फ़्लॉप्स!", "beat": "hook", "punch": true, "gap": 0.04 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "push", "hold": 0.1,
+      "chip": "GROUP POLL: SAAL KE FLOPS", "chipY": 600,
+      "clock": { "h": 5, "m": 0 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "smirk", "eyes": "side" },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "o" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "cup", "mouth": "flat", "eyes": "half" }
+      ],
+      "props": [{ "name": "Samosa plate", "x": 540, "y": 1680, "s": 1.1 }],
+      "lines": [{ "who": "Megha", "text": "Sabka number aayega, mera nahi!", "say": "सबका नंबर आएगा, मेरा नहीं!", "beat": "setup", "gap": 0.04 }],
+      "stickers": [{ "kind": "spark", "x": 300, "y": 900, "at": 0.3 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.1,
+      "chip": "FLOP #4", "chipY": 600,
+      "clock": { "h": 5, "m": 1 },
+      "sfx": [{ "at": 0, "name": "tabla", "vol": 0.4 }],
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "o", "eyes": "open" }
+      ],
+      "lines": [{ "who": "Megha", "text": "Number chaar! Bollywood theme!", "say": "नंबर चार! बॉलीवुड थीम!", "beat": "escalation", "gap": 0.04 }]
+    },
+    {
+      "kit": "scene", "set": "entrance", "camera": "push", "hold": 0.1,
+      "chip": "FLOP #4: SIRF EK BASANTI", "chipY": 600,
+      "chars": [
+        { "name": "Tanya", "x": 790, "y": 1460, "s": 2.15, "turn": -0.4, "pose": "hips", "look": "basanti", "mouth": "smile", "eyes": "open" }
+      ],
+      "props": [{ "name": "Horse stick", "x": 640, "y": 1560, "s": 1.1, "rot": -10 }],
+      "lines": [
+        { "who": "Megha", "text": "Sirf Tanya Basanti bani!", "say": "सिर्फ़ तान्या बसंती बनी!", "beat": "escalation", "gap": 0.04 },
+        { "who": "Tanya", "text": "Haaw! Theme compulsory thi!", "say": "हाउ! थीम कंपल्सरी थी!", "beat": "escalation", "punch": true }
+      ],
+      "sfx": [{ "at": 1.4, "name": "laughv", "vol": 0.35 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.1,
+      "chip": "FLOP #3", "chipY": 600,
+      "clock": { "h": 5, "m": 2 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "open" },
+        { "name": "Shruti", "x": 760, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "o", "eyes": "open" }
+      ],
+      "props": [{ "name": "Laptop", "x": 620, "y": 1640, "s": 1 }],
+      "lines": [{ "who": "Megha", "text": "Number teen! Shruti ki hisaab sheet!", "say": "नंबर तीन! श्रुति की हिसाब शीट!", "beat": "escalation", "gap": 0.04 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "push", "hold": 0.1,
+      "chip": "FLOP #3: SHEET KHULI: 0 BAAR", "chipY": 600,
+      "clock": { "h": 5, "m": 2 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "laughs", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Shruti", "x": 760, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "talkL", "mouth": "flat", "eyes": "half" }
+      ],
+      "props": [{ "name": "Laptop", "x": 620, "y": 1640, "s": 1 }],
+      "lines": [
+        { "who": "Megha", "text": "Kisi ne kholi hi nahi!", "say": "किसी ने खोली ही नहीं!", "beat": "escalation", "gap": 0.04 },
+        { "who": "Shruti", "text": "Usmein formula tha!", "say": "उसमें फ़ॉर्मूला था!", "beat": "escalation", "punch": true }
+      ]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.1,
+      "chip": "FLOP #2", "chipY": 600,
+      "clock": { "h": 5, "m": 3 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "open", "hop": true },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "phone2", "mouth": "o", "eyes": "side" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "flat" }
+      ],
+      "props": [{ "name": "Phone + notification", "x": 740, "y": 1660, "s": 0.9 }],
+      "lines": [{ "who": "Megha", "text": "Number do! No phone rule!", "say": "नंबर दो! नो फ़ोन रूल!", "beat": "escalation", "gap": 0.04 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "push", "hold": 0.1,
+      "chip": "FLOP #2: CHALA 4 MINUTE", "chipY": 600,
+      "clock": { "h": 5, "m": 4 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "laughs", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": 0.5, "pose": "phone2", "mouth": "smile", "eyes": "side" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "hold", "prop": "calc", "mouth": "flat", "eyes": "half" }
+      ],
+      "sfx": [{ "at": 0.9, "name": "calc", "vol": 0.4 }],
+      "lines": [
+        { "who": "Megha", "text": "Chaar minute chala!", "say": "चार मिनट चला!", "beat": "escalation", "gap": 0.04 },
+        { "who": "Shruti", "text": "Teen minute. Maine time kiya.", "say": "तीन मिनट। मैंने टाइम किया।", "beat": "escalation", "punch": true }
+      ]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.1,
+      "chip": "FLOP #1: ?", "chipY": 600,
+      "clock": { "h": 5, "m": 5 },
+      "sfx": [{ "at": 0, "name": "riser", "vol": 0.4 }],
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "laugh", "eyes": "open", "hop": true },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "smirk", "eyes": "side" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "relaxed", "mouth": "smirk", "eyes": "side" }
+      ],
+      "lines": [{ "who": "Megha", "text": "Number ek! Dekho kiska!", "say": "नंबर एक! देखो किसका!", "beat": "turn", "gap": 0.04 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "still", "music": false, "hold": 0.1,
+      "chip": "FLOP #1: MEGHA KA DIET", "chipY": 600,
+      "clock": { "h": 5, "m": 5 },
+      "chars": [
+        { "name": "Megha", "x": 400, "y": 1760, "s": 2.2, "turn": 0, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open" }
+      ],
+      "props": [{ "name": "Phone + notification", "x": 760, "y": 1300, "s": 1.3, "at": 0.05 }],
+      "stickers": [{ "kind": "sweat", "x": 520, "y": 900, "at": 0.6 }],
+      "lines": [{ "who": "Megha", "text": "Megha ka diet?!", "say": "मेघा का डाइट?!", "beat": "turn", "silenceBefore": true, "punch": true }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.1,
+      "chip": "FLOP #1: MEGHA KA DIET", "chipY": 600,
+      "clock": { "h": 5, "m": 5 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open" },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "talkL", "mouth": "laugh", "eyes": "open" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "hold", "prop": "calc", "mouth": "flat", "eyes": "half" }
+      ],
+      "props": [{ "name": "Samosa plate", "x": 360, "y": 1460, "s": 1.2, "at": 0.1 }],
+      "stickers": [{ "kind": "exclaim", "x": 360, "y": 1180, "at": 0.2 }],
+      "lines": [
+        { "who": "Tanya", "text": "Aur haath mein samosa!", "say": "और हाथ में समोसा!", "beat": "turn", "gap": 0.04 },
+        { "who": "Shruti", "text": "Teesra.", "say": "तीसरा।", "beat": "turn", "punch": true }
+      ]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.1,
+      "chip": "FLOP #1: MEGHA KA DIET", "chipY": 600,
+      "clock": { "h": 5, "m": 6 },
+      "chars": [
+        { "name": "Megha", "x": 400, "y": 1760, "s": 2.2, "turn": 0.4, "pose": "laughs", "mouth": "laugh", "eyes": "laugh" }
+      ],
+      "props": [{ "name": "Samosa plate", "x": 640, "y": 1600, "s": 1.2 }],
+      "lines": [{ "who": "Megha", "text": "Bas ek! Cheat day hai!", "say": "बस एक! चीट डे है!", "beat": "button", "gap": 0.04 }]
+    },
+    {
+      "kit": "scene", "set": "living", "banner": "SAAL KE FLOPS", "camera": "punch", "hold": 0.6,
+      "chip": "FLOP #1: MEGHA KA DIET", "chipY": 600,
+      "clock": { "h": 5, "m": 6 },
+      "chars": [
+        { "name": "Megha", "x": 280, "y": 1750, "s": 2, "turn": 0.6, "pose": "hold", "prop": "phone", "mouth": "o", "eyes": "open" },
+        { "name": "Tanya", "x": 620, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "talkL", "mouth": "laugh", "eyes": "laugh" },
+        { "name": "Shruti", "x": 860, "y": 1330, "s": 1.25, "turn": -0.5, "pose": "talkL", "mouth": "laugh", "eyes": "laugh" }
+      ],
+      "props": [{ "name": "Samosa plate", "x": 360, "y": 1460, "s": 1.2 }],
+      "sfx": [{ "at": 1.6, "name": "laughv", "vol": 0.5 }],
+      "lines": [{ "who": "ALL", "text": "Kitty 2026 ka sabse bada flop!", "say": "किटी दो हज़ार छब्बीस का सबसे बड़ा फ़्लॉप!", "beat": "button", "punch": true }]
+    }
+  ]
+}
