@@ -147,7 +147,7 @@ function envelope(file) {
   else if (D.musicUrl) { const r = await fetch(D.musicUrl); if (!r.ok) throw new Error('music ' + r.status + ' ' + D.musicUrl); fs.writeFileSync(path.join(OUT, 'music.m4a'), Buffer.from(await r.arrayBuffer())); }
   else execFileSync('node', [path.join(ROOT, 'scripts', 'music-quirky.js'), path.join(OUT, 'music.wav'), String(Math.ceil(total + 1))], { stdio: 'ignore' });
   fs.rmSync(TMP, { recursive: true, force: true });
-  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', musicFile: TS || D.musicUrl ? 'music.m4a' : 'music.wav', musicVol: D.musicVol, musicLoop: !!D.musicUrl, calls, frames: Math.round(total * FPS), cover: D.cover, ambience: D.ambience };
+  const spec = { id: D.id, title: D.title, total, lines, shots, sfx, music: D.music || 'quirky', musicFile: TS || D.musicUrl ? 'music.m4a' : 'music.wav', musicVol: D.musicVol, musicLoop: !!D.musicUrl, wipes: !!D.wipes, calls, frames: Math.round(total * FPS), cover: D.cover, ambience: D.ambience };
   if (TS) spec.T = { ...TS, total };
   fs.mkdirSync(path.join(ROOT, 'autopilot', 'timed'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'autopilot', 'timed', D.id + '.json'), JSON.stringify({ spec }));

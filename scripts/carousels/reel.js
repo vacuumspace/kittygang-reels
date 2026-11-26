@@ -55,12 +55,21 @@ function toReel(d, opts = {}) {
   const shots = r.shots.map((s0) => {
     let s = { ...s0 };
     if (s.game) {
-      // one placement or a list: { need: <index into need.items> | show: "step N" | draw: [...], box: [x, y, w, h] }
-      s.gameSvg = [].concat(s.game).map((g) => {
+      // one placement or a list: { need: <index into need.items> | show: "step N" | draw: [...], box: [x, y, w, h],
+      //   at (drops in), ring: { at, dur }, grab: { who, at, dur } (flies into her raised hand: give her poseAt wave) }
+      s.items = [].concat(s.game).map((g) => {
         const [x, y, w, h] = g.box || [290, 1250, 500, 360];
         const list = g.draw || (g.need != null ? (d.need?.items?.[g.need]?.draw || []) : listFor(d, g.show));
-        return fit(list, x, y, w, h, 0, 4);
-      }).join('');
+        const it = { svg: fit(list, x, y, w, h, 0, 4), cx: x + w / 2, cy: y + h / 2, top: y, at: g.at, ring: g.ring };
+        if (g.grab) {
+          const c = (s.chars || []).find((c) => c.name === g.grab.who);
+          if (!c) throw new Error('grab: ' + g.grab.who + ' is not in the shot');
+          // raised hand of the wave pose, measured on the rig: (+75 s, -260 s) from her feet; the rig always raises the screen-right hand
+          const sc = c.s ?? 2, sign = 1;
+          it.move = { to: [(c.x ?? 540) + 75 * sc * sign, (c.y ?? 1760) - 260 * sc], at: g.grab.at, dur: g.grab.dur ?? 0.4, scale: g.grab.scale ?? 0.7 };
+        }
+        return it;
+      });
       delete s.game;
     }
     if (s.kit !== 'board') return s;
@@ -81,7 +90,7 @@ function toReel(d, opts = {}) {
     // calm and clear (user 2026-11-26: "too fast to understand"): slower voices, ~0.7 s between speakers like the
     // How to play reels, and the app's theme music low underneath (opts.musicUrl, set by render-new.js)
     pace: r.pace ?? -6, gap: r.gap ?? 0.7, musicUrl: opts.musicUrl, musicVol: opts.musicUrl ? 0.4 : undefined,
-    cover: { shot: 0, at: 1.2, title: [] }, shots: [intro, ...shots],
+    wipes: true, cover: { shot: 0, at: 1.2, title: [] }, shots: [intro, ...shots],
   };
 }
 module.exports = { toReel, board };

@@ -36,9 +36,11 @@ function face(spec, name, t, o, i) {
 }
 // one character placed with feet at (x, y), scale s; breathes and tilts while talking
 function char(spec, c, x, y, s, t, i, sh) {
-  const { name, look, from, moveAt, moveDur, twirl, ...o0 } = c;
+  const { name, look, from, moveAt, moveDur, twirl, poseAt, ...o0 } = c;
   const o = { ...(WARDROBE[look] || {}), ...o0 };
   const lt = sh ? t - sh.start : t;
+  // poseAt: { at, pose, mouth?, eyes? } switches her pose mid-shot (e.g. the hand shoots up as she grabs the bell)
+  for (const p of [].concat(poseAt || [])) if (lt >= p.at) { const { at, ...rest } = p; Object.assign(o, rest); }
   let walking = false;
   if (from) { const u = ease((lt - (moveAt || 0)) / (moveDur || 0.8)); walking = u > 0 && u < 1; x = from[0] + (x - from[0]) * u; y = from[1] + (y - from[1]) * u; }
   const step = walking ? 14 * Math.abs(Math.sin(lt * 14)) : 0;
@@ -169,6 +171,33 @@ const KITS = {
     return (SETS[sh.set] || SETS.living)({ night: sh.night }) + '<rect width="1080" height="1920" fill="#FFE4EC" opacity="0.15"></rect>' + (sh.decor !== false ? partyDecor() : '') + brd + (sh.gameSvg || '') + people;
   },
 };
+// game prop: { svg (drawn in its box), cx, cy, top (box centre + top edge), at (drops in), move: { to: [x, y], at, dur,
+// scale } (flies there in an arc, e.g. into a raised hand), ring: { at, dur } (wobbles like a ringing bell) }
+function itemAt(it, sh, t) {
+  const u = t - sh.start;
+  if (it.at != null && u < it.at) return '';
+  let dy = 0, k = 1, dx = 0, r = 0;
+  if (it.at != null) { const e = back((u - it.at) / 0.45); dy = -320 * (1 - Math.min(1, e)); k = 0.6 + 0.4 * e; }
+  if (it.move) { const m = it.move, e = ease((u - (m.at ?? 0)) / (m.dur ?? 0.45)); dx = (m.to[0] - it.cx) * e; dy += (m.to[1] - it.cy) * e - 140 * Math.sin(Math.PI * e); k *= 1 + ((m.scale ?? 1) - 1) * e; }
+  if (it.ring) { const g = u - (it.ring.at ?? 0); if (g > 0 && g < (it.ring.dur ?? 1.2)) r = 16 * Math.sin(g * 38) * Math.exp(-g * 2.2); }
+  return '<g transform="translate(' + f1(dx) + ' ' + f1(dy) + ') rotate(' + f1(r) + ' ' + f1(it.cx) + ' ' + f1(it.top) + ') translate(' + f1(it.cx) + ' ' + f1(it.cy) + ') scale(' + f2(k) + ') translate(' + f1(-it.cx) + ' ' + f1(-it.cy) + ')">' + it.svg + '</g>'
+    + (it.ring && u > (it.ring.at ?? 0) && u < (it.ring.at ?? 0) + 0.8 ? ringLines(it.cx + dx, it.top + dy + 40, u - (it.ring.at ?? 0)) : '');
+}
+const ringLines = (x, y, g) => { const k = back(g / 0.25), op = f2(1 - sat((g - 0.4) / 0.4)); return '<g opacity="' + op + '" transform="translate(' + f1(x) + ' ' + f1(y) + ') scale(' + f2(k) + ')" stroke="' + YEL + '" stroke-width="12" stroke-linecap="round"><path d="M-120 -20 L-170 -40 M-125 30 L-180 40 M120 -20 L170 -40 M125 30 L180 40"></path></g>'; };
+// floating score: { text: "+1", x, y, at, color }
+function popAt(p, sh, t) {
+  const g = t - sh.start - (p.at ?? 0); if (g < 0 || g > 1.6) return '';
+  const k = back(g / 0.3), op = 1 - sat((g - 1.1) / 0.5);
+  return '<g opacity="' + f2(op) + '" transform="translate(' + f1(p.x) + ' ' + f1(p.y - 150 * ease(g / 1.4)) + ') scale(' + f2(k) + ')"><text x="0" y="0" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="' + (p.size || 120) + '" fill="' + (p.color === 'red' ? '#E63946' : p.color === 'green' ? '#2FA37A' : PINK) + '" stroke="#FFFFFF" stroke-width="14" paint-order="stroke" stroke-linejoin="round">' + esc(p.text) + '</text></g>';
+}
+// step label under the captions: { kicker: "STEP 1", text: "Sab stool ke chaaron taraf" }, slides in from the left
+function stepLabel(L, t0, t) {
+  const e = back((t - t0) / 0.45); if (t < t0) return '';
+  const x = -1100 * (1 - e), w = Math.min(980, String(L.text).length * 31 + 80);
+  return '<g transform="translate(' + f1(x) + ' 0)"><rect x="' + (540 - w / 2) + '" y="470" width="' + w + '" height="110" rx="30" fill="#FFFFFF" stroke="' + PINK + '" stroke-width="6"></rect>'
+    + (L.kicker ? '<rect x="' + (540 - w / 2 + 24) + '" y="430" width="' + (String(L.kicker).length * 26 + 50) + '" height="64" rx="32" fill="' + PINK + '"></rect><text x="' + (540 - w / 2 + 49) + '" y="474" font-family="Fredoka" font-weight="700" font-size="38" fill="#FFFFFF">' + esc(L.kicker) + '</text>' : '')
+    + '<text x="540" y="545" text-anchor="middle" font-family="Fredoka" font-weight="600" font-size="52" fill="' + PLUM + '">' + esc(L.text) + '</text></g>';
+}
 // kitty party dressing for game shots: fairy lights across the top wall, balloons in both corners, a gift by the sofa
 function partyDecor() {
   return put('Fairy lights', 270, 560, 560) + put('Fairy lights', 810, 560, 560) + put('Balloons', 70, 1300, 230) + put('Balloons', 1010, 1300, 230) + put('Gift box', 960, 1400, 120);
@@ -241,6 +270,8 @@ export function frameAt(spec, t) {
   let body = (KITS[sh.kit] || KITS.card)(spec, sh, t);
   if (sh.kit === 'ttimes' || sh.kit === 'tapp') return body;
   body += (sh.props || []).map((p) => propAt(p, sh, t)).join('');
+  // game reels: the game's own props drop in, fly into a hand and ring; "+1" scores float up
+  body += (sh.items || []).map((it) => itemAt(it, sh, t)).join('') + (sh.pops || []).map((p) => popAt(p, sh, t)).join('');
   if (sh.kit === 'scene' && sh.front && FRONTS[sh.set]) body += FRONTS[sh.set]();
   if (sh.clock) body += clock(900, 300, 80, sh.clock.h, sh.clock.m || 0);
   body += (sh.stickers || []).map((st) => sticker(st, sh.start, t)).join('');
@@ -252,9 +283,19 @@ export function frameAt(spec, t) {
   const pl = spec.lines.find((l) => l.punch && t >= l.start && t < l.start + 0.6);
   if (pl) { const p = t - pl.start; z += 0.08 * Math.exp(-p * 6); shake = ' translate(' + f1(10 * Math.exp(-p * 8) * Math.sin(p * 70)) + ' ' + f1(8 * Math.exp(-p * 8) * Math.cos(p * 60)) + ')'; }
   let o = '<g transform="translate(540 1000) scale(' + z.toFixed(4) + ') translate(-540 -1000)' + shake + '">' + body + '</g>';
+  // focus: the camera glides in on a point (e.g. the bell at the moment of the grab) and back out
+  if (sh.focus) {
+    const F = sh.focus, a = sh.start + (F.at ?? 0), b = F.until != null ? sh.start + F.until : sh.end;
+    const e = ease((t - a) / (F.dur ?? 0.5)) * (1 - ease((t - b + 0.4) / 0.4));
+    // the zoomed view never leaves the frame (no empty band at an edge)
+    if (e > 0) { const fz = 1 + ((F.z ?? 1.35) - 1) * e, cl = (v, h) => Math.max(h / fz, Math.min(2 * h - h / fz, v)), cx = cl(540 + (F.x - 540) * e, 540), cy = cl(960 + (F.y - 960) * e, 960); o = '<g transform="translate(540 960) scale(' + fz.toFixed(4) + ') translate(' + f1(-cx) + ' ' + f1(-cy) + ')">' + o + '</g>'; }
+  }
+  if (sh.label) o += stepLabel(sh.label, sh.start + 0.15, t);
   if (sh.hook) o += hookBanner(sh.hook, sh.start, t, sh.hookY || 520);
   if (sh.chip) o += chip(sh.chip, sh.start + 0.2, t, sh.chipY || 560);
   if (sh.kit !== 'phone' && sh.kit !== 'slide') { const l = spec.lines.find((x) => t >= x.start - 0.05 && t <= x.start + x.dur + 0.2); if (l && !sh.hook) o += caption(l.text, l.start - 0.05, t, sh.kit === 'board' ? 34 : 30); }
+  // shot transition for game reels: a pink and yellow band sweeps across on every cut
+  if (spec.wipes && sh !== spec.shots[0] && u < 0.4) { const x = -1500 + 3000 * ease(u / 0.4); o += '<g transform="translate(' + f1(x) + ' 0) rotate(-14 540 960)"><rect x="140" y="-400" width="520" height="2800" fill="' + PINK + '"></rect><rect x="660" y="-400" width="140" height="2800" fill="' + YEL + '"></rect></g>'; }
   // no fade-in: frame 1 must be the real scene (it is what Instagram shows before a cover is set)
   const fadeOut = sat((t - (spec.total - 0.5)) / 0.5);
   if (fadeOut > 0) o += '<rect width="1080" height="1920" fill="#FFF4F7" opacity="' + f2(fadeOut) + '"></rect>';
