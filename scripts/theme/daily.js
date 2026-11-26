@@ -113,6 +113,12 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
       if (j && j.status !== 'processing') Object.assign(rec, { status: j.status === 'failed' ? 'failed' : 'posted', permalink: j.permalink || undefined, media_id: j.media_id || undefined, error: j.error || undefined });
     }
     console.log('instagram', rec.status, rec.permalink || rec.error || '');
+    // Facebook Page story, same video with the strip (never blocks Instagram or YouTube)
+    try {
+      const fb = await T.agent('fb/story', { video_url: rec.story_url });
+      Object.assign(rec, { fb_status: fb.status, fb_post_id: fb.post_id || undefined, fb_error: fb.error || undefined });
+      console.log('facebook story', fb.status, fb.post_id || fb.error || '');
+    } catch (e) { rec.fb_status = 'failed'; rec.fb_error = String(e.message).slice(0, 200); console.error('facebook', e.message); }
     // YouTube Shorts, public now (never blocks Instagram)
     if (process.env.YT_REFRESH_TOKEN) {
       try {
@@ -129,7 +135,7 @@ const lufs = (file) => { try { return execFileSync('ffmpeg', ['-hide_banner', '-
       tr.reels = tr.reels.filter((x) => x.id !== id).concat(rec);
       T.save(tr);
       console.log('tracker:', await T.publishTracker(tr));
-      await T.status('theme-reel', rec.status === 'failed' ? 'failed' : 'ok', rec.status === 'failed' ? null : `Posted ${d.theme.name} story (${rec.story === 'ai' ? 'AI: ' : ''}${rec.variant})${rec.yt_url ? ' + YouTube Short' : ''}`, rec.error);
+      await T.status('theme-reel', rec.status === 'failed' ? 'failed' : 'ok', rec.status === 'failed' ? null : `Posted ${d.theme.name} story${rec.fb_status === 'posted' ? ' (IG + FB)' : ''} (${rec.story === 'ai' ? 'AI: ' : ''}${rec.variant})${rec.yt_url ? ' + YouTube Short' : ''}`, rec.error);
     }
   }
   if (rec.status === 'failed') process.exit(1);
