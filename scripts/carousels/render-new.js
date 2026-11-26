@@ -111,8 +111,8 @@ function check(d, slides) {
         run('npx', ['remotion', 'render', 'AutoReel', mp4, '--props=' + props, '--log=error']);
         run('npx', ['remotion', 'still', 'AutoCover', cov, '--props=' + props, '--image-format=jpeg', '--log=error']);
         Object.assign(rec, { format: 'reel', rev: d.reel.rev || 1, music: musicUrl || 'generated', experiment: d.reel.experiment, hook: (d.reel.shots[0]?.hook || []).join(' '), duration: spec.total, script: R.shots.flatMap((sh, i) => (sh.lines || []).map((l) => ({ shot: i + 1, who: l.who, line: l.text }))) });
-        rec.video_url = T.r2put(path.join(ROOT, mp4), 'reels/games/' + R.id + '.mp4', 'video/mp4');
-        rec.cover_url = T.r2put(path.join(ROOT, cov), 'reels/games/' + R.id + '-cover.jpg', 'image/jpeg');
+        rec.video_url = T.r2put(path.join(ROOT, mp4), 'reels/games/' + R.id + '-r' + (d.reel.rev || 1) + '.mp4', 'video/mp4');
+        rec.cover_url = T.r2put(path.join(ROOT, cov), 'reels/games/' + R.id + '-r' + (d.reel.rev || 1) + '-cover.jpg', 'image/jpeg');
         // remake: cancel the earlier unposted booking and remove its scheduled YouTube copy first
         if (old[d.id]) {
           await T.agent('reels/queue/cancel', { local_id: d.id, reason: 'remade (rev ' + (d.reel.rev || 1) + ')' }).catch((e) => console.warn('cancel', e.message));
