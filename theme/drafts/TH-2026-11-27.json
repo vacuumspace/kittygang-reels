@@ -1,0 +1,166 @@
+{
+ "title": "Aapki farmaish, 90s special!",
+ "format": "Kitty Gang 90s radio request show on the 90s Ki Yaadein game: Ruhi hosts an old-style farmaish programme, each request is a prize group, and the friend who never sent one wins the Pager group",
+ "experiment": {
+  "format": "radio-farmaish",
+  "hook": "Ruhi as a 90s radio announcer with her phone as the mic on the 90s Ki Yaadein home art, heartbeat at 0 s, mascot ball spinning above, chip 'AAPKI FARMAISH: 90s SPECIAL' pinned from the first frame, she says 'Namaskar! Yeh hai aapki farmaish!'",
+  "variable": "the known media voice comes from the theme's own era: an old radio farmaish programme (the voice of the 90s for women 30 to 55) instead of a modern TV show, so the hook is a pattern they know by heart and a nostalgia trigger at once, at the winning short length (about 16 s, 9 shots, 'FARMAISH x/3' chips)",
+  "hypothesis": "on 90s day a voice from their own childhood stops the swipe harder than a TV format and the comment prompt ('aapki 90s farmaish?') gives a reason to reply: skip under 48% (TV-voice reels 45.2 to 47.6, real-life ritual not in yet), watched % above 24 (best 26), at least 1 comment with a 90s memory and 1 share or tag from '90s wali saheli'"
+ },
+ "idea": "Ruhi hosts a 90s radio farmaish show during the 90s Housie: Shruti asks to rewind the cassette with a pencil to save battery, Tina boasts her house had colour TV for Chitrahaar, Megha has one glass of Rasna for cheat day, then 27 is called and Aditi, who never sent a request, wins the Pager group.",
+ "beats": "hook: namaskar, yeh hai aapki farmaish / farmaish 1/3 cassette: Shruti's pencil rewind / farmaish 2/3 Chitrahaar: Tina's colour TV / farmaish 3/3 Rasna: Megha's cheat day / Ruhi: Pager group, ek number baaki / the call / reveal: Pager group is Aditi's / turn: Ruhi, tumne farmaish bhi nahi ki / button: Aditi, pager pe bhej di thi",
+ "logline": "Ruhi hosts a 90s radio request show during the 90s Housie, and the friend who never sent a request wins the Pager group.",
+ "game": "every request is a typical kitty friend's 90s memory, and the quiet one already sent hers by pager",
+ "caption": "Aapki 90s wali farmaish kya hai? Comment mein likho, 90s wali saheli ko tag karo! Aaj ki {theme} Housie mein milte hain.",
+ "hashtags": ["#kittyparty", "#housie", "#tambola", "#kittygang", "#90s", "#90skids", "#nostalgia", "#chitrahaar"],
+ "ambience": { "name": "crowd", "vol": 0.08 },
+ "pace": 24,
+ "shots": [
+  {
+   "kit": "thome",
+   "chip": "AAPKI FARMAISH: 90s SPECIAL",
+   "chipY": 1560,
+   "camera": "punch",
+   "ball": { "n": 27, "x": 540, "y": 700, "size": 380, "revealAt": 99 },
+   "chars": [
+    { "name": "Ruhi", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "phone", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Ruhi", "text": "Namaskar! Yeh hai aapki farmaish!", "say": "नमस्कार! यह है आपकी फ़रमाइश!", "beat": "hook" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "heartbeat", "vol": 0.7 },
+    { "at": 0.1, "name": "chimes", "vol": 0.4 },
+    { "at": 0.8, "name": "heartbeat", "vol": 0.8 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "FARMAISH 1/3: CASSETTE",
+   "chipY": 1560,
+   "camera": "push",
+   "chars": [
+    { "name": "Shruti", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "calc", "eyes": "half", "mouth": "flat" }
+   ],
+   "lines": [
+    { "who": "Shruti", "text": "Cassette pencil se ghumao. Battery bachao!", "say": "कैसेट पेंसिल से घुमाओ। बैटरी बचाओ!", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.2, "name": "tick", "vol": 0.4 },
+    { "at": 0.6, "name": "tick", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "FARMAISH 2/3: CHITRAHAAR",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Tina", "x": 540, "y": 1780, "s": 2.2, "pose": "hips", "eyes": "half", "mouth": "smirk" }
+   ],
+   "stickers": [
+    { "kind": "spark", "x": 780, "y": 1000, "at": 0.4, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Tina", "text": "Darling, humare ghar colour TV tha.", "say": "डार्लिंग, हमारे घर कलर टीवी था।", "punch": true, "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.3, "name": "sparkle", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "FARMAISH 3/3: RASNA",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Megha", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "bottle", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Megha", "text": "Rasna, bas ek glass. Cheat day!", "say": "रसना, बस एक गिलास। चीट डे!", "punch": true, "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.2, "name": "slurp", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "phone",
+   "marked": 3,
+   "chip": "PAGER GROUP: 1 NUMBER BAAKI",
+   "chipY": 600,
+   "chars": [
+    { "name": "Ruhi", "x": 880, "y": 1900, "s": 1.6, "pose": "phone2", "eyes": "open", "mouth": "o", "turn": -0.5 }
+   ],
+   "lines": [
+    { "who": "Ruhi", "text": "Ab Pager group, ek number baaki!", "say": "अब पेजर ग्रुप, एक नंबर बाकी!", "beat": "turn" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "heartbeat", "vol": 0.6 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ball",
+   "call": 27,
+   "dab": true,
+   "dur": 1.4,
+   "music": false,
+   "chip": "PAGER GROUP: 1 NUMBER BAAKI",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.0, "name": "cage", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ticket",
+   "marked": 4,
+   "dab": true,
+   "reacts": true,
+   "dur": 1.4,
+   "chip": "PAGER GROUP: ADITI!",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.1, "name": "ding", "vol": 0.5 },
+    { "at": 0.8, "name": "waah", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "FARMAISH: 0 | INAAM: ADITI",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Ruhi", "x": 540, "y": 1780, "s": 2.3, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "o" }
+   ],
+   "stickers": [
+    { "kind": "exclaim", "x": 760, "y": 980, "at": 0.3, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Ruhi", "text": "Aditi? Tumne farmaish bhi nahi ki!", "say": "अदिति? तुमने फ़रमाइश भी नहीं की!", "beat": "turn" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "scratch", "vol": 0.5 },
+    { "at": 0.6, "name": "haww", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": true,
+   "chip": "PAGER GROUP: ADITI",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Ruhi", "x": 360, "y": 1780, "s": 2.0, "pose": "hold", "prop": "phone", "eyes": "open", "mouth": "o", "turn": 0.5 },
+    { "name": "Aditi", "x": 760, "y": 1780, "s": 2.2, "pose": "cup", "eyes": "half", "mouth": "flat", "turn": -0.5 }
+   ],
+   "lines": [
+    { "who": "Aditi", "text": "Hmm. Pager pe bhej di thi.", "say": "हम्म। पेजर पे भेज दी थी।", "punch": true, "silenceBefore": true, "beat": "button" }
+   ]
+  }
+ ]
+}
