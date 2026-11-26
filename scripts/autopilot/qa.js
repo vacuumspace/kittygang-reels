@@ -23,13 +23,16 @@ function qa(draft, spec, video) {
   const add = (name, ok, detail) => checks.push({ name, ok, detail });
   const words = spec.lines.reduce((n, l) => n + l.text.split(/\s+/).filter(Boolean).length, 0);
   const spoken = spec.lines.reduce((n, l) => n + l.dur, 0);
-  add('length 15-45 s', spec.total >= 15 && spec.total <= 45, spec.total + ' s');
-  add('words <= 120', words <= 120, words + ' words');
-  add('voice pace >= 2.3 words/s', words / spoken >= 2.3, (words / spoken).toFixed(2) + ' w/s');
+  // 2026-11-26: the user found the scripts robotic (rushed voices, 7-word lines, a laugh sound after every line).
+  // Real conversation is allowed now: calmer pace, longer lines and shots, up to a minute.
+  add('length 15-60 s', spec.total >= 15 && spec.total <= 60, spec.total + ' s');
+  add('words <= 170', words <= 170, words + ' words');
+  add('voice not rushed (<= 3.4 words/s)', words / spoken <= 3.4, (words / spoken).toFixed(2) + ' w/s');
   const longest = Math.max(...spec.shots.map((s) => s.end - s.start));
-  add('no shot over 5 s', longest <= 5, longest.toFixed(1) + ' s');
+  add('no shot over 9 s', longest <= 9, longest.toFixed(1) + ' s');
+  add('sounds human (review.human >= 4)', (draft.review?.human ?? 0) >= 4, 'human ' + (draft.review?.human ?? 'missing'));
   const dead = spec.shots.reduce((m, s, i) => Math.max(m, s.start - (spec.shots[i - 1]?.end ?? 0)), 0);
-  add('script scorecard >= 44/55', (draft.review?.total ?? 0) >= 44, (draft.review?.total ?? 'missing') + '/55');
+  add('script scorecard >= 48/60', (draft.review?.total ?? 0) >= 48, (draft.review?.total ?? 'missing') + '/60');
   add('clarity scored 5 with logline and mute test', draft.review?.clarity === 5 && !!draft.logline && Array.isArray(draft.mute), 'clarity ' + (draft.review?.clarity ?? 'missing'));
   add('has a hook in the first shot', !!(draft.shots[0]?.hook || draft.shots[0]?.lines?.length), '');
   add('has a punchline', spec.lines.some((l) => l.punch), '');

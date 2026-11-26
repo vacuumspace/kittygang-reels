@@ -12,7 +12,7 @@ concurrency: { group: render, cancel-in-progress: false }
 jobs:
   render:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 50
     permissions: { contents: write }
     steps:
       - uses: actions/checkout@v4
@@ -26,9 +26,15 @@ jobs:
           mkdir -p /tmp/ff && tar -xf /tmp/ff.tar.xz -C /tmp/ff --strip-components=1
           echo /tmp/ff/bin >> "$GITHUB_PATH"
           /tmp/ff/bin/ffmpeg -version | head -1
+      - run: pipx install edge-tts
       - run: npm ci
-      - name: Render new game carousels, publish web pages, book posting slots
+      - name: Render new game ideas (explainer reel + web page), book posting slots
         env:
+          EDGE_TTS_BIN: edge-tts
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_GAMES_PLAYLIST_ID: PLdh3OcADHNok   # public playlist "Kitty Game Ideas"
           AGENT_KEY: ${{ secrets.AGENT_KEY }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}

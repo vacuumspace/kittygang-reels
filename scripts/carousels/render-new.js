@@ -1,5 +1,8 @@
 // Renders every Kitty Game Ideas draft that is not in the tracker yet, uploads the slides, publishes the
-// website data (games/<slug>.json + games/index.json on R2) and books the Instagram posting slot.
+// website data (games/<slug>.json + games/index.json on R2) and books the posting slot.
+// Since 2026-11-26 a draft with a `reel` block goes out as a Kitty Gang explainer REEL (Instagram + Facebook, one a
+// day, queue kind "game") plus a YouTube Short in the "Kitty Game Ideas" playlist (YT_GAMES_PLAYLIST_ID). The slides
+// are still rendered for the website page. Older drafts without a reel block still go out as carousels.
 //   node scripts/carousels/render-new.js        (CI: needs R2_* and AGENT_KEY env)
 //   node scripts/carousels/render-new.js --dry  (render only, slides in out/carousels/<id>/)
 const fs = require('fs');
@@ -9,9 +12,12 @@ const { bundle } = require('@remotion/bundler');
 const { selectComposition, renderStill } = require('@remotion/renderer');
 const T = require('../autopilot/tracker');
 const { build } = require('../../carousels/build');
+const { toReel } = require('./reel');
+const { uploadShort } = require('../youtube/upload');
 
 const DRY = process.argv.includes('--dry');
 const ROOT = T.ROOT;
+const run = (cmd, args) => execFileSync(cmd, args, { cwd: ROOT, stdio: 'inherit', shell: process.platform === 'win32' });
 const PUBLIC = 'https://kittyparty-themes.rahul-89e.workers.dev';
 const ist = () => new Date(Date.now() + 5.5 * 3600 * 1000).toISOString().slice(0, 10);
 
@@ -77,9 +83,37 @@ function check(d, slides) {
       T.r2put(xf, 'games/index.json', 'application/json');
       rec.web_url = 'https://www.kittyparty.club/kitty-game-ideas/' + d.slug;
       const caption = [d.caption, (d.hashtags || ['#kittyparty', '#kittypartygames', '#kittypartyideas']).join(' ')].join('\n\n');
-      const q = await T.agent('carousels/queue', { image_urls: urls, caption, title: 'Kitty Game Ideas #' + d.n + ': ' + d.game, local_id: d.id });
-      Object.assign(rec, { status: 'queued', queue_id: q.id, scheduled_ist: q.scheduled_ist });
-      console.log('queued for', q.scheduled_ist, 'IST');
+      if (d.reel) {
+        // Kitty Gang explainer reel: voice it, render it, post it like a reel (Instagram + Facebook) and as a Short
+        const R = toReel(d);
+        const df = path.join(ROOT, 'autopilot', 'wip', R.id + '.json');
+        fs.mkdirSync(path.dirname(df), { recursive: true });
+        fs.writeFileSync(df, JSON.stringify(R));
+        run('node', ['scripts/autopilot/build.js', path.relative(ROOT, df)]);
+        const props = 'autopilot/timed/' + R.id + '.json', mp4 = 'out/' + R.id + '.mp4', cov = 'out/' + R.id + '-cover.jpg';
+        const spec = JSON.parse(fs.readFileSync(path.join(ROOT, props), 'utf8')).spec;
+        if (spec.total < 15 || spec.total > 90) throw new Error('QA: reel is ' + spec.total + ' s (need 15-90)');
+        run('npx', ['remotion', 'render', 'AutoReel', mp4, '--props=' + props, '--log=error']);
+        run('npx', ['remotion', 'still', 'AutoCover', cov, '--props=' + props, '--image-format=jpeg', '--log=error']);
+        Object.assign(rec, { format: 'reel', duration: spec.total, script: R.shots.flatMap((sh, i) => (sh.lines || []).map((l) => ({ shot: i + 1, who: l.who, line: l.text }))) });
+        rec.video_url = T.r2put(path.join(ROOT, mp4), 'reels/games/' + R.id + '.mp4', 'video/mp4');
+        rec.cover_url = T.r2put(path.join(ROOT, cov), 'reels/games/' + R.id + '-cover.jpg', 'image/jpeg');
+        const q = await T.agent('reels/queue', { kind: 'game', video_url: rec.video_url, cover_url: rec.cover_url, caption, title: 'Kitty Game Ideas #' + d.n + ': ' + d.game, local_id: d.id });
+        if (q.error) throw new Error('queue: ' + q.error);
+        Object.assign(rec, { status: 'queued', queue_id: q.id, scheduled_ist: q.scheduled_ist });
+        console.log('reel queued for', q.scheduled_ist, 'IST');
+        if (process.env.YT_REFRESH_TOKEN) {
+          try {
+            const yt = await uploadShort({ file: path.join(ROOT, mp4), title: (d.reel.title || d.game) + ' | Kitty Game Ideas #' + d.n, description: [d.caption, 'Full rules: ' + rec.web_url, (d.hashtags || []).join(' ') + ' #Shorts'].join('\n\n'), tags: (d.hashtags || []).map((h) => h.replace(/^#/, '')), publishAt: q.scheduled_for ? new Date(q.scheduled_for).toISOString() : undefined, playlistId: process.env.YT_GAMES_PLAYLIST_ID });
+            Object.assign(rec, { yt_id: yt.id, yt_url: yt.url, yt_privacy: yt.privacy });
+            console.log('youtube short', yt.url, yt.privacy);
+          } catch (e) { rec.yt_error = String(e.message).slice(0, 200); console.error('youtube', e.message); }
+        }
+      } else {
+        const q = await T.agent('carousels/queue', { image_urls: urls, caption, title: 'Kitty Game Ideas #' + d.n + ': ' + d.game, local_id: d.id });
+        Object.assign(rec, { status: 'queued', queue_id: q.id, scheduled_ist: q.scheduled_ist });
+        console.log('queued for', q.scheduled_ist, 'IST');
+      }
     } catch (e) {
       console.error('FAILED', d.id, e.message);
       Object.assign(rec, { status: 'failed', error: String(e.message).slice(0, 300) });

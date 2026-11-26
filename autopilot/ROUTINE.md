@@ -22,7 +22,8 @@ workflow turns it into a finished video and posts it automatically (one post a d
    not among the last 4 reels' `experiment.type` in tracker.json (once LEARNINGS shows a winner, use it at most every
    2nd reel). Then pick the highest-scoring unused idea that fits that type (or adapt one). Do not repeat the lead
    character two reels in a row. Add `"experiment": { "type", "hook", "variable", "hypothesis" }` to the draft.
-4. Write the script. Shape (any length that keeps it flowing, usually 20-40 s, lines of 7 words or less, a laugh or surprise every 5 s):
+4. Write the script. SOUND HUMAN FIRST (user, 2026-11-26: the Kitty Gang scripts were "super robotic"; the app How to
+   play reels in autopilot/HUMAN-EXAMPLES.md are the model: real friends talking; read it every run). Shape, usually 25-45 s:
    - 0-2 s HOOK: start in the middle of the action with a spoken line AND a visual joke together (never a soft question).
    - 2-6 s SETUP: what the main character wants, in one line. One main character with a want; max 3 talking characters.
    - 6-17 s ESCALATION: 3 quick beats, each a line plus a comeback, each sillier than the last.
@@ -40,16 +41,29 @@ workflow turns it into a finished video and posts it automatically (one post a d
    - Mute test: list what a viewer understands from pictures and captions alone at each beat ("mute": [...]).
      Any beat that reads "confused" is rewritten.
    - Button: a callback to the opening (same line or image, flipped) so the end loops into the start.
-   FLOW (the team noticed choppy scripts): write it as a scene, not a list of jokes.
-   - Reactions between lines ("Haaw!", "Mera!", "Arre!", "Kaam?!"); quick replies with `gap` 0.03-0.05 so people talk over each other.
-   - Claim before reveal: the character is happy first ("Mera! Mera!"), then hears the catch. The laugh is the drop.
-   - Connective replies that answer the previous line ("Yeh kaunsi Housie hai?!" / "Diwali wali!").
-   - Set `"ambience": { "name": "crowd", "vol": 0.1 }` for party room tone; use `cage` before Housie calls.
-   - Length is free: keep every line that helps the flow; never cut a reaction just to save seconds.
+   SOUND HUMAN (the most important rule; QA fails a reel with review.human under 4):
+   - Write a scene between friends, not a list of jokes. Every line answers or reacts to the line before it
+     ("Ghanti? Mandir wali?" / "Haan wahi chalegi!"). If a line could be cut and nobody would notice, cut it.
+   - Natural spoken Hinglish, mixed lengths: some 2-word reactions ("Arre!", "Haaw, sach?"), most lines 6-14 words.
+     Use the little words people actually say: yaar, na, toh, achha, arre, matlab, suno, bas. A "..." where she pauses.
+   - Small true details that make it feel real: chai lene gayi, Sunday wali kitty, building ka group, Sharma aunty, ₹200
+     ka gift, 4 baje bola tha. One specific detail beats three jokes.
+   - Let one person be naive or wrong and the others answer her kindly or teasingly; real feelings (embarrassed, proud,
+     guilty, excited), not just punchlines.
+   - Max 1-3 punchlines a reel (punch: true). The rest is conversation. No laugh or "haww" sound after every line:
+     add a reaction sound in sfx only where the moment really earns it.
+   - Normal speed: leave pace out (default 4). Gaps: 0.12 normal, 0.3-0.5 when she thinks before replying, 0.05 only
+     when two people really talk over each other.
+   - No rhymes, no slogan-like lines, no neat sign-off lines ("Abhi download karti hun!"), nobody explains the joke.
+   - Read it aloud in your head as two real women in a living room. Anything that sounds like an ad, a teacher, a
+     news anchor or a robot gets rewritten.
+   - Claim before reveal still works: she is happy first, then hears the catch. Set `"ambience": { "name": "crowd", "vol": 0.08 }`
+     for party room tone; use `cage` before Housie calls.
    Write 3 endings, keep the strongest. Be specific (times, rupees, flat numbers, real snacks). No app mention.
-   One shot per line or comeback pair, no shot over 4 s. Kind humour only. No em dashes anywhere.
-   SELF-REVIEW (mandatory): score the script 1-5 on clarity (must be 5), hook, relatable, conflict, escalation, laughs, twist, ending, tight,
-   character, shareable. Put it in the draft as "review": {..., "total": N, "notes": "..."}. Below 44/55 or clarity under 5: rewrite and
+   One shot per line or exchange, no shot over 8 s. Kind humour only. No em dashes anywhere.
+   SELF-REVIEW (mandatory): score the script 1-5 on clarity (must be 5), human (sounds like real friends talking, must be 4+),
+   hook, relatable, conflict, escalation, laughs, twist, ending, tight, character, shareable. Put it in the draft as
+   "review": {..., "total": N, "notes": "..."} (total out of 60). Below 48/60, clarity under 5 or human under 4: rewrite and
    re-score (up to 3 times). Be strict: a 5 means a stranger would laugh out loud and tag a friend.
    The render runs automatic QA (length, pace, shot length, loudness, scorecard); a failing reel is marked needs-fix and not posted.
    Start of every run: open the storyboard image (board_url) of the last 2 reels in tracker.json, and if a reel is needs-fix,

@@ -45,6 +45,6 @@ async function today(dateStr) {
   const theme = b && { id: b.themeId, name: b.name, pack: String(b.file || '').replace(/\.zip$/, ''), sounds: String(b.sounds || '').replace(/\.zip$/, '') };
   return { date, day, theme, times };
 }
-module.exports = { today };
+module.exports = { today, token, fields };
 
 if (require.main === module) today(process.argv[2]).then((x) => console.log(JSON.stringify(x, null, 1))).catch((e) => { console.error(e.message); process.exit(1); });

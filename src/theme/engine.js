@@ -148,9 +148,11 @@ function coverFrame(spec, t) {
   return homeBg(spec, t) + pill(spec, 380, (spec.copy || {}).cover || 'AAJ KI HOUSIE THEME', 60, deep, '#FFFFFF', -2, 0.05, t) + '<g transform="translate(540 600) scale(' + f3(back((t - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 130, '#FFFFFF', { stroke: deep, sw: 18 }) + '</g>' + mascot(spec, 290, 700, 500, t) + pill(spec, 1300, spec.day, 64, '#FFE58A', ink, 2, 0.5, t) + timeChips(spec, 1470, 50, 0.8, t);
 }
 // times card before the app card, same for every story
+// 7+ game times need a third row of chips: push the "Kitty Party app pe khelo" pill and the mascot below it
+const lowBy = (spec) => Math.max(0, Math.ceil(spec.times.length / 3) - 2) * 120;
 function timesCard(spec, t, at) {
   const M = spec.theme.manifest, C = M.colors, ink = C.boxInk, deep = C.accentDeep;
-  return homeBg(spec, t) + pill(spec, 520, 'Aaj ki theme', 62, '#FFFFFF', deep, 0, at + 0.05, t) + '<g transform="translate(540 730) scale(' + f3(back((t - at - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 120, '#FFFFFF', { stroke: deep, sw: 16 }) + '</g>' + pill(spec, 880, spec.day + ' · Public Housie', 56, '#FFE58A', ink, -2, at + 0.4, t) + timeChips(spec, 1030, 46, at + 0.6, t) + pill(spec, 1330, (spec.copy || {}).play || 'Kitty Party app pe khelo', 54, deep, '#FFFFFF', 1, at + 1.2, t) + mascot(spec, 390, 1420, 300, t) + T(540, 1820, '@kittyparty.app', 44, '#FFFFFF', { w: 600 });
+  return homeBg(spec, t) + pill(spec, 520, 'Aaj ki theme', 62, '#FFFFFF', deep, 0, at + 0.05, t) + '<g transform="translate(540 730) scale(' + f3(back((t - at - 0.2) / 0.4)) + ')">' + T(0, 0, M.name, 120, '#FFFFFF', { stroke: deep, sw: 16 }) + '</g>' + pill(spec, 880, spec.day + ' · Public Housie', 56, '#FFE58A', ink, -2, at + 0.4, t) + timeChips(spec, 1030, 46, at + 0.6, t) + pill(spec, 1330 + lowBy(spec), (spec.copy || {}).play || 'Kitty Party app pe khelo', 54, deep, '#FFFFFF', 1, at + 1.2, t) + mascot(spec, 390, 1420 + lowBy(spec), 300, t) + T(540, 1820, '@kittyparty.app', 44, '#FFFFFF', { w: 600 });
 }
 // big mascot ball on the theme background with a number (or ?) on its disc
 function bigBall(spec, t, cx, cy, size, label, popAt, spin) {
@@ -241,8 +243,30 @@ function appCard(spec, t, at) {
   o += badge(300, 1010, 'GET IT ON', 'Google Play', playGlyph(-182, -24, 1.3), k(0.75, 0.35)) + badge(780, 1010, 'Download on the', 'App Store', appleGlyph(-180, -30, 1.45), k(0.85, 0.35));
   return o + (fade > 0 ? '<rect width="1080" height="1920" fill="' + C.gameGradient[2] + '" opacity="' + f3(fade) + '"></rect>' : '');
 }
+// Daily leaderboard story (scripts/leaderboard/story.js): the theme's home art, "Aaj ka Leaderboard", today's top 10
+// (avatar, first name, points) dropping in one by one, and a line about tonight's games still to play.
+// lb = { at, rows: [{ rank, name, points, av: svgString }], title, sub, foot }
+function leaderFrame(spec, t, lb) {
+  const C = spec.theme.manifest.colors, ink = C.boxInk, deep = C.accentDeep, at = lb.at;
+  let o = homeBg(spec, t) + '<rect width="1080" height="1920" fill="' + deep + '" opacity="0.3"></rect>';
+  // Instagram/Facebook story chrome covers the top ~200 px (profile row) and bottom ~200 px (reply bar): keep clear
+  o += pill(spec, 290, lb.title || 'Aaj ka Leaderboard', 74, '#FFE58A', ink, -2, at + 0.1, t);
+  if (lb.sub) o += pill(spec, 410, lb.sub, 44, '#FFFFFF', deep, 1.5, at + 0.35, t);
+  const medal = ['#F5C451', '#D9DDE3', '#E3A36F'];
+  lb.rows.slice(0, 10).forEach((r, i) => {
+    const y = 535 + i * 117, k = back((t - at - 0.6 - i * 0.14) / 0.35); if (k <= 0.01) return;
+    const top = i < 3, nm = String(r.name || '').slice(0, 16);
+    o += '<g transform="translate(0 ' + y + ') scale(1 ' + f3(k) + ')"><rect x="50" y="-54" width="980" height="110" rx="34" fill="#FFFFFF" opacity="' + (top ? 0.98 : 0.9) + '"' + (i === 0 ? ' stroke="' + C.cta + '" stroke-width="7"' : '') + '></rect>';
+    o += '<circle cx="118" cy="1" r="34" fill="' + (top ? medal[i] : C.chip) + '"></circle>' + T(118, 15, String(r.rank || i + 1), 38, ink);
+    o += '<circle cx="214" cy="1" r="44" fill="' + C.chip + '"></circle>' + (r.av ? raw(r.av, 172, -41, 84, 84) : '') + T(286, 16, nm, 44, ink, { a: 'start', w: 600 });
+    o += T(1000, 16, Number(r.points || 0).toLocaleString('en-IN'), 44, deep, { a: 'end' }) + '</g>';
+  });
+  if (lb.foot) o += pill(spec, 1720, lb.foot, 46, '#FFE58A', ink, -1.5, at + 0.6 + Math.min(10, lb.rows.length) * 0.14 + 0.3, t);
+  return o;
+}
+
 // cover image: the opening scene once everything has landed
-export const coverAt = (spec) => { uid = 0; return coverFrame(spec, (spec.tl || TL).hook - 0.05); };
+export const coverAt =(spec) => { uid = 0; return coverFrame(spec, (spec.tl || TL).hook - 0.05); };
 
 // Pieces the AI-written theme reels (src/autopilot/engine.js theme kits) draw with.
 // `spec` here is the theme spec built by scripts/theme/build.js loadTheme().
@@ -260,4 +284,5 @@ export const themeKit = {
   times: (spec, t, at) => { uid = 0; return timesCard(spec, t, at); },
   app: (spec, t, at) => { uid = 0; return appCard(spec, t, at); },
   cover: (spec) => { uid = 0; return coverFrame(spec, 2.15); },
+  leaderboard: (spec, t, lb) => { uid = 0; return leaderFrame(spec, t, lb); },
 };

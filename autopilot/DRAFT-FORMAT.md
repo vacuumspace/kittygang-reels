@@ -26,9 +26,9 @@ room tone, cover.** Use the `scene` kit for almost every shot; the older kits ar
 - `kit` (required): `scene` (default) | `phone` | `camera` | `map` | `hook` | `solo` | `duo` | `room` | `door` | `card`
 - `lines`: spoken lines in order. The shot lasts as long as its lines (+ `hold`, default 0.6 s). No lines: set `dur` (seconds).
   - `who`: Tanya, Ruhi, Shruti, Myra, Tina, Megha, Avika, Ishita, Zoya, Aditi, or `ALL` (chorus)
-  - `text`: Hinglish in Roman script = the on-screen caption (max ~60 characters)
+  - `text`: Hinglish in Roman script = the on-screen caption (max ~80 characters)
   - `say`: the same line in Devanagari for the voice (required for everyone except Zoya, who reads `text`)
-  - `punch: true` on the punchline (zoom punch + pop), `silenceBefore: true` for a comic pause (cricket), `gap` seconds after the line (default 0.12; 0.03-0.05 for quick overlapping replies), `beat`: hook/setup/escalation/turn/button
+  - `punch: true` on the punchline (zoom punch + pop; 1-3 times a reel, never on every line), `silenceBefore: true` for a comic pause (cricket), `gap` seconds after the line (default 0.12; 0.25-0.5 when she thinks before answering; 0.05 only when people really talk over each other), `beat`: hook/setup/escalation/turn/button
 - `hook`: ["line 1", "line 2"] big text banner (first shot only, ≤ 6 words a line, simple Hindi/Hinglish, no jargon). Captions are hidden while a hook shows.
 - `chip`: short label pill (e.g. "attempt 9", "pink #3")
 - `stickers`: [{ "kind": "sweat|spark|question|exclaim|heart|bulb|bolt|car|plane|palace|home", "x": 820, "y": 420, "at": 0.3, "s": 1 }] (x 0-1080, y 0-1920; keep y between 380 and 1300)
@@ -41,7 +41,7 @@ room tone, cover.** Use the `scene` kit for almost every shot; the older kits ar
 
 ## Top-level extras
 - `ambience`: { "name": "crowd", "vol": 0.1 } soft party chatter under the whole reel (use it for every party scene).
-- `pace`: voice speed boost in % (default 18; 24 for snappy comedy).
+- `pace`: voice speed boost in % (default 4). Keep it 0-8: friends talking, not a promo. Never above 10.
 
 ## The scene kit (dressed sets; use for almost every shot)
 `{ "kit": "scene", "set": "living" | "entrance" | "camera", "banner": "DIWALI HOUSIE", "front": true, "night": true, "flash": true, "focus": [540, 910], "chars": [...] }`
@@ -95,7 +95,7 @@ Need something that is not here? Use the nearest prop or a sticker, and add the 
 - `logline`: the whole story in one plain sentence a stranger understands.
 - `game`: the one repeating funny pattern, e.g. "every excuse gets busted".
 - `mute`: array, one entry per beat: what a viewer understands from pictures and captions alone.
-- `review.clarity`: must be 5. Total is out of 55 (11 scores).
+- `review.clarity`: must be 5. `review.human` (sounds like real friends talking, see ROUTINE.md "Sound human") must be 4 or 5. Total is out of 60 (12 scores), pass mark 48.
 
 ## Cover (required)
 - `cover`: { "shot": index of the strongest shot (usually the twist), "at": seconds into that shot, "title": ["short line 1", "short line 2"] }.

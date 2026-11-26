@@ -52,8 +52,8 @@ function char(spec, c, x, y, s, t, i, sh) {
 }
 
 // ---------- pieces ----------
-function caption(text, t0, t) {
-  const words = String(text).split(' '); const lines = ['']; for (const w of words) { if ((lines[lines.length - 1] + ' ' + w).trim().length > 30) lines.push(w); else lines[lines.length - 1] = (lines[lines.length - 1] + ' ' + w).trim(); }
+function caption(text, t0, t, wrapAt = 30) {
+  const words = String(text).split(' '); const lines = ['']; for (const w of words) { if ((lines[lines.length - 1] + ' ' + w).trim().length > wrapAt) lines.push(w); else lines[lines.length - 1] = (lines[lines.length - 1] + ' ' + w).trim(); }
   const s = back((t - t0) / 0.22), h = 70 + lines.length * 56, w = Math.min(1000, Math.max(...lines.map((l) => l.length)) * 25 + 100);
   return '<g transform="translate(540 ' + (230 + (lines.length - 1) * 28) + ') scale(' + f2(s) + ')"><rect x="' + -w / 2 + '" y="' + -h / 2 + '" width="' + w + '" height="' + h + '" rx="' + Math.min(52, h / 2) + '" fill="#FFFFFF" opacity="0.96"></rect>'
     + lines.map((l, i) => '<text x="0" y="' + f1(-h / 2 + 62 + i * 56) + '" text-anchor="middle" font-family="Fredoka" font-weight="500" font-size="46" fill="' + PLUM + '">' + esc(l) + '</text>').join('') + '</g>';
@@ -142,6 +142,20 @@ const KITS = {
     return K.doorScene(cs.map((c, i) => char(spec, c, xs[i], c.at === 'door' ? 1450 : 1700, 1.5, t, i, sh)).join(''), !!sh.night, !!sh.sunrise);
   },
   card(spec, sh, t) { return '<rect width="1080" height="1920" fill="' + (sh.bg || BLUSH) + '"></rect>'; },
+  // game explainer: the living room with a whiteboard on an easel showing the game's drawing (sh.boardSvg, pre-fitted
+  // by scripts/carousels/reel.js into the box x 90-990, y 545-1165) and its title; the host stands beside it.
+  // Captions stay at the top (up to 3 lines end above y 410), the board starts below them, the characters stand under it.
+  board(spec, sh, t) {
+    const u = back((t - sh.start) / 0.35);
+    const brd = '<path d="M250 1190 L190 1600 M830 1190 L890 1600" stroke="#8A5A3A" stroke-width="22" stroke-linecap="round"></path>'
+      + '<rect x="60" y="420" width="960" height="770" rx="34" fill="#8A5A3A"></rect><rect x="78" y="438" width="924" height="734" rx="24" fill="#FFFFFF"></rect>'
+      + '<rect x="78" y="438" width="924" height="96" rx="24" fill="' + PINK + '"></rect><rect x="78" y="500" width="924" height="34" fill="' + PINK + '"></rect>'
+      + '<text x="540" y="504" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="' + ((sh.boardTitle || '').length > 26 ? 42 : 52) + '" fill="#FFFFFF">' + esc(sh.boardTitle || '') + '</text>'
+      + '<g transform="translate(540 855) scale(' + f2(0.9 + 0.1 * u) + ') translate(-540 -855)">' + (sh.boardSvg || '') + '</g>'
+      + '<rect x="380" y="1172" width="320" height="22" rx="8" fill="#6E4630"></rect>';
+    const people = (sh.chars || []).map((c, i) => char(spec, c, c.x ?? (i ? 860 : 220), c.y ?? 1850, c.s ?? 1.5, t, i, sh)).join('');
+    return SETS.living({}) + '<rect width="1080" height="1920" fill="#FFE4EC" opacity="0.35"></rect>' + brd + people;
+  },
 };
 
 
@@ -191,6 +205,8 @@ Object.assign(KITS, {
     return o + people(spec, sh, t) + floatReactions(spec, sh, t);
   },
   ttimes(spec, sh, t) { return TK.times(spec.T, t, sh.start); },
+  // daily leaderboard story: sh.rows [{ rank, name, points, av }], sh.title, sh.sub, sh.foot
+  tleader(spec, sh, t) { return TK.leaderboard(spec.T, t, { at: sh.start, rows: sh.rows || [], title: sh.title, sub: sh.sub, foot: sh.foot }); },
   tapp(spec, sh, t) { return TK.app(spec.T, t, sh.start); },
 });
 
@@ -213,7 +229,7 @@ export function frameAt(spec, t) {
   let o = '<g transform="translate(540 1000) scale(' + z.toFixed(4) + ') translate(-540 -1000)' + shake + '">' + body + '</g>';
   if (sh.hook) o += hookBanner(sh.hook, sh.start, t, sh.hookY || 520);
   if (sh.chip) o += chip(sh.chip, sh.start + 0.2, t, sh.chipY || 560);
-  if (sh.kit !== 'phone') { const l = spec.lines.find((x) => t >= x.start - 0.05 && t <= x.start + x.dur + 0.2); if (l && !sh.hook) o += caption(l.text, l.start - 0.05, t); }
+  if (sh.kit !== 'phone') { const l = spec.lines.find((x) => t >= x.start - 0.05 && t <= x.start + x.dur + 0.2); if (l && !sh.hook) o += caption(l.text, l.start - 0.05, t, sh.kit === 'board' ? 34 : 30); }
   // no fade-in: frame 1 must be the real scene (it is what Instagram shows before a cover is set)
   const fadeOut = sat((t - (spec.total - 0.5)) / 0.5);
   if (fadeOut > 0) o += '<rect width="1080" height="1920" fill="#FFF4F7" opacity="' + f2(fadeOut) + '"></rect>';
@@ -228,7 +244,7 @@ export function coverFrame(spec) {
   const sh = spec.shots[c.shot ?? Math.floor(spec.shots.length / 2)];
   const t = sh.start + (c.at ?? Math.min(1.2, (sh.end - sh.start) * 0.7));
   // the cover title replaces the shot's banner and label so nothing overlaps it
-  let o = frameAt({ ...spec, lines: [], shots: spec.shots.map((x) => (x === sh ? { ...x, banner: null, chip: null } : x)) }, t);
+  let o = frameAt({ ...spec, lines: [], shots: spec.shots.map((x) => (x === sh ? { ...x, banner: null, chip: null, boardTitle: '' } : x)) }, t);
   // title: one size for every line, each on its own tilted pill, well spaced
   const size = 66, gap = 150;
   (c.title || []).forEach((tx, i) => { const w = tx.length * size * 0.54 + 90; o += '<g transform="translate(540 ' + ((c.titleY || 360) + i * gap) + ') rotate(' + (i % 2 ? 2 : -2) + ')"><rect x="' + f1(-w / 2) + '" y="' + f1(-size * 0.95) + '" width="' + f1(w) + '" height="' + f1(size * 1.3) + '" rx="24" fill="' + (i === c.title.length - 1 ? PINK : PLUM) + '"></rect><text x="0" y="' + f1(size * 0.14) + '" text-anchor="middle" font-family="Fredoka" font-weight="600" font-size="' + size + '" fill="#FFFFFF">' + esc(tx) + '</text></g>'; });

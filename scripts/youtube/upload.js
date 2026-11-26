@@ -17,7 +17,7 @@ async function accessToken() {
   return t.access_token;
 }
 
-async function uploadShort({ file, title, description, tags = [], publishAt }) {
+async function uploadShort({ file, title, description, tags = [], publishAt, playlistId = process.env.YT_PLAYLIST_ID }) {
   const token = await accessToken();
   const t = title.includes('#Shorts') ? title : (title + ' #Shorts');
   const meta = {
@@ -35,7 +35,8 @@ async function uploadShort({ file, title, description, tags = [], publishAt }) {
   const put = await fetch(loc, { method: 'PUT', headers: { 'Content-Type': 'video/mp4', 'Content-Length': String(size) }, body: fs.readFileSync(file) });
   const out = await put.json();
   if (!put.ok || !out.id) throw new Error('youtube upload ' + put.status + ': ' + JSON.stringify(out).slice(0, 300));
-  if (process.env.YT_PLAYLIST_ID) await addToPlaylist(out.id, token).catch((e) => console.warn('playlist', e.message));
+  // each series has its own playlist: Kitty Gang Reels (YT_PLAYLIST_ID), Kitty Game Ideas (YT_GAMES_PLAYLIST_ID)
+  if (playlistId) await addToPlaylist(out.id, token, playlistId).catch((e) => console.warn('playlist', e.message));
   return { id: out.id, url: 'https://youtube.com/shorts/' + out.id, privacy: out.status?.privacyStatus, publishAt: out.status?.publishAt };
 }
 

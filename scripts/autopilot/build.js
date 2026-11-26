@@ -14,8 +14,9 @@ const CAST = JSON.parse(fs.readFileSync(path.join(ROOT, 'autopilot', 'cast.json'
 const FPS = 30;
 // crowd laugh used after the last punchline and as a giggle between punches (style picked by the team)
 const LAUGH = 'laughv', GIGGLE = 'laughv';
-// Pace: every voice a little faster than its base setting (comedy needs speed).
-const boost = (r) => { const m = String(r || '+0%').match(/^([+-]?\d+)/); const v = (m ? Number(m[1]) : 0) + (D.pace ?? 18); return (v >= 0 ? '+' : '') + v + '%'; };
+// Pace: an optional speed boost on top of each voice's own setting. Default 4 since 2026-11-26 (was 18: the user found
+// the rushed voices robotic; the How to play reels that sounded human used no boost).
+const boost = (r) => { const m = String(r || '+0%').match(/^([+-]?\d+)/); const v = (m ? Number(m[1]) : 0) + (D.pace ?? 4); return (v >= 0 ? '+' : '') + v + '%'; };
 const draftFile = process.argv[2];
 const D = JSON.parse(fs.readFileSync(draftFile, 'utf8'));
 const OUT = path.join(ROOT, 'public', 'autopilot', D.id);
@@ -102,7 +103,9 @@ function envelope(file) {
       if (L.punch) {
         if (L.beat === 'twist') { sfx.push({ at: lt, name: 'boom', vol: 0.45 }); sfx.push({ at: lt + d + 0.05, name: 'ohho', vol: 0.45 }); }
         else if (L.beat === 'button') { sfx.push({ at: lt + d + 0.05, name: 'tabla', vol: 0.55 }); sfx.push({ at: lt + d + 0.35, name: LAUGH, vol: 0.4 }); }
-        else { sfx.push({ at: lt, name: 'pop', vol: 0.3 }); sfx.push({ at: lt + d + 0.02, name: ['haww', GIGGLE, 'haaye'][punchN++ % 3], vol: 0.35 }); }
+        // other punchlines: no canned crowd reaction any more (a laugh track after every line sounded robotic, 2026-11-26);
+        // the draft adds a reaction sound in its own sfx where a moment really earns it
+        else { sfx.push({ at: lt, name: 'pop', vol: 0.2 }); punchN++; }
       }
       lt += d + (L.gap ?? 0.12);
       console.log(L.who.padEnd(7), d.toFixed(2), L.text);
