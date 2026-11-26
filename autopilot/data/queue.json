@@ -187,6 +187,23 @@
   "image_urls": null
  },
  {
+  "id": "451281e6-10e5-4623-95cb-1dfddb6770a0",
+  "local_id": "KGI-037",
+  "title": "Kitty Game Ideas #37: Ghanti Pakdo",
+  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s1.jpg",
+  "caption": "Host kahani sunayegi, \"ghanti\" suna toh jhapat lo... par \"Shanti\" pe haath hila toh minus! Christmas kitty ke liye perfect. Aapki kitty mein sabse fast haath kiska hai?\n\n#kittyparty #kittypartygames #kittypartyideas #ladieskitty #partygames #ghantipakdo #christmaskitty",
+  "scheduled_for": 1795844580000,
+  "status": "queued",
+  "job_id": null,
+  "media_id": null,
+  "permalink": null,
+  "error": null,
+  "created_at": 1795657020735,
+  "cover_url": null,
+  "kind": "carousel",
+  "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s9.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-037/s10.jpg\"]"
+ },
+ {
   "id": "47bc562c-e343-45d0-81d3-707e5565c9ba",
   "local_id": "KG-2026-11-17-b",
   "title": "Meri magenta, ekdum alag!",
@@ -1001,22 +1018,5 @@
   "cover_url": null,
   "kind": "carousel",
   "image_urls": "[\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s1.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s2.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s3.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s4.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s5.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s6.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s7.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s8.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s9.jpg\",\"https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-014/s10.jpg\"]"
- },
- {
-  "id": "e43984cd-2112-48da-bd91-72ede59e1186",
-  "local_id": "KG-2026-10-28-b",
-  "title": "Ek group photo, bas paanch minute",
-  "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-b.mp4",
-  "caption": "Ek photo, nau attempt, aur har baar 'bas paanch minute'. Tag the friend whose phone always rings at kitty.\n\n#kittyparty #kittygang #ladieskitty #diwalikitty #groupphoto #momlife #diwali",
-  "scheduled_for": 1793713860000,
-  "status": "published",
-  "job_id": "c3d58c34-8123-4d8d-96df-8e18b5569520",
-  "media_id": "18109380047167385",
-  "permalink": "https://www.instagram.com/reel/DfSCcYgDaNu/",
-  "error": null,
-  "created_at": 1793186534769,
-  "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-10-28-b-cover.jpg",
-  "kind": "reel",
-  "image_urls": null
  }
 ]
