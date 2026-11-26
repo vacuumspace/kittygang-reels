@@ -15457,6 +15457,174 @@
       "yt_id": "VDsoQYhV99c",
       "yt_url": "https://youtube.com/shorts/VDsoQYhV99c",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-26-a",
+      "created": "2026-11-26",
+      "title": "Saal ka sabse bada flop!",
+      "format": "Countdown: the kitty group's year-end poll read out as flops 4 to 1, a FLOP # chip that moves every shot, twist on number 1",
+      "hook": "Kitty 2026 ke 4 sabse bade flop!",
+      "cast": [
+        "Megha",
+        "Tanya",
+        "Shruti"
+      ],
+      "caption": "Har kitty mein ek Megha hoti hai jiska diet sirf kitty tak chalta hai. Aapki kitty ka 2026 ka sabse bada flop? Ek word mein likho, aur tag your Megha!",
+      "status": "queued",
+      "idea": "Megha proudly reads the gang's 'Kitty 2026 ke flops' poll, laughing at each friend's flop, until flop number 1 is her own diet while she holds a samosa.",
+      "beats": "hook: Kitty 2026 ke sabse bade flops / setup: sabka number aayega, mera nahi / esc: #4 Bollywood theme, only Tanya Basanti; #3 Shruti's hisaab sheet nobody opened; #2 no phone rule lasted 4 minutes, Shruti: 3 / turn: #1 is Megha ka diet, samosa in her hand / button: 'Kitty 2026 ka sabse bada flop!' thrown back at her",
+      "experiment": {
+        "type": "countdown",
+        "hook": "Megha stands with her phone up, the gang on the sofa, chip 'GROUP POLL: SAAL KE FLOPS': 'Kitty 2026 ke sabse bade flops!'",
+        "variable": "a year-end numbered countdown (4 to 1) where the reader is the victim of number 1, with claim before reveal ('mera nahi aayega'), about 26 s",
+        "hypothesis": "skip under 40% and watched above 35% because the chip counts down every 2-3 s and every viewer waits for number 1; a year-end 'sabse bada flop' question should get comments and 2+ shares in the second week of December"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Kitty 2026 ke sabse bade flops!",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Sabka number aayega, mera nahi!",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Number chaar! Bollywood theme!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Sirf Tanya Basanti bani!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haaw! Theme compulsory thi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Number teen! Shruti ki hisaab sheet!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Kisi ne kholi hi nahi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Usmein formula tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Number do! No phone rule!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Chaar minute chala!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Teen minute. Maine time kiya.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Number ek! Dekho kiska!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Megha ka diet?!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aur haath mein samosa!",
+          "beat": "turn"
+        },
+        {
+          "shot": 11,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Teesra.",
+          "beat": "turn"
+        },
+        {
+          "shot": 12,
+          "kit": "scene",
+          "who": "Megha",
+          "line": "Bas ek! Cheat day hai!",
+          "beat": "button"
+        },
+        {
+          "shot": 13,
+          "kit": "scene",
+          "who": "ALL",
+          "line": "Kitty 2026 ka sabse bada flop!",
+          "beat": "button"
+        }
+      ],
+      "duration": 30.84,
+      "review": {
+        "clarity": 5,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 5,
+        "total": 51,
+        "notes": "Type countdown (last 4 gang reels: door-arrivals KG-2026-11-24-a, news-bulletin 11-24-b, types-of 11-25-a, meme-format 11-25-b). Countdown last ran as KG-2026-11-23-b; LEARNINGS says countdown works under 30 s. Idea from the bank (Kitty 2026 flops, score 8), adapted: the lead is Megha, the diet freak, instead of Myra (Myra led 11-25-b), so flop 1 lands on her own catchphrase; flops are kind, everyday kitty flops (theme only the host dressed for, the hisaab sheet, no-phone rule). 3 talking characters (Megha, Tanya, Shruti), max 3 per shot. Game x3: Tanya defends her Basanti (ordinary), Shruti defends her formulas (ordinary), Shruti corrects 4 minutes to 3 (absurd precision). Claim before reveal: 'Sabka number aayega, mera nahi!' then 'Megha ka diet?!'. Twist is see-it: chip plus the samosa in her hand. Endings tried: Megha deletes the poll (needs a phone screen, weaker), Megha votes herself out of the poll (confusing muted), the gang throws her opening line back (kept, loops to the hook). Pipeline: every shot 8 words or fewer, hold 0.1, gaps 0.04, the one silenceBefore line sits alone, no ellipses, 71 words at pace 28, about 26 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-26-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-26-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-26-a-board.jpg",
+      "queue_id": "b0b35b60-2a37-417c-90ac-b6772be1e53d",
+      "scheduled_ist": "2026-12-09 19:21",
+      "yt_id": "PGMcycfI6EU",
+      "yt_url": "https://youtube.com/shorts/PGMcycfI6EU",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
