@@ -933,7 +933,7 @@
             "y": 1760,
             "s": 2,
             "turn": 0.5,
-            "pose": "talkR"
+            "pose": "present"
           }
         ],
         "game": [
@@ -1106,7 +1106,7 @@
             "y": 1760,
             "s": 2,
             "turn": 0.5,
-            "pose": "relaxed"
+            "pose": "thinking"
           },
           {
             "name": "Ishita",
@@ -1286,7 +1286,7 @@
             "y": 1760,
             "s": 2,
             "turn": -0.5,
-            "pose": "hips",
+            "pose": "shrug",
             "mouth": "smirk"
           }
         ],
@@ -1355,7 +1355,7 @@
             "y": 1760,
             "s": 2,
             "turn": -0.5,
-            "pose": "hips",
+            "pose": "pointUp",
             "mouth": "smirk"
           }
         ],
@@ -1371,7 +1371,7 @@
         "kit": "scene",
         "set": "living",
         "decor": true,
-        "dur": 2.8,
+        "dur": 3,
         "game": [
           {
             "need": 1,
@@ -1392,7 +1392,8 @@
             ],
             "grab": {
               "who": "Ishita",
-              "at": 0.45
+              "at": 0.45,
+              "pose": "wave"
             }
           }
         ],
@@ -1420,7 +1421,8 @@
             "turn": 0.5,
             "pose": "relaxed",
             "poseAt": {
-              "at": 0.9,
+              "at": 1,
+              "pose": "laughs",
               "mouth": "laugh",
               "eyes": "laugh"
             }
@@ -1440,9 +1442,10 @@
                 "mouth": "laugh"
               },
               {
-                "at": 1,
+                "at": 1.4,
+                "pose": "facepalm",
                 "mouth": "o",
-                "eyes": "open"
+                "eyes": "half"
               }
             ]
           }
@@ -1461,7 +1464,7 @@
             "kind": "sweat",
             "x": 700,
             "y": 1080,
-            "at": 1.2
+            "at": 1.4
           }
         ],
         "sfx": [
@@ -1476,7 +1479,7 @@
             "vol": 0.45
           },
           {
-            "at": 1.2,
+            "at": 1.3,
             "name": "haww",
             "vol": 0.4
           }
@@ -1512,7 +1515,8 @@
             "grab": {
               "who": "Megha",
               "at": 0,
-              "dur": 0.01
+              "dur": 0.01,
+              "pose": "cheer"
             }
           }
         ],
@@ -1534,7 +1538,7 @@
             "y": 1760,
             "s": 2,
             "turn": 0.5,
-            "pose": "wave",
+            "pose": "cheer",
             "mouth": "laugh",
             "eyes": "laugh"
           },
@@ -1544,7 +1548,7 @@
             "y": 1760,
             "s": 2,
             "turn": -0.5,
-            "pose": "hips",
+            "pose": "shrug",
             "mouth": "flat",
             "eyes": "half"
           }
@@ -1575,9 +1579,8 @@
             "y": 1760,
             "s": 2.1,
             "turn": 0.5,
-            "pose": "clapR",
-            "mouth": "laugh",
-            "hop": true
+            "pose": "cheer",
+            "mouth": "laugh"
           },
           {
             "name": "Tanya",
@@ -1585,7 +1588,7 @@
             "y": 1760,
             "s": 2.1,
             "turn": -0.5,
-            "pose": "relaxed",
+            "pose": "laughs",
             "mouth": "laugh"
           }
         ],

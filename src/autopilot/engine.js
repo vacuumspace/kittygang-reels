@@ -8,6 +8,7 @@
 // Common shot fields: hook:[l1,l2] text banner, chip:"text", stickers:[{kind, x, y, at}],
 //   props:[{name, x, y, s}], clock:{h, m}, camera:"push"|"punch"|"still", night/sunrise (door).
 import * as K from '../kg/kgkit';
+import '../kg/poses2'; // extra poses: cheer, reach, pointUp, shrug, thinking, facepalm, present
 import { SETS, FRONTS, WARDROBE, cameraUI, propSvg, put } from './sets';
 import { themeKit as TK } from '../theme/engine';
 
@@ -36,7 +37,7 @@ function face(spec, name, t, o, i) {
 }
 // one character placed with feet at (x, y), scale s; breathes and tilts while talking
 function char(spec, c, x, y, s, t, i, sh) {
-  const { name, look, from, moveAt, moveDur, twirl, poseAt, ...o0 } = c;
+  const { name, look, from, moveAt, moveDur, twirl, poseAt, sitAt, standAt, seated, ...o0 } = c;
   const o = { ...(WARDROBE[look] || {}), ...o0 };
   const lt = sh ? t - sh.start : t;
   // poseAt: { at, pose, mouth?, eyes? } switches her pose mid-shot (e.g. the hand shoots up as she grabs the bell)
@@ -50,7 +51,32 @@ function char(spec, c, x, y, s, t, i, sh) {
   const br = 1 + 0.01 * Math.sin(t * 2.4 + i);
   const hop = c.hop ? 30 * Math.abs(Math.sin(t * 6)) : 0;
   const extra = ' translate(120 384) rotate(' + f2(tilt) + ') scale(' + f2(sx) + ' ' + f2(br) + ') translate(-120 -384)';
-  return who(name, x, y - (hop + step) * s, s, { pose: 'relaxed', ...o, mouth: fc.mouth, eyes: fc.eyes }, extra);
+  const opts = { pose: 'relaxed', ...o, mouth: fc.mouth, eyes: fc.eyes };
+  // seated (on a chair, facing us): `seated: true`, or `sitAt` / `standAt` seconds into the shot to sit down / get up
+  if (seated || sitAt != null) {
+    const e = seated ? 1 : ease((lt - sitAt) / 0.25) * (1 - (standAt != null ? ease((lt - standAt) / 0.25) : 0));
+    if (e > 0.5) return seatedFig(name, x, y, s, opts, extra);
+  }
+  return who(name, x, y - (hop + step) * s, s, opts, extra);
+}
+// A seated character: her own figure from the waist up (lowered a little), a wooden chair, and knees + shins in her
+// outfit colours (one draped fall for a saree). Hands should be above the lap: use poses like clapR, laughs, cheer,
+// thinking, hold, shrug, talkR (relaxed/hips hands hang below the seat and get cut).
+let seatN = 0;
+function seatedFig(name, x, y, s, opts, extra) {
+  const B = K.base(ALIAS[name] || name)[2], R = (x0, y0, w, h, r, f) => '<rect x="' + f1(x0) + '" y="' + f1(y0) + '" width="' + f1(w) + '" height="' + f1(h) + '" rx="' + f1(r) + '" fill="' + f + '"></rect>';
+  const seatY = y - 92 * s, drop = 46 * s, saree = B.outfit === 'saree' || B.outfit === 'jumpsuit' || B.outfit === 'coord';
+  const leg = B.outfit === 'saree' || B.outfit === 'jumpsuit' || B.outfit === 'coord' ? B.main : (B.bottom || B.main), legSh = saree ? B.mainSh : (B.bottomSh || B.mainSh);
+  const wood = '#C98B5A', woodD = '#9E6A40', id = 'seat' + (seatN++ % 1000);
+  let o = R(x - 66 * s, seatY - 190 * s, 132 * s, 196 * s, 16 * s, woodD) + R(x - 56 * s, seatY - 178 * s, 112 * s, 40 * s, 10 * s, wood);
+  o += '<clipPath id="' + id + '"><rect x="' + f1(x - 260 * s) + '" y="-400" width="' + f1(520 * s) + '" height="' + f1(seatY + 26 * s + 400) + '"></rect></clipPath><g clip-path="url(#' + id + ')">' + who(name, x, y + drop, s, opts, extra) + '</g>';
+  o += '<path d="M' + f1(x - 60 * s) + ' ' + f1(seatY + 10 * s) + ' L' + f1(x - 64 * s) + ' ' + f1(y - 4 * s) + ' M' + f1(x + 60 * s) + ' ' + f1(seatY + 10 * s) + ' L' + f1(x + 64 * s) + ' ' + f1(y - 4 * s) + '" stroke="' + woodD + '" stroke-width="' + f1(11 * s) + '" stroke-linecap="round"></path>';
+  o += R(x - 72 * s, seatY - 2 * s, 144 * s, 20 * s, 8 * s, wood);
+  if (saree) o += R(x - 50 * s, seatY + 12 * s, 100 * s, y - seatY - 26 * s, 20 * s, leg) + R(x + 18 * s, seatY + 12 * s, 32 * s, y - seatY - 26 * s, 16 * s, legSh) + (B.border ? R(x - 50 * s, y - 24 * s, 100 * s, 8 * s, 4 * s, B.border) : '');
+  else o += R(x - 44 * s, seatY + 8 * s, 38 * s, y - seatY - 22 * s, 18 * s, leg) + R(x + 6 * s, seatY + 8 * s, 38 * s, y - seatY - 22 * s, 18 * s, leg) + R(x + 26 * s, seatY + 8 * s, 18 * s, y - seatY - 22 * s, 10 * s, legSh);
+  const shoe = B.shoe || '#2A2230';
+  o += '<ellipse cx="' + f1(x - 26 * s) + '" cy="' + f1(y - 10 * s) + '" rx="' + f1(24 * s) + '" ry="' + f1(10 * s) + '" fill="' + shoe + '"></ellipse><ellipse cx="' + f1(x + 26 * s) + '" cy="' + f1(y - 10 * s) + '" rx="' + f1(24 * s) + '" ry="' + f1(10 * s) + '" fill="' + shoe + '"></ellipse>';
+  return '<ellipse cx="' + f1(x) + '" cy="' + f1(y - 2 * s) + '" rx="' + f1(96 * s) + '" ry="' + f1(9 * s) + '" fill="' + PLUM + '" opacity="0.12"></ellipse>' + o;
 }
 
 // ---------- pieces ----------

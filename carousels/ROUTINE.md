@@ -47,4 +47,5 @@ out as this reel, not as a carousel.
      two friends chatting, each line answers the last, no ad or teacher voice. About 50-60 s, 70-90 words, simple step-by-step lines, no whiteboard, play + action shots like carousels/examples/KGI-037-play-scenes.json, gameSay set.
 5. In the bank mark the idea `used: "KGI-NNN"` (or add it as used if it was your own), commit
    "game carousel KGI-NNN: <game>" and `git push`. The push starts the render. Only touch files under `carousels/`
-   (drafts, LEARNINGS.md) and the `ideas` list in `autopilot/tracker.json`.
+   (drafts, LEARNINGS.md), new poses in `src/kg/poses2.js` (only when a game needs one, checked on the pose sheet)
+   and the `ideas` list in `autopilot/tracker.json`.

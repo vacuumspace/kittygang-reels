@@ -9,6 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const { fit, extent, build } = require('../../carousels/build');
+const { handR } = require('../../src/kg/poses2');
 const { T, lines, D, P, draw } = require('../../carousels/kit');
 
 const ROOT = path.join(__dirname, '..', '..');
@@ -64,9 +65,10 @@ function toReel(d, opts = {}) {
         if (g.grab) {
           const c = (s.chars || []).find((c) => c.name === g.grab.who);
           if (!c) throw new Error('grab: ' + g.grab.who + ' is not in the shot');
-          // raised hand of the wave pose, measured on the rig: (+75 s, -260 s) from her feet; the rig always raises the screen-right hand
-          const sc = c.s ?? 2, sign = 1;
-          it.move = { to: [(c.x ?? 540) + 75 * sc * sign, (c.y ?? 1760) - 260 * sc], at: g.grab.at, dur: g.grab.dur ?? 0.4, scale: g.grab.scale ?? 0.7 };
+          // the prop flies into her screen-right hand for the pose she has at that moment (wave, cheer, reach, present...)
+          const pose = g.grab.pose || [].concat(c.poseAt || []).filter((p) => p.pose && p.at <= (g.grab.at ?? 0) + 0.2).map((p) => p.pose).pop() || c.pose || 'wave';
+          const [hx, hy] = handR(pose), sc = c.s ?? 2;
+          it.move = { to: [(c.x ?? 540) + (hx + 5) * sc, (c.y ?? 1760) + (hy - 2) * sc], at: g.grab.at, dur: g.grab.dur ?? 0.4, scale: g.grab.scale ?? 0.7 };
         }
         return it;
       });

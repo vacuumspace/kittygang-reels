@@ -873,203 +873,48 @@
     ]
   },
   "reel": {
-    "rev": 2,
+    "rev": 3,
     "title": "Ghanti Pakdo",
     "gameSay": "घंटी पकड़ो",
-    "logline": "The gang is mid-game grabbing a bell; Tanya calmly teaches Myra the rules; Megha grabs on the fake word and loses a point; Ishita wins.",
+    "logline": "Tanya explains Ghanti Pakdo step by step while the gang plays it: grab the bell on \"ghanti\", lose a point on \"ghadi\", first to 5 wins.",
     "experiment": {
-      "hook": "series card, then the gang mid-game grabbing the bell",
-      "variable": "slower, full-sentence conversation with theme music",
-      "hypothesis": "clear speech keeps watched % up through the boards"
+      "hook": "series card, then a simple step-by-step explanation played out by the gang",
+      "variable": "no whiteboard: step labels + action beats (grab, ring, +1/-1)",
+      "hypothesis": "clear and visual beats keep watched % high"
     },
     "shots": [
       {
         "kit": "scene",
         "set": "living",
         "decor": true,
-        "camera": "punch",
-        "hook": [
-          "1 ghanti,",
-          "poori kitty paagal!"
-        ],
-        "game": [
-          {
-            "need": 1,
-            "box": [
-              315,
-              1300,
-              450,
-              330
-            ]
-          },
-          {
-            "need": 0,
-            "box": [
-              315,
-              1112,
-              450,
-              330
-            ]
-          }
-        ],
         "chars": [
           {
-            "name": "Ishita",
-            "x": 240,
+            "name": "Myra",
+            "x": 290,
             "y": 1760,
-            "s": 2,
+            "s": 2.1,
             "turn": 0.5,
-            "pose": "clapR",
-            "mouth": "laugh"
+            "pose": "relaxed"
           },
           {
-            "name": "Megha",
-            "x": 840,
+            "name": "Tanya",
+            "x": 790,
             "y": 1760,
-            "s": 2,
+            "s": 2.1,
             "turn": -0.5,
-            "pose": "hips",
-            "mouth": "o"
-          }
-        ],
-        "sfx": [
-          {
-            "at": 0.2,
-            "name": "chimes",
-            "vol": 0.5
-          }
-        ],
-        "lines": [
-          {
-            "who": "Ishita",
-            "text": "Ghanti meri hai! Maine sabse pehle pakdi!",
-            "say": "घंटी मेरी हे! मैंने सबसे पहले पकड़ी!",
-            "punch": true
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "cover",
-        "chars": [
-          {
-            "name": "Tanya",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Myra",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
+            "pose": "talkL"
           }
         ],
         "lines": [
           {
             "who": "Myra",
-            "text": "Arre, yeh sab ghanti ke peeche kyun bhaag rahe hain?",
-            "say": "अरे, ये सब घंटी के पीछे क्यों भाग रहे हें?"
+            "text": "Tanya, is baar kitty mein koi naya game batao na.",
+            "say": "तान्या, इस बार किटी में कोई नया गेम बताओ ना।"
           },
           {
             "who": "Tanya",
-            "text": "Yeh Ghanti Pakdo game hai. Aa, aaram se samjhati hun.",
-            "say": "ये घंटी पकड़ो गेम हे। आ, आराम से समझाती हूँ।"
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "need",
-        "chars": [
-          {
-            "name": "Tanya",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Myra",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Tanya",
-            "text": "Bas ek ghanti, ek chhota stool, aur kuch kursiyan chahiye.",
-            "say": "बस एक घंटी, एक छोटा स्टूल, और कुछ कुर्सियाँ चाहिए।"
-          },
-          {
-            "who": "Myra",
-            "text": "Ghar ke mandir wali ghanti chalegi na?",
-            "say": "घर के मंदिर वाली घंटी चलेगी ना?"
-          },
-          {
-            "who": "Tanya",
-            "text": "Haan, wahi chalegi.",
-            "say": "हाँ, वही चलेगी।"
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "step 4",
-        "chars": [
-          {
-            "name": "Tanya",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Myra",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Tanya",
-            "text": "Host ek kahani sunati hai.",
-            "say": "होस्ट एक कहानी सुनाती हे।"
-          },
-          {
-            "who": "Tanya",
-            "text": "Jaise hi ghanti shabd aaye, ghanti utha lo, aur point tumhara.",
-            "say": "जेसे ही घंटी शब्द आए, घंटी उठा लो, और पॉइंट तुम्हारा।"
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "step 5",
-        "chars": [
-          {
-            "name": "Tanya",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Myra",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Myra",
-            "text": "Yeh toh aasaan hai, main hi jeetungi.",
-            "say": "ये तो आसान हे, में ही जीतूँगी।"
-          },
-          {
-            "who": "Tanya",
-            "text": "Itna aasaan nahi. Host ghadi ya shanti bhi bolegi, aur galat uthaya toh minus ek.",
-            "say": "इतना आसान नहीं। होस्ट घड़ी या शांति भी बोलेगी, और ग़लत उठाया तो माइनस एक।"
+            "text": "Ek simple game hai, Ghanti Pakdo. Main step by step batati hun.",
+            "say": "एक सिंपल गेम हे, घंटी पकड़ो। में स्टेप बाय स्टेप बताती हूँ।"
           }
         ]
       },
@@ -1077,80 +922,207 @@
         "kit": "scene",
         "set": "living",
         "decor": true,
+        "label": {
+          "kicker": "KYA CHAHIYE",
+          "text": "Ek ghanti + ek chhota stool"
+        },
+        "chars": [
+          {
+            "name": "Tanya",
+            "x": 200,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "present"
+          }
+        ],
         "game": [
           {
             "need": 1,
             "box": [
-              315,
-              1300,
-              450,
-              330
+              365,
+              1360,
+              350,
+              260
+            ],
+            "at": 0.5
+          },
+          {
+            "need": 0,
+            "box": [
+              365,
+              1214,
+              350,
+              260
+            ],
+            "at": 1.1,
+            "ring": {
+              "at": 1.6
+            }
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.75,
+            "name": "thud",
+            "vol": 0.4
+          },
+          {
+            "at": 1.35,
+            "name": "pop",
+            "vol": 0.4
+          },
+          {
+            "at": 1.6,
+            "name": "chimes",
+            "vol": 0.5
+          }
+        ],
+        "hold": 0.6,
+        "lines": [
+          {
+            "who": "Tanya",
+            "text": "Pehle, ek ghanti aur ek chhota stool beech mein rakho.",
+            "say": "पहले, एक घंटी और एक छोटा स्टूल बीच में रखो।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 1",
+          "text": "Sab stool ke chaaron taraf"
+        },
+        "game": [
+          {
+            "need": 1,
+            "box": [
+              365,
+              1360,
+              350,
+              260
             ]
           },
           {
             "need": 0,
             "box": [
-              315,
-              1112,
-              450,
-              330
+              365,
+              1214,
+              350,
+              260
             ]
           }
         ],
-        "chip": "MEGHA 2 · ISHITA 4",
-        "chipY": 600,
         "chars": [
           {
-            "name": "Tanya",
-            "x": 860,
+            "name": "Shruti",
+            "x": 760,
             "y": 1330,
             "s": 1.25,
-            "turn": -0.4,
-            "pose": "hold",
-            "prop": "phone"
+            "turn": -0.3,
+            "pose": "cup"
           },
           {
             "name": "Megha",
-            "x": 220,
+            "x": 230,
             "y": 1760,
             "s": 2,
             "turn": 0.5,
-            "pose": "clapR",
-            "mouth": "laugh"
+            "pose": "relaxed",
+            "from": [
+              -220,
+              1760
+            ],
+            "moveDur": 1
           },
           {
             "name": "Ishita",
-            "x": 850,
-            "y": 1780,
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "hips",
+            "mouth": "smirk",
+            "from": [
+              1300,
+              1760
+            ],
+            "moveDur": 1,
+            "moveAt": 0.2
+          }
+        ],
+        "hold": 0.5,
+        "lines": [
+          {
+            "who": "Tanya",
+            "text": "Sab ladies stool ke chaaron taraf baith jaati hain.",
+            "say": "सब लेडीज़ स्टूल के चारों तरफ़ बेठ जाती हें।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 2",
+          "text": "\"Ghanti\" suno, ghanti uthao!"
+        },
+        "game": [
+          {
+            "need": 1,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              365,
+              1214,
+              350,
+              260
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "name": "Tanya",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "thinking"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
             "s": 2,
             "turn": -0.5,
             "pose": "hips",
             "mouth": "smirk"
           }
         ],
-        "sfx": [
-          {
-            "at": 3.4,
-            "name": "chimes",
-            "vol": 0.4
-          }
-        ],
         "lines": [
           {
             "who": "Tanya",
-            "text": "Aur phir Santa ne apni ghadi dekhi.",
-            "say": "और फिर सांता ने अपनी घड़ी देखी।"
-          },
-          {
-            "who": "Megha",
-            "text": "Ghanti! Yeh point mera hai!",
-            "say": "घंटी! ये पॉइंट मेरा हे!"
-          },
-          {
-            "who": "Ishita",
-            "text": "Megha, ghadi bola tha, ghanti nahi. Point gaya!",
-            "say": "मेघा, घड़ी बोला था, घंटी नहीं। पॉइंट गया!",
-            "punch": true
+            "text": "Host ek kahani sunati hai. Kahani mein jab bhi ghanti shabd aaye, ghanti utha lo.",
+            "say": "होस्ट एक कहानी सुनाती हे। कहानी में जब भी घंटी शब्द आए, घंटी उठा लो।"
           }
         ]
       },
@@ -1158,71 +1130,475 @@
         "kit": "scene",
         "set": "living",
         "decor": true,
-        "confetti": true,
+        "dur": 2.6,
         "game": [
           {
             "need": 1,
             "box": [
-              315,
-              1300,
-              450,
-              330
+              365,
+              1360,
+              350,
+              260
             ]
           },
           {
             "need": 0,
             "box": [
-              315,
-              1112,
-              450,
-              330
-            ]
+              365,
+              1214,
+              350,
+              260
+            ],
+            "grab": {
+              "who": "Megha",
+              "at": 0.45
+            },
+            "ring": {
+              "at": 0.85
+            }
           }
         ],
-        "chip": "ISHITA JEETI!",
-        "chipY": 600,
+        "focus": {
+          "x": 420,
+          "y": 1300,
+          "z": 1.25,
+          "at": 0.2
+        },
         "chars": [
           {
-            "name": "Ishita",
-            "x": 240,
-            "y": 1760,
-            "s": 2.1,
-            "turn": 0.4,
-            "pose": "clapR",
-            "mouth": "laugh",
-            "eyes": "laugh",
-            "hop": true
+            "name": "Tanya",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
           },
           {
-            "name": "Myra",
-            "x": 840,
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "relaxed",
+            "poseAt": {
+              "at": 0.4,
+              "pose": "wave",
+              "mouth": "laugh",
+              "eyes": "laugh"
+            }
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
             "y": 1760,
             "s": 2,
             "turn": -0.5,
-            "pose": "wave",
-            "mouth": "laugh"
+            "pose": "hips",
+            "mouth": "smirk",
+            "poseAt": {
+              "at": 0.6,
+              "mouth": "o",
+              "eyes": "open"
+            }
+          }
+        ],
+        "pops": [
+          {
+            "text": "+1",
+            "x": 380,
+            "y": 1000,
+            "at": 0.9,
+            "color": "green"
           }
         ],
         "sfx": [
           {
-            "at": 0.2,
+            "at": 0.4,
+            "name": "whoosh",
+            "vol": 0.4
+          },
+          {
+            "at": 0.85,
+            "name": "chimes",
+            "vol": 0.6
+          },
+          {
+            "at": 1.1,
+            "name": "waah",
+            "vol": 0.4
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chip": "MEGHA: 1 POINT",
+        "chipY": 600,
+        "game": [
+          {
+            "need": 1,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              365,
+              1214,
+              350,
+              260
+            ],
+            "grab": {
+              "who": "Megha",
+              "at": 0,
+              "dur": 0.01
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Tanya",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "wave",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "shrug",
+            "mouth": "smirk"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Myra",
+            "text": "Jo sabse pehle uthaye, usko point?",
+            "say": "जो सबसे पहले उठाए, उसको पॉइंट?"
+          },
+          {
+            "who": "Tanya",
+            "text": "Haan, ek point.",
+            "say": "हाँ, एक पॉइंट।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "TWIST",
+          "text": "\"Ghadi\" pe uthaya? Minus 1!"
+        },
+        "game": [
+          {
+            "need": 1,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              365,
+              1214,
+              350,
+              260
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "name": "Tanya",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "relaxed"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "pointUp",
+            "mouth": "smirk"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Tanya",
+            "text": "Par dhyan rakhna. Host beech mein ghadi bhi bolegi. Galat time pe uthaya toh ek point kat jaayega.",
+            "say": "पर ध्यान रखना। होस्ट बीच में घड़ी भी बोलेगी। ग़लत टाइम पे उठाया तो एक पॉइंट कट जाएगा।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "dur": 3,
+        "game": [
+          {
+            "need": 1,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              365,
+              1214,
+              350,
+              260
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0.45,
+              "pose": "wave"
+            }
+          }
+        ],
+        "focus": {
+          "x": 760,
+          "y": 1300,
+          "z": 1.25,
+          "at": 0.2
+        },
+        "chars": [
+          {
+            "name": "Tanya",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "relaxed",
+            "poseAt": {
+              "at": 1,
+              "pose": "laughs",
+              "mouth": "laugh",
+              "eyes": "laugh"
+            }
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "hips",
+            "mouth": "smirk",
+            "poseAt": [
+              {
+                "at": 0.4,
+                "pose": "wave",
+                "mouth": "laugh"
+              },
+              {
+                "at": 1.4,
+                "pose": "facepalm",
+                "mouth": "o",
+                "eyes": "half"
+              }
+            ]
+          }
+        ],
+        "pops": [
+          {
+            "text": "-1",
+            "x": 780,
+            "y": 960,
+            "at": 1,
+            "color": "red"
+          }
+        ],
+        "stickers": [
+          {
+            "kind": "sweat",
+            "x": 700,
+            "y": 1080,
+            "at": 1.4
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.4,
+            "name": "whoosh",
+            "vol": 0.4
+          },
+          {
+            "at": 1,
+            "name": "boing",
+            "vol": 0.45
+          },
+          {
+            "at": 1.3,
+            "name": "haww",
+            "vol": 0.4
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "JEET",
+          "text": "5 point pehle = winner!"
+        },
+        "confetti": 0.3,
+        "game": [
+          {
+            "need": 1,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              365,
+              1214,
+              350,
+              260
+            ],
+            "grab": {
+              "who": "Megha",
+              "at": 0,
+              "dur": 0.01,
+              "pose": "cheer"
+            }
+          }
+        ],
+        "chip": "MEGHA: 5 POINT",
+        "chipY": 640,
+        "chars": [
+          {
+            "name": "Tanya",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "cheer",
+            "mouth": "laugh",
+            "eyes": "laugh"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "shrug",
+            "mouth": "flat",
+            "eyes": "half"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.3,
             "name": "clap",
             "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Tanya",
+            "text": "Jiske paanch point pehle ho jaayein, woh jeet gayi.",
+            "say": "जिसके पाँच पॉइंट पहले हो जाएँ, वो जीत गई।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chars": [
+          {
+            "name": "Myra",
+            "x": 290,
+            "y": 1760,
+            "s": 2.1,
+            "turn": 0.5,
+            "pose": "cheer",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Tanya",
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
+            "turn": -0.5,
+            "pose": "laughs",
+            "mouth": "laugh"
           }
         ],
         "hold": 1,
         "lines": [
           {
-            "who": "Ishita",
-            "text": "Paanch point! Maine kaha tha na, main hi jeetungi.",
-            "say": "पाँच पॉइंट! मैंने कहा था ना, में ही जीतूँगी।"
-          },
-          {
             "who": "Myra",
-            "text": "Sunday wali kitty mein yahi khelenge. Ghanti main laaungi!",
-            "say": "संडे वाली किटी में यही खेलेंगे। घंटी में लाऊँगी!",
-            "beat": "button",
-            "punch": true
+            "text": "Bahut easy hai! Is Sunday ki kitty mein yahi khelenge.",
+            "say": "बहुत ईज़ी हे! इस संडे की किटी में यही खेलेंगे।",
+            "beat": "button"
           }
         ]
       }

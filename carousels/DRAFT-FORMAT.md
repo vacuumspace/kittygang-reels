@@ -105,3 +105,15 @@ always her screen-right hand, so the grabbed prop flies to (x + 150, y - 520) fo
 - Draw each `need` item so it stands alone in a scene: one clear real object, real colours, no stick figures.
 - `rev`: bump it (2, 3...) to remake a reel that is booked but not posted yet. `experiment`: { hook, variable, hypothesis }.
 - Lines: `who`, `text` (Roman Hinglish caption), `say` (Devanagari; ai sound as े: है -> हे, मैं -> में), optional `gap`, `beat`.
+
+### Poses (make new ones whenever a game needs them)
+Poses: relaxed, wave, hold (+ prop phone|calc|keys|bottle), phone2, hips, cup, talkR, talkL, clapR, clapL, twirl, laughs,
+and (src/kg/poses2.js) cheer, reach, pointUp, shrug, thinking, facepalm, present. Seated on a chair: `seated: true`, or
+`sitAt` / `standAt` (seconds into the shot) to sit down / stand up; seated hands should be above the lap (clapR, laughs,
+cheer, thinking, hold, shrug). Mid-shot change: `poseAt: [{ at, pose, mouth, eyes }]`. A grabbed prop lands in the
+screen-right hand of the pose she has at that moment (or `grab.pose`).
+If the game needs a move no pose shows (throwing, holding a ball up with both hands, covering eyes, passing something...),
+ADD the pose: a new entry in `src/kg/poses2.js` (elbow + hand per arm in the 240 x 400 character frame, hands from the
+existing hand library), then run `node scripts/kg/pose-sheet.js <name>` and look at out/pose-sheet.jpg: every character
+must read clearly (hands at the wrist, nothing crossing the face oddly). Fix and re-check, then use it. Never change the
+existing poses or the character look.

@@ -739,175 +739,48 @@
     ]
   },
   "reel": {
-    "rev": 2,
+    "rev": 3,
     "title": "Vrat Mein Chalega?",
     "gameSay": "व्रत में चलेगा",
-    "logline": "Aditi says chai is not allowed in a vrat while sipping chai; Shruti teaches late-comer Avika the stand-or-sit game; Shruti herself gets out on paneer; Megha wins the makhana.",
+    "logline": "Shruti explains the stand-or-sit vrat food game step by step while the gang plays: Ishita stays standing on chawal and is out, Megha wins the makhana.",
     "experiment": {
-      "hook": "series card, then the chai argument with Aditi sipping chai",
-      "variable": "slower, full-sentence conversation with theme music",
-      "hypothesis": "a food argument every home has gets comments; clear speech keeps watched % up"
+      "hook": "series card, then a simple step-by-step explanation played out by the gang",
+      "variable": "seated pose + OUT beat",
+      "hypothesis": "a vrat food question everyone argues about gets comments"
     },
     "shots": [
       {
         "kit": "scene",
         "set": "living",
         "decor": true,
-        "camera": "punch",
-        "hook": [
-          "Vrat mein chai?",
-          "Aadhi kitty out!"
-        ],
-        "chip": "CHAI: CHALEGA?",
-        "chipY": 860,
         "chars": [
           {
-            "name": "Megha",
-            "x": 250,
+            "name": "Avika",
+            "x": 290,
             "y": 1760,
-            "s": 2,
+            "s": 2.1,
             "turn": 0.5,
-            "pose": "hips",
-            "mouth": "laugh",
-            "hop": true
+            "pose": "relaxed"
           },
-          {
-            "name": "Aditi",
-            "x": 700,
-            "y": 1330,
-            "s": 1.25,
-            "turn": -0.4,
-            "pose": "cup",
-            "mouth": "flat",
-            "eyes": "half"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Megha",
-            "text": "Vrat mein chai chalti hai, main khadi hun!",
-            "say": "व्रत में चाय चलती हे, में खड़ी हूँ!"
-          },
-          {
-            "who": "Aditi",
-            "text": "Bilkul nahi chalti.",
-            "say": "बिल्कुल नहीं चलती।",
-            "punch": true
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "cover",
-        "chars": [
           {
             "name": "Shruti",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Avika",
-            "x": 860,
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
             "turn": -0.5,
-            "pose": "relaxed"
+            "pose": "talkL"
           }
         ],
         "lines": [
           {
             "who": "Avika",
-            "text": "Sorry, phir late ho gayi! Yeh sab khade baithe kyun ho rahe hain?",
-            "say": "सॉरी, फिर लेट हो गई! ये सब खड़े बेठे क्यों हो रहे हें?"
+            "text": "Shruti, is baar kitty mein koi naya game batao na.",
+            "say": "श्रुति, इस बार किटी में कोई नया गेम बताओ ना।"
           },
           {
             "who": "Shruti",
-            "text": "Vrat Mein Chalega khel rahe hain. Bas kursiyan chahiye.",
-            "say": "व्रत में चलेगा खेल रहे हें। बस कुर्सियाँ चाहिए।"
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "step 2",
-        "chars": [
-          {
-            "name": "Shruti",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Avika",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Shruti",
-            "text": "Host ek khaana bolti hai, jaise sabudana. Teen second mein socho.",
-            "say": "होस्ट एक खाना बोलती हे, जेसे साबूदाना। तीन सेकंड में सोचो।"
-          },
-          {
-            "who": "Avika",
-            "text": "Sabudana toh chalta hai na?",
-            "say": "साबूदाना तो चलता हे ना?"
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "step 3",
-        "chars": [
-          {
-            "name": "Shruti",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Avika",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Shruti",
-            "text": "Haan. Chalta hai toh khadi raho, nahi chalta toh turant baitho.",
-            "say": "हाँ। चलता हे तो खड़ी रहो, नहीं चलता तो तुरंत बेठो।"
-          }
-        ]
-      },
-      {
-        "kit": "board",
-        "show": "step 5",
-        "chars": [
-          {
-            "name": "Shruti",
-            "x": 220,
-            "turn": 0.5,
-            "pose": "talkR"
-          },
-          {
-            "name": "Avika",
-            "x": 860,
-            "turn": -0.5,
-            "pose": "relaxed"
-          }
-        ],
-        "lines": [
-          {
-            "who": "Avika",
-            "text": "Aur chai paneer pe? Har ghar ka alag rule hai.",
-            "say": "और चाय पनीर पे? हर घर का अलग रूल हे।"
-          },
-          {
-            "who": "Shruti",
-            "text": "Wahi toh mazaa hai. Jis taraf kam ladies, woh out!",
-            "say": "वही तो मज़ा हे। जिस तरफ़ कम लेडीज़, वो आउट!"
+            "text": "Ek simple game hai, Vrat Mein Chalega. Main step by step batati hun.",
+            "say": "एक सिंपल गेम हे, व्रत में चलेगा। में स्टेप बाय स्टेप बताती हूँ।"
           }
         ]
       },
@@ -915,71 +788,60 @@
         "kit": "scene",
         "set": "living",
         "decor": true,
-        "chip": "PANEER: CHALEGA?",
-        "chipY": 600,
+        "label": {
+          "kicker": "KYA CHAHIYE",
+          "text": "Kursiyan + makhane ka packet"
+        },
         "chars": [
           {
-            "name": "Tanya",
-            "x": 540,
-            "y": 1330,
-            "s": 1.25,
-            "pose": "hold",
-            "prop": "phone"
-          },
-          {
-            "name": "Megha",
-            "x": 230,
+            "name": "Shruti",
+            "x": 220,
             "y": 1760,
             "s": 2,
             "turn": 0.5,
-            "pose": "hips",
-            "mouth": "laugh"
+            "pose": "present"
+          }
+        ],
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              330,
+              1130,
+              460,
+              520
+            ],
+            "at": 0.5
           },
           {
-            "name": "Shruti",
-            "x": 850,
-            "y": 1760,
-            "s": 2,
-            "turn": -0.5,
-            "pose": "relaxed",
-            "mouth": "o",
-            "eyes": "side"
+            "need": 2,
+            "box": [
+              740,
+              1420,
+              220,
+              180
+            ],
+            "at": 1.1
           }
         ],
         "sfx": [
           {
-            "at": 1.2,
-            "name": "tick",
+            "at": 0.75,
+            "name": "thud",
             "vol": 0.4
           },
           {
-            "at": 2.2,
-            "name": "tick",
-            "vol": 0.4
-          },
-          {
-            "at": 3.2,
-            "name": "tick",
+            "at": 1.35,
+            "name": "pop",
             "vol": 0.4
           }
         ],
+        "hold": 0.6,
         "lines": [
           {
-            "who": "Tanya",
-            "text": "Agla item, paneer!",
-            "say": "अगला आइटम, पनीर!"
-          },
-          {
             "who": "Shruti",
-            "text": "Ruko, humare ghar mein toh mummy ji kehti hain...",
-            "say": "रुको, हमारे घर में तो मम्मी जी कहती हें...",
-            "gap": 0.3
-          },
-          {
-            "who": "Megha",
-            "text": "Teen second khatam, Shruti. Tum out!",
-            "say": "तीन सेकंड ख़तम, श्रुति। तुम आउट!",
-            "punch": true
+            "text": "Bas kursiyan chahiye, aur jeetne wali ke liye ek makhane ka packet.",
+            "say": "बस कुर्सियाँ चाहिए, और जीतने वाली के लिए एक मखाने का पैकेट।"
           }
         ]
       },
@@ -987,60 +849,383 @@
         "kit": "scene",
         "set": "living",
         "decor": true,
-        "confetti": true,
-        "game": {
-          "need": 2,
-          "box": [
-            330,
-            1250,
-            260,
-            220
-          ]
+        "label": {
+          "kicker": "STEP 1",
+          "text": "Sab apni kursi ke aage khade"
         },
-        "chip": "MEGHA JEETI!",
-        "chipY": 600,
         "chars": [
           {
             "name": "Megha",
-            "x": 240,
+            "x": 230,
             "y": 1760,
-            "s": 2.1,
+            "s": 1.8,
             "turn": 0.4,
-            "pose": "clapR",
-            "mouth": "laugh",
-            "eyes": "laugh",
-            "hop": true
+            "pose": "relaxed",
+            "from": [
+              -220,
+              1760
+            ],
+            "moveDur": 0.9
+          },
+          {
+            "name": "Ishita",
+            "x": 540,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0,
+            "pose": "relaxed",
+            "from": [
+              540,
+              2300
+            ],
+            "moveDur": 0.9,
+            "moveAt": 0.15
           },
           {
             "name": "Avika",
-            "x": 840,
+            "x": 850,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "relaxed",
+            "from": [
+              1300,
+              1760
+            ],
+            "moveDur": 0.9,
+            "moveAt": 0.3
+          }
+        ],
+        "hold": 0.5,
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Sab ladies apni kursi ke aage khadi ho jaati hain.",
+            "say": "सब लेडीज़ अपनी कुर्सी के आगे खड़ी हो जाती हें।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 2",
+          "text": "Host ek khaana bolegi"
+        },
+        "chip": "SABUDANA?",
+        "chipY": 700,
+        "chars": [
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "thinking"
+          },
+          {
+            "name": "Ishita",
+            "x": 540,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0,
+            "pose": "hips"
+          },
+          {
+            "name": "Avika",
+            "x": 850,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "thinking"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Host ek khaane ka naam bolti hai, jaise sabudana.",
+            "say": "होस्ट एक खाने का नाम बोलती हे, जेसे साबूदाना।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 3",
+          "text": "Chalega = khade, Nahi = baitho"
+        },
+        "chars": [
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "clapR",
+            "sitAt": 3.2
+          },
+          {
+            "name": "Ishita",
+            "x": 540,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0,
+            "pose": "laughs",
+            "sitAt": 3.35
+          },
+          {
+            "name": "Avika",
+            "x": 850,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "clapR",
+            "sitAt": 3.5
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Agar vrat mein chalta hai toh khadi raho. Nahi chalta, toh turant baith jao.",
+            "say": "अगर व्रत में चलता हे तो खड़ी रहो। नहीं चलता, तो तुरंत बेठ जाओ।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "dur": 3.4,
+        "chip": "CHAWAL?",
+        "chipY": 700,
+        "focus": {
+          "x": 540,
+          "y": 1350,
+          "z": 1.2,
+          "at": 1
+        },
+        "chars": [
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "clapR",
+            "sitAt": 0.5,
+            "mouth": "smile"
+          },
+          {
+            "name": "Ishita",
+            "x": 540,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0,
+            "pose": "hips",
+            "mouth": "smirk",
+            "poseAt": {
+              "at": 1.5,
+              "pose": "facepalm",
+              "mouth": "o",
+              "eyes": "half"
+            }
+          },
+          {
+            "name": "Avika",
+            "x": 850,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "laughs",
+            "sitAt": 0.7,
+            "mouth": "laugh"
+          }
+        ],
+        "pops": [
+          {
+            "text": "OUT!",
+            "x": 720,
+            "y": 1110,
+            "at": 1.3,
+            "color": "red",
+            "size": 100
+          }
+        ],
+        "stickers": [
+          {
+            "kind": "sweat",
+            "x": 470,
+            "y": 1120,
+            "at": 1.6
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.5,
+            "name": "swish",
+            "vol": 0.4
+          },
+          {
+            "at": 1.3,
+            "name": "boing",
+            "vol": 0.45
+          },
+          {
+            "at": 1.6,
+            "name": "haww",
+            "vol": 0.4
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "TWIST",
+          "text": "Jhagda item: chhota group out"
+        },
+        "chip": "CHAI?",
+        "chipY": 700,
+        "chars": [
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "shrug",
+            "mouth": "o"
+          },
+          {
+            "name": "Ishita",
+            "x": 540,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0,
+            "pose": "pointUp",
+            "mouth": "smirk"
+          },
+          {
+            "name": "Avika",
+            "x": 850,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "thinking",
+            "seated": true
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Chai jaise item pe har ghar ka rule alag hota hai. Toh jis taraf kam ladies hon, woh out.",
+            "say": "चाय जेसे आइटम पे हर घर का रूल अलग होता हे। तो जिस तरफ़ कम लेडीज़ हों, वो आउट।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "JEET",
+          "text": "Aakhri bachi = makhana uska!"
+        },
+        "confetti": 0.3,
+        "chip": "MEGHA JEETI!",
+        "chipY": 700,
+        "game": [
+          {
+            "need": 2,
+            "box": [
+              400,
+              1240,
+              280,
+              220
+            ],
+            "grab": {
+              "who": "Megha",
+              "at": 0.2,
+              "pose": "cheer"
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Megha",
+            "x": 300,
             "y": 1760,
             "s": 2,
-            "turn": -0.5,
-            "pose": "wave",
+            "turn": 0.4,
+            "pose": "cheer",
+            "mouth": "laugh",
+            "eyes": "laugh"
+          },
+          {
+            "name": "Avika",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.4,
+            "pose": "clapR",
             "mouth": "laugh"
           }
         ],
         "sfx": [
           {
             "at": 0.2,
+            "name": "whoosh",
+            "vol": 0.4
+          },
+          {
+            "at": 0.5,
             "name": "clap",
             "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Jo aakhir tak bachi rahe, makhane ka packet uska.",
+            "say": "जो आख़िर तक बची रहे, मखाने का पैकेट उसका।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chars": [
+          {
+            "name": "Avika",
+            "x": 290,
+            "y": 1760,
+            "s": 2.1,
+            "turn": 0.5,
+            "pose": "cheer",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Shruti",
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
+            "turn": -0.5,
+            "pose": "laughs",
+            "mouth": "laugh"
           }
         ],
         "hold": 1,
         "lines": [
           {
-            "who": "Megha",
-            "text": "Main jeet gayi! Makhana mera, aur yeh vrat mein bhi chalta hai.",
-            "say": "में जीत गई! मखाना मेरा, और ये व्रत में भी चलता हे।"
-          },
-          {
             "who": "Avika",
-            "text": "Agli Ekadashi kitty mein yahi khelenge. Main time pe aaungi!",
-            "say": "अगली एकादशी किटी में यही खेलेंगे। में टाइम पे आऊँगी!",
-            "beat": "button",
-            "punch": true
+            "text": "Bahut easy hai! Agli Ekadashi ki kitty mein yahi khelenge.",
+            "say": "बहुत ईज़ी हे! अगली एकादशी की किटी में यही खेलेंगे।",
+            "beat": "button"
           }
         ]
       }
