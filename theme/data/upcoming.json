@@ -1,80 +1,6 @@
 {
- "updated": "2026-11-27T12:52:35.060Z",
+ "updated": "2026-11-27T19:06:01.168Z",
  "days": [
-  {
-   "date": "2026-11-27",
-   "day": "Fri, 27 Nov",
-   "times": [
-    "12:30 AM",
-    "12 PM",
-    "3 PM",
-    "4 PM",
-    "7 PM",
-    "9 PM",
-    "11 PM"
-   ],
-   "theme": {
-    "id": "ninetiesyaadein",
-    "name": "90s Ki Yaadein",
-    "pack": "themes/ninetiesyaadein/v1",
-    "sounds": "sounds/ninetiesyaadein/v2",
-    "colors": {
-     "accent": "#1E8C8C",
-     "accentDeep": "#0F5E62",
-     "gameInk": "#FFFFFF"
-    },
-    "reactions": [
-     "fire",
-     "crazy",
-     "ghost",
-     "crying",
-     "love"
-    ],
-    "ticketGroups": [
-     {
-      "name": "Cassette",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Chitrahaar",
-      "points": 50,
-      "numbers": 4
-     },
-     {
-      "name": "Rasna",
-      "points": 50,
-      "numbers": 3
-     },
-     {
-      "name": "Pager",
-      "points": 50,
-      "numbers": 4
-     }
-    ],
-    "art": {
-     "home": [
-      "gh_1",
-      "gh_2",
-      "gh_0"
-     ],
-     "housie": [
-      "gs_0",
-      "gs_1"
-     ],
-     "mascotBall": [
-      "sc_1",
-      "sc_0"
-     ],
-     "particles": [
-      "gh_3",
-      "gh_4",
-      "gh_5",
-      "gh_6"
-     ]
-    }
-   }
-  },
   {
    "date": "2026-11-28",
    "day": "Sat, 28 Nov",
@@ -228,6 +154,83 @@
       "sc_0"
      ],
      "particles": []
+    }
+   }
+  },
+  {
+   "date": "2026-11-30",
+   "day": "Mon, 30 Nov",
+   "times": [
+    "12:30 AM",
+    "12 PM",
+    "3 PM",
+    "4 PM",
+    "7 PM",
+    "9 PM",
+    "11 PM"
+   ],
+   "theme": {
+    "id": "shaadikakhana",
+    "name": "Shaadi Ka Khana",
+    "pack": "themes/shaadikakhana/v1",
+    "sounds": "sounds/shaadikakhana/v1",
+    "colors": {
+     "accent": "#6A3FB5",
+     "accentDeep": "#43207E",
+     "gameInk": "#FFFFFF"
+    },
+    "reactions": [
+     "fire",
+     "crazy",
+     "ghost",
+     "crying",
+     "love"
+    ],
+    "ticketGroups": [
+     {
+      "name": "Chaat",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Paneer Tikka",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Gol Gappe",
+      "points": 50,
+      "numbers": 4
+     },
+     {
+      "name": "Gulab Jamun",
+      "points": 50,
+      "numbers": 3
+     }
+    ],
+    "art": {
+     "home": [
+      "gh_3",
+      "gh_4",
+      "gh_0",
+      "gh_1",
+      "gh_2"
+     ],
+     "housie": [
+      "gs_0",
+      "gs_1"
+     ],
+     "mascotBall": [
+      "sc_1",
+      "sc_0"
+     ],
+     "particles": [
+      "gh_5",
+      "gh_6",
+      "gh_7",
+      "fx_3",
+      "fx_4"
+     ]
     }
    }
   }
