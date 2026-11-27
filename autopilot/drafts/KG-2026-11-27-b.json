@@ -1,0 +1,589 @@
+{
+  "id": "KG-2026-11-27-b",
+  "title": "Google band, Tanya ka rasta!",
+  "format": "Map journey: Tanya in her living room guides Myra by phone with landmark directions, cut between the live map and the room, ends at the front door",
+  "idea": "Myra is driving to her first kitty; Tanya makes her switch off Google and gives landmark directions (bada ped, Gupta ji ki chai ki dukaan, Sharma ji ki laal gaadi), every landmark has moved or closed, and Google gets her there in two minutes.",
+  "logline": "Tanya makes Myra switch off Google and guides her by landmarks that no longer exist, until Myra lands on the highway, turns Google back on and reaches the door in two minutes.",
+  "game": "every landmark Tanya gives is gone, moved or everywhere",
+  "experiment": {
+    "type": "map-journey",
+    "hook": "Tanya in her living room on the phone, palm up like a traffic cop, Ruhi rolling her eyes beside her: 'Myra, Google band kar! Galat le jaata hai, main batati hoon.' chip MYRA KI PEHLI KITTY, clock 4:05",
+    "variable": "a map story that is not about a late friend: the auntie habit of landmark directions over the phone, in the flowing-conversation style, cut to about 98 words so it lands near 45 s",
+    "hypothesis": "skip under 37% like the two posted map reels (36.8%, 38.8%) and watched above 30% at about 45 s; a habit every viewer has suffered plus \"Tag your Tanya\" gets 2+ shares"
+  },
+  "mute": [
+    "Tanya on the phone in her living room, chip MYRA KI PEHLI KITTY 4:05: she tells Myra to switch off Google",
+    "Myra in her car with keys, nodding: 'band kar diya', Tanya says big tree then left",
+    "map: the dot leaves home and there are trees everywhere; Myra: 'har mod pe ped hai!'",
+    "Ruhi teases Tanya about the dog under the tree; Tanya hushes her and gives the chai shop",
+    "map: the dot reaches a building, Myra: 'yahan toh bank hai', Ruhi: 'woh dukaan band ho gayi'",
+    "Tanya shrugs it off: follow Sharma ji's red car; Myra happy: 'Mil gayi!'",
+    "map: the dot rushes off the edge with a car, chip SHARMA JI KE PEECHE, 'gaadi toh highway pe chadh gayi!'",
+    "Ruhi grabs the phone from Tanya: 'Google chala. Abhi.'",
+    "map: the dot slides straight to the pink K pin, chip GOOGLE: 2 MINUTE, Myra reads it out",
+    "front door, clock 5:10, Myra worn out with keys; Tanya proud: Google se aati toh aur ghoomna padta"
+  ],
+  "beats": "hook: Tanya bans Google, 'main batati hoon' / setup: Myra's first kitty, she obeys / esc: bada ped (every corner has one), Gupta ji ki chai (now a bank), Sharma ji ki laal gaadi (drives onto the highway) / turn: Ruhi grabs the phone, Google says 2 minute / button: Tanya flips her opening, 'Google se aati toh aur ghoomna padta!'",
+  "review": {
+    "clarity": 5,
+    "human": 4,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 5,
+    "laughs": 4,
+    "twist": 4,
+    "ending": 5,
+    "tight": 4,
+    "character": 4,
+    "shareable": 5,
+    "total": 53,
+    "notes": "Fix of KG-2026-11-27-a, same story, type, cast and shots. QA fail was length 60.28 s: 131 words at the new calmer voice pace ran about 0.46 s a word. Cut to 98 words (about 45 s): shorter hook (\"Rasta main batati hoon\"), Myra's \"Ab?\" and \"Mil gayi!\" as quick reactions, Ruhi's \"Do minute? Tanya ke saath ek ghanta!\" dropped because the 2 minute map already shows it and Tanya's button says the rest. Every line still answers the one before (Bada ped? / jiske neeche kutta sota hai / Kutta bhi roz jagah badalta hai / Shh!), claim before reveal kept on \"Mil gayi!\" then the highway, two punchlines only, no em dashes, no line over 10 words. Endings were tried in 27-a; Tanya flipping her own hook to take credit stays because it loops to the opening."
+  },
+  "cover": {
+    "shot": 6,
+    "at": 1.2,
+    "title": [
+      "Google band karo,",
+      "Tanya batayegi!"
+    ]
+  },
+  "caption": "Har group mein ek Tanya hoti hai jo Google se better rasta batati hai. Bada ped, chai ki dukaan, laal gaadi... Tag your Tanya!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#desiaunty",
+    "#directions",
+    "#googlemaps"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.08
+  },
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "clock": {
+        "h": 4,
+        "m": 5
+      },
+      "chip": "MYRA KI PEHLI KITTY · 4:05",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.4,
+          "mouth": "smile"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "relaxed",
+          "turn": -0.6,
+          "eyes": "side",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Kitty pot",
+          "x": 980,
+          "y": 1830,
+          "s": 1
+        }
+      ],
+      "camera": "push",
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Myra, Google band kar! Rasta main batati hoon.",
+          "say": "मायरा, गूगल बंद कर! रास्ता मैं बताती हूँ।",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "solo",
+      "char": {
+        "name": "Myra",
+        "pose": "hold",
+        "prop": "keys",
+        "eyes": "open",
+        "mouth": "smile",
+        "turn": 0.3
+      },
+      "props": [
+        {
+          "name": "Car",
+          "x": 830,
+          "y": 1760,
+          "s": 1.5
+        }
+      ],
+      "chip": "MYRA KI PEHLI KITTY · 4:08",
+      "chipY": 600,
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Achha, band. Ab?",
+          "say": "अच्छा, बंद। अब?",
+          "beat": "setup",
+          "gap": 0.25
+        },
+        {
+          "who": "Tanya",
+          "text": "Seedha aa, bade ped se left.",
+          "say": "सीधा आ, बड़े पेड़ से लेफ्ट।",
+          "beat": "setup"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "from": [
+        250,
+        560
+      ],
+      "to": [
+        480,
+        780
+      ],
+      "chip": "RASTA: TANYA WALA · 4:15",
+      "chipY": 760,
+      "props": [
+        {
+          "name": "Tree",
+          "x": 380,
+          "y": 900,
+          "s": 1
+        },
+        {
+          "name": "Tree",
+          "x": 640,
+          "y": 880,
+          "s": 1
+        },
+        {
+          "name": "Tree",
+          "x": 560,
+          "y": 1080,
+          "s": 1
+        },
+        {
+          "name": "Tree",
+          "x": 280,
+          "y": 1060,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Bada ped? Yahan har mod pe ped hai!",
+          "say": "बड़ा पेड़? यहाँ हर मोड़ पे पेड़ है!",
+          "beat": "escalation",
+          "gap": 0.05
+        },
+        {
+          "who": "Tanya",
+          "text": "Arre, jiske neeche kutta sota hai!",
+          "say": "अरे, जिसके नीचे कुत्ता सोता है!",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "clock": {
+        "h": 4,
+        "m": 20
+      },
+      "chip": "RASTA: TANYA WALA · 4:20",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "o"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "cup",
+          "turn": -0.6,
+          "eyes": "half",
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 200,
+          "y": 1830,
+          "s": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kutta bhi roz jagah badalta hai.",
+          "say": "कुत्ता भी रोज़ जगह बदलता है।",
+          "beat": "escalation",
+          "gap": 0.05
+        },
+        {
+          "who": "Tanya",
+          "text": "Shh! Gupta ji ki chai ki dukaan se right.",
+          "say": "श्श! गुप्ता जी की चाय की दुकान से राइट।",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "from": [
+        480,
+        780
+      ],
+      "to": [
+        320,
+        1100
+      ],
+      "chip": "RASTA: TANYA WALA · 4:35",
+      "chipY": 760,
+      "props": [
+        {
+          "name": "Apartment building",
+          "x": 180,
+          "y": 1180,
+          "s": 1
+        },
+        {
+          "name": "Cutting chai",
+          "x": 470,
+          "y": 1200,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "question",
+          "x": 470,
+          "y": 1020,
+          "at": 0.4,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Chai ki dukaan? Yahan toh bank hai.",
+          "say": "चाय की दुकान? यहाँ तो बैंक है।",
+          "beat": "escalation",
+          "gap": 0.05
+        },
+        {
+          "who": "Ruhi",
+          "text": "Woh toh do saal pehle band hui!",
+          "say": "वो तो दो साल पहले बंद हुई!",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "clock": {
+        "h": 4,
+        "m": 40
+      },
+      "chip": "RASTA: TANYA WALA · 4:40",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tanya",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "shrug",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "facepalm",
+          "turn": -0.6,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tanya",
+          "text": "Haan toh? Sharma ji ki laal gaadi ke peeche aa.",
+          "say": "हाँ तो? शर्मा जी की लाल गाड़ी के पीछे आ।",
+          "beat": "escalation",
+          "gap": 0.3
+        },
+        {
+          "who": "Myra",
+          "text": "Mil gayi!",
+          "say": "मिल गई!",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "from": [
+        320,
+        1100
+      ],
+      "to": [
+        1000,
+        1800
+      ],
+      "chip": "MYRA: SHARMA JI KE PEECHE · 4:55",
+      "chipY": 760,
+      "camera": "punch",
+      "props": [
+        {
+          "name": "Car",
+          "x": 900,
+          "y": 1720,
+          "s": 1.2
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 700,
+          "y": 1200,
+          "at": 0.6,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "riser",
+          "vol": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Tanya... gaadi highway pe chadh gayi!",
+          "say": "तान्या... गाड़ी हाईवे पे चढ़ गई!",
+          "beat": "escalation",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "clock": {
+        "h": 5,
+        "m": 0
+      },
+      "chip": "MYRA: HIGHWAY PE · 5:00",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 560,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": -0.4,
+          "mouth": "flat",
+          "from": [
+            790,
+            1740
+          ],
+          "moveAt": 0,
+          "moveDur": 0.3
+        },
+        {
+          "name": "Tanya",
+          "x": 260,
+          "y": 1730,
+          "s": 2,
+          "pose": "reach",
+          "turn": 0.6,
+          "mouth": "o",
+          "eyes": "open"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 880,
+          "y": 1800,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "swish",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Bas! Google chala, abhi.",
+          "say": "बस! गूगल चला, अभी।",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "map",
+      "from": [
+        1000,
+        1800
+      ],
+      "to": [
+        800,
+        1440
+      ],
+      "chip": "GOOGLE: 2 MINUTE",
+      "chipY": 760,
+      "music": false,
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ding",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Google bol raha hai, do minute.",
+          "say": "गूगल बोल रहा है, दो मिनट।",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "entrance",
+      "clock": {
+        "h": 5,
+        "m": 10
+      },
+      "chip": "MYRA PAHUNCHI · 5:10",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Myra",
+          "x": 790,
+          "y": 1460,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "keys",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        },
+        {
+          "name": "Tanya",
+          "x": 290,
+          "y": 1800,
+          "s": 2,
+          "pose": "hips",
+          "turn": 0.6,
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Shoe rack",
+          "x": 960,
+          "y": 1830,
+          "s": 1.4
+        },
+        {
+          "name": "Kitty pot",
+          "x": 480,
+          "y": 1820,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "doorbell",
+          "vol": 0.5
+        },
+        {
+          "at": 0.2,
+          "name": "creak",
+          "vol": 0.3
+        }
+      ],
+      "camera": "still",
+      "lines": [
+        {
+          "who": "Myra",
+          "text": "Pahunch gayi.",
+          "say": "पहुँच गई।",
+          "beat": "button",
+          "gap": 0.3
+        },
+        {
+          "who": "Tanya",
+          "text": "Dekha? Google se aati toh aur ghoomna padta!",
+          "say": "देखा? गूगल से आती तो और घूमना पड़ता!",
+          "beat": "button",
+          "punch": true
+        }
+      ]
+    }
+  ]
+}
