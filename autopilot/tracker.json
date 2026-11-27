@@ -15851,6 +15851,170 @@
       "yt_id": "5gi-RtKOlo4",
       "yt_url": "https://youtube.com/shorts/5gi-RtKOlo4",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-27-a",
+      "created": "2026-11-27",
+      "title": "Google band, Tanya ka rasta!",
+      "format": "Map journey: Tanya in her living room guides Myra by phone with landmark directions, cut between the live map and the room, ends at the front door",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Myra"
+      ],
+      "caption": "Har group mein ek Tanya hoti hai jo Google se better rasta batati hai. Bada ped, chai ki dukaan, laal gaadi... Tag your Tanya!",
+      "status": "needs-fix",
+      "idea": "Myra is driving to her first kitty; Tanya makes her switch off Google and gives landmark directions (bada ped, Gupta ji ki chai ki dukaan, Sharma ji ki laal gaadi), every landmark has moved or closed, and Google gets her there in two minutes.",
+      "beats": "hook: Tanya bans Google, 'main batati hoon' / setup: Myra's first kitty, she obeys / esc: bada ped (every corner has one), Gupta ji ki chai (now a bank), Sharma ji ki laal gaadi (drives onto the highway) / turn: Ruhi grabs the phone, Google says 2 minute / button: Tanya flips her opening, 'Google se aati toh aur ghoomna padta!'",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Tanya in her living room on the phone, palm up like a traffic cop, Ruhi rolling her eyes beside her: 'Myra, Google band kar! Galat le jaata hai, main batati hoon.' chip MYRA KI PEHLI KITTY, clock 4:05",
+        "variable": "a new map story that is not about a late friend: the auntie habit of landmark directions over the phone, written in the new flowing-conversation style (12-15 word exchanges, reactions, overlaps) at about 40 s",
+        "hypothesis": "skip under 37% like the two posted map reels (36.8%, 38.8%) and watched above 30%; a habit every viewer has suffered plus 'Tag the friend jo landmark se rasta batati hai' gets 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Myra, Google band kar! Galat le jaata hai, main batati hoon.",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "solo",
+          "who": "Myra",
+          "line": "Achha, band kar diya. Ab bataiye?",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "solo",
+          "who": "Tanya",
+          "line": "Seedha aa, phir bade ped ke baad left.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Bada ped? Yahan toh har mod pe ped hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Tanya",
+          "line": "Arre, wahi jiske neeche kutta sota hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kutta bhi roz jagah badalta hai, Tanya.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shh! Ab Gupta ji ki chai ki dukaan se right.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Chai ki dukaan? Yahan toh bank hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Woh toh do saal pehle band ho gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haan toh? Bas Sharma ji ki laal gaadi ke peeche aa ja.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mil gayi! Peeche peeche aa rahi hoon.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Tanya... gaadi toh highway pe chadh gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Bas! Myra, Google chala. Abhi.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Google bol raha hai... sirf do minute.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Do minute? Tanya ke saath ek ghanta!",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Pahunch gayi. Do minute mein.",
+          "beat": "button"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dekha? Google se aati toh aur ghoomna padta!",
+          "beat": "button"
+        }
+      ],
+      "duration": 60.28,
+      "review": {
+        "clarity": 5,
+        "human": 4,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Last 4 gang reels with a type were door-arrivals (26-b), countdown (26-a), meme-format (25-b), types-of (25-a), so map-journey, the best of the other types on data (skip 36.8% and 38.8%). Lead Myra (last reel Tanya); Tanya and Ruhi talk to her on the phone, 3 characters in all. No bank idea fits a map, so a new evergreen one was added and used: landmark directions are something every viewer has lived. Written to the 2026-11-26 human bar: each line answers the last (Myra's naive 'Ab bataiye?', Ruhi's teasing 'Kutta bhi roz jagah badalta hai', Tanya's 'Haan toh?'), claim before reveal on 'Mil gayi! Peeche peeche aa rahi hoon' then the highway, small true details (kutta under the tree, Gupta ji ki dukaan band do saal pehle, Sharma ji ki laal gaadi). Endings tried: Myra stays outside and the gang comes down to her (weak, loses the door), Tanya offers to guide the next kitty and everyone shouts 'Google!' (chorus, slogan-like), Tanya flips her own hook line and takes credit (kept, loops to the start). Two punchlines only. About 125 words, no line over 12 words, no shot over 8 s."
+      },
+      "qa": [
+        "length 15-60 s (60.28 s)"
+      ],
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-27-a-board.jpg"
     }
   ],
   "ideas": [
