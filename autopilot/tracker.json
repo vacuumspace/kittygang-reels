@@ -19611,6 +19611,107 @@
       "yt_url": "https://youtube.com/shorts/IFJwGIdvxPw",
       "yt_privacy": "private",
       "error": "remade (rev 2)"
+    },
+    {
+      "id": "KGI-038",
+      "n": 38,
+      "created": "2026-11-27",
+      "game": "Shaadi Hai Housie",
+      "tagline": "Shaadi hai! Ticket badlo!",
+      "players": "8 to 20",
+      "time": "15 to 20 minutes",
+      "slug": "shaadi-hai-housie-ticket-swap-tambola-kitty-party-game",
+      "caption": "Normal Housie, par host bolegi \"Shaadi hai!\" aur sabka ticket baayein wali ke paas! Full house ka ticket bhi chala gaya toh? Aapko is December kitni shaadiyan attend karni hain?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-038/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/shaadi-hai-housie-ticket-swap-tambola-kitty-party-game",
+      "format": "reel",
+      "rev": 1,
+      "music": "https://kittyparty-themes.rahul-89e.workers.dev/sounds/ninetiesyaadein/v2/music.m4a",
+      "experiment": {
+        "hook": "series card, then a simple step-by-step explanation played out by the gang",
+        "variable": "game type: first Housie twist as a reel, with a ticket-swap action beat",
+        "hypothesis": "Housie is our best game type, and the visible \"my good ticket is gone\" moment gets saves and comments"
+      },
+      "hook": "",
+      "duration": 56.63,
+      "script": [
+        {
+          "shot": 1,
+          "who": "Tanya",
+          "line": "Kitty Game Ideas number 38: Shaadi Hai Housie!"
+        },
+        {
+          "shot": 2,
+          "who": "Zoya",
+          "line": "Ruhi, Housie mein kuch naya batao na."
+        },
+        {
+          "shot": 2,
+          "who": "Ruhi",
+          "line": "Shaadi Hai Housie khelo. Main step by step batati hun."
+        },
+        {
+          "shot": 3,
+          "who": "Ruhi",
+          "line": "Har lady ko ticket aur pen do, beech mein number ki katori."
+        },
+        {
+          "shot": 4,
+          "who": "Ruhi",
+          "line": "Host chupke se paanch number likhti hai. Yeh shaadi ki dates hain."
+        },
+        {
+          "shot": 5,
+          "who": "Ruhi",
+          "line": "Phir host number bolti hai, sab ticket pe kaat leti hain."
+        },
+        {
+          "shot": 7,
+          "who": "Ruhi",
+          "line": "Shaadi date wala number aaya, toh host bolegi shaadi hai. Sab ticket baayein wali ko do."
+        },
+        {
+          "shot": 9,
+          "who": "Zoya",
+          "line": "Mera achha ticket bhi chala jaayega?"
+        },
+        {
+          "shot": 9,
+          "who": "Ruhi",
+          "line": "Haan, kate hue number ke saath."
+        },
+        {
+          "shot": 10,
+          "who": "Ruhi",
+          "line": "Jiske haath wale ticket pe full house aaye, wahi jeet gayi."
+        },
+        {
+          "shot": 11,
+          "who": "Zoya",
+          "line": "Bahut mazedaar! Is Sunday ki kitty mein yahi khelenge."
+        }
+      ],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-038-reel-r1.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-038-reel-r1-cover.jpg",
+      "queue_id": "27593941-8e06-4949-be96-1bc68528faf0",
+      "scheduled_ist": "2026-11-29 16:00",
+      "yt_id": "2UcSpvuBv14",
+      "yt_url": "https://youtube.com/shorts/2UcSpvuBv14",
+      "yt_privacy": "private"
     }
   ],
   "research": [
