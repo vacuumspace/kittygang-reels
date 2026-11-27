@@ -1,0 +1,1551 @@
+{
+  "id": "KGI-038",
+  "n": 38,
+  "slug": "shaadi-hai-housie-ticket-swap-tambola-kitty-party-game",
+  "game": "Shaadi Hai Housie",
+  "tagline": "Shaadi hai! Ticket badlo!",
+  "candidates": [
+    {
+      "game": "Shaadi Hai Housie (Aakhri muhurat Housie from the bank)",
+      "scores": {
+        "payoff": 4,
+        "laugh": 5,
+        "easy": 5,
+        "fresh": 4,
+        "fits": 5
+      },
+      "total": 23,
+      "note": "Housie is due (every 3rd game), shaadi dates 1 to 6 Dec, a good ticket walking away is a visible laugh"
+    },
+    {
+      "game": "Gathbandhan Jodi Race",
+      "scores": {
+        "payoff": 5,
+        "laugh": 4,
+        "easy": 4,
+        "fresh": 3,
+        "fits": 4
+      },
+      "total": 20,
+      "note": "fun, but Jodi Pehchano (KGI-035) was a pair game just 3 games ago"
+    },
+    {
+      "game": "Ulti Ginti Housie",
+      "scores": {
+        "payoff": 3,
+        "laugh": 4,
+        "easy": 5,
+        "fresh": 4,
+        "fits": 4
+      },
+      "total": 20,
+      "note": "countdown is clear, but hiding tickets under a dupatta reads weakly on video"
+    },
+    {
+      "game": "Aankh Band, Taali Bajao",
+      "scores": {
+        "payoff": 4,
+        "laugh": 4,
+        "easy": 5,
+        "fresh": 3,
+        "fits": 4
+      },
+      "total": 20,
+      "note": "blindfold song is close to many creator posts"
+    },
+    {
+      "game": "Pahada Housie",
+      "scores": {
+        "payoff": 2,
+        "laugh": 3,
+        "easy": 4,
+        "fresh": 4,
+        "fits": 3
+      },
+      "total": 16,
+      "note": "dropped: maths on screen is not funny to watch"
+    }
+  ],
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M40 350 L1040 350\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "person",
+      "x": 170,
+      "y": 200,
+      "s": 1,
+      "color": "green"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(170 330) scale(0.7)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 540,
+      "y": 200,
+      "s": 1,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(540 330) scale(0.7)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -7 L-43 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 17 L-67 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 17 L29 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 910,
+      "y": 200,
+      "s": 1,
+      "color": "blue"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(910 330) scale(0.7)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -31 L-43 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+    },
+    {
+      "k": "arrow",
+      "x1": 850,
+      "y1": 60,
+      "x2": 610,
+      "y2": 60,
+      "color": "pink",
+      "w": 9
+    },
+    {
+      "k": "arrow",
+      "x1": 480,
+      "y1": 60,
+      "x2": 240,
+      "y2": 60,
+      "color": "pink",
+      "w": 9
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 5 cheezein",
+    "body": "Housie ki purani tickets bhi chalengi.",
+    "items": [
+      {
+        "label": "Housie ticket",
+        "sub": "har lady ka ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 110) scale(1.1)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -7 L-43 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 17 L-67 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 17 L29 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Pen",
+        "sub": "har lady ka ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 115) rotate(-25) scale(1.3)\"><rect x=\"-80\" y=\"-9\" width=\"140\" height=\"18\" rx=\"6\" fill=\"#3B6FD8\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><path d=\"M60 -9 L84 0 L60 9 Z\" fill=\"#F4E3C1\" stroke=\"#2B1B2E\" stroke-width=\"4\" stroke-linejoin=\"round\"/><rect x=\"-80\" y=\"-12\" width=\"26\" height=\"24\" rx=\"5\" fill=\"#1F3F8A\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Number ki katori",
+        "sub": "1 se 90 ki chit",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 160) scale(1.25)\"><path d=\"M-46 -40 L-30 -66 L-10 -44 Z\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M-6 -46 L14 -76 L28 -46 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M24 -42 L48 -64 L56 -40 Z\" fill=\"#FFE08A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M-90 -40 L90 -40 Q84 20 0 22 Q-84 20 -90 -40 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-70 -24 Q0 -14 70 -24\" stroke=\"#FFFFFF\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.7\"/><rect x=\"-36\" y=\"20\" width=\"72\" height=\"12\" rx=\"5\" fill=\"#AEB4BE\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+          }
+        ]
+      },
+      {
+        "label": "Shaadi date chit",
+        "sub": "host ki, chupa ke",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 112) rotate(-4) scale(1.2)\"><rect x=\"-90\" y=\"-70\" width=\"180\" height=\"140\" rx=\"8\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"0\" y=\"-32\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#E85D8A\" font-family=\"sans-serif\">SHAADI</text><text x=\"0\" y=\"8\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">3  7  9</text><text x=\"0\" y=\"46\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">12  15</text></g>"
+          }
+        ]
+      },
+      {
+        "label": "Chhoti table",
+        "sub": "beech mein",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 200) scale(1)\"><rect x=\"-90\" y=\"-150\" width=\"180\" height=\"26\" rx=\"10\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-66 -124 L-76 0 M66 -124 L76 0\" stroke=\"#2B1B2E\" stroke-width=\"9\" stroke-linecap=\"round\"/></g>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Host chupke 5 shaadi dates likhe",
+      "body": "1 se 15 ke beech 5 number. Chit kisi ko mat dikhao.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 380,
+          "y": 460,
+          "s": 1,
+          "color": "pink",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(560 440) rotate(-6) scale(1.1)\"><rect x=\"-90\" y=\"-70\" width=\"180\" height=\"140\" rx=\"8\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"0\" y=\"-32\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#E85D8A\" font-family=\"sans-serif\">SHAADI</text><text x=\"0\" y=\"8\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">3  7  9</text><text x=\"0\" y=\"46\" font-size=\"30\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">12  15</text></g>"
+        },
+        {
+          "k": "hand",
+          "x": 445,
+          "y": 470,
+          "s": 0.8,
+          "rot": 0
+        },
+        {
+          "k": "text",
+          "x": 520,
+          "y": 280,
+          "text": "Shhh... chupa ke!",
+          "size": 52,
+          "color": "pink",
+          "a": "middle"
+        }
+      ]
+    },
+    {
+      "title": "Normal Housie, number kaato",
+      "body": "Host katori se chit nikaale, number bole. Sab ticket pe kaato.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 160,
+          "y": 460,
+          "s": 1,
+          "color": "pink",
+          "label": "Host"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(300 630) scale(0.8)\"><path d=\"M-46 -40 L-30 -66 L-10 -44 Z\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M-6 -46 L14 -76 L28 -46 Z\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M24 -42 L48 -64 L56 -40 Z\" fill=\"#FFE08A\" stroke=\"#2B1B2E\" stroke-width=\"3\"/><path d=\"M-90 -40 L90 -40 Q84 20 0 22 Q-84 20 -90 -40 Z\" fill=\"#C9CED6\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M-70 -24 Q0 -14 70 -24\" stroke=\"#FFFFFF\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.7\"/><rect x=\"-36\" y=\"20\" width=\"72\" height=\"12\" rx=\"5\" fill=\"#AEB4BE\" stroke=\"#2B1B2E\" stroke-width=\"4\"/></g>"
+        },
+        {
+          "k": "chit",
+          "x": 330,
+          "y": 250,
+          "s": 1.3,
+          "text": "27",
+          "rot": -8
+        },
+        {
+          "k": "person",
+          "x": 560,
+          "y": 460,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(560 600) scale(0.9)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -31 L-43 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -7 L-67 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 17 L-43 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 840,
+          "y": 460,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(840 600) scale(0.9)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-9 -31 L5 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-9 -7 L5 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 180,
+          "text": "\"27!\"",
+          "size": 60,
+          "color": "ink",
+          "a": "middle"
+        }
+      ]
+    },
+    {
+      "title": "\"Shaadi hai!\" Ticket baayein do",
+      "body": "Shaadi date wala number aaya? Sab apna ticket baayein wali ko do.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 160,
+          "y": 460,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 460,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "person",
+          "x": 800,
+          "y": 460,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(160 600) scale(0.75)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(480 600) scale(0.75)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -7 L-43 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 17 L-67 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 17 L29 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(800 600) scale(0.75)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -31 L-43 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "arrow",
+          "x1": 740,
+          "y1": 370,
+          "x2": 540,
+          "y2": 370,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "arrow",
+          "x1": 420,
+          "y1": 370,
+          "x2": 220,
+          "y2": 370,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "text",
+          "x": 480,
+          "y": 230,
+          "text": "SHAADI HAI!",
+          "size": 72,
+          "color": "pink",
+          "a": "middle"
+        }
+      ]
+    },
+    {
+      "title": "Cut wale number saath jaate hain",
+      "body": "Naye ticket pe hi aage kaato. Achha ticket gaya, toh gaya!",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 240,
+          "y": 460,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(240 600) scale(0.8)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -31 L-43 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 240,
+          "y": 300,
+          "text": "Mera full",
+          "size": 40,
+          "color": "mute",
+          "a": "middle"
+        },
+        {
+          "k": "text",
+          "x": 240,
+          "y": 345,
+          "text": "house gaya!",
+          "size": 40,
+          "color": "mute",
+          "a": "middle"
+        },
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 560,
+          "x2": 580,
+          "y2": 560,
+          "color": "pink",
+          "w": 10
+        },
+        {
+          "k": "person",
+          "x": 740,
+          "y": 460,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(740 600) scale(0.8)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M63 -31 L77 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -7 L-43 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 17 L-67 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 17 L29 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/></g>"
+        },
+        {
+          "k": "text",
+          "x": 740,
+          "y": 320,
+          "text": "Thank you!",
+          "size": 48,
+          "color": "green",
+          "a": "middle"
+        }
+      ]
+    },
+    {
+      "title": "Haath wale ticket pe claim",
+      "body": "Jaldi five, line, full house: jo ticket haath mein, usi pe.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "person",
+          "x": 480,
+          "y": 460,
+          "s": 1,
+          "color": "blue"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(600 330) scale(0.8)\"><rect x=\"-120\" y=\"-46\" width=\"240\" height=\"92\" rx=\"10\" fill=\"#FFF3D1\" stroke=\"#2B1B2E\" stroke-width=\"4\"/><rect x=\"-84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -31 L-67 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -31 L-43 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-9 -31 L5 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"12\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -31 L29 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M63 -31 L77 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"84\" y=\"-34\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M87 -31 L101 -17\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 -7 L-67 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 -7 L-43 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-9 -7 L5 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"12\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 -7 L29 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M63 -7 L77 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"84\" y=\"-10\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M87 -7 L101 7\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-81 17 L-67 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-57 17 L-43 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"-12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M-9 17 L5 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"12\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M15 17 L29 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"60\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M63 17 L77 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/><rect x=\"84\" y=\"14\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#E85D8A\" stroke=\"#D9B45A\" stroke-width=\"1.5\"/><path d=\"M87 17 L101 31\" stroke=\"#FFFFFF\" stroke-width=\"3\"/></g>"
+        },
+        {
+          "k": "hand",
+          "x": 525,
+          "y": 375,
+          "s": 0.8,
+          "rot": 0
+        },
+        {
+          "k": "text",
+          "x": 560,
+          "y": 220,
+          "text": "FULL HOUSE!",
+          "size": 64,
+          "color": "pink",
+          "a": "middle"
+        },
+        {
+          "k": "tick",
+          "x": 300,
+          "y": 380,
+          "s": 1.1
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Haath wala ticket hi jeetega",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "\"Shaadi hai\" ke baad",
+          "ticket rok liya? Rs 10 fine."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Pass karte waqt",
+          "naya number kaata? Cut cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Galat claim kiya?",
+          "Ticket beech mein, ek round baahar."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "Jaldi five, line, full house:",
+          "haath wale ticket pe claim!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Aakhri date \"Kharmas\": 10 second",
+        "freeze, sabse kata ticket naache."
+      ],
+      [
+        "\"Vidaai!\" bola toh ticket",
+        "ulta, daayein wali ko do."
+      ],
+      [
+        "\"Double shaadi!\" pe ticket",
+        "do ladies aage jaayega."
+      ]
+    ],
+    "tip": "Pehle 15 number mein dates rakho, swap jaldi shuru hoga!"
+  },
+  "comment_hint": "kiska ticket gaya?",
+  "caption": "Normal Housie, par host bolegi \"Shaadi hai!\" aur sabka ticket baayein wali ke paas! Full house ka ticket bhi chala gaya toh? Aapko is December kitni shaadiyan attend karni hain?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#housie",
+    "#tambola",
+    "#shaadiseason"
+  ],
+  "web": {
+    "title": "Shaadi Hai Housie: Kitty Party Tambola Twist, Rules and Variations",
+    "description": "Shaadi Hai Housie is a tambola twist for kitty parties: on secret shaadi date numbers everyone passes her ticket left. Rules, scoring, variations and FAQ.",
+    "intro": "Shaadi Hai Housie is a Housie (tambola) twist for a kitty party where the host secretly picks five \"shaadi date\" numbers, and every time one of them is called she shouts \"Shaadi hai!\" and every lady passes her ticket, cuts and all, to the lady on her left. You win by claiming Jaldi Five, a line or Full House on whichever ticket is in your hands at that moment, so a nearly full ticket can walk away from you just before the end. It is played with normal Housie tickets, pens and a bowl of number chits, and it fits the December shaadi season perfectly.",
+    "players": "8 to 20",
+    "time": "15 to 20 minutes",
+    "materials": [
+      "One Housie (tambola) ticket per lady, printed or old ones",
+      "One pen per lady",
+      "A katori or bowl with number chits from 1 to 90 (or a number calling app on the host's phone)",
+      "One small chit for the host's 5 secret shaadi dates",
+      "A small table in the middle for the bowl",
+      "Small prizes for Jaldi Five, lines and Full House"
+    ],
+    "steps": [
+      "Seat all the ladies in a circle and give each one a Housie ticket and a pen.",
+      "Before starting, the host secretly writes 5 numbers between 1 and 15 on a small chit. These are the shaadi dates. She shows the chit to nobody.",
+      "The host plays normal Housie: she draws a number chit from the bowl, calls it out, and everyone cuts it if it is on her ticket.",
+      "Whenever the called number is one of the shaadi dates, the host shouts \"Shaadi hai!\" right after calling it.",
+      "On \"Shaadi hai!\", every lady first cuts the number if she has it, then passes her ticket to the lady on her left. Cuts stay on the ticket.",
+      "Everyone keeps playing on the ticket she now holds. A ticket can change hands up to 5 times in one game.",
+      "Claims for Jaldi Five, top, middle and bottom lines and Full House are made on the ticket in your hands. The first correct Full House wins the game."
+    ],
+    "rules": [
+      "Pass your ticket at once when the host says \"Shaadi hai!\"; holding it back costs a Rs 10 fine into the kitty pot.",
+      "Do not cut a new number while tickets are being passed; such a cut is cancelled.",
+      "Every claim is checked by the host against the called numbers.",
+      "A wrong claim puts that ticket in the middle and its holder sits out one round.",
+      "The prize goes to whoever is holding the winning ticket, not to the lady it started with."
+    ],
+    "variations": [
+      "Kharmas date: make the last shaadi date \"Kharmas\". When it comes up, the game freezes for 10 seconds and the lady with the most-cut ticket must do one baraat dance step before anyone can claim.",
+      "Vidaai: on a second secret list of numbers the host shouts \"Vidaai!\" and tickets go to the right instead.",
+      "Double shaadi: on one special number tickets move two places to the left.",
+      "Pick the shaadi dates from real December wedding dates the group has, so the room cheers when \"their\" date comes up."
+    ],
+    "tips": [
+      "Keep all 5 shaadi dates between 1 and 15 or in the first numbers you call, so the swapping starts early and keeps going.",
+      "Ask ladies to write nothing on the tickets except cuts, so tickets can move freely.",
+      "Use a pen that writes clearly so the next lady can see the cuts.",
+      "Sitting in a proper circle makes \"pass to the left\" easy and quick.",
+      "Announce the twist before the game but never the dates; the surprise is the fun."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Shaadi Hai Housie?",
+        "a": "It works for 8 to 20 ladies sitting in one circle. With more players, make two circles with one host each."
+      },
+      {
+        "q": "What do you need to play Shaadi Hai Housie?",
+        "a": "Housie tickets, a pen for every lady, a bowl of number chits from 1 to 90 (or a calling app) and one small chit for the host's 5 secret shaadi dates."
+      },
+      {
+        "q": "How is Shaadi Hai Housie different from normal tambola?",
+        "a": "Calling and claiming are the same, but when a secret shaadi date number is called, everyone passes her ticket to the left with its cuts. You claim on the ticket you hold at that moment."
+      },
+      {
+        "q": "How long does a game of Shaadi Hai Housie take?",
+        "a": "About 15 to 20 minutes for one full game with Jaldi Five, three lines and Full House."
+      },
+      {
+        "q": "Is Shaadi Hai Housie good for a December or shaadi season kitty party?",
+        "a": "Yes. The \"Shaadi hai!\" call fits the wedding season, it needs no decoration or cooking, and everyone stays seated, so it suits ladies of every age."
+      }
+    ]
+  },
+  "reel": {
+    "rev": 1,
+    "title": "Shaadi Hai Housie",
+    "gameSay": "शादी हे हाउज़ी",
+    "logline": "Ruhi explains Shaadi Hai Housie step by step while the gang plays it: on a secret shaadi date number everyone passes her ticket to the left, cuts and all, and the ticket in your hand is the one you claim on.",
+    "experiment": {
+      "hook": "series card, then a simple step-by-step explanation played out by the gang",
+      "variable": "game type: first Housie twist as a reel, with a ticket-swap action beat",
+      "hypothesis": "Housie is our best game type, and the visible \"my good ticket is gone\" moment gets saves and comments"
+    },
+    "shots": [
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chars": [
+          {
+            "name": "Zoya",
+            "x": 290,
+            "y": 1760,
+            "s": 2.1,
+            "turn": 0.5,
+            "pose": "relaxed"
+          },
+          {
+            "name": "Ruhi",
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
+            "turn": -0.5,
+            "pose": "talkL"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Zoya",
+            "text": "Ruhi, Housie mein kuch naya batao na.",
+            "say": "रूही, हाउज़ी में कुछ नया बताओ ना।"
+          },
+          {
+            "who": "Ruhi",
+            "text": "Shaadi Hai Housie khelo. Main step by step batati hun.",
+            "say": "शादी हे हाउज़ी खेलो। में स्टेप बाय स्टेप बताती हूँ।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "KYA CHAHIYE",
+          "text": "Ticket, pen aur number katori"
+        },
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 200,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "present"
+          }
+        ],
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ],
+            "at": 0.4
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ],
+            "at": 0.9
+          },
+          {
+            "need": 0,
+            "box": [
+              560,
+              1235,
+              150,
+              110
+            ],
+            "at": 1.4
+          },
+          {
+            "need": 1,
+            "box": [
+              580,
+              1150,
+              120,
+              90
+            ],
+            "at": 1.8,
+            "ring": {
+              "at": 2.1
+            }
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.65,
+            "name": "thud",
+            "vol": 0.4
+          },
+          {
+            "at": 1.15,
+            "name": "pop",
+            "vol": 0.4
+          },
+          {
+            "at": 1.65,
+            "name": "pop",
+            "vol": 0.4
+          },
+          {
+            "at": 2.1,
+            "name": "chimes",
+            "vol": 0.5
+          }
+        ],
+        "hold": 0.6,
+        "lines": [
+          {
+            "who": "Ruhi",
+            "text": "Har lady ko ticket aur pen do, beech mein number ki katori.",
+            "say": "हर लेडी को टिकट और पेन दो, बीच में नंबर की कटोरी।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 1",
+          "text": "Chupke se 5 shaadi dates"
+        },
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "thinking",
+            "eyes": "open",
+            "mouth": "smirk"
+          }
+        ],
+        "game": [
+          {
+            "need": 3,
+            "box": [
+              700,
+              1080,
+              220,
+              170
+            ],
+            "at": 0.5,
+            "ring": {
+              "at": 0.9
+            }
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.75,
+            "name": "pop",
+            "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Ruhi",
+            "text": "Host chupke se paanch number likhti hai. Yeh shaadi ki dates hain.",
+            "say": "होस्ट चुपके से पाँच नंबर लिखती हे। ये शादी की डेट्स हें।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 2",
+          "text": "Number suno, ticket pe kaato"
+        },
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              560,
+              1235,
+              150,
+              110
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "relaxed",
+            "from": [
+              -220,
+              1760
+            ],
+            "moveDur": 1
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "hips",
+            "mouth": "smirk",
+            "from": [
+              1300,
+              1760
+            ],
+            "moveDur": 1,
+            "moveAt": 0.2
+          }
+        ],
+        "hold": 0.4,
+        "lines": [
+          {
+            "who": "Ruhi",
+            "text": "Phir host number bolti hai, sab ticket pe kaat leti hain.",
+            "say": "फिर होस्ट नंबर बोलती हे, सब टिकट पे काट लेती हें।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "dur": 2.6,
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              560,
+              1235,
+              150,
+              110
+            ],
+            "grab": {
+              "who": "Megha",
+              "at": 0.45
+            }
+          }
+        ],
+        "focus": {
+          "x": 420,
+          "y": 1300,
+          "z": 1.25,
+          "at": 0.2
+        },
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "relaxed",
+            "poseAt": {
+              "at": 0.4,
+              "pose": "wave",
+              "mouth": "laugh",
+              "eyes": "laugh"
+            }
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "hips",
+            "mouth": "smirk"
+          }
+        ],
+        "pops": [
+          {
+            "text": "27 kata!",
+            "x": 400,
+            "y": 1000,
+            "at": 0.9,
+            "color": "green"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.4,
+            "name": "whoosh",
+            "vol": 0.4
+          },
+          {
+            "at": 0.9,
+            "name": "pop",
+            "vol": 0.5
+          },
+          {
+            "at": 1.1,
+            "name": "waah",
+            "vol": 0.4
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "TWIST",
+          "text": "\"Shaadi hai!\" Ticket baayein do"
+        },
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              560,
+              1235,
+              150,
+              110
+            ],
+            "grab": {
+              "who": "Megha",
+              "at": 0,
+              "dur": 0.01
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "pointUp",
+            "eyes": "open",
+            "mouth": "o"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "wave",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "thinking"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.2,
+            "name": "chimes",
+            "vol": 0.5
+          }
+        ],
+        "lines": [
+          {
+            "who": "Ruhi",
+            "text": "Shaadi date wala number aaya, toh host bolegi shaadi hai. Sab ticket baayein wali ko do.",
+            "say": "शादी डेट वाला नंबर आया, तो होस्ट बोलेगी शादी हे। सब टिकट बाएँ वाली को दो।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "dur": 2.8,
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              305,
+              1185,
+              150,
+              110
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0.45,
+              "pose": "wave"
+            }
+          }
+        ],
+        "focus": {
+          "x": 540,
+          "y": 1260,
+          "z": 1.2,
+          "at": 0.2
+        },
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "cheer",
+            "eyes": "laugh",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "wave",
+            "mouth": "laugh",
+            "poseAt": {
+              "at": 1,
+              "pose": "facepalm",
+              "mouth": "o",
+              "eyes": "half"
+            }
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "hips",
+            "mouth": "smirk",
+            "poseAt": {
+              "at": 0.4,
+              "pose": "wave",
+              "mouth": "laugh",
+              "eyes": "laugh"
+            }
+          }
+        ],
+        "pops": [
+          {
+            "text": "Gaya!",
+            "x": 260,
+            "y": 980,
+            "at": 1,
+            "color": "red"
+          },
+          {
+            "text": "Mil gaya!",
+            "x": 820,
+            "y": 960,
+            "at": 1.1,
+            "color": "green"
+          }
+        ],
+        "stickers": [
+          {
+            "kind": "sweat",
+            "x": 150,
+            "y": 1080,
+            "at": 1.2
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.4,
+            "name": "whoosh",
+            "vol": 0.45
+          },
+          {
+            "at": 1,
+            "name": "haww",
+            "vol": 0.45
+          },
+          {
+            "at": 1.3,
+            "name": "waah",
+            "vol": 0.4
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chip": "TICKET BADAL GAYA",
+        "chipY": 600,
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              560,
+              1235,
+              150,
+              110
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0,
+              "dur": 0.01
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "shrug",
+            "mouth": "flat",
+            "eyes": "half"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "wave",
+            "mouth": "laugh"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Zoya",
+            "text": "Mera achha ticket bhi chala jaayega?",
+            "say": "मेरा अच्छा टिकट भी चला जाएगा?"
+          },
+          {
+            "who": "Ruhi",
+            "text": "Haan, kate hue number ke saath.",
+            "say": "हाँ, कटे हुए नंबर के साथ।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "JEET",
+          "text": "Haath wale ticket pe full house"
+        },
+        "confetti": 0.3,
+        "game": [
+          {
+            "need": 4,
+            "box": [
+              365,
+              1360,
+              350,
+              260
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              385,
+              1215,
+              170,
+              150
+            ]
+          },
+          {
+            "need": 0,
+            "box": [
+              560,
+              1235,
+              150,
+              110
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0,
+              "dur": 0.01,
+              "pose": "cheer"
+            }
+          }
+        ],
+        "chip": "ISHITA: FULL HOUSE",
+        "chipY": 640,
+        "chars": [
+          {
+            "name": "Ruhi",
+            "x": 540,
+            "y": 1330,
+            "s": 1.25,
+            "pose": "hold",
+            "prop": "phone",
+            "eyes": "half"
+          },
+          {
+            "name": "Megha",
+            "x": 230,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "laughs",
+            "mouth": "laugh",
+            "eyes": "laugh"
+          },
+          {
+            "name": "Ishita",
+            "x": 800,
+            "y": 1760,
+            "s": 2,
+            "turn": -0.5,
+            "pose": "cheer",
+            "mouth": "laugh",
+            "eyes": "laugh"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.3,
+            "name": "clap",
+            "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Ruhi",
+            "text": "Jiske haath wale ticket pe full house aaye, wahi jeet gayi.",
+            "say": "जिसके हाथ वाले टिकट पे फ़ुल हाउस आए, वही जीत गई।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chars": [
+          {
+            "name": "Zoya",
+            "x": 290,
+            "y": 1760,
+            "s": 2.1,
+            "turn": 0.5,
+            "pose": "cheer",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Ruhi",
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
+            "turn": -0.5,
+            "pose": "laughs",
+            "mouth": "laugh"
+          }
+        ],
+        "hold": 1,
+        "lines": [
+          {
+            "who": "Zoya",
+            "text": "Bahut mazedaar! Is Sunday ki kitty mein yahi khelenge.",
+            "say": "बहुत मज़ेदार! इस संडे की किटी में यही खेलेंगे।",
+            "beat": "button"
+          }
+        ]
+      }
+    ]
+  }
+}
