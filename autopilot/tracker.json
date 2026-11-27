@@ -19760,7 +19760,7 @@
       "time": "10 to 15 minutes",
       "slug": "vrat-mein-chalega-ekadashi-fasting-food-kitty-party-game",
       "caption": "Sabudana chalega, chawal nahi... par chai? Ekadashi wali kitty mein yeh game khelo, baat jhagde tak jaayegi! Aapke ghar mein vrat mein chai chalti hai ya nahi?",
-      "status": "queued",
+      "status": "published",
       "slides": 10,
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-036/board.jpg",
       "image_urls": [
@@ -19844,7 +19844,9 @@
       "scheduled_ist": "2026-11-27 16:30",
       "yt_id": "xiht6_q6Fwo",
       "yt_url": "https://youtube.com/shorts/xiht6_q6Fwo",
-      "yt_privacy": "private"
+      "yt_privacy": "private",
+      "permalink": "https://www.instagram.com/reel/DgPhhuIzSRP/",
+      "media_id": "18176587402458844"
     },
     {
       "id": "KGI-037",
