@@ -17652,7 +17652,7 @@
       "format": "Kitty Game Ideas carousel: slide 1 'Kitty party game: ladle uthao, news padho!' with a lady holding a ladle mic and a straight face, sample headlines, rules, the Ad break twist, the winner; comment ask 'Aapki kitty ki sabse badi breaking news kya hai?'",
       "source": "Trend: News-bulletin format lifts a theme reel (TH-2026-11-20, skip 45.2%)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-21",
@@ -17661,7 +17661,7 @@
       "format": "Kitty Game Ideas carousel: slide 1 'Kitty party game: 1 minute mein ready ho jao!' with a lady half-draped and her partner racing, what you need, the loading calls, the Network gaya twist, the winning look; comment ask 'Aapko kitty ke liye ready hone mein kitna time lagta hai?'",
       "source": "Trend: GRWM with a loading bar (buffer.com, November 2026 sounds)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-21",
@@ -17688,7 +17688,7 @@
       "format": "Sitcom with a moving chip (25-30 s, one dish per number); caption 'Vrat mein sabse pehle kya chalta hai aapka? Tag your sendha namak wali!'",
       "source": "Trend: Festival window, Utpanna Ekadashi 4 Dec (Drik Panchang) + diet-break chip pattern",
       "score": 9,
-      "used": ""
+      "used": "expired"
     },
     {
       "added": "2026-11-22",
@@ -17939,6 +17939,60 @@
       "idea": "Kitty ki subah: sit in a circle; the first lady says \"Kitty ke din subah maine liya paneer\", the next repeats it and adds one thing (\"paneer aur Housie tickets\"), and so on round the circle; whoever forgets or mixes up the order is out. Crazy twist: whenever the host shouts 'Saas ka call!' the next lady must say the whole list with 'Haan mummy ji' between every item, and the last two left play a final round in reverse order.",
       "format": "Kitty Game Ideas carousel: slide 1 'Kitty game: kitty ki subah' with a lady counting on her fingers, rules, a sample 8-item list, the Saas ka call twist, the reverse final, the winner; 8-20 ladies, nothing needed, 10-15 min; comment ask 'Kitty ke din aapki list mein sabse pehle kya hota hai?'",
       "source": "Trend: Morning brain stack (Virlo, week to 23 Nov 2026)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-27",
+      "type": "reel",
+      "idea": "Hook: doorbell, Tanya blocks her door with one palm up: \"Winter chutti shuru, par kitty mein bachche allowed nahi!\" chip 'BACHCHE: 0'. Context: one guest per ring with a real excuse (Ruhi: \"Pre-boards hain, ghar pe akela nahi chhod sakti\", Shruti: \"Nani ke ghar kal jaayega\", Myra: \"Bas kone mein phone dekhega\") and the chip climbs 1, 2, 3 as each kid slips in behind her mother. Ending: Tanya's own son walks out of her bedroom with a maths textbook shouting \"Mummy, sawaal 7 nahi aa raha!\" and the guests throw her rule back at her.",
+      "format": "Door-arrivals, 25-28 s, max 3 per shot, chip climbs every ring, host breaks her own rule; caption 'Kitty mein bachche allowed nahi, phir bhi har baar 4 aa jaate hain. Tag your Tanya!'",
+      "source": "Trend: door-arrivals winner (LEARNINGS 2026-11-23, real rule) + Exam season kitty (our reel now 1706 views) + Festival window: winter school holidays",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-27",
+      "type": "reel",
+      "idea": "Hook: Myra's husband reads her phone aloud at the dining table: \"Jaldi five, top line, bumper, hisaab clear... yeh kaunsi bhasha hai?\" and Myra, Ruhi on video call: \"Aap Housie wale nahi ho, nahi samjhoge.\" chip 'PATI SAMJHA: 0/4'. Context: each shot he guesses one kitty word wrong (bumper = car part, hisaab = income tax, host = hotel) and the chip never moves. Ending: he finally types \"Mera bhi ek ticket\" into the kitty group by mistake and 14 ladies reply 'Rs 100 advance' at once.",
+      "format": "Sitcom with a frozen chip (25-28 s), max 3 per shot (Myra, husband, Ruhi on phone screen), group-chat burst ending; caption 'Kitty ki bhasha sirf kitty wali samjhegi. Tag the friend jo jaldi five pe chillati hai!'",
+      "source": "Trend: Not nerdy enough to understand that (Siasat) + group chat scenes",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-27",
+      "type": "reel",
+      "idea": "Hook: Vivah Panchami week kitty, theme 'Ram-Sita jodi', Shruti holds up the jodi chits: \"Aaj sab jodi mein aayengi, matching saree!\" chip 'JODI: 0/3'. Context: Housie running, each called number brings in a 'jodi' that does not match (Ruhi and Myra in the same red saree but one silk, one Rs 300 sale, Tina's jodi stuck at another shaadi), slow saree reveal beat each time. Ending: the only perfect jodi is Tanya and her own kitchen maid, same yellow saree from the same shop, and the gang applauds them for 'Best Jodi'.",
+      "format": "Theme-day sitcom (25-28 s), one slow reveal shot on a romantic Hindi track mood, max 3 per shot, chip counts jodis; caption 'Aapki kitty jodi kaun hai? Tag her!'",
+      "source": "Trend: Festival window: Vivah Panchami 14 Dec (+2) + Dilruba Dilnasheen audio rising + Jodi acting game carousel gets saves",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-27",
+      "type": "game",
+      "idea": "Gathbandhan jodi race: ladies pair up and the host ties one loose knot between the dupatta ends of each pair, like a gathbandhan; tied together, each pair must do 3 small tasks with one hand each (pour a cup of water from a steel jug, cut one Housie number with a pen, fold a paper napkin into a fan) and the fastest pair wins. Crazy twist: when the host shouts 'Kharmas!' every pair must untie, swap to a new partner and start again from task one.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Vivah Panchami kitty game: gathbandhan race!' with two ladies knotted by their dupattas pouring water, what you need, the 3 tasks, rules, the Kharmas twist, safety note (loose knot, slow walk), the winning jodi; 8-20 ladies, dupattas, a jug, cups, napkins, 10-15 min; comment ask 'Aapki kitty ki sabse fast jodi kaun hai?'",
+      "source": "Trend: Festival window: Vivah Panchami 14 Dec (+2) + Jodi acting game carousel gets saves (5 saves, 2 shares)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-27",
+      "type": "game",
+      "idea": "Kitty dictionary: two teams; one lady at a time draws a kitty word chit (Jaldi five, Bumper, Hisaab, Udhaar, Late fine, Host, Full house, Potluck) and must explain it to her team in 30 seconds as if to her husband, without saying the 3 banned words printed under it; each word guessed is one point. Crazy twist: when the host rings a bell and says 'Pati ji aa gaye!' the speaker must switch to acting only, no words, until the bell rings again.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Kitty party game: pati ko samjhao!' with a lady miming a full house to a confused team, 8 sample word chits with banned words, rules, the Pati ji twist, the winning team; 8-20 ladies, chits, a bell or steel plate and spoon, 15 min; comment ask 'Aapke pati ko kaunsa kitty word samjhana sabse mushkil hai?'",
+      "source": "Trend: Not nerdy enough to understand that (Siasat)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-27",
+      "type": "game",
+      "idea": "Pehli baar ya kabhi nahi: everyone holds up 5 fingers; the host reads kitty lines one by one (\"Maine kabhi ticket udhaar nahi liya\", \"Main kabhi time pe nahi aayi\", \"Maine kabhi bazaar ka khana ghar ka bataake nahi diya\") and anyone who HAS done it folds one finger; the last lady with fingers up wins. Crazy twist: on a 'Sach ki ghanti' line the host can point at one lady and the room votes; if the room says she lied, she folds two.",
+      "format": "Kitty Game Ideas carousel: slide 1 'Kitty game: pehli baar ya kabhi nahi?' with a row of ladies holding up hands, 10 sample lines, rules, the Sach ki ghanti twist, the winner; 8-20 ladies, nothing needed, 10-15 min; comment ask 'Aapki kitty mein sabse pehle ungli kiski girti?'",
+      "source": "Trend: First in my bloodline milestones (Harper's Bazaar India)",
       "score": 8,
       "used": ""
     }
@@ -19560,6 +19614,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-27",
+      "pattern": "Festival window: Vivah Panchami 14 Dec + Champa Shashti 15 Dec + Dhanurmasam and Kharmas 16 Dec + Gita Jayanti and Vaikuntha Ekadashi 20 Dec + Datta and Annapurna Jayanti 22-23 Dec + Christmas 25 Dec + winter school holidays",
+      "source": "December 2026 Festivals State-Wise in India (HinduTone); December festivals 2026 (Drik Panchang)",
+      "likes": null,
+      "comments": null,
+      "link": "https://hindutone.com/festivals/december-2026-festivals-state-wise-india/",
+      "learn": "Drafts from today post about 7 Dec, so Vivah Panchami (7 days at posting, +2) and Christmas (18 days, +2) are the timely hooks; Kalabhairav Jayanti and Utpanna Ekadashi will be stale."
+    },
+    {
+      "date": "2026-11-27",
+      "pattern": "Jodi acting game carousel gets saves",
+      "source": "Our carousel 'Aadhi chit, poori acting, aur ek Akeli jo sabko bewakoof banayegi!' (26 Nov)",
+      "likes": 3,
+      "comments": 0,
+      "link": "https://www.instagram.com/p/DgM8K4wFARL/",
+      "learn": "5 saves and 2 shares on 268 views in a day, our best save rate on a game carousel lately: a pair (jodi) game tied to shaadi season with a 'kaunsi jodi ho?' ask gets saved; do more jodi games with a season hook."
+    },
+    {
+      "date": "2026-11-27",
+      "pattern": "Not nerdy enough to understand that",
+      "source": "'You are not nerdy enough to understand that' (Siasat)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.siasat.com/you-are-not-nerdy-enough-to-understand-that-3295740/amp",
+      "learn": "An insider reference plus 'you would not understand' makes the in-group feel seen; the kitty version is Housie and kitty slang (jaldi five, bumper, hisaab) that outsiders at home cannot decode."
+    },
+    {
+      "date": "2026-11-27",
+      "pattern": "First in my bloodline milestones",
+      "source": "What is the 'first in my bloodline' trend taking over the internet (Harper's Bazaar India)",
+      "likes": null,
+      "comments": null,
+      "link": "https://www.harpersbazaar.in/culture/story/what-is-the-first-in-my-bloodline-trend-taking-over-the-internet-1351921-2026-02-26",
+      "learn": "Proud, slightly silly 'pehli baar' claims about small real milestones land as humour and pride; the kitty version is small kitty firsts claimed loudly, with a twist that exposes one of them."
+    },
+    {
+      "date": "2026-11-27",
+      "pattern": "Dilruba Dilnasheen audio rising",
+      "source": "Trending songs and audio on Instagram this week (Virlo, 7 days to 18 Nov 2026)",
+      "likes": null,
+      "comments": null,
+      "link": "https://virlo.ai/data/trending-songs-on-instagram",
+      "learn": "A Hindi romantic track in about 40 new reels a week suits a slow saree or jodi reveal beat; use the mood (one slow reveal shot), never another creator's video."
+    },
     {
       "date": "2026-11-26",
       "pattern": "Festival window: Kalabhairav Jayanti 1 Dec + Utpanna Ekadashi 4 Dec + Class 10 pre-boards in December + Vivah Panchami 14 Dec + Dhanu Sankranti and Kharmas 16 Dec + Gita Jayanti and Mokshada Ekadashi 20 Dec + Datta Jayanti and Margashirsha Purnima 23 Dec + Christmas 25 Dec",
