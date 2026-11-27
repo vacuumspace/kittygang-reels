@@ -16016,6 +16016,168 @@
       ],
       "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-27-a-board.jpg",
       "fixed_by": "KG-2026-11-27-b"
+    },
+    {
+      "id": "KG-2026-11-27-b",
+      "created": "2026-11-27",
+      "title": "Google band, Tanya ka rasta!",
+      "format": "Map journey: Tanya in her living room guides Myra by phone with landmark directions, cut between the live map and the room, ends at the front door",
+      "hook": "",
+      "cast": [
+        "Tanya",
+        "Ruhi",
+        "Myra"
+      ],
+      "caption": "Har group mein ek Tanya hoti hai jo Google se better rasta batati hai. Bada ped, chai ki dukaan, laal gaadi... Tag your Tanya!",
+      "status": "queued",
+      "idea": "Myra is driving to her first kitty; Tanya makes her switch off Google and gives landmark directions (bada ped, Gupta ji ki chai ki dukaan, Sharma ji ki laal gaadi), every landmark has moved or closed, and Google gets her there in two minutes.",
+      "beats": "hook: Tanya bans Google, 'main batati hoon' / setup: Myra's first kitty, she obeys / esc: bada ped (every corner has one), Gupta ji ki chai (now a bank), Sharma ji ki laal gaadi (drives onto the highway) / turn: Ruhi grabs the phone, Google says 2 minute / button: Tanya flips her opening, 'Google se aati toh aur ghoomna padta!'",
+      "experiment": {
+        "type": "map-journey",
+        "hook": "Tanya in her living room on the phone, palm up like a traffic cop, Ruhi rolling her eyes beside her: 'Myra, Google band kar! Galat le jaata hai, main batati hoon.' chip MYRA KI PEHLI KITTY, clock 4:05",
+        "variable": "a map story that is not about a late friend: the auntie habit of landmark directions over the phone, in the flowing-conversation style, cut to about 98 words so it lands near 45 s",
+        "hypothesis": "skip under 37% like the two posted map reels (36.8%, 38.8%) and watched above 30% at about 45 s; a habit every viewer has suffered plus \"Tag your Tanya\" gets 2+ shares"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Myra, Google band kar! Rasta main batati hoon.",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "solo",
+          "who": "Myra",
+          "line": "Achha, band. Ab?",
+          "beat": "setup"
+        },
+        {
+          "shot": 2,
+          "kit": "solo",
+          "who": "Tanya",
+          "line": "Seedha aa, bade ped se left.",
+          "beat": "setup"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Bada ped? Yahan har mod pe ped hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "map",
+          "who": "Tanya",
+          "line": "Arre, jiske neeche kutta sota hai!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kutta bhi roz jagah badalta hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Shh! Gupta ji ki chai ki dukaan se right.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Chai ki dukaan? Yahan toh bank hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "map",
+          "who": "Ruhi",
+          "line": "Woh toh do saal pehle band hui!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Haan toh? Sharma ji ki laal gaadi ke peeche aa.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Mil gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Tanya... gaadi highway pe chadh gayi!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Bas! Google chala, abhi.",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "map",
+          "who": "Myra",
+          "line": "Google bol raha hai, do minute.",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Pahunch gayi.",
+          "beat": "button"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Dekha? Google se aati toh aur ghoomna padta!",
+          "beat": "button"
+        }
+      ],
+      "duration": 45.84,
+      "review": {
+        "clarity": 5,
+        "human": 4,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 5,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 4,
+        "character": 4,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Fix of KG-2026-11-27-a, same story, type, cast and shots. QA fail was length 60.28 s: 131 words at the new calmer voice pace ran about 0.46 s a word. Cut to 98 words (about 45 s): shorter hook (\"Rasta main batati hoon\"), Myra's \"Ab?\" and \"Mil gayi!\" as quick reactions, Ruhi's \"Do minute? Tanya ke saath ek ghanta!\" dropped because the 2 minute map already shows it and Tanya's button says the rest. Every line still answers the one before (Bada ped? / jiske neeche kutta sota hai / Kutta bhi roz jagah badalta hai / Shh!), claim before reveal kept on \"Mil gayi!\" then the highway, two punchlines only, no em dashes, no line over 10 words. Endings were tried in 27-a; Tanya flipping her own hook to take credit stays because it loops to the opening."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-27-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-27-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-27-b-board.jpg",
+      "queue_id": "48470d35-cc90-45b9-9a97-a3bb455ff06b",
+      "scheduled_ist": "2026-11-27 20:46",
+      "yt_id": "ohRetksOgxM",
+      "yt_url": "https://youtube.com/shorts/ohRetksOgxM",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
