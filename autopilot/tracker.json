@@ -20167,6 +20167,112 @@
       "yt_id": "2UcSpvuBv14",
       "yt_url": "https://youtube.com/shorts/2UcSpvuBv14",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KGI-039",
+      "n": 39,
+      "created": "2026-11-28",
+      "game": "Reaction Mat Do",
+      "tagline": "Hasi aayi? Haar gayi!",
+      "players": "8 to 20",
+      "time": "10 to 15 minutes",
+      "slug": "reaction-mat-do-poker-face-kitty-party-game",
+      "caption": "Saas ki awaaz mein \"Beta, kal 20 log aa rahe hain\" suno aur 10 second chehra seedha rakho! Pehle hasi toh out. Aapki kitty mein sabse acchi poker face kiski hai?",
+      "status": "queued",
+      "slides": 10,
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/board.jpg",
+      "image_urls": [
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s1.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s2.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s3.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s4.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s5.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s6.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s7.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s8.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s9.jpg",
+        "https://kittyparty-themes.rahul-89e.workers.dev/carousels/KGI-039/s10.jpg"
+      ],
+      "web_url": "https://www.kittyparty.club/kitty-game-ideas/reaction-mat-do-poker-face-kitty-party-game",
+      "format": "reel",
+      "rev": 1,
+      "music": "https://kittyparty-themes.rahul-89e.workers.dev/sounds/baraataayi/v2/music.m4a",
+      "experiment": {
+        "hook": "series card, then a simple step-by-step explanation played out by the gang",
+        "variable": "game type: a face-off between two seated players where the fail is a facial reaction (laugh), with the deadpan character Aditi as the winner",
+        "hypothesis": "a visible crack-up moment that everyone knows from real life gets more shares and comments than a prop grab"
+      },
+      "hook": "",
+      "duration": 61.29,
+      "script": [
+        {
+          "shot": 1,
+          "who": "Tanya",
+          "line": "Kitty Game Ideas number 39: Reaction Mat Do!"
+        },
+        {
+          "shot": 2,
+          "who": "Myra",
+          "line": "Shruti, kitty ke liye koi naya game batao na."
+        },
+        {
+          "shot": 2,
+          "who": "Shruti",
+          "line": "Reaction Mat Do khelo. Main step by step batati hun."
+        },
+        {
+          "shot": 3,
+          "who": "Shruti",
+          "line": "Chits ki katori, ek phone timer aur ek dupatta lo."
+        },
+        {
+          "shot": 4,
+          "who": "Shruti",
+          "line": "Do-do ki jodi mein aamne saamne baith jao."
+        },
+        {
+          "shot": 5,
+          "who": "Shruti",
+          "line": "Ek lady chit saas ki awaaz mein padhti hai."
+        },
+        {
+          "shot": 6,
+          "who": "Shruti",
+          "line": "Saamne wali ko das second seedha chehra rakhna hai."
+        },
+        {
+          "shot": 8,
+          "who": "Myra",
+          "line": "Halki si smile bhi nahi chalegi?"
+        },
+        {
+          "shot": 8,
+          "who": "Shruti",
+          "line": "Nahi, jo pehle hasi ya boli, woh out."
+        },
+        {
+          "shot": 9,
+          "who": "Shruti",
+          "line": "Final mein saas dupatta odhti hai, jawab sirf ji mummy ji."
+        },
+        {
+          "shot": 11,
+          "who": "Shruti",
+          "line": "Jo aakhri tak nahi hasi, wahi jeet gayi."
+        },
+        {
+          "shot": 12,
+          "who": "Myra",
+          "line": "Bahut mazedaar! Is Sunday ki kitty mein yahi khelenge."
+        }
+      ],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-039-reel-r1.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/games/KGI-039-reel-r1-cover.jpg",
+      "queue_id": "1403eddb-bd3f-43cf-8a73-8f59629e4eab",
+      "scheduled_ist": "2026-11-30 10:51",
+      "yt_id": "ykBp0b3TRFM",
+      "yt_url": "https://youtube.com/shorts/ykBp0b3TRFM",
+      "yt_privacy": "private"
     }
   ],
   "research": [
