@@ -18047,7 +18047,7 @@
       "format": "Kitty Game Ideas carousel: slide 1 'Housie with a countdown: sirf 20 number!' with a lady counting cuts on her fingers, setup, the countdown rule, the Mehmaan twist, the winner; comment ask 'Aapki kitty mein Housie kitne number tak chalti hai?'",
       "source": "Trend: Countdown inside one story (KG-2026-11-12-b, 1894 views, skip 41.2%) + Housie variant carousel leads our games (KGI-026)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-22",
@@ -18092,7 +18092,7 @@
       "format": "Carousel: rules slide, sample chits, voting slide, toffee twist slide. Paper, pens, one toffee. 8-20 ladies, 15-20 min.",
       "source": "Trend: Propaganda I'm not falling for (Social Ketchup)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-22",
@@ -18182,7 +18182,7 @@
       "format": "Sitcom vent to camera, about 25 s, battery chip falls every shot, max 3 per shot. Caption: 'Tag the friend jiske ghar hamesha kitty hoti hai!'",
       "source": "Trend: I'm tired, can you all just... CTA (Later)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-24",
@@ -18236,7 +18236,7 @@
       "format": "Sitcom with a counting chip (25-28 s), one thank you per shot, max 3 per shot, small text zoom on 'advance'; caption 'Apni kitty gang ko ek thank you, ek line mein! Tag them.'",
       "source": "Trend: Year-end gratitude montage (New Engen, November 2026)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-25",
@@ -18281,7 +18281,7 @@
       "format": "Sitcom with a stacking chip (25-28 s), one new chip per shot, dressed kitchen and front door, max 2 per shot until the ending",
       "source": "Trend: Morning brain stack (Virlo, week to 23 Nov 2026)",
       "score": 8,
-      "used": ""
+      "used": "dropped"
     },
     {
       "added": "2026-11-26",
@@ -18381,6 +18381,60 @@
       "source": "own: evergreen auntie habit (landmark directions on the phone); map-journey had the best skip of the non-door types",
       "score": 8,
       "used": "KG-2026-11-27-a"
+    },
+    {
+      "added": "2026-11-28",
+      "type": "reel",
+      "idea": "Hook: Housie running, Ruhi cuts her first number and kisses the ticket, chip 'STAGE 1/5: UMMEED'. Context: stage 2 jealousy, Myra needs one number for jaldi five; stage 3 bargaining, Ruhi whispers \"57 bolo na\" to host Shruti; stage 4 gussa, Tanya shouts Full House. Ending: stage 5, Shruti checks Tanya's ticket: \"Bogey!\", the chip flips back to 'STAGE 1/5: UMMEED' and Ruhi kisses her ticket again.",
+      "format": "stages-of (new, '5 stages of being' trend): Housie in progress, one stage per number call, STAGE chip moves every shot, under 30 s",
+      "source": "Trend: 5 stages of being... (later.com) + Types-of with one stake chip",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-28",
+      "type": "reel",
+      "idea": "Hook: Housie at Tanya's, the Diwali jhalar still on the window, Shruti points: \"Diwali ki lights abhi tak?\" and Tanya claps once: \"Nahi, yeh Christmas kitty ki hain!\" Context: on the clap, one hard cut: same jhalar, now on a small tree, the diyas hold tealights, Ruhi's Diwali red saree is suddenly 'Santa red' and the kitty pot wears a cotton beard, chip 'DIWALI SE CHRISTMAS: 1 CLAP'. Ending: Tanya's saas walks in, looks at the tree and the rangoli still at the door: \"Holi bhi isi mein kar lena\", and the gang freezes.",
+      "format": "switch transition (one hard cut on a festive beat), theme day set, 3 characters, under 30 s",
+      "source": "Trend: Switch to Christmas cut (chatfuel, socialpilot) + Festival window: Christmas 25 Dec (about 17 days at posting, +2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-28",
+      "type": "reel",
+      "idea": "Hook: last kitty of 2026, Shruti holds up a printed photo: \"Das saal pehle ki pehli kitty! Same pose, same sofa, same saree!\" chip 'MATCH: 0/4'. Context: Ruhi's 2016 saree only closes with four safety pins, Myra brings her daughter who was the baby in the photo and is now taller than her, and the old sofa is gone, so Tanya drags in the dining chairs. Ending: side-by-side split of 2016 and 2026, chip 'MATCH: 3/4', and Tanya is missing from both, because she took both photos.",
+      "format": "then-and-now photo recreation, ends on a side-by-side split, year-end, under 30 s",
+      "source": "Trend: Then and now, same pose (chatfuel) + year-end kitty (last kitty of 2026)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-28",
+      "type": "game",
+      "idea": "Jingle ticket Housie: a normal Housie round, but whenever the host shouts \"Jingle!\" (and always on number 25) every lady passes her ticket, with its cut numbers, to the lady on her left and plays on. Crazy twist: on \"Bells!\" the tickets go two places to the right, so nobody knows whose ticket will win; the prize is split between the lady holding the winning ticket and the one who bought it.",
+      "format": "carousel: Kitty Game Ideas #N, Housie variant, 8 to 20 ladies, 15 minutes, normal tickets and a pen",
+      "source": "Trend: Switch to Christmas cut + Housie variant carousel leads our games + Christmas 25 Dec (+2)",
+      "score": 9,
+      "used": ""
+    },
+    {
+      "added": "2026-11-28",
+      "type": "game",
+      "idea": "Shaadi photo, aaj ka pose: before the kitty every lady sends the host one wedding photo. The host shows one at a time, and that lady plus the lady on her left have 30 seconds to recreate the pose with dupattas, a garland of paper napkins and whatever is in the room; the room scores the match out of 5. Crazy twist: the lady on her left plays the dulha and must hold his exact serious face for 10 seconds; if she laughs, the pair loses 2 points.",
+      "format": "carousel: Kitty Game Ideas #N, pair (jodi) game, 8 to 20 ladies, 15 to 20 minutes, one phone",
+      "source": "Trend: Then and now, same pose + Jodi acting game carousel gets saves (9 shares, 7 saves on DgM8K4wFARL)",
+      "score": 8,
+      "used": ""
+    },
+    {
+      "added": "2026-11-28",
+      "type": "game",
+      "idea": "Diwali se Christmas, 60 second: split into teams of 4 or 5; each team picks a model in her Diwali-style saree or suit. On \"Switch!\" the team has 60 seconds to turn her into Santa using only handbag and room things (cotton wool beard, red dupatta, a steel bowl as a hat, bindis as ornaments). Crazy twist: the model must keep a straight face the whole minute; if she smiles, the other teams each add one thing to her look.",
+      "format": "carousel: Kitty Game Ideas #N, one-minute team makeover, 8 to 20 ladies, 10 to 15 minutes",
+      "source": "Trend: Switch to Christmas cut + First to react loses challenge + One-minute makeover game",
+      "score": 8,
+      "used": ""
     }
   ],
   "carousels": [
@@ -20116,6 +20170,51 @@
     }
   ],
   "research": [
+    {
+      "date": "2026-11-28",
+      "pattern": "Landmark directions: lowest skip we have had",
+      "source": "Our reel 'Har group mein ek Tanya hoti hai jo Google se better rasta batati hai' (KG-2026-11-27-a)",
+      "likes": 12,
+      "comments": 0,
+      "link": "https://www.instagram.com/reel/DgP-ygMgNUB/",
+      "learn": "2025 views and skip 23.9% on day one, below every door reel: an auntie habit every viewer has lived (bada ped, chai ki dukaan) hooks in 2 s, but 0 shares and 0 saves, so the next one needs a 'tag the friend who does this' stake in the last shot, not only in the caption."
+    },
+    {
+      "date": "2026-11-28",
+      "pattern": "Real member's first earning story gets saves",
+      "source": "Our reel 'Some moments remind you why you started! ... first paid collaboration with Deepa ma'am, and at 53, this is her first-ever earning!'",
+      "likes": 12,
+      "comments": 6,
+      "link": "https://www.instagram.com/reel/DgDUGmhvi1J/",
+      "learn": "1440 views, 7 saves and 3 shares (two cuts of the same story got 14 saves together): a real woman's small proud first beats our gags on saves; for the gang, a quiet 'pehli baar' win for one lady (first time host, first Housie win) can end a reel warmly."
+    },
+    {
+      "date": "2026-11-28",
+      "pattern": "Switch to Christmas cut",
+      "source": "Instagram Reels Trends This Week (November 2026, Updated Weekly), chatfuel; Instagram Reels Trends: Trending Audio This Week, socialpilot",
+      "likes": null,
+      "comments": null,
+      "link": "https://chatfuel.com/blog/instagram-reels-trends",
+      "learn": "One hard cut on a Christmas song turns an everyday room festive; the kitty version is the leftover Diwali jhalar and diyas switching into a Christmas kitty set in one clap, with the same three ladies."
+    },
+    {
+      "date": "2026-11-28",
+      "pattern": "Then and now, same pose",
+      "source": "Instagram Reels Trends This Week (November 2026), chatfuel: old and current photos of the same pose to a strong beat",
+      "likes": null,
+      "comments": null,
+      "link": "https://chatfuel.com/blog/instagram-reels-trends",
+      "learn": "Recreating an old photo pose is a year-end nostalgia beat; the kitty version is the group recreating its first kitty photo, where what changed (saree fit, the baby now taller, a new sofa) is the joke."
+    },
+    {
+      "date": "2026-11-28",
+      "pattern": "5 stages of being...",
+      "source": "Top Instagram Reels Trends to Try in 2026 (Updated Weekly), later.com: '5 stages of being...'",
+      "likes": null,
+      "comments": null,
+      "link": "https://later.com/blog/instagram-reels-trends/",
+      "learn": "A numbered stage chip (1/5 to 5/5) gives every shot a new beat and a clear end; the kitty version is the 5 stages of one Housie ticket, from hope to bogey, a moving chip like our winners."
+    },
     {
       "date": "2026-11-27",
       "pattern": "Festival window: Vivah Panchami 14 Dec + Champa Shashti 15 Dec + Dhanurmasam and Kharmas 16 Dec + Gita Jayanti and Vaikuntha Ekadashi 20 Dec + Datta and Annapurna Jayanti 22-23 Dec + Christmas 25 Dec + winter school holidays",
