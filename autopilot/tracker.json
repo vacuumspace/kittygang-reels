@@ -16228,6 +16228,169 @@
       "yt_id": "AnXIPWo1bmU",
       "yt_url": "https://youtube.com/shorts/AnXIPWo1bmU",
       "yt_privacy": "public"
+    },
+    {
+      "id": "KG-2026-11-28-a",
+      "created": "2026-11-28",
+      "title": "Pre-boards ki kitty, 4 type!",
+      "format": "Types-of: Shruti names the 4 types of mummy at a pre-board season Housie kitty, a TYPE n/4 chip that moves every shot, each type a small exchange with a reaction, and the narrator turns out to be type 4",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Shruti",
+        "Tina",
+        "Aditi"
+      ],
+      "caption": "Pre-boards aate hi har kitty mein yeh 4 mummy pakka milti hain. Aap kaunsi type ho? 1, 2, 3 ya 4? Tag your Shruti!",
+      "status": "queued",
+      "idea": "At a December Housie kitty, Shruti keeps the game going while Ruhi tracks every other kid, Tina humble-brags a 98, and Aditi is calm a day before her daughter's board paper; Shruti claims she keeps kitty and studies apart, then is caught on her calculator working out her son's board marks, and calm Aditi wins Full House.",
+      "beats": "hook: Ruhi's Sharma aunty gossip, Shruti \"number kaata?\" / esc: type 1 Ruhi knows every kid but not her own; type 2 Tina's \"padhta hi nahi\" with a 98; type 3 Aditi, paper kal, mummy kitty mein / turn: Shruti claims kitty mein sirf kitty, calculator beeps, Ruhi throws back \"number kaata?\" / button: calm Aditi wins Full House",
+      "experiment": {
+        "type": "types-of",
+        "hook": "Housie cage rolling, Ruhi leans into Shruti's ear: \"Pata hai? Sharma aunty ka beta raat do baje tak padhta hai!\", Shruti with a calculator in hand, flat: \"Ruhi, number kaata?\", chip PRE-BOARDS KI KITTY: 4 TYPE MUMMY",
+        "variable": "types-of written in the new conversation style (every type is an exchange with a reaction and a real detail, not a label line), on a December worry every mother of a teen has right now, with the narrator as type 4 and her opening line thrown back at her",
+        "hypothesis": "types-of gave our best saves (Sardi ki kitty: 5 saves, skip 30.9%); a season-of-the-week topic plus \"Aap kaunsi type ho?\" should keep skip under 35%, watched above 35% at about 40 s, and bring 5+ saves and 2+ shares as mothers tag the friend of each type"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Pata hai? Sharma aunty ka beta raat do baje tak padhta hai!",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruhi, number kaata?",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aur tumhara Kabir?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Woh... ruko, puchh ke batati hun.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Darling, mera beta toh padhta hi nahi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Haaw, sach?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Tina",
+          "line": "Haan. Mock mein bas 98 aaye.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bechara.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Aditi, tumhari beti ka bhi board hai na?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Hmm. Kal paper hai.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kal?! Aur tum yahan?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Woh padh rahi hai. Main kya karun?",
+          "beat": "escalation"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Main toh balance rakhti hun. Kitty mein sirf kitty.",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Shruti, number kaata?",
+          "beat": "turn"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruko! Mock mein 71... toh boards mein kitne?",
+          "beat": "turn"
+        },
+        {
+          "shot": 10,
+          "kit": "scene",
+          "who": "Aditi",
+          "line": "Full house.",
+          "beat": "button"
+        }
+      ],
+      "duration": 47.59,
+      "review": {
+        "clarity": 5,
+        "human": 4,
+        "hook": 4,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 5,
+        "ending": 4,
+        "tight": 4,
+        "character": 5,
+        "shareable": 5,
+        "total": 53,
+        "notes": "Type types-of: the last 4 gang reels were map-journey (27-b, 27-a), door-arrivals (26-b) and countdown (26-a), and LEARNINGS asks for types-of tied to the season every 3rd reel; it has our best saves. Lead Shruti (last reel Tanya and Myra), in 7 of 10 shots; 4 characters in all, max 3 a shot. Bank idea 2026-11-26 (pre-board mummies) adapted: Myra swapped for Tina and Aditi because Myra is 30 with no teen child, and the types now fit each character (Ruhi the gossip knows everyone's kid, Tina the show-off humble-brags, Aditi the deadpan is unbothered, Shruti the counter uses her calculator). Written to the human bar: every line answers the one before (Aur tumhara Kabir? / Woh... ruko, puchh ke batati hun; padhta hi nahi / Haaw, sach? / 98 / Bechara; Kal paper hai / Kal?! Aur tum yahan?), real details (Sharma aunty, raat do baje, mock test, 71), claim before reveal on \"Kitty mein sirf kitty\" then the calculator beep. Twist is see-it (calculator plus chip) and flips the opening line. Endings tried: Shruti cancels the next kitty for exams (flat, nobody laughs), Aditi \"Har saal yahi hota hai\" (catchphrase, explains the joke), Aditi wins Full House while the worried ones calculate (kept: short, see-it, the calm one wins). Three punchlines. About 85 words, no line over 11 words, at most one think-gap a shot, no silenceBefore, about 40 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-28-a.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-28-a-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-28-a-board.jpg",
+      "queue_id": "77246f42-5f16-4d0f-a27f-5ddda6f4d7c5",
+      "scheduled_ist": "2026-11-28 13:47",
+      "yt_id": "r-EjYG--WMk",
+      "yt_url": "https://youtube.com/shorts/r-EjYG--WMk",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
