@@ -1,0 +1,666 @@
+{
+  "id": "KG-2026-11-28-a",
+  "title": "Pre-boards ki kitty, 4 type!",
+  "format": "Types-of: Shruti names the 4 types of mummy at a pre-board season Housie kitty, a TYPE n/4 chip that moves every shot, each type a small exchange with a reaction, and the narrator turns out to be type 4",
+  "idea": "At a December Housie kitty, Shruti keeps the game going while Ruhi tracks every other kid, Tina humble-brags a 98, and Aditi is calm a day before her daughter's board paper; Shruti claims she keeps kitty and studies apart, then is caught on her calculator working out her son's board marks, and calm Aditi wins Full House.",
+  "logline": "Shruti scolds the mummies who bring their kids' pre-boards to the Housie kitty, then gets caught on her calculator working out her son's marks while the calmest mummy wins Full House.",
+  "game": "every mummy is at the kitty but her head is on her child's exam",
+  "experiment": {
+    "type": "types-of",
+    "hook": "Housie cage rolling, Ruhi leans into Shruti's ear: \"Pata hai? Sharma aunty ka beta raat do baje tak padhta hai!\", Shruti with a calculator in hand, flat: \"Ruhi, number kaata?\", chip PRE-BOARDS KI KITTY: 4 TYPE MUMMY",
+    "variable": "types-of written in the new conversation style (every type is an exchange with a reaction and a real detail, not a label line), on a December worry every mother of a teen has right now, with the narrator as type 4 and her opening line thrown back at her",
+    "hypothesis": "types-of gave our best saves (Sardi ki kitty: 5 saves, skip 30.9%); a season-of-the-week topic plus \"Aap kaunsi type ho?\" should keep skip under 35%, watched above 35% at about 40 s, and bring 5+ saves and 2+ shares as mothers tag the friend of each type"
+  },
+  "mute": [
+    "Housie running, chip PRE-BOARDS KI KITTY: 4 TYPE MUMMY: Ruhi gossips about Sharma aunty's son studying till 2 am, Shruti asks if she cut her number",
+    "chip TYPE 1: Ruhi knows every kid's timetable but has to phone to find out about her own son",
+    "chip TYPE 2: Tina says her son never studies, Ruhi is shocked",
+    "chip MOCK TEST 98%, phone pops up: Tina shows the 98, Shruti says \"Bechara\" flat",
+    "chip TYPE 3 ZERO TENSION: Aditi sips chai, her daughter's paper is tomorrow",
+    "Ruhi and Shruti stare, Aditi shrugs: she is studying, what can I do",
+    "chip TYPE 4: ?, Shruti alone and proud: kitty mein sirf kitty",
+    "calculator beep, chip PERCENTAGE NIKAALNE WALI: Ruhi throws Shruti's opening line back, \"Shruti, number kaata?\"",
+    "Shruti sweating over the calculator, working out her son's board marks from his mock",
+    "chip FULL HOUSE: ZERO TENSION WALI: Aditi, the calm one, holds up the winning ticket"
+  ],
+  "beats": "hook: Ruhi's Sharma aunty gossip, Shruti \"number kaata?\" / esc: type 1 Ruhi knows every kid but not her own; type 2 Tina's \"padhta hi nahi\" with a 98; type 3 Aditi, paper kal, mummy kitty mein / turn: Shruti claims kitty mein sirf kitty, calculator beeps, Ruhi throws back \"number kaata?\" / button: calm Aditi wins Full House",
+  "review": {
+    "clarity": 5,
+    "human": 4,
+    "hook": 4,
+    "relatable": 5,
+    "conflict": 4,
+    "escalation": 4,
+    "laughs": 4,
+    "twist": 5,
+    "ending": 4,
+    "tight": 4,
+    "character": 5,
+    "shareable": 5,
+    "total": 53,
+    "notes": "Type types-of: the last 4 gang reels were map-journey (27-b, 27-a), door-arrivals (26-b) and countdown (26-a), and LEARNINGS asks for types-of tied to the season every 3rd reel; it has our best saves. Lead Shruti (last reel Tanya and Myra), in 7 of 10 shots; 4 characters in all, max 3 a shot. Bank idea 2026-11-26 (pre-board mummies) adapted: Myra swapped for Tina and Aditi because Myra is 30 with no teen child, and the types now fit each character (Ruhi the gossip knows everyone's kid, Tina the show-off humble-brags, Aditi the deadpan is unbothered, Shruti the counter uses her calculator). Written to the human bar: every line answers the one before (Aur tumhara Kabir? / Woh... ruko, puchh ke batati hun; padhta hi nahi / Haaw, sach? / 98 / Bechara; Kal paper hai / Kal?! Aur tum yahan?), real details (Sharma aunty, raat do baje, mock test, 71), claim before reveal on \"Kitty mein sirf kitty\" then the calculator beep. Twist is see-it (calculator plus chip) and flips the opening line. Endings tried: Shruti cancels the next kitty for exams (flat, nobody laughs), Aditi \"Har saal yahi hota hai\" (catchphrase, explains the joke), Aditi wins Full House while the worried ones calculate (kept: short, see-it, the calm one wins). Three punchlines. About 85 words, no line over 11 words, at most one think-gap a shot, no silenceBefore, about 40 s."
+  },
+  "cover": {
+    "shot": 7,
+    "at": 0.6,
+    "title": [
+      "Pre-boards ki kitty:",
+      "4 type ki mummy"
+    ]
+  },
+  "caption": "Pre-boards aate hi har kitty mein yeh 4 mummy pakka milti hain. Aap kaunsi type ho? 1, 2, 3 ya 4? Tag your Shruti!",
+  "hashtags": [
+    "#kittyparty",
+    "#kittygang",
+    "#ladieskitty",
+    "#kittypartyfun",
+    "#preboards",
+    "#boardexams",
+    "#momlife",
+    "#housie"
+  ],
+  "ambience": {
+    "name": "crowd",
+    "vol": 0.08
+  },
+  "shots": [
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "PRE-BOARDS KI KITTY: 4 TYPE MUMMY",
+      "chipY": 600,
+      "camera": "push",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "talkR",
+          "turn": 0.6,
+          "eyes": "side",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 900,
+          "y": 1820,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0,
+          "name": "cage",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Pata hai? Sharma aunty ka beta raat do baje tak padhta hai!",
+          "say": "पता है? शर्मा आंटी का बेटा रात दो बजे तक पढ़ता है!",
+          "beat": "hook",
+          "gap": 0.05
+        },
+        {
+          "who": "Shruti",
+          "text": "Ruhi, number kaata?",
+          "say": "रुही, नंबर काटा?",
+          "beat": "hook"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 1: SABKE BACHCHON KI KHABAR",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "eyes": "open",
+          "mouth": "o"
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "pose": "talkL",
+          "turn": -0.5,
+          "mouth": "smirk"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Cutting chai",
+          "x": 960,
+          "y": 1830,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Aur tumhara Kabir?",
+          "say": "और तुम्हारा कबीर?",
+          "beat": "escalation",
+          "gap": 0.4
+        },
+        {
+          "who": "Ruhi",
+          "text": "Woh... ruko, puchh ke batati hun.",
+          "say": "वो... रुको, पूछ के बताती हूँ।",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 2: \"PADHTA HI NAHI\"",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "eyes": "half",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Ruhi",
+          "x": 790,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "eyes": "open",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Handbag",
+          "x": 140,
+          "y": 1840,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Darling, mera beta toh padhta hi nahi.",
+          "say": "डार्लिंग, मेरा बेटा तो पढ़ता ही नहीं।",
+          "beat": "escalation",
+          "gap": 0.05
+        },
+        {
+          "who": "Ruhi",
+          "text": "Haaw, sach?",
+          "say": "हाओ, सच?",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 2: MOCK TEST 98%",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Tina",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "hold",
+          "prop": "phone",
+          "turn": 0.5,
+          "eyes": "half",
+          "mouth": "smile"
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "pose": "relaxed",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Phone + notification",
+          "x": 560,
+          "y": 1300,
+          "s": 1.1,
+          "at": 0.3
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tina",
+          "text": "Haan. Mock mein bas 98 aaye.",
+          "say": "हाँ। मॉक में बस अट्ठानवे आए।",
+          "beat": "escalation",
+          "gap": 0.35
+        },
+        {
+          "who": "Shruti",
+          "text": "Bechara.",
+          "say": "बेचारा।",
+          "beat": "escalation",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 3: ZERO TENSION",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 300,
+          "y": 1730,
+          "s": 2,
+          "pose": "talkR",
+          "turn": 0.5,
+          "mouth": "smile"
+        },
+        {
+          "name": "Aditi",
+          "x": 790,
+          "y": 1740,
+          "s": 2.05,
+          "pose": "cup",
+          "turn": -0.5,
+          "eyes": "half",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Chai kettle",
+          "x": 960,
+          "y": 1830,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Aditi, tumhari beti ka bhi board hai na?",
+          "say": "अदिति, तुम्हारी बेटी का भी बोर्ड है ना?",
+          "beat": "escalation",
+          "gap": 0.3
+        },
+        {
+          "who": "Aditi",
+          "text": "Hmm. Kal paper hai.",
+          "say": "हम्म। कल पेपर है।",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 3: PAPER KAL, MUMMY KITTY MEIN",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 220,
+          "y": 1730,
+          "s": 1.85,
+          "pose": "talkR",
+          "turn": 0.6,
+          "eyes": "open",
+          "mouth": "o"
+        },
+        {
+          "name": "Aditi",
+          "x": 540,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "cup",
+          "turn": -0.3,
+          "eyes": "half",
+          "mouth": "flat"
+        },
+        {
+          "name": "Shruti",
+          "x": 860,
+          "y": 1740,
+          "s": 1.85,
+          "pose": "relaxed",
+          "turn": -0.6,
+          "eyes": "open",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "exclaim",
+          "x": 240,
+          "y": 880,
+          "at": 0.1,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Kal?! Aur tum yahan?",
+          "say": "कल?! और तुम यहाँ?",
+          "beat": "escalation",
+          "gap": 0.05
+        },
+        {
+          "who": "Aditi",
+          "text": "Woh padh rahi hai. Main kya karun?",
+          "say": "वो पढ़ रही है। मैं क्या करूँ?",
+          "beat": "escalation"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 4: ?",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2.15,
+          "pose": "hips",
+          "turn": 0,
+          "eyes": "open",
+          "mouth": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 860,
+          "y": 1820,
+          "s": 1
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Main toh balance rakhti hun. Kitty mein sirf kitty.",
+          "say": "मैं तो बैलेंस रखती हूँ। किटी में सिर्फ़ किटी।",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 4: PERCENTAGE NIKAALNE WALI",
+      "chipY": 600,
+      "music": false,
+      "camera": "punch",
+      "chars": [
+        {
+          "name": "Ruhi",
+          "x": 300,
+          "y": 1730,
+          "s": 2.05,
+          "pose": "talkR",
+          "turn": 0.6,
+          "eyes": "side",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Shruti",
+          "x": 790,
+          "y": 1740,
+          "s": 2,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": -0.2,
+          "eyes": "open",
+          "mouth": "flat"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "calc",
+          "vol": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ruhi",
+          "text": "Shruti, number kaata?",
+          "say": "श्रुति, नंबर काटा?",
+          "beat": "turn",
+          "punch": true
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "chip": "TYPE 4: PERCENTAGE NIKAALNE WALI",
+      "chipY": 600,
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 540,
+          "y": 1740,
+          "s": 2.15,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": 0,
+          "eyes": "open",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 860,
+          "y": 1820,
+          "s": 1
+        }
+      ],
+      "stickers": [
+        {
+          "kind": "sweat",
+          "x": 700,
+          "y": 820,
+          "at": 0.3,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "calc",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Shruti",
+          "text": "Ruko! Mock mein 71... toh boards mein kitne?",
+          "say": "रुको! मॉक में इकहत्तर... तो बोर्ड्स में कितने?",
+          "beat": "turn"
+        }
+      ]
+    },
+    {
+      "kit": "scene",
+      "set": "living",
+      "front": true,
+      "chip": "FULL HOUSE: ZERO TENSION WALI",
+      "chipY": 600,
+      "camera": "still",
+      "chars": [
+        {
+          "name": "Shruti",
+          "x": 220,
+          "y": 1730,
+          "s": 1.85,
+          "pose": "hold",
+          "prop": "calc",
+          "turn": 0.6,
+          "eyes": "open",
+          "mouth": "o"
+        },
+        {
+          "name": "Aditi",
+          "x": 540,
+          "y": 1740,
+          "s": 1.95,
+          "pose": "cup",
+          "turn": 0,
+          "eyes": "half",
+          "mouth": "smirk"
+        },
+        {
+          "name": "Ruhi",
+          "x": 860,
+          "y": 1740,
+          "s": 1.85,
+          "pose": "relaxed",
+          "turn": -0.6,
+          "eyes": "open",
+          "mouth": "o"
+        }
+      ],
+      "props": [
+        {
+          "name": "Housie cage",
+          "x": 560,
+          "y": 1800,
+          "s": 1.1
+        },
+        {
+          "name": "Housie ticket",
+          "x": 540,
+          "y": 1300,
+          "s": 1.3,
+          "at": 0.2
+        },
+        {
+          "name": "Kitty pot",
+          "x": 980,
+          "y": 1830,
+          "s": 1
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.1,
+          "name": "ballpop",
+          "vol": 0.4
+        }
+      ],
+      "lines": [
+        {
+          "who": "Aditi",
+          "text": "Full house.",
+          "say": "फ़ुल हाउस।",
+          "beat": "button",
+          "punch": true
+        }
+      ]
+    }
+  ]
+}
