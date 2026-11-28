@@ -16584,6 +16584,41 @@
         "watched_pct": 28,
         "as_of": "2026-11-28"
       }
+    },
+    {
+      "id": "TH-2026-11-29",
+      "created": "2026-11-29",
+      "title": "Ek aloo parantha, makkhan maar ke!",
+      "format": "Theme Housie",
+      "theme": "ninetiesyaadein",
+      "story": "ai",
+      "variant": "dhaba-order",
+      "hook": "",
+      "cast": [],
+      "status": "posted",
+      "idea": "Tanya plays dhaba waiter for the Sunday Housie: Megha orders makkhan 'bas thoda sa', Tina wants Dubai wali lassi, Shruti checks the achaar is free, then 27 is called and Myra, stuck making paranthas in the kitchen, wins the Aloo Parantha group.",
+      "beats": "hook: ek aloo parantha, makkhan maar ke / order 1/3: Megha's bas thoda makkhan / order 2/3: Tina's Dubai lassi / order 3/3: Shruti's free achaar / the call on the game / reveal: Aloo Parantha group is Myra's / turn: Tanya, Myra toh kitchen mein thi / button: Myra, parantha bhi mera, group bhi",
+      "experiment": {
+        "format": "dhaba-order",
+        "hook": "Tanya cupping her mouth and shouting like a dhaba waiter on the Parantha Sunday home art, heartbeat and tabla at 0 s, mascot ball spinning above, chip 'SUNDAY DHABA: ORDER LO!' pinned from the first frame, she says 'Ek aloo parantha, makkhan maar ke!'",
+        "variable": "the known voice is a shouted call-and-response from real life: the dhaba waiter relaying every order to the kitchen ('ORDER x/3' chips: Makkhan, Lassi, Achaar), so the opening line is a sound everyone has heard on a highway dhaba and each cut is one friend's order with her own quirk, at the cooking-show winner's length (about 15 s, 8 shots)",
+        "hypothesis": "the cooking show (47.6% skip, 26% watched) won on a voice known by heart plus food plus a short cut; a dhaba shout on a Sunday parantha morning keeps all three without a TV host: skip under 50% (best 45.2), watched % above 24 (best 26), at least 1 share or tag from 'jo har Sunday paranthe banati hai'"
+      },
+      "duration": 30.5,
+      "lufs": null,
+      "caption": "Sunday ka parantha kaun banata hai, ghar mein? Us saheli ko tag karo! Aaj ki 90s Ki Yaadein Housie mein milte hain.\n\nPublic Housie aaj 12:30 AM, 12 PM, 3 PM, 4 PM, 7 PM, 9 PM, 11 PM.\n\nDownload \"Kitty Party\" app from Play Store or App Store.\n\n#kittyparty #housie #tambola #kittygang #parantha #aloopparatha #sundaybreakfast #dhaba",
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-29.mp4",
+      "story_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-29-story.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/theme/TH-2026-11-29-cover.jpg",
+      "ig_type": "story",
+      "job_id": "cd4852cf-2952-4087-8ecf-1ea3f32aef2a",
+      "permalink": "https://www.instagram.com/stories/kittyparty.app/4040557572473514574",
+      "media_id": "18476135896184130",
+      "fb_status": "posted",
+      "fb_post_id": "4605732843016225",
+      "yt_id": "ILZZtMmN6oM",
+      "yt_url": "https://youtube.com/shorts/ILZZtMmN6oM",
+      "yt_privacy": "public"
     }
   ],
   "ideas": [
