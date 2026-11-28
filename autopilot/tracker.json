@@ -16391,6 +16391,169 @@
       "yt_id": "r-EjYG--WMk",
       "yt_url": "https://youtube.com/shorts/r-EjYG--WMk",
       "yt_privacy": "private"
+    },
+    {
+      "id": "KG-2026-11-28-b",
+      "created": "2026-11-28",
+      "title": "Housie ke 5 stages!",
+      "format": "Meme-format: the '5 stages of' pattern played as one Housie round at a kitty, a STAGE n/5 chip that moves every shot, Ruhi in every shot, and a bogey that sends her back to stage 1",
+      "hook": "",
+      "cast": [
+        "Ruhi",
+        "Shruti",
+        "Myra",
+        "Tanya"
+      ],
+      "caption": "Ek Housie round, paanch stages. Aap kaunse stage pe ho abhi? 1, 2, 3 ya 4? Tag your Ruhi jo samosa deke number mangti hai!",
+      "status": "queued",
+      "idea": "Ruhi goes through the 5 stages of Housie in one round: hope on her first number, jealousy at the new girl's jaldi five, a samosa bribe to the caller, anger at Tanya's Full House, and when the Full House turns out to be a bogey she is right back at hope.",
+      "beats": "hook: Ruhi's first number, 'Full House mera' / esc: stage 2 jealous of Myra's jaldi five; stage 3 samosa bribe, Shruti wants two, ball is 7; stage 4 Tanya's Full House / turn: Shruti checks, 13 not 30, bogey / button: next number, Ruhi repeats her opening line, chip back to stage 1",
+      "experiment": {
+        "type": "meme-format",
+        "hook": "Housie cage rolling, Shruti calls \"Bayaalis.\", Ruhi with her ticket and a heart pop: \"Mera hai! Aaj toh Full House mera.\", chip STAGE 1/5: UMMEED",
+        "variable": "the '5 stages of' meme pattern as the spine of one Housie round, with a stage chip that moves every shot and the shortest reel we have tried in the new conversation style (about 61 words, under 30 s)",
+        "hypothesis": "a pattern viewers already know plus a Housie game in progress (our best hook type) should keep skip under 30% and, at under 30 s, push watched above 45%; the 'Aap kaunse stage pe ho?' caption should bring 2+ shares and 3+ saves"
+      },
+      "script": [
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Bayaalis.",
+          "beat": "hook"
+        },
+        {
+          "shot": 1,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera hai! Aaj toh Full House mera.",
+          "beat": "hook"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Myra",
+          "line": "Jaldi five! Pehli kitty mein!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 2,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Waah. Bahut achha.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Shruti, paintalis bolo na. Samosa doongi.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 3,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Do.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Saat.",
+          "beat": "escalation"
+        },
+        {
+          "shot": 4,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Do samose gaye!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Full House!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 5,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Kya?! Bas ek number baaki tha!",
+          "beat": "escalation"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Ruko. Tees kab aaya?",
+          "beat": "turn"
+        },
+        {
+          "shot": 6,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Aaya tha! Maine suna.",
+          "beat": "turn"
+        },
+        {
+          "shot": 7,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Terah bola tha. Bogey!",
+          "beat": "turn"
+        },
+        {
+          "shot": 8,
+          "kit": "scene",
+          "who": "Tanya",
+          "line": "Terah, tees, ek hi baat hai!",
+          "beat": "button"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Shruti",
+          "line": "Chhattis.",
+          "beat": "button"
+        },
+        {
+          "shot": 9,
+          "kit": "scene",
+          "who": "Ruhi",
+          "line": "Mera hai! Aaj toh Full House mera.",
+          "beat": "button"
+        }
+      ],
+      "duration": 37.23,
+      "review": {
+        "clarity": 5,
+        "human": 4,
+        "hook": 5,
+        "relatable": 5,
+        "conflict": 4,
+        "escalation": 4,
+        "laughs": 4,
+        "twist": 4,
+        "ending": 5,
+        "tight": 5,
+        "character": 5,
+        "shareable": 4,
+        "total": 54,
+        "notes": "Type meme-format: the last 4 gang reels were types-of (28-a), map-journey (27-b, 27-a) and door-arrivals (26-b). Bank idea 'stages-of' (score 8) fits it and opens on a Housie game in progress, the hook that worked best. Lead Ruhi (last reel Shruti, before that Tanya), in 7 of 9 shots; 4 characters in all, max 3 a shot. Each character does what only she would: Ruhi wants it too much, Myra the new girl wins early, Shruti the budget queen counters a bribe with 'Do.', Tanya claims loudly. Every line reacts to the one before (Jaldi five! Pehli kitty mein! / Waah. Bahut achha; Samosa doongi / Do.; Tees kab aaya? / Aaya tha! Maine suna). Real details: bayaalis, the 13 vs 30 mix-up every Housie table has, a samosa bribe, a bogey. Twist is see-it (ticket check, BOGEY chip). Endings tried: Ruhi wins Full House on 45 (too neat, nobody laughs), Myra wins Full House too (repeats the jealousy beat), the bogey and Ruhi's opening line said again with the chip back at stage 1 (kept: loops to the start, matches the meme). Three punchlines. 61 words, no line over 7 words, every shot 8 words or fewer, no silenceBefore, about 28 s."
+      },
+      "qa": [],
+      "video_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-28-b.mp4",
+      "cover_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-28-b-cover.jpg",
+      "board_url": "https://kittyparty-themes.rahul-89e.workers.dev/reels/autopilot/KG-2026-11-28-b-board.jpg",
+      "queue_id": "2abb4c07-f794-461f-a261-f1696712c352",
+      "scheduled_ist": "2026-11-28 19:22",
+      "yt_id": "VVAm7CTIVac",
+      "yt_url": "https://youtube.com/shorts/VVAm7CTIVac",
+      "yt_privacy": "private"
     }
   ],
   "ideas": [
