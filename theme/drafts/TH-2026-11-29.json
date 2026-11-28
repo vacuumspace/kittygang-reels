@@ -1,0 +1,147 @@
+{
+ "title": "Ek aloo parantha, makkhan maar ke!",
+ "format": "Kitty Gang dhaba order on the Parantha Sunday game: Tanya shouts the gang's orders to the kitchen like a dhaba waiter, each order is a prize group, and Myra, stuck on the tawa, wins Aloo Parantha",
+ "experiment": {
+  "format": "dhaba-order",
+  "hook": "Tanya cupping her mouth and shouting like a dhaba waiter on the Parantha Sunday home art, heartbeat and tabla at 0 s, mascot ball spinning above, chip 'SUNDAY DHABA: ORDER LO!' pinned from the first frame, she says 'Ek aloo parantha, makkhan maar ke!'",
+  "variable": "the known voice is a shouted call-and-response from real life: the dhaba waiter relaying every order to the kitchen ('ORDER x/3' chips: Makkhan, Lassi, Achaar), so the opening line is a sound everyone has heard on a highway dhaba and each cut is one friend's order with her own quirk, at the cooking-show winner's length (about 15 s, 8 shots)",
+  "hypothesis": "the cooking show (47.6% skip, 26% watched) won on a voice known by heart plus food plus a short cut; a dhaba shout on a Sunday parantha morning keeps all three without a TV host: skip under 50% (best 45.2), watched % above 24 (best 26), at least 1 share or tag from 'jo har Sunday paranthe banati hai'"
+ },
+ "idea": "Tanya plays dhaba waiter for the Sunday Housie: Megha orders makkhan 'bas thoda sa', Tina wants Dubai wali lassi, Shruti checks the achaar is free, then 27 is called and Myra, stuck making paranthas in the kitchen, wins the Aloo Parantha group.",
+ "beats": "hook: ek aloo parantha, makkhan maar ke / order 1/3: Megha's bas thoda makkhan / order 2/3: Tina's Dubai lassi / order 3/3: Shruti's free achaar / the call on the game / reveal: Aloo Parantha group is Myra's / turn: Tanya, Myra toh kitchen mein thi / button: Myra, parantha bhi mera, group bhi",
+ "logline": "Tanya shouts dhaba orders during the Parantha Sunday Housie, and the friend stuck on the tawa wins the Aloo Parantha group.",
+ "game": "every friend orders with her own quirk and the one cooking for everyone takes the prize",
+ "caption": "Sunday ka parantha kaun banata hai, ghar mein? Us saheli ko tag karo! Aaj ki {theme} Housie mein milte hain.",
+ "hashtags": ["#kittyparty", "#housie", "#tambola", "#kittygang", "#parantha", "#aloopparatha", "#sundaybreakfast", "#dhaba"],
+ "ambience": { "name": "crowd", "vol": 0.08 },
+ "pace": 24,
+ "shots": [
+  {
+   "kit": "thome",
+   "chip": "SUNDAY DHABA: ORDER LO!",
+   "chipY": 1560,
+   "camera": "punch",
+   "ball": { "n": 27, "x": 540, "y": 700, "size": 380, "revealAt": 99 },
+   "chars": [
+    { "name": "Tanya", "x": 540, "y": 1780, "s": 2.2, "pose": "talkR", "eyes": "laugh", "mouth": "laugh", "hop": true }
+   ],
+   "lines": [
+    { "who": "Tanya", "text": "Ek aloo parantha, makkhan maar ke!", "say": "एक आलू पराठा, मक्खन मार के!", "beat": "hook" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "heartbeat", "vol": 0.7 },
+    { "at": 0.1, "name": "tabla", "vol": 0.4 },
+    { "at": 0.8, "name": "heartbeat", "vol": 0.8 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "ORDER 1/3: MAKKHAN",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Megha", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "bottle", "eyes": "side", "mouth": "smirk", "hop": true }
+   ],
+   "lines": [
+    { "who": "Megha", "text": "Makkhan bas thoda sa. Double!", "say": "मक्खन बस थोड़ा सा। डबल!", "punch": true, "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.1, "name": "whoosh", "vol": 0.4 },
+    { "at": 1.2, "name": "boing", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "ORDER 2/3: LASSI",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Tina", "x": 540, "y": 1780, "s": 2.2, "pose": "hips", "eyes": "half", "mouth": "smirk" }
+   ],
+   "lines": [
+    { "who": "Tina", "text": "Lassi Dubai wali milegi, darling?", "say": "लस्सी दुबई वाली मिलेगी, डार्लिंग?", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.2, "name": "sparkle", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": 0.6,
+   "chip": "ORDER 3/3: ACHAAR",
+   "chipY": 1560,
+   "camera": "push",
+   "chars": [
+    { "name": "Shruti", "x": 540, "y": 1780, "s": 2.2, "pose": "hold", "prop": "calc", "eyes": "half", "mouth": "flat" }
+   ],
+   "lines": [
+    { "who": "Shruti", "text": "Achaar free hai na? Likh lo.", "say": "अचार फ्री है ना? लिख लो।", "beat": "escalation" }
+   ],
+   "sfx": [
+    { "at": 0.3, "name": "calc", "vol": 0.4 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ball",
+   "call": 27,
+   "dab": true,
+   "dur": 1.4,
+   "music": false,
+   "chip": "ALOO PARANTHA: 1 NUMBER BAAKI",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.0, "name": "cage", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "tgame",
+   "view": "ticket",
+   "marked": 5,
+   "dab": true,
+   "reacts": true,
+   "dur": 1.4,
+   "chip": "ALOO PARANTHA: MYRA!",
+   "chipY": 600,
+   "sfx": [
+    { "at": 0.1, "name": "ding", "vol": 0.5 },
+    { "at": 0.8, "name": "waah", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "chip": "ORDER: SABKA | INAAM: MYRA",
+   "chipY": 1560,
+   "camera": "punch",
+   "chars": [
+    { "name": "Tanya", "x": 540, "y": 1780, "s": 2.3, "pose": "hips", "eyes": "open", "mouth": "o" }
+   ],
+   "stickers": [
+    { "kind": "exclaim", "x": 760, "y": 980, "at": 0.3, "s": 1 }
+   ],
+   "lines": [
+    { "who": "Tanya", "text": "Ruko! Myra toh kitchen mein thi!", "say": "रुको! मायरा तो किचन में थी!", "beat": "turn" }
+   ],
+   "sfx": [
+    { "at": 0.0, "name": "scratch", "vol": 0.5 },
+    { "at": 0.6, "name": "haww", "vol": 0.5 }
+   ]
+  },
+  {
+   "kit": "thome",
+   "burst": true,
+   "chip": "ALOO PARANTHA: MYRA",
+   "chipY": 1560,
+   "camera": "still",
+   "chars": [
+    { "name": "Tanya", "x": 360, "y": 1780, "s": 2.0, "pose": "hips", "eyes": "open", "mouth": "o", "turn": 0.5 },
+    { "name": "Myra", "x": 760, "y": 1780, "s": 2.2, "pose": "phone2", "eyes": "laugh", "mouth": "laugh", "turn": -0.5, "hop": true }
+   ],
+   "lines": [
+    { "who": "Myra", "text": "Parantha bhi mera, group bhi!", "say": "पराठा भी मेरा, ग्रुप भी!", "punch": true, "silenceBefore": true, "beat": "button" }
+   ]
+  }
+ ]
+}
