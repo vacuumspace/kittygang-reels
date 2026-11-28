@@ -1,0 +1,1718 @@
+{
+  "id": "KGI-039",
+  "n": 39,
+  "slug": "reaction-mat-do-poker-face-kitty-party-game",
+  "game": "Reaction Mat Do",
+  "tagline": "Hasi aayi? Haar gayi!",
+  "candidates": [
+    {
+      "game": "Reaction Mat Do (from the bank: first to react loses)",
+      "scores": {
+        "payoff": 5,
+        "laugh": 5,
+        "easy": 5,
+        "fresh": 4,
+        "fits": 5
+      },
+      "total": 24,
+      "note": "the crack-up is the funny moment and it is right on the face; chits and a bowl only. Swapped the money hisaab twist for a safe Mummy ji round"
+    },
+    {
+      "game": "Gathbandhan Jodi Race",
+      "scores": {
+        "payoff": 4,
+        "laugh": 4,
+        "easy": 4,
+        "fresh": 4,
+        "fits": 4
+      },
+      "total": 20,
+      "note": "good for Vivah Panchami later in December; more setup (jug, water, napkins)"
+    },
+    {
+      "game": "Aankh Band, Taali Bajao",
+      "scores": {
+        "payoff": 4,
+        "laugh": 4,
+        "easy": 5,
+        "fresh": 3,
+        "fits": 4
+      },
+      "total": 20,
+      "note": "blindfold action song is close to many creator posts"
+    },
+    {
+      "game": "Pehli Baar Ya Kabhi Nahi",
+      "scores": {
+        "payoff": 3,
+        "laugh": 4,
+        "easy": 5,
+        "fresh": 3,
+        "fits": 5
+      },
+      "total": 20,
+      "note": "great talk, but folding fingers is weak to watch"
+    },
+    {
+      "game": "Baraf Ka Sikka",
+      "scores": {
+        "payoff": 3,
+        "laugh": 3,
+        "easy": 3,
+        "fresh": 4,
+        "fits": 3
+      },
+      "total": 16,
+      "note": "dropped: needs freezing the night before and melting is slow on video"
+    }
+  ],
+  "cover_art": [
+    {
+      "k": "text",
+      "x": 0,
+      "y": 0,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "text",
+      "x": 1080,
+      "y": 360,
+      "text": " ",
+      "size": 20
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M40 350 L1040 350\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(260 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(260 350) scale(0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 260,
+      "y": 219.95000000000002,
+      "s": 0.85,
+      "color": "pink"
+    },
+    {
+      "k": "svg",
+      "markup": "<circle cx=\"250.65\" cy=\"191.05\" r=\"3.4\" fill=\"#2B1B2E\"/><circle cx=\"269.35\" cy=\"191.05\" r=\"3.4\" fill=\"#2B1B2E\"/><path d=\"M250.65 203.8 Q260 213.15000000000003 269.35 203.8\" stroke=\"#2B1B2E\" stroke-width=\"3.4\" fill=\"none\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "chit",
+      "x": 345,
+      "y": 220,
+      "s": 0.6,
+      "rot": -10
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(560 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(560 350) scale(-0.85 0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 560,
+      "y": 219.95000000000002,
+      "s": 0.85,
+      "color": "yel"
+    },
+    {
+      "k": "svg",
+      "markup": "<circle cx=\"550.65\" cy=\"191.05\" r=\"3.4\" fill=\"#2B1B2E\"/><circle cx=\"569.35\" cy=\"191.05\" r=\"3.4\" fill=\"#2B1B2E\"/><path d=\"M551.5 206.35000000000002 L568.5 206.35000000000002\" stroke=\"#2B1B2E\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "k": "svg",
+      "markup": "<rect x=\"130\" y=\"0\" width=\"340\" height=\"80\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"300\" y=\"52\" font-size=\"32\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">\"Beta, 20 log!\"</text>"
+    },
+    {
+      "k": "timer",
+      "x": 760,
+      "y": 220,
+      "s": 0.7,
+      "text": "0:10"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(940 350) scale(0.85)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+    },
+    {
+      "k": "svg",
+      "markup": "<g transform=\"translate(940 350) scale(-0.85 0.85)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+    },
+    {
+      "k": "person",
+      "x": 940,
+      "y": 219.95000000000002,
+      "s": 0.85,
+      "color": "green"
+    },
+    {
+      "k": "svg",
+      "markup": "<path d=\"M927.25 191.05 Q930.65 185.10000000000002 934.05 191.05 M945.95 191.05 Q949.35 185.10000000000002 952.75 191.05\" stroke=\"#2B1B2E\" stroke-width=\"3.4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M928.95 202.10000000000002 L951.05 202.10000000000002 Q950.2 216.55 940 216.55 Q929.8 216.55 928.95 202.10000000000002 Z\" fill=\"#9E1030\" stroke=\"#2B1B2E\" stroke-width=\"2.55\"/>"
+    },
+    {
+      "k": "cross",
+      "x": 1040,
+      "y": 110,
+      "s": 0.7
+    }
+  ],
+  "need": {
+    "kicker": "Kya chahiye",
+    "title": "Bas yeh 5 cheezein",
+    "body": "Chits pe saas aur pati ki lines likho.",
+    "items": [
+      {
+        "label": "Chit wali katori",
+        "sub": "20 se 30 chits",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "bowl",
+            "x": 150,
+            "y": 150,
+            "s": 0.95,
+            "color": "yel"
+          },
+          {
+            "k": "chit",
+            "x": 110,
+            "y": 96,
+            "s": 0.5,
+            "rot": -18
+          },
+          {
+            "k": "chit",
+            "x": 185,
+            "y": 90,
+            "s": 0.5,
+            "rot": 14
+          },
+          {
+            "k": "chit",
+            "x": 150,
+            "y": 80,
+            "s": 0.5,
+            "rot": -2
+          }
+        ]
+      },
+      {
+        "label": "Saas ki line",
+        "sub": "har chit pe ek",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(150 112) rotate(-4)\"><rect x=\"-130\" y=\"-78\" width=\"260\" height=\"156\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"0\" y=\"-26\" font-size=\"26\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#7A4B6B\" font-family=\"sans-serif\">SAAS:</text><text x=\"0\" y=\"12\" font-size=\"28\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">\"Beta, kal 20 log</text><text x=\"0\" y=\"48\" font-size=\"28\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">khane pe aa rahe!\"</text></g>"
+          }
+        ]
+      },
+      {
+        "label": "Phone timer",
+        "sub": "10 second",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "timer",
+            "x": 150,
+            "y": 112,
+            "s": 0.78,
+            "text": "0:10"
+          }
+        ]
+      },
+      {
+        "label": "Ek dupatta",
+        "sub": "final ke liye",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<path d=\"M40 60 Q150 10 260 60 L250 190 Q150 150 50 190 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M55 180 Q150 142 245 180\" stroke=\"#F7C948\" stroke-width=\"10\" fill=\"none\"/><circle cx=\"110\" cy=\"100\" r=\"7\" fill=\"#F7C948\"/><circle cx=\"150\" cy=\"90\" r=\"7\" fill=\"#F7C948\"/><circle cx=\"190\" cy=\"100\" r=\"7\" fill=\"#F7C948\"/><circle cx=\"130\" cy=\"130\" r=\"7\" fill=\"#F7C948\"/><circle cx=\"170\" cy=\"130\" r=\"7\" fill=\"#F7C948\"/>"
+          }
+        ]
+      },
+      {
+        "label": "Do kursi",
+        "sub": "aamne saamne",
+        "draw": [
+          {
+            "k": "text",
+            "x": 0,
+            "y": 0,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "text",
+            "x": 300,
+            "y": 220,
+            "text": " ",
+            "size": 20
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(90 215) scale(0.68)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+          },
+          {
+            "k": "svg",
+            "markup": "<g transform=\"translate(215 215) scale(0.68)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+          }
+        ]
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Jodi banao, aamne saamne",
+      "body": "Do kursi aamne saamne. Ek padhegi, ek sunegi.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(300 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(300 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 300,
+          "y": 487,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"289\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"311\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M289 468 Q300 479 311 468\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(660 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(660 640) scale(-1 1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 660,
+          "y": 487,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"649\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"671\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M650 471 L670 471\" stroke=\"#2B1B2E\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "text",
+          "x": 300,
+          "y": 120,
+          "text": "Padhegi",
+          "size": 46,
+          "color": "pink"
+        },
+        {
+          "k": "text",
+          "x": 660,
+          "y": 120,
+          "text": "Sunegi",
+          "size": 46,
+          "color": "green"
+        },
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 300,
+          "x2": 560,
+          "y2": 300,
+          "color": "pink",
+          "w": 8
+        },
+        {
+          "k": "arrow",
+          "x1": 560,
+          "y1": 340,
+          "x2": 400,
+          "y2": 340,
+          "color": "green",
+          "w": 8
+        }
+      ]
+    },
+    {
+      "title": "Chit nikaalo, saas ki awaaz",
+      "body": "Padhne wali chit nikaale aur saas ya pati ki awaaz mein padhe.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(250 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(250 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 250,
+          "y": 487,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"239\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"261\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M239 468 Q250 479 261 468\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "chit",
+          "x": 345,
+          "y": 420,
+          "s": 0.6,
+          "rot": -8
+        },
+        {
+          "k": "bowl",
+          "x": 480,
+          "y": 590,
+          "s": 0.55,
+          "color": "yel"
+        },
+        {
+          "k": "chit",
+          "x": 470,
+          "y": 555,
+          "s": 0.35,
+          "rot": -14
+        },
+        {
+          "k": "chit",
+          "x": 500,
+          "y": 552,
+          "s": 0.35,
+          "rot": 12
+        },
+        {
+          "k": "arrow",
+          "x1": 440,
+          "y1": 540,
+          "x2": 370,
+          "y2": 460,
+          "color": "pink",
+          "w": 7
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(720 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(720 640) scale(-1 1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 720,
+          "y": 487,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"709\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"731\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M710 471 L730 471\" stroke=\"#2B1B2E\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"70\" y=\"60\" width=\"520\" height=\"80\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"330\" y=\"112\" font-size=\"34\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">\"Beta, kal 20 log aa rahe!\"</text>"
+        }
+      ]
+    },
+    {
+      "title": "10 second, chehra seedha",
+      "body": "Sunne wali na hase, na bole. Host 10 second ka timer chalaaye.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 487,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"249\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"271\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M249 468 Q260 479 271 468\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(640 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(640 640) scale(-1 1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 640,
+          "y": 487,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"629\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"651\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M630 471 L650 471\" stroke=\"#2B1B2E\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "timer",
+          "x": 860,
+          "y": 300,
+          "s": 0.95,
+          "text": "0:10"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 100,
+          "text": "Na hasi, na boli",
+          "size": 44,
+          "color": "green"
+        },
+        {
+          "k": "tick",
+          "x": 640,
+          "y": 160,
+          "s": 0.8
+        }
+      ]
+    },
+    {
+      "title": "Hasi aayi? Tum out!",
+      "body": "Jo pehle hasi ya boli, woh out. Jeetne wali nayi jodi banaye.",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 487,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"249\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"271\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M249 468 Q260 479 271 468\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(640 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(640 640) scale(-1 1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 640,
+          "y": 487,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M625 453 Q629 446 633 453 M647 453 Q651 446 655 453\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M627 466 L653 466 Q652 483 640 483 Q628 483 627 466 Z\" fill=\"#9E1030\" stroke=\"#2B1B2E\" stroke-width=\"3\"/>"
+        },
+        {
+          "k": "text",
+          "x": 640,
+          "y": 150,
+          "text": "Ha ha!",
+          "size": 52,
+          "color": "pink"
+        },
+        {
+          "k": "cross",
+          "x": 830,
+          "y": 260,
+          "s": 1.1
+        },
+        {
+          "k": "text",
+          "x": 830,
+          "y": 390,
+          "text": "OUT",
+          "size": 56,
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "title": "Final: Mummy ji round",
+      "body": "Padhne wali dupatta odhe. Sunne wali har line pe bole \"Ji mummy ji.\"",
+      "draw": [
+        {
+          "k": "text",
+          "x": 0,
+          "y": 0,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 700,
+          "text": " ",
+          "size": 20
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M40 640 L920 640\" stroke=\"#E6D3DC\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(260 640) scale(1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 260,
+          "y": 487,
+          "s": 1,
+          "color": "pink"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"249\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"271\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M249 468 Q260 479 271 468\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<path d=\"M220 447 Q260 387 300 447 L312 547 L294 547 L290 457 Q260 417 230 457 L226 547 L208 547 Z\" fill=\"#E85D8A\" stroke=\"#2B1B2E\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M216 537 L222 545 M298 545 L304 537\" stroke=\"#F7C948\" stroke-width=\"5\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"249\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"271\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M249 468 Q260 479 271 468\" stroke=\"#2B1B2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(660 640) scale(1)\"><rect x=\"-58\" y=\"-290\" width=\"116\" height=\"180\" rx=\"14\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><rect x=\"-70\" y=\"-120\" width=\"150\" height=\"22\" rx=\"8\" fill=\"#C98B5A\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><path d=\"M-58 -98 L-58 0 M68 -98 L68 0\" stroke=\"#2B1B2E\" stroke-width=\"8\" stroke-linecap=\"round\"/></g>"
+        },
+        {
+          "k": "svg",
+          "markup": "<g transform=\"translate(660 640) scale(-1 1)\"><path d=\"M-20 -110 L50 -110 L50 0 M14 -110 L84 -110 L84 0\" stroke=\"#7A4B6B\" stroke-width=\"24\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g>"
+        },
+        {
+          "k": "person",
+          "x": 660,
+          "y": 487,
+          "s": 1,
+          "color": "yel"
+        },
+        {
+          "k": "svg",
+          "markup": "<circle cx=\"649\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><circle cx=\"671\" cy=\"453\" r=\"4\" fill=\"#2B1B2E\"/><path d=\"M650 471 L670 471\" stroke=\"#2B1B2E\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"90\" y=\"100\" width=\"360\" height=\"80\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"270\" y=\"152\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">\"Bahu, chai?\"</text>"
+        },
+        {
+          "k": "svg",
+          "markup": "<rect x=\"500\" y=\"100\" width=\"360\" height=\"80\" rx=\"24\" fill=\"#FFFFFF\" stroke=\"#2B1B2E\" stroke-width=\"5\"/><text x=\"680\" y=\"152\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#2B1B2E\" font-family=\"sans-serif\">\"Ji mummy ji.\"</text>"
+        },
+        {
+          "k": "tick",
+          "x": 860,
+          "y": 330,
+          "s": 0.9
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "title": "Aakhri poker face jeetegi",
+    "items": [
+      {
+        "ok": false,
+        "text": [
+          "Halki si smile,",
+          "hasi ya awaaz? Out."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Padhne wali ne chit",
+          "chhod ke joke maara? Line cancel."
+        ]
+      },
+      {
+        "ok": false,
+        "text": [
+          "Muh chhupaya ya",
+          "aankh band ki? Out."
+        ]
+      },
+      {
+        "ok": true,
+        "text": [
+          "10 second seedha chehra?",
+          "Tum agle round mein!"
+        ]
+      }
+    ]
+  },
+  "levels": {
+    "title": "Aur mazedaar banao",
+    "items": [
+      [
+        "Pati round: chit pe pati",
+        "ki lines, \"Khana kya bana hai?\""
+      ],
+      [
+        "Do readers ek saath, ek",
+        "saas aur ek nanad ban ke."
+      ],
+      [
+        "Final mein 20 second, aur",
+        "baaki sab chup chaap dekhenge."
+      ]
+    ],
+    "tip": "Chits pehle se ghar ki sachi lines se likho, hasi zaroor aayegi!"
+  },
+  "comment_hint": "poker face kaun?",
+  "caption": "Saas ki awaaz mein \"Beta, kal 20 log aa rahe hain\" suno aur 10 second chehra seedha rakho! Pehle hasi toh out. Aapki kitty mein sabse acchi poker face kiski hai?",
+  "hashtags": [
+    "#kittyparty",
+    "#kittypartygames",
+    "#kittypartyideas",
+    "#ladieskitty",
+    "#partygames",
+    "#pokerface",
+    "#saasbahu",
+    "#oneminutegames"
+  ],
+  "web": {
+    "title": "Reaction Mat Do: Poker Face Kitty Party Game Rules and Twists",
+    "description": "Reaction Mat Do is a poker face kitty party game: hear a saas line, keep a straight face for 10 seconds, first to laugh is out. Rules, chit ideas and FAQ.",
+    "intro": "Reaction Mat Do is a poker face game for a kitty party where two ladies sit face to face, one reads a funny saas or husband line from a chit, and the other must keep a dead straight face for 10 seconds. The first one to smile, laugh or speak is out, the winners pair up again, and the last poker face left wins. It needs only paper chits, a bowl, a phone timer and a dupatta for the final \"Mummy ji round\", where the reader plays the saas and the listener must answer every line with \"Ji mummy ji\" without cracking up.",
+    "players": "8 to 20",
+    "time": "10 to 15 minutes",
+    "materials": [
+      "20 to 30 paper chits, each with one funny saas or husband line",
+      "A katori or bowl to hold the folded chits",
+      "A phone with a timer",
+      "One dupatta for the final round",
+      "Two chairs placed face to face",
+      "A small prize for the winner"
+    ],
+    "steps": [
+      "Before the kitty, write one funny line on each chit in a saas or husband voice, like \"Beta, kal 20 log khane pe aa rahe hain\" or \"Maine tumhare phone ka password badal diya\", fold them and put them in the bowl.",
+      "Pair the ladies up. Each pair sits on two chairs facing each other, knees almost touching, while the rest of the group watches.",
+      "One lady of the pair is the reader. She picks a chit from the bowl and reads it aloud in a saas or husband voice, as dramatically as she likes.",
+      "The other lady is the listener. The host starts a 10 second timer, and the listener must keep a straight face the whole time: no smile, no laugh, no words.",
+      "If the listener cracks, she is out. If she lasts 10 seconds, the two swap roles and the reader now has to survive a new chit. The first to react loses the pair.",
+      "Winners of each pair form new pairs and play again until only two ladies are left.",
+      "In the final Mummy ji round, the reader covers her head with the dupatta like a saas and reads three chits in a row. After every line the listener must say \"Ji mummy ji\" with a straight face. Then they swap. The last lady who never laughed is the poker face queen."
+    ],
+    "rules": [
+      "A smile, a laugh, a snort or any word other than \"Ji mummy ji\" in the final counts as a reaction and means you are out.",
+      "Covering your face, closing your eyes or looking away is also out.",
+      "The reader must read the chit as written; she may act it out but must not add her own jokes.",
+      "The host or two judges decide close calls, and their decision is final.",
+      "Each listener gets a new chit, so nobody hears the same line twice."
+    ],
+    "variations": [
+      "Pati round: use only husband lines like \"Khana kya bana hai?\" or \"Mummy aa rahi hain ek mahine ke liye\".",
+      "Saas and nanad: two readers read together, one as the saas and one as the nanad, to make it harder.",
+      "Longer final: make the final timer 20 seconds while the rest of the room stays completely silent.",
+      "Team version: split into two teams and send one listener at a time; each survivor earns her team a point."
+    ],
+    "tips": [
+      "Write lines everyone in the group knows from real life; familiar lines get the biggest laughs.",
+      "Keep lines kind and funny, never about a real person in the room, money owed, bodies or religion.",
+      "Seat the pair where everyone can see both faces, and let the room cheer but not talk to the listener.",
+      "Film the final on a phone; the moment someone cracks makes a great kitty memory.",
+      "Keep 5 extra chits for the final so the lines are fresh."
+    ],
+    "faq": [
+      {
+        "q": "How many players do you need for Reaction Mat Do?",
+        "a": "It works for 8 to 20 ladies. Everyone plays in pairs, so with an odd number the host can be the reader for the extra lady."
+      },
+      {
+        "q": "What do you need to play the poker face game at a kitty party?",
+        "a": "Paper chits with funny saas or husband lines, a bowl, a phone timer, two chairs and one dupatta for the final round."
+      },
+      {
+        "q": "What lines should I write on the chits?",
+        "a": "Short everyday lines in a saas or husband voice, like \"Beta, kal 20 log khane pe aa rahe hain\" or \"Aaj kitty cancel kar do na\". Keep them kind and familiar."
+      },
+      {
+        "q": "How long does Reaction Mat Do take?",
+        "a": "About 10 to 15 minutes for 12 ladies, since each face-off lasts only 10 to 20 seconds."
+      },
+      {
+        "q": "Is Reaction Mat Do good for older ladies or a seated kitty?",
+        "a": "Yes. Everyone stays seated, there is no running or cooking, and it needs no special skill, so ladies of every age can play and win."
+      }
+    ]
+  },
+  "reel": {
+    "rev": 1,
+    "title": "Reaction Mat Do",
+    "gameSay": "रिएक्शन मत दो",
+    "logline": "Shruti explains Reaction Mat Do step by step while the gang plays it: one lady reads a saas line from a chit, the other must keep a straight face for 10 seconds, first to laugh is out, and the final is the Mummy ji round.",
+    "experiment": {
+      "hook": "series card, then a simple step-by-step explanation played out by the gang",
+      "variable": "game type: a face-off between two seated players where the fail is a facial reaction (laugh), with the deadpan character Aditi as the winner",
+      "hypothesis": "a visible crack-up moment that everyone knows from real life gets more shares and comments than a prop grab"
+    },
+    "shots": [
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chars": [
+          {
+            "name": "Myra",
+            "x": 290,
+            "y": 1760,
+            "s": 2.1,
+            "turn": 0.5,
+            "pose": "relaxed"
+          },
+          {
+            "name": "Shruti",
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
+            "turn": -0.5,
+            "pose": "talkL"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Myra",
+            "text": "Shruti, kitty ke liye koi naya game batao na.",
+            "say": "श्रुति, किटी के लिए कोई नया गेम बताओ ना।"
+          },
+          {
+            "who": "Shruti",
+            "text": "Reaction Mat Do khelo. Main step by step batati hun.",
+            "say": "रिएक्शन मत दो खेलो। में स्टेप बाय स्टेप बताती हूँ।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "KYA CHAHIYE",
+          "text": "Chit katori, timer, dupatta"
+        },
+        "chars": [
+          {
+            "name": "Shruti",
+            "x": 200,
+            "y": 1760,
+            "s": 2,
+            "turn": 0.5,
+            "pose": "present"
+          }
+        ],
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              420,
+              1330,
+              300,
+              220
+            ],
+            "at": 0.4
+          },
+          {
+            "need": 2,
+            "box": [
+              560,
+              1080,
+              220,
+              170
+            ],
+            "at": 0.9
+          },
+          {
+            "need": 3,
+            "box": [
+              370,
+              1100,
+              220,
+              170
+            ],
+            "at": 1.4,
+            "ring": {
+              "at": 1.8
+            }
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.65,
+            "name": "thud",
+            "vol": 0.4
+          },
+          {
+            "at": 1.15,
+            "name": "pop",
+            "vol": 0.4
+          },
+          {
+            "at": 1.65,
+            "name": "pop",
+            "vol": 0.4
+          },
+          {
+            "at": 1.8,
+            "name": "chimes",
+            "vol": 0.5
+          }
+        ],
+        "hold": 0.6,
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Chits ki katori, ek phone timer aur ek dupatta lo.",
+            "say": "चिट्स की कटोरी, एक फ़ोन टाइमर और एक दुपट्टा लो।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 1",
+          "text": "Do-do ki jodi, aamne saamne"
+        },
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "relaxed",
+            "mouth": "smirk",
+            "from": [
+              -220,
+              1760
+            ],
+            "moveDur": 1,
+            "sitAt": 1.2,
+            "poseAt": {
+              "at": 1.2,
+              "pose": "hold"
+            }
+          },
+          {
+            "name": "Megha",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "hips",
+            "mouth": "smile",
+            "from": [
+              1300,
+              1760
+            ],
+            "moveDur": 1,
+            "moveAt": 0.2,
+            "sitAt": 1.4,
+            "poseAt": {
+              "at": 1.4,
+              "pose": "hold",
+              "mouth": "flat"
+            }
+          }
+        ],
+        "hold": 0.5,
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Do-do ki jodi mein aamne saamne baith jao.",
+            "say": "दो-दो की जोड़ी में आमने सामने बेठ जाओ।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 2",
+          "text": "Chit padho, saas ki awaaz"
+        },
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          },
+          {
+            "need": 1,
+            "box": [
+              300,
+              1120,
+              190,
+              140
+            ],
+            "at": 0.3,
+            "grab": {
+              "who": "Ishita",
+              "at": 0.6,
+              "pose": "wave"
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "hold",
+            "seated": true,
+            "mouth": "smirk",
+            "poseAt": {
+              "at": 0.55,
+              "pose": "wave",
+              "mouth": "smile"
+            }
+          },
+          {
+            "name": "Megha",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "hold",
+            "seated": true,
+            "mouth": "flat"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.6,
+            "name": "whoosh",
+            "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Ek lady chit saas ki awaaz mein padhti hai.",
+            "say": "एक लेडी चिट सास की आवाज़ में पढ़ती हे।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "STEP 3",
+          "text": "10 second, chehra seedha!"
+        },
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              450,
+              1060,
+              180,
+              140
+            ],
+            "at": 0.3,
+            "ring": {
+              "at": 0.7
+            }
+          },
+          {
+            "need": 1,
+            "box": [
+              300,
+              1120,
+              190,
+              140
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0,
+              "dur": 0.01,
+              "pose": "wave"
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "wave",
+            "seated": true,
+            "mouth": "smile"
+          },
+          {
+            "name": "Megha",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "hold",
+            "seated": true,
+            "mouth": "flat",
+            "eyes": "half"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.7,
+            "name": "pop",
+            "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Saamne wali ko das second seedha chehra rakhna hai.",
+            "say": "सामने वाली को दस सेकंड सीधा चेहरा रखना हे।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "dur": 2.6,
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              450,
+              1060,
+              180,
+              140
+            ]
+          },
+          {
+            "need": 1,
+            "box": [
+              300,
+              1120,
+              190,
+              140
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0,
+              "dur": 0.01,
+              "pose": "wave"
+            }
+          }
+        ],
+        "focus": {
+          "x": 780,
+          "y": 1250,
+          "z": 1.25,
+          "at": 0.2
+        },
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "wave",
+            "seated": true,
+            "mouth": "smile"
+          },
+          {
+            "name": "Megha",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "hold",
+            "seated": true,
+            "mouth": "flat",
+            "eyes": "half",
+            "poseAt": {
+              "at": 0.9,
+              "pose": "laughs",
+              "mouth": "laugh",
+              "eyes": "laugh"
+            }
+          }
+        ],
+        "pops": [
+          {
+            "text": "HASI! OUT",
+            "x": 780,
+            "y": 980,
+            "at": 1.1,
+            "color": "red"
+          }
+        ],
+        "stickers": [
+          {
+            "kind": "sweat",
+            "x": 930,
+            "y": 1080,
+            "at": 1.3
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.9,
+            "name": "boing",
+            "vol": 0.45
+          },
+          {
+            "at": 1.2,
+            "name": "haww",
+            "vol": 0.45
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chip": "MEGHA OUT",
+        "chipY": 600,
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          },
+          {
+            "need": 2,
+            "box": [
+              450,
+              1060,
+              180,
+              140
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "laughs",
+            "seated": true,
+            "mouth": "laugh",
+            "eyes": "laugh"
+          },
+          {
+            "name": "Megha",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "laughs",
+            "seated": true,
+            "mouth": "laugh",
+            "eyes": "laugh"
+          }
+        ],
+        "lines": [
+          {
+            "who": "Myra",
+            "text": "Halki si smile bhi nahi chalegi?",
+            "say": "हल्की सी स्माइल भी नहीं चलेगी?"
+          },
+          {
+            "who": "Shruti",
+            "text": "Nahi, jo pehle hasi ya boli, woh out.",
+            "say": "नहीं, जो पहले हँसी या बोली, वो आउट।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "TWIST",
+          "text": "Final: Mummy ji round"
+        },
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          },
+          {
+            "need": 3,
+            "box": [
+              430,
+              1180,
+              220,
+              160
+            ],
+            "at": 0.3,
+            "grab": {
+              "who": "Ishita",
+              "at": 0.6,
+              "pose": "wave"
+            }
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "hold",
+            "seated": true,
+            "mouth": "smirk",
+            "poseAt": {
+              "at": 0.55,
+              "pose": "wave",
+              "mouth": "smirk"
+            }
+          },
+          {
+            "name": "Aditi",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "relaxed",
+            "mouth": "flat",
+            "eyes": "half",
+            "from": [
+              1300,
+              1760
+            ],
+            "moveDur": 0.8,
+            "sitAt": 0.9,
+            "poseAt": {
+              "at": 0.9,
+              "pose": "hold",
+              "mouth": "flat",
+              "eyes": "half"
+            }
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.6,
+            "name": "whoosh",
+            "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Final mein saas dupatta odhti hai, jawab sirf ji mummy ji.",
+            "say": "फ़ाइनल में सास दुपट्टा ओढ़ती हे, जवाब सिर्फ़ जी मम्मी जी।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "dur": 2.6,
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          },
+          {
+            "need": 3,
+            "box": [
+              430,
+              1180,
+              220,
+              160
+            ],
+            "grab": {
+              "who": "Ishita",
+              "at": 0,
+              "dur": 0.01,
+              "pose": "wave"
+            }
+          }
+        ],
+        "focus": {
+          "x": 540,
+          "y": 1250,
+          "z": 1.2,
+          "at": 0.2
+        },
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "wave",
+            "seated": true,
+            "mouth": "laugh",
+            "poseAt": {
+              "at": 1.1,
+              "pose": "shrug",
+              "mouth": "o",
+              "eyes": "half"
+            }
+          },
+          {
+            "name": "Aditi",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "hold",
+            "seated": true,
+            "mouth": "flat",
+            "eyes": "half"
+          }
+        ],
+        "pops": [
+          {
+            "text": "Ji mummy ji.",
+            "x": 800,
+            "y": 980,
+            "at": 0.6,
+            "color": "green"
+          },
+          {
+            "text": "+1",
+            "x": 860,
+            "y": 1100,
+            "at": 1.2,
+            "color": "green"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.6,
+            "name": "pop",
+            "vol": 0.4
+          },
+          {
+            "at": 1.1,
+            "name": "waah",
+            "vol": 0.4
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "label": {
+          "kicker": "JEET",
+          "text": "Aakhri poker face jeeti"
+        },
+        "confetti": 0.3,
+        "chip": "ADITI: POKER FACE",
+        "chipY": 640,
+        "game": [
+          {
+            "need": 0,
+            "box": [
+              440,
+              1300,
+              200,
+              150
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "name": "Ishita",
+            "x": 250,
+            "y": 1760,
+            "s": 1.8,
+            "turn": 0.4,
+            "pose": "clapR",
+            "seated": true,
+            "mouth": "laugh",
+            "eyes": "laugh"
+          },
+          {
+            "name": "Aditi",
+            "x": 830,
+            "y": 1760,
+            "s": 1.8,
+            "turn": -0.4,
+            "pose": "cheer",
+            "seated": true,
+            "mouth": "smile",
+            "eyes": "open"
+          }
+        ],
+        "sfx": [
+          {
+            "at": 0.3,
+            "name": "clap",
+            "vol": 0.4
+          }
+        ],
+        "lines": [
+          {
+            "who": "Shruti",
+            "text": "Jo aakhri tak nahi hasi, wahi jeet gayi.",
+            "say": "जो आख़िरी तक नहीं हँसी, वही जीत गई।"
+          }
+        ]
+      },
+      {
+        "kit": "scene",
+        "set": "living",
+        "decor": true,
+        "chars": [
+          {
+            "name": "Myra",
+            "x": 290,
+            "y": 1760,
+            "s": 2.1,
+            "turn": 0.5,
+            "pose": "cheer",
+            "mouth": "laugh"
+          },
+          {
+            "name": "Shruti",
+            "x": 790,
+            "y": 1760,
+            "s": 2.1,
+            "turn": -0.5,
+            "pose": "laughs",
+            "mouth": "laugh"
+          }
+        ],
+        "hold": 1,
+        "lines": [
+          {
+            "who": "Myra",
+            "text": "Bahut mazedaar! Is Sunday ki kitty mein yahi khelenge.",
+            "say": "बहुत मज़ेदार! इस संडे की किटी में यही खेलेंगे।",
+            "beat": "button"
+          }
+        ]
+      }
+    ]
+  }
+}
